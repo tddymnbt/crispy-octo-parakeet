@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
 
 permissions:
-  contents: read
+  contents: write
 
 jobs:
   collect-candidates:
@@ -23,6 +23,9 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ github.token }}
         run: python scripts/fetch_candidates.py
+
+      - name: Save daily historical snapshot
+        run: python scripts/save_history.py
 
       - name: Display candidate summary
         run: |
@@ -48,6 +51,20 @@ jobs:
 
           print("======================================")
           PY
+
+      - name: Commit historical snapshot
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add data/history/
+
+          if git diff --cached --quiet; then
+            echo "No history changes to commit."
+          else
+            git commit -m "chore: save daily GitHub snapshot"
+            git push
+          fi
 
       - name: Upload candidates
         uses: actions/upload-artifact@v6
