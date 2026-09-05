@@ -57,48 +57,28 @@ jobs:
       - name: Capture Repository Screenshots
         run: python scripts/take_screenshots.py
 
-      - name: Verify Workflow Outputs
-        run: |
-          echo "======================================"
-          echo " VERIFYING ALL WORKFLOW OUTPUTS"
-          echo "======================================"
+      - name: Package Daily Archive
+        run: python scripts/package_archive.py
 
-          for file in output/top3.json output/research_details.json output/facebook_caption.txt; do
-            if [ ! -f "$file" ]; then
-              echo "ERROR: Missing $file"
-              exit 1
-            fi
-          done
-
-          if [ ! -d "output/screenshots" ] || [ -z "$(ls -A output/screenshots)" ]; then
-            echo "ERROR: Screenshots directory is empty or missing."
-            exit 1
-          fi
-
-          echo "All outputs & screenshots successfully verified."
-          echo "======================================"
-
-      - name: Commit research results & artifacts
+      - name: Commit text research & daily archive
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-          git add data/history/ output/
+          # Only commit text metadata to Git (no screenshots to prevent repo bloat)
+          git add data/history/ output/top3.json output/research_details.json output/facebook_caption.txt content/
 
           if git diff --cached --quiet; then
-            echo "No research changes to commit."
+            echo "No changes to commit."
           else
-            git commit -m "chore: save daily research, caption, and screenshots"
+            git commit -m "chore: save daily research, caption, and text archive"
             git push
           fi
 
-      - name: Upload research results & media
+      - name: Upload screenshots & outputs as temporary Artifact
         uses: actions/upload-artifact@v6
         with:
-          name: github-daily-research
+          name: github-daily-research-media
+          retention-days: 7
           path: |
-            output/candidates.json
-            output/top3.json
-            output/research_details.json
-            output/facebook_caption.txt
-            output/screenshots/
+            output/

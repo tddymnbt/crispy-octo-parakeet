@@ -6,7 +6,6 @@ from playwright.sync_api import sync_playwright
 TOP3_FILE = "output/top3.json"
 SCREENSHOT_DIR = "output/screenshots"
 
-
 def main():
     if not os.path.exists(TOP3_FILE):
         print(f"Error: {TOP3_FILE} not found. Run Phase 2B first.")
@@ -23,15 +22,14 @@ def main():
     os.makedirs(SCREENSHOT_DIR, exist_ok=True)
 
     print("======================================")
-    print(" PHASE 3: PLAYWRIGHT SCREENSHOTS")
+    print(" PHASE 3: PLAYWRIGHT SCREENSHOTS (RELIABLE README FOCUS)")
     print("======================================")
 
     with sync_playwright() as p:
-        # Launch headless Chromium with desktop viewport dimensions
         browser = p.chromium.launch(headless=True)
         context = browser.new_context(
-            viewport={"width": 1280, "height": 800},
-            color_scheme="dark",  # GitHub dark mode looks clean in social posts
+            viewport={"width": 1280, "height": 900},
+            color_scheme="dark",
         )
         page = context.new_page()
 
@@ -40,7 +38,6 @@ def main():
             repo_name = repo.get("name")
             url = f"https://github.com/{repo_name}"
 
-            # Sanitize filename (e.g., owner_repo.png)
             safe_name = repo_name.replace("/", "_")
             output_path = os.path.join(SCREENSHOT_DIR, f"{rank}_{safe_name}.png")
 
@@ -49,20 +46,34 @@ def main():
             try:
                 page.goto(url, wait_until="networkidle", timeout=30000)
 
-                # Dismiss cookie banners or popups if present
-                page.evaluate(
-                    """() => {
-                    const selectors = ['.js-cookie-consent-banner', 'header'];
+                # Remove sticky top bars to keep the image clean
+                page.evaluate("""() => {
+                    const selectors = ['.js-cookie-consent-banner', 'header', 'nav', '.AppHeader'];
                     selectors.forEach(s => {
                         const el = document.querySelector(s);
                         if (el) el.remove();
                     });
-                }"""
+                }""")
+
+                # Cascading selectors for README/Docs container
+                readme_element = (
+                    page.query_selector("#readme")
+                    or page.query_selector("article.markdown-body")
+                    or page.query_selector(".markdown-body")
+                    or page.query_selector("div[data-target='readme-toc.content']")
                 )
 
-                # Capture viewport-sized screenshot
-                page.screenshot(path=output_path, full_page=False)
-                print(f"  Saved screenshot: {output_path}")
+                if readme_element:
+                    readme_element.scroll_into_view_if_needed()
+                    page.wait_for_timeout(1000)
+                    readme_element.screenshot(path=output_path)
+                    print(f"  Captured README container element: {output_path}")
+                else:
+                    # Fallback: Scroll down 400px to bypass file header and capture page view
+                    page.evaluate("window.scrollBy(0, 400)")
+                    page.wait_for_timeout(1000)
+                    page.screenshot(path=output_path, full_page=False)
+                    print(f"  Fallback scrolled screenshot captured: {output_path}")
 
             except Exception as e:
                 print(f"  Failed to capture {repo_name}: {e}")
@@ -72,7 +83,6 @@ def main():
     print("======================================")
     print(f" Screenshots complete. Output directory: {SCREENSHOT_DIR}")
     print("======================================")
-
 
 if __name__ == "__main__":
     main()
