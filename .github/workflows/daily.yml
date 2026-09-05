@@ -17,7 +17,7 @@ jobs:
       - name: Setup Python
         uses: actions/setup-python@v6
         with:
-          python-version: '3.12'
+          python-version: "3.12"
 
       - name: Collect GitHub candidates
         env:
@@ -26,6 +26,11 @@ jobs:
 
       - name: Save daily historical snapshot
         run: python scripts/save_history.py
+
+      - name: Test AI connection
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: python scripts/test_ai.py
 
       - name: Display candidate summary
         run: |
