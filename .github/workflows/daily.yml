@@ -1,0 +1,18 @@
+name: GitHub Daily Research
+
+on:
+  workflow_dispatch:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Show environment
+        run: |
+          echo "GitHub Daily Agent is working!"
+          echo "Date: $(date -u)"
+          echo "Repository: $GITHUB_REPOSITORY"
