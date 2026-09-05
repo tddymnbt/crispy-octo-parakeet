@@ -24,10 +24,30 @@ jobs:
           GITHUB_TOKEN: ${{ github.token }}
         run: python scripts/fetch_candidates.py
 
-      - name: Display candidates
+      - name: Display candidate summary
         run: |
-          echo "===== GITHUB CANDIDATES ====="
-          cat output/candidates.json
+          python - <<'PY'
+          import json
+
+          with open("output/candidates.json", encoding="utf-8") as f:
+              data = json.load(f)
+
+          print("======================================")
+          print(" CANDIDATE SUMMARY")
+          print("======================================")
+          print(f"Total candidates: {data['candidate_count']}")
+          print()
+
+          for i, repo in enumerate(data["repositories"][:10], 1):
+              print(
+                  f"{i}. {repo['name']} "
+                  f"⭐ {repo['stars']}"
+              )
+              print(f"   {repo['url']}")
+              print()
+
+          print("======================================")
+          PY
 
       - name: Upload candidates
         uses: actions/upload-artifact@v6
