@@ -17,7 +17,7 @@ if not API_KEY:
 if not GITHUB_TOKEN:
     raise RuntimeError("GITHUB_TOKEN is not available")
 
-MODEL = "gemini-3.6-flash"
+MODEL = "gemini-3.5-flash-lite"
 
 
 def fetch_readme(repo_name):
