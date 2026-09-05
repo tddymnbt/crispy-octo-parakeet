@@ -19,6 +19,12 @@ jobs:
         with:
           python-version: "3.12"
 
+      - name: Install Dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install playwright
+          playwright install chromium --with-deps
+
       - name: Collect GitHub candidates
         env:
           GITHUB_TOKEN: ${{ github.token }}
@@ -48,49 +54,45 @@ jobs:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
         run: python scripts/generate_caption.py
 
-      - name: Verify AI research output
+      - name: Capture Repository Screenshots
+        run: python scripts/take_screenshots.py
+
+      - name: Verify Workflow Outputs
         run: |
           echo "======================================"
-          echo " VERIFYING RESEARCH OUTPUT"
+          echo " VERIFYING ALL WORKFLOW OUTPUTS"
           echo "======================================"
 
-          if [ ! -f output/top3.json ]; then
-            echo "ERROR: output/top3.json was not created."
+          for file in output/top3.json output/research_details.json output/facebook_caption.txt; do
+            if [ ! -f "$file" ]; then
+              echo "ERROR: Missing $file"
+              exit 1
+            fi
+          done
+
+          if [ ! -d "output/screenshots" ] || [ -z "$(ls -A output/screenshots)" ]; then
+            echo "ERROR: Screenshots directory is empty or missing."
             exit 1
           fi
 
-          if [ ! -f output/research_details.json ]; then
-            echo "ERROR: output/research_details.json was not created."
-            exit 1
-          fi
-
-          if [ ! -f output/facebook_caption.txt ]; then
-            echo "ERROR: output/facebook_caption.txt was not created."
-            exit 1
-          fi
-
-          echo "All research outputs & Facebook caption successfully created."
-          echo
-          cat output/facebook_caption.txt
-
-          echo
+          echo "All outputs & screenshots successfully verified."
           echo "======================================"
 
-      - name: Commit research results
+      - name: Commit research results & artifacts
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-          git add data/history/ output/top3.json output/research_details.json output/facebook_caption.txt
+          git add data/history/ output/
 
           if git diff --cached --quiet; then
             echo "No research changes to commit."
           else
-            git commit -m "chore: save daily GitHub research, analysis, and caption"
+            git commit -m "chore: save daily research, caption, and screenshots"
             git push
           fi
 
-      - name: Upload research results
+      - name: Upload research results & media
         uses: actions/upload-artifact@v6
         with:
           name: github-daily-research
@@ -99,3 +101,4 @@ jobs:
             output/top3.json
             output/research_details.json
             output/facebook_caption.txt
+            output/screenshots/
