@@ -37,6 +37,24 @@ jobs:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
         run: python scripts/rank_candidates.py
 
+      - name: Verify AI ranking output
+        run: |
+          echo "======================================"
+          echo " VERIFYING AI OUTPUT"
+          echo "======================================"
+
+          if [ ! -f output/top3.json ]; then
+            echo "ERROR: output/top3.json was not created."
+            exit 1
+          fi
+
+          echo "top3.json successfully created."
+          echo
+          cat output/top3.json
+
+          echo
+          echo "======================================"
+
       - name: Display candidate summary
         run: |
           python - <<'PY'
@@ -62,17 +80,17 @@ jobs:
           print("======================================")
           PY
 
-      - name: Commit historical snapshot
+      - name: Commit research results
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-          git add data/history/
+          git add data/history/ output/top3.json
 
           if git diff --cached --quiet; then
-            echo "No history changes to commit."
+            echo "No research changes to commit."
           else
-            git commit -m "chore: save daily GitHub snapshot"
+            git commit -m "chore: save daily GitHub research"
             git push
           fi
 
