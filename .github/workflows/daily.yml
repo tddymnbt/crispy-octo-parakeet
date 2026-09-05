@@ -37,10 +37,16 @@ jobs:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
         run: python scripts/rank_candidates.py
 
-      - name: Verify AI ranking output
+      - name: Analyze Top 3 repositories with AI
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          GITHUB_TOKEN: ${{ github.token }}
+        run: python scripts/analyze_top3.py
+
+      - name: Verify AI research output
         run: |
           echo "======================================"
-          echo " VERIFYING AI OUTPUT"
+          echo " VERIFYING RESEARCH OUTPUT"
           echo "======================================"
 
           if [ ! -f output/top3.json ]; then
@@ -48,49 +54,29 @@ jobs:
             exit 1
           fi
 
-          echo "top3.json successfully created."
+          if [ ! -f output/research_details.json ]; then
+            echo "ERROR: output/research_details.json was not created."
+            exit 1
+          fi
+
+          echo "Research outputs successfully created."
           echo
-          cat output/top3.json
+          cat output/research_details.json
 
           echo
           echo "======================================"
-
-      - name: Display candidate summary
-        run: |
-          python - <<'PY'
-          import json
-
-          with open("output/candidates.json", encoding="utf-8") as f:
-              data = json.load(f)
-
-          print("======================================")
-          print(" CANDIDATE SUMMARY")
-          print("======================================")
-          print(f"Total candidates: {data['candidate_count']}")
-          print()
-
-          for i, repo in enumerate(data["repositories"][:10], 1):
-              print(
-                  f"{i}. {repo['name']} "
-                  f"⭐ {repo['stars']}"
-              )
-              print(f"   {repo['url']}")
-              print()
-
-          print("======================================")
-          PY
 
       - name: Commit research results
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-          git add data/history/ output/top3.json
+          git add data/history/ output/top3.json output/research_details.json
 
           if git diff --cached --quiet; then
             echo "No research changes to commit."
           else
-            git commit -m "chore: save daily GitHub research"
+            git commit -m "chore: save daily GitHub research and analysis"
             git push
           fi
 
@@ -101,3 +87,4 @@ jobs:
           path: |
             output/candidates.json
             output/top3.json
+            output/research_details.json
