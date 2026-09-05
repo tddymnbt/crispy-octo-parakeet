@@ -3,16 +3,34 @@ name: GitHub Daily Research
 on:
   workflow_dispatch:
 
+permissions:
+  contents: read
+
 jobs:
-  test:
+  collect-candidates:
     runs-on: ubuntu-latest
 
     steps:
       - name: Checkout repository
         uses: actions/checkout@v6
 
-      - name: Show environment
+      - name: Setup Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: '3.12'
+
+      - name: Collect GitHub candidates
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: python scripts/fetch_candidates.py
+
+      - name: Display candidates
         run: |
-          echo "GitHub Daily Agent is working!"
-          echo "Date: $(date -u)"
-          echo "Repository: $GITHUB_REPOSITORY"
+          echo "===== GITHUB CANDIDATES ====="
+          cat output/candidates.json
+
+      - name: Upload candidates
+        uses: actions/upload-artifact@v6
+        with:
+          name: github-candidates
+          path: output/candidates.json
