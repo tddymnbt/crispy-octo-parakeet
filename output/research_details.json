@@ -3,85 +3,81 @@
   "repositories": [
     {
       "rank": 1,
-      "name": "shadcn-ui/cn",
-      "score": 96,
-      "reason": "A groundbreaking replacement engine for tailwind-merge and clsx that maintains complete API parity while delivering a 30x performance improvement.",
-      "why_interesting_today": "It solves a key runtime and build-time bottleneck in modern Tailwind CSS applications by completely reinventing class merging and conflict resolution.",
-      "why_developers_should_care": "Most modern React and Tailwind projects rely on the classic clsx plus tailwind-merge combo; swapping in this drop-in replacement delivers an immediate speed boost with zero code refactoring.",
-      "momentum": "Extremely high initial launch momentum, accumulating over 1,100 stars within days of release.",
-      "novelty": "High technical novelty in algorithmic class parsing and conflict resolution optimization for utility-first CSS engines.",
+      "name": "2akouwu/reverify",
+      "score": 94,
+      "reason": "Tackles the core bottleneck of autonomous coding agents—hallucinations—by coupling MCP servers with deterministic, ground-truth tool validation.",
+      "why_interesting_today": "As AI coding agents take on increasingly complex refactoring, binary analysis, and reverse-engineering tasks, verification frameworks are quickly becoming essential infrastructure.",
+      "why_developers_should_care": "It allows you to bind your LLM agents to deterministic verification pipelines, drastically reducing false assumptions and regressions during autonomous workflows.",
+      "momentum": "Strong early traction for a recently launched security and grounding tool.",
+      "novelty": "Bridges the gap between heuristic LLM code generation and strict binary/ground-truth validation via MCP.",
       "deep_analysis": {
-        "name": "shadcn-ui/cn",
-        "headline_hook": "Drop `clsx` and `tailwind-merge` for `shadcn-ui/cn`—a drop-in replacement delivering up to 30x faster Tailwind class merging with complete API parity.",
-        "core_functionality": "Replaces `tailwind-merge` and `clsx` with a zero-dependency, ultra-fast engine that handles conditional string joining and Tailwind class conflict resolution in a single pass without runtime bottlenecks.",
+        "name": "2akouwu/reverify",
+        "headline_hook": "Stop your AI coding agent from hallucinating by forcing it to run every structural or behavioral claim against a deterministic, ground-truth execution and parsing engine.",
+        "core_functionality": "Reverify tackles the pervasive issue of AI hallucinations—especially notorious in complex domains like reverse engineering, binary analysis, and deep refactoring—by placing a deterministic tool in the loop as the absolute judge. Instead of blindly trusting a language model's output (such as fabricated structs, offsets, or APIs), Reverify evaluates model proposals against actual artifacts (binaries, code, logic) and returns a strict VERIFIED or REFUTED status backed by empirical evidence.",
         "key_features": [
-          "30x to 37x faster performance via argument-identity caching (`cnfast` technique) that eliminates repeated merge operations.",
-          "100% drop-in API parity with `clsx` and `tailwind-merge`, allowing instant migration via `npx shadcn@latest migrate cn` without refactoring components.",
-          "Zero-dependency, framework-agnostic runtime that works seamlessly in browsers, Node, Bun, Deno, and Edge runtimes.",
-          "First-class support for Tailwind CSS v4, custom theme extensions (`cn/config`), and build-time static optimization (`cn/engine`)."
+          "Deterministic Core & Multi-Engine Backends: Operates out-of-the-box as a pure-Python core for PE/ELF/Mach-O parsing and disassembly, while dynamically scaling up to robust engines like Capstone, Unicorn, Lief, Z3, and angr when optional packages are installed.",
+          "Comprehensive Claim Verification Loop: Validates a broad spectrum of claims—ranging from typed memory reads and pattern matching to instruction mnemonics, CPU emulation results, and behavioral equivalence—failing fast if any check is refuted.",
+          "Information Weighting & Grounding: Moves beyond simple binary success by scoring claims based on entropy and occurrence frequency (via CORE/FActScore refinement), ensuring that only high-information, non-trivial discoveries are accepted as true.",
+          "Agent-Native MCP Server Integration: Ships with Model Context Protocol (MCP) server support, integrating seamlessly into modern coding agents like Claude Code, Cursor, and Gemini CLI, alongside a CLI for CI/CD pipelines."
         ],
-        "target_audience": "Frontend developers, design system authors, and full-stack engineers using Tailwind CSS in React, Vue, Svelte, Solid, or Astro projects.",
-        "practical_developer_value": "Drastically reduces CPU overhead and re-render latencies during client-side state changes and server-side rendering (SSR). It drops class resolution times from microseconds to nanoseconds while maintaining complete compatibility with existing UI component libraries like `shadcn/ui`.",
+        "target_audience": "AI Engineers, Security Researchers, Reverse Engineers, and Backend Developers building or deploying autonomous coding agents for high-stakes environments.",
+        "practical_developer_value": "As developers increasingly rely on AI agents for complex refactoring, binary analysis, and legacy migrations, unverified hallucinations can introduce subtle, catastrophic bugs or security vulnerabilities. Reverify provides a drop-in verification gate and MCP server that integrates directly into existing agent workflows. It ensures that code modifications, rewrites, and structural claims are algorithmically tested against ground truth before being accepted, preventing context rot and blind model trust.",
         "suggested_use_cases": [
-          "Replacing `clsx` and `tailwind-merge` in large-scale Next.js, React, or Vue codebases to reduce JS bundle size and render times.",
-          "Optimizing high-frequency re-rendering components like data tables, interactive lists, and complex UI component libraries where conditional Tailwind class evaluation is a bottleneck."
+          "Automating secure reverse engineering and CTF challenge solving with AI agents by gating every hypothesis through binary disassembly and CPU emulation checks.",
+          "Enforcing rigorous CI/CD test gates for AI-driven code refactoring and migrations by programmatically verifying behavioral equivalence between legacy references and candidate rewrites."
         ]
       }
     },
     {
       "rank": 2,
-      "name": "lnkiai/m3e-canvas",
-      "score": 94,
-      "reason": "An interactive browser canvas that lets developers visually sketch Material 3 Expressive UI layouts and convert them directly into structured vibe-coding prompts.",
-      "why_interesting_today": "It bridges the gap between visual design tools and AI prompt engineering, catering directly to the emerging paradigm of vibe-coding.",
-      "why_developers_should_care": "Significantly accelerates frontend prototyping by turning visual UI mockups into high-fidelity context prompts optimized for LLM coding assistants.",
-      "momentum": "Viral adoption with over 3,400 stars accumulated in just three days since launch.",
-      "novelty": "Highly novel workflow combining Material 3 Expressive canvas elements with automated prompt generation for AI code generators.",
+      "name": "shadcn-ui/cn",
+      "score": 92,
+      "reason": "A high-performance rewrite of standard Tailwind class merging utilities (clsx and tailwind-merge) boasting extreme speed improvements.",
+      "why_interesting_today": "Tailwind utility merging is a core operation across millions of modern React and Next.js applications, making a drop-in replacement with massive performance gains instantly noteworthy.",
+      "why_developers_should_care": "Provides full API parity with existing tooling while delivering dramatic speedups for large-scale component libraries and applications.",
+      "momentum": "Rapid adoption and intense developer curiosity following its recent debut under the popular shadcn umbrella.",
+      "novelty": "Re-architecting a foundational frontend utility layer to achieve native-speed class conflict resolution.",
       "deep_analysis": {
-        "name": "lnkiai/m3e-canvas",
-        "headline_hook": "Sketch Material 3 Expressive app layouts visually in your browser and instantly convert them into structured, high-context prompts for AI coding tools like Claude Code and Cursor.",
-        "core_functionality": "M3E Canvas bridges visual UI design and AI-assisted software development ('vibe-coding'). It replaces imprecise, manual text descriptions of UI layouts with an interactive browser canvas that exports precise, structured natural-language prompts specifying component layouts, responsive adaptations, M3 themes, and screen transition flows.",
+        "name": "shadcn-ui/cn",
+        "headline_hook": "Drop-in replacement for clsx and tailwind-merge built by shadcn and aidenybai that is up to 37x faster on real-world repositories.",
+        "core_functionality": "The project provides a high-performance, drop-in rewrite of standard Tailwind class merging utilities (`clsx` and `tailwind-merge`). It resolves class conflicts and conditionally joins class strings while maintaining full API parity with existing tools, but with drastically faster execution times.",
         "key_features": [
-          "Visual M3 Expressive Canvas with Smart Components: Drag-and-drop Material 3 components featuring magnetic group fusion, corner softening, real M3 motion/loading indicators, and flexible layout scaling.",
-          "Responsive Dual-View Screens: Switch individual screens between mobile (412x892) and desktop (1280x800) formats, automatically adapting components (e.g., converting navigation bars to rails) while generating dual-width prompt instructions.",
-          "Interactive Flow Prototyping: Link elements to target screens using tap and swipe gestures with customizable transitions (slide, fade, expand) that are preserved in the prompt brief.",
-          "AI Agent Integration (agent.md): Enables AI coding assistants (like Claude Code or Codex) to programmatically read design specifications, render UI layouts, and generate interactive canvas share links."
+          "Extreme performance: Up to 30x faster on typical component calls and 37x faster across real-world repository corpuses, utilizing an argument-identity caching mechanism for repeated variadic calls.",
+          "Drop-in compatibility: Fully compatible with existing tailwind-merge and clsx configurations, supporting custom themes, extensions, and Tailwind v4 configurations out of the box.",
+          "Zero dependencies & framework-agnostic: Works across any Tailwind CSS project with React, Vue, Svelte, Solid, Astro, or plain server templates in browsers, Node, Bun, Deno, and edge runtimes."
         ],
-        "target_audience": "Frontend developers, mobile app developers (Android/Web), design-minded software engineers, and prompt engineers utilizing vibe-coding workflows with AI tools like Claude Code, Cursor, Codex, or Gemini CLI.",
-        "practical_developer_value": "It eliminates trial-and-error when asking LLMs to build complex UI layouts. By visually configuring component hierarchies, z-index layers, themes, and navigation flows, developers can generate exact context briefs for AI tools, significantly improving the accuracy and visual polish of AI-generated frontend code.",
+        "target_audience": "Frontend developers, UI/UX engineers, and full-stack developers building high-performance web applications using Tailwind CSS and component libraries like shadcn/ui.",
+        "practical_developer_value": "Developers can instantly drop `cn` into existing Next.js or React codebases via a simple CLI migration command to remove UI rendering bottlenecks during heavy render loops and component re-renders, all without changing existing code patterns.",
         "suggested_use_cases": [
-          "Rapidly sketching and prototyping multi-screen mobile or web applications to generate production-ready initial prompts for AI coding agents.",
-          "Standardizing design system parameters (Material 3 color schemes, typography, shape corner radius) before triggering full-stack code generation.",
-          "Allowing autonomous coding agents to construct visual UI drafts and share interactive canvas previews back with the user."
+          "Optimizing large-scale design systems and component libraries (like shadcn/ui) that suffer from class-merging overhead during frequent re-renders.",
+          "Accelerating server-side rendering (SSR) and initial page loads in massive enterprise web applications with thousands of conditional class evaluations."
         ]
       }
     },
     {
       "rank": 3,
-      "name": "2akouwu/reverify",
-      "score": 91,
-      "reason": "An anti-hallucination verification engine and MCP server that grounds AI agent proposals against deterministic tools and verifiable evidence.",
-      "why_interesting_today": "Addresses one of the biggest bottlenecks in autonomous software engineering—preventing AI models from inventing false facts during complex reasoning tasks.",
-      "why_developers_should_care": "Gives developers a plug-and-play Model Context Protocol (MCP) server to ensure LLM agents cross-verify claims against real test runs, static tools, and ground-truth evidence.",
-      "momentum": "Strong developer interest, surging to over 900 stars in under five days.",
-      "novelty": "Innovative hybrid approach combining deterministic verification tools with agentic context engineering to eliminate hallucinations.",
+      "name": "Human-Agent-Society/reef",
+      "score": 90,
+      "reason": "Provides specialized continual learning infrastructure designed specifically to enable self-improving AI agents.",
+      "why_interesting_today": "The industry is shifting from static prompt-response agents to autonomous systems that must learn continuously from their execution environments.",
+      "why_developers_should_care": "Offers foundational infra to move beyond standard RAG and fine-tuning, allowing agents to iteratively adapt and improve from past interactions.",
+      "momentum": "Gaining steady momentum among AI researchers and systems engineers building the next generation of feedback-driven agents.",
+      "novelty": "Focuses explicitly on runtime continual learning loops rather than one-off training checkpoints.",
       "deep_analysis": {
-        "name": "2akouwu/reverify",
-        "headline_hook": "Stop AI agents from inventing false facts: Reverify forces LLMs to prove every structural and code claim against deterministic tools before treating it as ground truth.",
-        "core_functionality": "Reverify eliminates AI hallucinations in complex software engineering and binary reverse engineering by acting as a deterministic judge. Instead of trusting an LLM's confident assertions about binary offsets, instructions, or code execution, Reverify forces the model to propose claims that are then rigorously tested against ground truth using pure-Python and native disassembly, emulation, and execution tools.",
+        "name": "Human-Agent-Society/reef",
+        "headline_hook": "Reef is the first open-source continual learning infrastructure bridging the gap between agent inference, dynamic feedback loops, and automated weight or harness versioning.",
+        "core_functionality": "Reef solves the problem of static, non-updating AI agents by providing an end-to-end continual learning infrastructure. It bridges the gap between live inference serving, runtime interaction recording, feedback ingestion, automated model weight training (or harness/skill optimization), and version-controlled delivery without requiring system restarts.",
         "key_features": [
-          "Deterministic Claims Verification: Evaluates structured LLM hypotheses (e.g., instructions, typed byte reads, CPU emulation results, code equivalence) against real binaries and code execution to produce VERIFIED/REFUTED verdicts with full evidence receipts.",
-          "Agent-Native & MCP Support: Ships as a Model Context Protocol (MCP) server for direct tool-calling by AI agents (Claude Code, Cursor, etc.), alongside a CLI for automation pipelines.",
-          "Layered Reverse Engineering Stack: Features a zero-dependency pure-Python engine out-of-the-box (PE/ELF/Mach-O parsing, disasm, emulation) with optional drop-in upgrades to Capstone, Unicorn, LIEF, Z3, and angr.",
-          "Information Entropy Weighting: Uses CORE refinement metrics to score verified claims based on information content and file frequency, ensuring models cannot pass verification using trivial or repetitive assertions.",
-          "Context Rot Prevention: Offers a `rollover` command that offloads agent session memory to a structured file and starts a fresh context window to prevent drift during prolonged autonomous tasks."
+          "Dual-Surface Learning: Supports updating both underlying model weights (via Slime, SGLang, etc.) and agent harnesses (prompts, rules, and skills) depending on workload requirements.",
+          "OpenAI- and Anthropic-Compatible Serving: Provides native `/v1/chat/completions` and `/v1/messages` endpoints alongside a robust `/reef/report` feedback mechanism tied to interaction receipts.",
+          "Automated 4-Step Learning Loop: Seamlessly handles serving requests (Serve), matching feedback/evaluations (Observe), producing iterative updates from eligible data (Grow), and validating/publishing via evaluation policies (Commit).",
+          "Zero-Downtime Artifact Synchronization: Automatically hot-swaps updated weights or optimized harness packages to the live serving runtime so agents stay live through updates."
         ],
-        "target_audience": "Reverse engineers, security researchers, AI agent developers, and systems software engineers building autonomous AI workflows where absolute factual accuracy is mandatory.",
-        "practical_developer_value": "Prevents AI models from silently failing or hallucinating during high-stakes tasks like reverse engineering, refactoring, or vulnerability research. Developers can integrate Reverify into CI/CD workflows or agent setups to guarantee that any AI-generated structural claim or code refactor is tested against actual execution results before being accepted.",
+        "target_audience": "AI Engineers, LLM Platform Developers, and Machine Learning Researchers building autonomous agent systems that must continuously learn from production environments.",
+        "practical_developer_value": "Developers building production AI agents no longer have to manually stitch together separate inference engines, offline training pipelines, and deployment scripts. Reef acts as a drop-in infrastructure layer that lets agents learn directly from user interactions, test suites, or execution environments, automatically promoting improved model weights or code harnesses into production seamlessly.",
         "suggested_use_cases": [
-          "Autonomous Binary Analysis & Malware RE: Grounding LLM reverse-engineering proposals against real executable bytes and emulated register states.",
-          "Code Refactoring Safety Gates: Using `reverify equiv` to run reference and AI-rewritten source code over shared inputs to catch edge-case functional regressions.",
-          "CI/CD Verification for Agent Outputs: Gating automated pull requests or agent-generated reports on verified claim batches before merging or summarizing."
+          "Continuously fine-tuning foundational model weights using Reinforcement Learning (RL) or Test-Time Training (TTT) based on automated test suite verifiers or reward models.",
+          "Self-improving coding or assistant agents that iteratively optimize their own prompts, rules, and skills after encountering failed tasks or negative user feedback."
         ]
       }
     }
