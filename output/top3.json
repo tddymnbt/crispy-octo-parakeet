@@ -1,0 +1,34 @@
+{
+  "top_repositories": [
+    {
+      "rank": 1,
+      "name": "shadcn-ui/cn",
+      "score": 96,
+      "reason": "Provides a high-performance drop-in engine replacing tailwind-merge and clsx with complete API parity and a reported 30x speed improvement.",
+      "why_interesting_today": "Web developers heavily rely on clsx and tailwind-merge; a drop-in replacement delivering drastic performance improvements addresses a massive friction point across React and Next.js applications.",
+      "why_developers_should_care": "It requires zero API refactoring while noticeably boosting runtime build and rendering performance for applications built with Tailwind CSS.",
+      "momentum": "Surged past 1,100 stars within days of launch, driven by intense interest across the frontend engineering ecosystem.",
+      "novelty": "Re-engineers fundamental CSS utility string merging from the ground up to achieve radical performance gains without altering developer habits."
+    },
+    {
+      "rank": 2,
+      "name": "2akouwu/reverify",
+      "score": 93,
+      "reason": "Introduces a deterministic verification framework and MCP server designed to eliminate AI hallucinations by testing agent proposals against ground truth.",
+      "why_interesting_today": "As AI agent frameworks proliferate, agent hallucination remains a critical barrier for production safety. Reverify directly tackles this by combining reverse engineering methodologies with MCP tool checks.",
+      "why_developers_should_care": "Allows developers building autonomous AI workflows to integrate evidence-based fact verification into their agent harnesses before code or decisions execute.",
+      "momentum": "Gained nearly 1,000 stars in under a week with active daily commits and community testing.",
+      "novelty": "Combines binary reverse-engineering paradigms with Model Context Protocol (MCP) servers to enforce hard truth boundaries on LLM reasoning."
+    },
+    {
+      "rank": 3,
+      "name": "lnkiai/m3e-canvas",
+      "score": 90,
+      "reason": "Bridges visual design and generative AI coding by converting Material 3 Expressive browser sketches into structured prompt assets.",
+      "why_interesting_today": "It capitalizes on the rapidly growing 'vibe-coding' movement, giving developers a fast visual playground that exports context-aware AI prompts for frontend UI generation.",
+      "why_developers_should_care": "Streamlines the transition from design wireframes to LLM code generation, reducing manual layout prompt writing for modern web components.",
+      "momentum": "Exploded to over 3,400 stars within three days of creation, signaling immense practical interest in AI-assisted frontend workflows.",
+      "novelty": "Integrates Google's Material 3 Expressive design design system directly with prompt engineering pipelines for web developers."
+    }
+  ]
+}
