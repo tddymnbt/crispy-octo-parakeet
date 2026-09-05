@@ -1,6 +1,6 @@
 {
   "snapshot_date": "2026-09-05",
-  "generated_at": "2026-09-05T16:28:56.892514+00:00",
+  "generated_at": "2026-09-05T16:32:37.346493+00:00",
   "candidate_count": 40,
   "repositories": [
     {
@@ -21,7 +21,7 @@
       "language": "TypeScript",
       "created_at": "2025-11-24T10:16:47Z",
       "updated_at": "2026-09-05T16:28:55Z",
-      "pushed_at": "2026-09-05T16:28:19Z"
+      "pushed_at": "2026-09-05T16:31:33Z"
     },
     {
       "name": "nilbuild/developer-roadmap",
@@ -46,31 +46,31 @@
     {
       "name": "obra/superpowers",
       "url": "https://github.com/obra/superpowers",
-      "stars": 281997,
+      "stars": 281998,
       "forks": 25259,
       "language": "Shell",
       "created_at": "2025-10-09T19:45:18Z",
-      "updated_at": "2026-09-05T16:27:24Z",
+      "updated_at": "2026-09-05T16:31:28Z",
       "pushed_at": "2026-09-04T23:04:36Z"
     },
     {
       "name": "mattpocock/skills",
       "url": "https://github.com/mattpocock/skills",
-      "stars": 251926,
-      "forks": 21278,
+      "stars": 251937,
+      "forks": 21279,
       "language": "Shell",
       "created_at": "2026-02-03T11:15:53Z",
-      "updated_at": "2026-09-05T16:27:24Z",
+      "updated_at": "2026-09-05T16:32:29Z",
       "pushed_at": "2026-09-04T08:45:43Z"
     },
     {
       "name": "affaan-m/ECC",
       "url": "https://github.com/affaan-m/ECC",
-      "stars": 249411,
+      "stars": 249416,
       "forks": 37571,
       "language": "JavaScript",
       "created_at": "2026-01-18T00:51:51Z",
-      "updated_at": "2026-09-05T16:28:07Z",
+      "updated_at": "2026-09-05T16:30:59Z",
       "pushed_at": "2026-09-04T19:02:58Z"
     },
     {
@@ -86,21 +86,21 @@
     {
       "name": "torvalds/linux",
       "url": "https://github.com/torvalds/linux",
-      "stars": 246703,
+      "stars": 246704,
       "forks": 64327,
       "language": "C",
       "created_at": "2011-09-04T22:48:12Z",
-      "updated_at": "2026-09-05T16:16:04Z",
+      "updated_at": "2026-09-05T16:32:16Z",
       "pushed_at": "2026-09-05T02:58:23Z"
     },
     {
       "name": "NousResearch/hermes-agent",
       "url": "https://github.com/NousResearch/hermes-agent",
-      "stars": 241853,
+      "stars": 241855,
       "forks": 49664,
       "language": "Python",
       "created_at": "2025-07-22T22:22:28Z",
-      "updated_at": "2026-09-05T16:28:39Z",
+      "updated_at": "2026-09-05T16:31:12Z",
       "pushed_at": "2026-09-05T16:13:15Z"
     },
     {
@@ -116,31 +116,31 @@
     {
       "name": "deepseek-ai/deepseek-harness",
       "url": "https://github.com/deepseek-ai/deepseek-harness",
-      "stars": 212983,
+      "stars": 212986,
       "forks": 25019,
       "language": "TypeScript",
       "created_at": "2026-08-13T11:56:32Z",
-      "updated_at": "2026-09-05T16:26:28Z",
+      "updated_at": "2026-09-05T16:31:59Z",
       "pushed_at": "2026-09-04T11:34:31Z"
     },
     {
       "name": "anomalyco/opencode",
       "url": "https://github.com/anomalyco/opencode",
-      "stars": 204520,
-      "forks": 26686,
+      "stars": 204521,
+      "forks": 26687,
       "language": "TypeScript",
       "created_at": "2025-04-30T20:08:00Z",
-      "updated_at": "2026-09-05T16:27:50Z",
+      "updated_at": "2026-09-05T16:31:56Z",
       "pushed_at": "2026-09-05T15:50:14Z"
     },
     {
       "name": "n8n-io/n8n",
       "url": "https://github.com/n8n-io/n8n",
-      "stars": 203438,
+      "stars": 203437,
       "forks": 60564,
       "language": "TypeScript",
       "created_at": "2019-06-22T09:24:21Z",
-      "updated_at": "2026-09-05T16:28:00Z",
+      "updated_at": "2026-09-05T16:29:05Z",
       "pushed_at": "2026-09-05T14:30:46Z"
     },
     {
@@ -190,27 +190,27 @@
       "forks": 13544,
       "language": "Go",
       "created_at": "2014-07-06T13:42:15Z",
-      "updated_at": "2026-09-05T16:27:03Z",
+      "updated_at": "2026-09-05T16:32:12Z",
       "pushed_at": "2026-09-05T14:21:12Z"
     },
     {
       "name": "ollama/ollama",
       "url": "https://github.com/ollama/ollama",
-      "stars": 180222,
-      "forks": 17709,
+      "stars": 180223,
+      "forks": 17710,
       "language": "Go",
       "created_at": "2023-06-26T19:39:32Z",
-      "updated_at": "2026-09-05T16:24:06Z",
+      "updated_at": "2026-09-05T16:29:32Z",
       "pushed_at": "2026-09-05T00:52:34Z"
     },
     {
       "name": "lnkiai/m3e-canvas",
       "url": "https://github.com/lnkiai/m3e-canvas",
-      "stars": 3400,
-      "forks": 273,
+      "stars": 3405,
+      "forks": 274,
       "language": "TypeScript",
       "created_at": "2026-09-02T04:36:34Z",
-      "updated_at": "2026-09-05T16:26:05Z",
+      "updated_at": "2026-09-05T16:32:30Z",
       "pushed_at": "2026-09-05T16:15:32Z"
     },
     {
@@ -226,11 +226,11 @@
     {
       "name": "rakanki911/DLSS5-Swapper",
       "url": "https://github.com/rakanki911/DLSS5-Swapper",
-      "stars": 1754,
-      "forks": 85,
+      "stars": 1757,
+      "forks": 86,
       "language": "JavaScript",
       "created_at": "2026-08-29T23:51:32Z",
-      "updated_at": "2026-09-05T16:28:54Z",
+      "updated_at": "2026-09-05T16:29:58Z",
       "pushed_at": "2026-09-04T15:31:26Z"
     },
     {
@@ -276,11 +276,11 @@
     {
       "name": "jlrouzies-fr/DLSS5-Feeder",
       "url": "https://github.com/jlrouzies-fr/DLSS5-Feeder",
-      "stars": 741,
+      "stars": 742,
       "forks": 33,
       "language": "C++",
       "created_at": "2026-08-29T19:52:37Z",
-      "updated_at": "2026-09-05T16:08:24Z",
+      "updated_at": "2026-09-05T16:29:38Z",
       "pushed_at": "2026-09-05T16:21:19Z"
     },
     {
@@ -396,11 +396,11 @@
     {
       "name": "ahujasid/camera-to-blender",
       "url": "https://github.com/ahujasid/camera-to-blender",
-      "stars": 425,
+      "stars": 426,
       "forks": 44,
       "language": "JavaScript",
       "created_at": "2026-09-03T10:34:30Z",
-      "updated_at": "2026-09-05T16:15:39Z",
+      "updated_at": "2026-09-05T16:31:01Z",
       "pushed_at": "2026-09-05T15:20:13Z"
     }
   ]
