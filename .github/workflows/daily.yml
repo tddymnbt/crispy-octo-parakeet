@@ -32,6 +32,11 @@ jobs:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
         run: python scripts/test_ai.py
 
+      - name: Rank GitHub candidates with AI
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: python scripts/rank_candidates.py
+
       - name: Display candidate summary
         run: |
           python - <<'PY'
@@ -71,8 +76,10 @@ jobs:
             git push
           fi
 
-      - name: Upload candidates
+      - name: Upload research results
         uses: actions/upload-artifact@v6
         with:
-          name: github-candidates
-          path: output/candidates.json
+          name: github-daily-research
+          path: |
+            output/candidates.json
+            output/top3.json
