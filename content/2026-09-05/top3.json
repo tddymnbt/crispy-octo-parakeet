@@ -2,33 +2,33 @@
   "top_repositories": [
     {
       "rank": 1,
-      "name": "2akouwu/reverify",
-      "score": 93,
-      "reason": "Addresses the critical developer pain point of LLM hallucinations by introducing deterministic tool-based verification, ground-truth evidence checking, and MCP server integration for agentic workflows.",
-      "why_interesting_today": "As AI coding agents and automated reverse engineering tools become standard, robust anti-hallucination guardrails and context-preserving fact-checkers are seeing massive interest.",
-      "why_developers_should_care": "It prevents AI agents from fabricating facts or logic during complex coding, binary analysis, and security workflows by forcing deterministic verification loops.",
-      "momentum": "Strong early traction for a freshly created repository, capturing significant attention among developers building advanced MCP pipelines.",
-      "novelty": "Bridges the gap between probabilistic generative outputs and deterministic ground-truth verification using an MCP-first server architecture."
+      "name": "Human-Agent-Society/reef",
+      "score": 94,
+      "reason": "Addresses the critical bottleneck of continual learning and self-improvement in AI agents, moving beyond static prompt-response workflows.",
+      "why_interesting_today": "As developer teams widely adopt coding and workflow agents, the need for these agents to learn from execution feedback without requiring full model retraining is paramount.",
+      "why_developers_should_care": "Provides foundational infrastructure for building self-improving agents, significantly reducing long-term maintenance and fine-tuning overhead.",
+      "momentum": "Strong early traction for a specialized AI infrastructure repository created just days ago.",
+      "novelty": "High; focuses on agentic continual learning infrastructure rather than yet another wrapper or basic prompt harness."
     },
     {
       "rank": 2,
-      "name": "shadcn-ui/cn",
-      "score": 90,
-      "reason": "A high-performance rewrite of the ubiquitous `tailwind-merge` and `clsx` utilities, engineered to provide complete API parity while being dramatically faster.",
-      "why_interesting_today": "Tailwind class management is core to modern frontend development, and a 30x faster drop-in replacement directly impacts build and runtime performance across thousands of web projects.",
-      "why_developers_should_care": "Developers can swap out existing class merging logic with zero migration friction to instantly accelerate class conflict resolution in UI components.",
-      "momentum": "Rapid viral growth within the TypeScript and React frontend ecosystems shortly after release.",
-      "novelty": "Re-architecting an established, widely-used utility engine to achieve massive performance gains without breaking existing component API contracts."
+      "name": "2akouwu/reverify",
+      "score": 91,
+      "reason": "Tackles LLM hallucination head-on by coupling AI proposals with deterministic tool verification and persistent ground-truth evidence.",
+      "why_interesting_today": "Hallucinations remain the single biggest barrier to trusting AI agents with autonomous, complex tasks like binary analysis and reverse engineering.",
+      "why_developers_should_care": "Combines an MCP server with a CLI to enforce strict fact-checking against ground truth, making AI-assisted coding and security analysis vastly more reliable.",
+      "momentum": "Rapidly gaining visibility and stars shortly after release as developers look for anti-hallucination tools.",
+      "novelty": "Brings rigorous, deterministic grounding checks directly into the Model Context Protocol (MCP) ecosystem."
     },
     {
       "rank": 3,
-      "name": "Human-Agent-Society/reef",
+      "name": "lnkiai/m3e-canvas",
       "score": 88,
-      "reason": "Provides dedicated continual learning and self-improvement infrastructure specifically tailored for autonomous LLM agents.",
-      "why_interesting_today": "The developer zeitgeist is shifting from simple prompt-response wrappers to self-improving agents that learn from execution feedback over time.",
-      "why_developers_should_care": "It offers foundational building blocks for creating AI agents that continuously refine their behavior, bridging reinforcement learning and practical agent architecture.",
-      "momentum": "Strong momentum in the specialized AI-agent infrastructure niche, drawing high fork-to-star ratios from engineers experimenting with agent loops.",
-      "novelty": "Focuses explicitly on runtime continual learning infrastructure rather than static fine-tuning datasets or prompt frameworks."
+      "reason": "Bridges the gap between modern UI design systems (Material 3 Expressive) and AI prompt engineering ('vibe-coding').",
+      "why_interesting_today": "Aesthetics and rapid prototyping are crucial for developers building modern AI frontends who want structured design tokens rather than generic output.",
+      "why_developers_should_care": "Allows developers to visually sketch Material 3 screens in the browser and instantly translate them into precise, high-context AI prompts.",
+      "momentum": "Solid initial growth since its September 2026 launch, capturing the imagination of frontend engineers embracing AI-assisted workflows.",
+      "novelty": "Creatively combines browser-based design prototyping with targeted prompt generation for design systems."
     }
   ]
 }

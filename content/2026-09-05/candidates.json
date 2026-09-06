@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-05T18:00:31.088657+00:00",
+  "generated_at": "2026-09-05T18:07:51.252671+00:00",
   "collection_window": {
     "recent_activity_since": "2026-09-03",
     "recently_created_since": "2026-08-29"
@@ -59,16 +59,16 @@
         "personal"
       ],
       "created_at": "2025-11-24T10:16:47Z",
-      "updated_at": "2026-09-05T17:58:50Z",
-      "pushed_at": "2026-09-05T18:00:04Z",
-      "open_issues": 6253,
+      "updated_at": "2026-09-05T18:05:38Z",
+      "pushed_at": "2026-09-05T18:05:17Z",
+      "open_issues": 6252,
       "license": "NOASSERTION"
     },
     {
       "name": "nilbuild/developer-roadmap",
       "url": "https://github.com/nilbuild/developer-roadmap",
       "description": "Interactive roadmaps, guides and other educational content to help developers grow in their careers.",
-      "stars": 366359,
+      "stars": 366360,
       "forks": 44900,
       "language": "TypeScript",
       "topics": [
@@ -92,7 +92,7 @@
         "vue-roadmap"
       ],
       "created_at": "2017-03-15T13:45:52Z",
-      "updated_at": "2026-09-05T17:55:36Z",
+      "updated_at": "2026-09-05T18:05:48Z",
       "pushed_at": "2026-09-04T08:17:37Z",
       "open_issues": 6,
       "license": "NOASSERTION"
@@ -101,7 +101,7 @@
       "name": "awesome-selfhosted/awesome-selfhosted",
       "url": "https://github.com/awesome-selfhosted/awesome-selfhosted",
       "description": "A list of Free Software network services and web applications which can be hosted on your own servers",
-      "stars": 317314,
+      "stars": 317315,
       "forks": 14927,
       "language": null,
       "topics": [
@@ -115,7 +115,7 @@
         "selfhosted"
       ],
       "created_at": "2015-06-01T02:33:17Z",
-      "updated_at": "2026-09-05T18:00:19Z",
+      "updated_at": "2026-09-05T18:03:27Z",
       "pushed_at": "2026-09-05T10:51:19Z",
       "open_issues": 0,
       "license": "NOASSERTION"
@@ -147,12 +147,12 @@
       "name": "mattpocock/skills",
       "url": "https://github.com/mattpocock/skills",
       "description": "Skills for Real Engineers. Straight from my .agents directory.",
-      "stars": 252085,
+      "stars": 252095,
       "forks": 21287,
       "language": "Shell",
       "topics": [],
       "created_at": "2026-02-03T11:15:53Z",
-      "updated_at": "2026-09-05T18:00:32Z",
+      "updated_at": "2026-09-05T18:06:14Z",
       "pushed_at": "2026-09-04T08:45:43Z",
       "open_issues": 466,
       "license": "MIT"
@@ -161,7 +161,7 @@
       "name": "affaan-m/ECC",
       "url": "https://github.com/affaan-m/ECC",
       "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
-      "stars": 249522,
+      "stars": 249532,
       "forks": 37579,
       "language": "JavaScript",
       "topics": [
@@ -175,7 +175,7 @@
         "productivity"
       ],
       "created_at": "2026-01-18T00:51:51Z",
-      "updated_at": "2026-09-05T18:00:19Z",
+      "updated_at": "2026-09-05T18:06:58Z",
       "pushed_at": "2026-09-04T19:02:58Z",
       "open_issues": 147,
       "license": "MIT"
@@ -219,8 +219,8 @@
       "name": "NousResearch/hermes-agent",
       "url": "https://github.com/NousResearch/hermes-agent",
       "description": "The agent that grows with you",
-      "stars": 241886,
-      "forks": 49676,
+      "stars": 241890,
+      "forks": 49678,
       "language": "Python",
       "topics": [
         "ai",
@@ -238,9 +238,9 @@
         "openai"
       ],
       "created_at": "2025-07-22T22:22:28Z",
-      "updated_at": "2026-09-05T18:00:03Z",
+      "updated_at": "2026-09-05T18:03:21Z",
       "pushed_at": "2026-09-05T16:13:15Z",
-      "open_issues": 39940,
+      "open_issues": 39942,
       "license": "MIT"
     },
     {
@@ -267,17 +267,17 @@
         "sorts"
       ],
       "created_at": "2016-07-16T09:44:01Z",
-      "updated_at": "2026-09-05T17:57:10Z",
-      "pushed_at": "2026-09-05T10:51:44Z",
-      "open_issues": 875,
+      "updated_at": "2026-09-05T18:06:05Z",
+      "pushed_at": "2026-09-05T18:05:56Z",
+      "open_issues": 867,
       "license": "MIT"
     },
     {
       "name": "deepseek-ai/deepseek-harness",
       "url": "https://github.com/deepseek-ai/deepseek-harness",
       "description": "DeepSeek Harness: Everything is a Plugin.",
-      "stars": 213034,
-      "forks": 25026,
+      "stars": 213036,
+      "forks": 25028,
       "language": "TypeScript",
       "topics": [
         "ai-agents",
@@ -286,7 +286,7 @@
         "dsh-plugin"
       ],
       "created_at": "2026-08-13T11:56:32Z",
-      "updated_at": "2026-09-05T17:59:58Z",
+      "updated_at": "2026-09-05T18:05:15Z",
       "pushed_at": "2026-09-04T11:34:31Z",
       "open_issues": 0,
       "license": "MIT"
@@ -295,12 +295,12 @@
       "name": "anomalyco/opencode",
       "url": "https://github.com/anomalyco/opencode",
       "description": "The open source coding agent.",
-      "stars": 204561,
+      "stars": 204562,
       "forks": 26692,
       "language": "TypeScript",
       "topics": [],
       "created_at": "2025-04-30T20:08:00Z",
-      "updated_at": "2026-09-05T18:00:07Z",
+      "updated_at": "2026-09-05T18:04:20Z",
       "pushed_at": "2026-09-05T15:50:14Z",
       "open_issues": 5746,
       "license": "MIT"
@@ -310,7 +310,7 @@
       "url": "https://github.com/n8n-io/n8n",
       "description": "Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations.",
       "stars": 203446,
-      "forks": 60566,
+      "forks": 60565,
       "language": "TypeScript",
       "topics": [
         "ai",
@@ -367,7 +367,7 @@
       "name": "microsoft/vscode",
       "url": "https://github.com/microsoft/vscode",
       "description": "Visual Studio Code",
-      "stars": 190900,
+      "stars": 190899,
       "forks": 41990,
       "language": "TypeScript",
       "topics": [
@@ -378,7 +378,7 @@
         "visual-studio-code"
       ],
       "created_at": "2015-09-03T20:23:38Z",
-      "updated_at": "2026-09-05T17:39:13Z",
+      "updated_at": "2026-09-05T18:02:25Z",
       "pushed_at": "2026-09-05T16:01:59Z",
       "open_issues": 20607,
       "license": "MIT"
@@ -435,7 +435,7 @@
       ],
       "created_at": "2023-03-16T09:21:07Z",
       "updated_at": "2026-09-05T17:46:20Z",
-      "pushed_at": "2026-09-05T17:51:44Z",
+      "pushed_at": "2026-09-05T18:04:03Z",
       "open_issues": 562,
       "license": "NOASSERTION"
     },
@@ -443,7 +443,7 @@
       "name": "avelino/awesome-go",
       "url": "https://github.com/avelino/awesome-go",
       "description": "A curated list of awesome Go frameworks, libraries and software",
-      "stars": 183236,
+      "stars": 183237,
       "forks": 13545,
       "language": "Go",
       "topics": [
@@ -455,7 +455,7 @@
         "hacktoberfest"
       ],
       "created_at": "2014-07-06T13:42:15Z",
-      "updated_at": "2026-09-05T17:43:16Z",
+      "updated_at": "2026-09-05T18:03:19Z",
       "pushed_at": "2026-09-05T14:21:12Z",
       "open_issues": 224,
       "license": "MIT"
@@ -494,7 +494,7 @@
       "name": "lnkiai/m3e-canvas",
       "url": "https://github.com/lnkiai/m3e-canvas",
       "description": "Sketch Material 3 Expressive screens in the browser and turn them into vibe-coding prompts.",
-      "stars": 3489,
+      "stars": 3495,
       "forks": 281,
       "language": "TypeScript",
       "topics": [
@@ -508,7 +508,7 @@
         "vibe-coding"
       ],
       "created_at": "2026-09-02T04:36:34Z",
-      "updated_at": "2026-09-05T17:59:41Z",
+      "updated_at": "2026-09-05T18:07:31Z",
       "pushed_at": "2026-09-05T16:15:32Z",
       "open_issues": 1,
       "license": "MIT"
@@ -531,12 +531,12 @@
       "name": "rakanki911/DLSS5-Swapper",
       "url": "https://github.com/rakanki911/DLSS5-Swapper",
       "description": "DLSS 5 Swapper is a powerful, easy-to-use tool for installing, managing, and restoring DLSS 5 across games and supported emulators. It features automatic game detection, optional drive scanning, DLSS5-Feeder for compatible titles without native DLSS, emulator support, and compatibility with DirectX 9/10/11/12, Vulkan, and OpenGL.",
-      "stars": 1781,
+      "stars": 1782,
       "forks": 88,
       "language": "JavaScript",
       "topics": [],
       "created_at": "2026-08-29T23:51:32Z",
-      "updated_at": "2026-09-05T17:53:49Z",
+      "updated_at": "2026-09-05T18:05:49Z",
       "pushed_at": "2026-09-04T15:31:26Z",
       "open_issues": 64,
       "license": "MIT"
@@ -545,8 +545,8 @@
       "name": "shadcn-ui/cn",
       "url": "https://github.com/shadcn-ui/cn",
       "description": "cn is a new engine for Tailwind class merging and conflict resolution. It replaces tailwind-merge and clsx. Same APIs. Full parity. And it is 30× faster.",
-      "stars": 1161,
-      "forks": 8,
+      "stars": 1162,
+      "forks": 9,
       "language": "TypeScript",
       "topics": [
         "clsx",
@@ -556,7 +556,7 @@
         "tailwindcss"
       ],
       "created_at": "2026-08-31T07:04:03Z",
-      "updated_at": "2026-09-05T16:28:50Z",
+      "updated_at": "2026-09-05T18:03:40Z",
       "pushed_at": "2026-09-04T05:16:53Z",
       "open_issues": 5,
       "license": "MIT"
@@ -663,12 +663,12 @@
       "name": "anthropics/fermats-last-theorem",
       "url": "https://github.com/anthropics/fermats-last-theorem",
       "description": null,
-      "stars": 639,
-      "forks": 42,
+      "stars": 642,
+      "forks": 43,
       "language": "Lean",
       "topics": [],
       "created_at": "2026-09-04T14:21:04Z",
-      "updated_at": "2026-09-05T17:58:39Z",
+      "updated_at": "2026-09-05T18:07:51Z",
       "pushed_at": "2026-09-04T14:59:12Z",
       "open_issues": 1,
       "license": "Apache-2.0"
@@ -697,13 +697,13 @@
       "name": "danielblnc/DLSS-NR-on-AMD",
       "url": "https://github.com/danielblnc/DLSS-NR-on-AMD",
       "description": "Run DLSS 5 Neural Rendering on your AMD GPU. Magic!",
-      "stars": 615,
+      "stars": 617,
       "forks": 25,
       "language": null,
       "topics": [],
       "created_at": "2026-09-03T00:42:03Z",
-      "updated_at": "2026-09-05T17:58:53Z",
-      "pushed_at": "2026-09-05T16:58:23Z",
+      "updated_at": "2026-09-05T18:05:36Z",
+      "pushed_at": "2026-09-05T18:05:29Z",
       "open_issues": 68,
       "license": null
     },
@@ -767,7 +767,7 @@
       "name": "Ryze-AI-Adgent/open-seo-mcp-skills",
       "url": "https://github.com/Ryze-AI-Adgent/open-seo-mcp-skills",
       "description": "Open-source SEO + GEO skills for Claude — keyword research, rank tracking, site audits, backlinks, competitor gaps, AI visibility. Runs on your real Search Console / GA4 / ads data via MCP, with DataForSEO built in. Free, MIT.",
-      "stars": 497,
+      "stars": 498,
       "forks": 10,
       "language": "Shell",
       "topics": [
@@ -787,7 +787,7 @@
         "seo-audit"
       ],
       "created_at": "2026-08-29T23:37:01Z",
-      "updated_at": "2026-09-05T17:42:11Z",
+      "updated_at": "2026-09-05T18:01:00Z",
       "pushed_at": "2026-08-31T03:09:10Z",
       "open_issues": 0,
       "license": "MIT"
