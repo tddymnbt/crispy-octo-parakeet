@@ -9,7 +9,9 @@ from urllib import error, parse, request
 
 
 CAPTION_FILE = Path("output/facebook_caption.txt")
-SCREENSHOTS_DIR = Path("output/screenshots")
+# The capture phase stores full README captures in ``raw`` and the 1080x1350
+# social-media assets in ``final``. Only the portrait-ready images are posted.
+SCREENSHOTS_DIR = Path("output/screenshots/final")
 GRAPH_API_VERSION = "v20.0"
 IMAGE_SUFFIXES = {".png", ".jpg", ".jpeg"}
 
@@ -106,7 +108,9 @@ def main():
     if not CAPTION_FILE.is_file():
         raise RuntimeError(f"Missing {CAPTION_FILE}. Run the caption-generation phase first.")
     if not SCREENSHOTS_DIR.is_dir():
-        raise RuntimeError(f"Missing {SCREENSHOTS_DIR}. Run the screenshot phase first.")
+        raise RuntimeError(
+            f"Missing {SCREENSHOTS_DIR}. Run the screenshot phase first."
+        )
 
     caption = CAPTION_FILE.read_text(encoding="utf-8").strip()
     if not caption:
@@ -117,7 +121,10 @@ def main():
         if path.is_file() and path.suffix.lower() in IMAGE_SUFFIXES
     )
     if not images:
-        raise RuntimeError(f"No PNG or JPG images found in {SCREENSHOTS_DIR}.")
+        raise RuntimeError(
+            f"No PNG or JPG images found in {SCREENSHOTS_DIR}. "
+            "The screenshot phase may not have produced any final images."
+        )
 
     access_token = require_environment("META_PAGE_ACCESS_TOKEN")
     page_id = require_environment("META_PAGE_ID")
