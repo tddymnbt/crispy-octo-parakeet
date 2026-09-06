@@ -4,7 +4,7 @@ import os
 import urllib.error
 import urllib.request
 
-TOP3_FILE = "output/top3.json"
+TOP5_FILE = "output/top5.json"
 OUTPUT_FILE = "output/research_details.json"
 API_URL = "https://generativelanguage.googleapis.com/v1beta/interactions"
 
@@ -139,13 +139,15 @@ def parse_json(text):
 
 
 def main():
-    if not os.path.exists(TOP3_FILE):
-        raise RuntimeError(f"Missing {TOP3_FILE}. Run Phase 2B first.")
+    if not os.path.exists(TOP5_FILE):
+        raise RuntimeError(f"Missing {TOP5_FILE}. Run the ranking phase first.")
 
-    with open(TOP3_FILE, encoding="utf-8") as f:
-        top3_data = json.load(f)
+    with open(TOP5_FILE, encoding="utf-8") as f:
+        top5_data = json.load(f)
 
-    top_repositories = top3_data.get("top_repositories", [])
+    top_repositories = top5_data.get("top_repositories", [])
+    if len(top_repositories) != 5:
+        raise RuntimeError("Expected exactly 5 repositories in output/top5.json.")
     analyzed_repositories = []
 
     print("======================================")
@@ -168,7 +170,7 @@ def main():
         analyzed_repositories.append(merged_item)
 
     output = {
-        "generated_at": top3_data.get("generated_at"),
+        "generated_at": top5_data.get("generated_at"),
         "repositories": analyzed_repositories,
     }
 

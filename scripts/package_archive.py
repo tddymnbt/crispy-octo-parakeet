@@ -22,9 +22,9 @@ def main():
     # Archive text JSON/TXT assets permanently in Git
     text_files = [
         "candidates.json",
-        "top3.json",
+        "top5.json",
         "research_details.json",
-        "facebook_caption.txt"
+        "captions.json",
     ]
 
     for filename in text_files:

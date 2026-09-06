@@ -1,22 +1,26 @@
 # GitHub Daily Agent
 
 An automated GitHub Actions workflow that finds notable repositories, ranks and
-analyses the top three with AI, produces a Facebook-ready caption and portrait
-screenshots, then publishes the result to a Facebook Page.
+analyses the top five with AI, produces five Facebook-ready captions and
+portrait screenshots, then publishes one post at each scheduled slot.
 
-The workflow runs automatically every day at **12:00 PM Philippines Time
-(PHT)**, subject to normal GitHub Actions scheduling delays. It can also be
-started manually from the repository's **Actions** tab.
+The workflow runs automatically every day at **8:00 AM, 12:00 PM, 3:00 PM,
+7:00 PM, and 11:00 PM Philippines Time (PHT)**, subject to normal GitHub
+Actions scheduling delays. It can also be started manually from the
+repository's **Actions** tab.
 
 ## What the workflow does
 
 1. Collects GitHub repository candidates and saves the daily history.
-2. Ranks candidates and generates detailed research for the top three.
-3. Generates a Facebook caption and 1080x1350 repository screenshots.
-4. Archives text outputs in `content/YYYY-MM-DD/` and publishes a multi-photo
-   Facebook Page post.
-5. Commits the text archive and retains all outputs as a seven-day workflow
-   artifact. Screenshots are not committed to Git.
+2. Ranks candidates and generates detailed research for the top five.
+3. Generates five repository-specific Facebook captions and 1080x1350
+   repository screenshots.
+4. At 8:00 AM, uploads all five photos as unpublished Page media, publishes
+   slot 1, and archives the daily publishing state.
+5. Publishes slots 2-5 from the saved media IDs and captions throughout the
+   day, then records each Facebook post ID in the archive.
+6. Retains complete outputs as a seven-day workflow artifact. Screenshots are
+   not committed to Git.
 
 ## Required repository secrets
 

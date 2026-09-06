@@ -2,15 +2,38 @@ name: GitHub Daily Research
 
 on:
   workflow_dispatch:
+    inputs:
+      slot:
+        description: "Post slot to run (slot 1 prepares the daily content first)"
+        required: true
+        default: "1"
+        type: choice
+        options:
+          - "1"
+          - "2"
+          - "3"
+          - "4"
+          - "5"
   schedule:
-    # GitHub Actions cron uses UTC. 04:00 UTC is 12:00 PM Asia/Manila (PHT).
-    - cron: "0 4 * * *"
+    - cron: "0 0 * * *"   # 8:00 AM PHT: prepare all packages and publish slot 1
+    - cron: "0 4 * * *"   # 12:00 PM PHT: publish slot 2
+    - cron: "0 7 * * *"   # 3:00 PM PHT: publish slot 3
+    - cron: "0 11 * * *"  # 7:00 PM PHT: publish slot 4
+    - cron: "0 15 * * *"  # 11:00 PM PHT: publish slot 5
 
 permissions:
   contents: write
 
+# Do not allow delayed schedule events to overlap and publish duplicates.
+concurrency:
+  group: facebook-page-publishing
+  cancel-in-progress: false
+
 jobs:
-  collect-candidates:
+  prepare-and-publish-slot-1:
+    if: >-
+      (github.event_name == 'schedule' && github.event.schedule == '0 0 * * *') ||
+      (github.event_name == 'workflow_dispatch' && inputs.slot == '1')
     runs-on: ubuntu-latest
 
     steps:
@@ -46,13 +69,13 @@ jobs:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
         run: python scripts/rank_candidates.py
 
-      - name: Analyze Top 3 repositories with AI
+      - name: Analyze Top 5 repositories with AI
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           GITHUB_TOKEN: ${{ github.token }}
-        run: python scripts/analyze_top3.py
+        run: python scripts/analyze_repos.py
 
-      - name: Generate Facebook caption with AI
+      - name: Generate individual Facebook captions with AI
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
         run: python scripts/generate_caption.py
@@ -63,31 +86,76 @@ jobs:
       - name: Package Daily Archive
         run: python scripts/package_archive.py
 
-      - name: Publish to Facebook Page
+      - name: Prepare Facebook media and publish slot 1
         env:
           META_PAGE_ACCESS_TOKEN: ${{ secrets.META_PAGE_ACCESS_TOKEN }}
           META_PAGE_ID: ${{ secrets.META_PAGE_ID }}
-        run: python scripts/publish_facebook.py
+        run: python scripts/publish_facebook.py --slot 1 --prepare-media
 
-      - name: Commit text research & daily archive
+      - name: Commit daily archive and publishing state
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-
-          # Only commit text metadata to Git (no screenshots to prevent repo bloat)
-          git add data/history/ output/top3.json output/research_details.json output/facebook_caption.txt content/
-
+          git add data/history/ content/ output/candidates.json output/top5.json output/research_details.json output/captions.json
           if git diff --cached --quiet; then
             echo "No changes to commit."
           else
-            git commit -m "chore: save daily research, caption, and text archive"
+            git commit -m "chore: prepare five daily social posts"
             git push
           fi
 
-      - name: Upload screenshots & outputs as temporary Artifact
+      - name: Upload screenshots and outputs as temporary artifact
         uses: actions/upload-artifact@v6
         with:
           name: github-daily-research-media
           retention-days: 7
-          path: |
-            output/
+          path: output/
+
+  publish-later-slot:
+    if: >-
+      (github.event_name == 'schedule' && github.event.schedule != '0 0 * * *') ||
+      (github.event_name == 'workflow_dispatch' && inputs.slot != '1')
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v6
+
+      - name: Setup Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+
+      - name: Resolve post slot
+        id: slot
+        env:
+          SCHEDULE: ${{ github.event.schedule }}
+          MANUAL_SLOT: ${{ inputs.slot }}
+        run: |
+          case "$SCHEDULE" in
+            "0 4 * * *") SLOT=2 ;;
+            "0 7 * * *") SLOT=3 ;;
+            "0 11 * * *") SLOT=4 ;;
+            "0 15 * * *") SLOT=5 ;;
+            "") SLOT="$MANUAL_SLOT" ;;
+            *) echo "Unknown schedule: $SCHEDULE" >&2; exit 1 ;;
+          esac
+          echo "slot=$SLOT" >> "$GITHUB_OUTPUT"
+
+      - name: Publish scheduled Facebook Page post
+        env:
+          META_PAGE_ACCESS_TOKEN: ${{ secrets.META_PAGE_ACCESS_TOKEN }}
+          META_PAGE_ID: ${{ secrets.META_PAGE_ID }}
+        run: python scripts/publish_facebook.py --slot ${{ steps.slot.outputs.slot }}
+
+      - name: Commit publishing state
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add content/
+          if git diff --cached --quiet; then
+            echo "No publishing-state changes to commit."
+          else
+            git commit -m "chore: record daily social post publication"
+            git push
+          fi

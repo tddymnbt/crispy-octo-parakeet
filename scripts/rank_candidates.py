@@ -115,7 +115,7 @@ def build_prompt(candidates):
 You are the ranking engine for a daily GitHub repository
 research and social-media content system.
 
-Your job is to select the TOP 3 repositories from the supplied
+Your job is to select the TOP 5 repositories from the supplied
 candidate pool.
 
 Do NOT simply select the repositories with the most stars.
@@ -146,7 +146,7 @@ Avoid:
 - selecting multiple repositories that are essentially the same type
   unless there is a strong reason
 
-Aim for a diverse and interesting daily Top 3.
+Aim for a diverse and interesting daily Top 5.
 
 For each selected repository provide:
 
@@ -296,15 +296,19 @@ def main():
         [],
     )
 
-    if len(top_repositories) != 3:
+    if len(top_repositories) != 5:
         raise RuntimeError(
-            "AI did not return exactly 3 repositories."
+            "AI did not return exactly 5 repositories."
         )
+
+    ranks = [repo.get("rank") for repo in top_repositories]
+    if sorted(ranks) != [1, 2, 3, 4, 5]:
+        raise RuntimeError("AI returned invalid or duplicate repository ranks.")
 
     os.makedirs("output", exist_ok=True)
 
     with open(
-        "output/top3.json",
+        "output/top5.json",
         "w",
         encoding="utf-8",
     ) as file:
@@ -316,7 +320,7 @@ def main():
         )
 
     print("======================================")
-    print(" TOP 3")
+    print(" TOP 5")
     print("======================================")
 
     for repo in top_repositories:
@@ -330,7 +334,7 @@ def main():
         )
         print()
 
-    print("Saved: output/top3.json")
+    print("Saved: output/top5.json")
     print("======================================")
 
 

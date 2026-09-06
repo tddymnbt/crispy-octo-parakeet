@@ -12,7 +12,7 @@ from pathlib import Path
 from PIL import Image, ImageChops, ImageStat
 from playwright.sync_api import Locator, Page, sync_playwright
 
-TOP3_FILE = Path("output/top3.json")
+TOP5_FILE = Path("output/top5.json")
 RAW_DIR = Path("output/screenshots/raw")
 FINAL_DIR = Path("output/screenshots/final")
 VIEWPORT = {"width": 1400, "height": 900}
@@ -123,11 +123,11 @@ def choose_crop(raw_path: Path, landmarks: list[dict]) -> tuple[Image.Image, int
 
 
 def main() -> None:
-    if not TOP3_FILE.exists():
-        sys.exit(f"Error: {TOP3_FILE} not found. Run Phase 2B first.")
-    repositories = json.loads(TOP3_FILE.read_text(encoding="utf-8")).get("top_repositories", [])
+    if not TOP5_FILE.exists():
+        sys.exit(f"Error: {TOP5_FILE} not found. Run the ranking phase first.")
+    repositories = json.loads(TOP5_FILE.read_text(encoding="utf-8")).get("top_repositories", [])
     if not repositories:
-        sys.exit("No top repositories found in top3.json.")
+        sys.exit("No top repositories found in top5.json.")
     RAW_DIR.mkdir(parents=True, exist_ok=True)
     FINAL_DIR.mkdir(parents=True, exist_ok=True)
     successful = failed = 0
@@ -138,7 +138,7 @@ def main() -> None:
         for repo in repositories:
             rank, name = repo.get("rank"), repo.get("name")
             if not rank or not name:
-                print(f"FAILED: {name or '<missing repository>'}\nReason: invalid top3.json record")
+                print(f"FAILED: {name or '<missing repository>'}\nReason: invalid top5.json record")
                 failed += 1
                 continue
             stem = f"{rank}_{safe_repo_name(name)}.png"
