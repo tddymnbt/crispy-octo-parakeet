@@ -2,6 +2,9 @@ name: GitHub Daily Research
 
 on:
   workflow_dispatch:
+  schedule:
+    # GitHub Actions cron uses UTC. 04:00 UTC is 12:00 PM Asia/Manila (PHT).
+    - cron: "0 4 * * *"
 
 permissions:
   contents: write
