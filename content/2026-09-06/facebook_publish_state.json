@@ -44,8 +44,8 @@
       "caption": "Turn any real-world object into a 3D asset in under 60 seconds—straight from your phone into your active Blender viewport! 📸✨\n\nWe have all felt the pain of the tedious workflow bottleneck when trying to bring physical objects into 3D modeling software. Building out textures, meshes, and manual background removal kills momentum for indie hackers, AR/VR creators, and game devs. \n\nMeet camera-to-blender: an open-source project that bridges the gap between physical reality and 3D modeling by automating the entire photo-to-viewport pipeline using generative AI. \n\nHere is how the stack comes together:\n* Mobile-optimized web interface for quick camera capture over HTTPS via ngrok.\n* Google Gemini integration for automated background isolation.\n* Tripo3D API for high-speed single-image 3D mesh generation.\n* FastAPI relay server communicating via a real-time WebSocket bridge.\n* A custom Blender Python add-on that hot-reloads and spawns generated 3D models directly into your workspace instantly.\n\nFor developers, this repo serves as a fantastic blueprint for building event-driven pipelines that tie external REST APIs, local Uvicorn servers, public tunneling, and internal desktop software automation together seamlessly.\n\nReady to streamline your prototyping workflow or build your own AI-powered asset pipeline? \n\nCheck out the repository and drop a star on GitHub:\nhttps://github.com/ahujasid/camera-to-blender\n\nHow are you currently integrating generative AI into your 3D workflows? Let us know in the comments below! 👇\n\n#Blender3D #GenerativeAI #Python #WebSockets #GameDev #IndieDev #OpenSource #FastAPI #ArtificialIntelligence",
       "image_file": "5_ahujasid_camera-to-blender.png",
       "photo_id": "122094941493476221",
-      "published_post_id": null,
-      "published_at": null
+      "published_post_id": "1410193715501138_122095248747476221",
+      "published_at": "2026-09-06T14:35:39.833365+00:00"
     }
   ]
 }
