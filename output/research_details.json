@@ -5,80 +5,80 @@
       "rank": 1,
       "name": "mattpocock/skills",
       "score": 96,
-      "reason": "A high-velocity repository offering direct, engineering-grade .agents skills from a prominent developer voice, matching the massive trend in specialized workflow and tool configurations for AI coding agents.",
-      "why_interesting_today": "As developers increasingly rely on CLI agents like Claude Code and Cursor, practical, ready-to-use skill definitions directly out of active engineering directories are capturing immense mindshare and stellar growth.",
-      "why_developers_should_care": "It provides immediate, copy-pasteable or pluggable agent skills that can radically improve the output quality, safety, and productivity of your AI coding tools.",
-      "momentum": "Extremely strong with over 600 star growth in a short window and high fork engagement.",
-      "novelty": "Very high, capturing the bleeding-edge paradigm of configuring local developer AI agents with discrete behavioral 'skills'.",
+      "reason": "A high-momentum collection of practical engineering skills straight from an expert's workflow .agents directory, catering directly to the booming AI-assisted development space.",
+      "why_interesting_today": "AI coding assistants are shifting from general chat interfaces to specialized agent skills and frameworks. This repository captures that cutting-edge shift with massive viral interest today.",
+      "why_developers_should_care": "It offers ready-to-use, battle-tested skills that immediately supercharge developer workflows and prompt engineering paradigms for modern coding assistants.",
+      "momentum": "Extremely strong star growth (684 new stars) and healthy fork activity indicating rapid adoption by engineers.",
+      "novelty": "High. Directly addresses the emerging paradigm of agent skills and directory-based configuration for software engineers.",
       "deep_analysis": {
         "name": "mattpocock/skills",
-        "headline_hook": "Ditch rigid agentic frameworks and take back control with Matt Pocock's composable, engineering-grade AI coding skills.",
-        "core_functionality": "Mattpocock/skills provides a collection of small, adaptable, and composable skill definitions designed for CLI-based AI coding agents (like Claude Code and Codex). It solves common failure modes in AI-assisted development—such as requirement misalignment, agent verbosity, lack of feedback loops, and software entropy—by enforcing classic software engineering fundamentals instead of letting agents drive the entire process blind.",
+        "headline_hook": "Tired of AI agents writing sloppy code? Matt Pocock's 'skills' repository injects decades of software engineering fundamentals directly into your coding assistant.",
+        "core_functionality": "Matt Pocock's repository provides a composable, modular collection of agent skills (.agents directory) designed to fix common AI failure modes like misalignment, verbosity, lack of testing, and architectural decay during AI-assisted development.",
         "key_features": [
-          "Grilling Sessions (/grill-me and /grill-with-docs): Forces the AI to ask detailed questions and establish a shared domain language/context before generating any code.",
-          "Strict TDD Execution (/tdd): Implements disciplined red-green-refactor loops to keep automated testing tightly coupled to agent code generation.",
-          "Architecture Surveying (/improve-codebase-architecture): Periodically audits the codebase for deep modules, design opportunities, and architectural drift.",
-          "Flexible Installation Philosophies: Allows installation either as a managed, auto-updating Claude Code plugin or via `npx skills@latest add` for full local ownership and hacking."
+          "Grilling Sessions (/grill-me & /grill-with-docs): Forces the AI to ask detailed diagnostic questions and build a shared domain language to eliminate context gaps before coding begins.",
+          "Strict TDD & Debugging Loops (/tdd & /diagnosing-bugs): Enforces disciplined Red-Green-Refactor cycles and phase-gated debugging workflows to guarantee functional code.",
+          "Architectural Maintenance (/improve-codebase-architecture): Regularly surveys codebases to uncover refactoring and module-deepening opportunities to combat software entropy.",
+          "Flexible Dual-Installation: Supports zero-maintenance subscription via the official Claude Code plugin marketplace or editable, local file cloning via skills.sh."
         ],
-        "target_audience": "Professional software engineers, full-stack developers, and technical leads who actively use AI CLI agents (Claude Code, Codex, Cursor) and want strict deterministic control over their workflows rather than relying on black-box 'vibe coding' frameworks.",
-        "practical_developer_value": "Developers can eliminate the classic communication gap with LLMs, significantly reduce token wastage caused by ambiguous prompts, and prevent AI-accelerated codebases from degenerating into a 'ball of mud.' By integrating these skills into daily workflows, engineers enforce robust testing, precise specs, and consistent terminology across every coding session.",
+        "target_audience": "Software engineers, full-stack developers, and technical leads actively building applications with AI coding assistants like Claude Code, Codex, and other LLM-driven agents.",
+        "practical_developer_value": "It moves developers away from chaotic 'vibe coding' toward structured, high-discipline engineering. By integrating custom prompts and interactive commands directly into their workflow, developers can drastically reduce token waste, prevent technical debt accumulation, and force LLMs to adhere to time-tested principles from Pragmatic Programmer and Domain-Driven Design.",
         "suggested_use_cases": [
-          "Pre-flight alignment: Running `/grill-with-docs` before starting a complex feature to clarify requirements, document architecture decisions (ADRs), and establish project jargon.",
-          "Refactoring and maintenance: Periodically invoking `/improve-codebase-architecture` to identify system design bottlenecks and deepen software modules."
+          "Scoping complex features securely by prompting the AI to run a rigorous alignment and design grilling session before modifying core code.",
+          "Maintaining architectural sanity on fast-moving AI-generated codebases by periodically running code-base architecture surveys."
         ]
       }
     },
     {
       "rank": 2,
       "name": "lnkiai/m3e-canvas",
-      "score": 92,
-      "reason": "Bridges visual design systems (Material 3 Expressive) directly with 'vibe-coding' prompts, turning browser-based UI sketches into actionable AI prompts.",
-      "why_interesting_today": "It hits the sweet spot of the emerging 'vibe-coding' and AI-first UI generation trend, letting developers rapidly layout rich frontend components visually before handing them off to LLMs.",
-      "why_developers_should_care": "Instead of manually writing verbose design tokens or complex layouts, you can sketch out Material 3 screens and let the tool generate the precise prompts your AI coding agent needs.",
-      "momentum": "Rapidly accelerating with over 230 stars and robust fork growth right after launch.",
-      "novelty": "High—effectively marries browser design canvas tools with modern AI prompt engineering.",
+      "score": 93,
+      "reason": "An innovative browser-based tool bridging visual design (Material 3 Expressive screens) directly into structured vibe-coding prompts.",
+      "why_interesting_today": "Combines modern design systems with the rising trend of 'vibe-coding' and prompt-driven generation, hitting a sweet spot for rapid UI prototyping.",
+      "why_developers_should_care": "Allows frontend engineers and designers to visually sketch layouts and seamlessly turn them into accurate prompts and code without manual translation boilerplate.",
+      "momentum": "Rapidly accelerating growth with 270 star additions and significant fork traction shortly after launch.",
+      "novelty": "Very high. Blurs the line between visual design tools and AI-driven code generation prompts.",
       "deep_analysis": {
         "name": "lnkiai/m3e-canvas",
-        "headline_hook": "Bridge the gap between visual UI sketching and AI-driven frontend generation with a browser-based canvas tailored for Material 3 Expressive.",
-        "core_functionality": "M3E Canvas solves the ambiguity of text-only prompting in 'vibe-coding' by letting developers and designers visually layout, link, and transition multi-screen Material 3 Expressive UI mockups in the browser, subsequently compiling those visual blueprints into concise, highly actionable natural-language prompts for AI coding tools like Claude Code, Cursor, and Codex.",
+        "headline_hook": "Bridge the gap between visual Material 3 UI design and AI coding tools by sketching screens, linking flows, and instantly generating structured vibe-coding prompts.",
+        "core_functionality": "M3E Canvas solves the friction of translating UI/UX layouts into natural-language prompts for AI coding agents. It provides a browser-based visual canvas where developers and designers can build, theme, and connect Material 3 Expressive screens, subsequently compiling those visual blueprints into concise, highly structured prompts for AI tools like Claude Code, Cursor, or Codex.",
         "key_features": [
-          "Magnetic component grouping and real M3 Expressive loading indicators ported directly from Android implementations.",
-          "Multi-screen canvas supporting responsive viewports (phone and desktop modes) with interactive tap and swipe navigation flow mapping.",
-          "Automated context generation that exports spatial layouts, overlap structures, and component states into multilingual prompts (English, Japanese, Chinese, Korean).",
-          "Optional BYOK (Bring Your Own Key) AI integration to auto-write component behaviors and screen notes directly in the browser via localStorage without an intermediary backend."
+          "Magnetic component connections and shape-morphing M3 Expressive loading indicators ported directly from Android Material Components.",
+          "Interactive multi-screen state flows with tap and swipe navigation transitions that translate directly into architectural instructions for AI.",
+          "Comprehensive multi-axis theming engine controlling color seeds, dynamic contrast, shape geometry, typography, and motion.",
+          "Client-side architecture with zero backend storage (local storage), supporting multi-language prompt outputs (English, Japanese, Chinese, Korean)."
         ],
-        "target_audience": "Frontend developers, mobile app engineers, and AI-first 'vibe-coders' looking to rapidly prototype UI systems before handing them off to LLM coding agents.",
-        "practical_developer_value": "Developers save countless iterations trying to describe layout requirements to LLMs through text. By visually dragging and dropping components, establishing screen-to-screen navigation flows, and defining a strict design system (Material 3 Expressive), developers ensure AI coding assistants generate code that matches precise structural, theme, and architectural specifications on the very first try.",
+        "target_audience": "Frontend developers, mobile engineers, and 'vibe-coders' leveraging AI coding assistants who want precise layout control without manually writing exhaustive structural UI prompts.",
+        "practical_developer_value": "Instead of writing verbose, error-prone text prompts describing complex layouts, multi-screen navigation, and design tokens, developers can visually design the app once and export a complete specification. This ensures AI coding agents generate significantly more accurate, production-ready UI code on the first attempt.",
         "suggested_use_cases": [
-          "Rapidly prototyping cross-platform mobile apps (Android/Web) by sketching screens, setting up navigation states, and prompting Claude Code to scaffold the initial codebase.",
-          "Standardizing UI generation across a team by creating consistent visual blueprints and exporting them into localized, AI-ready prompt blocks."
+          "Rapidly prototyping cross-platform mobile and desktop app flows before handing them off to an AI coding agent like Claude Code or Cursor.",
+          "Experimenting with Material 3 Expressive design tokens, custom color schemes, and component states visually before generating framework-specific implementation code."
         ]
       }
     },
     {
       "rank": 3,
       "name": "2akouwu/reverify",
-      "score": 89,
-      "reason": "Tackles AI hallucinations head-on by coupling an MCP server and CLI with deterministic tools, ensuring every claim is checked against ground truth.",
-      "why_interesting_today": "AI hallucination and verification remain the biggest operational bottlenecks for autonomous coding and reverse-engineering agents.",
-      "why_developers_should_care": "Provides an MCP-compliant architecture where deterministic tools make the final call on code, binary analysis, or context claims rather than trusting LLM outputs blindly.",
-      "momentum": "Solid emerging traction with steady interest from the developer-tools and AI security niches.",
-      "novelty": "Innovative combination of MCP server architecture with strict deterministic grounding and reverse-engineering verification.",
+      "score": 90,
+      "reason": "A targeted developer tool and MCP server solving a major pain point in AI coding: hallucination and ground truth verification.",
+      "why_interesting_today": "As developers increasingly rely on LLMs for complex, deterministic tasks like reverse engineering and security analysis, automated verification against ground truth is critical.",
+      "why_developers_should_care": "It stops AI agents from making things up by forcing claims through deterministic tools and checks, improving reliability in sensitive workflows.",
+      "momentum": "Steady engagement and strong architectural interest from the developer and security tool communities.",
+      "novelty": "High novelty in tackling AI hallucination prevention through Model Context Protocol (MCP) servers and deterministic execution pipelines.",
       "deep_analysis": {
         "name": "2akouwu/reverify",
-        "headline_hook": "Stop your AI coding and reverse-engineering agents from hallucinating by using a deterministic toolset as an immutable judge.",
-        "core_functionality": "Reverify solves the problem of AI hallucination in autonomous coding, reverse engineering, and refactoring by enforcing a deterministic verification loop. Instead of trusting language models to accurately generate APIs, structs, code, or binary offsets, Reverify forces the AI's proposals through a pure-Python (and optionally engine-backed) verification gate that returns VERIFIED or REFUTED with concrete, cryptographic evidence.",
+        "headline_hook": "Stop your AI coding agent from fabricating facts by forcing every claim through a deterministic verification loop against ground truth.",
+        "core_functionality": "Reverify solves the LLM hallucination problem in deterministic and complex tasks (like binary reverse engineering, security analysis, and code refactoring) by acting as an adversarial judge. Instead of blindly trusting a language model's confident assertions about APIs, structs, offsets, or code behavior, Reverify forces the model to propose claims that are automatically checked against actual execution or file artifacts, returning strict VERIFIED/REFUTED evidence.",
         "key_features": [
-          "Deterministic Verification Loop: Agents propose claims (e.g., instructions, emulation results, structural offsets), and the deterministic toolset judges them against ground truth, gating pipelines on verified evidence.",
-          "Dual-Mode Execution Core: Ships with a zero-dependency pure-Python core for PE/ELF/Mach-O parsing, disassembly, and emulation, with seamless optional upgrades to advanced engines like Capstone, Unicorn, Lief, Z3, and angr.",
-          "Model Context Rollover & MCP Native: Includes an MCP server so coding agents (Claude Code, Cursor, Gemini CLI) can natively invoke verification tools, alongside a rollover mechanism to prevent context rot during long tasks.",
-          "Information Weight & Anti-Hallucination Metrics: Evaluates claims not just for correctness, but for information entropy (CORE/FActScore refinement), filtering out boilerplate echoes or trivial assertions."
+          "Deterministic Verification Loop: Acts as an MCP server and CLI tool where model hypotheses are checked against actual bytes (disassembly, pattern matching, CPU emulation, semantic analysis) rather than trusting the model's imagination.",
+          "Dual-Engine Architecture: Ships with a pure-Python zero-dependency core for immediate out-of-the-box use, with seamless fallback/upgrades to powerful engines like Capstone, Unicorn, Lief, Z3, and angr.",
+          "Information-Weighted Grounding: Goes beyond simple binary pass/fail checks by weighing the information entropy of verified claims, preventing shallow or self-referential assertions from counting as valid analysis.",
+          "Context Rollover & Agent Integration: Preserves long-running coding sessions by rolling context over to a file instead of letting context drift, natively plugging into agent workflows via the Model Context Protocol (MCP)."
         ],
-        "target_audience": "AI Engineers building autonomous agents, Security Researchers & Reverse Engineers, and Systems Developers automating low-level code analysis and refactoring.",
-        "practical_developer_value": "Developers building or using AI coding and analysis agents can eliminate the risk of silent hallucinations corrupting codebases or reverse-engineering efforts. By integrating Reverify's CLI or MCP server into CI/CD pipelines or agent loops, every structural claim, refactor equivalence, or binary hypothesis is programmatically validated against actual source or binary artifacts before being accepted.",
+        "target_audience": "AI Engineers, Security Researchers, and Software Developers working with AI coding assistants on complex, deterministic, or low-level domains.",
+        "practical_developer_value": "Developers working with AI agents in high-stakes environments (such as security analysis, binary reverse engineering, protocol parsing, or complex refactoring) face massive hallucination rates. Reverify provides a drop-in Model Context Protocol (MCP) server that stops AI agents from fabricating facts, effectively gating CI pipelines and agent loops so that only verified, evidence-backed code or structural assumptions are accepted.",
         "suggested_use_cases": [
-          "Gating automated reverse-engineering and malware-analysis workflows in CI/CD to prevent AI agents from accepting fabricated function signatures, offsets, or prologues.",
-          "Validating AI-driven code rewrites and refactoring via behavior equivalence testing across languages like Python and C."
+          "Automating binary reverse engineering and malware analysis in CI/CD pipelines without accepting hallucinated structures or offsets.",
+          "Ensuring behavioral equivalence when AI agents rewrite or refactor critical source code across languages (e.g., Python to C)."
         ]
       }
     }
