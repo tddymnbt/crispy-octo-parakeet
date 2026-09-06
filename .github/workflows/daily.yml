@@ -60,6 +60,12 @@ jobs:
       - name: Package Daily Archive
         run: python scripts/package_archive.py
 
+      - name: Publish to Facebook Page
+        env:
+          META_PAGE_ACCESS_TOKEN: ${{ secrets.META_PAGE_ACCESS_TOKEN }}
+          META_PAGE_ID: ${{ secrets.META_PAGE_ID }}
+        run: python scripts/publish_facebook.py
+
       - name: Commit text research & daily archive
         run: |
           git config user.name "github-actions[bot]"
