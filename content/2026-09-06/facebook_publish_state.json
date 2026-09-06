@@ -26,8 +26,8 @@
       "caption": "Tired of Tailwind class merging slowing down your UI renders? 🛑\n\nWe’ve all been there: combining `clsx` and `tailwind-merge` is a staple in modern frontend development, but doing it thousands of times in deep component trees creates a hidden performance bottleneck. \n\nEnter `cn` by shadcn-ui—a drop-in replacement that delivers up to a 30x speedup through intelligent call caching and a custom-optimized engine. 🚀\n\n⚡️ What makes it a game-changer:\n• Blazing Fast: Achieves a geometric mean of 37x faster performance across real-world open-source repos.\n• Argument-Identity Caching: Learns repeated call sequences so render loops can verify by identity and skip redundant processing entirely.\n• Zero Dependencies: Framework and runtime-agnostic, running natively in React, Vue, Svelte, Solid, Astro, Node, Bun, Deno, and edge runtimes.\n• 100% API Parity: Migrate instantly without rewriting code or changing config files using the simple CLI command: npx shadcn@latest migrate cn.\n\nWhether you are optimizing high-frequency re-renders in design systems or streaming massive SSR pipelines, `cn` slashes class-merging overhead to give you smoother animations and faster page loads. \n\nCheck it out on GitHub and drop it into your stack today:\nhttps://github.com/shadcn-ui/cn\n\n👇 Have you run into Tailwind performance bottlenecks in your projects? Let us know how you solved them in the comments!\n\n#WebDevelopment #TailwindCSS #Frontend #React #JavaScript #TypeScript #SoftwareEngineering #OpenSource",
       "image_file": "3_shadcn-ui_cn.png",
       "photo_id": "122094941409476221",
-      "published_post_id": null,
-      "published_at": null
+      "published_post_id": "1410193715501138_122095077615476221",
+      "published_at": "2026-09-06T09:18:57.380190+00:00"
     },
     {
       "rank": 4,
