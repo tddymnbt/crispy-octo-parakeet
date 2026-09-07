@@ -1,0 +1,54 @@
+{
+  "top_repositories": [
+    {
+      "rank": 1,
+      "name": "ashemag/human-atlas",
+      "score": 96,
+      "reason": "Rapidly surging open-source 3D anatomy explorer featuring over 2,200 selectable BodyParts3D meshes, system layers, and interactive exploded views.",
+      "why_interesting_today": "It bridges complex medical visualization with modern web tech, catching massive developer and designer attention right out of the gate with stellar fork and star growth.",
+      "why_developers_should_care": "Provides an exceptionally clean, open-source reference implementation for complex Three.js/WebGL 3D rendering architectures in the browser without relying on proprietary engines.",
+      "momentum": "Explosive initial momentum with 877 new stars and 211 forks within days of launch.",
+      "novelty": "High novelty in bringing comprehensive, granular 3D medical anatomy to an open-source browser stack."
+    },
+    {
+      "rank": 2,
+      "name": "lnkiai/m3e-canvas",
+      "score": 94,
+      "reason": "Brings Google's Material 3 Expressive design system directly into the browser as an interactive canvas for vibe-coding prompt generation.",
+      "why_interesting_today": "Taps directly into the emerging 'vibe-coding' and AI prompt engineering zeitgeist by letting developers sketch UI layouts visually and turn them into structured LLM prompts.",
+      "why_developers_should_care": "Accelerates the frontend development workflow by bridging UI design systems and AI coding assistants seamlessly.",
+      "momentum": "Strong viral growth with 475 star gains and solid fork momentum shortly after release.",
+      "novelty": "Very high; merges visual canvas sketching directly with next-gen vibe-coding prompt workflows."
+    },
+    {
+      "rank": 3,
+      "name": "2akouwu/reverify",
+      "score": 92,
+      "reason": "An anti-hallucination verification engine and MCP server designed to check AI-generated claims against ground truth and deterministic tools.",
+      "why_interesting_today": "As AI coding agents and LLM usage hit production bottlenecks, solving hallucinations with cryptographic and deterministic proof layers is the industry's top priority.",
+      "why_developers_should_care": "Offers a plug-and-play Model Context Protocol (MCP) server that forces LLMs to cross-reference claims against objective ground truth, drastically reducing bugs in automated workflows.",
+      "momentum": "Healthy upward trajectory showing strong developer interest in reliability tooling.",
+      "novelty": "High novelty in tackling AI hallucination not through prompt engineering, but through deterministic tool verification and MCP integration."
+    },
+    {
+      "rank": 4,
+      "name": "nahrek/polyledger",
+      "score": 89,
+      "reason": "A high-performance, resumable Polymarket indexer combining CLOB market metadata and on-chain Polygon trades into a single DuckDB file.",
+      "why_interesting_today": "Prediction markets and decentralized finance data engineering are seeing unprecedented focus; packaging complex on-chain data into portable analytics files is brilliant.",
+      "why_developers_should_care": "Allows data scientists and developers to query massive prediction market historical datasets instantly using standard SQL via DuckDB.",
+      "momentum": "Steady organic traction with robust fork metrics relative to its niche.",
+      "novelty": "Great practical novelty for developers looking to analyze prediction market data without heavy backend infrastructure."
+    },
+    {
+      "rank": 5,
+      "name": "Human-Agent-Society/reef",
+      "score": 88,
+      "reason": "Dedicated continual learning infrastructure tailored specifically for self-improving autonomous AI agents.",
+      "why_interesting_today": "Static AI agents are rapidly giving way to self-improving systems that learn from execution feedback loops, making infrastructure like Reef extremely timely.",
+      "why_developers_should_care": "Provides the missing runtime and memory plumbing required to build agents that actually improve over time rather than resetting context on every run.",
+      "momentum": "Consistent star and fork momentum from advanced AI engineering circles.",
+      "novelty": "Pioneering architectural pattern focusing on continual reinforcement learning loops specifically for agentic infrastructure."
+    }
+  ]
+}

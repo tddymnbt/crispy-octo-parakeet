@@ -1,0 +1,407 @@
+{
+  "snapshot_date": "2026-09-07",
+  "generated_at": "2026-09-07T03:39:01.370923+00:00",
+  "candidate_count": 40,
+  "repositories": [
+    {
+      "name": "public-apis/public-apis",
+      "url": "https://github.com/public-apis/public-apis",
+      "stars": 476571,
+      "forks": 52616,
+      "language": "Python",
+      "created_at": "2016-03-20T23:49:42Z",
+      "updated_at": "2026-09-07T03:37:10Z",
+      "pushed_at": "2026-09-05T21:46:01Z"
+    },
+    {
+      "name": "freeCodeCamp/freeCodeCamp",
+      "url": "https://github.com/freeCodeCamp/freeCodeCamp",
+      "stars": 455138,
+      "forks": 46146,
+      "language": "TypeScript",
+      "created_at": "2014-12-24T17:49:19Z",
+      "updated_at": "2026-09-07T02:56:06Z",
+      "pushed_at": "2026-09-05T12:07:18Z"
+    },
+    {
+      "name": "EbookFoundation/free-programming-books",
+      "url": "https://github.com/EbookFoundation/free-programming-books",
+      "stars": 396142,
+      "forks": 66742,
+      "language": "Python",
+      "created_at": "2013-10-11T06:50:37Z",
+      "updated_at": "2026-09-07T03:32:41Z",
+      "pushed_at": "2026-09-06T22:01:27Z"
+    },
+    {
+      "name": "openclaw/openclaw",
+      "url": "https://github.com/openclaw/openclaw",
+      "stars": 389063,
+      "forks": 81759,
+      "language": "TypeScript",
+      "created_at": "2025-11-24T10:16:47Z",
+      "updated_at": "2026-09-07T03:38:37Z",
+      "pushed_at": "2026-09-07T03:38:21Z"
+    },
+    {
+      "name": "awesome-selfhosted/awesome-selfhosted",
+      "url": "https://github.com/awesome-selfhosted/awesome-selfhosted",
+      "stars": 317559,
+      "forks": 14937,
+      "language": null,
+      "created_at": "2015-06-01T02:33:17Z",
+      "updated_at": "2026-09-07T03:34:21Z",
+      "pushed_at": "2026-09-06T10:18:28Z"
+    },
+    {
+      "name": "affaan-m/ECC",
+      "url": "https://github.com/affaan-m/ECC",
+      "stars": 251580,
+      "forks": 37811,
+      "language": "JavaScript",
+      "created_at": "2026-01-18T00:51:51Z",
+      "updated_at": "2026-09-07T03:38:52Z",
+      "pushed_at": "2026-09-05T21:47:27Z"
+    },
+    {
+      "name": "torvalds/linux",
+      "url": "https://github.com/torvalds/linux",
+      "stars": 246896,
+      "forks": 64357,
+      "language": "C",
+      "created_at": "2011-09-04T22:48:12Z",
+      "updated_at": "2026-09-07T03:30:18Z",
+      "pushed_at": "2026-09-06T22:09:35Z"
+    },
+    {
+      "name": "NousResearch/hermes-agent",
+      "url": "https://github.com/NousResearch/hermes-agent",
+      "stars": 242629,
+      "forks": 49899,
+      "language": "Python",
+      "created_at": "2025-07-22T22:22:28Z",
+      "updated_at": "2026-09-07T03:38:48Z",
+      "pushed_at": "2026-09-07T03:31:50Z"
+    },
+    {
+      "name": "TheAlgorithms/Python",
+      "url": "https://github.com/TheAlgorithms/Python",
+      "stars": 224324,
+      "forks": 51022,
+      "language": "Python",
+      "created_at": "2016-07-16T09:44:01Z",
+      "updated_at": "2026-09-07T03:26:36Z",
+      "pushed_at": "2026-09-06T21:24:03Z"
+    },
+    {
+      "name": "anomalyco/opencode",
+      "url": "https://github.com/anomalyco/opencode",
+      "stars": 205337,
+      "forks": 26782,
+      "language": "TypeScript",
+      "created_at": "2025-04-30T20:08:00Z",
+      "updated_at": "2026-09-07T03:38:42Z",
+      "pushed_at": "2026-09-07T03:35:58Z"
+    },
+    {
+      "name": "n8n-io/n8n",
+      "url": "https://github.com/n8n-io/n8n",
+      "stars": 203579,
+      "forks": 60590,
+      "language": "TypeScript",
+      "created_at": "2019-06-22T09:24:21Z",
+      "updated_at": "2026-09-07T03:29:52Z",
+      "pushed_at": "2026-09-07T03:13:59Z"
+    },
+    {
+      "name": "tensorflow/tensorflow",
+      "url": "https://github.com/tensorflow/tensorflow",
+      "stars": 198907,
+      "forks": 76289,
+      "language": "C++",
+      "created_at": "2015-11-07T01:19:20Z",
+      "updated_at": "2026-09-07T03:19:10Z",
+      "pushed_at": "2026-09-07T03:35:24Z"
+    },
+    {
+      "name": "microsoft/vscode",
+      "url": "https://github.com/microsoft/vscode",
+      "stars": 190991,
+      "forks": 42021,
+      "language": "TypeScript",
+      "created_at": "2015-09-03T20:23:38Z",
+      "updated_at": "2026-09-07T03:24:37Z",
+      "pushed_at": "2026-09-07T02:30:41Z"
+    },
+    {
+      "name": "ohmyzsh/ohmyzsh",
+      "url": "https://github.com/ohmyzsh/ohmyzsh",
+      "stars": 189602,
+      "forks": 26591,
+      "language": "Shell",
+      "created_at": "2009-08-28T18:15:37Z",
+      "updated_at": "2026-09-07T02:40:22Z",
+      "pushed_at": "2026-09-06T20:09:02Z"
+    },
+    {
+      "name": "Significant-Gravitas/AutoGPT",
+      "url": "https://github.com/Significant-Gravitas/AutoGPT",
+      "stars": 187176,
+      "forks": 46040,
+      "language": "Python",
+      "created_at": "2023-03-16T09:21:07Z",
+      "updated_at": "2026-09-07T03:07:11Z",
+      "pushed_at": "2026-09-07T03:14:05Z"
+    },
+    {
+      "name": "avelino/awesome-go",
+      "url": "https://github.com/avelino/awesome-go",
+      "stars": 183369,
+      "forks": 13548,
+      "language": "Go",
+      "created_at": "2014-07-06T13:42:15Z",
+      "updated_at": "2026-09-07T03:30:23Z",
+      "pushed_at": "2026-09-06T05:24:00Z"
+    },
+    {
+      "name": "ollama/ollama",
+      "url": "https://github.com/ollama/ollama",
+      "stars": 180331,
+      "forks": 17734,
+      "language": "Go",
+      "created_at": "2023-06-26T19:39:32Z",
+      "updated_at": "2026-09-07T03:27:34Z",
+      "pushed_at": "2026-09-05T00:52:34Z"
+    },
+    {
+      "name": "flutter/flutter",
+      "url": "https://github.com/flutter/flutter",
+      "stars": 178816,
+      "forks": 31064,
+      "language": "Dart",
+      "created_at": "2015-03-06T22:54:58Z",
+      "updated_at": "2026-09-07T03:34:20Z",
+      "pushed_at": "2026-09-06T15:43:07Z"
+    },
+    {
+      "name": "firecrawl/firecrawl",
+      "url": "https://github.com/firecrawl/firecrawl",
+      "stars": 177317,
+      "forks": 9686,
+      "language": "TypeScript",
+      "created_at": "2024-04-15T21:02:29Z",
+      "updated_at": "2026-09-07T03:34:25Z",
+      "pushed_at": "2026-09-06T22:59:39Z"
+    },
+    {
+      "name": "twbs/bootstrap",
+      "url": "https://github.com/twbs/bootstrap",
+      "stars": 174733,
+      "forks": 78614,
+      "language": "MDX",
+      "created_at": "2011-07-29T21:19:00Z",
+      "updated_at": "2026-09-06T21:33:44Z",
+      "pushed_at": "2026-09-06T05:49:50Z"
+    },
+    {
+      "name": "lnkiai/m3e-canvas",
+      "url": "https://github.com/lnkiai/m3e-canvas",
+      "stars": 4336,
+      "forks": 374,
+      "language": "TypeScript",
+      "created_at": "2026-09-02T04:36:34Z",
+      "updated_at": "2026-09-07T03:35:08Z",
+      "pushed_at": "2026-09-07T03:34:30Z"
+    },
+    {
+      "name": "anthropics/commerce-agents",
+      "url": "https://github.com/anthropics/commerce-agents",
+      "stars": 2247,
+      "forks": 386,
+      "language": "Python",
+      "created_at": "2026-09-01T12:30:12Z",
+      "updated_at": "2026-09-07T03:36:56Z",
+      "pushed_at": "2026-09-01T20:41:14Z"
+    },
+    {
+      "name": "ashemag/human-atlas",
+      "url": "https://github.com/ashemag/human-atlas",
+      "stars": 1430,
+      "forks": 372,
+      "language": "TypeScript",
+      "created_at": "2026-09-05T00:24:43Z",
+      "updated_at": "2026-09-07T03:38:56Z",
+      "pushed_at": "2026-09-06T23:35:06Z"
+    },
+    {
+      "name": "Rion-Wu-tech/wechat-intelligence-hub",
+      "url": "https://github.com/Rion-Wu-tech/wechat-intelligence-hub",
+      "stars": 1259,
+      "forks": 1439,
+      "language": "Python",
+      "created_at": "2026-09-04T15:00:53Z",
+      "updated_at": "2026-09-07T03:38:38Z",
+      "pushed_at": "2026-09-05T22:55:53Z"
+    },
+    {
+      "name": "shadcn-ui/cn",
+      "url": "https://github.com/shadcn-ui/cn",
+      "stars": 1217,
+      "forks": 10,
+      "language": "TypeScript",
+      "created_at": "2026-08-31T07:04:03Z",
+      "updated_at": "2026-09-07T03:38:25Z",
+      "pushed_at": "2026-09-06T12:12:41Z"
+    },
+    {
+      "name": "GangTailorUpgrade/undress-service",
+      "url": "https://github.com/GangTailorUpgrade/undress-service",
+      "stars": 1136,
+      "forks": 1,
+      "language": "Python",
+      "created_at": "2026-08-31T00:12:45Z",
+      "updated_at": "2026-09-07T02:25:57Z",
+      "pushed_at": "2026-09-02T13:58:48Z"
+    },
+    {
+      "name": "2akouwu/reverify",
+      "url": "https://github.com/2akouwu/reverify",
+      "stars": 969,
+      "forks": 208,
+      "language": "Python",
+      "created_at": "2026-08-31T01:02:18Z",
+      "updated_at": "2026-09-07T02:30:39Z",
+      "pushed_at": "2026-09-07T01:39:09Z"
+    },
+    {
+      "name": "pierrenade/short-video-generator-AI",
+      "url": "https://github.com/pierrenade/short-video-generator-AI",
+      "stars": 962,
+      "forks": 155,
+      "language": "Python",
+      "created_at": "2026-09-05T11:55:18Z",
+      "updated_at": "2026-09-07T03:34:16Z",
+      "pushed_at": "2026-09-05T12:12:29Z"
+    },
+    {
+      "name": "sebbbi/NoGraphicsAPI",
+      "url": "https://github.com/sebbbi/NoGraphicsAPI",
+      "stars": 899,
+      "forks": 26,
+      "language": "C++",
+      "created_at": "2026-08-31T14:14:12Z",
+      "updated_at": "2026-09-07T03:30:49Z",
+      "pushed_at": "2026-09-06T20:57:00Z"
+    },
+    {
+      "name": "anthropics/fermats-last-theorem",
+      "url": "https://github.com/anthropics/fermats-last-theorem",
+      "stars": 859,
+      "forks": 72,
+      "language": "Lean",
+      "created_at": "2026-09-04T14:21:04Z",
+      "updated_at": "2026-09-07T03:38:36Z",
+      "pushed_at": "2026-09-04T14:59:12Z"
+    },
+    {
+      "name": "yczz/oc-english",
+      "url": "https://github.com/yczz/oc-english",
+      "stars": 839,
+      "forks": 12,
+      "language": "JavaScript",
+      "created_at": "2026-09-01T23:45:27Z",
+      "updated_at": "2026-09-07T03:36:22Z",
+      "pushed_at": "2026-09-05T14:46:39Z"
+    },
+    {
+      "name": "danielblnc/DLSS-NR-on-AMD",
+      "url": "https://github.com/danielblnc/DLSS-NR-on-AMD",
+      "stars": 782,
+      "forks": 34,
+      "language": null,
+      "created_at": "2026-09-03T00:42:03Z",
+      "updated_at": "2026-09-07T03:29:05Z",
+      "pushed_at": "2026-09-06T18:04:43Z"
+    },
+    {
+      "name": "vinzdg/codenotch",
+      "url": "https://github.com/vinzdg/codenotch",
+      "stars": 731,
+      "forks": 99,
+      "language": "Swift",
+      "created_at": "2026-09-05T14:55:35Z",
+      "updated_at": "2026-09-07T03:38:05Z",
+      "pushed_at": "2026-09-07T02:38:34Z"
+    },
+    {
+      "name": "nahrek/polyledger",
+      "url": "https://github.com/nahrek/polyledger",
+      "stars": 620,
+      "forks": 109,
+      "language": "Python",
+      "created_at": "2026-09-02T17:00:13Z",
+      "updated_at": "2026-09-06T00:03:52Z",
+      "pushed_at": "2026-09-02T19:48:22Z"
+    },
+    {
+      "name": "Albert-Weasker/niubigeo",
+      "url": "https://github.com/Albert-Weasker/niubigeo",
+      "stars": 614,
+      "forks": 51,
+      "language": "TypeScript",
+      "created_at": "2026-09-03T15:55:54Z",
+      "updated_at": "2026-09-07T03:33:31Z",
+      "pushed_at": "2026-09-06T03:08:03Z"
+    },
+    {
+      "name": "Human-Agent-Society/reef",
+      "url": "https://github.com/Human-Agent-Society/reef",
+      "stars": 578,
+      "forks": 42,
+      "language": "Python",
+      "created_at": "2026-08-31T01:39:18Z",
+      "updated_at": "2026-09-07T03:32:54Z",
+      "pushed_at": "2026-09-07T03:38:58Z"
+    },
+    {
+      "name": "codejunkie99/fable-orchestrator",
+      "url": "https://github.com/codejunkie99/fable-orchestrator",
+      "stars": 549,
+      "forks": 100,
+      "language": "Shell",
+      "created_at": "2026-09-02T21:48:23Z",
+      "updated_at": "2026-09-07T03:09:20Z",
+      "pushed_at": "2026-09-04T19:50:23Z"
+    },
+    {
+      "name": "KJGX66F/usque-custom-pro",
+      "url": "https://github.com/KJGX66F/usque-custom-pro",
+      "stars": 539,
+      "forks": 783,
+      "language": "JavaScript",
+      "created_at": "2026-09-04T01:15:28Z",
+      "updated_at": "2026-09-07T03:17:13Z",
+      "pushed_at": "2026-09-06T10:54:08Z"
+    },
+    {
+      "name": "MSNightmare/FalconFlank",
+      "url": "https://github.com/MSNightmare/FalconFlank",
+      "stars": 530,
+      "forks": 140,
+      "language": "C",
+      "created_at": "2026-09-03T02:48:22Z",
+      "updated_at": "2026-09-07T02:30:26Z",
+      "pushed_at": "2026-09-03T03:44:38Z"
+    },
+    {
+      "name": "faisalkindi/DLSS5oneclick",
+      "url": "https://github.com/faisalkindi/DLSS5oneclick",
+      "stars": 518,
+      "forks": 31,
+      "language": "Rust",
+      "created_at": "2026-08-31T02:12:29Z",
+      "updated_at": "2026-09-07T03:35:59Z",
+      "pushed_at": "2026-09-07T03:20:19Z"
+    }
+  ]
+}
