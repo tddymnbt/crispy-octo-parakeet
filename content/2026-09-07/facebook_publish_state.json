@@ -26,8 +26,8 @@
       "caption": "Stop wasting hours trying to verbally explain UI layouts, padding, and state transitions to your AI coding assistant! 🛑\n\nM3E Canvas bridges modern UI/UX design systems and AI code generation, letting you visually sketch Material 3 Expressive screens and instantly compile them into precise 'vibe-coding' prompts.\n\nWe’ve all been there: battling verbose text prompts to get Claude Code, Cursor, or your favorite AI tool to understand a complex frontend layout. M3E Canvas solves this friction by serving as a visual intermediate layer. You sketch the screens, and it generates structured, precise natural-language prompts that ensure clean, consistent UI generation on the very first try. 🚀\n\n✨ Key Features:\n• Material 3 Expressive UI & Magnetic Connections: Drag-and-drop toolkit with shape-morphing loaders and smart components that fuse dynamically.\n• Interactive Flow & Responsive Preview: Multi-screen linking with directional transitions, swipe gestures, and instant scaling between mobile and desktop formats.\n• Context-Aware Prompt Compiler: Automatically translates spatial layouts, z-order overlaps, and multi-screen relationships into structured prompts for your target stack.\n• Zero-Backend Client-Side Architecture: Built as a static Next.js/React export relying on localStorage, with optional BYO-key AI integration.\n\nWhether you are rapidly bootstrapping cross-platform mobile apps or mapping out complex multi-screen user journeys, this is the ultimate blueprint for your AI coding agents. \n\nCheck out the repository and level up your vibe-coding workflow today:\nhttps://github.com/lnkiai/m3e-canvas\n\nDrop a comment below: Are you using AI for frontend scaffolding yet? 👇\n\n#AI #WebDev #UIUX #OpenSource #DeveloperTools #Coding #React #MaterialDesign",
       "image_file": "3_lnkiai_m3e-canvas.png",
       "photo_id": "122095533147476221",
-      "published_post_id": null,
-      "published_at": null
+      "published_post_id": "1410193715501138_122095798785476221",
+      "published_at": "2026-09-07T21:09:56.814813+08:00"
     },
     {
       "rank": 4,
