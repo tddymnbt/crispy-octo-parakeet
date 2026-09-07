@@ -2,53 +2,53 @@
   "top_repositories": [
     {
       "rank": 1,
-      "name": "affaan-m/ECC",
-      "score": 98,
-      "reason": "An exceptionally fast-growing performance optimization system and harness for modern AI coding tools and agents like Claude Code and Cursor, hitting over 1,200 daily star growth.",
-      "why_interesting_today": "As developers lean heavily into autonomous coding agents, managing context, memory, skills, and security has become the primary bottleneck. ECC targets this exact developer pain point.",
-      "why_developers_should_care": "It provides a robust, research-first harness that can drastically improve the output reliability and performance of your existing AI coding workflows.",
-      "momentum": "Explosive, with massive daily star and fork growth reflecting urgent industry interest in agent optimization.",
-      "novelty": "High; systematically approaches prompt/context engineering and skill extension as a unified harness layer rather than isolated prompts."
+      "name": "ashemag/human-atlas",
+      "score": 96,
+      "reason": "Rapidly surging open-source 3D anatomy explorer featuring over 2,200 selectable BodyParts3D meshes, system layers, and interactive exploded views.",
+      "why_interesting_today": "It bridges complex medical visualization with modern web tech, catching massive developer and designer attention right out of the gate with stellar fork and star growth.",
+      "why_developers_should_care": "Provides an exceptionally clean, open-source reference implementation for complex Three.js/WebGL 3D rendering architectures in the browser without relying on proprietary engines.",
+      "momentum": "Explosive initial momentum with 877 new stars and 211 forks within days of launch.",
+      "novelty": "High novelty in bringing comprehensive, granular 3D medical anatomy to an open-source browser stack."
     },
     {
       "rank": 2,
-      "name": "ashemag/human-atlas",
-      "score": 92,
-      "reason": "An open-source 3D anatomy explorer featuring over 2,200 selectable BodyParts3D meshes, system layers, search capabilities, and exploded views in a modern TypeScript interface.",
-      "why_interesting_today": "It offers an extraordinarily detailed visualization project with immediate utility for educational, medical-tech, and WebGL developers looking for complex 3D rendering examples.",
-      "why_developers_should_care": "It serves as a stellar reference implementation for handling large-scale 3D mesh hierarchies and interactive UI layers in the browser.",
-      "momentum": "Very strong initial momentum with over 800 stars gained shortly after launch.",
-      "novelty": "High for a web-based open-source tool, bringing high-fidelity anatomical 3D data directly into browser clients without heavy plugins."
+      "name": "lnkiai/m3e-canvas",
+      "score": 94,
+      "reason": "Brings Google's Material 3 Expressive design system directly into the browser as an interactive canvas for vibe-coding prompt generation.",
+      "why_interesting_today": "Taps directly into the emerging 'vibe-coding' and AI prompt engineering zeitgeist by letting developers sketch UI layouts visually and turn them into structured LLM prompts.",
+      "why_developers_should_care": "Accelerates the frontend development workflow by bridging UI design systems and AI coding assistants seamlessly.",
+      "momentum": "Strong viral growth with 475 star gains and solid fork momentum shortly after release.",
+      "novelty": "Very high; merges visual canvas sketching directly with next-gen vibe-coding prompt workflows."
     },
     {
       "rank": 3,
-      "name": "lnkiai/m3e-canvas",
-      "score": 90,
-      "reason": "A browser-based design tool built for sketching Material 3 Expressive screens and seamlessly converting them into 'vibe-coding' prompts.",
-      "why_interesting_today": "It bridges the gap between modern UI/UX design systems and prompt engineering, aligning perfectly with the emerging trend of vibe-coding and rapid prototyping.",
-      "why_developers_should_care": "It enables frontend engineers and designers to turn visual layouts into structured code prompts instantly, cutting down iteration loops.",
-      "momentum": "Rapidly accelerating with over 400 new stars and solid engagement right out of the gate.",
-      "novelty": "Very high; directly targets the intersection of visual design tokens (Material 3 Expressive) and AI prompt generation."
+      "name": "2akouwu/reverify",
+      "score": 92,
+      "reason": "An anti-hallucination verification engine and MCP server designed to check AI-generated claims against ground truth and deterministic tools.",
+      "why_interesting_today": "As AI coding agents and LLM usage hit production bottlenecks, solving hallucinations with cryptographic and deterministic proof layers is the industry's top priority.",
+      "why_developers_should_care": "Offers a plug-and-play Model Context Protocol (MCP) server that forces LLMs to cross-reference claims against objective ground truth, drastically reducing bugs in automated workflows.",
+      "momentum": "Healthy upward trajectory showing strong developer interest in reliability tooling.",
+      "novelty": "High novelty in tackling AI hallucination not through prompt engineering, but through deterministic tool verification and MCP integration."
     },
     {
       "rank": 4,
-      "name": "2akouwu/reverify",
-      "score": 88,
-      "reason": "An anti-hallucination MCP server and CLI tool that forces AI agents to verify every claim and code proposal against deterministic ground-truth tools.",
-      "why_interesting_today": "AI hallucination remains the single biggest hurdle in automated software engineering and complex data retrieval tasks.",
-      "why_developers_should_care": "Integrating this Model Context Protocol (MCP) server adds an automated verification gate to your AI pipeline, reducing costly bugs and fabricated library references.",
-      "momentum": "Steady, healthy growth with strong traction among developers building serious AI agent workflows.",
-      "novelty": "High; shifts the paradigm from trusting LLM generations blindly to enforcing strict, deterministic tool-based verification loops."
+      "name": "nahrek/polyledger",
+      "score": 89,
+      "reason": "A high-performance, resumable Polymarket indexer combining CLOB market metadata and on-chain Polygon trades into a single DuckDB file.",
+      "why_interesting_today": "Prediction markets and decentralized finance data engineering are seeing unprecedented focus; packaging complex on-chain data into portable analytics files is brilliant.",
+      "why_developers_should_care": "Allows data scientists and developers to query massive prediction market historical datasets instantly using standard SQL via DuckDB.",
+      "momentum": "Steady organic traction with robust fork metrics relative to its niche.",
+      "novelty": "Great practical novelty for developers looking to analyze prediction market data without heavy backend infrastructure."
     },
     {
       "rank": 5,
-      "name": "Rion-Wu-tech/wechat-intelligence-hub",
-      "score": 85,
-      "reason": "A local-first WeChat intelligence system providing a read-only CLI, searchable chat history, Codex skills, daily briefings, and opportunity tracking.",
-      "why_interesting_today": "Local-first data aggregation and personal intelligence assistants are capturing massive developer attention as privacy concerns mount.",
-      "why_developers_should_care": "It demonstrates how to build practical, local-first intelligence pipelines over closed messaging platforms using modern CLI and coding assistant extensions.",
-      "momentum": "Strong viral growth with substantial community mirroring (heavy star and fork activity).",
-      "novelty": "Moderate-to-high, combining local chat parsing with structured opportunity tracking and AI assistant integration."
+      "name": "Human-Agent-Society/reef",
+      "score": 88,
+      "reason": "Dedicated continual learning infrastructure tailored specifically for self-improving autonomous AI agents.",
+      "why_interesting_today": "Static AI agents are rapidly giving way to self-improving systems that learn from execution feedback loops, making infrastructure like Reef extremely timely.",
+      "why_developers_should_care": "Provides the missing runtime and memory plumbing required to build agents that actually improve over time rather than resetting context on every run.",
+      "momentum": "Consistent star and fork momentum from advanced AI engineering circles.",
+      "novelty": "Pioneering architectural pattern focusing on continual reinforcement learning loops specifically for agentic infrastructure."
     }
   ]
 }

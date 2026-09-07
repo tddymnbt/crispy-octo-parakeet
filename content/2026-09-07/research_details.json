@@ -3,135 +3,136 @@
   "repositories": [
     {
       "rank": 1,
-      "name": "affaan-m/ECC",
-      "score": 98,
-      "reason": "An exceptionally fast-growing performance optimization system and harness for modern AI coding tools and agents like Claude Code and Cursor, hitting over 1,200 daily star growth.",
-      "why_interesting_today": "As developers lean heavily into autonomous coding agents, managing context, memory, skills, and security has become the primary bottleneck. ECC targets this exact developer pain point.",
-      "why_developers_should_care": "It provides a robust, research-first harness that can drastically improve the output reliability and performance of your existing AI coding workflows.",
-      "momentum": "Explosive, with massive daily star and fork growth reflecting urgent industry interest in agent optimization.",
-      "novelty": "High; systematically approaches prompt/context engineering and skill extension as a unified harness layer rather than isolated prompts.",
+      "name": "ashemag/human-atlas",
+      "score": 96,
+      "reason": "Rapidly surging open-source 3D anatomy explorer featuring over 2,200 selectable BodyParts3D meshes, system layers, and interactive exploded views.",
+      "why_interesting_today": "It bridges complex medical visualization with modern web tech, catching massive developer and designer attention right out of the gate with stellar fork and star growth.",
+      "why_developers_should_care": "Provides an exceptionally clean, open-source reference implementation for complex Three.js/WebGL 3D rendering architectures in the browser without relying on proprietary engines.",
+      "momentum": "Explosive initial momentum with 877 new stars and 211 forks within days of launch.",
+      "novelty": "High novelty in bringing comprehensive, granular 3D medical anatomy to an open-source browser stack.",
       "deep_analysis": {
-        "name": "affaan-m/ECC",
-        "headline_hook": "ECC is exploding on GitHub by acting as an 'operating system' for AI coding agents, packaging context management, memory, and automated self-review into a unified harness.",
-        "core_functionality": "ECC (Agent Harness Operating System) solves the bottleneck of managing context, memory, skills, and security for autonomous AI coding tools and agents like Claude Code and Cursor. It provides a structured engineering workflow—plan, test, implement, review, verify, remember, improve—eliminating the need to manually rebuild context and constraints in every prompt.",
+        "name": "ashemag/human-atlas",
+        "headline_hook": "Explore 2,234 interactive 3D anatomy meshes right in your browser with React, Three.js, and a brilliantly optimized rendering pipeline.",
+        "core_functionality": "Human Atlas solves the challenge of rendering heavy, complex medical datasets smoothly on the web by converting the BodyParts3D adult male reference model into an interactive, high-performance 3D anatomy explorer with over 2,200 selectable meshes, 15 anatomical systems, and searchable concepts.",
         "key_features": [
-          "Comprehensive Tooling: Includes 68 specialized agents, 286 skills, and 94 legacy command shims for planning, architecture, security, and build repair.",
-          "Persistent Context & Continuous Learning: Optimizes the limited context window by turning repeated wins and workflows into reusable skills and memory rather than forcing developers to re-explain project constraints.",
-          "AgentShield Security: Integrates security scanning to safeguard autonomous coding workflows against unintended vulnerabilities or code leaks.",
-          "Multi-Harness Support: Built natively for Claude Code with capability-limited adapters spanning Cursor, Zed, GitHub Copilot, Gemini, and more."
+          "High-Performance Batch Rendering: Merges geometry and utilizes per-structure GPU textures for translation, visibility, and selection to maintain responsive orbit controls without thousands of separate draw calls.",
+          "Granular Selectability & Exploded Views: Dynamically separates the anatomical model into 2,234 individually selectable meshes and packs visible pieces into non-overlapping exploded layouts for both desktop and mobile aspect ratios.",
+          "Comprehensive Search and Inspection: Integrates indexing for 3,432 named concepts and source identifiers, supporting structural isolation, detail reading, and optional WebMCP tool integration.",
+          "Lightweight Asset Delivery: Optimizes massive medical data down to roughly 33 MB of compressed geometry using custom conversion, optimization, and compression scripts."
         ],
-        "target_audience": "AI engineers, full-stack developers, and heavy users of autonomous coding agents who want to scale their daily productivity without dealing with context degradation or security risks.",
-        "practical_developer_value": "Developers can dramatically reduce prompt fatigue and context degradation when working with AI coding tools. By installing ECC once, engineers give their AI coding assistants a structured engineering lifecycle that automatically tests, reviews its own code from a fresh context, and retains architectural memory across sessions.",
+        "target_audience": "Frontend engineers, Three.js/WebGL developers, UI/UX designers building immersive web apps, and EdTech developers.",
+        "practical_developer_value": "It serves as a masterclass in WebGL/Three.js optimization, demonstrating how to handle massive geometric datasets (millions of triangles) in the browser without tanking frame rates. Developers can study its custom conversion and compression scripts, GPU-driven transformation techniques, and responsive mobile/desktop UI integration to build high-performance data visualization tools.",
         "suggested_use_cases": [
-          "Standardizing autonomous coding workflows across a team using Claude Code or Cursor to ensure AI-generated code passes local tests and peer reviews.",
-          "Maintaining project-specific memory and custom engineering skills that persist across multiple AI-assisted coding sessions."
+          "Building interactive educational web applications for biology, physiology, and medical training.",
+          "Studying advanced Three.js architectural patterns for managing, batching, and picking thousands of distinct 3D objects."
         ]
       }
     },
     {
       "rank": 2,
-      "name": "ashemag/human-atlas",
-      "score": 92,
-      "reason": "An open-source 3D anatomy explorer featuring over 2,200 selectable BodyParts3D meshes, system layers, search capabilities, and exploded views in a modern TypeScript interface.",
-      "why_interesting_today": "It offers an extraordinarily detailed visualization project with immediate utility for educational, medical-tech, and WebGL developers looking for complex 3D rendering examples.",
-      "why_developers_should_care": "It serves as a stellar reference implementation for handling large-scale 3D mesh hierarchies and interactive UI layers in the browser.",
-      "momentum": "Very strong initial momentum with over 800 stars gained shortly after launch.",
-      "novelty": "High for a web-based open-source tool, bringing high-fidelity anatomical 3D data directly into browser clients without heavy plugins.",
+      "name": "lnkiai/m3e-canvas",
+      "score": 94,
+      "reason": "Brings Google's Material 3 Expressive design system directly into the browser as an interactive canvas for vibe-coding prompt generation.",
+      "why_interesting_today": "Taps directly into the emerging 'vibe-coding' and AI prompt engineering zeitgeist by letting developers sketch UI layouts visually and turn them into structured LLM prompts.",
+      "why_developers_should_care": "Accelerates the frontend development workflow by bridging UI design systems and AI coding assistants seamlessly.",
+      "momentum": "Strong viral growth with 475 star gains and solid fork momentum shortly after release.",
+      "novelty": "Very high; merges visual canvas sketching directly with next-gen vibe-coding prompt workflows.",
       "deep_analysis": {
-        "name": "ashemag/human-atlas",
-        "headline_hook": "Explore over 2,200 interactive 3D anatomy meshes in the browser with this high-performance React and Three.js human atlas.",
-        "core_functionality": "The project solves the complexity of rendering massive, multi-part 3D anatomical datasets efficiently in a web browser. It provides an interactive 3D explorer built on React, Three.js, and shadcn/ui that allows users to seamlessly navigate, search, inspect, and explode thousands of individual body part meshes derived from the BodyParts3D dataset without performance degradation.",
+        "name": "lnkiai/m3e-canvas",
+        "headline_hook": "Bridge the gap between visual layout sketching and AI prompt engineering with an interactive browser-based canvas for Google's Material 3 Expressive design system.",
+        "core_functionality": "M3E Canvas solves the ambiguity of text-only prompt engineering for user interfaces by providing a browser-based visual sketching tool. Developers and designers can layout multi-screen flows, connect states, apply Google's Material 3 Expressive styling, and instantly transpile the visual schema into structured, natural-language prompts tailored for AI coding agents like Claude Code, Codex, and Cursor.",
         "key_features": [
-          "High-Performance Rendering Architecture: Merges geometry into batches and uses per-structure GPU textures for translation, visibility, and selection to prevent thousands of separate draw calls.",
-          "Granular Anatomical Data: Features 2,234 individually selectable meshes, 15 anatomical systems, and 3,432 searchable named concepts packed into ~33 MB of compressed geometry.",
-          "Dynamic Exploded Views: Automatically calculates non-overlapping exploded layouts at both desktop and mobile aspect ratios to transition smoothly from an assembled body to an inventory of parts.",
-          "Advanced Validation & Tooling: Includes comprehensive scripts for mesh validation, interaction checks across multiple viewports, and an optional WebMCP integration for anatomy search."
+          "Magnetic UI Connections: Automatically fuses close components (like buttons or list items) with softening corner transitions for rapid wireframing.",
+          "Comprehensive M3 Expressive Theme Engine: Controls color systems (seed-based or presets), typography, shape morphing, and motion springs directly in the browser.",
+          "Bi-directional Multi-Screen Flow & Navigation: Supports phone and desktop viewport configurations with stateful tap/swipe transitions, arrow flow visualizations, and interactive previews.",
+          "Structured LLM Prompt Generation: Translates complex layout arrangements, layer hierarchies, and component notes into concise prompts targeting Android or web tech stacks."
         ],
-        "target_audience": "Frontend developers, WebGL/Three.js engineers, EdTech creators, and medical-tech software developers looking for complex 3D rendering and performance optimization examples.",
-        "practical_developer_value": "Developers working with complex WebGL scenes can study this repository as a masterclass in optimization—specifically how to handle massive mesh counts using batched geometry and GPU textures instead of costly individual draw calls. It provides a production-ready blueprint for building interactive, data-heavy 3D web applications with React and Vite.",
+        "target_audience": "Frontend developers, AI prompt engineers, and indie hackers leveraging 'vibe-coding' workflows who need a fast, visual way to specify complex user interfaces for AI coding assistants.",
+        "practical_developer_value": "Instead of writing lengthy, error-prone text prompts describing layout coordinates, hierarchy, and design system constraints, developers can visually compose screens in seconds. This eliminates UI layout hallucinations from LLMs, guarantees adherence to Material 3 Expressive design guidelines, and accelerates full-stack prototyping when paired with AI agents.",
         "suggested_use_cases": [
-          "Building interactive educational modules for digital textbooks and e-learning health platforms.",
-          "Serving as a reference architecture for WebGL and Three.js performance optimization in heavy data-visualization applications."
+          "Prototyping full multi-screen mobile or desktop applications visually before generating boilerplate code via Claude Code or Cursor.",
+          "Experimenting with Google's Material 3 Expressive dynamic color, shape, and motion tokens interactively without writing configuration CSS."
         ]
       }
     },
     {
       "rank": 3,
-      "name": "lnkiai/m3e-canvas",
-      "score": 90,
-      "reason": "A browser-based design tool built for sketching Material 3 Expressive screens and seamlessly converting them into 'vibe-coding' prompts.",
-      "why_interesting_today": "It bridges the gap between modern UI/UX design systems and prompt engineering, aligning perfectly with the emerging trend of vibe-coding and rapid prototyping.",
-      "why_developers_should_care": "It enables frontend engineers and designers to turn visual layouts into structured code prompts instantly, cutting down iteration loops.",
-      "momentum": "Rapidly accelerating with over 400 new stars and solid engagement right out of the gate.",
-      "novelty": "Very high; directly targets the intersection of visual design tokens (Material 3 Expressive) and AI prompt generation.",
+      "name": "2akouwu/reverify",
+      "score": 92,
+      "reason": "An anti-hallucination verification engine and MCP server designed to check AI-generated claims against ground truth and deterministic tools.",
+      "why_interesting_today": "As AI coding agents and LLM usage hit production bottlenecks, solving hallucinations with cryptographic and deterministic proof layers is the industry's top priority.",
+      "why_developers_should_care": "Offers a plug-and-play Model Context Protocol (MCP) server that forces LLMs to cross-reference claims against objective ground truth, drastically reducing bugs in automated workflows.",
+      "momentum": "Healthy upward trajectory showing strong developer interest in reliability tooling.",
+      "novelty": "High novelty in tackling AI hallucination not through prompt engineering, but through deterministic tool verification and MCP integration.",
       "deep_analysis": {
-        "name": "lnkiai/m3e-canvas",
-        "headline_hook": "M3E Canvas bridges modern UI/UX design systems and AI code generation, letting you visually sketch Material 3 Expressive screens and instantly compile them into precise 'vibe-coding' prompts.",
-        "core_functionality": "M3E Canvas solves the friction of translating design intent into AI-driven code generation. Instead of writing verbose text prompts to describe UI layouts, states, and navigation flows for AI coding tools (like Claude Code, Cursor, or Codex), developers and designers can visually sketch screens using Material 3 Expressive components, link states, and export them into structured natural-language prompts tailored for code generation.",
+        "name": "2akouwu/reverify",
+        "headline_hook": "Stop your AI from hallucinating code and binary structures by turning deterministic tools into the final legal judge of every claim.",
+        "core_functionality": "Reverify is an anti-hallucination verification engine and Model Context Protocol (MCP) server that blocks language models from asserting unverified facts. Instead of trusting an LLM's output, it forces the AI to propose structural or behavioral claims that are immediately checked against ground truth using deterministic tools (such as parsers, disassemblers, and emulators). Only claims that successfully survive verification are accepted.",
         "key_features": [
-          "Material 3 Expressive UI & Magnetic Connections: Comprehensive drag-and-drop toolkit supporting advanced M3 features, shape-morphing loaders, and smart components that fuse together dynamically when brought close.",
-          "Interactive Flow & Responsive Preview: Supports multi-screen linking with directional transitions, swipe-to-navigate gestures, and instant layout scaling between phone (412x892) and desktop (1280x800) formats.",
-          "Context-Aware Prompt Compiler: Automatically translates complex spatial layouts, z-order overlaps, and multi-screen relationships into structured, multi-lingual natural-language prompts for targeted frontend stacks.",
-          "Zero-Backend Client-Side Architecture: Built as a static Next.js/React export relying entirely on localStorage, with optional BYO-key AI integration for automated descriptions and design helpers."
+          "Deterministic Verification Loop: Intercepts AI hypotheses and runs them against a pure-Python RE toolkit (or optional backends like Capstone, Unicorn, Lief, and Z3) returning VERIFIED or REFUTED with concrete evidence.",
+          "Information-Weighted Grounding: Weighs the verified claims based on binary entropy and uniqueness (following FActScore principles), preventing the AI from passing off trivial assertions (like zero padding or standard headers) as meaningful proof.",
+          "Model Context Protocol (MCP) Integration: Out-of-the-box MCP server support allows AI coding agents like Claude Code, Cursor, and Gemini CLI to natively invoke verification tools during active sessions.",
+          "Context Rollover Mechanism: Mitigates context rot during long developer tasks by automatically handing off sessions to files and spinning up fresh ones without requiring manual '/clear' commands."
         ],
-        "target_audience": "Frontend developers, mobile app engineers, and tech-savvy product designers embracing 'vibe-coding' and rapid AI-assisted prototyping workflows.",
-        "practical_developer_value": "Developers often waste time verbally describing UI layout structures, padding, responsive scaling, and state transitions to AI coding assistants. M3E Canvas eliminates ambiguity by providing a visual intermediate layer that generates precise layout specifications, ensuring AI tools produce clean, consistent Material 3 designs on the first try without endless prompt iteration.",
+        "target_audience": "AI Engineers, Security Researchers, and Software Developers building production-grade LLM workflows, coding agents, or performing automated binary/source code analysis.",
+        "practical_developer_value": "Developers building autonomous coding agents or integrating LLMs into legacy/binary codebases face massive reliability bottlenecks due to hallucinations. Reverify acts as a cryptographic and deterministic quality gate. By dropping it into an existing MCP-compatible agent workflow or CI pipeline, developers can automatically reject erroneous AI-generated code, struct definitions, or reverse-engineering hypotheses before they ever reach production.",
         "suggested_use_cases": [
-          "Rapidly sketching cross-platform mobile app prototypes and feeding the compiled prompt directly into Claude Code or Cursor to bootstrap production-ready React/Android code.",
-          "Prototyping complex multi-screen user journeys with explicit navigation transitions to give AI coding agents a clear blueprint of app architecture."
+          "Gating CI/CD pipelines with strict verification checks to fail builds if an AI agent proposes a hallucinated patch or incorrect binary patch.",
+          "Automated malware analysis and CTF binary reconstruction where LLM hallucinations block progress and require strict ground-truth validation."
         ]
       }
     },
     {
       "rank": 4,
-      "name": "2akouwu/reverify",
-      "score": 88,
-      "reason": "An anti-hallucination MCP server and CLI tool that forces AI agents to verify every claim and code proposal against deterministic ground-truth tools.",
-      "why_interesting_today": "AI hallucination remains the single biggest hurdle in automated software engineering and complex data retrieval tasks.",
-      "why_developers_should_care": "Integrating this Model Context Protocol (MCP) server adds an automated verification gate to your AI pipeline, reducing costly bugs and fabricated library references.",
-      "momentum": "Steady, healthy growth with strong traction among developers building serious AI agent workflows.",
-      "novelty": "High; shifts the paradigm from trusting LLM generations blindly to enforcing strict, deterministic tool-based verification loops.",
+      "name": "nahrek/polyledger",
+      "score": 89,
+      "reason": "A high-performance, resumable Polymarket indexer combining CLOB market metadata and on-chain Polygon trades into a single DuckDB file.",
+      "why_interesting_today": "Prediction markets and decentralized finance data engineering are seeing unprecedented focus; packaging complex on-chain data into portable analytics files is brilliant.",
+      "why_developers_should_care": "Allows data scientists and developers to query massive prediction market historical datasets instantly using standard SQL via DuckDB.",
+      "momentum": "Steady organic traction with robust fork metrics relative to its niche.",
+      "novelty": "Great practical novelty for developers looking to analyze prediction market data without heavy backend infrastructure.",
       "deep_analysis": {
-        "name": "2akouwu/reverify",
-        "headline_hook": "Reverify stops AI hallucination in its tracks by forcing language models to propose code or claims that are strictly verified against deterministic ground-truth engines rather than trusted blindly.",
-        "core_functionality": "Reverify addresses the severe hallucination problem inherent in AI models—particularly during complex, context-heavy tasks like binary reverse engineering and code refactoring. Instead of allowing an AI agent to assert facts, structures, or API definitions on its own, Reverify Intercepts proposals via an MCP (Model Context Protocol) server or CLI and validates them against a deterministic, pure-Python or optional native engine (using Capstone, Unicorn, Lief, and Z3). It returns a strict VERIFIED or REFUTED verdict with real evidentiary bytes, ensuring that only factually grounded, informative, and non-repetitive outputs are accepted.",
+        "name": "nahrek/polyledger",
+        "headline_hook": "PolyLedger packages complex Polymarket metadata and Polygon on-chain trades into a single, highly-performant DuckDB file for instant SQL analytics.",
+        "core_functionality": "PolyLedger solves the data engineering bottleneck of analyzing decentralized prediction markets by syncing Polymarket CLOB metadata and streaming Polygon OrderFilled events (both V1 and V2 generations) into a unified, portable DuckDB database with built-in checkpointing and resumability.",
         "key_features": [
-          "Deterministic Ground-Truth Verification Engine: Validates claims across PE/ELF/Mach-O parsers, disassemblers, pattern scanners, and CPU emulators, falling back gracefully from heavy native libraries to a pure-Python core.",
-          "Model Context Protocol (MCP) Server & CLI: Integrates natively with AI development environments like Claude Code, Cursor, Codex, and Gemini CLI, functioning as a silent gatekeeper for every structural or behavioral claim.",
-          "Context Rollover (`reverify rollover`): Prevents context drift and token rot during long-running tasks by packaging session state into a clean handoff file and starting fresh.",
-          "Information Weight & Core Refinement: Measures whether a verified claim is actually informative and non-repetitive (following FActScore principles), rejecting trivial or self-referential assertions."
+          "Resumable by construction with atomic transactions committing rows and block cursors together, allowing safe interruption and instant incremental updates.",
+          "Dual contract generation decoding that seamlessly handles both legacy V1 and modern V2 OrderFilled event layouts with separate streams and checkpoints.",
+          "Robust data validation and fault-tolerant ingestion using Pydantic models for API safety, exponential backoff with jitter, and a shared token-bucket rate limiter.",
+          "Rich analytical data model that explicitly tracks maker and taker sides, converting raw amounts into clean USD sizes, shares, and execution prices without ambiguity."
         ],
-        "target_audience": "AI Engineers, Security Researchers, Malware Analysts, and Automated Software Engineering (ASE) developers.",
-        "practical_developer_value": "Developers building autonomous AI coding agents or working in low-level domains (such as security research, CTFs, and protocol parsing) can eliminate the crippling issue of confident AI hallucinations. By integrating Reverify's MCP server into their agent workflow, they can establish a trustless execution pipeline where model-generated code, binary interpretations, and refactors are mathematically tested and verified before ever entering production or CI/CD pipelines.",
+        "target_audience": "Data engineers, quantitative crypto researchers, backend developers, and analytics engineers building tools or trading strategies around prediction markets.",
+        "practical_developer_value": "Developers save dozens of hours building custom RPC scrapers, handling chain reorganizations (via built-in block buffers), and managing external database servers. PolyLedger provides an embedded analytical database file that can be queried immediately via SQL or dumped directly into Parquet files for use with pandas, polars, or Spark.",
         "suggested_use_cases": [
-          "Gating automated AI coding agents to ensure refactored source code functionally matches a reference implementation via behavior equivalence testing.",
-          "Automating secure, ground-truth binary reverse engineering and malware analysis where AI hypotheses on structures or prologues must be rigorously checked against raw bytes."
+          "Building historical backtesting engines for trading strategies based on Polymarket pricing, volume, and VWAP.",
+          "Exporting prediction market data to Parquet files to train machine learning models or run deep statistical analysis in Python notebooks."
         ]
       }
     },
     {
       "rank": 5,
-      "name": "Rion-Wu-tech/wechat-intelligence-hub",
-      "score": 85,
-      "reason": "A local-first WeChat intelligence system providing a read-only CLI, searchable chat history, Codex skills, daily briefings, and opportunity tracking.",
-      "why_interesting_today": "Local-first data aggregation and personal intelligence assistants are capturing massive developer attention as privacy concerns mount.",
-      "why_developers_should_care": "It demonstrates how to build practical, local-first intelligence pipelines over closed messaging platforms using modern CLI and coding assistant extensions.",
-      "momentum": "Strong viral growth with substantial community mirroring (heavy star and fork activity).",
-      "novelty": "Moderate-to-high, combining local chat parsing with structured opportunity tracking and AI assistant integration.",
+      "name": "Human-Agent-Society/reef",
+      "score": 88,
+      "reason": "Dedicated continual learning infrastructure tailored specifically for self-improving autonomous AI agents.",
+      "why_interesting_today": "Static AI agents are rapidly giving way to self-improving systems that learn from execution feedback loops, making infrastructure like Reef extremely timely.",
+      "why_developers_should_care": "Provides the missing runtime and memory plumbing required to build agents that actually improve over time rather than resetting context on every run.",
+      "momentum": "Consistent star and fork momentum from advanced AI engineering circles.",
+      "novelty": "Pioneering architectural pattern focusing on continual reinforcement learning loops specifically for agentic infrastructure.",
       "deep_analysis": {
-        "name": "Rion-Wu-tech/wechat-intelligence-hub",
-        "headline_hook": "Turn your local WeChat history into a searchable, privacy-first personal intelligence hub with Codex skills, daily briefs, and opportunity tracking.",
-        "core_functionality": "The project solves the problem of information overload and lost context in personal chat histories by providing a local-first, read-only system that transforms local WeChat data into actionable intelligence. It extracts contact histories, group chat topics, pending replies, unfulfilled promises, and commercial opportunities, generating structured daily briefings and comprehensive reports without relying on cloud storage or invasive message-injection hooks.",
+        "name": "Human-Agent-Society/reef",
+        "headline_hook": "Reef is the first open-source continual learning infrastructure built specifically for self-improving AI agents, bridging inference, feedback loops, and version-controlled weight or harness updates.",
+        "core_functionality": "Reef provides a unified runtime and infrastructure to execute a continuous learning loop for AI agents. It handles live traffic serving, feedback collection/matching, automated training or optimization updates (for model weights or harnesses like prompts, rules, and skills), and versioned artifact delivery without restarting the serving runtime.",
         "key_features": [
-          "Clean-room, read-only CLI architecture (`wechat-cli` & `rion-wechat-reader`) that handles schema-2 salt-key authorization and WCDB-compressed messages without hooking or modifying the WeChat client.",
-          "Codex-powered integration allowing natural language queries to search chat histories, summarize threads, track promises, and draft replies based on personal profiles and active project plans.",
-          "Dual-format reporting generating both Markdown files for archiving/AI processing and interactive HTML dashboards equipped with global search, topic filtering, and opportunity radar signals."
+          "Dual-Surface Optimization: Supports both weight-training (using Slime and SGLang) and harness optimization (evolving prompts, rules, and skills via model APIs without local training GPUs).",
+          "OpenAI- and Anthropic-Compatible Endpoints: Integrates seamlessly with existing agent workflows using standard `/v1/chat/completions` and `/v1/messages` formats alongside receipt headers (`x-reef-agent-record-id`) for tracking interaction feedback.",
+          "Four-Stage Learning Pipeline: Automates the complete lifecycle from live request serving (Serve) and feedback matching (Observe) to generation of updates (Grow) and validation/versioned publishing (Commit).",
+          "Zero-Downtime Hot Swapping: Automatically synchronizes updated model weights or agent skill configurations to the serving runtime so production traffic experiences zero disruption during updates."
         ],
-        "target_audience": "AI engineers, developer-entrepreneurs, freelancers, and power users who manage high-volume professional communication via WeChat and want local-first, AI-assisted workflow automation.",
-        "practical_developer_value": "Developers gain a robust reference implementation for local-first data aggregation, secure SQLite/SQLCipher database handling of proprietary chat formats, and Agentic CLI design (Codex skills). It demonstrates how to safely structure a clean-room reader core separated from intelligence-processing layers, making it a valuable blueprint for building custom personal intelligence assistants that respect user privacy.",
+        "target_audience": "AI Engineers, LLM Platform Engineers, and ML Researchers building autonomous agents that need to dynamically self-improve based on execution feedback.",
+        "practical_developer_value": "Instead of manually collecting agent execution traces, fine-tuning offline, and redeploying endpoints, developers can plug Reef into their live agent stack to automatically ingest feedback, trigger updates, evaluate candidate versions, and hot-swap weights or prompts on the fly.",
         "suggested_use_cases": [
-          "Automating daily executive briefings and lead-tracking from messy chat histories using natural language prompts inside Codex.",
-          "Building custom local data pipelines that parse, index, and analyze encrypted mobile or desktop chat databases securely on-device."
+          "Building an autonomous coding agent (like reef-pi) that self-corrects and updates its prompt harnesses and skills automatically when failing unit tests.",
+          "Deploying a domain-specific conversational agent that continually improves its model weights over time based on user feedback and score rewards."
         ]
       }
     }
