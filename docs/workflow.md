@@ -16,7 +16,10 @@ after its scheduled time.
 
 To run it on demand, open **Actions**, select **GitHub Daily Research**, then
 choose **Run workflow**, and select a slot. Slot 1 creates today's five post
-packages; manual slots 2-5 require slot 1 to have completed for that day.
+packages; manual slots 2-5 require slot 1 to have completed for that PHT day.
+If Slot 1 failed or did not complete, later scheduled slots safely skip. Run
+Slot 1 manually to recover; a failed later publishing slot does not stop the
+next scheduled slot.
 
 ## Pipeline
 
@@ -31,7 +34,11 @@ The workflow runs these stages in order:
    IDs in the daily publish state.
 7. Publish slot 1 immediately, then publish one saved media ID and caption at
    each later slot.
-8. Commit the text archive/publish state and upload the complete `output/`
+8. Record each successfully published repository in Git-tracked history. A
+   repository is excluded from the next 14 days of rankings; if fewer than
+   five eligible candidates remain, the least recently posted candidates are
+   reintroduced only as a fallback.
+9. Commit the text archive/publish state and upload the complete `output/`
    directory as a seven-day Actions artifact.
 
 ## Output layout
@@ -45,6 +52,7 @@ The workflow runs these stages in order:
 | `output/screenshots/final/` | Verified 1080x1350 PNGs published to Facebook |
 | `content/YYYY-MM-DD/facebook_publish_state.json` | Unpublished photo IDs, captions, and publication status |
 | `content/YYYY-MM-DD/` | Versioned daily text archive |
+| `data/posting_history.json` | Successful posts used for the 14-day repetition cooldown |
 
 ## Facebook publishing
 

@@ -130,6 +130,10 @@ def main() -> None:
         sys.exit("No top repositories found in top5.json.")
     RAW_DIR.mkdir(parents=True, exist_ok=True)
     FINAL_DIR.mkdir(parents=True, exist_ok=True)
+    # A failed capture must not be masked by an image left by an earlier run.
+    for directory in (RAW_DIR, FINAL_DIR):
+        for image_path in directory.glob("*.png"):
+            image_path.unlink()
     successful = failed = 0
     with sync_playwright() as playwright:
         browser = playwright.chromium.launch(headless=True)
@@ -146,6 +150,11 @@ def main() -> None:
             print(f"Repository: {name}")
             try:
                 page.goto(f"https://github.com/{name}", wait_until="domcontentloaded", timeout=45_000)
+                try:
+                    page.wait_for_load_state("networkidle", timeout=10_000)
+                except Exception:
+                    # GitHub can keep background requests open; rendering is still usable.
+                    pass
                 page.wait_for_timeout(1_500)
                 readme = first_meaningful_locator(page)
                 if readme is None:

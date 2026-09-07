@@ -96,7 +96,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/history/ content/ output/candidates.json output/top5.json output/research_details.json output/captions.json
+          git add data/ content/ output/candidates.json output/top5.json output/research_details.json output/captions.json
           if git diff --cached --quiet; then
             echo "No changes to commit."
           else
@@ -142,17 +142,23 @@ jobs:
           esac
           echo "slot=$SLOT" >> "$GITHUB_OUTPUT"
 
+      - name: Verify Slot 1 preparation completed
+        id: preflight
+        run: python scripts/verify_slot_ready.py --slot ${{ steps.slot.outputs.slot }}
+
       - name: Publish scheduled Facebook Page post
+        if: steps.preflight.outputs.ready == 'true'
         env:
           META_PAGE_ACCESS_TOKEN: ${{ secrets.META_PAGE_ACCESS_TOKEN }}
           META_PAGE_ID: ${{ secrets.META_PAGE_ID }}
         run: python scripts/publish_facebook.py --slot ${{ steps.slot.outputs.slot }}
 
       - name: Commit publishing state
+        if: steps.preflight.outputs.ready == 'true'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add content/
+          git add data/ content/
           if git diff --cached --quiet; then
             echo "No publishing-state changes to commit."
           else

@@ -5,9 +5,10 @@ import json
 import mimetypes
 import os
 import uuid
-from datetime import datetime, timezone
 from pathlib import Path
 from urllib import error, parse, request
+
+from posting_history import now_pht, record_successful_post
 
 
 CAPTIONS_FILE = Path("output/captions.json")
@@ -25,7 +26,7 @@ def require_environment(name):
 
 
 def state_path():
-    date = datetime.now(timezone.utc).strftime("%Y-%m-%d")
+    date = now_pht().strftime("%Y-%m-%d")
     return CONTENT_DIR / date / "facebook_publish_state.json"
 
 
@@ -169,8 +170,8 @@ def prepare_state(page_id, access_token, path):
         )
     validate_posts(posts)
     state = {
-        "date": datetime.now(timezone.utc).strftime("%Y-%m-%d"),
-        "prepared_at": datetime.now(timezone.utc).isoformat(),
+        "date": now_pht().strftime("%Y-%m-%d"),
+        "prepared_at": now_pht().isoformat(),
         "posts": posts,
     }
     write_state(path, state)
@@ -213,8 +214,10 @@ def main():
     print(f"Publishing Facebook Page post for slot {args.slot}: {post['repo_name']}")
     post_id = publish_post(page_id, access_token, post["caption"], post["photo_id"])
     post["published_post_id"] = post_id
-    post["published_at"] = datetime.now(timezone.utc).isoformat()
+    post["published_at"] = now_pht().isoformat()
     write_state(path, state)
+    recorded = record_successful_post(post["repo_name"], post_id, args.slot)
+    print("Recorded repository in posting history." if recorded else "Posting history already contains this post.")
     print(f"Published Facebook Post ID: {post_id}")
 
 

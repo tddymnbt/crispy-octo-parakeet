@@ -19,7 +19,9 @@ repository's **Actions** tab.
    slot 1, and archives the daily publishing state.
 5. Publishes slots 2-5 from the saved media IDs and captions throughout the
    day, then records each Facebook post ID in the archive.
-6. Retains complete outputs as a seven-day workflow artifact. Screenshots are
+6. Excludes repositories successfully posted in the previous 14 days, using
+   Git-tracked posting history shared by scheduled and manual runs.
+7. Retains complete outputs as a seven-day workflow artifact. Screenshots are
    not committed to Git.
 
 ## Required repository secrets

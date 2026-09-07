@@ -4,6 +4,8 @@ import urllib.error
 import urllib.request
 from datetime import datetime, timedelta, timezone
 
+from posting_history import load_history, normalize_repository, recently_posted_repositories
+
 CANDIDATES_FILE = "output/candidates.json"
 HISTORY_DIR = "data/history"
 
@@ -148,6 +150,9 @@ Avoid:
 
 Aim for a diverse and interesting daily Top 5.
 
+The supplied candidate pool has already excluded repositories posted in the
+last 14 days. Do not add repositories outside this candidate pool.
+
 For each selected repository provide:
 
 - rank
@@ -182,6 +187,40 @@ Candidate repositories:
 
 {candidates_json}
 """
+
+
+def candidate_pool_with_variety(candidates):
+    """Exclude successfully posted repositories for 14 days, with a safe fallback."""
+    history = load_history()
+    recent = recently_posted_repositories(history)
+    eligible = [repo for repo in candidates if normalize_repository(repo["name"]) not in recent]
+    if len(eligible) >= 5:
+        print(f"Recent-post exclusions: {len(candidates) - len(eligible)}; eligible candidates: {len(eligible)}")
+        return eligible, recent
+
+    # A five-post day must remain possible even with a very small candidate pool.
+    # Reintroduce the least recently posted repositories first.
+    excluded = [repo for repo in candidates if normalize_repository(repo["name"]) in recent]
+    excluded.sort(key=lambda repo: recent[normalize_repository(repo["name"])])
+    fallback = eligible + excluded[: 5 - len(eligible)]
+    print(
+        "Only "
+        f"{len(eligible)} repositories were outside the 14-day cooldown; "
+        f"reintroducing {len(fallback) - len(eligible)} least-recently-posted candidate(s)."
+    )
+    return fallback, recent
+
+
+def validate_ranking(top_repositories, candidates):
+    if len(top_repositories) != 5:
+        raise RuntimeError("AI did not return exactly 5 repositories.")
+    ranks = [repo.get("rank") for repo in top_repositories]
+    if sorted(ranks) != [1, 2, 3, 4, 5]:
+        raise RuntimeError("AI returned invalid or duplicate repository ranks.")
+    candidate_names = {normalize_repository(repo["name"]) for repo in candidates}
+    selected_names = [normalize_repository(repo.get("name", "")) for repo in top_repositories]
+    if len(set(selected_names)) != 5 or any(name not in candidate_names for name in selected_names):
+        raise RuntimeError("AI selected a duplicate repository or one outside the eligible candidate pool.")
 
 
 def call_gemini(prompt):
@@ -267,6 +306,9 @@ def main():
         previous_snapshot,
     )
 
+    candidates, _ = candidate_pool_with_variety(candidates)
+    if len(candidates) < 5:
+        raise RuntimeError("Fewer than five GitHub candidates are available for ranking.")
     prompt = build_prompt(candidates)
 
     print("======================================")
@@ -296,14 +338,7 @@ def main():
         [],
     )
 
-    if len(top_repositories) != 5:
-        raise RuntimeError(
-            "AI did not return exactly 5 repositories."
-        )
-
-    ranks = [repo.get("rank") for repo in top_repositories]
-    if sorted(ranks) != [1, 2, 3, 4, 5]:
-        raise RuntimeError("AI returned invalid or duplicate repository ranks.")
+    validate_ranking(top_repositories, candidates)
 
     os.makedirs("output", exist_ok=True)
 
