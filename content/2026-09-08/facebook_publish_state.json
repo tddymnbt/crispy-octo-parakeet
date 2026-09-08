@@ -26,8 +26,8 @@
       "caption": "Tired of guessing your AI coding limits? Codenotch pins real-time usage meters for Claude, Cursor, and Codex directly to your Mac's screen edge.\n\nJuggling multiple AI coding assistants shouldn't require constant context-switching to web dashboards or CLI commands just to check your rate limits and token quotas. \n\nEnter Codenotch: a lightweight macOS utility that aggregates usage limits and active session statuses from tools like Claude Code, Cursor, Codex, and Grok into a unified, screen-edge-pinned heads-up display.\n\nNotable Features:\n- Zero-Sign-In Architecture: Safely borrows existing credentials, session states, and OAuth tokens directly from local app keychains, databases, and config files without repetitive permission prompts.\n- Dynamic Edge Placement: Supports all four screen sides, automatically docking cleanly against the macOS hardware notch or dynamic Dock bounds.\n- Real-Time Execution Tracking: Displays a spinning arc when a session is active and a pulsing amber alert when an assistant is blocked waiting for user input.\n- Robust Failure Handling: Gracefully degrades to visible status indicators (stale, needsAuth, error) rather than guessing metrics when API limits hit.\n- Clean Architecture Study: Built for developers interested in modular provider patterns, stack layout math, and native macOS tooling like xcodegen and Sparkle.\n\nStop getting caught off guard by rate limits mid-flow. \n\nCheck out the repository here: https://github.com/vinzdg/codenotch\n\nDrop a star if you find it useful, and let us know in the comments which AI assistants you are juggling right now!\n\n#SoftwareEngineering #AIEngineering #MacOS #DeveloperTools #OpenSource #CodingLife",
       "image_file": "3_vinzdg_codenotch.png",
       "photo_id": "122096180367476221",
-      "published_post_id": null,
-      "published_at": null
+      "published_post_id": "1410193715501138_122096438025476221",
+      "published_at": "2026-09-08T19:54:13.346965+08:00"
     },
     {
       "rank": 4,
