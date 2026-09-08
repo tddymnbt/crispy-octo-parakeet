@@ -2,53 +2,53 @@
   "top_repositories": [
     {
       "rank": 1,
-      "name": "anthropics/commerce-agents",
+      "name": "NousResearch/hermes-agent",
       "score": 96,
-      "reason": "Provides structured, real-world reference blueprints for building shopping and merchant agents with Claude, bridging LLM capabilities with complex retail domains.",
-      "why_interesting_today": "E-commerce integration is the next major frontier for consumer-facing AI agents, and having production-ready patterns helps teams move past simple chatbots.",
-      "why_developers_should_care": "Developers get clean architecture examples for handling stateful transactions, multi-turn product recommendations, and payment flows securely using Claude.",
-      "momentum": "Rapidly gaining attention with strong star and fork growth right out of the gate after being published.",
-      "novelty": "Bridges the gap between general-purpose agent frameworks and specific vertical commerce workflows."
+      "reason": "Selected for its exceptional star and fork momentum combined with high relevance to the booming autonomous AI agent ecosystem.",
+      "why_interesting_today": "Developers are actively looking for agent frameworks that scale and adapt, and Hermes Agent's recent pushes highlight rapid integration of modern LLM capabilities.",
+      "why_developers_should_care": "It offers an extensible foundation for building advanced, context-aware coding and automation agents that go beyond standard prompt wrappers.",
+      "momentum": "Extremely strong daily star and fork growth, indicating major traction in the developer community.",
+      "novelty": "High novelty in its approach to long-term agent growth and personalization compared to standard stateless agents."
     },
     {
       "rank": 2,
-      "name": "ashemag/human-atlas",
-      "score": 93,
-      "reason": "An impressive open-source 3D anatomy explorer featuring over 2,200 selectable BodyParts3D meshes, system layers, and search features.",
-      "why_interesting_today": "Demonstrates the power of modern web technologies and 3D rendering for complex scientific and educational visualization.",
-      "why_developers_should_care": "Offers a stellar architectural reference for developers working with heavy Three.js or WebGL component hierarchies and complex interactive data visualization.",
-      "momentum": "Exceptional early momentum with hundreds of stars and a very high fork-to-star ratio indicating intense developer curiosity.",
-      "novelty": "Brings comprehensive, open-source 3D medical anatomy directly into the browser with granular object selection."
+      "name": "anthropics/commerce-agents",
+      "score": 92,
+      "reason": "Selected as a high-value reference blueprint from Anthropic targeting real-world vertical agent implementations in commerce and retail.",
+      "why_interesting_today": "Provides immediately usable patterns for deploying Claude in transaction-heavy commercial environments across retail, telecom, and entertainment.",
+      "why_developers_should_care": "It bridges the gap between generic chat-based LLMs and specialized, multi-step transaction agents requiring precision and safety.",
+      "momentum": "Rapidly accumulating momentum despite being recently introduced, showing strong developer interest in domain-specific agent architectures.",
+      "novelty": "Brings structured, production-ready blueprints specifically tailored to commercial merchant use cases."
     },
     {
       "rank": 3,
-      "name": "vinzdg/codenotch",
-      "score": 91,
-      "reason": "A slick macOS utility that pins usage limits and metrics from major coding assistants like Claude Code, Cursor, and Codex directly to your screen edge.",
-      "why_interesting_today": "As developers increasingly juggle multiple AI coding tools with strict rate limits, centralized visibility becomes an immediate quality-of-life win.",
-      "why_developers_should_care": "It saves constant context-switching by keeping token budgets and rate limits transparent right in the status bar or screen edge.",
-      "momentum": "Strong organic growth across the Mac developer community as power users look for ways to manage multi-LLM workflows.",
-      "novelty": "A purpose-built utility targeting the exact pain points of modern AI-assisted software development."
+      "name": "Albert-Weasker/niubigeo",
+      "score": 88,
+      "reason": "Selected for its explosive star momentum and niche utility in open-source AI brand visibility and competitor analysis reporting.",
+      "why_interesting_today": "As AI search and recommendation systems alter organic traffic, tracking brand visibility within AI models is becoming a vital engineering and marketing concern.",
+      "why_developers_should_care": "It opens up tooling for auditing how LLMs represent and rank different commercial brands and entities.",
+      "momentum": "Exceptional early surge in stars relative to its creation date, signaling high curiosity and emerging demand.",
+      "novelty": "Addresses the novel problem of 'LLM optimization' and brand visibility tracking in AI generated outputs."
     },
     {
       "rank": 4,
-      "name": "Rion-Wu-tech/wechat-intelligence-hub",
-      "score": 89,
-      "reason": "A local-first intelligence system tailored for WeChat, offering a read-only CLI, searchable chat history, daily briefings, and opportunity tracking.",
-      "why_interesting_today": "Tackles the challenge of extracting actionable business and personal insights from heavily siloed messaging ecosystems securely and locally.",
-      "why_developers_should_care": "Showcases local-first data ingestion patterns, CLI tooling, and LLM-powered summarization pipelines tailored for daily productivity.",
-      "momentum": "Massive fork momentum and rapid star accumulation, pointing to strong demand for regional messaging intelligence tools.",
-      "novelty": "Brings local-first AI indexing and automated briefings to one of the world's largest messaging platforms."
+      "name": "Jarvis322/macos-sysdata",
+      "score": 85,
+      "reason": "Selected for offering practical, developer-focused utility to solve a notorious macOS annoyance regarding opaque system storage usage.",
+      "why_interesting_today": "macOS developers frequently struggle with 'System Data' bloating their local SSDs; this lightweight SwiftUI menu bar app provides direct visibility and cleaning capabilities.",
+      "why_developers_should_care": "It is a well-crafted Swift utility that saves manual terminal hunting and provides fine-grained disk cleanup.",
+      "momentum": "Strong organic interest and clean implementation using modern SwiftUI and Xcode conventions.",
+      "novelty": "Transforms a notoriously opaque operating system issue into an actionable, item-by-item menu bar control interface."
     },
     {
       "rank": 5,
-      "name": "pierrenade/short-video-generator-AI",
-      "score": 87,
-      "reason": "An all-in-one open-source project designed to automate the conversion of long-form YouTube videos into viral short-form clips via highlight detection and automated subtitles.",
-      "why_interesting_today": "Content repurposing is a massive workflow bottleneck for creators, and open-source automated video pipelines lower the barrier to entry.",
-      "why_developers_should_care": "Combines transcription, AI-based highlight detection, voiceovers, and translation into a cohesive Python pipeline that can be self-hosted.",
-      "momentum": "Steady upward trajectory with solid initial engagement from developers building automated media workflows.",
-      "novelty": "Automates the end-to-end lifecycle of short-form video generation using modular AI components."
+      "name": "nahrek/polyledger",
+      "score": 83,
+      "reason": "Selected for its unique data engineering approach to indexing complex prediction market data into a queryable DuckDB file.",
+      "why_interesting_today": "Prediction markets like Polymarket generate high-volume on-chain trades and CLOB metadata that are notoriously difficult to analyze locally.",
+      "why_developers_should_care": "It provides data scientists and quants with a resumable, lightweight pipeline to query complex prediction market data using simple SQL.",
+      "momentum": "Steady engagement and clear architectural focus on modern data stack tooling (DuckDB, Hypersync).",
+      "novelty": "Bridges high-frequency decentralized prediction market data directly into local, zero-friction SQL analytics."
     }
   ]
 }
