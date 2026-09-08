@@ -2,53 +2,53 @@
   "top_repositories": [
     {
       "rank": 1,
-      "name": "NousResearch/hermes-agent",
+      "name": "anthropics/commerce-agents",
       "score": 96,
-      "reason": "Selected for its exceptional star and fork momentum combined with high relevance to the booming autonomous AI agent ecosystem.",
-      "why_interesting_today": "Developers are actively looking for agent frameworks that scale and adapt, and Hermes Agent's recent pushes highlight rapid integration of modern LLM capabilities.",
-      "why_developers_should_care": "It offers an extensible foundation for building advanced, context-aware coding and automation agents that go beyond standard prompt wrappers.",
-      "momentum": "Extremely strong daily star and fork growth, indicating major traction in the developer community.",
-      "novelty": "High novelty in its approach to long-term agent growth and personalization compared to standard stateless agents."
+      "reason": "An exceptionally practical and timely reference blueprint from Anthropic for building shopping and merchant agents using Claude, tapping into the massive wave of commercial AI integration.",
+      "why_interesting_today": "As agentic workflows move from general-purpose chatbots to domain-specific transactional tasks, developers need robust reference architectures for retail, commerce, and telecom agents.",
+      "why_developers_should_care": "It provides production-ready design patterns and examples for implementing secure, stateful, and effective commercial agent loops with Claude.",
+      "momentum": "Extremely strong star and fork growth relative to its recent inception, indicating heavy developer interest in agentic commerce.",
+      "novelty": "High novelty in its targeted application to merchant and shopping flows rather than generic software development."
     },
     {
       "rank": 2,
-      "name": "anthropics/commerce-agents",
-      "score": 92,
-      "reason": "Selected as a high-value reference blueprint from Anthropic targeting real-world vertical agent implementations in commerce and retail.",
-      "why_interesting_today": "Provides immediately usable patterns for deploying Claude in transaction-heavy commercial environments across retail, telecom, and entertainment.",
-      "why_developers_should_care": "It bridges the gap between generic chat-based LLMs and specialized, multi-step transaction agents requiring precision and safety.",
-      "momentum": "Rapidly accumulating momentum despite being recently introduced, showing strong developer interest in domain-specific agent architectures.",
-      "novelty": "Brings structured, production-ready blueprints specifically tailored to commercial merchant use cases."
+      "name": "Jarvis322/macos-sysdata",
+      "score": 91,
+      "reason": "Solves a universal pain point for macOS power users: inspecting and reclaiming space from the notoriously opaque 'System Data' category directly from the menu bar.",
+      "why_interesting_today": "Mac users frequently struggle with mysterious disk bloat; a native, lightweight SwiftUI utility providing item-by-item control is immediately useful.",
+      "why_developers_should_care": "It's a clean, open-source SwiftUI application demonstrating deep integration with macOS system internals and menu bar UI patterns.",
+      "momentum": "Healthy initial traction and focused utility among macOS developer circles.",
+      "novelty": "Provides targeted visibility into a black-box OS storage category that Apple rarely exposes cleanly."
     },
     {
       "rank": 3,
-      "name": "Albert-Weasker/niubigeo",
-      "score": 88,
-      "reason": "Selected for its explosive star momentum and niche utility in open-source AI brand visibility and competitor analysis reporting.",
-      "why_interesting_today": "As AI search and recommendation systems alter organic traffic, tracking brand visibility within AI models is becoming a vital engineering and marketing concern.",
-      "why_developers_should_care": "It opens up tooling for auditing how LLMs represent and rank different commercial brands and entities.",
-      "momentum": "Exceptional early surge in stars relative to its creation date, signaling high curiosity and emerging demand.",
-      "novelty": "Addresses the novel problem of 'LLM optimization' and brand visibility tracking in AI generated outputs."
+      "name": "nahrek/polyledger",
+      "score": 89,
+      "reason": "Bridges high-frequency prediction market data (Polymarket CLOB metadata and Polygon on-chain trades) directly into a queryable DuckDB file using Python.",
+      "why_interesting_today": "Prediction markets are experiencing a massive surge in relevance, and developers lack lightweight, locally queryable analytical pipelines for them.",
+      "why_developers_should_care": "It offers an elegant, resumable indexer approach that avoids heavy database infrastructure, leveraging DuckDB for instant SQL analytics.",
+      "momentum": "Strong specialized traction among data scientists and crypto-quant developers.",
+      "novelty": "Combines Hypersync and DuckDB specifically for prediction markets into a single portable file format."
     },
     {
       "rank": 4,
-      "name": "Jarvis322/macos-sysdata",
-      "score": 85,
-      "reason": "Selected for offering practical, developer-focused utility to solve a notorious macOS annoyance regarding opaque system storage usage.",
-      "why_interesting_today": "macOS developers frequently struggle with 'System Data' bloating their local SSDs; this lightweight SwiftUI menu bar app provides direct visibility and cleaning capabilities.",
-      "why_developers_should_care": "It is a well-crafted Swift utility that saves manual terminal hunting and provides fine-grained disk cleanup.",
-      "momentum": "Strong organic interest and clean implementation using modern SwiftUI and Xcode conventions.",
-      "novelty": "Transforms a notoriously opaque operating system issue into an actionable, item-by-item menu bar control interface."
+      "name": "Albert-Weasker/niubigeo",
+      "score": 87,
+      "reason": "An emerging open-source tool tackling brand visibility and competitor reports specifically tailored for the AI era.",
+      "why_interesting_today": "As LLMs and AI search engines alter how brands are discovered, traditional SEO is shifting toward AI visibility tracking.",
+      "why_developers_should_care": "It addresses a brand-new monitoring vector that developers and digital marketers are scrambling to measure programmatically.",
+      "momentum": "Rapid star growth indicating an emerging need and strong curiosity around LLM brand presence.",
+      "novelty": "Directly targets 'AI brand visibility', a category that barely existed a year ago."
     },
     {
       "rank": 5,
-      "name": "nahrek/polyledger",
-      "score": 83,
-      "reason": "Selected for its unique data engineering approach to indexing complex prediction market data into a queryable DuckDB file.",
-      "why_interesting_today": "Prediction markets like Polymarket generate high-volume on-chain trades and CLOB metadata that are notoriously difficult to analyze locally.",
-      "why_developers_should_care": "It provides data scientists and quants with a resumable, lightweight pipeline to query complex prediction market data using simple SQL.",
-      "momentum": "Steady engagement and clear architectural focus on modern data stack tooling (DuckDB, Hypersync).",
-      "novelty": "Bridges high-frequency decentralized prediction market data directly into local, zero-friction SQL analytics."
+      "name": "Danielblnc/DLSS-NR-on-AMD",
+      "score": 85,
+      "reason": "A clever hardware-bridging project enabling advanced neural rendering features on non-native GPU architectures.",
+      "why_interesting_today": "Hardware enthusiasts and developers love squeezing bleeding-edge software features out of alternative hardware configurations.",
+      "why_developers_should_care": "Demonstrates the resourcefulness of the hardware modification and graphics programming community in bypassing vendor locks.",
+      "momentum": "Consistent daily star growth driven by enthusiast communities and hardware forums.",
+      "novelty": "Brings high-end neural rendering techniques across hardware vendor boundaries in an unexpected way."
     }
   ]
 }

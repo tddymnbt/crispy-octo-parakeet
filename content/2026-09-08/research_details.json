@@ -3,136 +3,136 @@
   "repositories": [
     {
       "rank": 1,
-      "name": "NousResearch/hermes-agent",
+      "name": "anthropics/commerce-agents",
       "score": 96,
-      "reason": "Selected for its exceptional star and fork momentum combined with high relevance to the booming autonomous AI agent ecosystem.",
-      "why_interesting_today": "Developers are actively looking for agent frameworks that scale and adapt, and Hermes Agent's recent pushes highlight rapid integration of modern LLM capabilities.",
-      "why_developers_should_care": "It offers an extensible foundation for building advanced, context-aware coding and automation agents that go beyond standard prompt wrappers.",
-      "momentum": "Extremely strong daily star and fork growth, indicating major traction in the developer community.",
-      "novelty": "High novelty in its approach to long-term agent growth and personalization compared to standard stateless agents.",
+      "reason": "An exceptionally practical and timely reference blueprint from Anthropic for building shopping and merchant agents using Claude, tapping into the massive wave of commercial AI integration.",
+      "why_interesting_today": "As agentic workflows move from general-purpose chatbots to domain-specific transactional tasks, developers need robust reference architectures for retail, commerce, and telecom agents.",
+      "why_developers_should_care": "It provides production-ready design patterns and examples for implementing secure, stateful, and effective commercial agent loops with Claude.",
+      "momentum": "Extremely strong star and fork growth relative to its recent inception, indicating heavy developer interest in agentic commerce.",
+      "novelty": "High novelty in its targeted application to merchant and shopping flows rather than generic software development.",
       "deep_analysis": {
-        "name": "NousResearch/hermes-agent",
-        "headline_hook": "Hermes Agent is a self-improving AI agent built by Nous Research featuring a closed learning loop, multi-platform messaging, and flexible execution backends that scale from a $5 VPS to serverless clusters.",
-        "core_functionality": "Hermes Agent is a versatile, self-improving autonomous AI agent framework designed to bridge the gap between isolated local CLI tools and production-grade, distributed workflows. It solves the problem of agentic fragmentation by offering a unified gateway across multiple messaging platforms (Telegram, Discord, Slack, etc.) and terminal backends, while maintaining a closed learning loop where the agent creates, uses, and self-improves skills from operational experience.",
+        "name": "anthropics/commerce-agents",
+        "headline_hook": "Anthropic's open-source blueprint provides production-grade reference architectures for building secure, dual-sided shopping and merchant AI agents using Claude.",
+        "core_functionality": "This repository provides a complete, production-ready reference architecture for building transactional commerce AI agents divided into two distinct roles: a customer-facing shopping assistant and a staff-facing merchant back-office agent. It solves the architectural challenge of moving from simple chat interfaces to domain-specific, transactional workflows by standardizing prompts, skills, tool contracts, safety fences, and memory management across four runnable retail and service verticals (retail, travel, telecom, and entertainment).",
         "key_features": [
-          "Closed learning loop with autonomous skill creation, agent-curated memory, and FTS5 session search compatible with the agentskills.io open standard.",
-          "Cross-platform gateway supporting Telegram, Discord, Slack, WhatsApp, Signal, and CLI with unified conversation continuity and voice memo transcription.",
-          "Multi-backend execution supporting local, Docker, SSH, Singularity, Modal, Daytona, and Vercel Sandbox environments for serverless hibernation and on-demand wakeups.",
-          "Model-agnostic architecture allowing seamless switching between Nous Portal, OpenRouter, OpenAI, and custom endpoints via a single command without code changes."
+          "Dual-Agent Architecture: Implements separate, role-specific agents for customer shopping (search, comparisons, cart management, policy answers) and merchant operations (analytics, inventory/order alerts, pricing, staged campaign drafting).",
+          "Flexible Multi-Runtime Support: Runs identically across three distinct execution layers—the Anthropic Messages API, the Claude Agent SDK, and hosted Managed Agents via Model Context Protocol (MCP) servers.",
+          "Built-in Safety & Human-in-the-Loop Fencing: Enforces strict provenance gates, memory validation, and human-approval workflows where all merchant writes and checkout actions are safely staged rather than directly executed.",
+          "Claude Code Plugin Integration: Includes a built-in CLI plugin (`commerce-builder`) to scaffold, review, and extend custom commerce agents tailored to specific technology stacks."
         ],
-        "target_audience": "AI Engineers, Full-Stack Developers, and DevOps/Infrastructure Engineers looking to deploy production-ready, extensible, and stateful autonomous agents across varied environments.",
-        "practical_developer_value": "Developers can deploy a production-ready autonomous agent that requires zero lock-in to specific LLM providers or rigid infrastructure setups. With built-in cron schedulers for automated tasks, multi-backend support (like Modal and Daytona) for ultra-low-cost serverless execution, and a modular tool gateway, developers can rapidly prototype, scale, and automate complex workflows—such as daily audits, nightly backups, and parallelized subagent tasks—using natural language interfaces.",
+        "target_audience": "AI Engineers, Full-Stack Developers, and Solutions Architects building enterprise applications in retail, e-commerce, travel, and customer service domains.",
+        "practical_developer_value": "Developers save hundreds of hours by avoiding the need to architect agent memory, safety fencing, and tool-calling loops from scratch. Instead of writing custom boilerplate, developers can map their existing e-commerce systems (such as Shopify, Stripe, or proprietary backends) to the standardized `StorefrontBackend` and `MerchantBackend` interfaces, immediately unlocking secure, context-aware AI agents deployable across multiple cloud infrastructures like AWS Bedrock and GCP Vertex AI.",
         "suggested_use_cases": [
-          "Automating multi-step DevOps workflows and server maintenance tasks using scheduled cron prompts delivered directly to Telegram or Discord.",
-          "Building research-ready batch trajectory generation and compression pipelines to fine-tune custom tool-calling LLMs."
+          "Embedding an intelligent shopping assistant into a custom e-commerce web application that handles personalized product discovery, cart building, and policy inquiries.",
+          "Deploying an internal merchant co-pilot that monitors inventory levels, drafts pricing adjustments, and requires human staff approval before executing database writes."
         ]
       }
     },
     {
       "rank": 2,
-      "name": "anthropics/commerce-agents",
-      "score": 92,
-      "reason": "Selected as a high-value reference blueprint from Anthropic targeting real-world vertical agent implementations in commerce and retail.",
-      "why_interesting_today": "Provides immediately usable patterns for deploying Claude in transaction-heavy commercial environments across retail, telecom, and entertainment.",
-      "why_developers_should_care": "It bridges the gap between generic chat-based LLMs and specialized, multi-step transaction agents requiring precision and safety.",
-      "momentum": "Rapidly accumulating momentum despite being recently introduced, showing strong developer interest in domain-specific agent architectures.",
-      "novelty": "Brings structured, production-ready blueprints specifically tailored to commercial merchant use cases.",
+      "name": "Jarvis322/macos-sysdata",
+      "score": 91,
+      "reason": "Solves a universal pain point for macOS power users: inspecting and reclaiming space from the notoriously opaque 'System Data' category directly from the menu bar.",
+      "why_interesting_today": "Mac users frequently struggle with mysterious disk bloat; a native, lightweight SwiftUI utility providing item-by-item control is immediately useful.",
+      "why_developers_should_care": "It's a clean, open-source SwiftUI application demonstrating deep integration with macOS system internals and menu bar UI patterns.",
+      "momentum": "Healthy initial traction and focused utility among macOS developer circles.",
+      "novelty": "Provides targeted visibility into a black-box OS storage category that Apple rarely exposes cleanly.",
       "deep_analysis": {
-        "name": "anthropics/commerce-agents",
-        "headline_hook": "Anthropic's open-source reference blueprint provides production-ready dual agents—customer shopping and staff back-office—designed for safe, transaction-heavy retail, travel, telecom, and entertainment environments.",
-        "core_functionality": "The repository provides a complete, production-grade architecture for deploying two distinct AI commerce agents: a customer-facing shopping agent embedded in host applications and a staff-facing merchant agent running back-office operations. It enforces critical safeguards like state staging, human-in-the-loop approval for writes, strict tool fencing, and memory validation across the Anthropic Messages API, the Claude Agent SDK, and Managed Agents.",
+        "name": "Jarvis322/macos-sysdata",
+        "headline_hook": "Finally open up macOS's opaque 'System Data' black hole with a native Swift 6 menu bar app that lets you audit and purge disk bloat item-by-item.",
+        "core_functionality": "The project solves the universal pain point of unaccounted-for disk space bloat on macOS (categorized vaguely under 'System Data'). It provides a native SwiftUI menu bar utility that scans, measures, categorizes, and safely deletes hidden files—such as stale Xcode derived data, massive iOS simulator runtimes, abandoned package manager caches, and local APFS snapshots—providing item-by-item control instead of blind cache clearing.",
         "key_features": [
-          "Dual-Agent Architecture: Implements specialized shopping (search, cart, policy) and merchant (analytics, inventory, pricing, campaigns) agent roles sharing a unified core framework.",
-          "Multi-Runtime Flexibility: Supports deployment across three distinct paradigms—the reference Messages API, the local Claude Agent SDK, and hosted Managed Agents via Model Context Protocol (MCP) servers.",
-          "Enterprise Safety & Provenance Gates: Features built-in state staging (all merchant writes are held pending human approval), tool fencing, memory validation, and safety guardrails.",
-          "Cross-Vertical Scaffolding & Claude Code Integration: Includes runnable multi-vertical demos (retail, travel, telecom, entertainment) alongside a Claude Code plugin (`commerce-builder`) to rapidly scaffold or audit custom agent implementations."
+          "Granular, Badge-Driven Item Classification: Every scanned item is tagged with a clear safety badge ('Safe' for auto-regrowing caches, 'Review' for items requiring manual attention, and 'Manual' for system-blocked paths), complete with idle-time tracking.",
+          "Transparent Root Execution & CLI Integration: Privileged cleanup actions require individual `osascript` prompts where developers can read the exact `rm` commands beforehand, alongside a `--json` flag for headless script integration.",
+          "Intelligent Power-Down Lifecycle Management: Automatically detects and shuts down hanging iOS simulators during system shutdown to drastically accelerate userspace teardown times.",
+          "Comprehensive Historical Auditing: Maintains a local scan history file that tracks growth, detects what files return after deletion, and surfaces which directories are silently eating up terabytes of disk space."
         ],
-        "target_audience": "AI Engineers, Full-Stack Developers, and Solutions Architects building production-grade LLM applications for commerce, retail, and enterprise back-office automation.",
-        "practical_developer_value": "Developers avoid the trial-and-error phase of building transaction-heavy LLM applications by using a battle-tested reference architecture that handles complex security boundaries, session management, and state mutations. It provides clear backend interface patterns (`StorefrontBackend` and `MerchantBackend`) to easily integrate existing enterprise data warehouses, e-commerce platforms, and CRM systems securely server-side.",
+        "target_audience": "macOS power users, iOS/macOS developers working heavily with Xcode and multiple simulator runtimes, full-stack engineers juggling heavy package manager caches (npm, pnpm, pip, uv, Gradle, Cargo), and DevOps professionals managing local virtual machine images.",
+        "practical_developer_value": "Developers constantly fight disk pressure caused by accumulated build artifacts, stale dependency caches, and forgotten mobile simulators. This tool replaces brittle shell scripts and opaque storage settings with an auditable, open-source safety net. Developers can immediately reclaim dozens of gigabytes of storage without risking system instability, and even script disk auditing via its JSON CLI output.",
         "suggested_use_cases": [
-          "Embedding an intelligent shopping assistant into an e-commerce mobile or web application that handles multi-step cart building, product comparisons, and contextual policy queries.",
-          "Automating back-office merchant workflows—such as restocks, promotional pricing adjustments, and campaign drafting—with mandatory human-in-the-loop approval gates before executing writes."
+          "Quickly purging stale Xcode DerivedData, DeviceSupport folders, and unused iOS simulator runtimes on space-constrained MacBook internal SSDs.",
+          "Auditing and automatically pruning forgotten local package manager caches (Docker, Homebrew prefixes, uv, pip, Cargo) across multi-language development environments."
         ]
       }
     },
     {
       "rank": 3,
-      "name": "Albert-Weasker/niubigeo",
-      "score": 88,
-      "reason": "Selected for its explosive star momentum and niche utility in open-source AI brand visibility and competitor analysis reporting.",
-      "why_interesting_today": "As AI search and recommendation systems alter organic traffic, tracking brand visibility within AI models is becoming a vital engineering and marketing concern.",
-      "why_developers_should_care": "It opens up tooling for auditing how LLMs represent and rank different commercial brands and entities.",
-      "momentum": "Exceptional early surge in stars relative to its creation date, signaling high curiosity and emerging demand.",
-      "novelty": "Addresses the novel problem of 'LLM optimization' and brand visibility tracking in AI generated outputs.",
+      "name": "nahrek/polyledger",
+      "score": 89,
+      "reason": "Bridges high-frequency prediction market data (Polymarket CLOB metadata and Polygon on-chain trades) directly into a queryable DuckDB file using Python.",
+      "why_interesting_today": "Prediction markets are experiencing a massive surge in relevance, and developers lack lightweight, locally queryable analytical pipelines for them.",
+      "why_developers_should_care": "It offers an elegant, resumable indexer approach that avoids heavy database infrastructure, leveraging DuckDB for instant SQL analytics.",
+      "momentum": "Strong specialized traction among data scientists and crypto-quant developers.",
+      "novelty": "Combines Hypersync and DuckDB specifically for prediction markets into a single portable file format.",
       "deep_analysis": {
-        "name": "Albert-Weasker/niubigeo",
-        "headline_hook": "Stop guessing if ChatGPT recommends your product—NiubiGEO is an open-source tool to track, audit, and benchmark your brand visibility across AI models.",
-        "core_functionality": "NiubiGEO is an open-source GEO (Generative Engine Optimization) and AI visibility tracking tool. It allows developers and marketers to input a domain and audit how various Large Language Models perceive their product, what competitor products they associate with it, which keywords trigger mentions, and what sources/citations they rely on.",
+        "name": "nahrek/polyledger",
+        "headline_hook": "Bridge high-frequency Polymarket CLOB metadata and Polygon on-chain trades directly into a lightning-fast, locally queryable DuckDB file with Python.",
+        "core_functionality": "PolyLedger is a resumable data pipeline and indexer that aggregates Polymarket market metadata from the CLOB API and streams raw `OrderFilled` events from Polygon via Envio HyperSync. It decodes, structures, and writes both streams into a single local DuckDB database, providing an instantly queryable analytical layer without requiring complex external data infrastructure.",
         "key_features": [
-          "Multi-Model Comparison via OpenRouter: Compare how different AI models describe your brand, categorize your product, and surface competitors side-by-side.",
-          "Web Search Integration Toggle: Test model responses with native web search enabled or offline, capturing the exact execution conditions and provider citations.",
-          "Keyword & Competitor Intelligence: Run targeted keyword tests without naming your brand to see who unprompted AI systems recommend instead.",
-          "Scheduled Monitoring & Historical Tracking: Set up scheduled runs using Docker/monitoring workers to track historical changes in brand visibility over time."
+          "Resumable and Idempotent Architecture: Commits rows and block cursors in single transactions with ON CONFLICT DO NOTHING rules, ensuring interrupted runs resume seamlessly and retries are absolute no-ops.",
+          "Comprehensive Contract Decoders: Handles both V1 and V2 Polymarket exchange layouts natively, explicitly normalizing distinct event signatures and handling side inferences or metadata matching.",
+          "Zero-Server Columnar Storage: Leverages DuckDB for high-compression, zero-config analytical queries, allowing seamless SQL joins over millions of trade rows alongside simple Parquet exports.",
+          "Robust Network Resilience: Integrates Pydantic schema validation for upstream API payload changes, exponential backoff with jitter, and shared token-bucket rate limiting for public CLOB and Gamma endpoints."
         ],
-        "target_audience": "Growth Engineers, Developer Advocates, Technical Product Marketers, and AI Application Developers.",
-        "practical_developer_value": "As traditional SEO shifts toward AI search and recommendation systems (like ChatGPT, Claude, and Perplexity), developers and growth teams lack programmatic visibility into AI brand positioning. NiubiGEO provides a self-hosted, open-source black-box reporting tool that uses OpenRouter APIs to measure, audit, and log how LLMs reference products, allowing teams to optimize their documentation and web presence for AI retrieval.",
+        "target_audience": "Quantitative developers, crypto-native data analysts, Web3 backend engineers, and financial researchers building local models or dashboards around prediction markets.",
+        "practical_developer_value": "Instead of spinning up heavy EVM archive nodes, managing Postgres connection pools, or writing fragile custom scrapers for Polymarket, developers get an out-of-the-box Python CLI tool that syncs millions of trades locally in minutes. It normalizes messy Web3 trade legs into intuitive schemas with clear maker/taker sides, prices, and USD notions, enabling immediate advanced analytics via standard SQL or Python dataframes.",
         "suggested_use_cases": [
-          "Auditing how competing AI models perceive and describe your SaaS product versus your top competitors.",
-          "Running scheduled visibility monitoring to track how documentation updates or marketing campaigns impact AI product recommendations over time."
+          "Building a local backtesting or historical data environment for automated prediction market trading strategies.",
+          "Performing rapid exploratory data analysis, VWAP calculations, and whale tracking via DuckDB queries or Pandas/Polars Jupyter notebooks."
         ]
       }
     },
     {
       "rank": 4,
-      "name": "Jarvis322/macos-sysdata",
-      "score": 85,
-      "reason": "Selected for offering practical, developer-focused utility to solve a notorious macOS annoyance regarding opaque system storage usage.",
-      "why_interesting_today": "macOS developers frequently struggle with 'System Data' bloating their local SSDs; this lightweight SwiftUI menu bar app provides direct visibility and cleaning capabilities.",
-      "why_developers_should_care": "It is a well-crafted Swift utility that saves manual terminal hunting and provides fine-grained disk cleanup.",
-      "momentum": "Strong organic interest and clean implementation using modern SwiftUI and Xcode conventions.",
-      "novelty": "Transforms a notoriously opaque operating system issue into an actionable, item-by-item menu bar control interface.",
+      "name": "Albert-Weasker/niubigeo",
+      "score": 87,
+      "reason": "An emerging open-source tool tackling brand visibility and competitor reports specifically tailored for the AI era.",
+      "why_interesting_today": "As LLMs and AI search engines alter how brands are discovered, traditional SEO is shifting toward AI visibility tracking.",
+      "why_developers_should_care": "It addresses a brand-new monitoring vector that developers and digital marketers are scrambling to measure programmatically.",
+      "momentum": "Rapid star growth indicating an emerging need and strong curiosity around LLM brand presence.",
+      "novelty": "Directly targets 'AI brand visibility', a category that barely existed a year ago.",
       "deep_analysis": {
-        "name": "Jarvis322/macos-sysdata",
-        "headline_hook": "Stop guessing where your Mac's SSD space went—this lightweight SwiftUI menu bar app finally opens up the opaque 'System Data' black hole.",
-        "core_functionality": "macOS often hides massive amounts of storage usage inside the opaque 'System Data' bucket (such as Xcode caches, iOS simulators, package manager stores, and virtual machines) with no native tools to inspect or safely clean them. This project provides a native, high-performance SwiftUI menu bar utility that scans, measures, categorizes, and granularly deletes these hidden space hogs item by item.",
+        "name": "Albert-Weasker/niubigeo",
+        "headline_hook": "As LLMs redefine discovery, NiubiGEO is the open-source analytics workbench that audits and tracks how AI search engines recommend your brand versus your competitors.",
+        "core_functionality": "NiubiGEO addresses the paradigm shift from traditional search engine optimization (SEO) to AI visibility tracking. It automates testing against multiple LLMs via OpenRouter, evaluating how different models describe a product domain, what competing products they surface, which keywords trigger brand mentions, and what underlying citations or sources they reference.",
         "key_features": [
-          "Transparent Size Measurement & Safety Badging: Measures exact on-disk footprints for ~180 items across 18 groups, tagging them as 'Safe' (auto-regenerable), 'Review' (costs something to remove), or 'Manual' (requires custom handling).",
-          "Smart Deletion & Audit Controls: Sends review items to the Trash for safety while outright purging safe caches, maintaining local history tracking to monitor growth trends and what items return over time.",
-          "Root Transparency & Safety First: Refuses to execute blind background scripts—every administrative action displays the exact `osascript` or `rm -rf` command verbatim for developer review before execution.",
-          "Power-User Extensibility & CLI Support: Includes a CLI flag (`SysDataMenu --json`) for scripting inventories, alongside clever performance tweaks like pre-emptively shutting down booted iOS simulators to accelerate system shutdown times."
+          "Multi-Model & Web Search Integration: Search, filter, and select arbitrary OpenRouter models while toggling native web search modes independently per test.",
+          "Isolated Project Workspaces: Manage multiple product domains with strict separation of configurations, historical runs, and evidence without data bleeding.",
+          "Keyword Testing Without Brand Bias: Measure whether your product appears organically when users search category terms without mentioning your brand name.",
+          "Comprehensive Evidence & Citation Logging: Store original model outputs, text coordinates, provider citations, and answer URLs separately to allow manual auditing and reproducible checks."
         ],
-        "target_audience": "macOS app developers, iOS/mobile engineers, and full-stack software developers heavily utilizing local toolchains like Docker, Xcode, Homebrew, and multiple package managers.",
-        "practical_developer_value": "Local development toolchains (Xcode DerivedData, Node/Python package stores, multiple iOS simulator runtimes, and Docker layers) routinely bloat developer laptops, leading to expensive SSD upgrades or sudden disk-full crashes. This tool gives developers precise, programmatic visibility into their local machine state without risking accidental deletion of critical configuration files, while offering a `--json` interface to automate local disk hygiene scripts.",
+        "target_audience": "Growth Engineers, Developer Advocates, Product Marketers, and Technical Founders focused on AI-era brand visibility, product positioning, and LLM optimization.",
+        "practical_developer_value": "Developers and technical marketers can self-host the tool via Docker or Node.js to programmatically and historically audit how AI models perceive their documentation and APIs. Rather than relying on guesswork, developers get a structured workbench with API-driven runs and automated monitoring workers to measure the tangible impact of their content and product updates on LLM recommendations.",
         "suggested_use_cases": [
-          "Automating local developer machine provisioning and cleanup scripts by piping `SysDataMenu --json` into CI/CD or local maintenance routines.",
-          "Instantly reclaiming dozens of gigabytes of disk space eaten up by stale iOS simulator runtimes and orphaned Xcode DerivedData without breaking active development environments."
+          "Running automated scheduled monitoring runs to track how product positioning shifts across different model updates over time.",
+          "Auditing documentation and developer marketing content to see which external sources and citations LLMs pull when recommending tools in your tech stack."
         ]
       }
     },
     {
       "rank": 5,
-      "name": "nahrek/polyledger",
-      "score": 83,
-      "reason": "Selected for its unique data engineering approach to indexing complex prediction market data into a queryable DuckDB file.",
-      "why_interesting_today": "Prediction markets like Polymarket generate high-volume on-chain trades and CLOB metadata that are notoriously difficult to analyze locally.",
-      "why_developers_should_care": "It provides data scientists and quants with a resumable, lightweight pipeline to query complex prediction market data using simple SQL.",
-      "momentum": "Steady engagement and clear architectural focus on modern data stack tooling (DuckDB, Hypersync).",
-      "novelty": "Bridges high-frequency decentralized prediction market data directly into local, zero-friction SQL analytics.",
+      "name": "Danielblnc/DLSS-NR-on-AMD",
+      "score": 85,
+      "reason": "A clever hardware-bridging project enabling advanced neural rendering features on non-native GPU architectures.",
+      "why_interesting_today": "Hardware enthusiasts and developers love squeezing bleeding-edge software features out of alternative hardware configurations.",
+      "why_developers_should_care": "Demonstrates the resourcefulness of the hardware modification and graphics programming community in bypassing vendor locks.",
+      "momentum": "Consistent daily star growth driven by enthusiast communities and hardware forums.",
+      "novelty": "Brings high-end neural rendering techniques across hardware vendor boundaries in an unexpected way.",
       "deep_analysis": {
-        "name": "nahrek/polyledger",
-        "headline_hook": "PolyLedger is a resilient, DuckDB-backed indexer that turns high-volume Polymarket CLOB metadata and Polygon on-chain trades into queryable SQL tables in a single file.",
-        "core_functionality": "PolyLedger solves the challenge of analyzing high-volume, fragmented prediction market data (specifically Polymarket's on-chain trades and CLOB metadata) by syncing market data from REST APIs and streaming `OrderFilled` events from Polygon using Envio HyperSync. It ingests both V1 and V2 contract formats, handles complex price math and token-id gap recovery, and stores everything inside a single, zero-server DuckDB file for immediate SQL querying.",
+        "name": "Danielblnc/DLSS-NR-on-AMD",
+        "headline_hook": "Bridging vendor divides, this open project implements a custom HIP-based neural network runtime to bring DLSS 5 Neural Rendering to AMD Radeon RX 7000 and 9000 series GPUs.",
+        "core_functionality": "The project solves the vendor lock-in problem for advanced graphics technologies by implementing a clean-room, ground-up reimplementation of the neural network runtime optimized for AMD GPU architectures. It allows games utilizing FSR to route and process DLSS 5 Neural Rendering payloads on AMD hardware without relying on native NVIDIA-specific hardware blocks or runtime translation layers.",
         "key_features": [
-          "Resumable & Idempotent Architecture: Rows and block cursors commit in a single transaction, using ON CONFLICT DO NOTHING keys to make re-running ranges safe and fully idempotent.",
-          "Comprehensive Dual-Contract Support: Decodes both legacy V1 and modern V2 exchange layouts natively, maintaining separate checkpoints per stream to handle protocol migrations cleanly.",
-          "Embedded Columnar Analytics (DuckDB): Eliminates the overhead of a traditional database server, storing data in a single file with advanced columnar compression, real types, and immediate SQL join capabilities.",
-          "Robust API Resilience & Gap Recovery: Features exponential backoff, rate-limiting, Pydantic schema validation for upstream API changes, and automated fallback to the Gamma API for missing token IDs."
+          "Ground-up, clean-room reimplementation of the neural network runtime utilizing native AMD HIP kernels and custom memory layouts.",
+          "Seamless game integration acting via DirectX 12 hooks, mapping FSR game pipelines to execute neural rendering routines.",
+          "Built-in configurable in-game overlay offering granular runtime tweaks like mode adjustment (inline/async), tone intensity, and structural controls.",
+          "Modular update and removal tooling packaged directly via an automated setup executable."
         ],
-        "target_audience": "Data engineers, quantitative crypto researchers, and Web3 developers who need to analyze decentralized prediction market trading data, volume trends, and liquidity patterns locally without managing heavy database infrastructure.",
-        "practical_developer_value": "Developers save hundreds of hours of custom data-pipelining work. Instead of stitching together raw Polygon logs, parsing complex EVM event variants (like Maker/Taker asset layouts), and fighting rate limits, developers get a ready-to-query DuckDB file or Parquet exports. It enables instant local analytics for building trading bots, tracking whale positions, computing VWAP, or generating OHLC candles using standard SQL or Python.",
+        "target_audience": "Hardware enthusiasts, graphics programmers, reverse engineers, and game developers interested in cross-vendor rendering APIs and custom GPU compute kernel optimizations.",
+        "practical_developer_value": "For systems and graphics developers, this repository serves as an exceptional case study in cross-architecture compute optimization, custom runtime writing, and API interception. It demonstrates how to write native HIP kernels that interface with third-party proprietary binaries cleanly, offering valuable architectural insights into handling machine learning workloads across disparate GPU hardware ecosystems.",
         "suggested_use_cases": [
-          "Building real-time or historical analytics dashboards for prediction market volumes, liquidity depth, and pricing trends using standard SQL and DuckDB.",
-          "Feeding clean, structured Parquet exports of Polymarket trading data directly into Pandas, Polars, or Spark workflows for quantitative trading strategies and backtesting."
+          "Studying custom HIP kernel implementations and memory layout translation strategies for non-native hardware.",
+          "Experimenting with hardware-agnostic neural network runtimes in real-time graphics pipelines."
         ]
       }
     }
