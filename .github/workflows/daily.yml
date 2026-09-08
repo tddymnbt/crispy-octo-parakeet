@@ -14,12 +14,6 @@ on:
           - "3"
           - "4"
           - "5"
-  schedule:
-    - cron: "0 0 * * *"   # 8:00 AM PHT: prepare all packages and publish slot 1
-    - cron: "0 4 * * *"   # 12:00 PM PHT: publish slot 2
-    - cron: "0 7 * * *"   # 3:00 PM PHT: publish slot 3
-    - cron: "0 11 * * *"  # 7:00 PM PHT: publish slot 4
-    - cron: "0 15 * * *"  # 11:00 PM PHT: publish slot 5
 
 permissions:
   contents: write
@@ -31,9 +25,7 @@ concurrency:
 
 jobs:
   prepare-and-publish-slot-1:
-    if: >-
-      (github.event_name == 'schedule' && github.event.schedule == '0 0 * * *') ||
-      (github.event_name == 'workflow_dispatch' && inputs.slot == '1')
+    if: inputs.slot == '1'
     runs-on: ubuntu-latest
 
     steps:
@@ -112,9 +104,7 @@ jobs:
           path: output/
 
   publish-later-slot:
-    if: >-
-      (github.event_name == 'schedule' && github.event.schedule != '0 0 * * *') ||
-      (github.event_name == 'workflow_dispatch' && inputs.slot != '1')
+    if: inputs.slot != '1'
     runs-on: ubuntu-latest
 
     steps:
@@ -129,18 +119,11 @@ jobs:
       - name: Resolve post slot
         id: slot
         env:
-          SCHEDULE: ${{ github.event.schedule }}
-          MANUAL_SLOT: ${{ inputs.slot }}
+          SLOT_INPUT: ${{ inputs.slot }}
         run: |
-          case "$SCHEDULE" in
-            "0 4 * * *") SLOT=2 ;;
-            "0 7 * * *") SLOT=3 ;;
-            "0 11 * * *") SLOT=4 ;;
-            "0 15 * * *") SLOT=5 ;;
-            "") SLOT="$MANUAL_SLOT" ;;
-            *) echo "Unknown schedule: $SCHEDULE" >&2; exit 1 ;;
-          esac
-          echo "slot=$SLOT" >> "$GITHUB_OUTPUT"
+          # Directly use the slot input from workflow_dispatch
+          # (cron-job.org will always provide the slot number in inputs)
+          echo "slot=$SLOT_INPUT" >> "$GITHUB_OUTPUT"
 
       - name: Verify Slot 1 preparation completed
         id: preflight
