@@ -26,8 +26,8 @@
       "caption": "Tired of manually wrestling with WARP/MASQUE configs? 🛑 \n\nManaging Cloudflare WARP and MASQUE setups usually means dealing with tedious device registration, manual P-256 key generation, and endless YAML tinkering. \n\nMeet usque-custom-pro: a web-based visual management and configuration-generation tool that automates the entire pipeline. 🚀\n\n⚡ Key Features:\n• Browser-Based P-256 Key Generation & WARP Enrollment: Securely generate keys locally using WebCrypto and register via Cloudflare Pages or Workers.\n• Mass Candidate Node Generation: Multiply a single credential into optimized candidate endpoints with automated latency testing and stability filtering.\n• Advanced Smart Routing: Instantly output production-ready configs for Clash, Mihomo, Shadowrocket, and sing-box with pre-configured policy groups for Netflix, OpenAI, Telegram, and more.\n• Local VLESS Bridge & Egress Detection: Test real-world exit IPs, geo-locations, and Cloudflare PoP routing out of the box.\n\nWhether you are a network engineer, DevOps practitioner, or privacy-focused developer, this tool saves hours of configuration overhead and simplifies multi-client proxy management.\n\n🔗 Check it out on GitHub:\nhttps://github.com/KJGX66F/usque-custom-pro\n\n👉 Drop a star if this helps your workflow, and let us know in the comments how you plan to use it!\n\n#OpenSource #DevOps #Cloudflare #Proxy #SoftwareEngineering #Networking #DeveloperTools #CyberSecurity",
       "image_file": "3_KJGX66F_usque-custom-pro.png",
       "photo_id": "122096541225476221",
-      "published_post_id": null,
-      "published_at": null
+      "published_post_id": "1410193715501138_122096706885476221",
+      "published_at": "2026-09-09T07:01:14.277795+08:00"
     },
     {
       "rank": 4,
