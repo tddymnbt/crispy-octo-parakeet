@@ -17,8 +17,8 @@
       "caption": "Render over 2,200 interactive 3D anatomical meshes smoothly right in the browser using React and Three.js! 🧬✨\n\nBuilding data-dense 3D applications on the web usually means hitting a massive performance wall when dealing with thousands of separate draw calls. \n\nHuman Atlas solves the challenge of rendering highly complex, multi-mesh biological datasets in real-time. It transforms the BodyParts3D adult male reference model into a fully interactive, searchable, and explodable 3D experience without sacrificing browser performance.\n\n🔥 Key Features:\n• High-Performance 3D Rendering: Merges geometry into batches and uses per-structure GPU textures for translation, visibility, and selection.\n• Comprehensive Anatomical Data: Features 2,234 individually selectable meshes, 15 anatomical systems, and 3,432 searchable named concepts.\n• Exploded View Layouts: Dynamically packs and spaces out visible anatomy pieces cleanly across desktop and mobile aspect ratios.\n• Advanced Validation Scripts: Includes custom automated validation for mesh buffers, nonoverlapping layouts, search contracts, and tap-versus-drag interactions.\n\nWhether you are building interactive educational web apps for medical training or implementing GPU-driven instancing and batching architectures for complex industrial digital twins, this repository is a masterclass in optimization. \n\nExplore the code and level up your 3D web graphics stack today:\nhttps://github.com/ashemag/human-atlas\n\nWhat is the biggest performance bottleneck you have faced when rendering thousands of objects in Three.js? Let us know in the comments below! 👇\n\n#WebDev #ThreeJS #ReactJS #3DGraphics #EdTech #SoftwareEngineering #OpenSource",
       "image_file": "2_ashemag_human-atlas.png",
       "photo_id": "122096180325476221",
-      "published_post_id": null,
-      "published_at": null
+      "published_post_id": "1410193715501138_122096339097476221",
+      "published_at": "2026-09-08T16:33:33.586089+08:00"
     },
     {
       "rank": 3,
