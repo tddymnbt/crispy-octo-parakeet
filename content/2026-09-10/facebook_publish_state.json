@@ -35,8 +35,8 @@
       "caption": "Track how AI models describe your product, who they recommend, and which sources they cite with NiubiGEO! 🚀\n\nTraditional SEO is no longer enough. As users increasingly turn to LLMs and AI assistants instead of traditional search engines to discover software, how does your product show up in the age of AI discovery? \n\nNiubiGEO is an open-source utility designed to solve the emerging challenge of Generative Engine Optimization (GEO). It helps you track brand visibility, descriptions, competitor associations, and source citations across different LLMs and search engines.\n\nKey Features Built for Developers & Growth Engineers:\n🔍 Multi-Model Comparison: Select and query multiple OpenRouter models concurrently, configuring native web search modes independently per model.\n🤖 Keyword & Brand-Agnostic Testing: Test keyword scenarios without explicitly naming your target brand to see unprompted recommendations and competitor visibility.\n📊 Evidence & Citation Tracking: Isolate and inspect original model responses, text locations, provider citations, and ordinary answer URLs with historical audit logs.\n⏰ Scheduled Monitoring: Run automated, repeated measurements via a dedicated monitoring worker to establish historical tracking of AI visibility changes.\n\nWhether you want to audit how different LLMs summarize your documentation or run scheduled GEO competitor tracking reports to see which alternative tools AI models recommend in your niche, NiubiGEO can be self-hosted easily via Docker.\n\n👉 Check it out on GitHub and start auditing your AI presence today:\nhttps://github.com/Albert-Weasker/niubigeo\n\nDrop a comment below if you are already optimizing for AI search engines! 👇\n\n#OpenSource #GEO #AI #MachineLearning #SEO #Developers #SoftwareEngineering #TechCommunity",
       "image_file": "4_Albert-Weasker_niubigeo.png",
       "photo_id": "122097359409476221",
-      "published_post_id": null,
-      "published_at": null
+      "published_post_id": "1410193715501138_122097695739476221",
+      "published_at": "2026-09-10T19:00:39.463637+08:00"
     },
     {
       "rank": 5,
