@@ -26,8 +26,8 @@
       "caption": "🌪️ OpenAI just dropped a massive mathematical breakthrough on GitHub! \n\nOpenAI has open-sourced Lean 4 formalization certificates proving finite-time singularity blowups for the Navier-Stokes and Euler equations. \n\nFor decades, mathematicians and physicists have wrestled with whether smooth solutions for fluid dynamics equations can break down in finite time. The problem? Human-verified proofs in advanced PDEs are notoriously prone to oversight. \n\nThis repository solves that by delivering absolute, machine-checked mathematical certainty. \n\nKey Features:\n• Lean 4 formalization certificates verifying the lack of global smooth solutions for Navier-Stokes in whole space and periodic torus environments.\n• Machine-checked construction of smooth, compactly supported, divergence-free initial velocity for unforced Euler equations developing finite-time singularities.\n• Seamless integration with Mathlib and Lake for building, caching, and independently verifying complex physics-based proofs.\n• Support for independent proof checking via Comparator challenges.\n\nWhether you are a formal verification researcher, a mathematician, or an advanced software engineer working with dependent type systems, this repo lets you study how to formalize high-dimensional PDEs in Lean 4 with zero human verification blind spots.\n\nReady to audit the proofs and test the code yourself? \n\nCheck out the repository here:\nhttps://github.com/openai/NavierStokesAndEuler\n\nWhat are your thoughts on using automated theorem provers for fluid dynamics? Drop a comment below and let's discuss! 👇\n\n#OpenAI #Lean4 #FormalVerification #NavierStokes #SoftwareEngineering #MachineLearning #ArtificialIntelligence #FluidDynamics #Math #OpenSource",
       "image_file": "3_openai_NavierStokesAndEuler.png",
       "photo_id": "122099022519476221",
-      "published_post_id": null,
-      "published_at": null
+      "published_post_id": "1410193715501138_122099183643476221",
+      "published_at": "2026-09-12T15:00:38.842983+08:00"
     },
     {
       "rank": 4,
