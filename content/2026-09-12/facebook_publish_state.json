@@ -44,8 +44,8 @@
       "caption": "🤖 Bridge the gap between reinforcement learning simulation and physical hardware with an open-source, compact biped robot powered by a Raspberry Pi and ONNX policies!\n\nTraining walking policies in simulation is one thing, but deploying them to real-world edge hardware often means building a complex deployment stack from scratch. \n\nMicroduck solves this by providing a complete, end-to-end hardware and software tutorial for building, configuring, and deploying reinforcement-learning-powered biped robots. \n\nNotable Features:\n- Simulation-to-Real Pipeline: Uses an MjLab-based RL environment for training walking policies and exporting them directly to ONNX format.\n- Edge Runtime on Raspberry Pi Zero 2 W: Runs Python deployment code to read IMU sensor data, process inputs, and drive a 14-servo Dynamixel bus via an OpenRB-150 controller.\n- Headless Bluetooth Gamepad Service: Integrated systemd service for wireless teleoperation that automatically manages network states for 2.4GHz bandwidth.\n- Reproducible OS Image Provisioning: Includes a pre-built Raspberry Pi OS Lite image with pre-configured Python virtual environments and automation services via a comprehensive Makefile.\n\nPerfect for robotics engineers, RL researchers, and embedded systems developers looking to prototype low-cost hardware architectures or deploy custom locomotion models onto physical agents.\n\nCheck out the full repository and start building:\nhttps://github.com/AI-FanGe/Microduck-build-tutorial\n\nWhat is your go-to framework for sim-to-real transfer? Let us know in the comments below! 👇\n\n#Robotics #ReinforcementLearning #ArtificialIntelligence #EmbeddedSystems #RaspberryPi #OpenSource #MachineLearning #EmbodiedAI",
       "image_file": "5_AI-FanGe_Microduck-build-tutorial.png",
       "photo_id": "122099022603476221",
-      "published_post_id": null,
-      "published_at": null
+      "published_post_id": "1410193715501138_122099472405476221",
+      "published_at": "2026-09-12T23:00:41.903500+08:00"
     }
   ]
 }
