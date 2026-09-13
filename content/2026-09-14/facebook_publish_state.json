@@ -1,0 +1,51 @@
+{
+  "date": "2026-09-14",
+  "prepared_at": "2026-09-14T07:02:08.347995+08:00",
+  "posts": [
+    {
+      "rank": 1,
+      "repo_name": "openclaw/openclaw",
+      "caption": "Tired of your AI agents being locked inside proprietary third-party SaaS wrappers? Meet OpenClaw: the ultimate open-source, local-first control plane for AI assistants. \n\nOpenClaw bridges cross-platform AI agent workflows by running a self-hosted gateway that connects local and hosted models directly to your favorite chat apps and hardware devices. It acts as a secure control plane that manages sessions, tools, and connections while keeping your state, memory, and credentials entirely on your own local hardware.\n\nKey features developers love:\n🌐 Cross-platform chat integration supporting Discord, Slack, Telegram, WhatsApp, iMessage, and 20+ other services\n🔒 Self-hosted Gateway architecture separating the trusted control plane from untrusted execution environments\n🔌 Extensible plugin and tool architecture with a dedicated SDK and ClawHub community distribution\n📱 Native companion apps and device nodes for voice, camera, screen, and device-local actions across macOS, iOS, Android, Windows, and Linux\n\nWhether you want to deploy a personalized AI assistant accessible simultaneously via Slack, Telegram, and your terminal, or build sandboxed tools that safely interact with your local file system, OpenClaw gives you total ownership over your runtime.\n\nCheck out the repo, star the project, and start building your autonomous workflows today:\nhttps://github.com/openclaw/openclaw\n\nWhat chat app are you deploying your AI agent to first? Let us know in the comments!\n\n#AI #ArtificialIntelligence #SoftwareEngineering #OpenSource #DevOps #LLM #SelfHosted #Developers",
+      "image_file": "1_openclaw_openclaw.png",
+      "photo_id": "122100682269476221",
+      "published_post_id": "1410193715501138_122100682485476221",
+      "published_at": "2026-09-14T07:02:10.670847+08:00"
+    },
+    {
+      "rank": 2,
+      "repo_name": "n8n-io/n8n",
+      "caption": "Tired of stitching together brittle API integrations and wrestling with boilerplate code just to get a multi-step AI agent off the ground? \n\nBridge the gap between low-code workflow automation and complex AI agent architectures with n8n's self-hosted, AI-native integration platform. \n\nn8n solves the complexity of orchestrating multi-step AI agents, LLM applications, and traditional software integrations by providing a fair-code, self-hostable visual platform that seamlessly blends drag-and-drop node logic with custom JavaScript and Python execution.\n\nHere is why backend and AI engineers are adding it to their stack:\n\n🤖 AI-Native Integration Framework: Support multi-step agents with total model flexibility and zero vendor lock-in, plus Model Context Protocol (MCP) support.\n🔌 Massive Ecosystem: Over 1,500 native integrations and 9,000 community templates to connect your enterprise data systems instantly.\n⚡ Hybrid Development Model: Combine visual node canvases with inline JavaScript, Python, and external npm packages for absolute granular control.\n🔒 Production-Ready Infrastructure: Full self-hosting capabilities via Docker, robust role-based access control, audit trails, and strict data privacy compliance.\n\nWhether you are building autonomous support agents that query internal vector databases or orchestrating heavy data pipelines between legacy systems and modern LLMs, you can prototype and scale complex agentic workflows in minutes.\n\nCheck it out on GitHub and star the repo:\nhttps://github.com/n8n-io/n8n\n\nHow are you orchestrating your AI agents and automation pipelines? Let us know in the comments below! 👇\n\n#OpenSource #AI #SoftwareEngineering #DevOps #Automation #Python #JavaScript #Docker",
+      "image_file": "2_n8n-io_n8n.png",
+      "photo_id": "122100682311476221",
+      "published_post_id": null,
+      "published_at": null
+    },
+    {
+      "rank": 3,
+      "repo_name": "sumimakito/Mac-Duo",
+      "caption": "Ever wish your MacBook had that whimsical, polished iPhone Duo lid-close animation? \n\nApple's ecosystem is amazing, but there is still a cosmetic gap between iOS and macOS polish. Until now! \n\nMac-Duo bridges that gap by bringing the mesmerizing iPhone Duo effect directly to your MacBook desktop using native macOS APIs. As you close your laptop lid, the app tracks the angle sensor and dynamically applies perspective tilt, blur, and fade effects to your live desktop environment.\n\n✨ Key Features:\n• Metal Rendering Pipeline: Leverages the GPU for real-time perspective shifts, blur, and dimming as the lid closes.\n• Live Screen Streaming: Powered by ScreenCaptureKit to continuously capture and render display content on the fly.\n• Hardware Integration: Utilizes built-in MacBook lid angle sensors to trigger visual transitions smoothly.\n• Menu Bar Utility: Easily adjust perspective controls to match different viewing positions naturally.\n\n💻 Why Swift engineers and macOS devs should check this out:\nIf you are working on native macOS utilities, Mac-Duo is a clean, modern implementation of Swift 6.0 combined with advanced frameworks like Metal and ScreenCaptureKit. It serves as an incredible architectural reference for capturing live screen data, interacting with physical hardware sensors, and rendering custom graphics overlays that handle click-through interactions seamlessly.\n\n👉 Star and explore the repo on GitHub:\nhttps://github.com/sumimakito/Mac-Duo\n\nDrop a comment below: What other iOS animations would you love to see brought natively to macOS? \n\n#Swift #MacOS #Metal #ScreenCaptureKit #SoftwareEngineering #OpenSource #UIUX #AppDevelopment",
+      "image_file": "3_sumimakito_Mac-Duo.png",
+      "photo_id": "122100682353476221",
+      "published_post_id": null,
+      "published_at": null
+    },
+    {
+      "rank": 4,
+      "repo_name": "OpenWAM-Official/OpenWAM",
+      "caption": "Building generalist robot policies shouldn't mean wrestling with tightly coupled codebases. 🤖 Meet OpenWAM: an open, modular research stack built specifically to systematically pretrain World-Action Models (WAMs) and scale robot learning.\n\nThe Problem: \nDeveloping cross-domain robotics policies often forces you into rigid, monolithic frameworks. It's frustratingly difficult to isolate and experiment with video backbones, action tokenizers, and VLM experts independently.\n\nWhat OpenWAM Delivers:\n• Modular Architecture: Scale from single-system Diffusion Transformer (DiT) setups to dual- and tri-system integrations combining video, actions, states, and VLM understanding.\n• Benchmark Ready: Out-of-the-box integration with top-tier simulation and robotic environments like LIBERO, RoboTwin, RoboCasa365, VLABench, and EBench.\n• Streamlined Asset Management: Built-in downloader utilities for visual encoders, video backbones, VLM weights, and large-scale datasets.\n• Flexible Deployment: Choose between isolated Docker containers or native Python/conda environments backed by PyTorch and DeepSpeed.\n\nWhy Robotics & AI Engineers Need This:\nGain a production-ready, highly structured codebase to experiment with state-of-the-art video-action backbones, train custom WAMs on massive egocentric datasets, and seamlessly benchmark your policies. \n\nExplore the code and start pretraining today:\nhttps://github.com/OpenWAM-Official/OpenWAM\n\nWhat robotics simulator or benchmark are you currently testing your models on? Let us know in the comments below! 👇\n\n#Robotics #ArtificialIntelligence #MachineLearning #WorldModels #RobotLearning #OpenSource #DeepLearning #Python",
+      "image_file": "4_OpenWAM-Official_OpenWAM.png",
+      "photo_id": "122100682401476221",
+      "published_post_id": null,
+      "published_at": null
+    },
+    {
+      "rank": 5,
+      "repo_name": "Edge0-AI/Edge0",
+      "caption": "Want to run massive 35B+ parameter AI models locally on your everyday laptop without melting your RAM? 🍏🔥\n\nMeet Edge0: an open-source streaming Mixture of Experts inference framework built specifically for consumer Apple Silicon hardware. \n\nIf you are tired of being bottlenecked by expensive server-grade GPUs or constrained by high cloud API costs and latency, Edge0 solves the hardware wall by streaming expert weights from your SSD on demand instead of keeping them entirely in memory. \n\nHere is why you need to check it out:\n* SSD expert offloading keeps peak memory usage strictly bounded by the active expert set rather than the full parameter count.\n* A trained prerouter head predicts expert routing one step ahead, overlapping expert loads with the forward pass to maximize decode throughput.\n* Recover-LoRA architecture freezes the 4-bit base model and applies distillation-trained adapters to claw back quantization loss.\n* Includes a clean, isolated MLX backend for Apple Silicon alongside a pluggable core facade designed for future CUDA support.\n* Drops right into your workflow with an OpenAI-compatible local server interface and an intuitive Python API.\n\nWhether you are building local offline coding assistants or deploying edge AI where hardware limits your parameters, Edge0 brings frontier-class capabilities straight to your development machine. \n\nExplore the code, run your first local MoE, and drop a star on the repo:\nhttps://github.com/Edge0-AI/Edge0\n\nHow are you currently handling local LLM memory constraints on your machine? Let us know in the comments! 👇\n\n#AI #MachineLearning #AppleSilicon #OpenSource #LocalLLM #SoftwareEngineering #ArtificialIntelligence #Python",
+      "image_file": "5_Edge0-AI_Edge0.png",
+      "photo_id": "122100682455476221",
+      "published_post_id": null,
+      "published_at": null
+    }
+  ]
+}
