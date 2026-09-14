@@ -17,8 +17,8 @@
       "caption": "Tired of stitching together brittle API integrations and wrestling with boilerplate code just to get a multi-step AI agent off the ground? \n\nBridge the gap between low-code workflow automation and complex AI agent architectures with n8n's self-hosted, AI-native integration platform. \n\nn8n solves the complexity of orchestrating multi-step AI agents, LLM applications, and traditional software integrations by providing a fair-code, self-hostable visual platform that seamlessly blends drag-and-drop node logic with custom JavaScript and Python execution.\n\nHere is why backend and AI engineers are adding it to their stack:\n\n🤖 AI-Native Integration Framework: Support multi-step agents with total model flexibility and zero vendor lock-in, plus Model Context Protocol (MCP) support.\n🔌 Massive Ecosystem: Over 1,500 native integrations and 9,000 community templates to connect your enterprise data systems instantly.\n⚡ Hybrid Development Model: Combine visual node canvases with inline JavaScript, Python, and external npm packages for absolute granular control.\n🔒 Production-Ready Infrastructure: Full self-hosting capabilities via Docker, robust role-based access control, audit trails, and strict data privacy compliance.\n\nWhether you are building autonomous support agents that query internal vector databases or orchestrating heavy data pipelines between legacy systems and modern LLMs, you can prototype and scale complex agentic workflows in minutes.\n\nCheck it out on GitHub and star the repo:\nhttps://github.com/n8n-io/n8n\n\nHow are you orchestrating your AI agents and automation pipelines? Let us know in the comments below! 👇\n\n#OpenSource #AI #SoftwareEngineering #DevOps #Automation #Python #JavaScript #Docker",
       "image_file": "2_n8n-io_n8n.png",
       "photo_id": "122100682311476221",
-      "published_post_id": null,
-      "published_at": null
+      "published_post_id": "1410193715501138_122100797895476221",
+      "published_at": "2026-09-14T11:00:42.556296+08:00"
     },
     {
       "rank": 3,
