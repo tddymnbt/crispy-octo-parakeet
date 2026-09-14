@@ -44,8 +44,8 @@
       "caption": "Want to run massive 35B+ parameter AI models locally on your everyday laptop without melting your RAM? 🍏🔥\n\nMeet Edge0: an open-source streaming Mixture of Experts inference framework built specifically for consumer Apple Silicon hardware. \n\nIf you are tired of being bottlenecked by expensive server-grade GPUs or constrained by high cloud API costs and latency, Edge0 solves the hardware wall by streaming expert weights from your SSD on demand instead of keeping them entirely in memory. \n\nHere is why you need to check it out:\n* SSD expert offloading keeps peak memory usage strictly bounded by the active expert set rather than the full parameter count.\n* A trained prerouter head predicts expert routing one step ahead, overlapping expert loads with the forward pass to maximize decode throughput.\n* Recover-LoRA architecture freezes the 4-bit base model and applies distillation-trained adapters to claw back quantization loss.\n* Includes a clean, isolated MLX backend for Apple Silicon alongside a pluggable core facade designed for future CUDA support.\n* Drops right into your workflow with an OpenAI-compatible local server interface and an intuitive Python API.\n\nWhether you are building local offline coding assistants or deploying edge AI where hardware limits your parameters, Edge0 brings frontier-class capabilities straight to your development machine. \n\nExplore the code, run your first local MoE, and drop a star on the repo:\nhttps://github.com/Edge0-AI/Edge0\n\nHow are you currently handling local LLM memory constraints on your machine? Let us know in the comments! 👇\n\n#AI #MachineLearning #AppleSilicon #OpenSource #LocalLLM #SoftwareEngineering #ArtificialIntelligence #Python",
       "image_file": "5_Edge0-AI_Edge0.png",
       "photo_id": "122100682455476221",
-      "published_post_id": null,
-      "published_at": null
+      "published_post_id": "1410193715501138_122101140807476221",
+      "published_at": "2026-09-14T23:00:41.745300+08:00"
     }
   ]
 }
