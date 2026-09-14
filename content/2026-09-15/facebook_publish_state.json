@@ -1,0 +1,51 @@
+{
+  "date": "2026-09-15",
+  "prepared_at": "2026-09-15T07:02:22.100775+08:00",
+  "posts": [
+    {
+      "rank": 1,
+      "repo_name": "crwdla/tokentab",
+      "caption": "Are your CLI AI coding assistants quietly draining your budget? 💸\n\nIf you rely on tools like Claude Code, Codex, and Gemini CLI, you might have experienced sticker shock when those token expenses add up. Without visibility, it is too easy to run up hidden costs through redundant prompt loops and inefficient context management.\n\nEnter Tokentab: a local-first command-line utility and web dashboard designed to give you total control over your AI spending. \n\nTokentab reads your existing session logs directly from your disk to break down exact token usage and financial costs. Best of all, it keeps your data entirely private.\n\n✨ Key Features:\n• 100% Local Execution: Parses existing disk logs with zero accounts, API keys, or external telemetry required.\n• Multi-Tool Parsing: Comprehensive support for Claude Code, Codex, and Gemini CLI with extensible provider modules.\n• Zero-Dependency Web Dashboard: Launches locally for statement-style cost visualization.\n• Smart Insights: Features fuzzy-matched manual pricing tables and deterministic heuristic activity classification for reliable spending metrics.\n• Export Ready: Export machine-readable JSON metrics for custom internal scripts and pull request workflows.\n\nStop guessing where your AI budget is going. Audit your spending, optimize your model selection, and keep your data secure.\n\n👉 Check out the repository and start tracking your usage today: https://github.com/crwdla/tokentab\n\nDrop a comment below and let us know which AI coding assistant eats up most of your tokens! \n\n#DeveloperTools #ArtificialIntelligence #CodingAssistants #OpenSource #SoftwareEngineering #TechStack",
+      "image_file": "1_crwdla_tokentab.png",
+      "photo_id": "122101453473476221",
+      "published_post_id": "1410193715501138_122101453701476221",
+      "published_at": "2026-09-15T07:02:24.673120+08:00"
+    },
+    {
+      "rank": 2,
+      "repo_name": "kruzovic7/ai-data-extractor",
+      "caption": "Your AI coding history is trapped across a dozen proprietary apps—this zero-dependency Python utility unifies them all into clean JSONL for fine-tuning and local analytics. \n\nAs developers, we accumulate thousands of hours of valuable context, debugging steps, and prompt patterns in isolated AI tools. But that data remains fragmented across different applications. \n\nkruzovic7/ai-data-extractor solves this by auto-discovering, extracting, and normalizing local data from modern AI coding assistants into a unified format. \n\nKey features include:\n- Cross-ecosystem support covering 10 distinct tools including Claude Code, Cursor, Windsurf, Aider, Cline, and Continue across macOS, Linux, and Windows.\n- Zero external dependencies, built entirely using the Python standard library for safe, lightweight execution.\n- Robust extraction strategies handling diverse underlying storage layers from structured SQLite databases to custom JSON trees and Markdown transcripts.\n- Built-in defensive reading mechanisms utilizing read-only connections and file-level error trapping to prevent corrupt or locked application databases from halting execution.\n\nUse it to prepare custom training datasets for fine-tuning open-source LLMs on your specialized coding patterns, or to consolidate your archives into secure local backups before an IDE migration.\n\nCheck it out on GitHub:\nhttps://github.com/kruzovic7/ai-data-extractor\n\nWhat is your preferred method for fine-tuning models on your personal workflow data? Let us know in the comments below, and drop a star on the repo if this helps liberate your data!\n\n#AI #MachineLearning #Python #OpenSource #DeveloperTools #FineTuning #LLM",
+      "image_file": "2_kruzovic7_ai-data-extractor.png",
+      "photo_id": "122101453515476221",
+      "published_post_id": null,
+      "published_at": null
+    },
+    {
+      "rank": 3,
+      "repo_name": "yifanzhang-pro/recurrent-looped-tranformer",
+      "caption": "What if your language model could reason infinitely without resetting its brain at every prompt boundary? 🧠✨\n\nStandard transformers hit a hard wall: their temporal computation depth is strictly static per token, and they suffer from a messy structural mismatch between prompt prefill and generation. \n\nMeet the Recurrent Looped Transformer—a brand-new architecture designed to give LLMs infinite temporal depth. By combining a causal encoder for global memory with a recurrent decoder using sliding-window attention and temporal feedback, it carries latent reasoning feedback across every token continuously. 🚀\n\nKey Features:\n• Infinite Temporal Depth: Extends the recurrent computation path through the decoder as your sequences grow.\n• Unified Execution Semantics: Seamlessly handles pretraining, SFT, sampling, and current-policy RL replay without annoying prompt-boundary resets.\n• Model-Hardware Co-Design: Optimized for parallel causal encoding, sequence batching, memory reuse, and activation checkpointing.\n• Sliding-Window Attention: Paired with temporal feedback from the previous final decoder hidden state for ultimate state tracking.\n\nWhether you are prototyping alternative transformer topologies or building unified training pipelines, this repo is your blueprint for scaling long-context reasoning. 🛠️\n\n👇 Dive into the code and start experimenting today:\nhttps://github.com/yifanzhang-pro/recurrent-looped-tranformer\n\nDrop a comment below: How would infinite temporal depth change your current LLM pipeline? \n\n#ArtificialIntelligence #MachineLearning #DeepLearning #LLM #OpenSource #GitHub #TechInnovation #NeuralNetworks",
+      "image_file": "3_yifanzhang-pro_recurrent-looped-tranformer.png",
+      "photo_id": "122101453563476221",
+      "published_post_id": null,
+      "published_at": null
+    },
+    {
+      "rank": 4,
+      "repo_name": "eternityspring/reelbench-skills",
+      "caption": "Turn Claude Code or Codex into an expert video editing and shot-analysis assistant with zero npm dependencies and precise FFmpeg-backed workflows. 🎬\n\nAre you tired of struggling to build reliable video processing pipelines for your AI agents? Traditional approaches either bloat your project with massive dependencies or force LLMs to guess precise timestamps, leading to messy results and wasted API costs.\n\nreelbench-skills solves this by giving your local coding assistants specialized skills to automate video analysis, shot breakdown, and rich interactive video report generation. It delegates objective measurements like cuts and timings strictly to FFmpeg and ffprobe, reserving LLM inference solely for qualitative judgments. \n\nKey Features:\n• Precise programmatic shot detection and motion curve analysis powered by FFmpeg\n• Comprehensive automated quality gate verification running 15 validation checks on video breakdowns\n• Standalone interactive HTML report generation with embedded players, synchronized timeline scrolling, search, filtering, and keyframe inspection with zero external runtime dependencies\n• Video synthesis capabilities that combine original footage with dynamic side-by-side or stacked storyboard metadata tracking\n\nWhether you are automating detailed shot breakdown sheets for post-production pipelines or building synchronized technical review videos for AI-generated media, this integration lets you bypass the complexity of custom video parsing wrappers. \n\nCheck it out on GitHub:\nhttps://github.com/eternityspring/reelbench-skills\n\nDrop a comment below if you are building AI video agents, and let us know how you plan to use local coding assistants for your media workflows! 👇\n\n#AI #MachineLearning #FFmpeg #VideoEditing #DeveloperTools #OpenSource #ArtificialIntelligence #Python",
+      "image_file": "4_eternityspring_reelbench-skills.png",
+      "photo_id": "122101453605476221",
+      "published_post_id": null,
+      "published_at": null
+    },
+    {
+      "rank": 5,
+      "repo_name": "nftechie/stonkfly",
+      "caption": "What happens when you wire a fruit fly's 166,700-neuron connectome directly to Coinbase to trade crypto? Meet Stonkfly.\n\nFor AI researchers and experimental financial technologists exploring unconventional agent architectures, building intelligent systems usually means reaching for another LLM. Stonkfly changes the game by bridging computational neuroscience and algorithmic trading, feeding real-time cryptocurrency candlestick data as visual stimuli into a massive, retained biological fly-connectome simulation and mapping its neural firing outputs to automated spot trades via Coinbase AgentKit.\n\nNotable Features:\n- Simulates the MaleCNS v1.0 biological connectome featuring 166,700 neurons and 25.6 million connections.\n- Translates public Coinbase price candlestick charts into brightness and color inputs for sensory neurons.\n- Implements a custom Coinbase AgentKit ActionProvider to check limits and execute spot orders securely through Coinbase Advanced.\n- Applies engineered reinforcement signals by stimulating dopamine cells based on portfolio profit and loss to trigger candidate memory rules.\n\nThis serves as an advanced architectural blueprint and integration testbed for embedding unconventional, non-LLM decision engines into production-grade APIs, demonstrating how to handle stateful simulation persistence, safety guardrails, and risk management limits in automated trading environments.\n\nCheck out the repository and start experimenting:\nhttps://github.com/nftechie/stonkfly\n\nDrop a comment below: Would you trust a literal fruit fly brain with your portfolio, or is this the ultimate financial degen move? Star the repo on GitHub if you are building wild AI agents!\n\n#AI #MachineLearning #ComputationalNeuroscience #CryptoTrading #OpenSource #Coinbase #Python #TechInnovation",
+      "image_file": "5_nftechie_stonkfly.png",
+      "photo_id": "122101453665476221",
+      "published_post_id": null,
+      "published_at": null
+    }
+  ]
+}
