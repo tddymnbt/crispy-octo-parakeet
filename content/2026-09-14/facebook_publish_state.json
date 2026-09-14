@@ -35,8 +35,8 @@
       "caption": "Building generalist robot policies shouldn't mean wrestling with tightly coupled codebases. 🤖 Meet OpenWAM: an open, modular research stack built specifically to systematically pretrain World-Action Models (WAMs) and scale robot learning.\n\nThe Problem: \nDeveloping cross-domain robotics policies often forces you into rigid, monolithic frameworks. It's frustratingly difficult to isolate and experiment with video backbones, action tokenizers, and VLM experts independently.\n\nWhat OpenWAM Delivers:\n• Modular Architecture: Scale from single-system Diffusion Transformer (DiT) setups to dual- and tri-system integrations combining video, actions, states, and VLM understanding.\n• Benchmark Ready: Out-of-the-box integration with top-tier simulation and robotic environments like LIBERO, RoboTwin, RoboCasa365, VLABench, and EBench.\n• Streamlined Asset Management: Built-in downloader utilities for visual encoders, video backbones, VLM weights, and large-scale datasets.\n• Flexible Deployment: Choose between isolated Docker containers or native Python/conda environments backed by PyTorch and DeepSpeed.\n\nWhy Robotics & AI Engineers Need This:\nGain a production-ready, highly structured codebase to experiment with state-of-the-art video-action backbones, train custom WAMs on massive egocentric datasets, and seamlessly benchmark your policies. \n\nExplore the code and start pretraining today:\nhttps://github.com/OpenWAM-Official/OpenWAM\n\nWhat robotics simulator or benchmark are you currently testing your models on? Let us know in the comments below! 👇\n\n#Robotics #ArtificialIntelligence #MachineLearning #WorldModels #RobotLearning #OpenSource #DeepLearning #Python",
       "image_file": "4_OpenWAM-Official_OpenWAM.png",
       "photo_id": "122100682401476221",
-      "published_post_id": null,
-      "published_at": null
+      "published_post_id": "1410193715501138_122101011819476221",
+      "published_at": "2026-09-14T19:00:43.852237+08:00"
     },
     {
       "rank": 5,
