@@ -192,6 +192,12 @@
       "facebook_post_id": "1410193715501138_122101577247476221",
       "slot": 2,
       "posted_at": "2026-09-15T11:00:38.488723+08:00"
+    },
+    {
+      "repository": "yifanzhang-pro/recurrent-looped-tranformer",
+      "facebook_post_id": "1410193715501138_122101690317476221",
+      "slot": 3,
+      "posted_at": "2026-09-15T15:00:36.498393+08:00"
     }
   ]
 }

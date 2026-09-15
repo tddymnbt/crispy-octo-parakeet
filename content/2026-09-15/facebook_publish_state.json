@@ -26,8 +26,8 @@
       "caption": "What if your language model could reason infinitely without resetting its brain at every prompt boundary? 🧠✨\n\nStandard transformers hit a hard wall: their temporal computation depth is strictly static per token, and they suffer from a messy structural mismatch between prompt prefill and generation. \n\nMeet the Recurrent Looped Transformer—a brand-new architecture designed to give LLMs infinite temporal depth. By combining a causal encoder for global memory with a recurrent decoder using sliding-window attention and temporal feedback, it carries latent reasoning feedback across every token continuously. 🚀\n\nKey Features:\n• Infinite Temporal Depth: Extends the recurrent computation path through the decoder as your sequences grow.\n• Unified Execution Semantics: Seamlessly handles pretraining, SFT, sampling, and current-policy RL replay without annoying prompt-boundary resets.\n• Model-Hardware Co-Design: Optimized for parallel causal encoding, sequence batching, memory reuse, and activation checkpointing.\n• Sliding-Window Attention: Paired with temporal feedback from the previous final decoder hidden state for ultimate state tracking.\n\nWhether you are prototyping alternative transformer topologies or building unified training pipelines, this repo is your blueprint for scaling long-context reasoning. 🛠️\n\n👇 Dive into the code and start experimenting today:\nhttps://github.com/yifanzhang-pro/recurrent-looped-tranformer\n\nDrop a comment below: How would infinite temporal depth change your current LLM pipeline? \n\n#ArtificialIntelligence #MachineLearning #DeepLearning #LLM #OpenSource #GitHub #TechInnovation #NeuralNetworks",
       "image_file": "3_yifanzhang-pro_recurrent-looped-tranformer.png",
       "photo_id": "122101453563476221",
-      "published_post_id": null,
-      "published_at": null
+      "published_post_id": "1410193715501138_122101690317476221",
+      "published_at": "2026-09-15T15:00:36.497747+08:00"
     },
     {
       "rank": 4,
