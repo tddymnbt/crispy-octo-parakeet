@@ -44,8 +44,8 @@
       "caption": "What happens when you wire a fruit fly's 166,700-neuron connectome directly to Coinbase to trade crypto? Meet Stonkfly.\n\nFor AI researchers and experimental financial technologists exploring unconventional agent architectures, building intelligent systems usually means reaching for another LLM. Stonkfly changes the game by bridging computational neuroscience and algorithmic trading, feeding real-time cryptocurrency candlestick data as visual stimuli into a massive, retained biological fly-connectome simulation and mapping its neural firing outputs to automated spot trades via Coinbase AgentKit.\n\nNotable Features:\n- Simulates the MaleCNS v1.0 biological connectome featuring 166,700 neurons and 25.6 million connections.\n- Translates public Coinbase price candlestick charts into brightness and color inputs for sensory neurons.\n- Implements a custom Coinbase AgentKit ActionProvider to check limits and execute spot orders securely through Coinbase Advanced.\n- Applies engineered reinforcement signals by stimulating dopamine cells based on portfolio profit and loss to trigger candidate memory rules.\n\nThis serves as an advanced architectural blueprint and integration testbed for embedding unconventional, non-LLM decision engines into production-grade APIs, demonstrating how to handle stateful simulation persistence, safety guardrails, and risk management limits in automated trading environments.\n\nCheck out the repository and start experimenting:\nhttps://github.com/nftechie/stonkfly\n\nDrop a comment below: Would you trust a literal fruit fly brain with your portfolio, or is this the ultimate financial degen move? Star the repo on GitHub if you are building wild AI agents!\n\n#AI #MachineLearning #ComputationalNeuroscience #CryptoTrading #OpenSource #Coinbase #Python #TechInnovation",
       "image_file": "5_nftechie_stonkfly.png",
       "photo_id": "122101453665476221",
-      "published_post_id": null,
-      "published_at": null
+      "published_post_id": "1410193715501138_122102004471476221",
+      "published_at": "2026-09-15T23:00:42.365905+08:00"
     }
   ]
 }
