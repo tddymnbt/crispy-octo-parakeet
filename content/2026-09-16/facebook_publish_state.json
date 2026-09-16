@@ -44,8 +44,8 @@
       "caption": "Stop settling for vibe coding and enforce real engineering discipline on your AI coding agents with Matt Pocock's composable skill bundles. 🤖💥\n\nAre you tired of AI coding assistants like Claude Code introducing software entropy, hallucinating architecture, and writing endless walls of verbose code without enough feedback loops? \n\nmattpocock/skills is a curated collection of agent skills and configurations built to solve the communication gap and bring rigorous standards back to AI-assisted development. \n\nHere is what you get out of the box:\n🧠 Interactive alignment sessions via grill-me and grill-with-docs that force your agent to ask clarifying questions before writing a single line of code.\n📉 Shared domain language and context documentation support that drastically reduces token usage and verbosity.\n🧪 Rigorous TDD and bug-diagnosing workflows enforcing strict red-green-refactor loops and systematic debugging phases.\n🏗️ Codebase architecture improvement tooling that regularly surveys projects for modularity and design deepening.\n\nProfessional engineers and tech leads can now eliminate agent misalignments and keep technical debt completely in check using modular control instead of heavy, opaque frameworks. \n\n👉 Check it out here: https://github.com/mattpocock/skills\n\nDrop a comment below: Are you ready to tighten up your AI agent workflows, or are you still relying on pure vibes? \n\n#SoftwareEngineering #AIDevelopment #CodingAgents #TypeScript #TechCommunity #DeveloperTools",
       "image_file": "5_mattpocock_skills.png",
       "photo_id": "122102298477476221",
-      "published_post_id": null,
-      "published_at": null
+      "published_post_id": "1410193715501138_122102826453476221",
+      "published_at": "2026-09-16T23:00:39.305068+08:00"
     }
   ]
 }
