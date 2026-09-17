@@ -1,0 +1,407 @@
+{
+  "snapshot_date": "2026-09-17",
+  "generated_at": "2026-09-17T23:01:06.791800+00:00",
+  "candidate_count": 40,
+  "repositories": [
+    {
+      "name": "public-apis/public-apis",
+      "url": "https://github.com/public-apis/public-apis",
+      "stars": 481209,
+      "forks": 53123,
+      "language": "Python",
+      "created_at": "2016-03-20T23:49:42Z",
+      "updated_at": "2026-09-17T22:59:54Z",
+      "pushed_at": "2026-09-17T13:58:56Z"
+    },
+    {
+      "name": "freeCodeCamp/freeCodeCamp",
+      "url": "https://github.com/freeCodeCamp/freeCodeCamp",
+      "stars": 455686,
+      "forks": 46541,
+      "language": "TypeScript",
+      "created_at": "2014-12-24T17:49:19Z",
+      "updated_at": "2026-09-17T22:59:38Z",
+      "pushed_at": "2026-09-17T20:01:01Z"
+    },
+    {
+      "name": "EbookFoundation/free-programming-books",
+      "url": "https://github.com/EbookFoundation/free-programming-books",
+      "stars": 397056,
+      "forks": 66787,
+      "language": "Python",
+      "created_at": "2013-10-11T06:50:37Z",
+      "updated_at": "2026-09-17T22:38:05Z",
+      "pushed_at": "2026-09-15T15:54:40Z"
+    },
+    {
+      "name": "openclaw/openclaw",
+      "url": "https://github.com/openclaw/openclaw",
+      "stars": 389991,
+      "forks": 81983,
+      "language": "TypeScript",
+      "created_at": "2025-11-24T10:16:47Z",
+      "updated_at": "2026-09-17T23:00:25Z",
+      "pushed_at": "2026-09-17T23:00:59Z"
+    },
+    {
+      "name": "donnemartin/system-design-primer",
+      "url": "https://github.com/donnemartin/system-design-primer",
+      "stars": 370535,
+      "forks": 58473,
+      "language": "Python",
+      "created_at": "2017-02-26T16:15:28Z",
+      "updated_at": "2026-09-17T23:00:59Z",
+      "pushed_at": "2026-09-15T01:10:09Z"
+    },
+    {
+      "name": "nilbuild/developer-roadmap",
+      "url": "https://github.com/nilbuild/developer-roadmap",
+      "stars": 367547,
+      "forks": 44960,
+      "language": "TypeScript",
+      "created_at": "2017-03-15T13:45:52Z",
+      "updated_at": "2026-09-17T22:59:57Z",
+      "pushed_at": "2026-09-17T08:18:48Z"
+    },
+    {
+      "name": "vinta/awesome-python",
+      "url": "https://github.com/vinta/awesome-python",
+      "stars": 321325,
+      "forks": 28752,
+      "language": "Python",
+      "created_at": "2014-06-27T21:00:06Z",
+      "updated_at": "2026-09-17T23:01:00Z",
+      "pushed_at": "2026-09-15T16:48:04Z"
+    },
+    {
+      "name": "awesome-selfhosted/awesome-selfhosted",
+      "url": "https://github.com/awesome-selfhosted/awesome-selfhosted",
+      "stars": 319926,
+      "forks": 15029,
+      "language": null,
+      "created_at": "2015-06-01T02:33:17Z",
+      "updated_at": "2026-09-17T23:00:36Z",
+      "pushed_at": "2026-09-15T18:43:10Z"
+    },
+    {
+      "name": "obra/superpowers",
+      "url": "https://github.com/obra/superpowers",
+      "stars": 288104,
+      "forks": 25770,
+      "language": "Shell",
+      "created_at": "2025-10-09T19:45:18Z",
+      "updated_at": "2026-09-17T23:00:17Z",
+      "pushed_at": "2026-09-17T22:51:14Z"
+    },
+    {
+      "name": "mattpocock/skills",
+      "url": "https://github.com/mattpocock/skills",
+      "stars": 264436,
+      "forks": 22300,
+      "language": "Shell",
+      "created_at": "2026-02-03T11:15:53Z",
+      "updated_at": "2026-09-17T23:00:31Z",
+      "pushed_at": "2026-09-17T11:11:14Z"
+    },
+    {
+      "name": "affaan-m/ECC",
+      "url": "https://github.com/affaan-m/ECC",
+      "stars": 261114,
+      "forks": 39085,
+      "language": "JavaScript",
+      "created_at": "2026-01-18T00:51:51Z",
+      "updated_at": "2026-09-17T23:00:56Z",
+      "pushed_at": "2026-09-17T18:04:07Z"
+    },
+    {
+      "name": "react/react",
+      "url": "https://github.com/react/react",
+      "stars": 250544,
+      "forks": 51374,
+      "language": "JavaScript",
+      "created_at": "2013-05-24T16:15:54Z",
+      "updated_at": "2026-09-17T22:18:18Z",
+      "pushed_at": "2026-09-17T19:48:26Z"
+    },
+    {
+      "name": "torvalds/linux",
+      "url": "https://github.com/torvalds/linux",
+      "stars": 249346,
+      "forks": 64923,
+      "language": "C",
+      "created_at": "2011-09-04T22:48:12Z",
+      "updated_at": "2026-09-17T22:59:53Z",
+      "pushed_at": "2026-09-17T19:33:54Z"
+    },
+    {
+      "name": "NousResearch/hermes-agent",
+      "url": "https://github.com/NousResearch/hermes-agent",
+      "stars": 246531,
+      "forks": 51635,
+      "language": "Python",
+      "created_at": "2025-07-22T22:22:28Z",
+      "updated_at": "2026-09-17T23:00:56Z",
+      "pushed_at": "2026-09-17T23:00:43Z"
+    },
+    {
+      "name": "deepseek-ai/deepseek-harness",
+      "url": "https://github.com/deepseek-ai/deepseek-harness",
+      "stars": 227892,
+      "forks": 27193,
+      "language": "TypeScript",
+      "created_at": "2026-08-13T11:56:32Z",
+      "updated_at": "2026-09-17T23:00:16Z",
+      "pushed_at": "2026-09-17T13:30:15Z"
+    },
+    {
+      "name": "TheAlgorithms/Python",
+      "url": "https://github.com/TheAlgorithms/Python",
+      "stars": 224681,
+      "forks": 51087,
+      "language": "Python",
+      "created_at": "2016-07-16T09:44:01Z",
+      "updated_at": "2026-09-17T22:59:49Z",
+      "pushed_at": "2026-09-17T22:59:23Z"
+    },
+    {
+      "name": "anomalyco/opencode",
+      "url": "https://github.com/anomalyco/opencode",
+      "stars": 208181,
+      "forks": 27355,
+      "language": "TypeScript",
+      "created_at": "2025-04-30T20:08:00Z",
+      "updated_at": "2026-09-17T23:00:13Z",
+      "pushed_at": "2026-09-17T20:28:41Z"
+    },
+    {
+      "name": "n8n-io/n8n",
+      "url": "https://github.com/n8n-io/n8n",
+      "stars": 204943,
+      "forks": 60742,
+      "language": "TypeScript",
+      "created_at": "2019-06-22T09:24:21Z",
+      "updated_at": "2026-09-17T23:00:01Z",
+      "pushed_at": "2026-09-17T22:46:39Z"
+    },
+    {
+      "name": "tensorflow/tensorflow",
+      "url": "https://github.com/tensorflow/tensorflow",
+      "stars": 200159,
+      "forks": 76695,
+      "language": "C++",
+      "created_at": "2015-11-07T01:19:20Z",
+      "updated_at": "2026-09-17T22:52:32Z",
+      "pushed_at": "2026-09-17T22:58:48Z"
+    },
+    {
+      "name": "microsoft/vscode",
+      "url": "https://github.com/microsoft/vscode",
+      "stars": 192640,
+      "forks": 42537,
+      "language": "TypeScript",
+      "created_at": "2015-09-03T20:23:38Z",
+      "updated_at": "2026-09-17T23:00:53Z",
+      "pushed_at": "2026-09-17T23:00:38Z"
+    },
+    {
+      "name": "browser-use/jev-ultrafast",
+      "url": "https://github.com/browser-use/jev-ultrafast",
+      "stars": 1870,
+      "forks": 101,
+      "language": "Python",
+      "created_at": "2026-09-16T21:30:12Z",
+      "updated_at": "2026-09-17T23:00:25Z",
+      "pushed_at": "2026-09-17T21:54:00Z"
+    },
+    {
+      "name": "Chuloo/mural",
+      "url": "https://github.com/Chuloo/mural",
+      "stars": 1315,
+      "forks": 256,
+      "language": "Kotlin",
+      "created_at": "2026-09-12T11:51:08Z",
+      "updated_at": "2026-09-17T23:00:33Z",
+      "pushed_at": "2026-09-17T14:52:37Z"
+    },
+    {
+      "name": "sumimakito/Mac-Duo",
+      "url": "https://github.com/sumimakito/Mac-Duo",
+      "stars": 970,
+      "forks": 72,
+      "language": "Swift",
+      "created_at": "2026-09-10T18:55:39Z",
+      "updated_at": "2026-09-17T21:30:07Z",
+      "pushed_at": "2026-09-17T18:57:02Z"
+    },
+    {
+      "name": "yifanzhang-pro/recurrent-looped-tranformer",
+      "url": "https://github.com/yifanzhang-pro/recurrent-looped-tranformer",
+      "stars": 870,
+      "forks": 85,
+      "language": "HTML",
+      "created_at": "2026-09-12T19:02:46Z",
+      "updated_at": "2026-09-17T17:21:53Z",
+      "pushed_at": "2026-09-16T01:37:04Z"
+    },
+    {
+      "name": "kruzovic7/ai-data-extractor",
+      "url": "https://github.com/kruzovic7/ai-data-extractor",
+      "stars": 834,
+      "forks": 135,
+      "language": "Python",
+      "created_at": "2026-09-11T18:12:58Z",
+      "updated_at": "2026-09-17T18:28:04Z",
+      "pushed_at": "2026-09-11T18:20:56Z"
+    },
+    {
+      "name": "zjwzcx/Awesome-Astra-Embodied-AI",
+      "url": "https://github.com/zjwzcx/Awesome-Astra-Embodied-AI",
+      "stars": 823,
+      "forks": 16,
+      "language": null,
+      "created_at": "2026-09-12T12:20:24Z",
+      "updated_at": "2026-09-17T22:53:19Z",
+      "pushed_at": "2026-09-17T02:24:27Z"
+    },
+    {
+      "name": "unstablebuild/rune",
+      "url": "https://github.com/unstablebuild/rune",
+      "stars": 809,
+      "forks": 60,
+      "language": "Go",
+      "created_at": "2026-09-10T10:50:03Z",
+      "updated_at": "2026-09-17T21:45:03Z",
+      "pushed_at": "2026-09-17T00:20:48Z"
+    },
+    {
+      "name": "agentverse-os/AgentVerse-OS",
+      "url": "https://github.com/agentverse-os/AgentVerse-OS",
+      "stars": 743,
+      "forks": 21,
+      "language": "Rust",
+      "created_at": "2026-09-12T18:20:00Z",
+      "updated_at": "2026-09-17T22:41:55Z",
+      "pushed_at": "2026-09-12T19:17:57Z"
+    },
+    {
+      "name": "nftechie/stonkfly",
+      "url": "https://github.com/nftechie/stonkfly",
+      "stars": 742,
+      "forks": 131,
+      "language": "Python",
+      "created_at": "2026-09-10T02:40:30Z",
+      "updated_at": "2026-09-17T22:58:32Z",
+      "pushed_at": "2026-09-10T02:40:34Z"
+    },
+    {
+      "name": "angusdevgo/IDM_Pro_Tool",
+      "url": "https://github.com/angusdevgo/IDM_Pro_Tool",
+      "stars": 731,
+      "forks": 182,
+      "language": "C#",
+      "created_at": "2026-09-10T09:39:06Z",
+      "updated_at": "2026-09-17T22:56:08Z",
+      "pushed_at": "2026-09-11T08:06:21Z"
+    },
+    {
+      "name": "eternityspring/reelbench-skills",
+      "url": "https://github.com/eternityspring/reelbench-skills",
+      "stars": 729,
+      "forks": 93,
+      "language": "HTML",
+      "created_at": "2026-09-11T04:55:49Z",
+      "updated_at": "2026-09-17T16:32:55Z",
+      "pushed_at": "2026-09-14T00:51:09Z"
+    },
+    {
+      "name": "TheoLeeCJ/openjev",
+      "url": "https://github.com/TheoLeeCJ/openjev",
+      "stars": 718,
+      "forks": 49,
+      "language": "Python",
+      "created_at": "2026-09-16T03:51:21Z",
+      "updated_at": "2026-09-17T23:00:07Z",
+      "pushed_at": "2026-09-16T14:22:12Z"
+    },
+    {
+      "name": "youngyangyang04/llm-master",
+      "url": "https://github.com/youngyangyang04/llm-master",
+      "stars": 684,
+      "forks": 66,
+      "language": null,
+      "created_at": "2026-09-12T07:33:31Z",
+      "updated_at": "2026-09-17T15:27:46Z",
+      "pushed_at": "2026-09-13T08:32:08Z"
+    },
+    {
+      "name": "nilbuild/page-mascot",
+      "url": "https://github.com/nilbuild/page-mascot",
+      "stars": 680,
+      "forks": 61,
+      "language": "Python",
+      "created_at": "2026-09-14T06:55:59Z",
+      "updated_at": "2026-09-17T22:29:52Z",
+      "pushed_at": "2026-09-15T10:07:44Z"
+    },
+    {
+      "name": "rizqinrr/viserys-agent",
+      "url": "https://github.com/rizqinrr/viserys-agent",
+      "stars": 662,
+      "forks": 2,
+      "language": "JavaScript",
+      "created_at": "2026-09-12T16:51:29Z",
+      "updated_at": "2026-09-17T10:09:21Z",
+      "pushed_at": "2026-09-13T03:43:15Z"
+    },
+    {
+      "name": "Faizpi/bank-sampah",
+      "url": "https://github.com/Faizpi/bank-sampah",
+      "stars": 646,
+      "forks": 1,
+      "language": "PHP",
+      "created_at": "2026-09-11T02:13:29Z",
+      "updated_at": "2026-09-13T09:31:50Z",
+      "pushed_at": "2026-09-13T09:31:45Z"
+    },
+    {
+      "name": "vinnylarouge/jevlike",
+      "url": "https://github.com/vinnylarouge/jevlike",
+      "stars": 641,
+      "forks": 59,
+      "language": "Python",
+      "created_at": "2026-09-16T10:26:01Z",
+      "updated_at": "2026-09-17T22:59:52Z",
+      "pushed_at": "2026-09-16T18:12:53Z"
+    },
+    {
+      "name": "shinthink/blitzstrike",
+      "url": "https://github.com/shinthink/blitzstrike",
+      "stars": 634,
+      "forks": 0,
+      "language": "TypeScript",
+      "created_at": "2026-09-12T12:13:09Z",
+      "updated_at": "2026-09-17T13:05:34Z",
+      "pushed_at": "2026-09-17T12:53:33Z"
+    },
+    {
+      "name": "yi1108/printfilm",
+      "url": "https://github.com/yi1108/printfilm",
+      "stars": 573,
+      "forks": 17,
+      "language": "Python",
+      "created_at": "2026-09-10T02:08:47Z",
+      "updated_at": "2026-09-17T19:14:19Z",
+      "pushed_at": "2026-09-17T06:10:22Z"
+    },
+    {
+      "name": "saragordic/window-sweaters",
+      "url": "https://github.com/saragordic/window-sweaters",
+      "stars": 536,
+      "forks": 16,
+      "language": "C",
+      "created_at": "2026-09-15T01:51:36Z",
+      "updated_at": "2026-09-17T22:55:45Z",
+      "pushed_at": "2026-09-15T22:51:32Z"
+    }
+  ]
+}
