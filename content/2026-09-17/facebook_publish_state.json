@@ -44,8 +44,8 @@
       "caption": "Tired of wrestling with closed, proprietary SaaS wrappers just to automate multi-modal media production? 🎬✨\n\nMeet Printfilm (GitHub Rank #5): an open-source AI studio that automates the end-to-end creation of science communication videos and episodic webcomics from simple text prompts. \n\nBuilding automated media pipelines usually means dealing with a massive headache of orchestrating LLMs, image generation, video models, text-to-speech, and FFmpeg video compositing. Printfilm solves this exact complexity by providing a unified, template-driven generation pipeline that handles it all seamlessly.\n\nHere is what is under the hood for developers and AI engineers:\n• Template-Driven Pipelines: Support for multiple visual styles (papercut, picture book, pixel, ink) with step-by-step storyboard generation and asset consistency for characters and scenes.\n• Multi-Model Routing: Connects OpenAI-compatible text models (Kimi, DeepSeek), Volcengine Ark for state-of-the-art image/video gen, and flexible TTS engines (Doubao and edge-tts).\n• Production-Ready Architecture: FastAPI backend paired with a PostgreSQL/Redis middleware, driving a dual frontend architecture featuring a creator workspace and a React-based admin console with usage-based billing via Epay.\n\nWhether you want to build an automated educational platform that turns technical docs into animated videos, or a self-hosted SaaS for generating episodic webcomics, Printfilm gives you a production-ready blueprint for asynchronous AI workloads without the vendor lock-in. 🚀\n\nCheck out the repository and start building today:\nhttps://github.com/yi1108/printfilm\n\nDrop a comment below: What kind of automated media pipeline are you building next? 👇\n\n#ArtificialIntelligence #OpenSource #Python #React #DeveloperTools #AIArt #MachineLearning",
       "image_file": "5_yi1108_printfilm.png",
       "photo_id": "122103133227476221",
-      "published_post_id": null,
-      "published_at": null
+      "published_post_id": "1410193715501138_122103668403476221",
+      "published_at": "2026-09-17T23:00:42.943466+08:00"
     }
   ]
 }
