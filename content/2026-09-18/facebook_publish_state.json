@@ -44,8 +44,8 @@
       "caption": "Stop wasting time searching for the right library; this definitive curated directory covers the entire Python ecosystem from AI agents to web frameworks. 🚀\n\nIf you have ever suffered from decision fatigue or fragmentation while trying to build a modern Python stack, you know how painful the research phase can be. Evaluating which libraries are actually stable, production-tested, and widely adopted takes hours away from actual coding.\n\nEnter vinta/awesome-python. This repository solves the chaos by acting as your single source of truth for the absolute best frameworks, tools, and resources available.\n\nKey Features:\n• Comprehensive categorization covering modern domains like AI and Agents, LLM serving, Web Development, DevOps, and Data Science.\n• Direct links to top-tier, production-tested open-source repositories and official documentation.\n• Continuous daily updates reflecting the fast-moving evolution of the landscape, especially in artificial intelligence and machine learning.\n• An accompanying web portal offering advanced search and filtering for rapid developer discovery.\n\nWhether you are scouting state-of-the-art agent frameworks and vector databases for a new generative AI application, or discovering performance monitoring and testing tools to optimize an existing backend, this is the ultimate cheat code for Python developers, AI engineers, and backend architects. \n\nCheck it out on GitHub:\nhttps://github.com/vinta/awesome-python\n\nWhat is your go-to Python library that you always include in a new project? Drop it in the comments below! 👇\n\n#Python #SoftwareEngineering #ArtificialIntelligence #MachineLearning #WebDevelopment #OpenSource #DeveloperTools",
       "image_file": "5_vinta_awesome-python.png",
       "photo_id": "122104002429476221",
-      "published_post_id": null,
-      "published_at": null
+      "published_post_id": "1410193715501138_122104626633476221",
+      "published_at": "2026-09-18T23:00:44.455764+08:00"
     }
   ]
 }
