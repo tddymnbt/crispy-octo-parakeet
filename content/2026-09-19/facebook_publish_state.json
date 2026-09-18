@@ -1,0 +1,51 @@
+{
+  "date": "2026-09-19",
+  "prepared_at": "2026-09-19T07:02:13.829568+08:00",
+  "posts": [
+    {
+      "rank": 1,
+      "repo_name": "browser-use/jev-ultrafast",
+      "caption": "Tired of watching your AI browser agents crawl at a snail's pace? 🐢\n\nSay goodbye to sluggish execution and sky-high token costs from heavy screenshot loops. Jev Ultrafast achieves a lightning-fast 7.1-second Google Flights search by cutting out the vision-heavy bloat entirely! \n\nInstead of sending bulky image data to a multimodal model, it parses the DOM into an atomic, indexed element table. Using TypeSafe speculative fan-out, it returns operation and target decisions in a single network round trip per decision cycle, delegating text generation only when typing is strictly required. ⚡\n\n🔥 Key Features:\n• Single-Request Decision Cycles: Uses TypeSafe speculative fan-out for simultaneous operation and target prediction.\n• Atomic DOM Snapshotting: Indexes visible controls, names, values, and text without relying on heavy screenshots in the default agent loop.\n• Freshness & Occlusion Guards: Verifies page state, form values, and click targets prior to execution to prevent stale interactions.\n• Focused Rendering Management: Prevents background animation throttling without requiring visible tab switching in Chrome.\n\nWhether you are building high-performance automated testing agents that verify complex workflows in seconds rather than minutes, or creating lightning-fast web scrapers and data-extraction pipelines for dynamic web applications, Jev Ultrafast provides the blueprint for a lightweight, text-structured, ultra-fast agent loop using uv, Python, and a minimal footprint. 🛠️\n\nReady to accelerate your automation workflows? Check out the repository and start building today:\nhttps://github.com/browser-use/jev-ultrafast\n\nDrop a comment below: What is the biggest latency bottleneck you are facing with your AI agents right now? 👇\n\n#AI #SoftwareEngineering #WebAutomation #Python #MachineLearning #Developers #OpenSource",
+      "image_file": "1_browser-use_jev-ultrafast.png",
+      "photo_id": "122104946553476221",
+      "published_post_id": "1410193715501138_122104946769476221",
+      "published_at": "2026-09-19T07:02:16.017860+08:00"
+    },
+    {
+      "rank": 2,
+      "repo_name": "zhengkid/Dream-RSI",
+      "caption": "Tired of burning compute and time on inefficient trial-and-error loops with your autonomous coding agents? \n\nMeet Dream-RSI: A groundbreaking recursive self-improvement framework that lets AI agents use accumulated discovery histories as offline replay simulators to optimize their own exploration strategies—all without a single gradient step! 🚀\n\nAs search spaces scale, optimizing exploration policies online usually means dealing with delayed, expensive feedback. Dream-RSI solves this bottleneck by treating past code execution logs and exploration trees as a reusable training environment. Candidate policies can \"dream\" over past search trees to receive immediate, low-cost off-policy feedback.\n\nKey features:\n✨ History as a Replay Simulator: Turns structured trees of past outcomes into reusable training environments.\n🔄 Meta-Layer RSI Loop: Continuously logs online traces, builds simulator pools, refines strategies via dreaming, and redeploys upgraded policies.\n⚡ Zero Gradient Steps: Improves meta-exploration strategies without modifying your foundational LLM or execution engine.\n📈 Proven Scaling: Outperforms across complex domains like algorithm engineering, mathematical optimization, and GPU kernel engineering.\n\nWhether you are building automated software engineering agents, mathematical optimization tools, or hardware/GPU kernel engineering workflows, Dream-RSI drastically reduces computational overhead and trial-and-error costs. Stop rerunning live agents and start leveraging your past execution logs.\n\n👉 Check out the repository and drop a star:\nhttps://github.com/zhengkid/Dream-RSI\n\nWhat is the biggest bottleneck you face when scaling autonomous agent exploration right now? Let's discuss in the comments! 👇\n\n#AI #MachineLearning #AutonomousAgents #SoftwareEngineering #DeepLearning #OpenSource #DeveloperTools",
+      "image_file": "2_zhengkid_Dream-RSI.png",
+      "photo_id": "122104946601476221",
+      "published_post_id": null,
+      "published_at": null
+    },
+    {
+      "rank": 3,
+      "repo_name": "korcarc/text-humanizer",
+      "caption": "Tired of your AI-generated text getting flagged? 🛑\n\nWe have all been there. Modern AI detectors ruin content workflows by flagging machine-written text based on predictable syntactic patterns and statistical markers. \n\nMeet korcarc/text-humanizer: an open-source pipeline that transforms machine-generated text into natural-sounding writing to bypass modern AI detectors while preserving your original semantic meaning. 🧠✨\n\nHere is how it works under the hood:\n🔄 Multi-Stage Translation Loop: Routes text through intermediate languages like Chinese and Turkish to introduce heavy syntactic distortion and strip away AI fingerprints.\n🔥 High-Temperature Generation: Leverages DeepSeek (recommended at 1.3 temperature) to maximize stylistic diversity and unpredictable sentence structures.\n🌍 Broad Language Support: Handles 8 major languages including English, Japanese, Chinese, Korean, German, French, and Spanish.\n🔌 DeepL Integration: Optional support for a second independent translation engine for even greater linguistic variation.\n\nWhy developers and AI engineers need this:\nYou can study the repository to understand how LLM output predictability can be structurally disrupted using round-trip, cross-lingual translation workflows. Practically, it acts as a powerful post-processing microservice in automated blogging and marketing content systems to ensure generated text reads with human-like variance and avoids false-positive flags.\n\nCheck out the code and start experimenting today:\nhttps://github.com/korcarc/text-humanizer\n\nWhat is your go-to strategy for bypassing or testing AI detectors? Drop your thoughts in the comments below, and do not forget to give the repo a star if you find it useful! 👇\n\n#OpenSource #ArtificialIntelligence #MachineLearning #NLP #DeepSeek #Python #SoftwareEngineering",
+      "image_file": "3_korcarc_text-humanizer.png",
+      "photo_id": "122104946649476221",
+      "published_post_id": null,
+      "published_at": null
+    },
+    {
+      "rank": 4,
+      "repo_name": "theoephraim/awesome-cloudflare-selfhosted",
+      "caption": "Replace your monthly VPS and SaaS invoices with zero-maintenance, serverless self-hosted apps running directly in your own Cloudflare account. 💸\n\nAre you tired of paying hefty monthly subscriptions for SaaS tools like Calendly, Canny, Google Analytics, and Bitwarden—or wasting hours managing traditional Linux VPS instances, Docker containers, and security patches? \n\nThe awesome-cloudflare-selfhosted repository on GitHub is a curated, rigorously audited list of open-source applications designed to run entirely on Cloudflare edge infrastructure using Workers, D1 databases, R2 storage, and KV bindings. \n\nWhy full-stack developers and indie hackers are loving this:\n\n🔒 Strict Auditing: Every project is manually verified via its license file and deploy configuration rather than relying on marketing hype.\n⚡ Serverless Architecture: Eliminate traditional hardware management and run directly on Cloudflare primitives like Workers, D1, R2, and Durable Objects.\n🚀 One-Command Deploys: Leverage modern serverless workflows where a simple wrangler deploy replaces complex container orchestration.\n🛠️ Powerful SaaS Replacements: Easily spin up privacy-focused tools like Counterscale for analytics or NodeWarden for secure, zero-infrastructure password management.\n\nStop paying for bloated subscriptions and let the edge handle your infrastructure. \n\nCheck out the repository and deploy your first app today:\nhttps://github.com/theoephraim/awesome-cloudflare-selfhosted\n\nWhat SaaS tool are you trying to replace first? Let us know in the comments below! 👇\n\n#Cloudflare #Serverless #OpenSource #SelfHosted #DevOps #IndieHacker #WebDev",
+      "image_file": "4_theoephraim_awesome-cloudflare-selfhosted.png",
+      "photo_id": "122104946685476221",
+      "published_post_id": null,
+      "published_at": null
+    },
+    {
+      "rank": 5,
+      "repo_name": "tamaratran/fast-jev-compaction",
+      "caption": "Stop losing vital code context to LLM summaries by using Jev decision scoring to surgically prune stale tool calls in Claude Code instead. \n\nIf you use AI coding assistants for long, complex tasks, you know the pain: standard compaction asks an LLM to summarize your history, which frequently drops exact error messages, critical constraints, and vital file paths. \n\nfast-jev-compaction solves this by replacing lossy summaries with precise Jev decision scoring. It evaluates every tool call and result, deleting dead-weight interactions while keeping valuable history completely verbatim and in order.\n\nKey Features:\n• Lossless Preservation: Never rewrites user and assistant text, ensuring exact error messages and commands stay intact.\n• Granular Decision Scoring: Uses Jev to score non-pinned tool calls, keeping valid outcomes, truncating bloated outputs, or dropping obsolete steps based on clear threshold rules.\n• Claude Code Integration: Seamlessly overrides built-in session compaction through early-access function hooks with automatic fallback handling.\n• Adaptable npm Library: Fully usable as a standard TypeScript library with a decoupled JevAsker interface for custom automation pipelines.\n\nStop context bloat and keep your agent reliability high without sacrificing prompt history accuracy. \n\nCheck it out on GitHub:\nhttps://github.com/tamaratran/fast-jev-compaction\n\nDrop a comment below if you are building with Claude Code or custom agent workflows, and make sure to star the repo if this solves your context window headaches!\n\n#AICoding #ClaudeCode #SoftwareEngineering #TypeScript #DeveloperTools #ArtificialIntelligence",
+      "image_file": "5_tamaratran_fast-jev-compaction.png",
+      "photo_id": "122104946727476221",
+      "published_post_id": null,
+      "published_at": null
+    }
+  ]
+}

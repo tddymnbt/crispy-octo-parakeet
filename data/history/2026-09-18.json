@@ -1,0 +1,407 @@
+{
+  "snapshot_date": "2026-09-18",
+  "generated_at": "2026-09-18T23:01:02.908329+00:00",
+  "candidate_count": 40,
+  "repositories": [
+    {
+      "name": "public-apis/public-apis",
+      "url": "https://github.com/public-apis/public-apis",
+      "stars": 481429,
+      "forks": 53156,
+      "language": "Python",
+      "created_at": "2016-03-20T23:49:42Z",
+      "updated_at": "2026-09-18T22:58:12Z",
+      "pushed_at": "2026-09-18T19:39:43Z"
+    },
+    {
+      "name": "freeCodeCamp/freeCodeCamp",
+      "url": "https://github.com/freeCodeCamp/freeCodeCamp",
+      "stars": 455742,
+      "forks": 46682,
+      "language": "TypeScript",
+      "created_at": "2014-12-24T17:49:19Z",
+      "updated_at": "2026-09-18T22:57:10Z",
+      "pushed_at": "2026-09-18T22:29:45Z"
+    },
+    {
+      "name": "openclaw/openclaw",
+      "url": "https://github.com/openclaw/openclaw",
+      "stars": 390055,
+      "forks": 82006,
+      "language": "TypeScript",
+      "created_at": "2025-11-24T10:16:47Z",
+      "updated_at": "2026-09-18T23:00:49Z",
+      "pushed_at": "2026-09-18T23:00:48Z"
+    },
+    {
+      "name": "nilbuild/developer-roadmap",
+      "url": "https://github.com/nilbuild/developer-roadmap",
+      "stars": 367626,
+      "forks": 44960,
+      "language": "TypeScript",
+      "created_at": "2017-03-15T13:45:52Z",
+      "updated_at": "2026-09-18T22:40:09Z",
+      "pushed_at": "2026-09-18T08:51:13Z"
+    },
+    {
+      "name": "vinta/awesome-python",
+      "url": "https://github.com/vinta/awesome-python",
+      "stars": 321551,
+      "forks": 28760,
+      "language": "Python",
+      "created_at": "2014-06-27T21:00:06Z",
+      "updated_at": "2026-09-18T22:53:44Z",
+      "pushed_at": "2026-09-18T22:11:03Z"
+    },
+    {
+      "name": "awesome-selfhosted/awesome-selfhosted",
+      "url": "https://github.com/awesome-selfhosted/awesome-selfhosted",
+      "stars": 320167,
+      "forks": 15041,
+      "language": null,
+      "created_at": "2015-06-01T02:33:17Z",
+      "updated_at": "2026-09-18T22:53:46Z",
+      "pushed_at": "2026-09-18T07:51:28Z"
+    },
+    {
+      "name": "obra/superpowers",
+      "url": "https://github.com/obra/superpowers",
+      "stars": 288538,
+      "forks": 25806,
+      "language": "Shell",
+      "created_at": "2025-10-09T19:45:18Z",
+      "updated_at": "2026-09-18T23:00:50Z",
+      "pushed_at": "2026-09-18T22:39:25Z"
+    },
+    {
+      "name": "mattpocock/skills",
+      "url": "https://github.com/mattpocock/skills",
+      "stars": 265252,
+      "forks": 22363,
+      "language": "Shell",
+      "created_at": "2026-02-03T11:15:53Z",
+      "updated_at": "2026-09-18T22:55:14Z",
+      "pushed_at": "2026-09-18T10:12:48Z"
+    },
+    {
+      "name": "affaan-m/ECC",
+      "url": "https://github.com/affaan-m/ECC",
+      "stars": 262016,
+      "forks": 39205,
+      "language": "JavaScript",
+      "created_at": "2026-01-18T00:51:51Z",
+      "updated_at": "2026-09-18T22:54:59Z",
+      "pushed_at": "2026-09-18T22:59:58Z"
+    },
+    {
+      "name": "react/react",
+      "url": "https://github.com/react/react",
+      "stars": 250569,
+      "forks": 51373,
+      "language": "JavaScript",
+      "created_at": "2013-05-24T16:15:54Z",
+      "updated_at": "2026-09-18T22:53:26Z",
+      "pushed_at": "2026-09-18T09:18:04Z"
+    },
+    {
+      "name": "torvalds/linux",
+      "url": "https://github.com/torvalds/linux",
+      "stars": 249433,
+      "forks": 65063,
+      "language": "C",
+      "created_at": "2011-09-04T22:48:12Z",
+      "updated_at": "2026-09-18T22:44:09Z",
+      "pushed_at": "2026-09-18T21:10:33Z"
+    },
+    {
+      "name": "NousResearch/hermes-agent",
+      "url": "https://github.com/NousResearch/hermes-agent",
+      "stars": 246895,
+      "forks": 51788,
+      "language": "Python",
+      "created_at": "2025-07-22T22:22:28Z",
+      "updated_at": "2026-09-18T23:00:43Z",
+      "pushed_at": "2026-09-18T23:00:22Z"
+    },
+    {
+      "name": "deepseek-ai/deepseek-harness",
+      "url": "https://github.com/deepseek-ai/deepseek-harness",
+      "stars": 229100,
+      "forks": 27409,
+      "language": "TypeScript",
+      "created_at": "2026-08-13T11:56:32Z",
+      "updated_at": "2026-09-18T22:56:29Z",
+      "pushed_at": "2026-09-17T13:30:15Z"
+    },
+    {
+      "name": "TheAlgorithms/Python",
+      "url": "https://github.com/TheAlgorithms/Python",
+      "stars": 224734,
+      "forks": 51093,
+      "language": "Python",
+      "created_at": "2016-07-16T09:44:01Z",
+      "updated_at": "2026-09-18T22:57:25Z",
+      "pushed_at": "2026-09-18T16:52:12Z"
+    },
+    {
+      "name": "anomalyco/opencode",
+      "url": "https://github.com/anomalyco/opencode",
+      "stars": 208444,
+      "forks": 27415,
+      "language": "TypeScript",
+      "created_at": "2025-04-30T20:08:00Z",
+      "updated_at": "2026-09-18T22:27:06Z",
+      "pushed_at": "2026-09-18T22:58:28Z"
+    },
+    {
+      "name": "n8n-io/n8n",
+      "url": "https://github.com/n8n-io/n8n",
+      "stars": 205278,
+      "forks": 60776,
+      "language": "TypeScript",
+      "created_at": "2019-06-22T09:24:21Z",
+      "updated_at": "2026-09-18T22:30:51Z",
+      "pushed_at": "2026-09-18T22:36:22Z"
+    },
+    {
+      "name": "tensorflow/tensorflow",
+      "url": "https://github.com/tensorflow/tensorflow",
+      "stars": 200175,
+      "forks": 76811,
+      "language": "C++",
+      "created_at": "2015-11-07T01:19:20Z",
+      "updated_at": "2026-09-18T22:53:13Z",
+      "pushed_at": "2026-09-18T22:52:56Z"
+    },
+    {
+      "name": "microsoft/vscode",
+      "url": "https://github.com/microsoft/vscode",
+      "stars": 192660,
+      "forks": 42681,
+      "language": "TypeScript",
+      "created_at": "2015-09-03T20:23:38Z",
+      "updated_at": "2026-09-18T22:43:45Z",
+      "pushed_at": "2026-09-18T22:59:00Z"
+    },
+    {
+      "name": "yt-dlp/yt-dlp",
+      "url": "https://github.com/yt-dlp/yt-dlp",
+      "stars": 191977,
+      "forks": 16657,
+      "language": "Python",
+      "created_at": "2020-10-26T04:22:55Z",
+      "updated_at": "2026-09-18T22:58:16Z",
+      "pushed_at": "2026-09-16T07:48:51Z"
+    },
+    {
+      "name": "ohmyzsh/ohmyzsh",
+      "url": "https://github.com/ohmyzsh/ohmyzsh",
+      "stars": 189792,
+      "forks": 27038,
+      "language": "Shell",
+      "created_at": "2009-08-28T18:15:37Z",
+      "updated_at": "2026-09-18T20:50:26Z",
+      "pushed_at": "2026-09-18T12:30:23Z"
+    },
+    {
+      "name": "browser-use/jev-ultrafast",
+      "url": "https://github.com/browser-use/jev-ultrafast",
+      "stars": 5376,
+      "forks": 333,
+      "language": "Python",
+      "created_at": "2026-09-16T21:30:12Z",
+      "updated_at": "2026-09-18T23:00:55Z",
+      "pushed_at": "2026-09-18T16:28:35Z"
+    },
+    {
+      "name": "tamaratran/fast-jev-compaction",
+      "url": "https://github.com/tamaratran/fast-jev-compaction",
+      "stars": 3137,
+      "forks": 155,
+      "language": "TypeScript",
+      "created_at": "2026-09-17T05:57:20Z",
+      "updated_at": "2026-09-18T23:00:09Z",
+      "pushed_at": "2026-09-18T04:45:31Z"
+    },
+    {
+      "name": "TheoLeeCJ/SemIf",
+      "url": "https://github.com/TheoLeeCJ/SemIf",
+      "stars": 1571,
+      "forks": 102,
+      "language": "Python",
+      "created_at": "2026-09-16T03:51:21Z",
+      "updated_at": "2026-09-18T22:37:46Z",
+      "pushed_at": "2026-09-18T15:33:39Z"
+    },
+    {
+      "name": "Chuloo/mural",
+      "url": "https://github.com/Chuloo/mural",
+      "stars": 1362,
+      "forks": 263,
+      "language": "Kotlin",
+      "created_at": "2026-09-12T11:51:08Z",
+      "updated_at": "2026-09-18T23:00:51Z",
+      "pushed_at": "2026-09-17T14:52:37Z"
+    },
+    {
+      "name": "mcncarl/jianying-headless",
+      "url": "https://github.com/mcncarl/jianying-headless",
+      "stars": 998,
+      "forks": 491,
+      "language": "Python",
+      "created_at": "2026-09-15T11:51:15Z",
+      "updated_at": "2026-09-18T23:00:05Z",
+      "pushed_at": "2026-09-15T12:15:57Z"
+    },
+    {
+      "name": "vinnylarouge/jevlike",
+      "url": "https://github.com/vinnylarouge/jevlike",
+      "stars": 880,
+      "forks": 74,
+      "language": "Python",
+      "created_at": "2026-09-16T10:26:01Z",
+      "updated_at": "2026-09-18T22:56:24Z",
+      "pushed_at": "2026-09-16T18:12:53Z"
+    },
+    {
+      "name": "yifanzhang-pro/recurrent-looped-tranformer",
+      "url": "https://github.com/yifanzhang-pro/recurrent-looped-tranformer",
+      "stars": 879,
+      "forks": 86,
+      "language": "HTML",
+      "created_at": "2026-09-12T19:02:46Z",
+      "updated_at": "2026-09-18T22:22:07Z",
+      "pushed_at": "2026-09-18T02:33:40Z"
+    },
+    {
+      "name": "zjwzcx/Awesome-Astra-Embodied-AI",
+      "url": "https://github.com/zjwzcx/Awesome-Astra-Embodied-AI",
+      "stars": 858,
+      "forks": 17,
+      "language": null,
+      "created_at": "2026-09-12T12:20:24Z",
+      "updated_at": "2026-09-18T20:53:43Z",
+      "pushed_at": "2026-09-17T02:24:27Z"
+    },
+    {
+      "name": "jarrodwatts/jev-trader",
+      "url": "https://github.com/jarrodwatts/jev-trader",
+      "stars": 855,
+      "forks": 160,
+      "language": "TypeScript",
+      "created_at": "2026-09-16T21:36:20Z",
+      "updated_at": "2026-09-18T22:44:47Z",
+      "pushed_at": "2026-09-17T02:48:22Z"
+    },
+    {
+      "name": "agentverse-os/AgentVerse-OS",
+      "url": "https://github.com/agentverse-os/AgentVerse-OS",
+      "stars": 844,
+      "forks": 24,
+      "language": "Rust",
+      "created_at": "2026-09-12T18:20:00Z",
+      "updated_at": "2026-09-18T22:51:43Z",
+      "pushed_at": "2026-09-12T19:17:57Z"
+    },
+    {
+      "name": "kruzovic7/ai-data-extractor",
+      "url": "https://github.com/kruzovic7/ai-data-extractor",
+      "stars": 840,
+      "forks": 135,
+      "language": "Python",
+      "created_at": "2026-09-11T18:12:58Z",
+      "updated_at": "2026-09-18T15:21:09Z",
+      "pushed_at": "2026-09-11T18:20:56Z"
+    },
+    {
+      "name": "youngyangyang04/llm-master",
+      "url": "https://github.com/youngyangyang04/llm-master",
+      "stars": 763,
+      "forks": 79,
+      "language": null,
+      "created_at": "2026-09-12T07:33:31Z",
+      "updated_at": "2026-09-18T19:15:22Z",
+      "pushed_at": "2026-09-13T08:32:08Z"
+    },
+    {
+      "name": "zhengkid/Dream-RSI",
+      "url": "https://github.com/zhengkid/Dream-RSI",
+      "stars": 753,
+      "forks": 66,
+      "language": null,
+      "created_at": "2026-09-13T20:39:43Z",
+      "updated_at": "2026-09-18T22:47:05Z",
+      "pushed_at": "2026-09-16T10:32:18Z"
+    },
+    {
+      "name": "eternityspring/reelbench-skills",
+      "url": "https://github.com/eternityspring/reelbench-skills",
+      "stars": 749,
+      "forks": 96,
+      "language": "HTML",
+      "created_at": "2026-09-11T04:55:49Z",
+      "updated_at": "2026-09-18T20:58:04Z",
+      "pushed_at": "2026-09-14T00:51:09Z"
+    },
+    {
+      "name": "korcarc/text-humanizer",
+      "url": "https://github.com/korcarc/text-humanizer",
+      "stars": 724,
+      "forks": 82,
+      "language": "Python",
+      "created_at": "2026-09-16T13:21:56Z",
+      "updated_at": "2026-09-18T20:09:44Z",
+      "pushed_at": "2026-09-16T13:36:23Z"
+    },
+    {
+      "name": "nilbuild/page-mascot",
+      "url": "https://github.com/nilbuild/page-mascot",
+      "stars": 710,
+      "forks": 67,
+      "language": "Python",
+      "created_at": "2026-09-14T06:55:59Z",
+      "updated_at": "2026-09-18T20:43:10Z",
+      "pushed_at": "2026-09-15T10:07:44Z"
+    },
+    {
+      "name": "rizqinrr/viserys-agent",
+      "url": "https://github.com/rizqinrr/viserys-agent",
+      "stars": 665,
+      "forks": 3,
+      "language": "JavaScript",
+      "created_at": "2026-09-12T16:51:29Z",
+      "updated_at": "2026-09-18T19:21:22Z",
+      "pushed_at": "2026-09-13T03:43:15Z"
+    },
+    {
+      "name": "Faizpi/bank-sampah",
+      "url": "https://github.com/Faizpi/bank-sampah",
+      "stars": 646,
+      "forks": 1,
+      "language": "PHP",
+      "created_at": "2026-09-11T02:13:29Z",
+      "updated_at": "2026-09-13T09:31:50Z",
+      "pushed_at": "2026-09-13T09:31:45Z"
+    },
+    {
+      "name": "theoephraim/awesome-cloudflare-selfhosted",
+      "url": "https://github.com/theoephraim/awesome-cloudflare-selfhosted",
+      "stars": 643,
+      "forks": 39,
+      "language": "JavaScript",
+      "created_at": "2026-09-15T09:39:14Z",
+      "updated_at": "2026-09-18T21:57:13Z",
+      "pushed_at": "2026-09-16T22:06:09Z"
+    },
+    {
+      "name": "shinthink/blitzstrike",
+      "url": "https://github.com/shinthink/blitzstrike",
+      "stars": 636,
+      "forks": 1,
+      "language": "TypeScript",
+      "created_at": "2026-09-12T12:13:09Z",
+      "updated_at": "2026-09-18T18:02:23Z",
+      "pushed_at": "2026-09-18T11:46:32Z"
+    }
+  ]
+}
