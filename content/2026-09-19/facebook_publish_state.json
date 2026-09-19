@@ -35,8 +35,8 @@
       "caption": "Replace your monthly VPS and SaaS invoices with zero-maintenance, serverless self-hosted apps running directly in your own Cloudflare account. 💸\n\nAre you tired of paying hefty monthly subscriptions for SaaS tools like Calendly, Canny, Google Analytics, and Bitwarden—or wasting hours managing traditional Linux VPS instances, Docker containers, and security patches? \n\nThe awesome-cloudflare-selfhosted repository on GitHub is a curated, rigorously audited list of open-source applications designed to run entirely on Cloudflare edge infrastructure using Workers, D1 databases, R2 storage, and KV bindings. \n\nWhy full-stack developers and indie hackers are loving this:\n\n🔒 Strict Auditing: Every project is manually verified via its license file and deploy configuration rather than relying on marketing hype.\n⚡ Serverless Architecture: Eliminate traditional hardware management and run directly on Cloudflare primitives like Workers, D1, R2, and Durable Objects.\n🚀 One-Command Deploys: Leverage modern serverless workflows where a simple wrangler deploy replaces complex container orchestration.\n🛠️ Powerful SaaS Replacements: Easily spin up privacy-focused tools like Counterscale for analytics or NodeWarden for secure, zero-infrastructure password management.\n\nStop paying for bloated subscriptions and let the edge handle your infrastructure. \n\nCheck out the repository and deploy your first app today:\nhttps://github.com/theoephraim/awesome-cloudflare-selfhosted\n\nWhat SaaS tool are you trying to replace first? Let us know in the comments below! 👇\n\n#Cloudflare #Serverless #OpenSource #SelfHosted #DevOps #IndieHacker #WebDev",
       "image_file": "4_theoephraim_awesome-cloudflare-selfhosted.png",
       "photo_id": "122104946685476221",
-      "published_post_id": null,
-      "published_at": null
+      "published_post_id": "1410193715501138_122105456391476221",
+      "published_at": "2026-09-19T19:00:38.217299+08:00"
     },
     {
       "rank": 5,
