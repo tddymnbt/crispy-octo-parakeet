@@ -44,8 +44,8 @@
       "caption": "Stop losing vital code context to LLM summaries by using Jev decision scoring to surgically prune stale tool calls in Claude Code instead. \n\nIf you use AI coding assistants for long, complex tasks, you know the pain: standard compaction asks an LLM to summarize your history, which frequently drops exact error messages, critical constraints, and vital file paths. \n\nfast-jev-compaction solves this by replacing lossy summaries with precise Jev decision scoring. It evaluates every tool call and result, deleting dead-weight interactions while keeping valuable history completely verbatim and in order.\n\nKey Features:\n• Lossless Preservation: Never rewrites user and assistant text, ensuring exact error messages and commands stay intact.\n• Granular Decision Scoring: Uses Jev to score non-pinned tool calls, keeping valid outcomes, truncating bloated outputs, or dropping obsolete steps based on clear threshold rules.\n• Claude Code Integration: Seamlessly overrides built-in session compaction through early-access function hooks with automatic fallback handling.\n• Adaptable npm Library: Fully usable as a standard TypeScript library with a decoupled JevAsker interface for custom automation pipelines.\n\nStop context bloat and keep your agent reliability high without sacrificing prompt history accuracy. \n\nCheck it out on GitHub:\nhttps://github.com/tamaratran/fast-jev-compaction\n\nDrop a comment below if you are building with Claude Code or custom agent workflows, and make sure to star the repo if this solves your context window headaches!\n\n#AICoding #ClaudeCode #SoftwareEngineering #TypeScript #DeveloperTools #ArtificialIntelligence",
       "image_file": "5_tamaratran_fast-jev-compaction.png",
       "photo_id": "122104946727476221",
-      "published_post_id": null,
-      "published_at": null
+      "published_post_id": "1410193715501138_122105637879476221",
+      "published_at": "2026-09-19T23:00:36.082808+08:00"
     }
   ]
 }
