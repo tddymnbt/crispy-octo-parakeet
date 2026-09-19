@@ -26,8 +26,8 @@
       "caption": "Tired of your AI-generated text getting flagged? 🛑\n\nWe have all been there. Modern AI detectors ruin content workflows by flagging machine-written text based on predictable syntactic patterns and statistical markers. \n\nMeet korcarc/text-humanizer: an open-source pipeline that transforms machine-generated text into natural-sounding writing to bypass modern AI detectors while preserving your original semantic meaning. 🧠✨\n\nHere is how it works under the hood:\n🔄 Multi-Stage Translation Loop: Routes text through intermediate languages like Chinese and Turkish to introduce heavy syntactic distortion and strip away AI fingerprints.\n🔥 High-Temperature Generation: Leverages DeepSeek (recommended at 1.3 temperature) to maximize stylistic diversity and unpredictable sentence structures.\n🌍 Broad Language Support: Handles 8 major languages including English, Japanese, Chinese, Korean, German, French, and Spanish.\n🔌 DeepL Integration: Optional support for a second independent translation engine for even greater linguistic variation.\n\nWhy developers and AI engineers need this:\nYou can study the repository to understand how LLM output predictability can be structurally disrupted using round-trip, cross-lingual translation workflows. Practically, it acts as a powerful post-processing microservice in automated blogging and marketing content systems to ensure generated text reads with human-like variance and avoids false-positive flags.\n\nCheck out the code and start experimenting today:\nhttps://github.com/korcarc/text-humanizer\n\nWhat is your go-to strategy for bypassing or testing AI detectors? Drop your thoughts in the comments below, and do not forget to give the repo a star if you find it useful! 👇\n\n#OpenSource #ArtificialIntelligence #MachineLearning #NLP #DeepSeek #Python #SoftwareEngineering",
       "image_file": "3_korcarc_text-humanizer.png",
       "photo_id": "122104946649476221",
-      "published_post_id": null,
-      "published_at": null
+      "published_post_id": "1410193715501138_122105279073476221",
+      "published_at": "2026-09-19T15:00:36.605353+08:00"
     },
     {
       "rank": 4,
