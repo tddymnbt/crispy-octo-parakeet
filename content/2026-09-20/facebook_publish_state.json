@@ -1,0 +1,51 @@
+{
+  "date": "2026-09-20",
+  "prepared_at": "2026-09-20T07:02:18.274126+08:00",
+  "posts": [
+    {
+      "rank": 1,
+      "repo_name": "mcncarl/jianying-headless",
+      "caption": "Tired of manually dragging clips onto timelines just to automate a simple video workflow? \n\nBridge the gap between desktop creation tools and automated agent workflows by programmatically generating and exporting native Jianying drafts at scale! 🚀\n\nFor AI engineers, automation scripters, and developers building content generation pipelines, building programmatic video workflows on macOS has always been a major bottleneck. Jianying Pro (CapCut desktop) is powerful, but it lacks a native API. \n\nEnter jianying-headless. This tool provides a headless automation layer for Jianying Pro, solving the problem of programmatic video production. It allows you to convert structured JSON editing plans directly into native, editable multi-track drafts and leverage the local desktop engine for rendering final MP4 outputs without any manual UI interaction. 🎬\n\nHere is what you get under the hood:\n✨ Multi-Track Editing: Generate structured drafts supporting video splitting, speed control, audio volume adjustment, PiP, subtitles, titles, and basic keyframe animations.\n⚙️ Complete CLI Workflow: Operate environment checks, build verification, draft publishing to the local app home screen, and isolated native video rendering.\n🤖 AI Agent Skill Interface: Equip AI agents with a dedicated skill to construct, verify, and export complex video projects programmatically.\n🛡️ Strict Version Checks: Perform component identity checks to ensure seamless compatibility with specific Jianying Pro releases like version 11.5.0.\n\nWhether you are mass-generating localized video content from structured data, or building autonomous AI agents that script, assemble, and render social media clips using desktop-grade rendering engines, this repository is your missing link. \n\nCheck it out on GitHub and start building your automated video pipeline today:\nhttps://github.com/mcncarl/jianying-headless\n\n👇 Drop a comment below: What kind of AI video workflow are you building right now? Don't forget to like and share this with your fellow developers and AI engineers!\n\n#AIEngineering #VideoAutomation #Python #CapCut #DeveloperTools #OpenSource #TechCommunity",
+      "image_file": "1_mcncarl_jianying-headless.png",
+      "photo_id": "122106036357476221",
+      "published_post_id": "1410193715501138_122106036555476221",
+      "published_at": "2026-09-20T07:02:21.034674+08:00"
+    },
+    {
+      "rank": 2,
+      "repo_name": "TheoLeeCJ/SemIf",
+      "caption": "Stop paying per-token API costs and waiting on commercial model waitlists just to route a simple agent decision. \n\nRun high-speed semantic conditionals and decision-making logic locally on consumer hardware like an RTX 3090.\n\nBuilding low-latency autonomous agents often means fighting massive latency and cost overhead from traditional LLM routing. Waiting for text generation, parsing fragile JSON outputs, and running heavy decoding loops kills throughput.\n\nSemIf solves this by reading typed option probabilities directly from open, small-scale models via native option logits. By bypassing answer generation entirely, it eliminates decoding loops and JSON repair.\n\nKey features you get out of the box:\n⚡ Decision-native token reading that cuts response times by over 5x compared to autoregressive JSON arrays.\n⚡ Shared-state prefix reuse and parallel suffix evaluation to process high volumes of conditional criteria concurrently.\n⚡ Support for lightweight open models like Qwen3.5-4B and MiniCPM5-2B that achieve near-commercial accuracy on consumer hardware.\n⚡ A browser-based WebGPU demo allowing instant, zero-waitlist local execution of semantic conditional logic.\n\nWhether you are building high-throughput intent routing, ticket queue classification, or runtime action firewalls and security guardrails to evaluate safety criteria before executing backend operations, SemIf lets you embed complex decision trees directly into your software workflows.\n\nCheck out the repository and run it locally today:\nhttps://github.com/TheoLeeCJ/SemIf\n\nDrop a star if you are testing local inference optimizations, and let us know in the comments how you plan to use direct logit extraction in your agent pipelines!\n\n#AI #MachineLearning #LLM #OpenSource #DeveloperTools #LocalAI #SoftwareEngineering #ArtificialIntelligence",
+      "image_file": "2_TheoLeeCJ_SemIf.png",
+      "photo_id": "122106036399476221",
+      "published_post_id": null,
+      "published_at": null
+    },
+    {
+      "rank": 3,
+      "repo_name": "jarrodwatts/jev-trader",
+      "caption": "🤖 What if an AI agent could trade crypto at the blistering speed of a 300 ms blockchain block?\n\nMeet jev-trader: an autonomous AI-driven high-frequency trading bot built specifically for the Monad blockchain and the Kuru decentralized exchange. \n\n⚡ The Problem It Solves:\nTraditional web3 bots get bottlenecked by redundant RPC overhead like gas estimation and dynamic fee lookups. This project cuts through the friction, giving quantitative developers a production-grade blueprint for ultra-low-latency on-chain agents.\n\n🔥 Key Features:\n• Sub-Block Execution Loop: Optimized to fit entirely within a single 300 ms Monad block by limiting hot-path RPC calls to exactly two round trips.\n• Type-Safe AI Decisions: Uses experimental AI SDK capabilities to instantly translate order book depth into probabilistic buy or sell actions.\n• Advanced Market-Making: Dynamically cancels resting orders and posts fresh, post-only limit orders inside the touch to earn the spread instead of paying taker fees.\n• Full Observability Stack: Streams real-time block events, order lifecycles, fills, and PnL metrics directly to a web dashboard via Server-Sent Events.\n\nWhether you are a quantitative dev, an HFT engineer, or an AI infrastructure builder exploring agentic execution loops, this codebase offers a reusable pattern for event-driven, high-performance decentralized apps.\n\n👉 Check out the repo and start building:\nhttps://github.com/jarrodwatts/jev-trader\n\nWhat's the most challenging part of optimizing agentic loops for high-throughput chains? Drop your thoughts in the comments below! 👇\n\n#Monad #TradingBot #AI #Web3 #CryptoTrading #HighFrequencyTrading #OpenSource #SoftwareEngineering",
+      "image_file": "3_jarrodwatts_jev-trader.png",
+      "photo_id": "122106036441476221",
+      "published_post_id": null,
+      "published_at": null
+    },
+    {
+      "rank": 4,
+      "repo_name": "TianyuCodings/NanoJev",
+      "caption": "Tired of slow autoregressive token generation slowing down your AI agents? 🛑\n\nMeet NanoJev: a blazing-fast 0.6B parallel decision model that outputs complete probability distributions with ZERO output-token decoding. 🚀\n\nTraditional LLMs crawl when you just need a structured decision. NanoJev solves this latency bottleneck by mapping states and questions directly to complete probability distributions across dynamic candidate sets in a single forward pass. \n\n🔥 Key Features:\n• Zero Output-Token Decoding: Read structured decisions, scores, and choices directly from a single model pass.\n• Dynamic Choice Pipeline: Supports 2 to 255 parallel candidate paths with Boolean or ordered scoring distributions.\n• High-Throughput Batching: Process multiple states, questions, and candidate paths simultaneously.\n• Persistent Serving: Load model checkpoints once and handle repeated evaluation requests with peak efficiency.\n\nIdeal for AI researchers, ML engineers, and developers building high-speed autonomous agents, game AI, navigation agents, and real-time decision systems where every millisecond counts. Bypass the text generation loop and supercharge your inference pipeline today! ⚙️⚡️\n\n👉 Check out the repo and get started: https://github.com/TianyuCodings/NanoJev\n\nDrop a comment below and let us know how you plan to use NanoJev in your next high-throughput project! 💬\n\n#ArtificialIntelligence #MachineLearning #AIEngineering #DeepLearning #OpenSource #GitHub #TechInnovation",
+      "image_file": "4_TianyuCodings_NanoJev.png",
+      "photo_id": "122106036483476221",
+      "published_post_id": null,
+      "published_at": null
+    },
+    {
+      "rank": 5,
+      "repo_name": "awesome-selfhosted/awesome-selfhosted",
+      "caption": "Tired of rented infrastructure and rented data? \n\nTake back control of your stack. If you are a developer, sysadmin, or privacy-conscious engineer looking to break free from commercial SaaS subscription models, you need to see this.\n\nThe awesome-selfhosted repository is the definitive, community-curated directory of Free Software network services and web applications that you can run on your own hardware. \n\nSay goodbye to endless Google searches trying to find drop-in, open-source replacements for proprietary tools. Whether you want to swap commercial analytics for privacy-first alternatives like GoatCounter, or build an entirely independent CI/CD and deployment pipeline, this repo has you covered.\n\nWhy developers love it:\n- Massive categorization: From databases and automation to generative AI tools and analytics.\n- High quality control: Automated validation pipelines actively check for dead links and unmaintained projects.\n- Stack transparency: Clear licensing and tech stack indicators (like MIT, AGPL, Docker, and Node.js) for every single project.\n- Total autonomy: Save countless hours of research and ensure complete data privacy and cost optimization.\n\nExplore the directory or browse the interactive web version today:\nhttps://github.com/awesome-selfhosted/awesome-selfhosted\n\nWhat is the one proprietary SaaS tool you are dying to replace with a self-hosted alternative? Drop it in the comments below!\n\n#SelfHosted #OpenSource #DevOps #SysAdmin #DataPrivacy #SoftwareEngineering #Docker #GitHub",
+      "image_file": "5_awesome-selfhosted_awesome-selfhosted.png",
+      "photo_id": "122106036519476221",
+      "published_post_id": null,
+      "published_at": null
+    }
+  ]
+}
