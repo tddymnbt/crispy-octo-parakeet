@@ -17,8 +17,8 @@
       "caption": "Stop paying per-token API costs and waiting on commercial model waitlists just to route a simple agent decision. \n\nRun high-speed semantic conditionals and decision-making logic locally on consumer hardware like an RTX 3090.\n\nBuilding low-latency autonomous agents often means fighting massive latency and cost overhead from traditional LLM routing. Waiting for text generation, parsing fragile JSON outputs, and running heavy decoding loops kills throughput.\n\nSemIf solves this by reading typed option probabilities directly from open, small-scale models via native option logits. By bypassing answer generation entirely, it eliminates decoding loops and JSON repair.\n\nKey features you get out of the box:\n⚡ Decision-native token reading that cuts response times by over 5x compared to autoregressive JSON arrays.\n⚡ Shared-state prefix reuse and parallel suffix evaluation to process high volumes of conditional criteria concurrently.\n⚡ Support for lightweight open models like Qwen3.5-4B and MiniCPM5-2B that achieve near-commercial accuracy on consumer hardware.\n⚡ A browser-based WebGPU demo allowing instant, zero-waitlist local execution of semantic conditional logic.\n\nWhether you are building high-throughput intent routing, ticket queue classification, or runtime action firewalls and security guardrails to evaluate safety criteria before executing backend operations, SemIf lets you embed complex decision trees directly into your software workflows.\n\nCheck out the repository and run it locally today:\nhttps://github.com/TheoLeeCJ/SemIf\n\nDrop a star if you are testing local inference optimizations, and let us know in the comments how you plan to use direct logit extraction in your agent pipelines!\n\n#AI #MachineLearning #LLM #OpenSource #DeveloperTools #LocalAI #SoftwareEngineering #ArtificialIntelligence",
       "image_file": "2_TheoLeeCJ_SemIf.png",
       "photo_id": "122106036399476221",
-      "published_post_id": null,
-      "published_at": null
+      "published_post_id": "1410193715501138_122106193125476221",
+      "published_at": "2026-09-20T11:00:41.972361+08:00"
     },
     {
       "rank": 3,
