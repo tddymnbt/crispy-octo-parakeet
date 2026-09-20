@@ -44,8 +44,8 @@
       "caption": "Tired of rented infrastructure and rented data? \n\nTake back control of your stack. If you are a developer, sysadmin, or privacy-conscious engineer looking to break free from commercial SaaS subscription models, you need to see this.\n\nThe awesome-selfhosted repository is the definitive, community-curated directory of Free Software network services and web applications that you can run on your own hardware. \n\nSay goodbye to endless Google searches trying to find drop-in, open-source replacements for proprietary tools. Whether you want to swap commercial analytics for privacy-first alternatives like GoatCounter, or build an entirely independent CI/CD and deployment pipeline, this repo has you covered.\n\nWhy developers love it:\n- Massive categorization: From databases and automation to generative AI tools and analytics.\n- High quality control: Automated validation pipelines actively check for dead links and unmaintained projects.\n- Stack transparency: Clear licensing and tech stack indicators (like MIT, AGPL, Docker, and Node.js) for every single project.\n- Total autonomy: Save countless hours of research and ensure complete data privacy and cost optimization.\n\nExplore the directory or browse the interactive web version today:\nhttps://github.com/awesome-selfhosted/awesome-selfhosted\n\nWhat is the one proprietary SaaS tool you are dying to replace with a self-hosted alternative? Drop it in the comments below!\n\n#SelfHosted #OpenSource #DevOps #SysAdmin #DataPrivacy #SoftwareEngineering #Docker #GitHub",
       "image_file": "5_awesome-selfhosted_awesome-selfhosted.png",
       "photo_id": "122106036519476221",
-      "published_post_id": null,
-      "published_at": null
+      "published_post_id": "1410193715501138_122106792093476221",
+      "published_at": "2026-09-20T23:00:35.754663+08:00"
     }
   ]
 }
