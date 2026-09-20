@@ -35,8 +35,8 @@
       "caption": "Tired of slow autoregressive token generation slowing down your AI agents? 🛑\n\nMeet NanoJev: a blazing-fast 0.6B parallel decision model that outputs complete probability distributions with ZERO output-token decoding. 🚀\n\nTraditional LLMs crawl when you just need a structured decision. NanoJev solves this latency bottleneck by mapping states and questions directly to complete probability distributions across dynamic candidate sets in a single forward pass. \n\n🔥 Key Features:\n• Zero Output-Token Decoding: Read structured decisions, scores, and choices directly from a single model pass.\n• Dynamic Choice Pipeline: Supports 2 to 255 parallel candidate paths with Boolean or ordered scoring distributions.\n• High-Throughput Batching: Process multiple states, questions, and candidate paths simultaneously.\n• Persistent Serving: Load model checkpoints once and handle repeated evaluation requests with peak efficiency.\n\nIdeal for AI researchers, ML engineers, and developers building high-speed autonomous agents, game AI, navigation agents, and real-time decision systems where every millisecond counts. Bypass the text generation loop and supercharge your inference pipeline today! ⚙️⚡️\n\n👉 Check out the repo and get started: https://github.com/TianyuCodings/NanoJev\n\nDrop a comment below and let us know how you plan to use NanoJev in your next high-throughput project! 💬\n\n#ArtificialIntelligence #MachineLearning #AIEngineering #DeepLearning #OpenSource #GitHub #TechInnovation",
       "image_file": "4_TianyuCodings_NanoJev.png",
       "photo_id": "122106036483476221",
-      "published_post_id": null,
-      "published_at": null
+      "published_post_id": "1410193715501138_122106579417476221",
+      "published_at": "2026-09-20T19:00:35.474888+08:00"
     },
     {
       "rank": 5,
