@@ -35,8 +35,8 @@
       "caption": "Stop waiting on cloud APIs for your real-time AI agents. 🚀\n\nRun open-weight typed decision models natively on Apple Silicon at single-digit millisecond latencies without PyTorch or cloud APIs.\n\nIf you are building high-performance local AI pipelines, you know the pain of standard autoregressive text generation and heavy JSON parsing just to get a simple classification or score. \n\n`mizorewww/laya-mlx` is a native Apple Silicon MLX runtime built for open-weight typed decision models. Instead of generating text token-by-token, it uses a bidirectional forward pass that directly outputs structured classifications, rubric scores, and probabilities.\n\n🔥 Key Features & Developer Value:\n• Ultra-low inference latency: Delivers a median of 7.4 ms to 13.4 ms per decision locally on Apple hardware.\n• Direct structured outputs: Bypasses text generation entirely to output choices and probabilities straight from decision heads.\n• Lightweight & independent: Fully leverages Apple MLX and Hugging Face Rust tokenizers without depending on PyTorch or heavier Transformers runtimes.\n• Optimized architectures: Supports ModernBERT-large and mmBERT-base with robust compilation and prefix-reuse pathways.\n\nWhether you are engineering real-time game loops requiring sub-15ms decision cycles or automating high-throughput support routing and intent classification locally, this cuts out cloud costs, privacy risks, and heavy runtime dependencies.\n\n👉 Check out the repo and start building today:\nhttps://github.com/mizorewww/laya-mlx\n\nDrop a comment below: What local hardware are you currently using for your ML workflows? 👇\n\n#AppleSilicon #MachineLearning #AIEngineering #MLX #LocalAI #SoftwareDevelopment #OpenSource",
       "image_file": "4_mizorewww_laya-mlx.png",
       "photo_id": "122107156857476221",
-      "published_post_id": null,
-      "published_at": null
+      "published_post_id": "1410193715501138_122107676607476221",
+      "published_at": "2026-09-21T19:00:40.127946+08:00"
     },
     {
       "rank": 5,
