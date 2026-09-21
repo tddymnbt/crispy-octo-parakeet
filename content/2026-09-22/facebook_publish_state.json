@@ -1,0 +1,51 @@
+{
+  "date": "2026-09-22",
+  "prepared_at": "2026-09-22T07:02:41.310683+08:00",
+  "posts": [
+    {
+      "rank": 1,
+      "repo_name": "jaredpalmer/kev",
+      "caption": "Stop burning cloud API credits on massive LLMs just to get a simple yes/no or a rating score. 🛑\n\nMeet Kev (github.com/jaredpalmer/kev) – a family of open-source tiny decision models built on Qwen3.5 designed for local, calibrated micro-decision tasks. \n\nIf you are tired of the cost, latency, and over-engineering of using monolithic cloud models for deterministic classification, ticket triage, and policy enforcement, Kev is the drop-in local solution you need. \n\nKey Features:\n• Unified requests: Process yes/no, multiple-choice, and numerical rating scores simultaneously against a shared input text.\n• Real probabilities: Outputs reliable, calibrated probability distributions rather than unpredictable raw text strings.\n• Local performance: Pre-trained weights for 0.8B, 4B, and 9B parameter models running locally on CUDA, ROCm, and Apple Silicon.\n• Developer friendly: Fully compatible with TypeSafe System One Python SDK and API standards, complete with a rich playground and evaluation suites.\n\nDrop those high-frequency, latency-sensitive automation workflows onto your own local or edge infrastructure and watch your operational costs plummet. 📉\n\nCheck out the repo, spin it up, and let us know what you are building with it:\nhttps://github.com/jaredpalmer/kev\n\n#AI #MachineLearning #OpenSource #SoftwareEngineering #LocalAI #DevOps #Python",
+      "image_file": "1_jaredpalmer_kev.png",
+      "photo_id": "122108251515476221",
+      "published_post_id": "1410193715501138_122108251833476221",
+      "published_at": "2026-09-22T07:02:44.316282+08:00"
+    },
+    {
+      "rank": 2,
+      "repo_name": "bespokelabsai/nimble",
+      "caption": "Tired of fighting flaky JSON parsers and slow text generation just to get a simple classification from your LLM? \n\nMeet Bespoke Nimble: a blazing-fast, strictly typed local decision engine and token-logit scoring tool that uses open-weights models without any JSON parsing overhead. \n\nThe Problem:\nStandard LLM text generation is slow, unpredictable, and resource-heavy for structured classification tasks. Waiting for a model to generate text only to parse complex JSON introduces massive latency and failure points.\n\nHow Nimble Solves It:\nNimble bypasses text generation entirely. It takes your input text and a flat schema of enums or booleans, evaluates model logits directly via softmax in a single forward pass, and returns exact typed decisions alongside calibrated probabilities for each candidate answer.\n\nKey Features:\n⚡ Zero-Generation Scoring: Reads raw model logits directly to bypass JSON parsing completely.\n🔥 Hardware-Optimized: Supports Apple Silicon via MLX parallel scoring and Linux NVIDIA GPUs via CUDA.\n🎯 System One Architecture: Evaluates choices instantly without writing intermediate reasoning steps.\n🛠️ Custom Training Recipes: Build domain-specific, high-accuracy decision models like Bespoke-Nimble-9B.\n\nIdeal for routing API payloads, automated content moderation, or high-throughput pipelines in secure, offline environments where strict types and probabilities are mandatory. \n\n👉 Check out the repo and start building today: https://github.com/bespokelabsai/nimble\n\nWhat's your go-to method for handling structured LLM outputs? Drop a comment below and let's discuss!\n\n#AI #MachineLearning #LLM #OpenSource #Developer #SoftwareEngineering #ArtificialIntelligence",
+      "image_file": "2_bespokelabsai_nimble.png",
+      "photo_id": "122108251557476221",
+      "published_post_id": null,
+      "published_at": null
+    },
+    {
+      "rank": 3,
+      "repo_name": "mizorewww/laya-coreml",
+      "caption": "🚀 Run open-weight typed decisions locally on Apple Silicon at ~5ms via Core ML and the Neural Engine with zero generated tokens!\n\nTraditional autoregressive text generation is too slow and heavy for high-frequency decision-making. `mizorewww/laya-coreml` solves this by bringing the Laya typed decision-making model directly to Apple Silicon using Apple Core ML and the Apple Neural Engine (ANE), bypassing generative text overhead to return explicit probabilities for choices, scores, and booleans with minimal latency.\n\n✨ Key Features:\n• Zero-token classification and typed decisions returning choices, ordinal scores, and booleans without generative decoding overhead.\n• Apple Neural Engine (ANE) hardware acceleration yielding ~4.98ms P50 latency and nearly 3x better system energy efficiency compared to compiled MLX FP16.\n• Comprehensive validation suite ensuring strict port fidelity against upstream models with zero-dependency local inference (no PyTorch, Transformers, or MLX required at runtime).\n• Interactive local Snake game demo illustrating high-frequency real-time agent decision loops and safety layer interventions.\n\n💡 Why Developers Need This:\nExecute high-frequency, reliable classification and routing decisions locally on Mac hardware with extreme speed and low power consumption. Build real-time local automation agents, sub-10ms decision loops, and privacy-first classification workflows inside desktop macOS apps without cloud LLM API dependencies.\n\n🔗 Check it out on GitHub:\nhttps://github.com/mizorewww/laya-coreml\n\n💬 What are you building with local Apple Silicon inference? Drop a comment below and share your project!\n\n#AI #MachineLearning #AppleSilicon #CoreML #ArtificialIntelligence #SoftwareEngineering #DeveloperTools #LocalFirst",
+      "image_file": "3_mizorewww_laya-coreml.png",
+      "photo_id": "122108251611476221",
+      "published_post_id": null,
+      "published_at": null
+    },
+    {
+      "rank": 4,
+      "repo_name": "QwenLM/Qwen-Image-2.1",
+      "caption": "Stop relying on black-box cloud APIs for your media pipelines. Qwen-Image-2.1 has officially dropped, and it is a game-changer for open-source visual AI. 🚀\n\nBuilding production-grade image generation and editing tools usually means wrestling with bloated models, lack of transparency support, and fragmented workflows for editing. \n\nQwen-Image-2.1 solves this as a unified, open-source 7B parameter multimodal model featuring 32 Single-Stream DiT layers that balance high-end synthesis with efficient inference. \n\nHere is why you need to check out the repo today:\n\n✨ Native Transparency & Unified Creation: Generate regular or transparent RGBA images, perform seamless layer editing, and handle subject extraction within a single model. Perfect for game assets and UI design.\n🧠 Versatile Multi-Image Editing: Feed up to 10 reference images into the pipeline, execute local edits via masks, and achieve rock-solid identity preservation for people and products.\n⚡ Efficient 7B Architecture: Built with mixed-granularity attention and prefix KV cache reuse to deliver incredible visual fidelity at a lower computational cost.\n🔌 Day-0 Ecosystem Integrations: Drop it straight into your stack with native support for Hugging Face Diffusers, ComfyUI, vLLM-Omni, and SGLang.\n\nWhether you are spinning up a self-hosted graphic design suite or engineering an e-commerce photo editing pipeline, this gives you total ownership of your generative stack.\n\n👇 Explore the code, weights, and setup guides on GitHub:\nhttps://github.com/QwenLM/Qwen-Image-2.1\n\nClone the repo, drop it into your ComfyUI workflow, and let us know what you are building in the comments!\n\n#AI #MachineLearning #OpenSource #ArtificialIntelligence #DeepLearning #GenerativeAI #Python #DeveloperTools",
+      "image_file": "4_QwenLM_Qwen-Image-2.1.png",
+      "photo_id": "122108251653476221",
+      "published_post_id": null,
+      "published_at": null
+    },
+    {
+      "rank": 5,
+      "repo_name": "yibie/awesome-jev",
+      "caption": "Tired of wrestling with unpredictable chat models in your production pipelines? 🤖✨\n\nNavigating the emerging ecosystem of typed-decision AI, the awesome-jev repository maps out how developers are using Jev as a drop-in software decision layer instead of traditional chat models. \n\nTraditional LLM outputs can be messy and hard to parse reliably. This curated field guide acts as a centralized map tracking public projects, tools, integrations, and discussions built around Jev and TypeSafe AI System One models for strictly typed decisions.\n\nKey features you will find inside:\n• Categorized aggregation of over 200 public projects and discussions spanning classification, routing, agent guardrails, and SDK integrations.\n• Strict, transparent inclusion criteria focusing exclusively on concrete, citable, and reproducible usages of typed-decision AI loops.\n• Critical curation guidance outlining checks to verify unproven repositories, bulk submissions, and template-heavy scaffolding.\n• Active tracking of the emerging architectural shift from unstructured chat-based LLM outputs to reliable typed state decisions.\n\nWhy this matters for your stack:\nGain an immediate shortcut to discovering real-world design patterns, production use cases, and open-source infrastructure for typed-decision AI without wading through fragmented launch threads and unverified prototypes. Use it to discover open-source model routers, evaluate guardrails, and source SDKs for your existing systems.\n\nCheck out the repository here:\nhttps://github.com/yibie/awesome-jev\n\nWhat is your preferred approach for enforcing types in AI workflows? Drop your thoughts below and star the repo if you are building reliable AI infrastructure! 👇\n\n#ArtificialIntelligence #SoftwareEngineering #MachineLearning #OpenSource #DeveloperTools #AIArchitecture",
+      "image_file": "5_yibie_awesome-jev.png",
+      "photo_id": "122108251713476221",
+      "published_post_id": null,
+      "published_at": null
+    }
+  ]
+}
