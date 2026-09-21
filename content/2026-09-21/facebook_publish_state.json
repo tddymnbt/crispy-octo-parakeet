@@ -44,8 +44,8 @@
       "caption": "Ever wanted to query, decrypt, and export your local WeChat data straight from the terminal without breaking a sweat or disabling system security? \n\nMost developers trying to access local messaging data hit a wall: you are forced to do heavy pre-decryption, fiddle with fragile scripts, or bypass critical system integrity protections just to read your own chat history. \n\nEnter `wx-cli-again`—a zero-dependency Rust CLI utility built for high-performance data extraction. It lets you securely query, decrypt, and export chat history, sessions, contacts, groups, favorites, and encrypted attachments right from your command line.\n\nHere is why developers and AI engineers are adding it to their toolkits:\n\n⚡ Sub-Millisecond Caching: Features a persistent daemon that dynamically decrypts SQLite databases based on file modification times.\n🔍 Cross-Platform Key Extraction: Comprehensive pipelines utilizing memory scanning and dynamic debugging hooks (LLDB) for macOS, Linux, and Windows.\n🤖 AI-Ready JSON Output: Automated metadata wrappers (freshness, source tracking, and stable identity fields) optimized for seamless integration with coding assistants like Claude Code and Cursor.\n📂 Attachment Decryption: Built-in support for legacy XOR, V1 AES, and platform-derived V2 AES image decoding.\n\nUse it to feed local chat archives as RAG context for your custom AI coding assistants, or simply automate the backup, search, and migration of your personal archives. \n\nCheck out the repo and drop a star if you find it useful:\nhttps://github.com/jackwener/wx-cli-again\n\nHow are you integrating local messaging states into your LLM developer workflows? Let us know in the comments below! 👇\n\n#RustLang #DeveloperTools #AICoding #WeChat #OpenSource #SoftwareEngineering #CliTools",
       "image_file": "5_jackwener_wx-cli-again.png",
       "photo_id": "122107156905476221",
-      "published_post_id": null,
-      "published_at": null
+      "published_post_id": "1410193715501138_122107872453476221",
+      "published_at": "2026-09-21T23:00:43.172079+08:00"
     }
   ]
 }
