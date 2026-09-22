@@ -44,8 +44,8 @@
       "caption": "Tired of wrestling with unpredictable chat models in your production pipelines? 🤖✨\n\nNavigating the emerging ecosystem of typed-decision AI, the awesome-jev repository maps out how developers are using Jev as a drop-in software decision layer instead of traditional chat models. \n\nTraditional LLM outputs can be messy and hard to parse reliably. This curated field guide acts as a centralized map tracking public projects, tools, integrations, and discussions built around Jev and TypeSafe AI System One models for strictly typed decisions.\n\nKey features you will find inside:\n• Categorized aggregation of over 200 public projects and discussions spanning classification, routing, agent guardrails, and SDK integrations.\n• Strict, transparent inclusion criteria focusing exclusively on concrete, citable, and reproducible usages of typed-decision AI loops.\n• Critical curation guidance outlining checks to verify unproven repositories, bulk submissions, and template-heavy scaffolding.\n• Active tracking of the emerging architectural shift from unstructured chat-based LLM outputs to reliable typed state decisions.\n\nWhy this matters for your stack:\nGain an immediate shortcut to discovering real-world design patterns, production use cases, and open-source infrastructure for typed-decision AI without wading through fragmented launch threads and unverified prototypes. Use it to discover open-source model routers, evaluate guardrails, and source SDKs for your existing systems.\n\nCheck out the repository here:\nhttps://github.com/yibie/awesome-jev\n\nWhat is your preferred approach for enforcing types in AI workflows? Drop your thoughts below and star the repo if you are building reliable AI infrastructure! 👇\n\n#ArtificialIntelligence #SoftwareEngineering #MachineLearning #OpenSource #DeveloperTools #AIArchitecture",
       "image_file": "5_yibie_awesome-jev.png",
       "photo_id": "122108251713476221",
-      "published_post_id": null,
-      "published_at": null
+      "published_post_id": "1410193715501138_122109080067476221",
+      "published_at": "2026-09-22T23:00:57.777189+08:00"
     }
   ]
 }
