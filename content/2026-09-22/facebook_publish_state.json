@@ -26,8 +26,8 @@
       "caption": "🚀 Run open-weight typed decisions locally on Apple Silicon at ~5ms via Core ML and the Neural Engine with zero generated tokens!\n\nTraditional autoregressive text generation is too slow and heavy for high-frequency decision-making. `mizorewww/laya-coreml` solves this by bringing the Laya typed decision-making model directly to Apple Silicon using Apple Core ML and the Apple Neural Engine (ANE), bypassing generative text overhead to return explicit probabilities for choices, scores, and booleans with minimal latency.\n\n✨ Key Features:\n• Zero-token classification and typed decisions returning choices, ordinal scores, and booleans without generative decoding overhead.\n• Apple Neural Engine (ANE) hardware acceleration yielding ~4.98ms P50 latency and nearly 3x better system energy efficiency compared to compiled MLX FP16.\n• Comprehensive validation suite ensuring strict port fidelity against upstream models with zero-dependency local inference (no PyTorch, Transformers, or MLX required at runtime).\n• Interactive local Snake game demo illustrating high-frequency real-time agent decision loops and safety layer interventions.\n\n💡 Why Developers Need This:\nExecute high-frequency, reliable classification and routing decisions locally on Mac hardware with extreme speed and low power consumption. Build real-time local automation agents, sub-10ms decision loops, and privacy-first classification workflows inside desktop macOS apps without cloud LLM API dependencies.\n\n🔗 Check it out on GitHub:\nhttps://github.com/mizorewww/laya-coreml\n\n💬 What are you building with local Apple Silicon inference? Drop a comment below and share your project!\n\n#AI #MachineLearning #AppleSilicon #CoreML #ArtificialIntelligence #SoftwareEngineering #DeveloperTools #LocalFirst",
       "image_file": "3_mizorewww_laya-coreml.png",
       "photo_id": "122108251611476221",
-      "published_post_id": null,
-      "published_at": null
+      "published_post_id": "1410193715501138_122108616459476221",
+      "published_at": "2026-09-22T15:00:39.621995+08:00"
     },
     {
       "rank": 4,
