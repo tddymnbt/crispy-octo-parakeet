@@ -35,8 +35,8 @@
       "caption": "Stop relying on black-box cloud APIs for your media pipelines. Qwen-Image-2.1 has officially dropped, and it is a game-changer for open-source visual AI. 🚀\n\nBuilding production-grade image generation and editing tools usually means wrestling with bloated models, lack of transparency support, and fragmented workflows for editing. \n\nQwen-Image-2.1 solves this as a unified, open-source 7B parameter multimodal model featuring 32 Single-Stream DiT layers that balance high-end synthesis with efficient inference. \n\nHere is why you need to check out the repo today:\n\n✨ Native Transparency & Unified Creation: Generate regular or transparent RGBA images, perform seamless layer editing, and handle subject extraction within a single model. Perfect for game assets and UI design.\n🧠 Versatile Multi-Image Editing: Feed up to 10 reference images into the pipeline, execute local edits via masks, and achieve rock-solid identity preservation for people and products.\n⚡ Efficient 7B Architecture: Built with mixed-granularity attention and prefix KV cache reuse to deliver incredible visual fidelity at a lower computational cost.\n🔌 Day-0 Ecosystem Integrations: Drop it straight into your stack with native support for Hugging Face Diffusers, ComfyUI, vLLM-Omni, and SGLang.\n\nWhether you are spinning up a self-hosted graphic design suite or engineering an e-commerce photo editing pipeline, this gives you total ownership of your generative stack.\n\n👇 Explore the code, weights, and setup guides on GitHub:\nhttps://github.com/QwenLM/Qwen-Image-2.1\n\nClone the repo, drop it into your ComfyUI workflow, and let us know what you are building in the comments!\n\n#AI #MachineLearning #OpenSource #ArtificialIntelligence #DeepLearning #GenerativeAI #Python #DeveloperTools",
       "image_file": "4_QwenLM_Qwen-Image-2.1.png",
       "photo_id": "122108251653476221",
-      "published_post_id": null,
-      "published_at": null
+      "published_post_id": "1410193715501138_122108838927476221",
+      "published_at": "2026-09-22T19:00:40.440264+08:00"
     },
     {
       "rank": 5,
