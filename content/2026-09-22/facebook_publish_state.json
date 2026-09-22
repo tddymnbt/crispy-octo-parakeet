@@ -17,8 +17,8 @@
       "caption": "Tired of fighting flaky JSON parsers and slow text generation just to get a simple classification from your LLM? \n\nMeet Bespoke Nimble: a blazing-fast, strictly typed local decision engine and token-logit scoring tool that uses open-weights models without any JSON parsing overhead. \n\nThe Problem:\nStandard LLM text generation is slow, unpredictable, and resource-heavy for structured classification tasks. Waiting for a model to generate text only to parse complex JSON introduces massive latency and failure points.\n\nHow Nimble Solves It:\nNimble bypasses text generation entirely. It takes your input text and a flat schema of enums or booleans, evaluates model logits directly via softmax in a single forward pass, and returns exact typed decisions alongside calibrated probabilities for each candidate answer.\n\nKey Features:\n⚡ Zero-Generation Scoring: Reads raw model logits directly to bypass JSON parsing completely.\n🔥 Hardware-Optimized: Supports Apple Silicon via MLX parallel scoring and Linux NVIDIA GPUs via CUDA.\n🎯 System One Architecture: Evaluates choices instantly without writing intermediate reasoning steps.\n🛠️ Custom Training Recipes: Build domain-specific, high-accuracy decision models like Bespoke-Nimble-9B.\n\nIdeal for routing API payloads, automated content moderation, or high-throughput pipelines in secure, offline environments where strict types and probabilities are mandatory. \n\n👉 Check out the repo and start building today: https://github.com/bespokelabsai/nimble\n\nWhat's your go-to method for handling structured LLM outputs? Drop a comment below and let's discuss!\n\n#AI #MachineLearning #LLM #OpenSource #Developer #SoftwareEngineering #ArtificialIntelligence",
       "image_file": "2_bespokelabsai_nimble.png",
       "photo_id": "122108251557476221",
-      "published_post_id": null,
-      "published_at": null
+      "published_post_id": "1410193715501138_122108434617476221",
+      "published_at": "2026-09-22T11:00:39.072009+08:00"
     },
     {
       "rank": 3,
