@@ -17,8 +17,8 @@
       "caption": "Want to completely customize your iOS 18+ Apple Wallet cards and lock screen passcode keypad without jailbreaking your device? \n\nMeet AirCard, a sleek standalone macOS application that leverages the airlift AirTraffic sync exploit to push custom assets and themes straight to your iPhone from your Mac. \n\nApple’s strict design limitations on the Wallet app and lock screen have locked down customization for years. AirCard solves this by allowing developers and power users to bypass those restrictions entirely, using real-time zero-hassle card detection via iPhone unified log stream analysis when you trigger Apple Pay.\n\nTop features include:\n💳 Custom Card Skins: Assign custom artwork, textures, or bank logos to Apple Pay and Wallet cards with per-card or bulk flashing support.\n🔢 Lock Screen Passcode Themes (.passthm): Apply custom keypad button artwork using an interactive photo framing and seamless poster slicing engine.\n🚀 Zero-Prerequisite Native App: Natively supports both Apple Silicon and Intel architectures with all necessary device-communication utilities pre-bundled.\n\nFor macOS and iOS developers, AirCard serves as a fantastic reference architecture for building zero-dependency native apps that interface with iOS devices via unified logging and mobile synchronization layers. It is a practical blueprint for wrapping low-level security exploits into a polished desktop utility with automated asset processing.\n\nCheck it out on GitHub:\nhttps://github.com/Mak5er/AirCard\n\nDrop a comment below: What custom design are you flashing to your Apple Wallet first? 👇\n\n#iOSDevelopment #macOS #Swift #AppleWallet #SecurityResearch #OpenSource #TechInnovations",
       "image_file": "2_Mak5er_AirCard.png",
       "photo_id": "122109495957476221",
-      "published_post_id": null,
-      "published_at": null
+      "published_post_id": "1410193715501138_122109607671476221",
+      "published_at": "2026-09-23T11:00:36.729870+08:00"
     },
     {
       "rank": 3,
