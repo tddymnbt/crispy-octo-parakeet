@@ -35,8 +35,8 @@
       "caption": "Stop waiting for slow JSON streaming loops just to make an agentic \"if\" statement. 🛑 \n\nIf you are building autonomous agents, automated routing systems, or local-first LLM apps, you know the pain: using massive chat models for simple routing and retries introduces massive latency and cost overhead. \n\nMeet SemIf (TheoLeeCJ/SemIf-OpenJev). It lets you run high-speed semantic conditional logic locally on an RTX 3090 by reading direct model option probabilities instead of generating conversational text.\n\n⚡ Here is why you need it in your stack:\n• Decision-Native Readout: Extracts raw option logits directly without generating answer tokens, decoding loops, or messy JSON repair.\n• Blazing Fast Shared-State Execution: Prefetches a long state once and branches it across parallel criteria to hit up to 20 decisions per second on an RTX 3090.\n• Multi-Backend Support: Run locally via PyTorch/CUDA, Apple Silicon MLX and MPS, CPU via llama.cpp, or straight in the browser via WebGPU.\n• Calibrated Confidence: Uses per-workload temperature calibration via out-of-fold fitting to align option scores with real empirical accuracy.\n\n🚀 Perfect for building local enterprise support routers that instantly classify incoming tickets, or enforcing real-time action firewalls in multi-agent systems without adding conversational lag.\n\nCut your response times to a fraction of a second and run entirely on consumer hardware. \n\n👉 Check out the repo and drop a star: https://github.com/TheoLeeCJ/SemIf-OpenJev\n\n#AI #ArtificialIntelligence #MachineLearning #SoftwareEngineering #OpenSource #LocalLLM #AIAgents #Python #PyTorch #WebGPU",
       "image_file": "4_TheoLeeCJ_SemIf-OpenJev.png",
       "photo_id": "122110200885476221",
-      "published_post_id": null,
-      "published_at": null
+      "published_post_id": "1410193715501138_122110527441476221",
+      "published_at": "2026-09-24T19:00:41.661622+08:00"
     },
     {
       "rank": 5,
