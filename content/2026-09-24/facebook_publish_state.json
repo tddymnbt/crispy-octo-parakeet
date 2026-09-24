@@ -44,8 +44,8 @@
       "caption": "Even the foundational Linux kernel is evolving with dedicated AI coding assistant guidelines and an ongoing surge in active enterprise and community engagement! 🚀\n\nBuilding high-throughput cloud infrastructure or custom embedded systems often means hitting walls with low-level bottlenecks, hardware compatibility, and memory management. Without direct access to the core machinery, optimizing performance-critical applications feels like guessing in the dark. \n\nThe Linux kernel (torvalds/linux) solves this by serving as the ultimate foundational core of any Linux operating system, directly managing hardware, system resources, memory, and processes. \n\nKey features powering the ecosystem:\n• Comprehensive hardware abstraction and device driver infrastructure supporting an immense variety of architectures and peripheral devices.\n• Advanced resource management including sophisticated memory management, CPU scheduling, and locking primitives like Read-Copy Update (RCU).\n• Robust security frameworks featuring Linux Security Modules (LSM), seccomp filters, and kernel self-protection mechanisms.\n• Extensive subsystem documentation tailored for specific engineering roles, from kernel developers to hardware vendors and security experts.\n\nWhether you are developing custom hardware device drivers for IoT devices or tuning the network stack for massive scale, mastering these internals is a superpower for systems engineers and platform architects. 💻✨\n\nExplore the source code, check out the new contributor guidelines, and star the repo here:\nhttps://github.com/torvalds/linux\n\nWhat is the most complex kernel driver or performance tweak you have ever had to implement? Drop your experiences in the comments below! 👇\n\n#Linux #Kernel #OpenSource #SystemsEngineering #EmbeddedSystems #CloudInfrastructure #SoftwareEngineering #AI #Coding",
       "image_file": "5_torvalds_linux.png",
       "photo_id": "122110200927476221",
-      "published_post_id": null,
-      "published_at": null
+      "published_post_id": "1410193715501138_122110654935476221",
+      "published_at": "2026-09-24T23:00:48.558906+08:00"
     }
   ]
 }
