@@ -17,8 +17,8 @@
       "caption": "🚀 Stop context-switching across a dozen different enterprise tools just to find one piece of documentation.\n\nIf you are an AI engineer or full-stack developer tired of fragmented knowledge bases, check out Open Glean—an open-source AI workspace built on Hydra DB that acts as your team's ultimate second brain. 🧠✨\n\n🔥 The Problem It Solves:\nEnterprise knowledge is scattered everywhere—across local files, web pages, memories, and third-party apps. Open Glean unifies multi-source knowledge retrieval, letting you query everything in one place with transparent, inline citations and a dedicated sources panel.\n\n⚡ Key Features Built for Production:\n• Deep Research Workflow: Automatically plans a DAG of sub-questions, executes parallel retrieval tiers, and synthesizes findings with a live progress timeline.\n• Enterprise-Grade Security: Keeps user API keys secure in AES-256-GCM encrypted, httpOnly cookies with strict endpoint pinning to prevent SSRF vulnerabilities.\n• BYOM Support: Easily connect any OpenAI-compatible endpoint, leverage the built-in OpenRouter model picker, and use dedicated web search plugin integration.\n• Flexible Scope Switching: Fan out queries dynamically across multiple databases or sub-tenants on the fly.\n\nBuilt with Next.js 16 and React 19, it gives developers a production-ready blueprint for building secure, scalable RAG applications with advanced multi-hop reasoning. \n\n👉 Dive into the code and deploy your own open-source second brain today:\nhttps://github.com/hydra-db/open-glean\n\n💬 Drop a comment below: What is your current tech stack for handling enterprise RAG and deep research workflows? Let us know!\n\n#OpenSource #AI #SoftwareEngineering #MachineLearning #ReactJS #NextJS #RAG #ArtificialIntelligence #Developers",
       "image_file": "2_hydra-db_open-glean.png",
       "photo_id": "122110200669476221",
-      "published_post_id": null,
-      "published_at": null
+      "published_post_id": "1410193715501138_122110278783476221",
+      "published_at": "2026-09-24T11:00:36.894892+08:00"
     },
     {
       "rank": 3,
