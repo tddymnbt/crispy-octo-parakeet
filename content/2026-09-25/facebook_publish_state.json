@@ -1,0 +1,51 @@
+{
+  "date": "2026-09-25",
+  "prepared_at": "2026-09-25T07:02:19.721475+08:00",
+  "posts": [
+    {
+      "rank": 1,
+      "repo_name": "deepseek-ai/deepseek-harness",
+      "caption": "Tired of wrestling with monolithic, tightly coupled AI agent codebases? 🤖⚡\n\nDeepSeek Harness is here to completely change how you build and scale agent workflows. Rearchitected around an innovative Everything is a Plugin model powered by Cordis, it brings extreme modularity and spatiotemporal composability straight to your stack.\n\nHere is how it solves your biggest agent architecture headaches:\n• Plugin-First Design: Treat core services and extensions uniformly so you can easily swap out models, tools, and UI components without breaking your system.\n• Spatiotemporal Composability: Gain advanced control over agent workflows by composing complex tasks dynamically and cleanly.\n• Instant Local Web UI: Spin up an interactive debugging and execution interface instantly via npx or source checkout.\n• Rapid Extensibility: Leverage a dedicated community plugin ecosystem and topic tagging to keep your production-grade AI systems modular and maintainable.\n\nWhether you are building multi-agent automation systems with interchangeable capabilities or developing custom local UIs for deep debugging, this open-source harness keeps your separation of concerns pristine. \n\nCheck out the repository and start building modular AI agents today:\nhttps://github.com/deepseek-ai/deepseek-harness\n\nDrop a comment below: Are you leaning toward monolithic or plugin-based architectures for your current AI projects? \n\n#ArtificialIntelligence #AIEngineering #SoftwareDevelopment #OpenSource #DeepSeek #MachineLearning #TechCommunity",
+      "image_file": "1_deepseek-ai_deepseek-harness.png",
+      "photo_id": "122110891959476221",
+      "published_post_id": "1410193715501138_122110892169476221",
+      "published_at": "2026-09-25T07:02:23.353548+08:00"
+    },
+    {
+      "rank": 2,
+      "repo_name": "NousResearch/hermes-agent",
+      "caption": "Stop treating AI like a stateless chat wrapper. It is time to deploy an autonomous agent that actually learns from its environment. 🤖\n\nMeet Hermes Agent by Nous Research—a powerful, self-improving AI agent that builds new skills from experience, runs seamlessly across multi-platform messaging apps, and executes securely inside isolated environments. 🚀\n\nMost AI tools suffer from amnesia, forcing you to start from scratch every single session. Hermes Agent solves this limitation with a built-in closed learning loop featuring agent-curated memory, autonomous skill creation after complex tasks, and FTS5 session search for deep cross-session recall. 🧠✨\n\nHere is what makes it a game-changer for your stack:\n\n• Multi-Platform Gateway: Deploy across Telegram, Discord, Slack, WhatsApp, Signal, and the CLI from a single process, complete with voice memo transcription. 💬\n• Flexible Infrastructure: Execute code securely via local runtimes, Docker, SSH, Singularity, Modal, Daytona, or Vercel Sandbox. 🔒\n• Zero Vendor Lock-In: Easily switch between Nous Portal, OpenRouter, OpenAI, and custom local endpoints with zero code changes. 🔌\n• Production-Ready Automation: Run scheduled natural-language cron automations, daily system audits, and nightly backups delivered straight to your chat apps. ⚙️\n\nWhether you want to automate routine DevOps workflows, build resilient research pipelines, or generate high-quality batch training trajectories, Hermes Agent gives you complete control over your LLM provider and execution environment. 📈\n\nCheck out the repo, star the project, and start building smarter today:\nhttps://github.com/NousResearch/hermes-agent\n\nWhat workflow are you going to automate first? Drop a comment below! 👇\n\n#AI #ArtificialIntelligence #SoftwareEngineering #DevOps #MachineLearning #OpenSource #DeveloperTools",
+      "image_file": "2_NousResearch_hermes-agent.png",
+      "photo_id": "122110892001476221",
+      "published_post_id": null,
+      "published_at": null
+    },
+    {
+      "rank": 3,
+      "repo_name": "mikehasa/golive-skill",
+      "caption": "Bridge the gap between AI code generation and production deployment by letting your coding agent handle infrastructure setup securely on your own accounts. 🚀\n\nWe’ve all been there: you build an amazing prototype with an AI coding agent, but then you spend hours context-switching just to set up hosting, connect databases, configure DNS, and manage environment variables. \n\nGoLive (mikehasa/golive-skill) is a zero-dependency Node CLI and agent skill designed to bridge the exact gap between building an AI prototype and shipping it to production. It inspects your app, detects required infrastructure, plans configuration changes, requests your explicit approval, and applies settings using your own direct accounts. 💡\n\n✨ Key Features:\n• Conversational Deployment: Integrates directly with coding agents like Claude Code and Codex.\n• Comprehensive Provider Support: Works with Vercel, Netlify, Supabase, Neon, Porkbun, GoDaddy, Resend, and Stripe.\n• Secure Credential Handling: Routes API keys directly to local files via native OS dialogs instead of exposing secrets in chat outputs.\n• State Tracking & Teardown: Includes drift detection, ownership documents, and an automated teardown path to clean up test resources instantly.\n\nStop wasting time on manual cloud configurations and let your agent do the heavy lifting safely under your control. 💻👇\n\nCheck it out on GitHub:\nhttps://github.com/mikehasa/golive-skill\n\nTry it out today and drop a comment below on how much faster your AI-to-production workflow becomes! \n\n#AIDevelopment #SoftwareEngineering #WebDevelopment #DevOps #OpenSource #IndieHacker",
+      "image_file": "3_mikehasa_golive-skill.png",
+      "photo_id": "122110892043476221",
+      "published_post_id": null,
+      "published_at": null
+    },
+    {
+      "rank": 4,
+      "repo_name": "deepopen-com/deepopen",
+      "caption": "Tired of slow LLM text generation loops holding back your production pipelines? \n\nDeepOpen is an open-source, non-autoregressive System 1 decision engine built to handle structured-type decision scenarios like intent classification, routing, and scoring in under 33 milliseconds.\n\nInstead of generating text token-by-token and struggling with fragile JSON parsing or text hallucinations, DeepOpen performs a single forward pass to output predefined structured types complete with well-calibrated confidence scores. It supports over 100 languages right out of the box.\n\nKey features include:\n⚡ Ultra-low latency: Latencies as low as 33ms on a T4 GPU by skipping text generation entirely.\n🧠 Intelligent router: Detects script and language in under half a millisecond to automatically dispatch requests to specialized checkpoints like ModernBERT-large or mmBERT-base.\n🎯 Superior calibration: Trained with reinforcement learning against strictly proper scoring rules (RLCD), achieving an Expected Calibration Error (ECE) as low as 0.081 for bulletproof automated confidence gating.\n🔓 100% Open-source: Fully self-hostable under the Apache 2.0 license as a zero-cost alternative to paid API-based decision engines.\n\nWhether you are building real-time LLM safety guards to block prompt injections or scaling automated support ticket triage systems that evaluate intent, urgency, and churn risk simultaneously, DeepOpen drops right into your stack to cut compute costs and eliminate token fees.\n\nCheck out the repository and start building today:\nhttps://github.com/deepopen-com/deepopen\n\nDrop a star if you are replacing heavy LLMs with faster classification pipelines, and let us know in the comments how you plan to use it!\n\n#MachineLearning #AI #ArtificialIntelligence #SoftwareEngineering #OpenSource #DeepLearning #Python #DeveloperTools",
+      "image_file": "4_deepopen-com_deepopen.png",
+      "photo_id": "122110892091476221",
+      "published_post_id": null,
+      "published_at": null
+    },
+    {
+      "rank": 5,
+      "repo_name": "Contrastive-LM/CLM",
+      "caption": "Tired of waiting around for slow generative decoding in your AI agents and tool-calling pipelines? \n\nMeet CLM (Contrastive Language Models), a high-speed framework that achieves up to 9x lower latency and state-of-the-art agentic verification by disaggregating states and actions into independently cached embeddings.\n\nThe Problem:\nTraditional LLMs rely on compute-heavy generative decoding for every single decision, making real-time verification, tool routing, and best-of-N candidate ranking slow and expensive. \n\nWhat CLM Does:\nInstead of heavy generation, CLM acts as a lightning-fast vector-scoring engine. It uses a frozen LLM backbone coupled with a lightweight 20M-parameter projection head, enabling fast retrieval and typed decision tasks through pre-computed and cached vector embeddings.\n\nKey Features:\n• Disaggregated State & Action Embeddings: Separates state representation from action candidates for blazing-fast dot-product evaluation.\n• Typed Decision API: Supports structured evaluation through Noul, Choice, and Score primitives for zero-shot classification and probability distributions.\n• Bidirectional InfoNCE Training: Employs a robust contrastive objective scaled across pre-training, synthetic hard-negative mid-training, and agentic trajectory post-training.\n• Plug-and-Play Serving Stack: Includes a native CLI, a vLLM pooling integration, and an interactive built-in web UI playground that live-generates cURL, JSON, and Python requests.\n\nWhether you are building autonomous software engineering agents, tool-calling pipelines, or high-performance verification systems, CLM helps you slash latency without sacrificing accuracy.\n\n👉 Check out the repo and get started: https://github.com/Contrastive-LM/CLM\n\nDrop a comment below on how you plan to use pre-computed embeddings in your stack, and make sure to star the repo!\n\n#ArtificialIntelligence #MachineLearning #AIEngineering #OpenSource #DeepLearning #SoftwareDevelopment",
+      "image_file": "5_Contrastive-LM_CLM.png",
+      "photo_id": "122110892133476221",
+      "published_post_id": null,
+      "published_at": null
+    }
+  ]
+}
