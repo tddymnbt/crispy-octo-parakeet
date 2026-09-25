@@ -1,0 +1,51 @@
+{
+  "date": "2026-09-26",
+  "prepared_at": "2026-09-26T07:02:21.999647+08:00",
+  "posts": [
+    {
+      "rank": 1,
+      "repo_name": "driceroland/Search",
+      "caption": "Ditch the heavy Chromium memory hog for a lightning-fast, 3MB native WebKit browser built entirely in clean Swift. 🚀\n\nAre you exhausted by massive browser bloat and privacy fatigue on macOS? Meet Search—a hyper-fast, lightweight native browser designed to give you your system resources back. \n\nBuilt in about 12,700 lines of pure Swift and SwiftUI, Search delivers instant launch times and an astonishingly small 3MB binary footprint while leveraging the native macOS WebKit engine. \n\nHere is what makes it a game-changer for macOS power users and developers:\n🛡️ Network-Level Ad Blocking: Powered by compiled WKContentRuleList rules that execute before pages even render, plus a permanent element-hiding utility tool.\n🔌 Chrome Extension Support: Full compatibility with Chrome extensions running on WebKit's WKWebExtension engine, augmented by custom shims for missing APIs.\n🔒 Absolute Privacy: A zero-cloud security model storing all tabs, history, and passwords locally in your encrypted macOS login keychain with zero telemetry.\n🛠️ Developer Value: Study a production-grade, dependency-free codebase to master advanced macOS integration, bridge SwiftUI and AppKit, and use local Unix sockets for automated testing.\n\nWhether you want to audit a high-performance native desktop app or build a custom browsing workflow, the source code is entirely open for exploration.\n\nCheck out the repository and dive into the code here:\nhttps://github.com/driceroland/Search\n\nClone the repo, build it locally, and let us know what you think in the comments below! 👇\n\n#Swift #SwiftUI #MacOS #WebDevelopment #OpenSource #SoftwareEngineering #Privacy",
+      "image_file": "1_driceroland_Search.png",
+      "photo_id": "122111567931476221",
+      "published_post_id": "1410193715501138_122111568219476221",
+      "published_at": "2026-09-26T07:02:24.341830+08:00"
+    },
+    {
+      "rank": 2,
+      "repo_name": "incoai/splash",
+      "caption": "Tired of local LLMs crawling on your Mac while coding agents lag behind? Meet Splash: a specialized local inference engine built from the ground up for Apple Silicon. \n\nRunning modern large models locally on macOS usually means dealing with high latency, memory bottlenecks, and tedious configuration. Splash solves this by unlocking blistering performance specifically for Apple Silicon architecture.\n\nHere is what makes it a game-changer for your local development setup:\n\n⚡ Hardware-Optimized Execution: Leverages custom Metal kernels and model-specific memory plans tailored directly for Apple Silicon GPUs and unified memory.\n🚀 Built-In Speculative Decoding: Utilizes paired DFlash2 draft models to drastically accelerate token generation speeds and slash time-to-first-token latency.\n🔌 Full API Compatibility: Drop-in replacement supporting OpenAI Chat Completions, OpenAI Responses, and Anthropic Messages—complete with streaming, tool calling, JSON schema output, and vision support.\n⚙️ Zero-Configuration Setup: Automatically checks memory, prepares weight caching, and integrates seamlessly with your favorite coding agents via simple terminal commands.\n\nKeep your data completely private, cut the cloud dependency, and power your local coding workflows with cloud-like speed. \n\nCheck out the repo and get started today:\nhttps://github.com/incoai/splash\n\nDrop a comment below if you are testing local inference on your Mac, and hit that link to star the repository!\n\n#ArtificialIntelligence #AppleSilicon #MachineLearning #SoftwareEngineering #LocalLLM #DeveloperTools",
+      "image_file": "2_incoai_splash.png",
+      "photo_id": "122111567985476221",
+      "published_post_id": null,
+      "published_at": null
+    },
+    {
+      "rank": 3,
+      "repo_name": "tobi/disktree",
+      "caption": "Tired of bloated disk space? Say goodbye to sluggish, slow-scanning storage analyzers and meet tobi/disktree.\n\nIf you are a developer, sysadmin, or power user constantly battling massive local build folders, hidden docker caches, and forgotten node_modules eating up hundreds of gigabytes, this is the tool you have been waiting for.\n\ndisktree is a blazing-fast, GPU-accelerated disk usage analyzer built in Rust that visualizes your entire home directory as an interactive treemap. \n\nHere is what makes it a game-changer for your local environment:\n🚀 GPUI-Accelerated Interface: Delivers buttery-smooth scrolling, continuous zooming, and high-performance rendering across Linux, macOS, and Windows.\n🧠 Smart Classification Engine: Automatically categorizes data types like code, toolchains, build artifacts, git repositories, and caches for instant identification.\n🗑️ Safe Staging and Review: Mark multiple directories, review space recovery metrics, and safely move items to the trash or permanently delete them with automatic live volume free space updates.\n🤖 AI Agent Integration: Hit a shortcut key to copy a prompt for your favorite coding agent to safely analyze and free up disk space for selected paths.\n\nStop guessing where your storage went and take back your drive with a native utility built for high-performance workflows.\n\n👉 Check it out on GitHub: https://github.com/tobi/disktree\n\nDrop a comment below and let us know how many gigabytes your old build artifacts are currently stealing from you! 👇\n\n#RustLang #DeveloperTools #DevOps #SoftwareEngineering #OpenSource #ArtificialIntelligence",
+      "image_file": "3_tobi_disktree.png",
+      "photo_id": "122111568027476221",
+      "published_post_id": null,
+      "published_at": null
+    },
+    {
+      "rank": 4,
+      "repo_name": "pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+      "caption": "Ace your next AI engineering interview with this crowdsourced cheat sheet featuring real, technical questions from 35 top AI labs and tech giants! 🚀\n\nPreparing for modern AI engineering loops can feel like chasing a moving target. Between transformer internals, GPU inference serving, RAG systems, and AI agent architectures, finding structured and reliable study material is a massive time sink. \n\nThis repository solves that challenge by compiling real, reported interview questions from 35 top AI labs, major tech companies, and infrastructure providers. It maps out company-specific interview loops and categorizes technical topics, frequently linking them to deep-dive conceptual answers.\n\n🔥 Key Features:\n• Company-Specific Breakdowns: Map out actual loops and focus areas for 35 top-tier organizations like OpenAI, Anthropic, DeepMind, Meta, and DeepSeek.\n• Cross-Company Topic Categorization: Master advanced concepts including LLM internals, GPU performance, inference serving, RAG systems, and AI agent architectures.\n• Deep Technical Explanations: Review resources breaking down complex mathematics and systems metrics like KV cache memory footprints, RoPE, and FlashAttention.\n• Broad Role Coverage: Targeted prep for LLM Inference Engineers, MLOps Specialists, Applied Scientists, and AI Solutions Architects.\n\nWhether you are structuring a targeted multi-week preparation plan for a frontier AI lab or using the topic checklist to identify knowledge gaps in production concepts like quantization and model alignment, this guide saves you hundreds of hours of scattered research.\n\n👉 Check it out on GitHub:\nhttps://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise\n\nDrop a comment below with your favorite AI interview prep resource or tag a developer friend who is currently prepping for their next big role! 💻✨\n\n#AIEngineering #MachineLearning #LLM #GenAI #TechInterviews #MLOps #SoftwareDevelopment #OpenSource",
+      "image_file": "4_pallavi-shekhar_ai-engineering-interview-questions-company-wise.png",
+      "photo_id": "122111568069476221",
+      "published_post_id": null,
+      "published_at": null
+    },
+    {
+      "rank": 5,
+      "repo_name": "kerpopule/hermes-jev-skills",
+      "caption": "Stop wasting expensive frontier-model tokens on trivial routing and filtering decisions by offloading them to a sub-second, cheap decision model.\n\nIf you are building autonomous agent workflows with Hermes, Claude Code, or Codex, you already know the pain: burning through costly LLM API credits just to evaluate search results, route prompts, or filter out context bloat. \n\nkerpopule/hermes-jev-skills solves this by integrating TypeSafe's Jev—a specialized, non-text-generating decision model—to handle non-generative tasks in fractions of a second for a fraction of a cent.\n\nKey features you get:\n⚡ Model Routing: Dynamically selects the most cost-effective model per turn, running in a risk-free shadow mode first.\n🛡️ Memory & Search Filtering: Drops irrelevant data and blocks prompt injections before they hit your agent's context window.\n🔌 Cross-Framework Portability: Works via plain SKILL.md files and a robust installer without patching core runtimes.\n🔒 Local Security & Redaction: Built-in data masking and credential screening ensure API keys never touch cloud payloads unnecessarily.\n\nLet your expensive frontier models focus strictly on deep reasoning and code generation while a fast helper model handles the administrative logic. \n\nCheck out the repo and start optimizing your pipeline today:\nhttps://github.com/kerpopule/hermes-jev-skills\n\nDrop a comment below if you are currently building multi-agent routing systems!\n\n#AI #MachineLearning #SoftwareEngineering #LLM #ArtificialIntelligence #Developers #OpenSource",
+      "image_file": "5_kerpopule_hermes-jev-skills.png",
+      "photo_id": "122111568195476221",
+      "published_post_id": null,
+      "published_at": null
+    }
+  ]
+}
