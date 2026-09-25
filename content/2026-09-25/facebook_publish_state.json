@@ -26,8 +26,8 @@
       "caption": "Bridge the gap between AI code generation and production deployment by letting your coding agent handle infrastructure setup securely on your own accounts. 🚀\n\nWe’ve all been there: you build an amazing prototype with an AI coding agent, but then you spend hours context-switching just to set up hosting, connect databases, configure DNS, and manage environment variables. \n\nGoLive (mikehasa/golive-skill) is a zero-dependency Node CLI and agent skill designed to bridge the exact gap between building an AI prototype and shipping it to production. It inspects your app, detects required infrastructure, plans configuration changes, requests your explicit approval, and applies settings using your own direct accounts. 💡\n\n✨ Key Features:\n• Conversational Deployment: Integrates directly with coding agents like Claude Code and Codex.\n• Comprehensive Provider Support: Works with Vercel, Netlify, Supabase, Neon, Porkbun, GoDaddy, Resend, and Stripe.\n• Secure Credential Handling: Routes API keys directly to local files via native OS dialogs instead of exposing secrets in chat outputs.\n• State Tracking & Teardown: Includes drift detection, ownership documents, and an automated teardown path to clean up test resources instantly.\n\nStop wasting time on manual cloud configurations and let your agent do the heavy lifting safely under your control. 💻👇\n\nCheck it out on GitHub:\nhttps://github.com/mikehasa/golive-skill\n\nTry it out today and drop a comment below on how much faster your AI-to-production workflow becomes! \n\n#AIDevelopment #SoftwareEngineering #WebDevelopment #DevOps #OpenSource #IndieHacker",
       "image_file": "3_mikehasa_golive-skill.png",
       "photo_id": "122110892043476221",
-      "published_post_id": null,
-      "published_at": null
+      "published_post_id": "1410193715501138_122111077161476221",
+      "published_at": "2026-09-25T15:00:38.296614+08:00"
     },
     {
       "rank": 4,
