@@ -44,8 +44,8 @@
       "caption": "Stop wasting expensive frontier-model tokens on trivial routing and filtering decisions by offloading them to a sub-second, cheap decision model.\n\nIf you are building autonomous agent workflows with Hermes, Claude Code, or Codex, you already know the pain: burning through costly LLM API credits just to evaluate search results, route prompts, or filter out context bloat. \n\nkerpopule/hermes-jev-skills solves this by integrating TypeSafe's Jev—a specialized, non-text-generating decision model—to handle non-generative tasks in fractions of a second for a fraction of a cent.\n\nKey features you get:\n⚡ Model Routing: Dynamically selects the most cost-effective model per turn, running in a risk-free shadow mode first.\n🛡️ Memory & Search Filtering: Drops irrelevant data and blocks prompt injections before they hit your agent's context window.\n🔌 Cross-Framework Portability: Works via plain SKILL.md files and a robust installer without patching core runtimes.\n🔒 Local Security & Redaction: Built-in data masking and credential screening ensure API keys never touch cloud payloads unnecessarily.\n\nLet your expensive frontier models focus strictly on deep reasoning and code generation while a fast helper model handles the administrative logic. \n\nCheck out the repo and start optimizing your pipeline today:\nhttps://github.com/kerpopule/hermes-jev-skills\n\nDrop a comment below if you are currently building multi-agent routing systems!\n\n#AI #MachineLearning #SoftwareEngineering #LLM #ArtificialIntelligence #Developers #OpenSource",
       "image_file": "5_kerpopule_hermes-jev-skills.png",
       "photo_id": "122111568195476221",
-      "published_post_id": null,
-      "published_at": null
+      "published_post_id": "1410193715501138_122112077931476221",
+      "published_at": "2026-09-26T23:00:36.776484+08:00"
     }
   ]
 }
