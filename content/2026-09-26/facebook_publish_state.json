@@ -17,8 +17,8 @@
       "caption": "Tired of local LLMs crawling on your Mac while coding agents lag behind? Meet Splash: a specialized local inference engine built from the ground up for Apple Silicon. \n\nRunning modern large models locally on macOS usually means dealing with high latency, memory bottlenecks, and tedious configuration. Splash solves this by unlocking blistering performance specifically for Apple Silicon architecture.\n\nHere is what makes it a game-changer for your local development setup:\n\n⚡ Hardware-Optimized Execution: Leverages custom Metal kernels and model-specific memory plans tailored directly for Apple Silicon GPUs and unified memory.\n🚀 Built-In Speculative Decoding: Utilizes paired DFlash2 draft models to drastically accelerate token generation speeds and slash time-to-first-token latency.\n🔌 Full API Compatibility: Drop-in replacement supporting OpenAI Chat Completions, OpenAI Responses, and Anthropic Messages—complete with streaming, tool calling, JSON schema output, and vision support.\n⚙️ Zero-Configuration Setup: Automatically checks memory, prepares weight caching, and integrates seamlessly with your favorite coding agents via simple terminal commands.\n\nKeep your data completely private, cut the cloud dependency, and power your local coding workflows with cloud-like speed. \n\nCheck out the repo and get started today:\nhttps://github.com/incoai/splash\n\nDrop a comment below if you are testing local inference on your Mac, and hit that link to star the repository!\n\n#ArtificialIntelligence #AppleSilicon #MachineLearning #SoftwareEngineering #LocalLLM #DeveloperTools",
       "image_file": "2_incoai_splash.png",
       "photo_id": "122111567985476221",
-      "published_post_id": null,
-      "published_at": null
+      "published_post_id": "1410193715501138_122111689077476221",
+      "published_at": "2026-09-26T11:00:38.767667+08:00"
     },
     {
       "rank": 3,
