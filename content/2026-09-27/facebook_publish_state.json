@@ -1,0 +1,51 @@
+{
+  "date": "2026-09-27",
+  "prepared_at": "2026-09-27T07:02:13.882602+08:00",
+  "posts": [
+    {
+      "rank": 1,
+      "repo_name": "obra/superpowers",
+      "caption": "Stop letting your AI coding agent act like an impulsive script generator that skips tests and drifts off-spec! 🛑\n\nMeet Superpowers: a comprehensive methodology and skill orchestration framework that transforms your AI assistant into a disciplined software engineer. Instead of blindly writing code the second a prompt drops, Superpowers intercepts the workflow to enforce rigorous engineering standards. \n\nHere is how it upgrades your stack:\n⚡ Automatic Skill Triggering: Injects core methodology and bootstrap hooks instantly across tools like Claude Code, Cursor, Gemini CLI, Copilot CLI, and Pi.\n🤖 Subagent-Driven Development: Spawns fresh, isolated subagents to execute atomic tasks sequentially, inspecting and reviewing work between steps to maintain architectural integrity over hours of autonomous execution.\n🧪 Enforced TDD: Automatically activates a mandatory Red-Green-Refactor loop, ensuring failing tests are written and verified before a single line of implementation code is generated.\n🌿 Isolated Git Worktrees: Automatically provisions clean, dedicated workspaces and branches upon design approval.\n\nWhether you are orchestrating multi-hour autonomous feature development or forcing strict TDD loops on stubborn legacy codebases, Superpowers eliminates haphazard code generation in favor of production-grade, predictable engineering. \n\nCheck it out on GitHub:\nhttps://github.com/obra/superpowers\n\n👇 Drop a comment below: How do you currently keep your AI coding agent from hallucinating context or skipping tests during long tasks? \n\n#SoftwareEngineering #AI #ArtificialIntelligence #Coding #DeveloperTools #OpenSource #GitHub #TDD",
+      "image_file": "1_obra_superpowers.png",
+      "photo_id": "122112338721476221",
+      "published_post_id": "1410193715501138_122112338967476221",
+      "published_at": "2026-09-27T07:02:18.552256+08:00"
+    },
+    {
+      "rank": 2,
+      "repo_name": "yetone/magpie",
+      "caption": "Stop writing boilerplate code and managing complex AI agent workflows manually! 🛑\n\nBuilding advanced AI applications and managing prompt engineering pipelines shouldn't require endless configuration. \n\nMeet Magpie (yetone/magpie)—the ultimate open-source tool designed to streamline your AI engineering workflow and supercharge your development process. 🚀\n\nKey features include:\n✨ Seamless integration with cutting-edge AI models\n✨ Advanced prompt management and optimization\n✨ High-performance architecture built for developers and tech enthusiasts\n✨ Streamlined workflows that save hours of manual coding\n\nWhether you are building autonomous agents, fine-tuning LLMs, or scaling your AI infrastructure, Magpie gives you the developer value you need to ship faster. 💻⚡️\n\nCheck it out on GitHub and star the repo to support open-source AI:\nhttps://github.com/yetone/magpie\n\n👇 How are you currently managing your AI prompts and workflows? Drop your stack in the comments below, and let us know how you plan to use Magpie in your next project!\n\n#ArtificialIntelligence #SoftwareEngineering #MachineLearning #OpenSource #GitHub #TechEnthusiasts #Developers #AI #Coding",
+      "image_file": "2_yetone_magpie.png",
+      "photo_id": "122112338763476221",
+      "published_post_id": null,
+      "published_at": null
+    },
+    {
+      "rank": 3,
+      "repo_name": "nokia-applied-research/AnyJev",
+      "caption": "Turn any open LLM into a reliable, calibrated decision model with true probabilities and zero fine-tuning required. 🤖📉\n\nAre you tired of raw LLM logits being completely unreliable for critical decision-making? If you are building automated decision pipelines, you already know the pain of uncalibrated confidence scores and the massive latency and cost of generating full text tokens just to classify or route data. \n\nEnter AnyJev by Nokia Applied Research. \n\nAnyJev solves the fundamental unreliability of raw LLM outputs by applying typed decision modeling, position bias removal, and lightweight calibration layers. It lets you extract trustworthy probabilities from open-weight models without changing their core weights or relying on token generation. \n\n✨ Key Features:\n• Zero-Label and Few-Shot Calibration: Offers tiered levels from L0 (zero labels, position-bias correction via cyclic shifts) to L1 and L2 (closed-form linear heads trained on just 100-500 labels).\n• Truncated Inference for Efficiency: Cuts LLM blocks (typically using the first two-thirds of the model) to create an intermediate feature space that is both faster and yields more accurate linear heads.\n• vLLM Production Integration: Supports serving L2 models natively via vLLM using pooling servers and lightweight heads, completely avoiding token generation overhead.\n• Self-Maintaining Heads: Automatically adapts feature means and scales using unlabelled production traffic to handle question rewordings and option order changes seamlessly.\n\nBy bypassing text generation entirely, AnyJev transforms open LLMs into fast, highly calibrated probabilistic deciders that can dramatically boost your auto-decidable traffic (for instance, scaling automated routing from 7.7% all the way up to 52%). Perfect for automated customer support ticket triage, enterprise text classification, and multi-choice routing.\n\nCheck it out on GitHub and start building safer, faster automated decision pipelines today:\nhttps://github.com/nokia-applied-research/AnyJev\n\n👇 Drop a comment below: How are you currently handling confidence calibration in your LLM pipelines? \n\n#ArtificialIntelligence #MachineLearning #AIEngineering #OpenSource #LLMs #NLP #DeveloperTools #SoftwareDevelopment",
+      "image_file": "3_nokia-applied-research_AnyJev.png",
+      "photo_id": "122112338805476221",
+      "published_post_id": null,
+      "published_at": null
+    },
+    {
+      "rank": 4,
+      "repo_name": "JohnHeibel/PDoomVideo",
+      "caption": "Watch an AI model self-generate an entire p(doom) music video using parallel subagents, p5.js, and Claude Code. 🤖🎬\n\nAre you building with generative coding agents and wondering how to tackle complex, multi-file creative tasks? \n\nThe JohnHeibel/PDoomVideo repository solves the challenge of human-authored scene direction by letting an AI handle the heavy lifting. Built entirely by Claude Opus 5.5 through autonomous generation and multi-agent coordination, it contains the complete source code and assets for a striking music video about AI safety anxiety. \n\nHere is what makes this repository a must-watch for AI engineers and creative technologists:\n\n✨ Fully Autonomous Generation: The primary model orchestrated specialized subagents via a custom animation and code guide to build out nine distinct video chapters.\n🎨 Browser-Based Rendering Studio: Utilizes p5.js and p5.brush for expressive, painterly visual styles and fluid frame transitions.\n⚙️ Automated Rendering Pipeline: Features a headless Chrome rendering and ffmpeg encoding pipeline capable of parallel frame painting and final MP4 video compilation.\n📐 Structured Architecture: Includes a companion base repository and storyboard architecture optimized for repeatable, programmatic canvas animations.\n\nFor developers, this serves as a practical blueprint for orchestrating LLM subagents to handle complex multimedia automation. Use it to automate programmatic marketing videos, data visualizations, code-driven motion graphics, or to experiment with multi-agent frontend workflows.\n\nExplore the code, run the pipeline, and see how it is built:\nhttps://github.com/JohnHeibel/PDoomVideo\n\nWhat is the most complex creative coding task you have delegated to an AI agent so far? Drop your experiences in the comments below! 👇\n\n#ArtificialIntelligence #ClaudeCode #GenerativeAI #CreativeCoding #WebDev #OpenSource",
+      "image_file": "4_JohnHeibel_PDoomVideo.png",
+      "photo_id": "122112338847476221",
+      "published_post_id": null,
+      "published_at": null
+    },
+    {
+      "rank": 5,
+      "repo_name": "kryvora-network/kryvora-node",
+      "caption": "🚀 Deploy a lightweight Go daemon to connect your hardware to the Kryvora DePIN network for distributed verification workloads!\n\nBuilding decentralized physical infrastructure often comes with the headache of securely bridging local worker hardware to coordination hubs while handling telemetry, state verification, and continuous heartbeats. \n\nThe kryvora-node repository is the official client implementation that solves this exact problem. It bridges your local hardware to the Kryvora Coordination Hub, executing telemetry probes, verifying peer state, and reporting proof of availability for decentralized infrastructure networks.\n\n🛠️ Notable Features:\n• Modular Architecture: Separates task execution in the Worker Engine from HTTP/gRPC communication in the Telemetry Daemon via Unix sockets and IPC busses.\n• On-Chain Authentication: Utilizes soulbound Genesis Node Keys deployed on Arbitrum One to secure node participation and prevent unauthenticated connections.\n• Comprehensive Observability: Provides Prometheus-compatible metrics, health checks, and status endpoints natively exposed on port 4177.\n• Flexible Deployment: Offers automated systemd installation scripts, Docker Compose containers, and custom builds from Go source code.\n\nWhether you are a systems engineer, DePIN node runner, or DevOps professional managing distributed server infrastructure, you can also use this codebase as a robust architectural reference for building secure, production-grade Go daemons that interface with Web3 credentials.\n\n👉 Check out the repo and start running your verification worker node today:\nhttps://github.com/kryvora-network/kryvora-node\n\nWhat is your preferred stack for building DePIN worker daemons? Let us know in the comments below! 👇\n\n#DePIN #Golang #Web3 #DevOps #Blockchain #SystemsEngineering #Arbitrum #OpenSource",
+      "image_file": "5_kryvora-network_kryvora-node.png",
+      "photo_id": "122112338931476221",
+      "published_post_id": null,
+      "published_at": null
+    }
+  ]
+}
