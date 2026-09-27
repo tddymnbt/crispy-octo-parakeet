@@ -44,8 +44,8 @@
       "caption": "🚀 Deploy a lightweight Go daemon to connect your hardware to the Kryvora DePIN network for distributed verification workloads!\n\nBuilding decentralized physical infrastructure often comes with the headache of securely bridging local worker hardware to coordination hubs while handling telemetry, state verification, and continuous heartbeats. \n\nThe kryvora-node repository is the official client implementation that solves this exact problem. It bridges your local hardware to the Kryvora Coordination Hub, executing telemetry probes, verifying peer state, and reporting proof of availability for decentralized infrastructure networks.\n\n🛠️ Notable Features:\n• Modular Architecture: Separates task execution in the Worker Engine from HTTP/gRPC communication in the Telemetry Daemon via Unix sockets and IPC busses.\n• On-Chain Authentication: Utilizes soulbound Genesis Node Keys deployed on Arbitrum One to secure node participation and prevent unauthenticated connections.\n• Comprehensive Observability: Provides Prometheus-compatible metrics, health checks, and status endpoints natively exposed on port 4177.\n• Flexible Deployment: Offers automated systemd installation scripts, Docker Compose containers, and custom builds from Go source code.\n\nWhether you are a systems engineer, DePIN node runner, or DevOps professional managing distributed server infrastructure, you can also use this codebase as a robust architectural reference for building secure, production-grade Go daemons that interface with Web3 credentials.\n\n👉 Check out the repo and start running your verification worker node today:\nhttps://github.com/kryvora-network/kryvora-node\n\nWhat is your preferred stack for building DePIN worker daemons? Let us know in the comments below! 👇\n\n#DePIN #Golang #Web3 #DevOps #Blockchain #SystemsEngineering #Arbitrum #OpenSource",
       "image_file": "5_kryvora-network_kryvora-node.png",
       "photo_id": "122112338931476221",
-      "published_post_id": null,
-      "published_at": null
+      "published_post_id": "1410193715501138_122112723693476221",
+      "published_at": "2026-09-27T23:00:39.119609+08:00"
     }
   ]
 }
