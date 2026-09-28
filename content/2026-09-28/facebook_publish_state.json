@@ -35,8 +35,8 @@
       "caption": "Tired of paying crazy monthly subscriptions for automated video clippers like OpusClip? 🎬 Say goodbye to SaaS fees and build your own fully open-source media pipeline instead.\n\nIntroducing short-video-generator-AI, a powerful Python pipeline that automatically turns any long YouTube video or local file into viral vertical shorts! \n\n🔥 The Problem It Solves:\nManually scrubbing through hours of footage to find clip-worthy moments is exhausting. This project completely automates the workflow—from downloading and transcription to intelligent highlight detection, context-aware hook generation, and final video rendering.\n\n🚀 Key Features:\n• Smart Highlight Selection: Uses content-aware LLM prompts to rank high-engagement moments like hooks, emotional peaks, and opinion bombs.\n• Local Whisper Transcription: Powered by faster-whisper for accurate, timestamped text generation locally.\n• Context-Aware Hooks: Automatically appends an AI-generated hook at the start of each clip to maximize viewer retention.\n• Dual Interface Support: Choose between a robust CLI and a clean local web interface to queue videos and tweak parameters visually.\n\n💻 Developer Value:\nIntegrate this repository directly into your tech stack as an API service, build internal automation for company webinars, or launch your own white-label video clipping agency without relying on expensive third-party tools.\n\nCheck out the code and start automating your content workflow today:\nhttps://github.com/yukitorido/short-video-generator-AI\n\n👇 Drop a comment below if you are building content automation workflows, and let us know what LLM stack you plan to hook this up to!\n\n#Python #ArtificialIntelligence #OpenSource #SoftwareEngineering #VideoAutomation #MachineLearning #ContentCreators",
       "image_file": "4_yukitorido_short-video-generator-AI.png",
       "photo_id": "122112971223476221",
-      "published_post_id": null,
-      "published_at": null
+      "published_post_id": "1410193715501138_122113269681476221",
+      "published_at": "2026-09-28T19:00:40.259298+08:00"
     },
     {
       "rank": 5,
