@@ -26,8 +26,8 @@
       "caption": "Stop letting your coding agents burn through your API budget with blind string searches. 💸🤖\n\nMeet Jevgrep (dzhng/jevgrep), a specialized CLI tool built specifically to solve the context-retrieval bottleneck for autonomous AI agents. Instead of relying on traditional literal regex or string matching, Jevgrep lets agents search codebases using semantic intent. \n\nBy mapping natural language questions to relevant files, reading leads, and source excerpts across repository hierarchies, it gives agents a precise starting point for unfamiliar tasks—slashing agent task costs by roughly 40 percent on benchmarks like SWE-bench. 📉⚡\n\n🔥 Key Features:\n• Semantic Intent Search: Accepts natural language questions about codebase behavior instead of literal queries.\n• Native Agent Skill Integration: Supports tools like Claude Code, Codex, and OpenCode via an automated installer.\n• Integrated Structural Code Parsing: Extracts declaration-level context and line references for Python, TypeScript, and JavaScript.\n• Smart File Filtering: Respects ignore rules while keeping binary, build, dependency, and sensitive files out of the way.\n\nWhether you are equipping autonomous agents to locate cross-cutting concerns like auth or reducing token overhead during massive refactoring tasks, Jevgrep delivers targeted source excerpts in a single stdout response. \n\nCheck it out on GitHub and give your coding agents the upgrade they need:\nhttps://github.com/dzhng/jevgrep\n\n👇 Drop a comment below: What is your current workaround for agent context bloat, and how much are you spending on token retrieval?\n\n#SoftwareDevelopment #ArtificialIntelligence #CodingAgents #DeveloperTools #OpenSource #MachineLearning #TechInnovation",
       "image_file": "3_dzhng_jevgrep.png",
       "photo_id": "122112971169476221",
-      "published_post_id": null,
-      "published_at": null
+      "published_post_id": "1410193715501138_122113175103476221",
+      "published_at": "2026-09-28T15:00:40.204835+08:00"
     },
     {
       "rank": 4,
