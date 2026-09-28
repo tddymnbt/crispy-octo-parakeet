@@ -44,8 +44,8 @@
       "caption": "Tired of AI detectors flagging your writing? 🤖❌\n\nWe have all been there. You write or generate content, run it through a standard detector, and suddenly your hard work is flagged as robotic. \n\nMeet Text-Humanizer, a powerful open-source pipeline designed to transform AI-generated content into natural prose that bypasses AI detectors while carefully preserving your original semantic meaning. 🚀\n\nHere is how it works under the hood:\n✨ Multi-stage cross-lingual hopping: Disrupts original linguistic patterns by chaining translations across languages like Chinese, Turkish, and English.\n✨ High-temperature LLM configuration: Uses a recommended 1.3 temperature setting to introduce varied sentence structures and stylistic diversity.\n✨ Broad multilingual support: Works across eight major languages including English, Japanese, Chinese, Korean, German, French, and Spanish.\n✨ Flexible backend: Supports custom API base URLs, custom model slugs, and optional DeepL API integration for enhanced translation quality.\n\nFor AI engineers and technical writers, this repository serves as a fantastic blueprint for studying how cross-lingual round-trip translation and high-temperature generation alter text embeddings and stylistic fingerprints. Use it to build custom text normalization microservices or integrate a humanization step into your automated publishing workflows! 🛠️\n\nCheck out the repository and start experimenting today:\nhttps://github.com/asokurasu/text-humanizer\n\nWhat do you think of this cross-lingual approach to text transformation? Drop your thoughts in the comments below, and don't forget to star the repo if you find it useful! ⭐\n\n#OpenSource #ArtificialIntelligence #MachineLearning #LLM #SoftwareDevelopment #DeepSeek #GitHub",
       "image_file": "5_asokurasu_text-humanizer.png",
       "photo_id": "122112971265476221",
-      "published_post_id": null,
-      "published_at": null
+      "published_post_id": "1410193715501138_122113357917476221",
+      "published_at": "2026-09-28T23:00:42.433714+08:00"
     }
   ]
 }
