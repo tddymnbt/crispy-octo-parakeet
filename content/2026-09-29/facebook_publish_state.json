@@ -44,8 +44,8 @@
       "caption": "When your media extraction pipeline needs to be bulletproof against site changes, yt-dlp remains the ultimate developer utility. \n\nBuilding automated content ingestion, media archiving, or speech-to-text transcription services means dealing with fragile browser automation and constantly shifting API endpoints. If you are an AI engineer or backend developer tired of broken scrapers, yt-dlp solves this by abstracting away protocol complexities across thousands of web platforms.\n\nWhether you are building data collection pipelines for machine learning models or self-hosted archiving systems, this tool gives you programmatical reliability.\n\nKey Developer Features:\n- Extensive site support with active maintenance ensuring high uptime\n- Advanced format selection and filtering to grab exact video and audio streams\n- Built-in post-processing like SponsorBlock integration and metadata manipulation\n- A robust Python embedding API for seamless integration into your automated workflows\n\nCheck out the repository and start building better pipelines today:\nhttps://github.com/yt-dlp/yt-dlp\n\nDrop a comment below: What are you currently building with yt-dlp, and how has it streamlined your data ingestion? Like and share this with your engineering team!\n\n#OpenSource #Python #MachineLearning #DevOps #SoftwareEngineering #DataPipelines #GitHub",
       "image_file": "5_yt-dlp_yt-dlp.png",
       "photo_id": "122113591425476221",
-      "published_post_id": null,
-      "published_at": null
+      "published_post_id": "1410193715501138_122113922787476221",
+      "published_at": "2026-09-29T23:00:42.668361+08:00"
     }
   ]
 }
