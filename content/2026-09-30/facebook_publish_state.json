@@ -1,0 +1,51 @@
+{
+  "date": "2026-09-30",
+  "prepared_at": "2026-09-30T07:02:22.464472+08:00",
+  "posts": [
+    {
+      "rank": 1,
+      "repo_name": "Niko1221/Strata",
+      "caption": "Want to run a massive 125-billion-parameter Mixture of Experts AI model locally on a standard gaming PC at blazing fast speeds? \n\nMeet Strata, the high-performance local inference engine designed to bridge the gap between heavyweight server-grade MoE AI models and consumer-grade hardware. Say goodbye to expensive cloud API costs and data privacy compromises. Strata allows developers to run large models effortlessly on normal Windows or Linux gaming PCs equipped with a single NVIDIA GPU and sufficient system RAM.\n\nNotable Features:\n- Hybrid CPU-GPU and multi-GPU execution pipelines that split model layers and experts across VRAM and system RAM to optimize consumer hardware throughput.\n- Comprehensive OpenAI-compatible and Anthropic-compatible API endpoints for drop-in integration with external apps and coding agents.\n- Support for extended 128K context windows, multimodal inputs like images, and configurable reasoning effort levels.\n- Automated calibration tools and intelligent setup scripts for complex quantization and low-RAM configurations.\n\nWhether you are powering local AI coding assistants for offline software development or running local prototyping environments with zero cloud latency, Strata delivers enterprise-grade performance right to your desktop.\n\nCheck out the repository and start running massive models locally today:\nhttps://github.com/Niko1221/Strata\n\nDrop a comment below if you are testing local-first AI models in your workflow, and share this post with fellow developers!\n\n#ArtificialIntelligence #MachineLearning #LocalLLM #OpenSource #SoftwareEngineering #Developers #AI #TechCommunity",
+      "image_file": "1_Niko1221_Strata.png",
+      "photo_id": "122114102079476221",
+      "published_post_id": "1410193715501138_122114102307476221",
+      "published_at": "2026-09-30T07:02:26.929348+08:00"
+    },
+    {
+      "rank": 2,
+      "repo_name": "feitangyuan/onetake",
+      "caption": "Tired of AI product videos that look like choppy slideshows with awkward crossfades? \n\nMeet Onetake: a new Claude Agent Skill that replaces disjointed clips with mathematically verified, continuous, unbroken motion graphics and product launch films. \n\nInstead of cutting between isolated scenes, Onetake programs code-driven motion graphics where every visual element visibly transitions, morphs, or carries directly into the next beat within a single, unbroken camera take. \n\nHere is what makes it a game-changer for your next product launch:\n\n🤖 Native Claude Agent Skill: Prompt complex promotional films, teasers, and feature demos directly from text using AI agents.\n🔍 Continuity Verification Oracle: Programmatically measures frame-by-frame visual survival across scene boundaries to reject disjointed transitions.\n💻 Real Programmatic UI: Builds product interfaces in HTML on the camera plane, avoiding low-fidelity screen recordings and enabling infinite zoom capability.\n📐 Deterministic Rendering Engine: Features 38 measured mathematical move functions (springs, entrances, camera moves) with true 180-degree shutter motion blur and synchronized spatial audio.\n\nFor AI engineers, frontend developers, and technical founders, this means you can finally automate high-end product launch videos without touching traditional timeline editors or rigid templates. Treat your motion graphics like deterministic, programmatic code that updates right alongside your product.\n\nCheck it out on GitHub and star the repo to support the project:\nhttps://github.com/feitangyuan/onetake\n\nDrop a comment below with your thoughts or how you plan to use it for your next feature demo!\n\n#AIDev #WebDevelopment #MotionDesign #ClaudeAI #OpenSource #TechLaunch #Frontend #SoftwareEngineering",
+      "image_file": "2_feitangyuan_onetake.png",
+      "photo_id": "122114102127476221",
+      "published_post_id": null,
+      "published_at": null
+    },
+    {
+      "rank": 3,
+      "repo_name": "KKKKhazix/AIHOT",
+      "caption": "Transform any industry data stream into an automated, AI-curated daily intelligence digest using this open-source self-hosted framework.\n\nDrowning in information overload? For developers and domain experts trying to track niche updates across the web, keeping up is a full-time job. AIHOT is a complete, self-hosted framework designed to ingest diverse data sources, filter and double-score content using Large Language Models, cluster related articles into singular events, rank them by source heat, and automatically publish structured daily briefs.\n\n🚀 Notable Features:\n\n• Multi-Source Ingestion: Seamlessly handles RSS, web scraping, JSON APIs, X accounts, and WeChat official accounts with automatic rate and priority scaling.\n• Dual-LLM Scoring & Clustering: Groups duplicate reporting into single events using vector similarity and model verification to eliminate noise.\n• Prompt-Driven Customization: Keep your industry know-how, thresholds, and curation rules safely isolated inside an industry folder without touching core code.\n• AI-Ready Ecosystem: Features standard RSS feeds, public APIs, Model Context Protocol (MCP) integration, and llms.txt endpoints built specifically for AI agent consumption.\n• Production-Ready Stack: Quickly spin up a high-performance Node.js and PostgreSQL intelligence stack via Docker Compose.\n\nWhether you want to build an automated compliance digest for fintech teams or deploy a self-hosted tech radar that aggregates GitHub releases and X discussions into a ranked trend report, AIHOT gives you complete control over your data.\n\n👉 Check out the repository and deploy your own intelligence digest today:\nhttps://github.com/KKKKhazix/AIHOT\n\nDrop a comment below and let us know what industry feed you plan to build first, and hit share to spread the word to fellow developers!\n\n#OpenSource #ArtificialIntelligence #NodeJS #PostgreSQL #TechTrends #SoftwareDevelopment #AIAgents",
+      "image_file": "3_KKKKhazix_AIHOT.png",
+      "photo_id": "122114102175476221",
+      "published_post_id": null,
+      "published_at": null
+    },
+    {
+      "rank": 4,
+      "repo_name": "kaankiziltug/logo-design-skill",
+      "caption": "Tired of AI-generated logos that look like messy, non-scalable digital sludge? \n\nTurn Claude or any AI coding assistant into a disciplined identity designer with this specialized logo-crafting skill package! 🎨🤖\n\nMost AI tools struggle with professional graphic design because they lack structural constraints and industry context. The logo-design-skill repository solves this by acting as an advanced procedural skill package and reference suite for AI agents, guiding them through the end-to-end lifecycle of professional logo design—from brand discovery briefs to production-ready SVG assets and comprehensive brand guidelines.\n\nHere is what makes it a game-changer for your workflow:\n• Massive SVG Reference Library: Includes over 1,400 real-world SVG logos classified by mark type, geometry, and industry so your AI can study conventions and avoid look-alikes.\n• Built-in Python Audit Tools: Dependency-free scripts to test SVGs against logo principles, run multi-context visibility checks (16px pixel test, squint test, dark/light modes), and generate mockups.\n• Strict Agentic Checkpoints: Forces your AI assistant to pause, present concept overview sheets with clear recommendations, and wait for your explicit direction before building complete brand kits.\n\nWhether you are a solo founder building a rapid MVP, an AI engineer integrating design pipelines, or a developer scaffolding a new multi-tenant SaaS, you can plug this right into Claude, Cursor, or Gemini CLI to programmatically generate scalable, mathematically sound SVG logos and favicons without needing a dedicated designer.\n\nCheck out the repository and level up your AI workflow today:\nhttps://github.com/kaankiziltug/logo-design-skill\n\nDrop a comment below if you are going to test this on your next project, and make sure to star the repo to support the creator! 👇\n\n#AI #SoftwareDevelopment #WebDev #OpenSource #DevTools #ArtificialIntelligence #Python #StartupLife",
+      "image_file": "4_kaankiziltug_logo-design-skill.png",
+      "photo_id": "122114102217476221",
+      "published_post_id": null,
+      "published_at": null
+    },
+    {
+      "rank": 5,
+      "repo_name": "852wa/JIZURA",
+      "caption": "Tired of heavy video editing software just to make a quick lyric video or promo short? 🎵✨\n\nMeet JIZURA, a powerful browser-based kinetic typography and lyric video automation tool that transforms raw lyrics and audio tracks directly in your browser into dynamic, broadcast-ready promotional videos. \n\nNo server uploads. No installations. Just pure client-side magic.\n\nHere is why developers and creative technologists are loving it:\n\n🔒 100% Privacy: Built with the WebCodecs API and HTML5 Canvas for complete client-side processing and zero server data uploads.\n🎧 Smart Audio Sync: Automatic beat detection syncs cuts and lyric timings instantly, backed by a manual tap-to-sync feature.\n🎨 Massive Variation Engine: Combine 860 distinct expression parts and 27 style presets driven by a single shuffle key.\n🚀 Pro Export Pipelines: Export straight to MP4, image sequences, or transparent overlays in resolutions from 720p up to 4K, complete with After Effects (CEP/ScriptUI) interoperability.\n\nFor developers, it serves as an incredible architectural reference for building heavy client-side media manipulation tools using modern web APIs like WebCodecs, Canvas, and Web Audio. \n\nExplore the source code, study the clean separation of rendering engines, and star the project on GitHub:\nhttps://github.com/852wa/JIZURA\n\nWhat heavy media manipulation tool are you building in the browser right now? Let us know in the comments below, and drop a star on the repo if you find this useful! 👇\n\n#WebDev #Frontend #JavaScript #OpenSource #WebCodecs #CreativeTechnology #MotionDesign #Coding",
+      "image_file": "5_852wa_JIZURA.png",
+      "photo_id": "122114102265476221",
+      "published_post_id": null,
+      "published_at": null
+    }
+  ]
+}
