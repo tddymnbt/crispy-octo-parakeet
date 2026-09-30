@@ -1,0 +1,51 @@
+{
+  "date": "2026-10-01",
+  "prepared_at": "2026-10-01T07:03:07.049312+08:00",
+  "posts": [
+    {
+      "rank": 1,
+      "repo_name": "mattpocock/skills",
+      "caption": "Stop vibe coding and start building real applications with actual discipline. 🛑\n\nMatt Pocock just open-sourced his personal AI agent skills, and it is a total game-changer for anyone using AI coding assistants like Claude Code. \n\nWe have all been there: you prompt an agent, it hallucinates a massive ball of mud, misses your edge cases, ignores your architecture, and leaves you with a mess of unmaintainable code. \n\nmattpocock/skills solves this by embedding decades of software engineering fundamentals directly into your agent workflows. \n\nHere is what is inside:\n🔥 Grilling & Alignment Sessions: Interactive skills like grill-me force the agent to stop guessing, ask clarifying questions, and establish a shared project vocabulary before writing a single line of code.\n🧪 Disciplined Feedback Loops: Built-in TDD skills guide your agent through strict red-green-refactor cycles and structured debugging phases.\n🏛️ Architectural Maintenance: Skills like improve-codebase-architecture survey your code to combat software entropy and fix deepening opportunities.\n🔌 Flexible Installation: Subscribe to managed, read-only updates via Claude Code plugins or copy editable skill files directly into your repos using skills.sh.\n\nStop letting unguided agent generation drain your tokens and ruin your codebases. Take rigorous control over your quality today.\n\nCheck out the repo and drop it into your workflow:\nhttps://github.com/mattpocock/skills\n\nHow do you keep your AI coding assistants from going rogue? Let us know in the comments, and share this with a dev who needs to see it! 👇\n\n#SoftwareEngineering #AICoding #ClaudeCode #DeveloperTools #WebDev #TypeScript #CodingStandards",
+      "image_file": "1_mattpocock_skills.png",
+      "photo_id": "122114563899476221",
+      "published_post_id": "1410193715501138_122114564103476221",
+      "published_at": "2026-10-01T07:03:10.669368+08:00"
+    },
+    {
+      "rank": 2,
+      "repo_name": "shihabal3amri/DiPlay",
+      "caption": "🚗 Tired of proprietary roadblocks between Apple CarPlay and open Android head units? \n\nMeet DiPlay (https://github.com/shihabal3amri/DiPlay)—an independent, open-source CarPlay receiver built specifically to bridge this gap for BYD vehicles running DiLink! 📱⚡\n\nThe Problem Solved:\nBringing seamless smartphone projection to aftermarket or factory-locked Android head units usually means dealing with clunky hardware dongles, jailbroken devices, or external auth servers. DiPlay eliminates all of that by installing natively to deliver smooth wired and wireless CarPlay without the hassle.\n\nKey Features Built for Tech Enthusiasts:\n🔌 Wired USB & Wireless Support: Utilizes Wi-Fi Direct or your car’s existing hotspot with local authentication.\n🗺️ BYD HUD Integration: Renders native navigation arrows, distances, and street names directly on verified firmware.\n📊 Advanced Telemetry Bridges: Features optional ADB-powered wheel-speed, gear, and battery reporting to seriously enhance Apple Maps positioning.\n🌐 Localized Multi-Language UI: Supports English, Simplified Chinese, Arabic, Russian, and Spanish with synchronized Android system settings.\n\nWhy Developers Should Check It Out:\nIf you are an automotive software engineer, Android platform developer, or embedded systems enthusiast, DiPlay serves as an incredible reference architecture. Study it to learn how to implement custom Android projection apps, handle low-latency audio/video buffering, interface with vehicle bus telemetry via ADB, and manage accessory identity assets.\n\nExplore the source code, check out the documentation, and contribute to the project today!\n\n👉 Star and contribute on GitHub: https://github.com/shihabal3amri/DiPlay\n\n#AndroidDev #EmbeddedSystems #AppleCarPlay #OpenSource #AutomotiveTech #IVISystems #BYD #Coding",
+      "image_file": "2_shihabal3amri_DiPlay.png",
+      "photo_id": "122114563935476221",
+      "published_post_id": null,
+      "published_at": null
+    },
+    {
+      "rank": 3,
+      "repo_name": "Louis-CFM/coucou",
+      "caption": "Stop alt-tabbing to check on your terminal AI agents. 🛑\n\nMeet Coucou (https://github.com/Louis-CFM/coucou) — the ambient desktop status monitor that transforms your Mac notch or Windows screen edge into a live command bridge for Claude Code and your favorite dev integrations.\n\nIf you rely on terminal-based AI coding tools, you know the pain: you kick off a long-running refactor or code generation task, and you are forced to constantly break your focus to check for session updates or permission requests. \n\nCoucou solves this by placing an animated character named Mochi right in your notch or screen edge. It safely intercepts local session events via Unix sockets or named pipes, surfacing live steps, file modifications, and one-click permission approvals without ever interrupting your workflow. \n\nBeyond AI monitoring, it packs serious power for your daily stack:\n⚡ 60fps custom canvas animations built with native Swift 6 on macOS and Tauri 2 / Rust on Windows.\n⚡ Rich ecosystem status pills for Stripe, n8n, GitHub, Vercel, Resend, Notion, and Cal.com.\n⚡ Contextual superpowers including drag-and-drop file ingestion, window-context dragging, and built-in chat.\n\nWhether you want to seamlessly manage your terminal AI agents or explore an exceptional architectural reference for building high-performance native desktop utilities, this repo is a must-star.\n\nCheck it out and drop a star on GitHub:\nhttps://github.com/Louis-CFM/coucou\n\nHow do you currently monitor your background AI coding tasks? Let us know in the comments! 👇\n\n#ClaudeCode #AIEngineering #WebDevelopment #Swift6 #RustLang #OpenSource #DeveloperTools",
+      "image_file": "3_Louis-CFM_coucou.png",
+      "photo_id": "122114563983476221",
+      "published_post_id": null,
+      "published_at": null
+    },
+    {
+      "rank": 4,
+      "repo_name": "firelex/jeff",
+      "caption": "Tired of paying massive API costs and waiting hundreds of milliseconds just to route a user intent or classify a support ticket?\n\nMeet Jeff (firelex/jeff): a drop-in, sub-30ms zero-shot classification engine that runs entirely locally and matches massive architectures at a fraction of the cost. 🚀\n\nTraditional LLMs force you to deal with heavy text generation, fragile JSON parsing, and slow API roundtrips for simple routing tasks. Jeff changes the game. It uses specialized, highly compact fine-tunes of open models like Qwen and Gemma designed purely for zero-shot text classification and judgment calls. \n\n🔥 Key Features:\n\n⚡ Single Forward Pass Decisions: Evaluates complex choices, true/false logic, and scaling scores instantly without generation or parsing overhead.\n🎯 Massive Option Scaling: Choose among up to 254 distinct options simultaneously with high calibration.\n💻 Blazing-Fast Local Speed: Optimized for local deployment using PyTorch for NVIDIA GPUs/CPUs or MLX for Apple Silicon, clocking in at roughly 22ms to 28ms per request.\n🔌 Drop-In Compatibility: Uses a clean request format that slots easily into your existing routing and classification codebases.\n\nWhether you are automating customer support queues, building real-time voice command parsers, or handling data pipeline intent detection, Jeff gives you a deterministic, self-hosted microservice that eliminates expensive API calls.\n\nCheck out the code and start running local classification today:\nhttps://github.com/firelex/jeff\n\nDrop a comment below if you are planning to test it out on Apple Silicon or NVIDIA, and share this with an AI engineer who needs to slash their inference latency! 👇\n\n#ArtificialIntelligence #MachineLearning #AIEngineers #OpenSource #DevOps #Python #SoftwareDevelopment",
+      "image_file": "4_firelex_jeff.png",
+      "photo_id": "122114564019476221",
+      "published_post_id": null,
+      "published_at": null
+    },
+    {
+      "rank": 5,
+      "repo_name": "yihui-dev/awesome-opus5-5-videos",
+      "caption": "Want to generate stunning 3D scenes, interactive games, and complex motion graphics just by writing a prompt? \n\nExplore 475 viral creative-coding videos and their exact Claude Opus 5.5 prompts to generate production-ready HTML, Canvas, SVG, and Three.js animations instantly.\n\nBuilding modern web graphics usually requires a steep learning curve in Three.js, GLSL, and advanced Canvas APIs. But bridging the gap between natural language prompts and executable, high-performance web code is now easier than ever. \n\nyihui-dev/awesome-opus5-5-videos is a curated catalog and prompt library designed for developers who want to bypass boilerplate coding and leverage frontier AI models for rapid prototyping.\n\nKey Features:\n- 475 verified prompts in structured Markdown and JSON for direct AI coding agent integration.\n- Categorized showcases covering motion graphics, math explainers, interactive games, and complex 3D scenes.\n- Cross-referencing linking viral social media posts to their exact source prompts and live interactive remakes.\n- Technical categorization tracking underlying web tech like Canvas, SVG, GSAP, and Web Audio.\n\nUse it to rapidly prototype hero section backgrounds, data visualizations, and interactive UI assets, or research how frontier models translate stylistic instructions into performant client-side JavaScript rendering loops.\n\nCheck out the repository here:\nhttps://github.com/yihui-dev/awesome-opus5-5-videos\n\nDrop a star to bookmark it for your next project, and let us know in the comments what kind of animation you are going to generate first!\n\n#WebDevelopment #ArtificialIntelligence #ClaudeOpus #ThreeJS #CreativeCoding #Frontend #OpenSource",
+      "image_file": "5_yihui-dev_awesome-opus5-5-videos.png",
+      "photo_id": "122114564061476221",
+      "published_post_id": null,
+      "published_at": null
+    }
+  ]
+}
