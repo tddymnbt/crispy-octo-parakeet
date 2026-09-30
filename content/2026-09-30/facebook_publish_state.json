@@ -44,8 +44,8 @@
       "caption": "Tired of heavy video editing software just to make a quick lyric video or promo short? 🎵✨\n\nMeet JIZURA, a powerful browser-based kinetic typography and lyric video automation tool that transforms raw lyrics and audio tracks directly in your browser into dynamic, broadcast-ready promotional videos. \n\nNo server uploads. No installations. Just pure client-side magic.\n\nHere is why developers and creative technologists are loving it:\n\n🔒 100% Privacy: Built with the WebCodecs API and HTML5 Canvas for complete client-side processing and zero server data uploads.\n🎧 Smart Audio Sync: Automatic beat detection syncs cuts and lyric timings instantly, backed by a manual tap-to-sync feature.\n🎨 Massive Variation Engine: Combine 860 distinct expression parts and 27 style presets driven by a single shuffle key.\n🚀 Pro Export Pipelines: Export straight to MP4, image sequences, or transparent overlays in resolutions from 720p up to 4K, complete with After Effects (CEP/ScriptUI) interoperability.\n\nFor developers, it serves as an incredible architectural reference for building heavy client-side media manipulation tools using modern web APIs like WebCodecs, Canvas, and Web Audio. \n\nExplore the source code, study the clean separation of rendering engines, and star the project on GitHub:\nhttps://github.com/852wa/JIZURA\n\nWhat heavy media manipulation tool are you building in the browser right now? Let us know in the comments below, and drop a star on the repo if you find this useful! 👇\n\n#WebDev #Frontend #JavaScript #OpenSource #WebCodecs #CreativeTechnology #MotionDesign #Coding",
       "image_file": "5_852wa_JIZURA.png",
       "photo_id": "122114102265476221",
-      "published_post_id": null,
-      "published_at": null
+      "published_post_id": "1410193715501138_122114388219476221",
+      "published_at": "2026-09-30T23:00:41.732587+08:00"
     }
   ]
 }
