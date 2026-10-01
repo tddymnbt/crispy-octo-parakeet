@@ -35,8 +35,8 @@
       "caption": "Tired of paying massive API costs and waiting hundreds of milliseconds just to route a user intent or classify a support ticket?\n\nMeet Jeff (firelex/jeff): a drop-in, sub-30ms zero-shot classification engine that runs entirely locally and matches massive architectures at a fraction of the cost. 🚀\n\nTraditional LLMs force you to deal with heavy text generation, fragile JSON parsing, and slow API roundtrips for simple routing tasks. Jeff changes the game. It uses specialized, highly compact fine-tunes of open models like Qwen and Gemma designed purely for zero-shot text classification and judgment calls. \n\n🔥 Key Features:\n\n⚡ Single Forward Pass Decisions: Evaluates complex choices, true/false logic, and scaling scores instantly without generation or parsing overhead.\n🎯 Massive Option Scaling: Choose among up to 254 distinct options simultaneously with high calibration.\n💻 Blazing-Fast Local Speed: Optimized for local deployment using PyTorch for NVIDIA GPUs/CPUs or MLX for Apple Silicon, clocking in at roughly 22ms to 28ms per request.\n🔌 Drop-In Compatibility: Uses a clean request format that slots easily into your existing routing and classification codebases.\n\nWhether you are automating customer support queues, building real-time voice command parsers, or handling data pipeline intent detection, Jeff gives you a deterministic, self-hosted microservice that eliminates expensive API calls.\n\nCheck out the code and start running local classification today:\nhttps://github.com/firelex/jeff\n\nDrop a comment below if you are planning to test it out on Apple Silicon or NVIDIA, and share this with an AI engineer who needs to slash their inference latency! 👇\n\n#ArtificialIntelligence #MachineLearning #AIEngineers #OpenSource #DevOps #Python #SoftwareDevelopment",
       "image_file": "4_firelex_jeff.png",
       "photo_id": "122114564019476221",
-      "published_post_id": null,
-      "published_at": null
+      "published_post_id": "1410193715501138_122114771655476221",
+      "published_at": "2026-10-01T19:00:39.305459+08:00"
     },
     {
       "rank": 5,
