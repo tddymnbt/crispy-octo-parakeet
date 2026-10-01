@@ -17,8 +17,8 @@
       "caption": "🚗 Tired of proprietary roadblocks between Apple CarPlay and open Android head units? \n\nMeet DiPlay (https://github.com/shihabal3amri/DiPlay)—an independent, open-source CarPlay receiver built specifically to bridge this gap for BYD vehicles running DiLink! 📱⚡\n\nThe Problem Solved:\nBringing seamless smartphone projection to aftermarket or factory-locked Android head units usually means dealing with clunky hardware dongles, jailbroken devices, or external auth servers. DiPlay eliminates all of that by installing natively to deliver smooth wired and wireless CarPlay without the hassle.\n\nKey Features Built for Tech Enthusiasts:\n🔌 Wired USB & Wireless Support: Utilizes Wi-Fi Direct or your car’s existing hotspot with local authentication.\n🗺️ BYD HUD Integration: Renders native navigation arrows, distances, and street names directly on verified firmware.\n📊 Advanced Telemetry Bridges: Features optional ADB-powered wheel-speed, gear, and battery reporting to seriously enhance Apple Maps positioning.\n🌐 Localized Multi-Language UI: Supports English, Simplified Chinese, Arabic, Russian, and Spanish with synchronized Android system settings.\n\nWhy Developers Should Check It Out:\nIf you are an automotive software engineer, Android platform developer, or embedded systems enthusiast, DiPlay serves as an incredible reference architecture. Study it to learn how to implement custom Android projection apps, handle low-latency audio/video buffering, interface with vehicle bus telemetry via ADB, and manage accessory identity assets.\n\nExplore the source code, check out the documentation, and contribute to the project today!\n\n👉 Star and contribute on GitHub: https://github.com/shihabal3amri/DiPlay\n\n#AndroidDev #EmbeddedSystems #AppleCarPlay #OpenSource #AutomotiveTech #IVISystems #BYD #Coding",
       "image_file": "2_shihabal3amri_DiPlay.png",
       "photo_id": "122114563935476221",
-      "published_post_id": null,
-      "published_at": null
+      "published_post_id": "1410193715501138_122114624727476221",
+      "published_at": "2026-10-01T11:00:41.634771+08:00"
     },
     {
       "rank": 3,
