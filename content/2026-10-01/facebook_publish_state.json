@@ -26,8 +26,8 @@
       "caption": "Stop alt-tabbing to check on your terminal AI agents. 🛑\n\nMeet Coucou (https://github.com/Louis-CFM/coucou) — the ambient desktop status monitor that transforms your Mac notch or Windows screen edge into a live command bridge for Claude Code and your favorite dev integrations.\n\nIf you rely on terminal-based AI coding tools, you know the pain: you kick off a long-running refactor or code generation task, and you are forced to constantly break your focus to check for session updates or permission requests. \n\nCoucou solves this by placing an animated character named Mochi right in your notch or screen edge. It safely intercepts local session events via Unix sockets or named pipes, surfacing live steps, file modifications, and one-click permission approvals without ever interrupting your workflow. \n\nBeyond AI monitoring, it packs serious power for your daily stack:\n⚡ 60fps custom canvas animations built with native Swift 6 on macOS and Tauri 2 / Rust on Windows.\n⚡ Rich ecosystem status pills for Stripe, n8n, GitHub, Vercel, Resend, Notion, and Cal.com.\n⚡ Contextual superpowers including drag-and-drop file ingestion, window-context dragging, and built-in chat.\n\nWhether you want to seamlessly manage your terminal AI agents or explore an exceptional architectural reference for building high-performance native desktop utilities, this repo is a must-star.\n\nCheck it out and drop a star on GitHub:\nhttps://github.com/Louis-CFM/coucou\n\nHow do you currently monitor your background AI coding tasks? Let us know in the comments! 👇\n\n#ClaudeCode #AIEngineering #WebDevelopment #Swift6 #RustLang #OpenSource #DeveloperTools",
       "image_file": "3_Louis-CFM_coucou.png",
       "photo_id": "122114563983476221",
-      "published_post_id": null,
-      "published_at": null
+      "published_post_id": "1410193715501138_122114688471476221",
+      "published_at": "2026-10-01T15:00:34.474432+08:00"
     },
     {
       "rank": 4,
