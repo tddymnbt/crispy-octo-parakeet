@@ -44,8 +44,8 @@
       "caption": "Want to generate stunning 3D scenes, interactive games, and complex motion graphics just by writing a prompt? \n\nExplore 475 viral creative-coding videos and their exact Claude Opus 5.5 prompts to generate production-ready HTML, Canvas, SVG, and Three.js animations instantly.\n\nBuilding modern web graphics usually requires a steep learning curve in Three.js, GLSL, and advanced Canvas APIs. But bridging the gap between natural language prompts and executable, high-performance web code is now easier than ever. \n\nyihui-dev/awesome-opus5-5-videos is a curated catalog and prompt library designed for developers who want to bypass boilerplate coding and leverage frontier AI models for rapid prototyping.\n\nKey Features:\n- 475 verified prompts in structured Markdown and JSON for direct AI coding agent integration.\n- Categorized showcases covering motion graphics, math explainers, interactive games, and complex 3D scenes.\n- Cross-referencing linking viral social media posts to their exact source prompts and live interactive remakes.\n- Technical categorization tracking underlying web tech like Canvas, SVG, GSAP, and Web Audio.\n\nUse it to rapidly prototype hero section backgrounds, data visualizations, and interactive UI assets, or research how frontier models translate stylistic instructions into performant client-side JavaScript rendering loops.\n\nCheck out the repository here:\nhttps://github.com/yihui-dev/awesome-opus5-5-videos\n\nDrop a star to bookmark it for your next project, and let us know in the comments what kind of animation you are going to generate first!\n\n#WebDevelopment #ArtificialIntelligence #ClaudeOpus #ThreeJS #CreativeCoding #Frontend #OpenSource",
       "image_file": "5_yihui-dev_awesome-opus5-5-videos.png",
       "photo_id": "122114564061476221",
-      "published_post_id": null,
-      "published_at": null
+      "published_post_id": "1410193715501138_122114845191476221",
+      "published_at": "2026-10-01T23:00:45.260117+08:00"
     }
   ]
 }
