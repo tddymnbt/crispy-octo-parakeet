@@ -17,8 +17,8 @@
       "caption": "Stop letting anti-bot blockers break your web automation. 🛑\n\nMeet dots (feder-cr/dots)—a patched C++ Firefox engine designed specifically to let AI agents and scrapers navigate the web completely undetected.\n\nThe Problem:\nModern web automation and AI scraping fail constantly not because the AI is bad, but because bot detection and fingerprinting flag the browser environment instantly. Tweaking your prompts won't fix a blocked TCP stack.\n\nHow dots Solves It:\nInstead of masking properties via easily exposed JavaScript, dots tackles the problem directly at the browser layer to ensure pages actually load, challenges are bypassed, and your browser fingerprint is 100% authentic.\n\nKey Features Built for Devs:\n🔧 Hardcoded C++ Patches: Real Firefox engine with fingerprinting controls built directly into the source.\n🧬 Seed-Based Consistent Identity: Screens, fonts, GPUs, timezones, and languages align identically across every single run.\n👻 Zero Automation Footprints: WebDriver flags, DevTools protocols, and automation globals are completely removed.\n🖱️ Human-Like Interaction: Pointer coordinates travel naturally and keystrokes arrive sequentially to pass trusted event checks.\n\nPlus, you can integrate its companion MCP server straight into assistants like Claude Code or Gemini CLI for stateful, multi-step web task execution.\n\nStop wasting hours debugging flaky scrapers. Check out the repo, drop a star, and level up your automation stack today:\nhttps://github.com/feder-cr/dots\n\nWhat is the most annoying anti-bot check you have had to bypass recently? Let's discuss in the comments! 👇\n\n#WebScraping #AI #WebAutomation #DeveloperTools #OpenSource #Python #JavaScript #Coding",
       "image_file": "2_feder-cr_dots.png",
       "photo_id": "122115039201476221",
-      "published_post_id": null,
-      "published_at": null
+      "published_post_id": "1410193715501138_122115114879476221",
+      "published_at": "2026-10-02T11:00:43.008600+08:00"
     },
     {
       "rank": 3,
