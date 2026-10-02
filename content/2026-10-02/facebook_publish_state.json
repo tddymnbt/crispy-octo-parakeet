@@ -35,8 +35,8 @@
       "caption": "Building spatial design software usually means wrestling with heavy frameworks, complex bundlers, and endless configuration headaches. What if you could run a full 3D floorplan and interior design tool with zero build steps?\n\nIntroducing wy51ai/floorplan-3d, a brilliant zero-build, pure frontend 3D floorplan and interior design tool built entirely in a single HTML file using Three.js and SVG. \n\nThis project solves the complexity of spatial software by providing a lightweight, browser-based editor that lets users draw 2D floorplans, place furniture, and instantly toggle into an immersive 3D scene.\n\nKey features include:\n- Dual 2D/3D Synchronization: Real-time syncing between your 2D SVG canvas and the Three.js 3D environment.\n- Zero-Build Architecture: A single HTML file with no framework overhead, running instantly via CDN-loaded dependencies.\n- Immersive 3D Walkthrough: Desktop WASD navigation, touch-screen virtual joysticks, interactive doors, daylight sliders, and procedural furniture.\n- Built-in Spatial Analytics: Automatic room area calculations, material cost estimation, and local storage state persistence.\n\nFor developers and spatial computing enthusiasts, this repo is a masterclass in clean, vanilla JavaScript architecture. Use it to embed custom interior design configurators into e-commerce sites or prototype digital twins for real estate tech.\n\nCheck it out on GitHub:\nhttps://github.com/wy51ai/floorplan-3d\n\nDrop a star on the repo if you love creative vanilla JS implementations, and let us know in the comments how you plan to use it!\n\n#ThreeJS #WebDev #JavaScript #SpatialComputing #OpenSource #RealEstateTech",
       "image_file": "4_wy51ai_floorplan-3d.png",
       "photo_id": "122115039303476221",
-      "published_post_id": null,
-      "published_at": null
+      "published_post_id": "1410193715501138_122115266001476221",
+      "published_at": "2026-10-02T19:00:38.721321+08:00"
     },
     {
       "rank": 5,
