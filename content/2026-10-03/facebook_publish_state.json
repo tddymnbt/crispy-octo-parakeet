@@ -44,8 +44,8 @@
       "caption": "Transform messy enterprise documents, audio, and video directly into token-efficient Markdown for your RAG pipelines with Microsoft's MarkItDown. 🚀\n\nIf you are building RAG systems, knowledge bases, or LLM-powered text analysis pipelines, you already know the pain of preparing diverse, multi-format enterprise files. Wrestling with complex XML structures in DOCX, binary layouts in PDFs, and disparate parsing libraries wastes countless development hours. \n\nMarkItDown solves this challenge by converting standard Office documents, PDFs, audio, video, images, ZIP archives, and even YouTube URLs into clean, structured Markdown that preserves headings, tables, lists, and links. \n\nKey features include:\n• Comprehensive multi-format support including audio/video transcripts and EXIF metadata\n• Extensible plugin architecture for custom OCR support via LLM vision integration\n• Seamless cloud scaling with optional Azure integrations for advanced layout analysis\n• Flexible execution via a straightforward Python API and a Unix-friendly CLI supporting pipes\n\nUse cases range from automated data ingestion pipelines that convert corporate file shares into searchable Markdown for vector databases, to audio and video meeting transcription processors that output structured text logs with YAML metadata headers.\n\n🔗 Check it out on GitHub: https://github.com/microsoft/markitdown\n\nDrop a comment below and let us know what document format gives your data pipelines the most trouble! 👇\n\n#AI #MachineLearning #LLM #RAG #Python #DeveloperTools #OpenSource #Microsoft",
       "image_file": "5_microsoft_markitdown.png",
       "photo_id": "122115521571476221",
-      "published_post_id": null,
-      "published_at": null
+      "published_post_id": "1410193715501138_122115791505476221",
+      "published_at": "2026-10-03T23:00:36.498116+08:00"
     }
   ]
 }
