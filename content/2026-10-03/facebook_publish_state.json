@@ -17,8 +17,8 @@
       "caption": "Tired of your AI coding assistant writing PR descriptions and technical docs that sound like a walking buzzword generator? 🤖📉\n\nMeet yomiyasu (https://github.com/nanaism/yomiyasu), a specialized agent skill designed to strip away fluff and transform LLM-generated Japanese text into natural, high-information-density technical prose.\n\nLLMs are great at writing code, but their generated Japanese specifications, tech articles, and pull request notes are often plagued by unnatural phrasing, personification of inanimate objects, and list inflation. Instead of superficial keyword swapping, yomiyasu reorganizes sentence syntax and operational logic using strict syntactic principles (SVOCM) to ensure your technical writing sounds human, precise, and professional.\n\n🔥 Key Features:\n\n• Seven Core Syntactic Principles: Restores action agents, eliminates awkward phrasing, and converts vague metaphorical verbs into concrete technical operations.\n• Multi-Domain Tuning: Adapt your stylistic needs across technical articles, business specifications, and documentation.\n• Built-in Static Linter: Includes yomiyasu_lint.py to numerically score and flag AI-isms, excessive bolding, and list inflation with zero external dependencies.\n• Seamless AI Integration: Installs instantly across modern coding environments like Claude Code, Cursor, and Codex via npx commands.\n\nStop wasting valuable engineering hours manually cleaning up clunky AI prose. Automate the refinement loop and keep your documentation signal-to-noise ratio exceptionally high. \n\n👉 Check out the repo and drop it into your workflow today: https://github.com/nanaism/yomiyasu\n\nHow do you currently handle cleaning up your AI-generated documentation? Let's chat in the comments! 👇\n\n#AI #SoftwareDevelopment #TechnicalWriting #DeveloperTools #OpenSource #CodingAgents",
       "image_file": "2_nanaism_yomiyasu.png",
       "photo_id": "122115521445476221",
-      "published_post_id": null,
-      "published_at": null
+      "published_post_id": "1410193715501138_122115580443476221",
+      "published_at": "2026-10-03T11:00:36.475019+08:00"
     },
     {
       "rank": 3,
