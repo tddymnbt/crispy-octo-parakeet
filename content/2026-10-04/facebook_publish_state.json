@@ -44,8 +44,8 @@
       "caption": "Powering the daily workflows of millions of engineers, the Code - OSS repository remains the gold standard for extensible, high-performance developer tooling. 💻\n\nBuilding software shouldn't mean constantly fighting your tools. Visual Studio Code solves the core friction of the edit-build-debug cycle by combining a lightweight, high-performance source code editor with deep language intelligence, integrated debugging, and a vast extensible architecture.\n\n🚀 Notable features include:\n• Comprehensive code editing and navigation supporting syntax highlighting, code completion, and deep semantic code understanding across dozens of languages.\n• A powerful and robust extensibility model that allows developers to build custom language features, debug adapters, themes, and tooling via dedicated APIs.\n• Built-in Git and source control management integration for seamless branching, committing, and resolving conflicts directly within the editor.\n• First-class Dev Containers and GitHub Codespaces support, enabling instant, reproducible cloud and containerized development environments.\n\nWhether you want to study how a massive, performance-critical desktop application is architected using Electron and TypeScript, contribute directly to core performance enhancements, or build custom extensions for your team, this is where the magic happens.\n\n👉 Check out the repo and drop a star: https://github.com/microsoft/vscode\n\nWhat is your absolute favorite VS Code extension that you cannot live without? Let us know in the comments below! 👇\n\n#OpenSource #SoftwareEngineering #VSCode #WebDevelopment #DeveloperTools #Coding",
       "image_file": "5_microsoft_vscode.png",
       "photo_id": "122115999987476221",
-      "published_post_id": null,
-      "published_at": null
+      "published_post_id": "1410193715501138_122116281939476221",
+      "published_at": "2026-10-04T23:00:36.196913+08:00"
     }
   ]
 }
