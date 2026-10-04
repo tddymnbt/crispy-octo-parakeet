@@ -1,0 +1,51 @@
+{
+  "date": "2026-10-05",
+  "prepared_at": "2026-10-05T07:02:29.074665+08:00",
+  "posts": [
+    {
+      "rank": 1,
+      "repo_name": "facebookincubator/muse-gadget-sdk",
+      "caption": "Meta just open sourced Muse Gadgets, a hacker-focused SDK for building custom hardware displays and controllers using ESP32 boards and Raspberry Pis paired with the Muse mobile app. 🔌✨\n\nBuilding connected IoT hardware usually means spending weeks writing custom companion mobile apps just to handle pairing, security, and control. \n\nThe Muse Gadget SDK solves this by bridging your custom workbench hardware—displays, buttons, sensors, and actuators—directly with iOS and Android companion apps via secure token pairing. 🚀\n\nKey Features to Hack On:\n• ESP32 Device SDK: Support for custom screens, audio I/O, and sensor integration on standard microcontrollers.\n• Linux Device SDK: Turn spare Raspberry Pis or Linux boxes into programmable home automation or sysadmin gadgets.\n• Seamless Mobile Pairing: Use the official iOS and Android apps with a dedicated developer mode for discovering devices.\n• AI Coding Agent Support: Includes AGENTS.md configurations optimized for coding agents like Muse Code.\n\nWhether you want to build a custom desktop monitoring dashboard using an ESP32 or set up a Raspberry Pi gadget for home automation, this gives you a production-ready starting point without building the mobile stack from scratch. 🛠️\n\nCheck out the repo and start building your next connected gadget today:\nhttps://github.com/facebookincubator/muse-gadget-sdk\n\nDrop a comment below: What custom hardware gadget are you going to prototype first? 👇\n\n#EmbeddedSystems #IoT #ESP32 #RaspberryPi #HardwareHackers #OpenSource #Meta",
+      "image_file": "1_facebookincubator_muse-gadget-sdk.png",
+      "photo_id": "122116464615476221",
+      "published_post_id": "1410193715501138_122116464843476221",
+      "published_at": "2026-10-05T07:02:32.285073+08:00"
+    },
+    {
+      "rank": 2,
+      "repo_name": "QingYunA/answer-me-with-html",
+      "caption": "Stop wasting tokens and time on LLM-generated HTML walls of text by letting AI agents output lightweight markdown that instantly compiles into gorgeous single-page explainers. 📉💸\n\nWe’ve all been there: asking an LLM for code documentation or architecture maps, only to watch it burn through thousands of tokens writing raw CSS, endless wrapper divs, and messy SVG coordinates. \n\nQingYunA/answer-me-with-html fixes this completely. \n\nInstead of forcing models to write full HTML, this tool lets AI agents output concise, token-efficient markdown. A bundled CLI tool then transforms that content into a structured, readable, single-page HTML explainer in milliseconds, slashing your output token usage by over 7x. 🚀\n\nKey Features:\n• Token-Efficient Generation: Models write roughly 7x fewer tokens by focusing purely on content and structure instead of boilerplate styling.\n• Automated Explainer Players: Converts drafted narrative beats into self-contained, 3Blue1Brown-style interactive video players with synchronized system or ElevenLabs voice narration.\n• Always-On Contextual Mode: Automatically triggers lightweight multi-panel explanatory pages whenever an agent delivers conclusions, summaries, or architectural comparisons.\n• Seamless Multi-Agent Integration: Ships smoothly as a native skill compatible with developer tools like Claude Code, Cursor, Codex, and OpenCode.\n\nWhether you are mapping unfamiliar module dependencies, generating interactive technical onboarding guides, or comparing architectural trade-offs on the fly, this saves serious waiting time and cognitive load. Get immediate, beautifully styled visual artifacts like sequence diagrams, state diagrams, and comparison tables that you can easily review offline. 📊✨\n\nCheck it out on GitHub and star the project to support the build:\nhttps://github.com/QingYunA/answer-me-with-html\n\nHow do you usually handle complex LLM explanations? Drop your workflow in the comments below! 👇\n\n#AI #SoftwareEngineering #DeveloperTools #MachineLearning #WebDev #OpenSource",
+      "image_file": "2_QingYunA_answer-me-with-html.png",
+      "photo_id": "122116464663476221",
+      "published_post_id": null,
+      "published_at": null
+    },
+    {
+      "rank": 3,
+      "repo_name": "awesome-selfhosted/awesome-selfhosted",
+      "caption": "Tired of renting your digital life from Big Tech and watching subscription costs pile up? \n\nReclaim your digital sovereignty and break free from SaaS silos with this ultimate community-curated directory of free, open-source self-hosted applications.\n\nDevelopers, sysadmins, and privacy advocates face a constant battle: relying on third-party SaaS providers means losing control over your data, enduring sudden price hikes, and risking privacy violations. \n\nEnter awesome-selfhosted—your one-stop shop for production-ready, open-source alternatives to expensive commercial tools.\n\n🚀 Key Features:\n• Massive Categorization: Everything from CI/CD pipelines and private analytics to media streaming, databases, and password managers.\n• Bulletproof Maintenance: Automated workflows continuously check for dead links and flag unmaintained projects so you don't waste time.\n• Privacy & License Tracking: Clear anti-feature tracking helps you evaluate the true freedom and privacy implications of every tool.\n• Flexible Formats: Browse via the user-friendly HTML-rendered version or dive straight into the core Markdown documentation.\n\nWhether you are building a private developer toolchain or deploying compliance-first monitoring stacks, this repo puts you back in the driver's seat. \n\n👉 Stop paying SaaS ransom. Explore the directory and take back your infrastructure here: https://github.com/awesome-selfhosted/awesome-selfhosted\n\nWhat is your absolute favorite self-hosted tool that you cannot live without? Drop it in the comments below! 👇\n\n#SelfHosted #OpenSource #DevOps #SysAdmin #Privacy #DeveloperTools #SoftwareEngineering",
+      "image_file": "3_awesome-selfhosted_awesome-selfhosted.png",
+      "photo_id": "122116464717476221",
+      "published_post_id": null,
+      "published_at": null
+    },
+    {
+      "rank": 4,
+      "repo_name": "Edwardxlai/easyread",
+      "caption": "Tired of spending hours decoding dense academic papers and fighting with broken formatting? \n\nEasyRead bridges the language and cognitive gap for researchers tackling dense technical literature by combining local PDF processing, AI translation, and interactive querying in an Electron wrapper. \n\nIf you are an AI researcher, ML engineer, or grad student constantly buried in arXiv preprints, this localized reading assistant automates translation, formatting, and interactive querying of complex academic PDFs while keeping your data private.\n\nHere is what makes it a game-changer for your literature reviews:\n- Native rendering of text and mathematical formulas via KaTeX and three-line tables.\n- Dual-pane reading interface with paragraph-level alignment and real-time page highlight sync.\n- Multi-engine AI support including DeepSeek, Ollama, Claude Code, and custom OpenAI-compatible endpoints.\n- Context-aware AI chat and CLI integration to query highlighted sections and export annotations as Markdown or offline HTML.\n- 100% local library management backed by JSON files and local storage with no external database required.\n\nSpeed up your reading workflow and process sensitive research papers entirely offline. \n\nCheck out the repo and drop a star if it helps your research:\nhttps://github.com/Edwardxlai/easyread\n\nHow do you usually handle heavy technical literature? Let us know in the comments!\n\n#AI #MachineLearning #OpenSource #DeepLearning #SoftwareDevelopment #TechInnovation",
+      "image_file": "4_Edwardxlai_easyread.png",
+      "photo_id": "122116464759476221",
+      "published_post_id": null,
+      "published_at": null
+    },
+    {
+      "rank": 5,
+      "repo_name": "chasmlol/2010-rust-rewrite-mashup",
+      "caption": "What happens when you fuse Modern Warfare 2, Skate 3, and Minecraft into a single, high-performance custom game engine built entirely in Rust? \n\nSystems engineers and game devs, check this out. chasmlol/2010-rust-rewrite-mashup is an eccentric, high-performance systems engineering showcase built on top of IW4L, a from-scratch Rust rewrite of Modern Warfare 2. \n\nBuilding complex, cross-genre engines usually means wrestling with massive technical debt, memory safety issues, and garbage collection overhead. This project solves that by proving the sheer performance headroom, safety, and expressiveness of Rust when handling real-time physics integration, memory extraction, and reverse-engineered binary interaction.\n\nNotable Features:\n- Cross-Engine Asset and Mechanics Integration: Combines MW2 multiplayer gunplay, HUD, and damage models with an endless procedural Minecraft world engine complete with reactive mobs and destructible terrain.\n- Engine-Level Physics Interoperability: Seamlessly injects Skate 3 board physics and trick systems directly into maps via custom input handling, letting you skate across tactical or voxel landscapes.\n- Autonomous Asset Sourcing: Automatically fetches vanilla Minecraft client assets straight from official Mojang servers on first boot to remain copyright-compliant while delivering an out-of-the-box playable experience.\n- Comprehensive Input and Controller Mapping: Delivers native console button layouts, fully rebindable KBM controls, and accurate console-style aim assist in a non-official engine.\n\nWhether you want to study low-level engine architecture, experiment with runtime asset ingestion pipelines, or just marvel at what Rust can do, this repository is a masterclass.\n\nExplore the source code and dive into the architecture here:\nhttps://github.com/chasmlol/2010-rust-rewrite-mashup\n\nWhat is the craziest cross-engine mashup you have ever built or wanted to see? Drop your thoughts in the comments below!\n\n#RustLang #GameDev #SystemsProgramming #SoftwareEngineering #OpenSource #GameEngine",
+      "image_file": "5_chasmlol_2010-rust-rewrite-mashup.png",
+      "photo_id": "122116464813476221",
+      "published_post_id": null,
+      "published_at": null
+    }
+  ]
+}

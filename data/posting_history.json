@@ -780,6 +780,12 @@
       "facebook_post_id": "1410193715501138_122116281939476221",
       "slot": 5,
       "posted_at": "2026-10-04T23:00:36.197730+08:00"
+    },
+    {
+      "repository": "facebookincubator/muse-gadget-sdk",
+      "facebook_post_id": "1410193715501138_122116464843476221",
+      "slot": 1,
+      "posted_at": "2026-10-05T07:02:32.285775+08:00"
     }
   ]
 }
