@@ -26,8 +26,8 @@
       "caption": "Want to build native-feeling ChatGPT plugins and extensions using OpenAI's official Model Context Protocol extensions toolkit? 🚀\n\nBuilding advanced AI tools often means sacrificing seamless frontend integration. Traditional Model Context Protocol servers give you backend context, but bridging that data into a rich, interactive user experience inside ChatGPT has always been a major roadblock for developers. \n\nOpenAI MCP Extensions solves this by extending the Model Context Protocol with ChatGPT-specific capabilities. It empowers you to build plugins, custom UI entrypoints, and file viewers that integrate fluidly directly into the ChatGPT interface.\n\n🔥 Notable Features:\n• Sidebar Entrypoints: Give users direct access to your application right from the ChatGPT sidebar.\n• Custom File Handlers: Render specialized file viewers dynamically when specific file types are opened.\n• Composer Mentions: Enable users to search plugin resources and add references inline within chat messages.\n• Extended Form Elicitation: Support rich input elements like thumbnail image pickers for advanced workflows.\n\nWhether you are creating domain-specific CAD and technical file viewers or building enterprise knowledge base tools with rich sidebar access, this toolkit bridges the gap between backend AI context tools and immersive frontend UI experiences using TypeScript and Python SDKs.\n\n👉 Check out the repo and start building today: https://github.com/openai/mcp-extensions\n\nDrop a comment below and let us know what kind of ChatGPT extension you are planning to build! 💻👇\n\n#OpenAI #AI #ModelContextProtocol #SoftwareEngineering #FullStack #ArtificialIntelligence #ChatGPT #Coding",
       "image_file": "3_openai_mcp-extensions.png",
       "photo_id": "122115999903476221",
-      "published_post_id": null,
-      "published_at": null
+      "published_post_id": "1410193715501138_122116126275476221",
+      "published_at": "2026-10-04T15:00:35.072584+08:00"
     },
     {
       "rank": 4,
