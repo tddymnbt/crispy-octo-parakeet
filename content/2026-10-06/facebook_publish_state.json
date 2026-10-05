@@ -1,0 +1,51 @@
+{
+  "date": "2026-10-06",
+  "prepared_at": "2026-10-06T07:04:39.587741+08:00",
+  "posts": [
+    {
+      "rank": 1,
+      "repo_name": "nykooi1/vibe-wise",
+      "caption": "Are you noticing your architectural skills getting rusty while your AI coding assistant does all the heavy lifting? \n\nVibeWise is a brand new Claude Code plugin that stops developer deskilling in its tracks by forcing AI to ask for your architectural approach, tradeoffs, and design decisions before writing a single line of code.\n\nWe've all been there: relying too heavily on AI agents means passively accepting generated code without truly understanding the underlying logic. VibeWise solves this by acting as an interactive pedagogical bridge. You design the system and reason through the trade-offs, while the AI helps with planning, explains unfamiliar concepts, and handles the heavy implementation.\n\nHere is why developers are adding it to their workflow:\n\n* Structured Checkpoint Workflow: Enforces a three-stage progression of Build, Design, and Implementation checkpoints so you stay firmly in control.\n* Adaptive Pedagogical Levels: Dynamically adjusts its teaching style, depth of context, and questioning patterns whether you are a junior, intermediate, or senior engineer exploring a new stack.\n* Persistent Learning Context: Automatically maintains project maps, learning notes, and user preferences locally inside a .vibe-wise directory across sessions.\n* Zero-Telemetry Privacy: Operates entirely locally with no external backend or telemetry required.\n\nWhether you are onboarding onto an unfamiliar legacy codebase or want to practice deep system design without losing cognitive ownership, VibeWise keeps you in the driver's seat.\n\nCheck it out on GitHub and let us know what you think:\nhttps://github.com/nykooi1/vibe-wise\n\nDrop a comment below: Have you felt your design skills slipping since you started using AI coding assistants? \n\n#SoftwareEngineering #WebDev #ArtificialIntelligence #ClaudeCode #DeveloperTools #CodingLife #TechCommunity",
+      "image_file": "1_nykooi1_vibe-wise.png",
+      "photo_id": "122116903845476221",
+      "published_post_id": "1410193715501138_122116904139476221",
+      "published_at": "2026-10-06T07:04:41.959650+08:00"
+    },
+    {
+      "rank": 2,
+      "repo_name": "storytold/photocraft",
+      "caption": "Tired of bloated, resource-hogging desktop editors and sluggish Electron wrappers for your image workflows? \n\nMeet PhotoCraft: an ambitious clean-room reimplementation of Adobe Photoshop built entirely in pure Rust for blistering performance, native multi-platform support, and true PSD file compatibility. 🚀\n\nPhotoCraft solves the problem of heavy, proprietary image editing by delivering a lightning-fast, open-source alternative. Whether you are building headless automation pipelines or high-performance desktop tools, this engine gives you professional-grade capabilities without the overhead.\n\n🔥 Key Developer Features:\n• GPU-Accelerated Compositing: Powered by wgpu across Metal, Vulkan, DX12, and WebGPU, paired with copy-on-write tiles and multithreaded filters for instant rendering.\n• True PSD Interoperability: Seamlessly opens, edits, and saves complex layered Photoshop documents, passing rigorous test suites.\n• Universal Agent & API Control: Every single action is exposed as a command. Drive the engine natively via UI, CLI, a JSON control channel, or an MCP server.\n• Non-Destructive Suite: 16 adjustment layers, advanced layer styles, vector paths, and live filter previews keeping your source pixels untouched.\n\n💡 Use Cases:\n• Run headless batch-processing and AI agent pipelines to manipulate layered PSD files at scale without a bloated GUI.\n• Embed a memory-safe, high-performance raster and vector graphics editor directly into your own Rust applications.\n\nCheck it out on GitHub and drop a star to support open-source systems engineering:\nhttps://github.com/storytold/photocraft\n\n👇 How would you integrate a programmatic Photoshop engine into your current tech stack? Let us know in the comments!\n\n#RustLang #OpenSource #ImageProcessing #AI #SoftwareEngineering #GraphicsProgramming #WebGPU",
+      "image_file": "2_storytold_photocraft.png",
+      "photo_id": "122116903971476221",
+      "published_post_id": null,
+      "published_at": null
+    },
+    {
+      "rank": 3,
+      "repo_name": "omlahore/RemoveMacAI",
+      "caption": "Tired of Apple Intelligence eating up your precious SSD space and background compute? 🍎🤖\n\nIf you are running Docker, local LLMs, and heavy build caches on Apple Silicon, every gigabyte of NVMe storage counts. macOS background AI models and mandatory features can quietly hog double-digit gigabytes of your local drive and drain your battery.\n\nMeet RemoveMacAI: A clean, scriptable utility designed to help developers and power users reclaim their local resources with a single command. \n\n⚡ What it does:\n- Completely disables localized AI features like Writing Tools, Genmoji, Image Playground, and Xcode predictive code completion.\n- Purges hidden local foundation model files safely via Apple's asset service without disabling core system functions or touching SIP.\n- Blocks macOS from automatically re-downloading purged models using a configuration profile.\n- Gives you granular control with a --keep flag if you want to selectively keep specific features.\n- Fully reversible via a single revert command whenever you want to restore the default state.\n\nWhether you need maximum disk space for local LLM experimentation or want to stop background OS services from interfering with your heavy compiling workloads, this tool gives you total control.\n\nCheck it out and reclaim your machine:\nhttps://github.com/omlahore/RemoveMacAI\n\nDrop a comment below: How much SSD space are your local development environments currently eating up? 👇\n\n#MacOS #AppleSilicon #ArtificialIntelligence #SoftwareDevelopment #DevOps #OpenSource #TechPrivacy",
+      "image_file": "3_omlahore_RemoveMacAI.png",
+      "photo_id": "122116904019476221",
+      "published_post_id": null,
+      "published_at": null
+    },
+    {
+      "rank": 4,
+      "repo_name": "BlueHeisenberg/SCSKiller",
+      "caption": "Tired of that frustrating micro-stutter every time a new visual effect pops up on screen? 🎮⚡\n\nSay goodbye to mid-game frame drops caused by live shader compilation. SCSKiller is a powerful open-source utility that pre-compiles PC game shaders directly into your NVIDIA or AMD GPU driver cache before you even launch the game! \n\nBy reading game assets and populating the driver cache out-of-band, it completely eliminates runtime compilation hitches in heavy DirectX 11 and 12 titles. \n\nHere is what makes it a must-have for performance enthusiasts and graphics devs:\n\n🔍 Automatic Game Detection across 10 major storefronts including Steam, Epic Games, EA app, GOG, Ubisoft Connect, and Xbox PC.\n🔄 Proactive Driver Cache Recompilation that detects when a GPU driver update clears your cache and automatically rebuilds your pipelines.\n🎥 Optional Pipeline Recorder using wrapper DLLs to capture shader execution patterns for games that cannot be statically inferred.\n📊 Session Frame Time Diagnostics to graph recent gameplay and isolate true shader compilation stutters from engine-level bottlenecks.\n\nFor developers and graphics engineers, it is also an incredible learning resource to study low-level GPU driver behavior, rendering pipeline management, and DirectX 12 interception techniques.\n\nCheck out the repo, drop a star, and optimize your rendering pipeline today:\nhttps://github.com/BlueHeisenberg/SCSKiller\n\nHow do you usually tackle shader compilation stutter in your setup? Let us know in the comments below! 👇\n\n#GameDev #GraphicsProgramming #PCGaming #OpenSource #DirectX12 #PerformanceOptimization #SoftwareEngineering",
+      "image_file": "4_BlueHeisenberg_SCSKiller.png",
+      "photo_id": "122116904067476221",
+      "published_post_id": null,
+      "published_at": null
+    },
+    {
+      "rank": 5,
+      "repo_name": "public-apis/public-apis",
+      "caption": "Stop wasting hours hunting down reliable data sources and tool integrations for your next build! 🛑\n\nThe definitive, community-driven directory of free public APIs has evolved to include Model Context Protocol servers for modern AI agent development. Whether you are bootstrapping a hackathon MVP, building a full-stack side project, or wiring up autonomous AI agents, finding the right endpoints shouldn't be a chore.\n\nThe public-apis/public-apis repository serves as a comprehensive, manually curated registry spanning numerous domains to solve this exact problem. \n\nKey Features:\n• Extensive categorization of hundreds of public APIs across finance, weather, geocoding, machine learning, and more.\n• Curated integration shortcuts including direct Postman collections and one-click testing environments.\n• A dedicated directory of Model Context Protocol servers enabling AI agents to seamlessly call APIs as built-in tools.\n\nUse Cases:\n• Source free financial or geographic data APIs to quickly bootstrap your next project prototype.\n• Integrate MCP servers into AI clients like Claude or Cursor to let autonomous agents query live external data sources instantly.\n\nSave countless hours of web searching and service evaluation by leveraging a single, community-vetted reference list. \n\nCheck out the repository and drop a star to support the project:\nhttps://github.com/public-apis/public-apis\n\nWhat is the absolute best free API you have ever used in a project? Let us know in the comments below! 👇\n\n#SoftwareEngineering #WebDevelopment #ArtificialIntelligence #AIEngineering #OpenSource #APIs #Developers #Coding",
+      "image_file": "5_public-apis_public-apis.png",
+      "photo_id": "122116904109476221",
+      "published_post_id": null,
+      "published_at": null
+    }
+  ]
+}
