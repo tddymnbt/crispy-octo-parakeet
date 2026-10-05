@@ -35,8 +35,8 @@
       "caption": "Tired of spending hours decoding dense academic papers and fighting with broken formatting? \n\nEasyRead bridges the language and cognitive gap for researchers tackling dense technical literature by combining local PDF processing, AI translation, and interactive querying in an Electron wrapper. \n\nIf you are an AI researcher, ML engineer, or grad student constantly buried in arXiv preprints, this localized reading assistant automates translation, formatting, and interactive querying of complex academic PDFs while keeping your data private.\n\nHere is what makes it a game-changer for your literature reviews:\n- Native rendering of text and mathematical formulas via KaTeX and three-line tables.\n- Dual-pane reading interface with paragraph-level alignment and real-time page highlight sync.\n- Multi-engine AI support including DeepSeek, Ollama, Claude Code, and custom OpenAI-compatible endpoints.\n- Context-aware AI chat and CLI integration to query highlighted sections and export annotations as Markdown or offline HTML.\n- 100% local library management backed by JSON files and local storage with no external database required.\n\nSpeed up your reading workflow and process sensitive research papers entirely offline. \n\nCheck out the repo and drop a star if it helps your research:\nhttps://github.com/Edwardxlai/easyread\n\nHow do you usually handle heavy technical literature? Let us know in the comments!\n\n#AI #MachineLearning #OpenSource #DeepLearning #SoftwareDevelopment #TechInnovation",
       "image_file": "4_Edwardxlai_easyread.png",
       "photo_id": "122116464759476221",
-      "published_post_id": null,
-      "published_at": null
+      "published_post_id": "1410193715501138_122116671165476221",
+      "published_at": "2026-10-05T19:00:40.009074+08:00"
     },
     {
       "rank": 5,
