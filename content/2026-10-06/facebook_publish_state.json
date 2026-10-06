@@ -44,8 +44,8 @@
       "caption": "Stop wasting hours hunting down reliable data sources and tool integrations for your next build! 🛑\n\nThe definitive, community-driven directory of free public APIs has evolved to include Model Context Protocol servers for modern AI agent development. Whether you are bootstrapping a hackathon MVP, building a full-stack side project, or wiring up autonomous AI agents, finding the right endpoints shouldn't be a chore.\n\nThe public-apis/public-apis repository serves as a comprehensive, manually curated registry spanning numerous domains to solve this exact problem. \n\nKey Features:\n• Extensive categorization of hundreds of public APIs across finance, weather, geocoding, machine learning, and more.\n• Curated integration shortcuts including direct Postman collections and one-click testing environments.\n• A dedicated directory of Model Context Protocol servers enabling AI agents to seamlessly call APIs as built-in tools.\n\nUse Cases:\n• Source free financial or geographic data APIs to quickly bootstrap your next project prototype.\n• Integrate MCP servers into AI clients like Claude or Cursor to let autonomous agents query live external data sources instantly.\n\nSave countless hours of web searching and service evaluation by leveraging a single, community-vetted reference list. \n\nCheck out the repository and drop a star to support the project:\nhttps://github.com/public-apis/public-apis\n\nWhat is the absolute best free API you have ever used in a project? Let us know in the comments below! 👇\n\n#SoftwareEngineering #WebDevelopment #ArtificialIntelligence #AIEngineering #OpenSource #APIs #Developers #Coding",
       "image_file": "5_public-apis_public-apis.png",
       "photo_id": "122116904109476221",
-      "published_post_id": null,
-      "published_at": null
+      "published_post_id": "1410193715501138_122117176437476221",
+      "published_at": "2026-10-06T23:00:45.425825+08:00"
     }
   ]
 }
