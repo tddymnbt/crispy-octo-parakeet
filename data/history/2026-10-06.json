@@ -1,0 +1,407 @@
+{
+  "snapshot_date": "2026-10-06",
+  "generated_at": "2026-10-06T23:01:00.230805+00:00",
+  "candidate_count": 40,
+  "repositories": [
+    {
+      "name": "public-apis/public-apis",
+      "url": "https://github.com/public-apis/public-apis",
+      "stars": 486559,
+      "forks": 53807,
+      "language": "Python",
+      "created_at": "2016-03-20T23:49:42Z",
+      "updated_at": "2026-10-06T22:50:01Z",
+      "pushed_at": "2026-10-05T22:52:00Z"
+    },
+    {
+      "name": "freeCodeCamp/freeCodeCamp",
+      "url": "https://github.com/freeCodeCamp/freeCodeCamp",
+      "stars": 456855,
+      "forks": 48363,
+      "language": "TypeScript",
+      "created_at": "2014-12-24T17:49:19Z",
+      "updated_at": "2026-10-06T22:35:51Z",
+      "pushed_at": "2026-10-06T17:38:43Z"
+    },
+    {
+      "name": "EbookFoundation/free-programming-books",
+      "url": "https://github.com/EbookFoundation/free-programming-books",
+      "stars": 398603,
+      "forks": 66885,
+      "language": "Python",
+      "created_at": "2013-10-11T06:50:37Z",
+      "updated_at": "2026-10-06T22:23:47Z",
+      "pushed_at": "2026-10-05T17:28:36Z"
+    },
+    {
+      "name": "openclaw/openclaw",
+      "url": "https://github.com/openclaw/openclaw",
+      "stars": 391515,
+      "forks": 82289,
+      "language": "TypeScript",
+      "created_at": "2025-11-24T10:16:47Z",
+      "updated_at": "2026-10-06T23:00:31Z",
+      "pushed_at": "2026-10-06T23:00:28Z"
+    },
+    {
+      "name": "nilbuild/developer-roadmap",
+      "url": "https://github.com/nilbuild/developer-roadmap",
+      "stars": 369031,
+      "forks": 45047,
+      "language": "TypeScript",
+      "created_at": "2017-03-15T13:45:52Z",
+      "updated_at": "2026-10-06T22:51:24Z",
+      "pushed_at": "2026-10-06T17:36:10Z"
+    },
+    {
+      "name": "awesome-selfhosted/awesome-selfhosted",
+      "url": "https://github.com/awesome-selfhosted/awesome-selfhosted",
+      "stars": 324391,
+      "forks": 15186,
+      "language": null,
+      "created_at": "2015-06-01T02:33:17Z",
+      "updated_at": "2026-10-06T22:54:44Z",
+      "pushed_at": "2026-10-06T18:10:01Z"
+    },
+    {
+      "name": "obra/superpowers",
+      "url": "https://github.com/obra/superpowers",
+      "stars": 296004,
+      "forks": 26430,
+      "language": "Shell",
+      "created_at": "2025-10-09T19:45:18Z",
+      "updated_at": "2026-10-06T22:44:02Z",
+      "pushed_at": "2026-10-06T15:47:19Z"
+    },
+    {
+      "name": "practical-tutorials/project-based-learning",
+      "url": "https://github.com/practical-tutorials/project-based-learning",
+      "stars": 286088,
+      "forks": 36549,
+      "language": "Python",
+      "created_at": "2017-04-12T05:07:46Z",
+      "updated_at": "2026-10-06T22:53:32Z",
+      "pushed_at": "2026-10-05T07:20:21Z"
+    },
+    {
+      "name": "mattpocock/skills",
+      "url": "https://github.com/mattpocock/skills",
+      "stars": 278078,
+      "forks": 23285,
+      "language": "Shell",
+      "created_at": "2026-02-03T11:15:53Z",
+      "updated_at": "2026-10-06T22:58:17Z",
+      "pushed_at": "2026-10-06T19:04:26Z"
+    },
+    {
+      "name": "affaan-m/ECC",
+      "url": "https://github.com/affaan-m/ECC",
+      "stars": 274268,
+      "forks": 40918,
+      "language": "JavaScript",
+      "created_at": "2026-01-18T00:51:51Z",
+      "updated_at": "2026-10-06T22:56:23Z",
+      "pushed_at": "2026-10-05T04:55:16Z"
+    },
+    {
+      "name": "NousResearch/hermes-agent",
+      "url": "https://github.com/NousResearch/hermes-agent",
+      "stars": 251685,
+      "forks": 54105,
+      "language": "Python",
+      "created_at": "2025-07-22T22:22:28Z",
+      "updated_at": "2026-10-06T22:51:00Z",
+      "pushed_at": "2026-10-06T23:00:14Z"
+    },
+    {
+      "name": "torvalds/linux",
+      "url": "https://github.com/torvalds/linux",
+      "stars": 251309,
+      "forks": 66947,
+      "language": "C",
+      "created_at": "2011-09-04T22:48:12Z",
+      "updated_at": "2026-10-06T22:56:15Z",
+      "pushed_at": "2026-10-06T14:14:09Z"
+    },
+    {
+      "name": "react/react",
+      "url": "https://github.com/react/react",
+      "stars": 250915,
+      "forks": 51439,
+      "language": "JavaScript",
+      "created_at": "2013-05-24T16:15:54Z",
+      "updated_at": "2026-10-06T23:00:41Z",
+      "pushed_at": "2026-10-06T17:32:11Z"
+    },
+    {
+      "name": "TheAlgorithms/Python",
+      "url": "https://github.com/TheAlgorithms/Python",
+      "stars": 225262,
+      "forks": 51158,
+      "language": "Python",
+      "created_at": "2016-07-16T09:44:01Z",
+      "updated_at": "2026-10-06T21:01:17Z",
+      "pushed_at": "2026-10-06T17:22:34Z"
+    },
+    {
+      "name": "anomalyco/opencode",
+      "url": "https://github.com/anomalyco/opencode",
+      "stars": 212045,
+      "forks": 28229,
+      "language": "TypeScript",
+      "created_at": "2025-04-30T20:08:00Z",
+      "updated_at": "2026-10-06T22:58:16Z",
+      "pushed_at": "2026-10-06T22:44:21Z"
+    },
+    {
+      "name": "n8n-io/n8n",
+      "url": "https://github.com/n8n-io/n8n",
+      "stars": 206778,
+      "forks": 61005,
+      "language": "TypeScript",
+      "created_at": "2019-06-22T09:24:21Z",
+      "updated_at": "2026-10-06T22:37:32Z",
+      "pushed_at": "2026-10-06T22:42:19Z"
+    },
+    {
+      "name": "tensorflow/tensorflow",
+      "url": "https://github.com/tensorflow/tensorflow",
+      "stars": 200717,
+      "forks": 78495,
+      "language": "C++",
+      "created_at": "2015-11-07T01:19:20Z",
+      "updated_at": "2026-10-06T23:00:29Z",
+      "pushed_at": "2026-10-06T23:00:56Z"
+    },
+    {
+      "name": "microsoft/vscode",
+      "url": "https://github.com/microsoft/vscode",
+      "stars": 193609,
+      "forks": 44520,
+      "language": "TypeScript",
+      "created_at": "2015-09-03T20:23:38Z",
+      "updated_at": "2026-10-06T22:44:06Z",
+      "pushed_at": "2026-10-06T23:00:24Z"
+    },
+    {
+      "name": "ohmyzsh/ohmyzsh",
+      "url": "https://github.com/ohmyzsh/ohmyzsh",
+      "stars": 190200,
+      "forks": 28561,
+      "language": "Shell",
+      "created_at": "2009-08-28T18:15:37Z",
+      "updated_at": "2026-10-06T22:36:15Z",
+      "pushed_at": "2026-10-06T09:06:45Z"
+    },
+    {
+      "name": "firecrawl/firecrawl",
+      "url": "https://github.com/firecrawl/firecrawl",
+      "stars": 189194,
+      "forks": 10044,
+      "language": "TypeScript",
+      "created_at": "2024-04-15T21:02:29Z",
+      "updated_at": "2026-10-06T22:50:55Z",
+      "pushed_at": "2026-10-06T22:47:38Z"
+    },
+    {
+      "name": "storytold/photocraft",
+      "url": "https://github.com/storytold/photocraft",
+      "stars": 6187,
+      "forks": 779,
+      "language": "Rust",
+      "created_at": "2026-09-30T13:37:48Z",
+      "updated_at": "2026-10-06T23:00:57Z",
+      "pushed_at": "2026-10-06T22:23:21Z"
+    },
+    {
+      "name": "rehan-remade/universal-modder",
+      "url": "https://github.com/rehan-remade/universal-modder",
+      "stars": 4562,
+      "forks": 401,
+      "language": "Python",
+      "created_at": "2026-09-30T05:00:35Z",
+      "updated_at": "2026-10-06T23:00:31Z",
+      "pushed_at": "2026-10-06T22:38:33Z"
+    },
+    {
+      "name": "CopilotKit/OpenDots",
+      "url": "https://github.com/CopilotKit/OpenDots",
+      "stars": 3925,
+      "forks": 532,
+      "language": "TypeScript",
+      "created_at": "2026-09-29T17:13:58Z",
+      "updated_at": "2026-10-06T23:00:21Z",
+      "pushed_at": "2026-10-06T22:46:41Z"
+    },
+    {
+      "name": "omlahore/RemoveMacAI",
+      "url": "https://github.com/omlahore/RemoveMacAI",
+      "stars": 3077,
+      "forks": 75,
+      "language": "Swift",
+      "created_at": "2026-09-29T11:02:39Z",
+      "updated_at": "2026-10-06T22:59:43Z",
+      "pushed_at": "2026-10-06T22:36:51Z"
+    },
+    {
+      "name": "feder-cr/dots",
+      "url": "https://github.com/feder-cr/dots",
+      "stars": 2633,
+      "forks": 459,
+      "language": "Python",
+      "created_at": "2026-09-29T23:06:00Z",
+      "updated_at": "2026-10-06T22:00:56Z",
+      "pushed_at": "2026-10-06T20:45:28Z"
+    },
+    {
+      "name": "nykooi1/vibe-wise",
+      "url": "https://github.com/nykooi1/vibe-wise",
+      "stars": 2544,
+      "forks": 114,
+      "language": "Python",
+      "created_at": "2026-09-29T01:29:57Z",
+      "updated_at": "2026-10-06T22:58:00Z",
+      "pushed_at": "2026-10-06T21:20:56Z"
+    },
+    {
+      "name": "QingYunA/answer-me-with-html",
+      "url": "https://github.com/QingYunA/answer-me-with-html",
+      "stars": 1758,
+      "forks": 123,
+      "language": "JavaScript",
+      "created_at": "2026-10-02T09:57:40Z",
+      "updated_at": "2026-10-06T22:50:34Z",
+      "pushed_at": "2026-10-06T15:21:56Z"
+    },
+    {
+      "name": "nanaism/yomiyasu",
+      "url": "https://github.com/nanaism/yomiyasu",
+      "stars": 1597,
+      "forks": 36,
+      "language": "Python",
+      "created_at": "2026-09-30T11:49:32Z",
+      "updated_at": "2026-10-06T22:56:52Z",
+      "pushed_at": "2026-10-06T16:35:05Z"
+    },
+    {
+      "name": "kargulstudio/sales-crm",
+      "url": "https://github.com/kargulstudio/sales-crm",
+      "stars": 1580,
+      "forks": 330,
+      "language": "TypeScript",
+      "created_at": "2026-10-04T10:55:58Z",
+      "updated_at": "2026-10-06T22:35:29Z",
+      "pushed_at": "2026-10-06T06:42:03Z"
+    },
+    {
+      "name": "storytold/filmcraft",
+      "url": "https://github.com/storytold/filmcraft",
+      "stars": 1545,
+      "forks": 424,
+      "language": "Rust",
+      "created_at": "2026-09-30T13:41:20Z",
+      "updated_at": "2026-10-06T22:58:45Z",
+      "pushed_at": "2026-10-06T22:23:58Z"
+    },
+    {
+      "name": "facebookincubator/muse-gadget-sdk",
+      "url": "https://github.com/facebookincubator/muse-gadget-sdk",
+      "stars": 1536,
+      "forks": 297,
+      "language": "C",
+      "created_at": "2026-10-02T18:21:23Z",
+      "updated_at": "2026-10-06T22:35:56Z",
+      "pushed_at": "2026-10-06T21:27:57Z"
+    },
+    {
+      "name": "wy51ai/floorplan-3d",
+      "url": "https://github.com/wy51ai/floorplan-3d",
+      "stars": 1446,
+      "forks": 295,
+      "language": "HTML",
+      "created_at": "2026-09-29T02:57:30Z",
+      "updated_at": "2026-10-06T18:08:03Z",
+      "pushed_at": "2026-10-02T02:32:11Z"
+    },
+    {
+      "name": "deadinside28/bloodborne_pc",
+      "url": "https://github.com/deadinside28/bloodborne_pc",
+      "stars": 1217,
+      "forks": 95,
+      "language": "C++",
+      "created_at": "2026-10-01T05:50:31Z",
+      "updated_at": "2026-10-06T22:58:09Z",
+      "pushed_at": "2026-10-06T08:28:55Z"
+    },
+    {
+      "name": "BlueHeisenberg/SCSKiller",
+      "url": "https://github.com/BlueHeisenberg/SCSKiller",
+      "stars": 1211,
+      "forks": 28,
+      "language": "C#",
+      "created_at": "2026-09-29T21:01:10Z",
+      "updated_at": "2026-10-06T22:41:04Z",
+      "pushed_at": "2026-10-06T00:26:31Z"
+    },
+    {
+      "name": "shader-effects-inc/shaders",
+      "url": "https://github.com/shader-effects-inc/shaders",
+      "stars": 1174,
+      "forks": 38,
+      "language": "TypeScript",
+      "created_at": "2026-09-29T16:36:26Z",
+      "updated_at": "2026-10-06T22:57:56Z",
+      "pushed_at": "2026-10-06T02:49:32Z"
+    },
+    {
+      "name": "storytold/lightcraft",
+      "url": "https://github.com/storytold/lightcraft",
+      "stars": 1165,
+      "forks": 327,
+      "language": "Rust",
+      "created_at": "2026-09-30T14:09:27Z",
+      "updated_at": "2026-10-06T23:00:59Z",
+      "pushed_at": "2026-10-06T22:26:15Z"
+    },
+    {
+      "name": "CAPCOM-TD-OSS/REDox",
+      "url": "https://github.com/CAPCOM-TD-OSS/REDox",
+      "stars": 1119,
+      "forks": 31,
+      "language": "C#",
+      "created_at": "2026-09-30T10:20:07Z",
+      "updated_at": "2026-10-06T22:42:52Z",
+      "pushed_at": "2026-10-06T09:06:29Z"
+    },
+    {
+      "name": "storytold/printcraft",
+      "url": "https://github.com/storytold/printcraft",
+      "stars": 1050,
+      "forks": 343,
+      "language": "Rust",
+      "created_at": "2026-09-30T13:39:37Z",
+      "updated_at": "2026-10-06T22:56:26Z",
+      "pushed_at": "2026-10-06T22:53:37Z"
+    },
+    {
+      "name": "chasmlol/SkyCraft",
+      "url": "https://github.com/chasmlol/SkyCraft",
+      "stars": 1019,
+      "forks": 71,
+      "language": "C++",
+      "created_at": "2026-09-30T16:40:20Z",
+      "updated_at": "2026-10-06T21:32:16Z",
+      "pushed_at": "2026-10-01T01:37:21Z"
+    },
+    {
+      "name": "storytold/vectorcraft",
+      "url": "https://github.com/storytold/vectorcraft",
+      "stars": 1000,
+      "forks": 334,
+      "language": "Rust",
+      "created_at": "2026-09-30T13:43:03Z",
+      "updated_at": "2026-10-06T23:00:54Z",
+      "pushed_at": "2026-10-06T22:24:44Z"
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "date": "2026-10-07",
+  "prepared_at": "2026-10-07T07:03:17.447260+08:00",
+  "posts": [
+    {
+      "rank": 1,
+      "repo_name": "storytold/filmcraft",
+      "caption": "🎬 Tired of heavy, subscription-bound video editors holding back your workflows? Say hello to FilmCraft: an ambitious, clean-room reimplementation of Adobe Premiere Pro written in pure Rust! 🦀⚡️\n\nWhether you are a systems developer, a Rust engineer, or an AI builder, FilmCraft delivers native, high-performance non-linear video editing across desktop platforms and the browser via WebAssembly—completely free of proprietary dependencies.\n\nHere is what makes FilmCraft a game-changer for developers and creators:\n• Custom Codecs: Built directly from public specifications for H.264, HEVC, ProRes, and AAC.\n• Exact-Integer Time Math: Operates on 254,016,000,000 ticks per second to eliminate edit drift across any frame rate or sample rate.\n• Cross-Platform & Web: Native support on macOS, Windows, and Linux, plus seamless web deployment via WebAssembly.\n• AI-Agent Native: Every single action in the application is designed as a precise, programmatic command, making it ideal for automated video-generation pipelines.\n\nDive into a pristine, modular codebase to study real-world multimedia rendering, linear-light GPU compositing, and precise temporal math. Embed a professional-grade timeline directly into your own web or desktop applications today!\n\n👉 Check out the repo and leave a star: https://github.com/storytold/filmcraft\n\nWhat will you build with a scriptable, open-source video editor? Drop your ideas in the comments below! 👇\n\n#RustLang #WebAssembly #VideoEditing #OpenSource #AI #SoftwareEngineering #DeveloperCommunity",
+      "image_file": "1_storytold_filmcraft.png",
+      "photo_id": "122117349411476221",
+      "published_post_id": "1410193715501138_122117349639476221",
+      "published_at": "2026-10-07T07:03:20.308395+08:00"
+    },
+    {
+      "rank": 2,
+      "repo_name": "shader-effects-inc/shaders",
+      "caption": "Stop wasting hours writing complex WebGL boilerplate just to add a smooth gradient or background blur to your web apps. \n\nDrop high-performance WebGPU shader effects directly into your React, Vue, Svelte, or Solid apps using a familiar declarative component tree! 🚀\n\nBuilding modern web aesthetics usually means wrestling with low-level graphics code and a steep learning curve. This open-source project bridges next-generation WebGPU performance with your favorite frontend frameworks, letting you add buttery-smooth, hardware-accelerated visuals without the usual headaches.\n\n✨ Key Features You'll Love:\n• Cross-Framework Power: First-class support for React, Vue, Svelte, Solid, and vanilla JS using identical component props.\n• Declarative GPU Layers: Nest effects, blend them top-to-bottom, and apply masks natively inside the DOM.\n• Visual Design Editor: Use the companion editor at shaders.com to design effects on an infinite canvas and export exact component trees.\n• AI MCP Server Integration: Seamlessly use coding agents like Claude Code, Cursor, and Windsurf to find, install, and edit shaders directly via the Model Context Protocol.\n• Over 200+ Components: Ready-to-use gradients, lighting, blurs, and distortions for hero sections, interactive cursor trails, and SaaS dashboards.\n\nCheck out the repository and level up your UI/UX today:\nhttps://github.com/shader-effects-inc/shaders\n\n👇 Drop a comment below: What kind of high-performance visual effects are you planning to build into your next project? Hit the link, give the repo a star, and start shipping stunning hardware-accelerated UIs! 💻🔥\n\n#WebGPU #FrontendDevelopment #ReactJS #VueJS #WebDev #UIUX #OpenSource #Coding",
+      "image_file": "2_shader-effects-inc_shaders.png",
+      "photo_id": "122117349447476221",
+      "published_post_id": null,
+      "published_at": null
+    },
+    {
+      "rank": 3,
+      "repo_name": "kargulstudio/sales-crm",
+      "caption": "🚀 Stop wasting weeks configuring boilerplate and start shipping bleeding-edge apps on day one!\n\nBuilding a modern web application from scratch often means drowning in configuration friction: wiring up state-of-the-art frameworks, wrestling with asset pipelines, and manually managing complex SEO rules. \n\nkargulstudio/sales-crm solves this by providing a strict, highly optimized boilerplate built on the absolute cutting edge of the React ecosystem. \n\n🔥 Key Features:\n• Bleeding-Edge Stack: Powered by Next.js 16, React 19, and Tailwind CSS 4 out of the box.\n• Automated Asset Workflows: Includes conversion scripts for AVIF images, WebM poster extraction, and Rive animation frame rendering.\n• Centralized SEO Architecture: Dynamically generate robots, sitemaps, LLM route files, and page metadata from a single config file.\n• Enforced Architectural Governance: Keep your team aligned with strict development guidelines and code quality standards via dedicated internal documentation (CONVENTIONS.md).\n\nSave dozens of hours on initial project setup, SEO configuration, and asset optimization so your team can focus entirely on building high-performance features.\n\n🔗 Explore the repository and drop a star:\nhttps://github.com/kargulstudio/sales-crm\n\n👉 What is your go-to framework stack for kicking off a new production SaaS application? Let us know in the comments below!\n\n#NextJS #ReactJS #TailwindCSS #WebDev #SoftwareEngineering #OpenSource #FullStack #DeveloperTools",
+      "image_file": "3_kargulstudio_sales-crm.png",
+      "photo_id": "122117349495476221",
+      "published_post_id": null,
+      "published_at": null
+    },
+    {
+      "rank": 4,
+      "repo_name": "storytold/lightcraft",
+      "caption": "📸 Tired of proprietary ecosystems holding your professional RAW photo processing hostage? \n\nMeet LightCraft: a clean-room, pure-Rust reimplementation of Adobe Lightroom designed to completely liberate your workflow while introducing native AI agent control. \n\n🧩 The Problem It Solves:\nLightCraft delivers a complete, non-destructive photo library and RAW image development darkroom. It runs natively across macOS, Windows, and Linux, and even compiles to WebAssembly for seamless browser deployment—all while implementing a high-performance, wide-gamut, 32-bit float processing pipeline.\n\n🚀 Notable Features:\n- Scene-referred, wide-gamut, 32-bit float rendering pipeline for precise color and tone adjustments using OkLCh-based color grading.\n- Comprehensive local masking suite featuring AI-ready subject, sky, and background detection alongside traditional gradient, brush, and luminance range tools.\n- Built-in Model Context Protocol (MCP) server enabling complete end-to-end control and automation of the photo editing workflow by AI agents.\n- Smooth edge-aware local tone mapping built for maximum speed and cross-platform native performance.\n\n💡 Why Developers Love It:\nStudy LightCraft as an advanced architectural reference for building high-performance image processing pipelines in Rust. Plus, the built-in MCP server provides a brilliant blueprint for integrating LLMs and AI agents directly into complex desktop software.\n\n👉 Check out the repository and start exploring the code today:\nhttps://github.com/storytold/lightcraft\n\n💬 Drop a comment below: How would you use an AI agent with MCP integration to automate your photo editing pipeline? \n\n#Rust #OpenSource #AI #WebAssembly #SoftwareEngineering #PhotoEditing #DeveloperTools",
+      "image_file": "4_storytold_lightcraft.png",
+      "photo_id": "122117349537476221",
+      "published_post_id": null,
+      "published_at": null
+    },
+    {
+      "rank": 5,
+      "repo_name": "nilbuild/developer-roadmap",
+      "caption": "🚀 Navigate the ever-expanding universe of software engineering with community-driven, interactive learning paths and best practices for every modern tech stack.\n\nFeeling overwhelmed by decision fatigue when trying to learn a new technology, master AI engineering, or transition into a specialized role? Keeping up with the modern tech landscape is brutal, and figuring out what to learn next often feels like guesswork.\n\nEnter nilbuild/developer-roadmap—a comprehensive, living repository of interactive educational guides, step-by-step learning roadmaps, best practices, and knowledge-testing questions for virtually every software development discipline.\n\n✨ Notable Features:\n• Interactive learning paths with clickable nodes linking directly to detailed, crowdsourced topic guides and markdown documentation.\n• Extensive coverage spanning traditional tracks like Frontend, Backend, and DevOps alongside emerging domains like AI Engineering and Claude Code.\n• Curated best practices and specialized knowledge assessment questions to help developers benchmark and improve their technical expertise.\n• Open-source content architecture where markdown files directly sync to the production platform for rapid community updates.\n\nWhether you are designing a personalized upskilling curriculum, establishing team training milestones, or preparing for your next big tech move, this repo eliminates the guesswork.\n\n👉 Check it out on GitHub: https://github.com/nilbuild/developer-roadmap\n\nDrop a comment below: What stack or new tech domain are you trying to master next? 👇\n\n#SoftwareEngineering #WebDev #ArtificialIntelligence #DevOps #OpenSource #CodingLife #DeveloperRoadmap",
+      "image_file": "5_nilbuild_developer-roadmap.png",
+      "photo_id": "122117349591476221",
+      "published_post_id": null,
+      "published_at": null
+    }
+  ]
+}
