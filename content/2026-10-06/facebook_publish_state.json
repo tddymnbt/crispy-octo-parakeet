@@ -35,8 +35,8 @@
       "caption": "Tired of that frustrating micro-stutter every time a new visual effect pops up on screen? 🎮⚡\n\nSay goodbye to mid-game frame drops caused by live shader compilation. SCSKiller is a powerful open-source utility that pre-compiles PC game shaders directly into your NVIDIA or AMD GPU driver cache before you even launch the game! \n\nBy reading game assets and populating the driver cache out-of-band, it completely eliminates runtime compilation hitches in heavy DirectX 11 and 12 titles. \n\nHere is what makes it a must-have for performance enthusiasts and graphics devs:\n\n🔍 Automatic Game Detection across 10 major storefronts including Steam, Epic Games, EA app, GOG, Ubisoft Connect, and Xbox PC.\n🔄 Proactive Driver Cache Recompilation that detects when a GPU driver update clears your cache and automatically rebuilds your pipelines.\n🎥 Optional Pipeline Recorder using wrapper DLLs to capture shader execution patterns for games that cannot be statically inferred.\n📊 Session Frame Time Diagnostics to graph recent gameplay and isolate true shader compilation stutters from engine-level bottlenecks.\n\nFor developers and graphics engineers, it is also an incredible learning resource to study low-level GPU driver behavior, rendering pipeline management, and DirectX 12 interception techniques.\n\nCheck out the repo, drop a star, and optimize your rendering pipeline today:\nhttps://github.com/BlueHeisenberg/SCSKiller\n\nHow do you usually tackle shader compilation stutter in your setup? Let us know in the comments below! 👇\n\n#GameDev #GraphicsProgramming #PCGaming #OpenSource #DirectX12 #PerformanceOptimization #SoftwareEngineering",
       "image_file": "4_BlueHeisenberg_SCSKiller.png",
       "photo_id": "122116904067476221",
-      "published_post_id": null,
-      "published_at": null
+      "published_post_id": "1410193715501138_122117085381476221",
+      "published_at": "2026-10-06T19:00:37.481882+08:00"
     },
     {
       "rank": 5,
