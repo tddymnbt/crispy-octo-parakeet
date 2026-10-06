@@ -17,8 +17,8 @@
       "caption": "Tired of bloated, resource-hogging desktop editors and sluggish Electron wrappers for your image workflows? \n\nMeet PhotoCraft: an ambitious clean-room reimplementation of Adobe Photoshop built entirely in pure Rust for blistering performance, native multi-platform support, and true PSD file compatibility. 🚀\n\nPhotoCraft solves the problem of heavy, proprietary image editing by delivering a lightning-fast, open-source alternative. Whether you are building headless automation pipelines or high-performance desktop tools, this engine gives you professional-grade capabilities without the overhead.\n\n🔥 Key Developer Features:\n• GPU-Accelerated Compositing: Powered by wgpu across Metal, Vulkan, DX12, and WebGPU, paired with copy-on-write tiles and multithreaded filters for instant rendering.\n• True PSD Interoperability: Seamlessly opens, edits, and saves complex layered Photoshop documents, passing rigorous test suites.\n• Universal Agent & API Control: Every single action is exposed as a command. Drive the engine natively via UI, CLI, a JSON control channel, or an MCP server.\n• Non-Destructive Suite: 16 adjustment layers, advanced layer styles, vector paths, and live filter previews keeping your source pixels untouched.\n\n💡 Use Cases:\n• Run headless batch-processing and AI agent pipelines to manipulate layered PSD files at scale without a bloated GUI.\n• Embed a memory-safe, high-performance raster and vector graphics editor directly into your own Rust applications.\n\nCheck it out on GitHub and drop a star to support open-source systems engineering:\nhttps://github.com/storytold/photocraft\n\n👇 How would you integrate a programmatic Photoshop engine into your current tech stack? Let us know in the comments!\n\n#RustLang #OpenSource #ImageProcessing #AI #SoftwareEngineering #GraphicsProgramming #WebGPU",
       "image_file": "2_storytold_photocraft.png",
       "photo_id": "122116903971476221",
-      "published_post_id": null,
-      "published_at": null
+      "published_post_id": "1410193715501138_122116955697476221",
+      "published_at": "2026-10-06T11:01:12.367380+08:00"
     },
     {
       "rank": 3,
