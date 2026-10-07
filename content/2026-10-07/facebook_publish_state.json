@@ -17,8 +17,8 @@
       "caption": "Stop wasting hours writing complex WebGL boilerplate just to add a smooth gradient or background blur to your web apps. \n\nDrop high-performance WebGPU shader effects directly into your React, Vue, Svelte, or Solid apps using a familiar declarative component tree! 🚀\n\nBuilding modern web aesthetics usually means wrestling with low-level graphics code and a steep learning curve. This open-source project bridges next-generation WebGPU performance with your favorite frontend frameworks, letting you add buttery-smooth, hardware-accelerated visuals without the usual headaches.\n\n✨ Key Features You'll Love:\n• Cross-Framework Power: First-class support for React, Vue, Svelte, Solid, and vanilla JS using identical component props.\n• Declarative GPU Layers: Nest effects, blend them top-to-bottom, and apply masks natively inside the DOM.\n• Visual Design Editor: Use the companion editor at shaders.com to design effects on an infinite canvas and export exact component trees.\n• AI MCP Server Integration: Seamlessly use coding agents like Claude Code, Cursor, and Windsurf to find, install, and edit shaders directly via the Model Context Protocol.\n• Over 200+ Components: Ready-to-use gradients, lighting, blurs, and distortions for hero sections, interactive cursor trails, and SaaS dashboards.\n\nCheck out the repository and level up your UI/UX today:\nhttps://github.com/shader-effects-inc/shaders\n\n👇 Drop a comment below: What kind of high-performance visual effects are you planning to build into your next project? Hit the link, give the repo a star, and start shipping stunning hardware-accelerated UIs! 💻🔥\n\n#WebGPU #FrontendDevelopment #ReactJS #VueJS #WebDev #UIUX #OpenSource #Coding",
       "image_file": "2_shader-effects-inc_shaders.png",
       "photo_id": "122117349447476221",
-      "published_post_id": null,
-      "published_at": null
+      "published_post_id": "1410193715501138_122117411319476221",
+      "published_at": "2026-10-07T11:00:38.719601+08:00"
     },
     {
       "rank": 3,
