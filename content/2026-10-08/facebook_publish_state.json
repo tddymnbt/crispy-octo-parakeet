@@ -44,8 +44,8 @@
       "caption": "Want to transform flat web pages into tactile, premium experiences? \n\nMeet Hairline: a lightweight, zero-dependency micro-interaction library providing twenty-seven isometric line figures that dynamically respond to cursor positioning, clicks, and interactions. \n\nFrontend developers and UI engineers often struggle to bridge the gap between static layouts and high-end interactive storytelling without bloating their apps with heavy canvas or 3D libraries like Three.js. Hairline solves this by delivering performant vector graphics that operate seamlessly across React and vanilla DOM environments.\n\nKey features you get out of the box:\n• Zero-dependency core engine with official React integration and vanilla DOM support (perfect for Svelte, Vue, or plain HTML)\n• High-performance animation lifecycle sharing a single requestAnimationFrame loop that pauses automatically when idle or off-screen\n• Full accessibility support with ARIA labels, semantic roles, keyboard navigation, and graceful handling of reduced motion preferences\n• AI-agent compatibility via an optional skill package that empowers coding assistants like Claude Code and Cursor to autonomously generate custom figures\n\nWhether you are enhancing SaaS landing page hero sections or adding interactive workflow representations to developer dashboards, Hairline saves you hours of implementation time while keeping browser performance optimized. It even respects modern CSS theming variables and integrates smoothly with Tailwind and shadcn.\n\nCheck out the repository and start building:\nhttps://github.com/lucasmarkes/hairline\n\nDrop a comment below with how you plan to use isometric line figures in your next project, and don't forget to star the repo!\n\n#WebDevelopment #Frontend #React #UIDesign #OpenSource #JavaScript #TailwindCSS",
       "image_file": "5_lucasmarkes_hairline.png",
       "photo_id": "122117772495476221",
-      "published_post_id": null,
-      "published_at": null
+      "published_post_id": "1410193715501138_122118028365476221",
+      "published_at": "2026-10-08T23:00:44.723168+08:00"
     }
   ]
 }
