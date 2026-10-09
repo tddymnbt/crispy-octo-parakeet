@@ -26,8 +26,8 @@
       "caption": "Ready to ditch bloated, closed-source motion graphics software and fragile FFmpeg wrappers? Meet EffectCraft—a pure Rust, clean-room reimplementation of Adobe After Effects built for developers, systems programmers, and AI engineers. 🦀✨\n\nFor years, the tech and creative community has lacked a modern, fast, open-source, and version-control-friendly visual effects compositor. EffectCraft solves this by rebuilding the entire After Effects ecosystem from scratch in pure Rust. \n\nHere is what makes it a game-changer for your workflow:\n🚀 Complete After Effects parity featuring panels, timelines, 306 effects, layer styles, expressions, classic 3D cameras, lights, and a graph editor.\n⚙️ Native Rust media encoding/decoding pipelines handling H.264, ProRes, VP9, AV1, HEVC, and Opus without touching FFmpeg.\n🤖 Built-in Model Context Protocol (MCP) server and CLI JSON interface, enabling AI agents and external scripts to control the entire editor programmatically for automated asset generation.\n📂 Clean, version-controlled JSON project files (.ecproj) plus native Lottie import and export for seamless web and mobile integration.\n\nWhether you are building automated pipelines to mass-generate personalized video ads using AI agents or constructing high-performance web motion graphics pipelines, EffectCraft delivers native speed and absolute scriptability.\n\nCheck out the code, star the repo, and start building today:\nhttps://github.com/storytold/effectcraft\n\nDrop a comment below: What automated video pipeline are you going to build first with the MCP server? 👇\n\n#Rust #RustLang #MotionGraphics #OpenSource #AI #ArtificialIntelligence #WebDev #SoftwareEngineering #AfterEffects #Coding",
       "image_file": "3_storytold_effectcraft.png",
       "photo_id": "122118185349476221",
-      "published_post_id": null,
-      "published_at": null
+      "published_post_id": "1410193715501138_122118302025476221",
+      "published_at": "2026-10-09T15:00:39.259359+08:00"
     },
     {
       "rank": 4,
