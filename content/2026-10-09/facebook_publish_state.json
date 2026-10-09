@@ -35,8 +35,8 @@
       "caption": "Eleven specialized Claude skills coordinate end-to-end to reverse-engineer, rebuild, and rebrand any software application clean-room style. 🚀\n\nBuilding a competitive SaaS product usually means weeks of tedious boilerplate, mapping out legacy workflows, and writing baseline architecture specs from scratch. \n\nEnter Jakeschincariol/replica-skill—an automated, sequential pipeline of eleven Claude AI skills supported by standard-library Python tools. It systematically guides you from reverse-engineering an existing app to architecting, building, testing, rebranding, and deploying a functional clone with distinct positioning. 💡\n\nKey Features:\n- Sequential pipeline architecture where each skill reads output from the previous step within a local replica folder.\n- Built-in Python utility scripts for layout-only screenshot diffing via edge maps, WCAG contrast checking, and codebase anti-plagiarism sweeping.\n- The Entrepreneur workflow, which analyzes G2 and App Store reviews to identify real user pain points and formulate unique product positioning.\n- Strict clean-room constraints that rebuild functionality and UX patterns without copying proprietary source code, logos, copy, or private assets.\n\nWhether you are an indie hacker, rapid prototyper, or AI engineer looking to accelerate your product validation cycles, this repository lets you go from a conceptual app reference to a tested, rebranded product live on your domain. ⚡\n\nCheck it out on GitHub and star the repo to support the project:\nhttps://github.com/Jakeschincariol/replica-skill\n\nDrop a comment below: What app would you run through the pipeline first? 👇\n\n#AI #SoftwareEngineering #ClaudeAI #IndieHackers #FullStack #Python #OpenSource",
       "image_file": "4_Jakeschincariol_replica-skill.png",
       "photo_id": "122118185391476221",
-      "published_post_id": null,
-      "published_at": null
+      "published_post_id": "1410193715501138_122118377277476221",
+      "published_at": "2026-10-09T19:00:40.074882+08:00"
     },
     {
       "rank": 5,
