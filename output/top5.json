@@ -2,53 +2,53 @@
   "top_repositories": [
     {
       "rank": 1,
-      "name": "storytold/wordcraft",
+      "name": "pingdotgg/ts-rust",
       "score": 96,
-      "reason": "An ambitious, clean-room reimplementation of Microsoft Word written entirely in pure Rust, showing phenomenal early star and fork momentum.",
-      "why_interesting_today": "Recreating complex desktop applications like word processors in safe, high-performance languages like Rust is a major trend in systems engineering right now.",
-      "why_developers_should_care": "Offers deep architectural insights into text layout engines, rich-text formatting, and high-performance document rendering architectures.",
-      "momentum": "Extremely high daily star growth (1024) and solid fork traction for a brand new repository.",
-      "novelty": "High novelty; clean-room modern Rust reimplementations of classic enterprise office software suites are rare and technically fascinating."
+      "reason": "An ambitious experimental Rust port of the TypeScript 7 compiler (tsc), merging high-performance systems programming with modern frontend tooling infrastructure.",
+      "why_interesting_today": "Rebuilding core web toolchains in Rust (like SWC or Turbopack) is a major industry trend, and porting the official TypeScript compiler core into Rust points toward a massive leap in compilation speed.",
+      "why_developers_should_care": "Slow build times are a constant bottleneck in large TypeScript codebases. A Rust-based `tsc` could dramatically accelerate type checking and development loops.",
+      "momentum": "Rapidly gaining visibility and developer attention despite being recently introduced.",
+      "novelty": "High novelty; tackling a full compiler port of a moving target like TypeScript into Rust is technically formidable."
     },
     {
       "rank": 2,
-      "name": "nullmoth/nvidia-macos-driver",
-      "score": 92,
-      "reason": "Provides a Metal driver for NVIDIA GeForce RTX cards on macOS 15 Sequoia, filling a massive hardware compatibility gap.",
-      "why_interesting_today": "Bridging modern discrete NVIDIA GPUs with Apple's macOS graphics stack via OpenCore catches the attention of power users and hardware hackers alike.",
-      "why_developers_should_care": "Demonstrates low-level driver engineering, graphics pipeline mapping, and reverse-engineering techniques within the macOS ecosystem.",
-      "momentum": "Rapid star velocity (827 growth) driven by hardware enthusiasts and Hackintosh communities.",
-      "novelty": "Very high novelty due to the complexity and scarcity of open-source modern NVIDIA drivers targeting macOS."
+      "name": "mhtsec/ARTEX",
+      "score": 94,
+      "reason": "An award-winning autonomous AI penetration testing system that translates LLM agent capabilities directly into offensive and defensive cybersecurity workflows.",
+      "why_interesting_today": "Autonomous cybersecurity agents are shifting from theoretical research into practical platforms, highlighted by its recent competition championship win.",
+      "why_developers_should_care": "Provides security engineers and developers with automated penetration testing capabilities to proactively discover vulnerabilities in complex systems.",
+      "momentum": "Explosive star and fork momentum right out of the gate as security researchers explore its capabilities.",
+      "novelty": "Extremely high novelty in applying agentic workflows directly to security auditing and penetration testing."
     },
     {
       "rank": 3,
-      "name": "LosaLosSantos/aurelio-finance",
-      "score": 89,
-      "reason": "A self-hosted personal finance tracking app featuring an integrated AI financial advisor that runs locally.",
-      "why_interesting_today": "Combines local-first data privacy with AI-powered portfolio and asset analysis without relying on third-party SaaS fintech services.",
-      "why_developers_should_care": "Provides a clean template for building self-hosted, LLM-integrated desktop/web applications that manage sensitive financial data.",
-      "momentum": "Strong interest from developers looking for self-hosted, private alternatives to commercial budgeting tools.",
-      "novelty": "Moderate-to-high novelty in blending local-first finance tracking with embedded LLM-driven financial insights."
+      "name": "zhongerxin/iPhone-use",
+      "score": 92,
+      "reason": "A breakthrough bridge enabling Codex/LLM agents to directly control physical iPhones via USB, handling installations, app automation, and real-time screen/screenshot loops.",
+      "why_interesting_today": "Moving AI agents out of browser windows and desktop APIs into real mobile hardware mirrors the race toward true physical device automation.",
+      "why_developers_should_care": "Enables automated mobile app testing, multi-step device interactions, and workflow generation on physical iOS hardware without rigid UI test scripts.",
+      "momentum": "Strong, viral growth driven by developers testing local hardware control with coding agents.",
+      "novelty": "High novelty; bridging LLMs directly to physical iOS device layers via USB automation."
     },
     {
       "rank": 4,
-      "name": "noahdunnagan/fsearch",
-      "score": 87,
-      "reason": "A whole-disk file search tool for macOS delivering ~1 ms query times across 8 million files with fuzzy name and indexed grep support.",
-      "why_interesting_today": "Solves a persistent developer pain point around slow or clumsy desktop indexing and searching on macOS.",
-      "why_developers_should_care": "Showcases high-performance Rust indexing strategies, efficient file system traversal, and sub-millisecond search algorithms.",
-      "momentum": "Solid organic adoption by developers seeking lightning-fast local developer toolchains.",
-      "novelty": "Good novelty for a lightning-fast native utility optimized specifically for heavy developer file sets."
+      "name": "storytold/cadcraft",
+      "score": 89,
+      "reason": "An open-source, clean-room AutoCAD-style CAD and drafting application built entirely in pure Rust.",
+      "why_interesting_today": "Proves the viability of building complex, memory-safe, high-performance desktop engineering applications outside of legacy proprietary ecosystems.",
+      "why_developers_should_care": "Offers developers and technical designers an open-source, high-performance alternative for computer-aided design.",
+      "momentum": "Impressive early traction and strong fork growth for a complex desktop domain application.",
+      "novelty": "High novelty in creating a clean-room CAD suite in pure Rust."
     },
     {
       "rank": 5,
-      "name": "alejandrobujan/tendedero",
-      "score": 84,
-      "reason": "A creative, minimal native macOS utility that hangs recent screenshots on a line at the top of your screen like laundry.",
-      "why_interesting_today": "A delightful and whimsical take on desktop UX and screenshot workflow management that stands out from standard utility tools.",
-      "why_developers_should_care": "Demonstrates clean native Swift macOS API usage, window layering, and lightweight UI/UX design.",
-      "momentum": "Steady engagement and positive reception among macOS power users and productivity tool enthusiasts.",
-      "novelty": "High conceptual novelty with a playful UI metaphor applied to routine operating system tasks."
+      "name": "HelixDB/helix-foundry",
+      "score": 88,
+      "reason": "A local-first data workspace built on HelixDB and DuckDB that unifies a company's disparate data into a single connected ontology on local hardware.",
+      "why_interesting_today": "Local-first, privacy-respecting knowledge graphs and data workspaces are increasingly favored over expensive cloud-locked data silos.",
+      "why_developers_should_care": "Provides a powerful local data stack for unifying and querying enterprise-grade data structures entirely on your own machine.",
+      "momentum": "Steady early momentum with strong interest from developers looking for local-first data infrastructure.",
+      "novelty": "Great blend of local-first architecture using advanced embedded databases (HelixDB and DuckDB)."
     }
   ]
 }

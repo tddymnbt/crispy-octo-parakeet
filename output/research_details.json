@@ -3,136 +3,136 @@
   "repositories": [
     {
       "rank": 1,
-      "name": "storytold/wordcraft",
+      "name": "pingdotgg/ts-rust",
       "score": 96,
-      "reason": "An ambitious, clean-room reimplementation of Microsoft Word written entirely in pure Rust, showing phenomenal early star and fork momentum.",
-      "why_interesting_today": "Recreating complex desktop applications like word processors in safe, high-performance languages like Rust is a major trend in systems engineering right now.",
-      "why_developers_should_care": "Offers deep architectural insights into text layout engines, rich-text formatting, and high-performance document rendering architectures.",
-      "momentum": "Extremely high daily star growth (1024) and solid fork traction for a brand new repository.",
-      "novelty": "High novelty; clean-room modern Rust reimplementations of classic enterprise office software suites are rare and technically fascinating.",
+      "reason": "An ambitious experimental Rust port of the TypeScript 7 compiler (tsc), merging high-performance systems programming with modern frontend tooling infrastructure.",
+      "why_interesting_today": "Rebuilding core web toolchains in Rust (like SWC or Turbopack) is a major industry trend, and porting the official TypeScript compiler core into Rust points toward a massive leap in compilation speed.",
+      "why_developers_should_care": "Slow build times are a constant bottleneck in large TypeScript codebases. A Rust-based `tsc` could dramatically accelerate type checking and development loops.",
+      "momentum": "Rapidly gaining visibility and developer attention despite being recently introduced.",
+      "novelty": "High novelty; tackling a full compiler port of a moving target like TypeScript into Rust is technically formidable.",
       "deep_analysis": {
-        "name": "storytold/wordcraft",
-        "headline_hook": "WordCraft is an ambitious clean-room reimplementation of Microsoft Word written in pure Rust, offering native cross-platform performance without Electron, extensive .docx compatibility, and built-in AI agent support via the Model Context Protocol.",
-        "core_functionality": "WordCraft solves the problem of heavy, resource-intensive desktop word processors by providing a lightning-fast, open-source, and secure alternative. It enables users to read, edit, and write complex document formats like .docx, .odt, and .rtf, rendering pages on demand and exporting them seamlessly to PDF, all while running natively across macOS, Windows, Linux, BSD, and the web via WebAssembly.",
+        "name": "pingdotgg/ts-rust",
+        "headline_hook": "An ambitious experimental Rust port of the TypeScript compiler, created entirely by LLMs to deliver massive type-checking speedups.",
+        "core_functionality": "ts-rust is an experimental, high-performance Rust port of Microsoft's TypeScript compiler (tsc). It acts as a drop-in replacement for the standard TypeScript compiler and language server, utilizing system-level performance and advanced porting strategies to significantly accelerate type checking.",
         "key_features": [
-          "Pure Rust and GPU-accelerated egui UI framework providing high-performance text rendering and layout caching, eliminating the need for Electron or Tauri.",
-          "Comprehensive document file format support, natively opening and saving OOXML .docx files with high fidelity while also handling ODT, RTF, HTML, Markdown, and text formats.",
-          "First-class AI agent and automation integration via a unified command infrastructure that drives the UI, CLI, JSON control channel, and Model Context Protocol (MCP) server.",
-          "Deep feature parity with professional word processors, including a functional ribbon interface, live styles, track changes, comment balloons, mail merge, and advanced reference tools."
+          "Drop-in command line and API compatibility with standard tsc, matching upstream Go and JavaScript compiler behaviors.",
+          "Built-in Effect language service diagnostics, removing the need for a secondary compiler pass in Effect-heavy codebases.",
+          "Exceptional performance, running roughly twice as fast as the Go-based TypeScript 7 implementation and up to 15 times faster than original JavaScript-based tsc.",
+          "Cross-platform standalone archives and npm packaging supporting Linux, macOS, and Windows environments."
         ],
-        "target_audience": "Systems engineers, Rust developers, desktop application architects, and AI developers building agentic workflows who need a programmatic, high-performance document processing engine.",
-        "practical_developer_value": "Developers can leverage WordCraft as a robust, embeddable Rust library or CLI utility for headless document conversion and manipulation without heavy runtime dependencies. Furthermore, its Model Context Protocol integration provides a ready-made architectural blueprint for exposing complex desktop applications to autonomous AI agents.",
+        "target_audience": "Frontend developers, full-stack engineers, and build toolchain architects looking to eliminate bottlenecks in large-scale TypeScript compilation.",
+        "practical_developer_value": "Developers working in large monorepos or massive codebases often suffer from multi-minute type-checking cycles. By substituting traditional compilers with tsc-rs, engineering teams can slash CI pipeline durations and local feedback loops down to mere seconds without modifying existing tsconfig settings.",
         "suggested_use_cases": [
-          "Building headless server-side document conversion pipelines that transform .docx or Markdown files into pixel-perfect PDFs and images at scale.",
-          "Integrating document editing, generation, and formatting capabilities directly into AI agent pipelines using the built-in MCP server."
+          "Accelerating local development loops and IDE language server responsiveness in massive enterprise TypeScript applications.",
+          "Reducing continuous integration build times for complex monorepos that rely heavily on strict type checking."
         ]
       }
     },
     {
       "rank": 2,
-      "name": "nullmoth/nvidia-macos-driver",
-      "score": 92,
-      "reason": "Provides a Metal driver for NVIDIA GeForce RTX cards on macOS 15 Sequoia, filling a massive hardware compatibility gap.",
-      "why_interesting_today": "Bridging modern discrete NVIDIA GPUs with Apple's macOS graphics stack via OpenCore catches the attention of power users and hardware hackers alike.",
-      "why_developers_should_care": "Demonstrates low-level driver engineering, graphics pipeline mapping, and reverse-engineering techniques within the macOS ecosystem.",
-      "momentum": "Rapid star velocity (827 growth) driven by hardware enthusiasts and Hackintosh communities.",
-      "novelty": "Very high novelty due to the complexity and scarcity of open-source modern NVIDIA drivers targeting macOS.",
+      "name": "mhtsec/ARTEX",
+      "score": 94,
+      "reason": "An award-winning autonomous AI penetration testing system that translates LLM agent capabilities directly into offensive and defensive cybersecurity workflows.",
+      "why_interesting_today": "Autonomous cybersecurity agents are shifting from theoretical research into practical platforms, highlighted by its recent competition championship win.",
+      "why_developers_should_care": "Provides security engineers and developers with automated penetration testing capabilities to proactively discover vulnerabilities in complex systems.",
+      "momentum": "Explosive star and fork momentum right out of the gate as security researchers explore its capabilities.",
+      "novelty": "Extremely high novelty in applying agentic workflows directly to security auditing and penetration testing.",
       "deep_analysis": {
-        "name": "nullmoth/nvidia-macos-driver",
-        "headline_hook": "NullMoth brings modern NVIDIA GeForce RTX cards to macOS 15 Sequoia by implementing an open graphics translation pipeline from Apple Metal to Vulkan NVK.",
-        "core_functionality": "The project provides a comprehensive Metal-to-Vulkan driver stack and open-source kernel extensions that allow NVIDIA Turing-and-later discrete GPUs (such as RTX 20, 30, 40, and 50 series) to operate natively under macOS 15 Sequoia on Intel and OpenCore-configured hardware.",
+        "name": "mhtsec/ARTEX",
+        "headline_hook": "ARTEX is an award-winning, self-hosted autonomous AI penetration testing platform that translates LLM agent capabilities directly into offensive and defensive cybersecurity workflows using a unified Go backend and Next.js frontend.",
+        "core_functionality": "ARTEX solves the complexity of automating cybersecurity assessments by providing an end-to-end autonomous penetration testing system. It bridges the gap between theoretical LLM agent capabilities and practical security workflows, orchestrating multi-agent loops to map attack surfaces, track assets, execute exploitation tools, and manage human-in-the-loop security approvals.",
         "key_features": [
-          "Complete Metal 3 hardware feature implementation including argument buffers tier 2, ray tracing, mesh shaders, and MetalFX paths.",
-          "A custom shader translation layer mapping Apple AIR to SPIR-V coupled with Mesa NVK and the NAK compiler.",
-          "Integration with NVIDIA open-source GSP GPU kernel modules (r610) for native display and acceleration via WindowServer.",
-          "Automated deployment and safety mechanisms via the companion 1401 Mac app, which handles OpenCore configuration, crash reporting, and a one-click rollback mechanism."
+          "Dual-graph architecture powered by the Norma SDK, utilizing a planner-worker model with shared todo lists and inter-agent process-level information exchange for stable attack chain execution.",
+          "Single-binary deployment containing an embedded Next.js frontend and Go backend, backed by PostgreSQL, with zero external precompiled dependencies and robust local or Docker-based execution scripts.",
+          "Comprehensive auxiliary security subsystems including traffic recording proxy with MITM capabilities, tool execution interception and approval gates, and data synchronization with ScopeSentry.",
+          "Built-in vulnerability re-testing framework that spawns independent agent sessions to evaluate mitigation status, automatically updating vulnerability states based on live evidence."
         ],
-        "target_audience": "Hackintosh power users, hardware hackers, cross-platform graphics developers, and AI researchers looking to leverage high-performance NVIDIA discrete hardware inside the macOS ecosystem.",
-        "practical_developer_value": "Developers and systems engineers gain a rare, working blueprint for bridging proprietary vendor graphics hardware with Apple modern Metal graphics stack. It serves as an advanced learning resource for GPU virtualization, graphics API translation layers, and low-level kernel extension integration on modern macOS.",
+        "target_audience": "Cybersecurity engineers, Red Team operators, AI application developers, and DevSecOps professionals looking to integrate autonomous multi-agent systems into security auditing workflows.",
+        "practical_developer_value": "Developers can study ARTEX as a blueprint for production-grade, stateful multi-agent systems built in Go. It offers concrete architectural patterns for combining LLMs with deterministic backend tasks, implementing human-in-the-loop safety interceptors, embedding React frontends into Go binaries, and managing long-running agent loops securely.",
         "suggested_use_cases": [
-          "Building high-performance Hackintosh workstations running macOS 15 Sequoia powered by modern NVIDIA RTX GPUs.",
-          "Researching and experimenting with cross-platform graphics API translation between Apple Metal and Vulkan-based backends like Mesa NVK."
+          "Automating internal network and web application penetration testing pipelines to continuously discover and re-test vulnerabilities.",
+          "Studying and extending advanced multi-agent orchestration patterns, tool execution guardrails, and memory management in Go."
         ]
       }
     },
     {
       "rank": 3,
-      "name": "LosaLosSantos/aurelio-finance",
-      "score": 89,
-      "reason": "A self-hosted personal finance tracking app featuring an integrated AI financial advisor that runs locally.",
-      "why_interesting_today": "Combines local-first data privacy with AI-powered portfolio and asset analysis without relying on third-party SaaS fintech services.",
-      "why_developers_should_care": "Provides a clean template for building self-hosted, LLM-integrated desktop/web applications that manage sensitive financial data.",
-      "momentum": "Strong interest from developers looking for self-hosted, private alternatives to commercial budgeting tools.",
-      "novelty": "Moderate-to-high novelty in blending local-first finance tracking with embedded LLM-driven financial insights.",
+      "name": "zhongerxin/iPhone-use",
+      "score": 92,
+      "reason": "A breakthrough bridge enabling Codex/LLM agents to directly control physical iPhones via USB, handling installations, app automation, and real-time screen/screenshot loops.",
+      "why_interesting_today": "Moving AI agents out of browser windows and desktop APIs into real mobile hardware mirrors the race toward true physical device automation.",
+      "why_developers_should_care": "Enables automated mobile app testing, multi-step device interactions, and workflow generation on physical iOS hardware without rigid UI test scripts.",
+      "momentum": "Strong, viral growth driven by developers testing local hardware control with coding agents.",
+      "novelty": "High novelty; bridging LLMs directly to physical iOS device layers via USB automation.",
       "deep_analysis": {
-        "name": "LosaLosSantos/aurelio-finance",
-        "headline_hook": "Take full control of your wealth with Aurelio, a local-first personal finance tracker powered by an optional AI advisor that keeps your sensitive financial data strictly on your own machine.",
-        "core_functionality": "Aurelio solves the privacy and fragmentation problems of modern personal finance by providing a self-hosted, local-first wealth management platform. It aggregates bank accounts, brokerages, real assets, and debts into a single SQLite database while offering advanced financial planning, portfolio tracking, and an integrated local or API-driven AI assistant for automated data queries and strategy analysis.",
+        "name": "zhongerxin/iPhone-use",
+        "headline_hook": "Bring AI agents out of the browser and straight onto physical iOS hardware with a local USB bridge for automated iPhone control.",
+        "core_functionality": "iPhone Use is a breakthrough bridge that enables Codex and LLM agents to directly control physical iPhones via USB. By integrating WebDriverAgent, local Model Context Protocol (MCP) services, and a real-time UI screen widget, it allows developers to automate app navigation, text input, gestures, and UI inspections using natural language commands.",
         "key_features": [
-          "Local-first data architecture that stores all financial records securely in a local SQLite file with automated backup creation prior to format changes.",
-          "Comprehensive portfolio analytics including multi-market asset pricing, look-through analysis of fund holdings by country, sector, and company, and cash flow visualization.",
-          "Optional AI advisor integration via OpenRouter that operates directly on your records, handles web searches, and proposes structured changes via explicit confirmation cards.",
-          "Modern, full-stack setup utilizing modern Python tooling with Astral uv for backend management alongside a Node.js-powered frontend with hot-reload capabilities."
+          "Local USB Pipeline: Uses standard USB connections and local loopback port forwarding to communicate securely with WebDriverAgent without routing data through external cloud servers.",
+          "Smart Screenshot Fallback: When UI element or control tree positioning fails, the agent automatically captures a screenshot, maps pixel coordinates to iOS points, and retries using visual context.",
+          "Asynchronous Setup & State Reuse: Manages WDA installation, signing, and builds asynchronously while aggressively caching and reusing active sessions, HTTP connections, and health checks to minimize latency.",
+          "Batch Operations & Compact Trees: Reduces token overhead and round trips by streamlining control trees, removing redundant attributes, and supporting batched action sequences and bounded list scraping."
         ],
-        "target_audience": "Privacy-conscious software developers, self-hosters, and open-source enthusiasts who want granular control over their financial data without relying on third-party SaaS fintech aggregators.",
-        "practical_developer_value": "Developers gain a clean, well-structured reference implementation for building local-first web applications that integrate complex backend data processing with modern LLM function calling and agentic workflows. It demonstrates how to securely manage local databases, orchestrate API keys for third-party AI routers, and build interactive UI components driven by AI-generated transaction and portfolio proposals.",
+        "target_audience": "AI Engineers, Mobile App Developers, and QA Automation Engineers building next-generation device automation workflows.",
+        "practical_developer_value": "Developers can move beyond traditional desktop browser automation to test, debug, and script real-world mobile applications programmatically using LLMs. It eliminates the need to run a heavy Appium server stack manually and provides a ready-to-use MCP toolkit for building custom agentic mobile workflows, regression test runners, and hands-free device assistants.",
         "suggested_use_cases": [
-          "Deploying a private, self-hosted wealth tracking dashboard on a home server or local machine.",
-          "Experimenting with local-first AI agent architectures that read from a private database and propose verified structural changes."
+          "Automated end-to-end mobile app regression testing driven by natural language test scripts.",
+          "AI-powered personal assistants that can manage notifications, draft notes, and interact with native iOS apps on physical devices."
         ]
       }
     },
     {
       "rank": 4,
-      "name": "noahdunnagan/fsearch",
-      "score": 87,
-      "reason": "A whole-disk file search tool for macOS delivering ~1 ms query times across 8 million files with fuzzy name and indexed grep support.",
-      "why_interesting_today": "Solves a persistent developer pain point around slow or clumsy desktop indexing and searching on macOS.",
-      "why_developers_should_care": "Showcases high-performance Rust indexing strategies, efficient file system traversal, and sub-millisecond search algorithms.",
-      "momentum": "Solid organic adoption by developers seeking lightning-fast local developer toolchains.",
-      "novelty": "Good novelty for a lightning-fast native utility optimized specifically for heavy developer file sets.",
+      "name": "storytold/cadcraft",
+      "score": 89,
+      "reason": "An open-source, clean-room AutoCAD-style CAD and drafting application built entirely in pure Rust.",
+      "why_interesting_today": "Proves the viability of building complex, memory-safe, high-performance desktop engineering applications outside of legacy proprietary ecosystems.",
+      "why_developers_should_care": "Offers developers and technical designers an open-source, high-performance alternative for computer-aided design.",
+      "momentum": "Impressive early traction and strong fork growth for a complex desktop domain application.",
+      "novelty": "High novelty in creating a clean-room CAD suite in pure Rust.",
       "deep_analysis": {
-        "name": "noahdunnagan/fsearch",
-        "headline_hook": "Achieve 1-millisecond whole-disk file searches and indexed grep across 8 million files on macOS with this high-performance Rust search tool.",
-        "core_functionality": "FSearch is a high-performance whole-disk file search and indexed content grep tool built specifically for macOS. It solves the developer pain point of slow, clumsy desktop indexing by combining an initial fast disk crawl via native macOS APIs with real-time updates through FSEvents. It provides sub-millisecond file name lookups and rapid indexed content searching through either a CLI daemon or an embeddable Rust crate.",
+        "name": "storytold/cadcraft",
+        "headline_hook": "CADCraft is an open-source, clean-room AutoCAD-style drafting application built entirely in pure Rust, offering native desktop performance, browser deployment via WebAssembly, and native agent drivability through the Model Context Protocol.",
+        "core_functionality": "CADCraft solves the vendor lock-in and high cost of legacy computer-aided design ecosystems by providing a fast, memory-safe, open-source reimplementation of AutoCAD workflow principles, supporting comprehensive 2D and 3D drafting features, DXF and DWG file exchange, and multi-platform native execution.",
         "key_features": [
-          "Blazing-fast performance delivering roughly 1 millisecond p50 latency for whole-disk file name searches and about 9 millisecond latency for content grep across nearly 8 million files.",
-          "Advanced query syntax supporting fuzzy matching with typo forgiveness, prefix/suffix filters, regex pattern matching, and metadata filters like size, extension, modification time, and directory constraints.",
-          "Efficient architecture utilizing a memory-mapped file for name storage laid out folder-by-folder, alongside a trigram index for text files that reads fresh content directly from disk to prevent staleness.",
-          "Flexible integration options including a background CLI daemon with a JSON lines IPC socket, a stdio mode, and a native Rust crate API."
+          "Built entirely in pure Rust and egui, running natively across macOS, Windows, Linux, FreeBSD, and in the browser via WebAssembly without heavy web views or Electron overhead.",
+          "Comprehensive drafting command line, object snaps, associative dimensions, layers, blocks, and pick-point hatching with island detection.",
+          "Native Model Context Protocol (MCP) and JSON control channel support, allowing AI agents to interact with the command line, inspect drawings, and execute drafting operations programmatically.",
+          "Robust file compatibility supporting native DXF parsing and DWG integration via the open-source acadrust library, alongside layout management and PDF plotting."
         ],
-        "target_audience": "macOS power users, backend engineers, systems programmers, and software developers who manage massive local codebases and demand instant file retrieval without the lag of traditional desktop indexers.",
-        "practical_developer_value": "Developers constantly waste time waiting on slow spotlight searches or sluggish command-line finds when navigating large developer directories or legacy projects. FSearch drastically accelerates local workflow by embedding ultra-fast search directly into terminal workflows or custom applications via its JSON IPC socket or Rust crate, transforming disk navigation into a near-instant operation.",
+        "target_audience": "Desktop software engineers, systems programmers, open-source CAD developers, and AI engineers building agent-driven engineering automation workflows.",
+        "practical_developer_value": "Developers gain a high-performance, modular Rust codebase for rendering geometric data and processing CAD file formats, plus an extensible architecture that can be integrated into custom engineering pipelines, automated testing harnesses, or AI agent systems.",
         "suggested_use_cases": [
-          "Integrating the FSearch daemon into custom terminal workflows or editor plugins for instant file opening and project-wide symbol searching.",
-          "Embedding the FSearch Rust crate inside desktop automation tools or internal developer utilities that require lightning-fast local file and content indexing."
+          "Automating the generation and validation of architectural floor plans and mechanical part drawings using LLM agents over MCP.",
+          "Embedding high-performance CAD file conversion and rendering capabilities into web applications using the WebAssembly build."
         ]
       }
     },
     {
       "rank": 5,
-      "name": "alejandrobujan/tendedero",
-      "score": 84,
-      "reason": "A creative, minimal native macOS utility that hangs recent screenshots on a line at the top of your screen like laundry.",
-      "why_interesting_today": "A delightful and whimsical take on desktop UX and screenshot workflow management that stands out from standard utility tools.",
-      "why_developers_should_care": "Demonstrates clean native Swift macOS API usage, window layering, and lightweight UI/UX design.",
-      "momentum": "Steady engagement and positive reception among macOS power users and productivity tool enthusiasts.",
-      "novelty": "High conceptual novelty with a playful UI metaphor applied to routine operating system tasks.",
+      "name": "HelixDB/helix-foundry",
+      "score": 88,
+      "reason": "A local-first data workspace built on HelixDB and DuckDB that unifies a company's disparate data into a single connected ontology on local hardware.",
+      "why_interesting_today": "Local-first, privacy-respecting knowledge graphs and data workspaces are increasingly favored over expensive cloud-locked data silos.",
+      "why_developers_should_care": "Provides a powerful local data stack for unifying and querying enterprise-grade data structures entirely on your own machine.",
+      "momentum": "Steady early momentum with strong interest from developers looking for local-first data infrastructure.",
+      "novelty": "Great blend of local-first architecture using advanced embedded databases (HelixDB and DuckDB).",
       "deep_analysis": {
-        "name": "alejandrobujan/tendedero",
-        "headline_hook": "Tendedero is a delightful, native macOS utility that reimagines screenshot workflows by hanging recent captures like laundry on a line just beneath your menu bar.",
-        "core_functionality": "Tendedero solves the desktop clutter problem caused by macOS screenshots accumulating on the desktop or triggering intrusive floating thumbnails. It intercepts new screenshots and displays them in a minimalist, physics-simulated line accessible by hovering near the top of the screen, allowing users to copy, markup, share, or discard captures instantly without touching the file system unless desired.",
+        "name": "HelixDB/helix-foundry",
+        "headline_hook": "Unify your company's fragmented data silos into a single local-first knowledge graph and AI workspace using HelixDB and DuckDB.",
+        "core_functionality": "Helix Foundry solves the friction and privacy concerns of cloud-locked data warehousing by providing a local-first workspace. It connects disparate enterprise data sources like PostgreSQL, MySQL, Stripe, WorkOS, PostHog, APIs, and file uploads, unifying them into a single connected ontology and knowledge graph running entirely on local hardware.",
         "key_features": [
-          "Context-aware interactive gestures: Click to copy, press-and-hold for system Markup, double-click for Preview, and intuitive drag-and-drop actions for sharing, filing, or trashing captures.",
-          "Native lightweight architecture: Built purely in Swift, AppKit, and SwiftUI with a binary size of just 1.7 MB, ensuring zero network access, complete privacy, and full macOS Sonoma or later compatibility.",
-          "Transient desktop integration: Intercepts screenshot settings on launch and seamlessly restores previous system configurations upon quitting, hiding automatically during fullscreen app usage.",
-          "Programmatic asset generation: Features automated scripts that render all graphical art, icons, and disk images directly in code."
+          "Unified Ontology Engine: Automatically suggests and constructs connected graphs linking matching records across disparate data sources into HelixDB.",
+          "Local-First AI and Privacy: Runs completely on local hardware with Ollama and local models by default, with optional support for Claude and OpenAI.",
+          "Isolated Snapshot Querying: Leverages versioned immutable Parquet snapshots queried via isolated DuckDB processes for high-performance analysis.",
+          "Comprehensive Ingestion and Sync: Features native PostgreSQL and MySQL change data capture alongside scheduled snapshots for files, APIs, and SaaS tools."
         ],
-        "target_audience": "macOS power users, software developers, and technical content creators who frequently take screenshots for documentation, bug reports, or social sharing and want a frictionless, clutter-free desktop workflow.",
-        "practical_developer_value": "Beyond serving as a polished productivity tool, Tendedero is an exemplary open-source reference for advanced macOS native development. Developers can study its clean separation of concerns—such as using AppKit and SwiftUI for transparent window panels, implementing global shortcut monitoring, managing system settings programmatically via AppDelegate, and utilizing Swift scripts for automated asset generation and localization checks.",
+        "target_audience": "Full-stack developers, data engineers, indie hackers, and privacy-conscious technical founders seeking zero-setup unified data analytics without expensive cloud infrastructure.",
+        "practical_developer_value": "Developers can instantly spin up a fully functioning local data warehouse and knowledge graph for rapid prototyping or private internal tooling. It provides an OpenAPI interface, a TypeScript SDK, and automated ingestion pipelines, allowing developers to query multi-source enterprise data using natural language or SQL with complete control over their data.",
         "suggested_use_cases": [
-          "Streamlining bug reporting and documentation workflows by capturing UI states and instantly dragging them into Jira, GitHub issues, or messaging apps.",
-          "Learning advanced macOS application architecture, custom SwiftUI/AppKit window panel integration, and menu bar utility design from a clean Swift codebase."
+          "Building a local-first business intelligence and KPI tracking dashboard aggregating data from Stripe, Postgres, and SaaS APIs.",
+          "Prototyping an internal AI assistant that safely queries private company knowledge graphs and database backups without exposing data to external cloud providers."
         ]
       }
     }
