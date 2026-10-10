@@ -44,8 +44,8 @@
       "caption": "Tired of your macOS desktop turning into a chaotic dumping ground every time you snap a bug report or UI screenshot? \n\nMeet Tendedero—a delightful, native macOS utility that reimagines screenshot workflows by hanging recent captures like laundry on a line just beneath your menu bar. 🧺✨\n\nThe Problem:\nEvery time you take a screenshot, it either litters your desktop or triggers those annoying floating thumbnails that get in the way. Tendedero intercepts new screenshots and displays them in a minimalist, physics-simulated line accessible by hovering near the top of your screen. \n\nWhy you will love it:\n👉 Instant Actions: Click to copy, press-and-hold for system Markup, double-click for Preview, or drag-and-drop straight into Jira, GitHub, or Slack.\n👉 Ultra-Lightweight: Built purely in Swift, AppKit, and SwiftUI with a binary size of just 1.7 MB, zero network access, and complete privacy.\n👉 Smart Integration: Automatically restores your default screenshot settings when you quit and hides itself during fullscreen app usage.\n\nFor Developers:\nBeyond being a massive productivity boost for tech creators and power users, Tendedero is an incredible open-source reference for advanced macOS native development. Dive into the codebase to study clean separation of concerns, custom SwiftUI and AppKit transparent window panels, global shortcut monitoring, and programmatic asset generation scripts. 💻🚀\n\nCheck out the repo, drop a star, and clean up your workflow today:\nhttps://github.com/alejandrobujan/tendedero\n\nWhat is your current favorite tool for managing screenshots on macOS? Let us know in the comments! 👇\n\n#MacOS #Swift #OpenSource #SoftwareEngineering #DeveloperTools #Productivity #AppKit #SwiftUI",
       "image_file": "5_alejandrobujan_tendedero.png",
       "photo_id": "122118614163476221",
-      "published_post_id": null,
-      "published_at": null
+      "published_post_id": "1410193715501138_122118891417476221",
+      "published_at": "2026-10-10T23:00:40.424320+08:00"
     }
   ]
 }
