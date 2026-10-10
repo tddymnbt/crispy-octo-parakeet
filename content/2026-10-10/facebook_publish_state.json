@@ -35,8 +35,8 @@
       "caption": "Tired of waiting on sluggish local searches when trying to navigate massive codebases? \n\nAchieve 1-millisecond whole-disk file searches and indexed grep across 8 million files on macOS with this high-performance Rust search tool.\n\nFSearch solves the developer pain point of slow, clumsy desktop indexing by combining an initial fast disk crawl via native macOS APIs with real-time updates through FSEvents. It provides sub-millisecond file name lookups and rapid indexed content searching through either a CLI daemon or an embeddable Rust crate.\n\nHere is what makes it a game-changer for your local workflow:\n\n⚡ Blazing Speed: Delivers roughly 1ms p50 latency for whole-disk file name searches and about 9ms latency for content grep across nearly 8 million files.\n🔍 Advanced Query Syntax: Supports fuzzy matching with typo forgiveness, prefix/suffix filters, regex pattern matching, and metadata filters like size, extension, modification time, and directory constraints.\n🧠 Efficient Architecture: Utilizes a memory-mapped file for name storage laid out folder-by-folder, alongside a trigram index for text files that reads fresh content directly from disk to prevent staleness.\n🔌 Flexible Integration: Use it via a background CLI daemon with a JSON lines IPC socket, a stdio mode, or as a native Rust crate API.\n\nWhether you are integrating the daemon into your custom terminal workflows or embedding the crate into internal developer utilities, FSearch transforms disk navigation into a near-instant operation.\n\nCheck it out on GitHub:\nhttps://github.com/noahdunnagan/fsearch\n\nDrop a comment below if you are ready to speed up your local development setup, and share this with a fellow dev who hates waiting on slow search tools!\n\n#Rust #SoftwareEngineering #macOS #DeveloperTools #OpenSource #CodingLife",
       "image_file": "4_noahdunnagan_fsearch.png",
       "photo_id": "122118614121476221",
-      "published_post_id": null,
-      "published_at": null
+      "published_post_id": "1410193715501138_122118820833476221",
+      "published_at": "2026-10-10T19:00:37.415571+08:00"
     },
     {
       "rank": 5,
