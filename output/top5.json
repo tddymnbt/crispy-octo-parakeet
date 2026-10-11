@@ -2,53 +2,53 @@
   "top_repositories": [
     {
       "rank": 1,
-      "name": "pingdotgg/ts-rust",
+      "name": "storytold/gridcraft",
       "score": 96,
-      "reason": "An ambitious experimental Rust port of the TypeScript 7 compiler (tsc), merging high-performance systems programming with modern frontend tooling infrastructure.",
-      "why_interesting_today": "Rebuilding core web toolchains in Rust (like SWC or Turbopack) is a major industry trend, and porting the official TypeScript compiler core into Rust points toward a massive leap in compilation speed.",
-      "why_developers_should_care": "Slow build times are a constant bottleneck in large TypeScript codebases. A Rust-based `tsc` could dramatically accelerate type checking and development loops.",
-      "momentum": "Rapidly gaining visibility and developer attention despite being recently introduced.",
-      "novelty": "High novelty; tackling a full compiler port of a moving target like TypeScript into Rust is technically formidable."
+      "reason": "An ambitious, clean-room spreadsheet implementation in pure Rust offering exceptional novelty and high technical significance.",
+      "why_interesting_today": "It is pulling massive star and fork momentum as part of the new wave of clean-room desktop app reimplementations in memory-safe languages.",
+      "why_developers_should_care": "Provides an open-source, high-performance alternative to traditional complex spreadsheet engines, built entirely in Rust.",
+      "momentum": "Extremely high star growth (over 1,048 new stars) and strong fork velocity given its recent creation date.",
+      "novelty": "High; building a full-featured Excel-style spreadsheet engine from scratch in pure Rust is a rare and impressive engineering feat."
     },
     {
       "rank": 2,
-      "name": "mhtsec/ARTEX",
-      "score": 94,
-      "reason": "An award-winning autonomous AI penetration testing system that translates LLM agent capabilities directly into offensive and defensive cybersecurity workflows.",
-      "why_interesting_today": "Autonomous cybersecurity agents are shifting from theoretical research into practical platforms, highlighted by its recent competition championship win.",
-      "why_developers_should_care": "Provides security engineers and developers with automated penetration testing capabilities to proactively discover vulnerabilities in complex systems.",
-      "momentum": "Explosive star and fork momentum right out of the gate as security researchers explore its capabilities.",
-      "novelty": "Extremely high novelty in applying agentic workflows directly to security auditing and penetration testing."
+      "name": "obra/superpowers",
+      "score": 93,
+      "reason": "A cutting-edge agentic skills framework and software development methodology tailored for modern AI-assisted engineering.",
+      "why_interesting_today": "Captures the shifting paradigm of subagent-driven development and structured prompt workflows for coding agents.",
+      "why_developers_should_care": "Gives developers actionable templates and methodology to scale agentic workflows reliably across real-world software lifecycles.",
+      "momentum": "Rapidly accelerating star growth (472 new stars) with strong active commits.",
+      "novelty": "High; establishes a structured framework for subagent-driven development rather than ad-hoc prompting."
     },
     {
       "rank": 3,
-      "name": "zhongerxin/iPhone-use",
-      "score": 92,
-      "reason": "A breakthrough bridge enabling Codex/LLM agents to directly control physical iPhones via USB, handling installations, app automation, and real-time screen/screenshot loops.",
-      "why_interesting_today": "Moving AI agents out of browser windows and desktop APIs into real mobile hardware mirrors the race toward true physical device automation.",
-      "why_developers_should_care": "Enables automated mobile app testing, multi-step device interactions, and workflow generation on physical iOS hardware without rigid UI test scripts.",
-      "momentum": "Strong, viral growth driven by developers testing local hardware control with coding agents.",
-      "novelty": "High novelty; bridging LLMs directly to physical iOS device layers via USB automation."
+      "name": "t4t5/omdrop-owl",
+      "score": 90,
+      "reason": "A practical utility project providing AirDrop functionality for non-Apple devices.",
+      "why_interesting_today": "Solves a notoriously frustrating cross-platform friction point for developers working across Linux/Windows and mobile devices.",
+      "why_developers_should_care": "Offers a lightweight, open-source file-sharing solution without being locked into proprietary ecosystems.",
+      "momentum": "Exceptional recent momentum with 713 new stars indicating high community desire for this feature.",
+      "novelty": "Moderate-high; bridges a long-standing ecosystem gap with a clean shell-based implementation."
     },
     {
       "rank": 4,
-      "name": "storytold/cadcraft",
-      "score": 89,
-      "reason": "An open-source, clean-room AutoCAD-style CAD and drafting application built entirely in pure Rust.",
-      "why_interesting_today": "Proves the viability of building complex, memory-safe, high-performance desktop engineering applications outside of legacy proprietary ecosystems.",
-      "why_developers_should_care": "Offers developers and technical designers an open-source, high-performance alternative for computer-aided design.",
-      "momentum": "Impressive early traction and strong fork growth for a complex desktop domain application.",
-      "novelty": "High novelty in creating a clean-room CAD suite in pure Rust."
+      "name": "storytold/deckcraft",
+      "score": 88,
+      "reason": "A clean-room reimplementation of Microsoft PowerPoint in pure Rust, aligning with the ArtCraft series.",
+      "why_interesting_today": "Demonstrates the community's appetite for memory-safe, modular alternatives to bloated legacy office software suites.",
+      "why_developers_should_care": "Serves as a brilliant reference architecture for building complex document rendering and presentation engines in Rust.",
+      "momentum": "Strong and steady growth with 600 new stars and nearly 400 forks.",
+      "novelty": "High; reinventing presentation software architecture in pure Rust from the ground up."
     },
     {
       "rank": 5,
-      "name": "HelixDB/helix-foundry",
-      "score": 88,
-      "reason": "A local-first data workspace built on HelixDB and DuckDB that unifies a company's disparate data into a single connected ontology on local hardware.",
-      "why_interesting_today": "Local-first, privacy-respecting knowledge graphs and data workspaces are increasingly favored over expensive cloud-locked data silos.",
-      "why_developers_should_care": "Provides a powerful local data stack for unifying and querying enterprise-grade data structures entirely on your own machine.",
-      "momentum": "Steady early momentum with strong interest from developers looking for local-first data infrastructure.",
-      "novelty": "Great blend of local-first architecture using advanced embedded databases (HelixDB and DuckDB)."
+      "name": "wheresryan22/anatomy",
+      "score": 85,
+      "reason": "An innovative Claude Code skill that turns technical ideas into detailed, interactive isometric figures and WebGL/SVG graphics.",
+      "why_interesting_today": "Bridges AI-driven coding agents directly with high-end technical documentation and automated graphic generation.",
+      "why_developers_should_care": "Automates the creation of gorgeous architectural diagrams, landing page art, and interactive technical documentation straight from your code assistant.",
+      "momentum": "Solid initial adoption and strong organic interest within the AI-assisted developer community.",
+      "novelty": "Very high; directly targets the intersection of AI coding workflows and rich technical visualization."
     }
   ]
 }
