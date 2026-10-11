@@ -44,8 +44,8 @@
       "caption": "Tired of juggling fragmented data silos and paying a fortune for cloud-locked data warehouses? 💸\n\nMeet Helix Foundry: an open-source, local-first knowledge graph and AI workspace that unifies all your disparate data sources onto your own hardware. 🚀\n\nWhether you are pulling live data from PostgreSQL, MySQL, Stripe, PostHog, WorkOS, custom APIs, or local file uploads, Helix Foundry brings it all together into a single connected ontology and knowledge graph. \n\nHere is why developers and AI engineers are loving it:\n\n🧠 Unified Ontology Engine: Automatically suggests and constructs connected graphs linking matching records across your tools.\n🔒 100% Local-First & Private: Runs locally using Ollama and local models by default (with optional cloud support when you want it).\n⚡ High-Performance DuckDB Queries: Leverages versioned immutable Parquet snapshots queried via isolated DuckDB processes.\n🛠️ Developer Ready: Spin up a fully functioning local data warehouse instantly with an OpenAPI interface, TypeScript SDK, and automated CDC ingestion pipelines.\n\nBuild private internal AI assistants that query your company knowledge graph securely, or set up a local business intelligence dashboard without ever exposing your data to external cloud providers. \n\nCheck out the repo, star the project, and start building locally today:\nhttps://github.com/HelixDB/helix-foundry\n\n👇 Drop a comment below: What is the most painful data silo you are dealing with right now?\n\n#OpenSource #DataEngineering #AI #LocalFirst #DuckDB #TypeScript #PostgreSQL #SoftwareDevelopment",
       "image_file": "5_HelixDB_helix-foundry.png",
       "photo_id": "122119026621476221",
-      "published_post_id": null,
-      "published_at": null
+      "published_post_id": "1410193715501138_122119300083476221",
+      "published_at": "2026-10-11T23:00:36.781279+08:00"
     }
   ]
 }
