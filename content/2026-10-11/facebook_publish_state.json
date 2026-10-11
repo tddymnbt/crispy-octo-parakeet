@@ -17,8 +17,8 @@
       "caption": "🤖 What happens when you combine autonomous LLM agents with offensive and defensive cybersecurity? \n\nMeet ARTEX: an award-winning, self-hosted autonomous AI penetration testing platform. It translates advanced AI capabilities directly into practical security workflows using a unified Go backend and Next.js frontend! 🚀\n\n🛑 The Problem:\nAutomating cybersecurity assessments is notoriously complex. Most teams struggle to bridge the gap between theoretical LLM agent capabilities and practical security pipelines—lacking stable multi-agent orchestration, robust safety guardrails, and seamless human-in-the-loop controls.\n\n💡 Key Features:\n• Dual-Graph Architecture: Powered by the Norma SDK using a planner-worker model with shared todo lists and inter-agent communication for stable attack chains.\n• Single-Binary Deployment: Features an embedded Next.js frontend, Go backend, and PostgreSQL with zero external precompiled dependencies (run locally or via Docker!).\n• Advanced Security Subsystems: Includes a MITM traffic recording proxy, tool execution approval gates, and a built-in vulnerability re-testing framework that spawns independent agent sessions.\n\n👩‍💻 Why Developers & Red Teamers Love It:\nARTEX serves as a production-grade blueprint for stateful multi-agent systems in Go. Learn how to combine LLMs with deterministic backend tasks, implement strict safety guardrails, and manage long-running agent loops securely.\n\n🔗 Check it out on GitHub:\nhttps://github.com/mhtsec/ARTEX\n\n👇 Call to Action:\nAre you ready to level up your security auditing and multi-agent architecture? Drop a comment below with your thoughts, star the repository to support the project, and share this with your engineering team!\n\n#CyberSecurity #ArtificialIntelligence #Golang #NextJS #PenetrationTesting #DevSecOps #OpenSource #AIAgents",
       "image_file": "2_mhtsec_ARTEX.png",
       "photo_id": "122119026489476221",
-      "published_post_id": null,
-      "published_at": null
+      "published_post_id": "1410193715501138_122119088265476221",
+      "published_at": "2026-10-11T11:00:37.292720+08:00"
     },
     {
       "rank": 3,
