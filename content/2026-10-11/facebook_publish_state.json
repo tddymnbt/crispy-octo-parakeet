@@ -35,8 +35,8 @@
       "caption": "Tired of bloated, overpriced CAD software and vendor lock-in? Meet CADCraft: an open-source, clean-room AutoCAD-style drafting application built entirely in pure Rust. 🦀📐\n\nWhether you are an open-source CAD developer, a systems programmer, or an AI engineer building autonomous engineering workflows, CADCraft delivers native desktop performance and browser deployment via WebAssembly with zero Electron overhead. \n\nHere is what makes CADCraft a game-changer for your stack:\n⚡ High-performance Rust & egui: Runs natively across macOS, Windows, Linux, FreeBSD, and right in your browser via WASM.\n✏️ Comprehensive 2D & 3D Drafting: Includes a command line, object snaps, associative dimensions, layers, blocks, and pick-point hatching with island detection.\n🤖 AI Agent Drivability: Native Model Context Protocol (MCP) and JSON control channel support allow LLM agents to inspect drawings and execute drafting commands programmatically.\n📁 Robust File Exchange: Native DXF parsing and DWG integration via the acadrust library, plus layout management and PDF plotting.\n\nUse it to build custom engineering pipelines, embed blazing-fast CAD rendering into web apps, or let AI agents automate the generation of architectural floor plans and mechanical part drawings.\n\nCheck out the repository and start building today:\nhttps://github.com/storytold/cadcraft\n\nDrop a comment below: What kind of automated CAD workflow would you build with the Model Context Protocol? \n\n#RustLang #OpenSource #CAD #WebAssembly #AI #SoftwareEngineering #DeveloperTools",
       "image_file": "4_storytold_cadcraft.png",
       "photo_id": "122119026579476221",
-      "published_post_id": null,
-      "published_at": null
+      "published_post_id": "1410193715501138_122119231611476221",
+      "published_at": "2026-10-11T19:00:37.080068+08:00"
     },
     {
       "rank": 5,
