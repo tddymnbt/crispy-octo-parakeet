@@ -44,8 +44,8 @@
       "caption": "Ever struggle to explain complex system architecture without putting your readers to sleep? 🥱 \n\nTransform abstract technical ideas into stunning interactive isometric figures, WebGL simulations, and production-ready SVG art with Anatomy.\n\nAnatomy bridges the gap between AI-driven coding agents and high-end technical documentation. It provides a specialized Claude Code skill that designs and builds working, physical metaphors for abstract software concepts—like turning a pin-tumbler lock into a visual for cache keys. \n\n✨ Key Features:\n• AI-Powered Conceptual Mapping: Automatically creates physical objects mirroring technical mechanics.\n• Multi-Layered Rendering Support: Generates standalone SVGs, WebGL shaders for environmental effects, and 3D parts.\n• Zero-Dependency Runtime: Runs using strictly Node.js built-in modules with no heavy npm installs.\n• Self-Auditing Geometry: Built-in validation ensures structural integrity and prevents overlapping frames.\n\nWhether you are a developer advocate, technical writer, or AI engineer, you can now turn dense architectural specs into engaging, interactive components in seconds. \n\n👉 Check out the repo and try it out here:\nhttps://github.com/wheresryan22/anatomy\n\nDrop a comment below and let us know how you plan to use it in your next documentation update! 👇\n\n#WebDev #SoftwareEngineering #ArtificialIntelligence #ClaudeCode #WebGL #TechDocs #OpenSource",
       "image_file": "5_wheresryan22_anatomy.png",
       "photo_id": "122119429617476221",
-      "published_post_id": null,
-      "published_at": null
+      "published_post_id": "1410193715501138_122119723779476221",
+      "published_at": "2026-10-12T23:03:08.534731+08:00"
     }
   ]
 }
