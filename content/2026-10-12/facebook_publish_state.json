@@ -17,8 +17,8 @@
       "caption": "Stop letting coding agents blindly write bad code. 🛑 \n\nIf you are tired of babysitting AI assistants that generate broken logic, skip tests, and cause architectural drift mid-session, it is time to upgrade your workflow. \n\nMeet Superpowers: a comprehensive software development methodology and agentic skills framework that transforms your AI tools into disciplined, TDD-driven engineering partners. \n\nInstead of jumping straight into code generation, Superpowers forces AI agents to pause, brainstorm designs, write structured implementation plans, isolate work via Git worktrees, and enforce strict test-driven development before touching your codebase. \n\n🔥 Key Features:\n• Automated Session Bootstrapping: Intercepts early prompts to trigger proactive brainstorming and requirements gathering.\n• Subagent-Driven Loops: Dispatches isolated tasks to fresh subagents, maintaining rigorous review cycles and multi-hour autonomous execution.\n• Strict Engineering Guardrails: Enforces Red-Green-Refactor TDD, YAGNI, DRY, and automated severity-based code review gating.\n• Universal Compatibility: Works natively with Claude Code, Cursor, Codex, Gemini CLI, GitHub Copilot, Pi, and over a dozen other developer environments.\n\nWhether you are scaffolding complex multi-file features autonomously over hours or eliminating regressions by forcing strict TDD protocols, Superpowers gives you predictable guardrails for AI-assisted engineering.\n\nCheck it out on GitHub and scale your autonomous workflows without sacrificing code quality:\nhttps://github.com/obra/superpowers\n\n👉 Drop a comment below: How do you currently keep your AI coding agents from going off the rails? \n\n#ArtificialIntelligence #SoftwareEngineering #DeveloperTools #Coding #TDD #OpenSource #GitHub",
       "image_file": "2_obra_superpowers.png",
       "photo_id": "122119429491476221",
-      "published_post_id": null,
-      "published_at": null
+      "published_post_id": "1410193715501138_122119507815476221",
+      "published_at": "2026-10-12T11:00:37.685209+08:00"
     },
     {
       "rank": 3,
