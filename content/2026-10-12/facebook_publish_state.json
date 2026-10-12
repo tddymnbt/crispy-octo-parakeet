@@ -35,8 +35,8 @@
       "caption": "Tired of bloated legacy office software that grinds your system to a halt? Meet DeckCraft: an open-source, memory-safe PowerPoint alternative written in pure Rust that unifies native UI, CLI scripting, and AI agent control via MCP. 🦀⚡\n\nDeckCraft solves the problem of clunky presentation tools by offering a modular, clean-room reimplementation of Microsoft PowerPoint. It lets you build, edit, open, save, and present slide decks natively across major desktop platforms, browsers, and terminal environments with full .pptx file compatibility.\n\nHere is what makes DeckCraft a game-changer for your workflow:\n\n🤖 Dual Human-Agent Control: Every UI button maps to a stable command ID, enabling full-featured automation via CLI, JSON control channels, and a Model Context Protocol (MCP) server for LLM agents.\n📄 Comprehensive Engine: Full PowerPoint .pptx reading and writing, PDF exports, custom slide sizes, morph transitions, and rich multimedia playback.\n🎨 Advanced Toolset: Over 150 preset shapes with adjust handles, smart connectors, boolean shape merging, and complex gradient or pattern fills.\n🚀 Modern Architecture: Built using high-performance Rust graphics pipelines (wgpu) targeting macOS, Windows, Linux, FreeBSD, and modern web browsers.\n\nWhether you are an AI engineer building LLM agent workflows, a scripter automating report generation in headless CI/CD pipelines, or a Rust developer studying high-performance cross-platform GUI architecture, DeckCraft delivers.\n\nCheck out the repository and start building today:\nhttps://github.com/storytold/deckcraft\n\nWhat will you automate first? Drop a comment below and let us know, and don't forget to give the repo a star! ⭐\n\n#RustLang #OpenSource #ArtificialIntelligence #SoftwareEngineering #DeveloperTools #MCP #Productivity",
       "image_file": "4_storytold_deckcraft.png",
       "photo_id": "122119429575476221",
-      "published_post_id": null,
-      "published_at": null
+      "published_post_id": "1410193715501138_122119650795476221",
+      "published_at": "2026-10-12T19:02:44.153603+08:00"
     },
     {
       "rank": 5,
