@@ -1,0 +1,54 @@
+{
+  "top_repositories": [
+    {
+      "rank": 1,
+      "name": "NousResearch/hermes-agent",
+      "score": 96,
+      "reason": "Exceptional growth momentum and technical significance in the AI agent ecosystem, combining state-of-the-art LLM capabilities with a flexible, growing agent framework.",
+      "why_interesting_today": "AI developer tooling continues to accelerate, and Hermes Agent captures massive community enthusiasm for advanced autonomous workflows integrating multiple model providers.",
+      "why_developers_should_care": "It provides a robust reference implementation and framework for building autonomous agents that can adapt and grow alongside evolving LLM architectures.",
+      "momentum": "Extremely strong daily star and fork growth, indicating high developer engagement.",
+      "novelty": "High; pushes the boundary of autonomous agent frameworks that scale with user interaction."
+    },
+    {
+      "rank": 2,
+      "name": "storytold/soundcraft",
+      "score": 93,
+      "reason": "An ambitious and technically fascinating clean-room reimplementation of a heavy-duty professional audio workstation in pure Rust.",
+      "why_interesting_today": "Demonstrates the power of memory-safe systems programming applied to complex, high-performance real-time domains typically dominated by legacy C++ codebases.",
+      "why_developers_should_care": "Offers deep architectural insights into low-latency audio processing, plugin handling, and multithreading in Rust.",
+      "momentum": "Rapidly accelerating star and fork growth despite being newly introduced to the community.",
+      "novelty": "Very high; tackling a professional digital audio workstation from scratch in pure Rust is rare and technically daunting."
+    },
+    {
+      "rank": 3,
+      "name": "ARahim3/DigUp",
+      "score": 90,
+      "reason": "A practical local-first macOS utility that bridges on-device multimodal embeddings via Google DeepMind's EmbeddingGemma 2 with everyday file search.",
+      "why_interesting_today": "As privacy and local AI execution become paramount, developers are eager to see lightweight, on-device semantic search tools built directly into the OS menubar.",
+      "why_developers_should_care": "Serves as a great architectural blueprint for building native Swift menubar applications powered by local LLM and embedding runtimes.",
+      "momentum": "Solid organic interest and strong relevance within the local-first AI developer community.",
+      "novelty": "High; effectively leverages cutting-edge on-device embedding models for rich local file understanding."
+    },
+    {
+      "rank": 4,
+      "name": "storytold/craft-launcher",
+      "score": 88,
+      "reason": "A sleek, highly responsive application launcher built in Rust, reflecting strong current interest in custom, performance-focused desktop utilities.",
+      "why_interesting_today": "Developers love optimizing their local workstation ergonomics with fast, minimal system tooling written in systems languages.",
+      "why_developers_should_care": "Provides clean patterns for building snappy, keyboard-driven desktop interfaces using Rust.",
+      "momentum": "Noteworthy surge in daily star growth right out of the gate.",
+      "novelty": "Moderate-high; combines modern desktop launcher UX with Rust systems performance."
+    },
+    {
+      "rank": 5,
+      "name": "alchaincyf/huashu-art-motion",
+      "score": 85,
+      "reason": "A creative JavaScript skill repository bridging programmatic art generation with diverse artistic styles and explanatory syntax.",
+      "why_interesting_today": "Blends generative art workflows with structured code execution, appealing to both creative coders and AI agent skill developers.",
+      "why_developers_should_care": "Offers immediate utility for developers experimenting with programmatic animation, visual storytelling, and code-driven graphics.",
+      "momentum": "Healthy upward trajectory in star growth and community forks.",
+      "novelty": "High; neatly encapsulates multiple art styles and commentary grammars into code-executable skills."
+    }
+  ]
+}

@@ -3,136 +3,136 @@
   "repositories": [
     {
       "rank": 1,
-      "name": "storytold/gridcraft",
+      "name": "NousResearch/hermes-agent",
       "score": 96,
-      "reason": "An ambitious, clean-room spreadsheet implementation in pure Rust offering exceptional novelty and high technical significance.",
-      "why_interesting_today": "It is pulling massive star and fork momentum as part of the new wave of clean-room desktop app reimplementations in memory-safe languages.",
-      "why_developers_should_care": "Provides an open-source, high-performance alternative to traditional complex spreadsheet engines, built entirely in Rust.",
-      "momentum": "Extremely high star growth (over 1,048 new stars) and strong fork velocity given its recent creation date.",
-      "novelty": "High; building a full-featured Excel-style spreadsheet engine from scratch in pure Rust is a rare and impressive engineering feat.",
+      "reason": "Exceptional growth momentum and technical significance in the AI agent ecosystem, combining state-of-the-art LLM capabilities with a flexible, growing agent framework.",
+      "why_interesting_today": "AI developer tooling continues to accelerate, and Hermes Agent captures massive community enthusiasm for advanced autonomous workflows integrating multiple model providers.",
+      "why_developers_should_care": "It provides a robust reference implementation and framework for building autonomous agents that can adapt and grow alongside evolving LLM architectures.",
+      "momentum": "Extremely strong daily star and fork growth, indicating high developer engagement.",
+      "novelty": "High; pushes the boundary of autonomous agent frameworks that scale with user interaction.",
       "deep_analysis": {
-        "name": "storytold/gridcraft",
-        "headline_hook": "GridCraft is a clean-room Microsoft Excel reimplementation built in pure Rust, offering high-performance spreadsheet capabilities across desktop platforms, WebAssembly, and an agent-native control channel over MCP.",
-        "core_functionality": "GridCraft provides a fast, memory-safe, cross-platform spreadsheet and data workflow engine designed to deliver full compatibility with Microsoft Excel's XLSX format, calculation engine, and ribbon interface without relying on legacy codebases or proprietary runtimes.",
+        "name": "NousResearch/hermes-agent",
+        "headline_hook": "Hermes Agent is a self-improving, multi-platform AI agent framework by Nous Research featuring closed-loop skill creation, serverless execution backends, and multi-provider model flexibility.",
+        "core_functionality": "Hermes Agent solves the fragmentation and statelessness of modern AI assistants by providing an autonomous, self-improving execution framework. It combines local and cloud terminal backends, continuous skill learning, cross-session memory, and native chat gateway integrations into a single unified developer tool.",
         "key_features": [
-          "A dependency-graph calculation engine featuring dynamic arrays, spilling, 500+ worksheet functions including advanced lambdas and mapping, structured table references, and incremental recalculation.",
-          "Comprehensive file compatibility supporting round-tripping of XLSX files including styles, themes, formulas, conditional formats, charts, sparklines, and PivotTables.",
-          "First-class agent-native operability allowing every command, ribbon button, and menu item to be driven programmatically over a JSON control channel, a Model Context Protocol (MCP) server, or the CLI.",
-          "A single pure Rust codebase compiled natively for macOS, Windows, Linux, BSD, and targeted to the browser via WebAssembly using copy-on-write workbooks for near-free undo snapshots."
+          "Closed-learning loop featuring agent-curated memory, autonomous skill creation after complex tasks, and SQLite FTS5 session search.",
+          "Multi-platform messaging gateway supporting Telegram, Discord, Slack, WhatsApp, Signal, and CLI from a single process.",
+          "Flexible backend infrastructure with seven terminal backends including Docker, SSH, Modal, and Daytona for serverless persistence.",
+          "Model agnosticism allowing seamless switching between Nous Portal, OpenRouter, OpenAI, and local endpoints without code changes."
         ],
-        "target_audience": "AI engineers building autonomous desktop agents, full-stack developers requiring embeddable high-performance spreadsheet components, and software engineers seeking memory-safe desktop application architectures.",
-        "practical_developer_value": "Developers can embed a modern, blazingly fast spreadsheet engine into web or desktop applications via WebAssembly or Rust libraries, programmatically manipulate complex workbooks via MCP for AI-driven data automation, and study a production-grade clean-room implementation of a complex desktop software architecture.",
+        "target_audience": "AI engineers, backend developers, and DevOps professionals building autonomous workflows or multi-platform chatbot integrations.",
+        "practical_developer_value": "Developers can deploy a highly customizable, stateful AI agent that runs anywhere from a cheap VPS to serverless infrastructure without getting locked into a single model vendor or deployment target. The built-in scheduling, script execution RPC, and trajectory generation make it ideal for automating complex, multi-step development and operational pipelines.",
         "suggested_use_cases": [
-          "Integrating an embeddable, web-based spreadsheet editor into SaaS applications using the WebAssembly build target.",
-          "Connecting AI agents via MCP to autonomously analyze, read, and manipulate enterprise spreadsheets programmatically."
+          "Automating scheduled daily reports, nightly backups, and system audits using natural language cron jobs.",
+          "Building cross-platform support or operational bots that bridge CLI environments with team messaging platforms like Telegram and Discord."
         ]
       }
     },
     {
       "rank": 2,
-      "name": "obra/superpowers",
+      "name": "storytold/soundcraft",
       "score": 93,
-      "reason": "A cutting-edge agentic skills framework and software development methodology tailored for modern AI-assisted engineering.",
-      "why_interesting_today": "Captures the shifting paradigm of subagent-driven development and structured prompt workflows for coding agents.",
-      "why_developers_should_care": "Gives developers actionable templates and methodology to scale agentic workflows reliably across real-world software lifecycles.",
-      "momentum": "Rapidly accelerating star growth (472 new stars) with strong active commits.",
-      "novelty": "High; establishes a structured framework for subagent-driven development rather than ad-hoc prompting.",
+      "reason": "An ambitious and technically fascinating clean-room reimplementation of a heavy-duty professional audio workstation in pure Rust.",
+      "why_interesting_today": "Demonstrates the power of memory-safe systems programming applied to complex, high-performance real-time domains typically dominated by legacy C++ codebases.",
+      "why_developers_should_care": "Offers deep architectural insights into low-latency audio processing, plugin handling, and multithreading in Rust.",
+      "momentum": "Rapidly accelerating star and fork growth despite being newly introduced to the community.",
+      "novelty": "Very high; tackling a professional digital audio workstation from scratch in pure Rust is rare and technically daunting.",
       "deep_analysis": {
-        "name": "obra/superpowers",
-        "headline_hook": "Stop letting coding agents blindly write bad code—Superpowers transforms them into disciplined, TDD-driven engineering partners through automated subagent workflows.",
-        "core_functionality": "Superpowers is a comprehensive software development methodology and agentic skills framework that forces AI coding agents to pause, brainstorm designs, write structured implementation plans, isolate work via Git worktrees, and enforce strict test-driven development before touching any codebase.",
+        "name": "storytold/soundcraft",
+        "headline_hook": "SoundCraft is an ambitious clean-room reimplementation of Avid Pro Tools built in pure Rust, bringing high-performance digital audio workstation capabilities natively to desktop, web browsers, and AI agents.",
+        "core_functionality": "SoundCraft is a complete digital audio workstation (DAW) designed for multitrack recording, editing, mixing, MIDI sequencing, video synchronization, and surround sound production. It acts as a high-performance audio engine and user interface that operates across macOS, Windows, Linux, FreeBSD, and WebAssembly, bypassing the traditional memory safety vulnerabilities and legacy bottlenecks of C++ audio codebases.",
         "key_features": [
-          "Automated session bootstrapping that intercepts early prompts to trigger proactive brainstorming and requirements gathering instead of immediate code generation.",
-          "Subagent-driven development loops that dispatch isolated tasks to fresh subagents, maintaining rigorous review cycles and autonomous multi-hour execution.",
-          "Strict adherence to engineering best practices including Red-Green-Refactor TDD, YAGNI, DRY, and automated code review gating by severity.",
-          "Universal harness compatibility with native installations for Claude Code, Cursor, Codex, Gemini CLI, GitHub Copilot, Pi, and over a dozen other developer environments."
+          "Pure Rust Real-Time Audio and Video Processing: Features a custom multitrack parallel mix engine, video decoding for H.264, ProRes, and Motion JPEG, and native synthesis implemented entirely in memory-safe Rust without legacy C++ dependencies.",
+          "Comprehensive Plugin and Routing Ecosystem: Supports CLAP, VST3, and Audio Units with off-thread instance creation, alongside built-in effects like EQs, compressors, reverbs, and a suite of native synths and samplers.",
+          "AI Agent and CLI Scriptability: Every action, automation lane, and editing command can be scripted directly from the command line or driven programmatically by an AI agent.",
+          "Cross-Platform Desktop and Web Assembly Deployment: Compiles natively to major desktop platforms and FreeBSD while offering a fully functional web browser version powered by WebAssembly and trunk."
         ],
-        "target_audience": "AI-assisted software engineers, full-stack developers, and technical leads who want to scale autonomous coding agents without sacrificing code quality, architectural consistency, or test coverage.",
-        "practical_developer_value": "Instead of babysitting an AI agent that generates broken code or deviates from architecture mid-session, developers can use Superpowers to establish predictable guardrails. It ensures the AI writes complete design specs, builds atomic implementation tasks, isolates work in git worktrees, and verifies functionality with tests before merging.",
+        "target_audience": "Rust systems engineers, audio software developers, real-time audio programmers, and AI application developers looking to integrate programmatic media generation.",
+        "practical_developer_value": "SoundCraft serves as an architectural masterclass for developers building high-performance, real-time graphical applications in Rust. It demonstrates advanced systems programming patterns including lock-free audio thread communication, off-thread plugin instantiation, 120 FPS GUI rendering with egui, and cross-compilation from desktop to WebAssembly. Developers can study its codebase to learn how to handle complex media pipelines safely and efficiently.",
         "suggested_use_cases": [
-          "Scaffolding and implementing complex multi-file features autonomously over hours without architectural drift.",
-          "Enforcing strict Test-Driven Development (TDD) protocols on AI-generated codebases to eliminate regressions and untested edge cases."
+          "Building headless audio rendering pipelines or automated podcast and music generation services driven by AI agents.",
+          "Studying advanced Rust concurrency and real-time audio programming patterns for custom audio plugins or DAW extensions."
         ]
       }
     },
     {
       "rank": 3,
-      "name": "t4t5/omdrop-owl",
+      "name": "ARahim3/DigUp",
       "score": 90,
-      "reason": "A practical utility project providing AirDrop functionality for non-Apple devices.",
-      "why_interesting_today": "Solves a notoriously frustrating cross-platform friction point for developers working across Linux/Windows and mobile devices.",
-      "why_developers_should_care": "Offers a lightweight, open-source file-sharing solution without being locked into proprietary ecosystems.",
-      "momentum": "Exceptional recent momentum with 713 new stars indicating high community desire for this feature.",
-      "novelty": "Moderate-high; bridges a long-standing ecosystem gap with a clean shell-based implementation.",
+      "reason": "A practical local-first macOS utility that bridges on-device multimodal embeddings via Google DeepMind's EmbeddingGemma 2 with everyday file search.",
+      "why_interesting_today": "As privacy and local AI execution become paramount, developers are eager to see lightweight, on-device semantic search tools built directly into the OS menubar.",
+      "why_developers_should_care": "Serves as a great architectural blueprint for building native Swift menubar applications powered by local LLM and embedding runtimes.",
+      "momentum": "Solid organic interest and strong relevance within the local-first AI developer community.",
+      "novelty": "High; effectively leverages cutting-edge on-device embedding models for rich local file understanding.",
       "deep_analysis": {
-        "name": "t4t5/omdrop-owl",
-        "headline_hook": "Bring native AirDrop functionality to Linux laptops using non-Apple Wi-Fi chipsets by bridging userspace AWDL stacks with MediaTek and Intel hardware.",
-        "core_functionality": "The project serves as a radio backend utility that enables AirDrop file transfers between iPhones and Linux laptops running non-Apple Wi-Fi chipsets (such as MediaTek and Intel cards). By utilizing OWL in userspace to implement the Apple Wireless Direct Link (AWDL) protocol, it allows omdrop to send and receive files seamlessly across operating systems without requiring proprietary Broadcom hardware.",
+        "name": "ARahim3/DigUp",
+        "headline_hook": "DigUp is a local-first macOS utility that uses Google DeepMind's EmbeddingGemma 2 via llama.cpp to bring semantic, multimodal file and code search directly to your menubar.",
+        "core_functionality": "DigUp solves the problem of local information retrieval by allowing users to search through diverse file types (text, images, audio, video, and code) using natural language descriptions or exact strings. It executes entirely on-device, leveraging a 740M parameter multimodal embedding model running on the Mac GPU via Metal, indexing everything into a local SQLite database without sending telemetry or data to the cloud.",
         "key_features": [
-          "Dual operation modes supporting shared Wi-Fi coexistence on MediaTek cards and exclusive channel control on Intel hardware.",
-          "Comprehensive hardware profile mapping system that adapts to specific driver behaviors, monitor interface injection limitations, and channel constraints.",
-          "Automated card testing tooling to help developers validate and benchmark new Wi-Fi chipsets and contribute community hardware profiles.",
-          "Seamless integration with the omdrop ecosystem, maintaining compatibility with existing AWDL daemons, mDNS responders, and Bluetooth LE helpers."
+          "Multimodal Local Inference: Runs Google DeepMind's EmbeddingGemma 2 via llama.cpp on Apple Silicon, mapping text, images, audio, and video into a shared 768-dimensional space entirely offline.",
+          "Granular Deep Linking: Results point directly to the exact file context, such as a specific timestamp in a video or recording, a particular page and highlighted clause in a PDF, or an exact line of code in editors like VS Code and Zed.",
+          "Dedicated Code Search: Optional syntax-aware code search that reads source files and notebooks (excluding outputs and secrets) while respecting gitignore rules, allowing queries like retry a failed call with backoff.",
+          "Hybrid Semantic and Keyword Matching: Combines vector-based semantic retrieval with exact keyword and string matching for robust handling of error codes, invoice numbers, and names."
         ],
-        "target_audience": "Linux desktop developers, systems engineers, and cross-platform power users who routinely work with both Apple mobile devices and Linux workstations.",
-        "practical_developer_value": "Developers working across mixed-OS environments frequently hit friction points when trying to quickly share files between personal or work mobile devices and Linux development machines. This utility eliminates the need for clumsy workarounds like cloud storage or third-party web apps for local file transfers. Furthermore, it serves as an advanced reference implementation for low-level networking engineers looking to understand userspace packet injection, mac80211 monitor interfaces, and wireless protocol reverse engineering on Linux kernels.",
+        "target_audience": "Software developers, technical power users, and privacy-conscious professionals who manage large local repositories of documentation, media, and codebases and need fast, semantic, offline file discovery.",
+        "practical_developer_value": "Developers can use DigUp as a reference implementation for embedding local AI models tightly into native macOS applications using Swift, SwiftUI, and llama.cpp. It demonstrates how to architect a privacy-first, resource-efficient background indexing pipeline with SQLite and Metal hardware acceleration, serving as a blueprint for local-first tool building.",
         "suggested_use_cases": [
-          "Quickly sharing local build outputs, screenshots, or logs between an iPhone and a Framework laptop running Linux.",
-          "Researching and implementing custom wireless protocol stacks, frame injection strategies, and MAC layer bridging in userspace."
+          "Instantly locating specific functional logic or notebook cells across multiple local code repositories using natural language function descriptions.",
+          "Searching through local audio recordings, meeting videos, and technical PDFs without relying on cloud-based search APIs."
         ]
       }
     },
     {
       "rank": 4,
-      "name": "storytold/deckcraft",
+      "name": "storytold/craft-launcher",
       "score": 88,
-      "reason": "A clean-room reimplementation of Microsoft PowerPoint in pure Rust, aligning with the ArtCraft series.",
-      "why_interesting_today": "Demonstrates the community's appetite for memory-safe, modular alternatives to bloated legacy office software suites.",
-      "why_developers_should_care": "Serves as a brilliant reference architecture for building complex document rendering and presentation engines in Rust.",
-      "momentum": "Strong and steady growth with 600 new stars and nearly 400 forks.",
-      "novelty": "High; reinventing presentation software architecture in pure Rust from the ground up.",
+      "reason": "A sleek, highly responsive application launcher built in Rust, reflecting strong current interest in custom, performance-focused desktop utilities.",
+      "why_interesting_today": "Developers love optimizing their local workstation ergonomics with fast, minimal system tooling written in systems languages.",
+      "why_developers_should_care": "Provides clean patterns for building snappy, keyboard-driven desktop interfaces using Rust.",
+      "momentum": "Noteworthy surge in daily star growth right out of the gate.",
+      "novelty": "Moderate-high; combines modern desktop launcher UX with Rust systems performance.",
       "deep_analysis": {
-        "name": "storytold/deckcraft",
-        "headline_hook": "DeckCraft is an open-source, memory-safe PowerPoint alternative written in pure Rust that unifies native UI, CLI scripting, and AI agent control via MCP.",
-        "core_functionality": "DeckCraft solves the problem of bloated, legacy office software by providing a modular, clean-room reimplementation of Microsoft PowerPoint built in pure Rust. It allows users to build, edit, open, save, and present slide decks natively across major desktop platforms, browsers, and terminal environments with full file compatibility (.pptx).",
+        "name": "storytold/craft-launcher",
+        "headline_hook": "Manage, update, and launch an entire desktop suite from a single, blazing-fast native Rust application without bloating your system with Electron.",
+        "core_functionality": "The ArtCraft Launcher solves the fragmentation of managing updates and installations across a large suite of specialized desktop applications. Instead of forcing users to hunt down release pages, check hashes manually, or manage multiple updaters, it acts as a unified central hub that automatically targets the correct OS and CPU architecture, verifies SHA-256 checksums, integrates deeply with native package systems, and handles self-updates seamlessly.",
         "key_features": [
-          "Dual human-agent control architecture where every UI button maps to a stable command ID, enabling full-featured automation via CLI, JSON control channels, and a Model Context Protocol (MCP) server for AI agents.",
-          "Comprehensive file exchange and rendering engine supporting PowerPoint .pptx reading and writing, PDF exports, custom slide sizes, morph transitions, and rich multimedia playback.",
-          "Advanced drawing and formatting toolset offering over 150 preset shapes with adjust handles, smart connectors, shape merging operations, and complex gradient or pattern fills.",
-          "Cross-platform desktop and web architecture built using modern Rust graphics pipelines (wgpu) targeting macOS, Windows, Linux, FreeBSD, and modern browsers."
+          "Cross-platform native UI built entirely in Rust using egui, completely avoiding the memory overhead of Electron or web-view wrappers.",
+          "Intelligent release management that auto-detects architecture and OS to fetch, verify via SHA-256, and install appropriate packages (.dmg, .msi, .deb, .rpm, AppImage, or Flatpak).",
+          "Comprehensive localization engine supporting international locales with intelligent CJK font fallback handling.",
+          "Robust fallback and sandboxing behavior on Linux and FreeBSD, supporting both privileged host package integration and unprivileged flatpak-spawn or tarball executions."
         ],
-        "target_audience": "Rust developers, AI engineers building LLM agent workflows, automation scripters, and desktop application developers looking for modular office tooling alternatives.",
-        "practical_developer_value": "Developers can leverage DeckCraft as a headless presentation generation engine in backend pipelines, use its MCP server to allow AI agents to autonomously build slides, or study its codebase as a blueprint for building complex, cross-platform GUI applications in Rust.",
+        "target_audience": "Desktop application developers, systems programmers, and power users who appreciate high-performance native tooling, minimal resource consumption, and streamlined software distribution architectures.",
+        "practical_developer_value": "Developers building custom multi-tool desktop suites or local utilities can study this repository as an architectural blueprint for robust Rust-based desktop development. It provides practical patterns for handling multi-platform application bundling, secure binary verification via cryptographic hashes, process sandboxing, localization systems, and native menu-bar/tray integration using egui.",
         "suggested_use_cases": [
-          "Automating the generation of custom slide decks, reports, and diagrams using AI agents connected via the MCP protocol.",
-          "Building headless CI/CD pipelines that programmatically render or export PowerPoint files to PDFs or PNGs using the CLI."
+          "Implementing a custom enterprise internal tool launcher that securely fetches and updates proprietary desktop binaries across developer workstations.",
+          "Serving as a reference architecture for building high-performance, resource-efficient native desktop applications in Rust instead of relying on heavy web technologies."
         ]
       }
     },
     {
       "rank": 5,
-      "name": "wheresryan22/anatomy",
+      "name": "alchaincyf/huashu-art-motion",
       "score": 85,
-      "reason": "An innovative Claude Code skill that turns technical ideas into detailed, interactive isometric figures and WebGL/SVG graphics.",
-      "why_interesting_today": "Bridges AI-driven coding agents directly with high-end technical documentation and automated graphic generation.",
-      "why_developers_should_care": "Automates the creation of gorgeous architectural diagrams, landing page art, and interactive technical documentation straight from your code assistant.",
-      "momentum": "Solid initial adoption and strong organic interest within the AI-assisted developer community.",
-      "novelty": "Very high; directly targets the intersection of AI coding workflows and rich technical visualization.",
+      "reason": "A creative JavaScript skill repository bridging programmatic art generation with diverse artistic styles and explanatory syntax.",
+      "why_interesting_today": "Blends generative art workflows with structured code execution, appealing to both creative coders and AI agent skill developers.",
+      "why_developers_should_care": "Offers immediate utility for developers experimenting with programmatic animation, visual storytelling, and code-driven graphics.",
+      "momentum": "Healthy upward trajectory in star growth and community forks.",
+      "novelty": "High; neatly encapsulates multiple art styles and commentary grammars into code-executable skills.",
       "deep_analysis": {
-        "name": "wheresryan22/anatomy",
-        "headline_hook": "Transform abstract technical ideas into interactive isometric figures, WebGL simulations, and SVG art using a specialized Claude Code skill.",
-        "core_functionality": "Anatomy bridges AI-driven coding agents with high-end technical documentation by providing a specialized Claude Code skill that designs and builds working, interactive physical metaphors for abstract software concepts. It produces multi-layered SVG, WebGL, and 3D graphics complete with precise shading, mechanical motion, and real-time data readouts.",
+        "name": "alchaincyf/huashu-art-motion",
+        "headline_hook": "Transform coding agents into creative directors by programmatically generating complex animations across 35 distinct art styles and 9 explainer grammars.",
+        "core_functionality": "This project bridges generative art workflows with structured code execution, functioning as an agent skill that allows developers and coding agents to turn abstract data, scripts, or storylines into frame-accurate, motion-driven video animations using code.",
         "key_features": [
-          "AI-Powered Conceptual Mapping: Automatically invents a concrete physical object whose working mechanism mirrors a technical concept, such as a pin-tumbler lock for cache keys.",
-          "Multi-Layered Rendering Support: Generates standalone SVG files, hybrid SVG and WebGL shaders for environmental effects like fire or water, and experimental 3D parts.",
-          "Zero-Dependency Runtime: Requires no external API keys or heavy npm installations, relying strictly on Node.js built-in modules and standard agent skill protocols.",
-          "Self-Auditing Geometry: Built-in validation ensures structural integrity, preventing parts from clipping through each other across all motion frames."
+          "35 programmatic art-style recipes (from cave paintings and Van Gogh brushstrokes to vaporwave and 8-bit pixels) featuring working Canvas scenes and signature transitions.",
+          "9 explainer-video grammars including Kurzgesagt, Vox-style cutouts, whiteboard progression, and 3Blue1Brown mathematical morphing driven by JSON specifications.",
+          "Automated breakdown scripts and quality gates that map reference animations into beat grids and measure motion heatmaps, stability, and rendering efficiency.",
+          "Long-scroll skeleton architecture allowing characters to walk continuously from left to right across shifting artistic epochs."
         ],
-        "target_audience": "Technical writers, frontend developers, developer advocates, and AI engineers looking to elevate technical documentation and architectural explanations.",
-        "practical_developer_value": "Developers can dramatically reduce the time spent creating complex explanatory diagrams, landing page illustrations, or interactive documentation components. By leveraging Claude Code to generate fully realized, responsive isometric components and React-ready elements, teams can turn dense architectural specs into engaging, intuitive visuals effortlessly.",
+        "target_audience": "Creative coders, AI agent skill developers, technical content creators, and frontend developers interested in algorithmic animation and generative visual storytelling.",
+        "practical_developer_value": "Developers can leverage this repository to programmatically automate the creation of educational videos, technical explainers, and artistic motion assets without relying on manual timeline editing tools. It provides robust architectural patterns for combining headless browser rendering (Playwright), audio synthesis, and algorithmic canvas drawing into reliable automated pipelines.",
         "suggested_use_cases": [
-          "Generating interactive architectural explainers for API documentation and database pooling mechanisms.",
-          "Building high-impact isometric graphics and animated widgets for product landing pages and technical blogs."
+          "Automating the generation of programmatic explainer videos and technical presentations directly from JSON data models.",
+          "Empowering coding agents with generative art capabilities to dynamically output custom visual assets and video shorts."
         ]
       }
     }
