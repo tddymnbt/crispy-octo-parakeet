@@ -26,8 +26,8 @@
       "caption": "Linux users, the holy grail of local file sharing with iPhones is finally here. 🍏🤝🐧\n\nWho says you need proprietary Apple hardware to use AirDrop? If you are tired of jumping through hoops with cloud storage, messy web apps, or email drafts just to send a screenshot or build log from your iPhone to your Linux workstation, this tool is for you.\n\nIntroducing t4t5/omdrop-owl: a radio backend utility that bridges userspace AWDL (Apple Wireless Direct Link) stacks with standard MediaTek and Intel Wi-Fi chipsets. It lets you bring native AirDrop functionality straight to your Linux laptop—no Broadcom card required.\n\n🔥 Notable Features:\n• Dual operation modes supporting shared Wi-Fi coexistence on MediaTek cards and exclusive channel control on Intel hardware.\n• Comprehensive hardware profile mapping system adapting to specific driver behaviors, monitor interface injection limitations, and channel constraints.\n• Automated card testing tooling to help developers validate and benchmark new Wi-Fi chipsets and contribute community hardware profiles.\n• Seamless integration with the omdrop ecosystem, maintaining compatibility with existing AWDL daemons, mDNS responders, and Bluetooth LE helpers.\n\nWhether you are a cross-platform power user looking to streamline your daily workflow or a systems engineer diving deep into userspace packet injection, mac80211 monitor interfaces, and wireless protocol reverse engineering, this repository is a goldmine.\n\n👉 Check it out on GitHub:\nhttps://github.com/t4t5/omdrop-owl\n\nDrop a comment below: What is your current workaround for sharing files between your phone and your Linux dev machine? Give this post a like if you are going to test it out this weekend!\n\n#Linux #OpenSource #SoftwareEngineering #DeveloperCommunity #AirDrop #Networking #Python #PythonDev",
       "image_file": "3_t4t5_omdrop-owl.png",
       "photo_id": "122119429533476221",
-      "published_post_id": null,
-      "published_at": null
+      "published_post_id": "1410193715501138_122119567515476221",
+      "published_at": "2026-10-12T15:00:38.825594+08:00"
     },
     {
       "rank": 4,
