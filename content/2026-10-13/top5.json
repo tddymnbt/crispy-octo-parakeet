@@ -1,0 +1,54 @@
+{
+  "top_repositories": [
+    {
+      "rank": 1,
+      "name": "morluto/rea",
+      "score": 96,
+      "reason": "Brings cutting-edge autonomous agents into the traditionally manual and complex domain of reverse engineering, spanning app behavior down to native binaries.",
+      "why_interesting_today": "Bridges LLMs, MCP, and deep binary analysis tools like Ghidra to allow developers to dissect unknown software with natural language commands.",
+      "why_developers_should_care": "Drastically reduces the friction of analyzing third-party libraries, tracking down stubborn bugs in compiled code, and security auditing.",
+      "momentum": "Strong organic interest and high recent push activity reflecting active feature iteration.",
+      "novelty": "Extremely high; applying modern AI agents and Model Context Protocol directly to binary decompiler workflows is a novel frontier."
+    },
+    {
+      "rank": 2,
+      "name": "n8n-io/n8n",
+      "score": 93,
+      "reason": "Combines robust workflow automation with native AI capabilities and Model Context Protocol (MCP) server/client support.",
+      "why_interesting_today": "Shows massive sustained momentum among developers building self-hosted, complex automation pipelines that weave LLMs into everyday tools.",
+      "why_developers_should_care": "Offers the flexibility of self-hosting and custom code integration alongside visual node building, avoiding restrictive SaaS pricing.",
+      "momentum": "Exceptional star growth and heavy community adoption as a premier open-source Zapier alternative.",
+      "novelty": "High in the context of integrating native AI execution blocks and MCP directly into a workflow automation tool."
+    },
+    {
+      "rank": 3,
+      "name": "bherbruck/solidcraft",
+      "score": 91,
+      "reason": "A high-performance parametric 3D CAD application built entirely in Rust, featuring cross-platform desktop, web (WASM) support, and MCP automation.",
+      "why_interesting_today": "Brings modern software engineering paradigms, deterministic performance, and AI-driven automation via MCP into hardware design and 3D modeling.",
+      "why_developers_should_care": "Provides engineers and hobbyists with a fast, hackable, code-driven CAD tool that avoids bloated legacy proprietary software.",
+      "momentum": "Strong initial traction for a specialized niche domain, signaling keen developer appetite for Rust-based desktop utilities.",
+      "novelty": "High; combining a pure Rust B-rep CAD engine with Model Context Protocol control opens exciting avenues for generative 3D modeling."
+    },
+    {
+      "rank": 4,
+      "name": "anomalyco/opencode",
+      "score": 89,
+      "reason": "An advanced open source coding agent capturing significant community mindshare for autonomous software development tasks.",
+      "why_interesting_today": "Reflects the massive wave of developer tooling dedicated to multi-file code generation, refactoring, and agentic workspace management.",
+      "why_developers_should_care": "Gives teams full ownership and transparency over their coding assistant stack instead of relying solely on closed commercial IDE plugins.",
+      "momentum": "Rapid star growth and very frequent pushes indicate a fast-moving, highly active developer ecosystem.",
+      "novelty": "Moderate-to-high within the booming open-source AI coding assistant landscape."
+    },
+    {
+      "rank": 5,
+      "name": "liseami/CCBaga",
+      "score": 87,
+      "reason": "A fast-rising Rust repository showing explosive early star and fork growth in the current cycle.",
+      "why_interesting_today": "Capturing sudden attention spikes from developers tracking high-velocity early-stage systems programming projects.",
+      "why_developers_should_care": "Monitoring emerging high-velocity Rust projects often surfaces innovative utilities or architectural patterns early.",
+      "momentum": "Outstanding initial surge with high star growth relative to its age.",
+      "novelty": "Strong curiosity factor driven by rapid community discovery."
+    }
+  ]
+}
