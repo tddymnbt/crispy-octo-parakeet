@@ -17,8 +17,8 @@
       "caption": "Ever wondered what a professional Digital Audio Workstation looks like built from scratch in pure Rust? 🎵🦀\n\nSoundCraft is an ambitious clean-room reimplementation of Avid Pro Tools designed to bring high-performance DAW capabilities natively to desktop, web browsers, and AI agents.\n\nFor decades, audio software has been plagued by memory safety vulnerabilities and legacy bottlenecks trapped inside massive C++ codebases. SoundCraft solves this by delivering a complete, high-performance audio engine and multitrack editing environment entirely in memory-safe Rust. \n\nHere is what makes SoundCraft an architectural masterpiece:\n⚡ Pure Rust Real-Time Processing: Custom multitrack parallel mix engine, video decoding for H.264 and ProRes, and native synthesis without legacy C++ dependencies.\n🔌 Comprehensive Plugin Ecosystem: Supports CLAP, VST3, and Audio Units featuring off-thread instance creation and built-in studio effects.\n🤖 AI Agent & CLI Scriptability: Every action, automation lane, and editing command can be driven programmatically by an AI agent or automated script.\n🌐 Cross-Platform & WebAssembly: Compiles natively to major desktop operating systems, FreeBSD, and runs seamlessly right inside your web browser via WebAssembly.\n\nWhether you want to build headless audio rendering pipelines driven by AI, study lock-free audio thread communication, or master 120 FPS GUI rendering with egui, SoundCraft is an incredible codebase to explore.\n\nCheck out the repository and star the project on GitHub:\nhttps://github.com/storytold/soundcraft\n\nWhat would you build first with a fully scriptable, Rust-powered DAW? Drop your ideas in the comments below! 👇\n\n#Rust #AudioEngineering #WebAssembly #OpenSource #SoftwareDevelopment #ArtificialIntelligence #ProTools",
       "image_file": "2_storytold_soundcraft.png",
       "photo_id": "122119864827476221",
-      "published_post_id": null,
-      "published_at": null
+      "published_post_id": "1410193715501138_122119979811476221",
+      "published_at": "2026-10-13T11:00:39.686660+08:00"
     },
     {
       "rank": 3,
