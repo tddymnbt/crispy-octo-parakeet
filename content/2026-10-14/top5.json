@@ -1,0 +1,54 @@
+{
+  "top_repositories": [
+    {
+      "rank": 1,
+      "name": "onehumanbeing/esp32-iphone-agent",
+      "score": 96,
+      "reason": "Bridges physical hardware ($7 ESP32) with vision models to control an iPhone via AirPlay and USB HID without needing a developer account or jailbreak.",
+      "why_interesting_today": "It completely redefines computer-use agent architectures by moving away from expensive desktop/emulator setups to physical, low-cost microcontrollers interacting directly with real consumer devices.",
+      "why_developers_should_care": "Offers an accessible, hardware-hacked approach to mobile AI automation and computer-use experimentation that anyone can build at home.",
+      "momentum": "Strong early traction with consistent star velocity and active pushing.",
+      "novelty": "Extremely high; combines embedded systems (ESP32) with modern LLM vision models and mobile accessibility."
+    },
+    {
+      "rank": 2,
+      "name": "jhaizhou-ops/d2r-mobile",
+      "score": 94,
+      "reason": "An open-source compatibility layer enabling Diablo II: Resurrected to run natively on iOS, iPadOS, and macOS with full touch controls and 60fps.",
+      "why_interesting_today": "Translates complex desktop/console AAA architecture onto mobile platforms cleanly, highlighting advanced Metal and compatibility layer engineering.",
+      "why_developers_should_care": "Provides an incredible deep-dive case study for developers interested in graphics programming, compatibility layers, and game porting on Apple silicon.",
+      "momentum": "Rapidly gaining interest for its impressive technical scope and practical usability.",
+      "novelty": "High; bringing heavy modern ARPG titles natively to mobile hardware via custom compatibility layers is always a technical marvel."
+    },
+    {
+      "rank": 3,
+      "name": "Fei2411/DeepSeek-Bot",
+      "score": 90,
+      "reason": "Extends the DeepSeek Harness ecosystem with long-lived multi-agent frameworks supporting bot-to-bot messages and group chats.",
+      "why_interesting_today": "Taps directly into the massive rise of multi-agent collaboration frameworks and decentralized agent ecosystems.",
+      "why_developers_should_care": "Provides practical blueprints for orchestrating persistent, communicating autonomous agent teams within a modular plugin architecture.",
+      "momentum": "Outstanding star growth (208 daily) indicating intense developer focus on agentic workflows.",
+      "novelty": "Moderate-high, building nicely on top of recent agent plugin paradigms."
+    },
+    {
+      "rank": 4,
+      "name": "liseami/CCBaga",
+      "score": 87,
+      "reason": "A fast-rising Rust repository capturing significant early developer curiosity and engagement.",
+      "why_interesting_today": "Rust-based tooling continues to capture developer attention for performance-critical systems and utilities.",
+      "why_developers_should_care": "Early engagement signals a project worth watching as it matures and reveals its full capability set.",
+      "momentum": "Strong initial surge with nearly 200 daily star growth.",
+      "novelty": "Good, though its precise utility is still expanding as the codebase evolves."
+    },
+    {
+      "rank": 5,
+      "name": "vinta/awesome-python",
+      "score": 85,
+      "reason": "The definitive, perpetually active curated list for Python tools, frameworks, and libraries.",
+      "why_interesting_today": "Maintains an extraordinary level of ongoing daily star momentum (268 daily growth) despite being a mature list.",
+      "why_developers_should_care": "Serves as the ultimate quick-reference index for discovering modern Python tools and libraries.",
+      "momentum": "Exceptional evergreen star momentum that outpaces many brand-new projects.",
+      "novelty": "Low in code architecture, but unmatched in curation quality and utility."
+    }
+  ]
+}
