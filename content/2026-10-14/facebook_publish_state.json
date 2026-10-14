@@ -17,8 +17,8 @@
       "caption": "Stop writing brittle custom glue code for AI apps and start orchestrating production-ready, self-hosted LLM agents and multi-step workflows visually. 🤖⚡\n\nBuilding complex AI applications often means getting bogged down in writing endless custom API polling loops, authentication handlers, and LLM orchestration boilerplate. \n\nn8n (https://github.com/n8n-io/n8n) bridges the gap between traditional workflow automation and advanced AI application development. It gives developers a fair-code, self-hostable visual canvas paired with deep code execution control, letting you deploy automated pipelines connected to over 1,500 integrations without architectural vendor lock-in.\n\nHere is why backend, AI/ML, and DevOps engineers are adding it to their stack:\n\n🧠 AI-Native Agent Orchestration: Build multi-step AI agents with built-in memory, tool use, and human-in-the-loop approvals.\n💻 Code When You Need It: Combine the visual node-based editor with custom JavaScript, Python, and npm packages for advanced data transformation.\n🔌 Comprehensive Integrations: Connect easily to OpenAI, Anthropic, Google, or local open-source models while tapping into 1,500+ pre-built SaaS app integrations.\n🔒 Enterprise-Ready Self-Hosting: Deploy securely on your own infrastructure via Docker with full data ownership, RBAC, and complete pipeline observability.\n\nSave hundreds of hours on infrastructure boilerplate. Handle error logging, retries, and state management out of the box so you can focus entirely on business logic and prompt engineering.\n\n👉 Check out the repo, drop a star, and start building: https://github.com/n8n-io/n8n\n\nHow are you currently orchestrating your LLM workflows and multi-step agents? Let us know in the comments! 👇\n\n#OpenSource #AI #MachineLearning #DevOps #SoftwareEngineering #Automation #LLM #NodeJS #Python",
       "image_file": "2_n8n-io_n8n.png",
       "photo_id": "122120310687476221",
-      "published_post_id": null,
-      "published_at": null
+      "published_post_id": "1410193715501138_122120370627476221",
+      "published_at": "2026-10-14T11:00:37.539558+08:00"
     },
     {
       "rank": 3,
