@@ -1,0 +1,54 @@
+{
+  "top_repositories": [
+    {
+      "rank": 1,
+      "name": "mattpocock/skills",
+      "score": 96,
+      "reason": "Exceptional star growth and heavy developer engagement around modern AI agent toolsets and coding workflows.",
+      "why_interesting_today": "It provides a direct look into a prominent developer's .agents directory, capturing the exact practical workflow components people are adopting right now.",
+      "why_developers_should_care": "These battle-tested prompts, custom tooling patterns, and configurations offer an instant upgrade to daily AI-assisted engineering efficiency.",
+      "momentum": "Explosive, adding over 1,600 stars with strong fork activity.",
+      "novelty": "High; packages personal AI-native developer setups into an accessible open format."
+    },
+    {
+      "rank": 2,
+      "name": "deepseek-ai/deepseek-harness",
+      "score": 94,
+      "reason": "Strong momentum from a major AI lab introducing a modular, plugin-first architecture for AI workflows.",
+      "why_interesting_today": "It operationalizes the 'Everything is a Plugin' concept, addressing the rising need for extensible agent orchestration frameworks.",
+      "why_developers_should_care": "Provides an enterprise-grade structural blueprint for building scalable, modular AI agent applications.",
+      "momentum": "Rapid star growth (759+ daily) and widespread community adoption.",
+      "novelty": "Very high architectural novelty in treating all agent extensions and core capabilities as plugins."
+    },
+    {
+      "rank": 3,
+      "name": "HeyPuter/everything",
+      "score": 89,
+      "reason": "An ambitious open-source initiative aiming to rebuild essential everyday software tools (spreadsheets, CAD, design software) from scratch.",
+      "why_interesting_today": "Captures the imagination of developers wanting to escape proprietary SaaS ecosystems for standard web technologies.",
+      "why_developers_should_care": "Serves as an incredible reference codebase for complex web application architecture, rendering engines, and modular tool creation.",
+      "momentum": "Steady initial traction and high interest across social channels.",
+      "novelty": "High ambition level to recreate complex legacy software suites under an open-source banner."
+    },
+    {
+      "rank": 4,
+      "name": "storytold/figcraft",
+      "score": 87,
+      "reason": "A clean-room Rust reimplementation of collaborative design workflows, appealing strongly to performance-minded systems engineers.",
+      "why_interesting_today": "Tackles high-conformance real-time collaborative editing primitives outside of standard JavaScript stacks.",
+      "why_developers_should_care": "Offers deep learning value into how CRDTs, canvas rendering, and real-time multiplayer states can be implemented cleanly in Rust.",
+      "momentum": "Strong early fork-to-star ratio indicating intense developer evaluation.",
+      "novelty": "High novelty in bringing heavy collaborative UI tooling into native, memory-safe systems code."
+    },
+    {
+      "rank": 5,
+      "name": "rociiu/talorys",
+      "score": 85,
+      "reason": "A lightweight, self-hosted personal AI assistant engineered natively for Cloudflare's serverless and edge ecosystem.",
+      "why_interesting_today": "Solves the friction of hosting personal AI agents by leveraging free-tier Cloudflare Workers and Durable Objects with a single deployment command.",
+      "why_developers_should_care": "Demonstrates a practical, zero-cost architecture for maintaining persistent memory, tasks, and chat agents without renting expensive dedicated cloud instances.",
+      "momentum": "Solid organic growth shortly after release with clean TypeScript code structure.",
+      "novelty": "Clever use of Cloudflare Workers and Durable Objects for stateful, zero-telemetry personal AI infrastructure."
+    }
+  ]
+}
