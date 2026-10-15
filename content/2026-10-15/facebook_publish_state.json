@@ -26,8 +26,8 @@
       "caption": "🤖 Transform DeepSeek Harness into a multi-agent orchestration layer featuring autonomous bot-to-bot messaging, group chats, and persistent agent memory!\n\nAre you tired of raw model endpoints that lack continuity, collaboration, and real teamwork? \n\nThe DeepSeek-Bot repository extends the DeepSeek Harness ecosystem by introducing long-lived multi-agent frameworks. It turns standalone models into persistent, collaborative bots capable of handling group chats, delegating sub-tasks via mention relays, managing individual memory stores, and coordinating complex workflows through a chief orchestrator bot.\n\n🔥 Key Features:\n• Hierarchical multi-agent group chats with admin routing, direct @mentions, and bot-to-bot task handoffs.\n• Persistent agent memory that stores user preferences and contextual history locally across sessions.\n• Shared capabilities library supporting Model Context Protocol (MCP) servers, modular skills, and custom tool packs.\n• Local-first data architecture storing all session data, state, and memory locally inside your own environment.\n\n💡 Perfect for orchestrating specialized teams of AI agents (like Chief, Writer, and Coder) to solve complex software tasks, or for building privacy-focused automation pipelines where your code never leaves your hardware.\n\nExplore the code, study advanced multi-agent orchestration patterns, and build your own local-first agent ecosystem today.\n\n👉 Check it out on GitHub: https://github.com/Fei2411/DeepSeek-Bot\n\nWhat multi-agent workflows are you building this week? Drop your thoughts in the comments below! 👇\n\n#DeepSeek #AI #ArtificialIntelligence #SoftwareEngineering #MultiAgent #LocalFirst #OpenSource #MachineLearning #Developers",
       "image_file": "3_Fei2411_DeepSeek-Bot.png",
       "photo_id": "122120708457476221",
-      "published_post_id": null,
-      "published_at": null
+      "published_post_id": "1410193715501138_122120812869476221",
+      "published_at": "2026-10-15T15:00:38.031889+08:00"
     },
     {
       "rank": 4,
