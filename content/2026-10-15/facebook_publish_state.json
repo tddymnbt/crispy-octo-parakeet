@@ -35,8 +35,8 @@
       "caption": "Tired of workspace pollution, credential leaks, and the headache of managing multiple Claude identities across projects? \n\nMeet CCBaga: a lightning-fast native Rust and Tauri desktop toolkit built specifically for developers, AI engineers, and remote contractors who need totally isolated environments, verifiable browser fingerprints, and seamless multi-account management. 🚀\n\nWhether you are switching between distinct localized Claude CLI setups or running automated AI tasks that require strict regional configurations, CCBaga eliminates cross-contamination of cache and auth data without the heavy overhead of virtualization.\n\nHere is what makes it a game-changer for your workflow:\n\n🔒 Encrypted Identity Management: Securely archive and restore Claude Code and Claude Desktop states into compressed .baga containers with atomic rollbacks.\n🌐 Automated Browser Fingerprint Rotation: Sync regional languages, timezones, and hardware attributes instantly with a companion Chromium instance.\n🔍 Real-Time Telemetry Checks: Validate your local machine readings against actual network exits before executing critical tasks.\n🤖 AI-Guided Network Setup: Rapidly deploy across coding agents using standard agent skills specifications.\n\nReady to streamline your multi-account workflow and lock down your dev environments? \n\nCheck out the repo and get started today:\nhttps://github.com/liseami/CCBaga\n\nDrop a comment below and let us know how you manage your dev environments! 👇\n\n#RustLang #Tauri #ArtificialIntelligence #SoftwareEngineering #DeveloperTools #OpenSource #ClaudeAI",
       "image_file": "4_liseami_CCBaga.png",
       "photo_id": "122120708499476221",
-      "published_post_id": null,
-      "published_at": null
+      "published_post_id": "1410193715501138_122120855769476221",
+      "published_at": "2026-10-15T19:00:39.445550+08:00"
     },
     {
       "rank": 5,
