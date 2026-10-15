@@ -44,8 +44,8 @@
       "caption": "Tired of drowning in endless GitHub searches and outdated lists every time you need the right library for a new project? 🐍\n\nDiscover the ultimate curated directory of Python frameworks, libraries, and developer tools that serves as the definitive guide for over 200,000 developers.\n\nWhether you are bootstrapping a high-performance enterprise web service or building cutting-edge generative AI applications, the Python ecosystem moves too fast to navigate alone. vinta/awesome-python solves the problem of information overload and tool discovery by maintaining an opinionated, highly organized, and continually updated catalog of the best libraries for every development domain.\n\nHere is why it is an indispensable single source of truth for your tech stack:\n\n• Extensively categorized directory spanning modern domains including AI and agents, deep learning, web APIs, DevOps, and security.\n• Curated selection focusing exclusively on high-quality, production-ready, and actively maintained open-source projects.\n• Integrated web application counterpart offering seamless search and filtering for lightning-fast project discovery.\n• Regular community-driven updates reflecting the absolute cutting edge of Python toolchains, such as Model Context Protocol servers and advanced LLM frameworks.\n\nSave countless hours of research, avoid abandoned or substandard packages, and make confident architectural decisions today.\n\nExplore the repository now: https://github.com/vinta/awesome-python\n\nDrop a comment below: What is your absolute go-to Python library that you include in every single new project? \n\n#Python #SoftwareEngineering #ArtificialIntelligence #MachineLearning #WebDevelopment #OpenSource #DeveloperTools",
       "image_file": "5_vinta_awesome-python.png",
       "photo_id": "122120708541476221",
-      "published_post_id": null,
-      "published_at": null
+      "published_post_id": "1410193715501138_122120933535476221",
+      "published_at": "2026-10-15T23:00:46.919000+08:00"
     }
   ]
 }
