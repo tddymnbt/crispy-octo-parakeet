@@ -3,136 +3,136 @@
   "repositories": [
     {
       "rank": 1,
-      "name": "mattpocock/skills",
-      "score": 96,
-      "reason": "Exceptional star growth and heavy developer engagement around modern AI agent toolsets and coding workflows.",
-      "why_interesting_today": "It provides a direct look into a prominent developer's .agents directory, capturing the exact practical workflow components people are adopting right now.",
-      "why_developers_should_care": "These battle-tested prompts, custom tooling patterns, and configurations offer an instant upgrade to daily AI-assisted engineering efficiency.",
-      "momentum": "Explosive, adding over 1,600 stars with strong fork activity.",
-      "novelty": "High; packages personal AI-native developer setups into an accessible open format.",
+      "name": "ahwootech/BRUTAL",
+      "score": 95,
+      "reason": "Offers an open-source C# game engine framework providing direct, low-level access to native APIs and Vulkan, serving as a foundational backbone for prominent projects.",
+      "why_interesting_today": "Bridges the gap between high-level game frameworks and bare-metal performance, attracting significant attention due to its real-world usage in titles like Kitten Space Agency and RimWorld's Waylith engine.",
+      "why_developers_should_care": "Game developers and systems programmers get unconstrained, low-level access to graphics and system resources without sacrificing the developer ergonomics of C#.",
+      "momentum": "Exceptional early momentum with rapid star growth (430+) shortly after release.",
+      "novelty": "Brings raw, low-level Vulkan and native API control directly into a streamlined C# game architecture context.",
       "deep_analysis": {
-        "name": "mattpocock/skills",
-        "headline_hook": "Matt Pocock's practical .agents skills provide a composable, unopinionated framework for real engineering with AI agents rather than vibe coding.",
-        "core_functionality": "The project solves the alignment, verbosity, and software entropy problems common in AI-assisted development. Instead of using rigid, heavy process frameworks that take away developer control, it provides small, composable, model-agnostic agent skills (like grilling sessions, shared language dictionaries, and TDD loops) that integrate directly into popular AI coding tools like Claude Code, Codex, and GitHub Copilot.",
+        "name": "ahwootech/BRUTAL",
+        "headline_hook": "BRUTAL is an open-source C# framework giving developers bare-metal performance and direct native API access to build custom game engines without the bloat of traditional engines.",
+        "core_functionality": "BRUTAL bridges the gap between high-level C# development and low-level performance by providing a modular, unmanaged framework with direct access to native APIs, Vulkan, and memory management. It acts as a foundational kernel for game development, allowing studios and developers to build custom game engines or high-performance games from scratch rather than relying on heavy, opinionated engines like Unity or Unreal.",
         "key_features": [
-          "Grilling sessions via grill-me and grill-with-docs that force AI agents to ask clarifying questions and establish a shared domain language before writing code.",
-          "Strict TDD and diagnosing-bugs loops that enforce red-green-refactor workflows and disciplined phase-by-phase debugging.",
-          "Architecture improvement tools like improve-codebase-architecture that survey codebases to help prevent software entropy and feature bloat.",
-          "Cross-agent compatibility with seamless plugin installations for Claude Code, Codex, GitHub Copilot, Gemini CLI, Cursor, and Windsurf."
+          "Custom interop layer providing direct, low-level access to native APIs and libraries with zero unnecessary overhead.",
+          "Zero-allocation memory management, unmanaged collections, and string handling designed to avoid garbage collection pressure.",
+          "Comprehensive suite of decoupled NuGet packages covering Vulkan, GLFW, Dear ImGui, FMOD, Jolt physics, RakNet networking, and job scheduling.",
+          "Modern .NET 10 integration leveraging the latest C# language features and unsafe code blocks for maximum execution speed."
         ],
-        "target_audience": "Professional software engineers, full-stack developers, and tech leads who want to leverage AI coding agents while maintaining strict control over code quality, architecture, and correctness.",
-        "practical_developer_value": "Developers can use these skills to drastically reduce AI hallucinations and misalignment by forcing structured scoping and context sharing. By implementing shared domain languages and automated TDD loops, teams can prevent codebases from turning into unmaintainable balls of mud while speeding up daily feature development.",
+        "target_audience": "Game engine developers, high-performance C# developers, systems programmers, and indie studios looking for absolute control over their software stack and rendering pipeline.",
+        "practical_developer_value": "Developers gain complete architectural freedom and exceptional performance—reported at 2 to 4 times faster than traditional Unity builds in real-world migrations like RimWorld's Waylith engine. Instead of fighting black-box engine constraints, developers can cherry-pick low-level libraries for mathematics, concurrency, and hardware integration to build specialized, highly optimized software or custom game engines.",
         "suggested_use_cases": [
-          "Using grill-with-docs at the start of a major feature implementation to build a shared vocabulary and prevent the AI from generating overly verbose, misaligned code.",
-          "Running the tdd skill to enforce a strict red-green-refactor cycle on complex bug fixes or backend logic modules."
+          "Building a custom game engine or high-performance indie game from scratch with complete control over the render loop and memory.",
+          "Migrating an existing data-heavy game or simulation away from a commercial engine to eliminate royalty fees and runtime bloat."
         ]
       }
     },
     {
       "rank": 2,
-      "name": "deepseek-ai/deepseek-harness",
-      "score": 94,
-      "reason": "Strong momentum from a major AI lab introducing a modular, plugin-first architecture for AI workflows.",
-      "why_interesting_today": "It operationalizes the 'Everything is a Plugin' concept, addressing the rising need for extensible agent orchestration frameworks.",
-      "why_developers_should_care": "Provides an enterprise-grade structural blueprint for building scalable, modular AI agent applications.",
-      "momentum": "Rapid star growth (759+ daily) and widespread community adoption.",
-      "novelty": "Very high architectural novelty in treating all agent extensions and core capabilities as plugins.",
+      "name": "feder-cr/git-ai",
+      "score": 92,
+      "reason": "Reimagines version control specifically for AI agents, optimizing workflows and tracking paradigms for autonomous coding contexts.",
+      "why_interesting_today": "As AI coding agents and autonomous workflows become deeply integrated into software development, traditional git versioning often falls short of agentic patterns.",
+      "why_developers_should_care": "Provides the foundational infrastructure needed to manage, audit, and coordinate code modifications produced by autonomous AI agents securely.",
+      "momentum": "Strong initial traction within the developer community as AI-native tooling continues to explode.",
+      "novelty": "Pioneers a version control system explicitly tailored for the operational quirks and safety requirements of AI agents.",
       "deep_analysis": {
-        "name": "deepseek-ai/deepseek-harness",
-        "headline_hook": "DeepSeek just dropped deepseek-harness, an open-source agent harness built around an uncompromising everything-is-a-plugin architecture.",
-        "core_functionality": "DeepSeek Harness solves the tight coupling and rigid structure typical of AI agent orchestration frameworks by providing a fully modular, extensible environment where every core component, tool, and capability functions as an independent, composable plugin.",
+        "name": "feder-cr/git-ai",
+        "headline_hook": "Gitai reimagines version control for the age of autonomous AI coding agents by implementing Anthropic's Scion architecture to handle thousands of concurrent short-lived tasks without bottlenecks.",
+        "core_functionality": "Classic Git workflows assume human users who clone repositories, work locally for hours, and push infrequently. Autonomous AI coding agents break this model by generating thousands of concurrent, short-lived tasks that need to land in seconds on shared branches. Gitai (git-ai) provides an open-source, server-centric version control system optimized for agentic workflows. It moves heavy lifting like history walks, blame, and code search to the server, uses atomic compare-and-swap operations instead of traditional merge queues, and leverages a database-backed storage core with object storage to let stateless servers scale horizontally.",
         "key_features": [
-          "Everything-is-a-plugin architecture that isolates features and encourages clean modular extensions.",
-          "Powered by Cordis, implementing a novel design rooted in a programming paradigm for spatiotemporal composability.",
-          "Built-in Web UI accessible instantly via npx or local source builds for immediate interactive agent management.",
-          "Rapidly evolving developer preview ecosystem with explicit support for community plugin contributions using standardized topics."
+          "Server-centric API and Derived Data: Offloads resource-intensive tasks like blame, path history, ancestry tracking, and code search to the server, memoizing results per commit.",
+          "Queue-free Landing and Conflict Resolution: Uses UserLand to rebase changes onto the current tip, landing them via compare-and-swap with automated conflict resolvers driven by deterministic tools or LLMs.",
+          "Changeset Log and Real-time Monitoring: Records every accepted reference update in a dense, ordered log that clients can list or watch live, enabling external monitoring agents and superfans.",
+          "Decoupled Storage Core: Separates transactional metadata using SQLite or PostgreSQL write-ahead logs from content-addressed object storage supporting local files, S3, GCS, and Azure."
         ],
-        "target_audience": "AI engineers, agent developers, and systems architects building extensible, modular LLM workflows who need a robust foundation rather than a monolithic framework.",
-        "practical_developer_value": "Developers can avoid lock-in to rigid agent runtimes by leveraging a plugin-first framework that makes swapping tools, modifying agent memory pipelines, and extending user interfaces seamless. It allows teams to build highly custom, maintainable agentic applications by treating every capability as a self-contained unit.",
+        "target_audience": "AI Engineers, platform engineers, and developers building autonomous coding agent workflows or managing large-scale CI/CD pipelines with high-concurrency code generation.",
+        "practical_developer_value": "Developers building multi-agent AI systems often hit severe performance and locking bottlenecks when trying to push agentic changes through traditional Git servers. Gitai eliminates these bottlenecks by offering always-online sparse clients, server-side code search, automatic conflict resolution, and atomic landing mechanisms. Teams can drop it in as a high-performance version control layer to let multiple AI agents code concurrently on the same repository without merge conflicts or clone lag.",
         "suggested_use_cases": [
-          "Building and scaling custom multi-agent orchestration systems with hot-swappable tool plugins.",
-          "Developing proprietary internal developer tooling with tailored Web UI extensions powered by the harness runtime."
+          "Deploying a fleet of autonomous coding agents that concurrently modify, test, and land bug fixes on shared enterprise repositories.",
+          "Scaling CI/CD environments and developer platforms that require rapid, queue-free code merging and real-time changeset streaming."
         ]
       }
     },
     {
       "rank": 3,
-      "name": "HeyPuter/everything",
+      "name": "opengeos/RustGIS",
       "score": 89,
-      "reason": "An ambitious open-source initiative aiming to rebuild essential everyday software tools (spreadsheets, CAD, design software) from scratch.",
-      "why_interesting_today": "Captures the imagination of developers wanting to escape proprietary SaaS ecosystems for standard web technologies.",
-      "why_developers_should_care": "Serves as an incredible reference codebase for complex web application architecture, rendering engines, and modular tool creation.",
-      "momentum": "Steady initial traction and high interest across social channels.",
-      "novelty": "High ambition level to recreate complex legacy software suites under an open-source banner.",
+      "reason": "A high-performance, open-source Geographic Information System (GIS) written completely in pure Rust.",
+      "why_interesting_today": "Taps into the growing demand for memory-safe, blazing-fast geospatial data processing and remote-sensing tools.",
+      "why_developers_should_care": "Rust developers and geospatial engineers gain a native, high-speed library for mapping and spatial analysis without the overhead of legacy C++ stacks.",
+      "momentum": "Solid upward trajectory with strong star growth (134) and healthy fork activity.",
+      "novelty": "Brings comprehensive, modern GIS capabilities to the Rust ecosystem with zero legacy baggage.",
       "deep_analysis": {
-        "name": "HeyPuter/everything",
-        "headline_hook": "HeyPuter/everything is an ambitious open-source monorepo aiming to rebuild every major proprietary software tool—from Photoshop to Slack and Excel—from scratch using standard web technologies.",
-        "core_functionality": "The project solves the developer and user ecosystem problem of relying on closed, expensive, proprietary Software-as-a-Service (SaaS) products by providing fully free, open-source, MIT-licensed equivalents for essential everyday software applications.",
+        "name": "opengeos/RustGIS",
+        "headline_hook": "RustGIS brings lightning-fast, memory-safe geospatial processing, raster rendering, and 1000+ GIS tools natively to desktop, browser, and Python pipelines.",
+        "core_functionality": "RustGIS solves the problem of heavy, resource-intensive, and complex legacy GIS software by providing a high-performance, open-source Geographic Information System written entirely in pure Rust. It delivers native performance across Windows, macOS, Linux, and WebAssembly, enabling seamless spatial data processing, cartography, remote sensing, and format conversion without needing heavy server runtimes or complex installation stacks.",
         "key_features": [
-          "Comprehensive Monorepo Architecture: Houses dozens of complex desktop-class applications ranging from office suites and creative studios to developer tools and games under a single codebase.",
-          "Modern Web Tech Stack: Built using standard web technologies and modern frameworks, running natively in the browser via Node.js 22.12+",
-          "Drop-in Open-Source Alternatives: Direct web-native functional counterparts to industry standards like Microsoft Office, Adobe Photoshop, Zoom, Slack, and AutoCAD.",
-          "Live Deployment Previews: Most core apps are paired with live web instances (e.g., spreadsheet.puter.com, meetings.puter.com) allowing immediate evaluation."
+          "GPU-drawn, cross-platform native and WebAssembly rendering supporting thousands of vector formats, cloud-optimized GeoTIFFs, LiDAR point clouds, and live PostGIS or DuckDB spatial integrations.",
+          "Built-in integration with over 1,000 GeoLibre and Whitebox geoprocessing tools covering terrain, hydrology, and remote sensing workflows.",
+          "Command-driven architecture where every GUI action maps to a unique scriptable command id, enabling automation through CLI, Python notebooks, or local AI assistants.",
+          "Sandboxed WebAssembly plugin registry and support for advanced cartography, 3D globes, multiple projections, and publication-ready layout generation."
         ],
-        "target_audience": "Frontend developers, open-source advocates, and full-stack engineers looking to build custom SaaS solutions, study complex browser-based application architecture, or escape proprietary software ecosystems.",
-        "practical_developer_value": "Developers can study how complex, high-performance web applications like photo editors, spreadsheets, and video streaming tools are architected without proprietary wrappers. It serves as a goldmine of production-grade implementations for canvas rendering, state management, real-time collaboration, and UI component design that can be inspected, forked, or integrated into custom software stacks.",
+        "target_audience": "Geospatial developers, data scientists, GIS analysts, Python engineers working with spatial data, and frontend/WebAssembly developers building map-heavy applications.",
+        "practical_developer_value": "Developers can embed RustGIS capabilities into Python workflows via PyPI, script complex spatial pipelines using command IDs instead of brittle UI interactions, and leverage WebAssembly to run heavy GIS operations directly in the browser. Its pure-Rust codebase ensures memory safety, lack of massive external runtime dependencies, and high performance when dealing with massive datasets like COPCs, rasters, and GeoParquet files.",
         "suggested_use_cases": [
-          "Forking and customizing specific open-source productivity or creative tools for internal enterprise use without licensing fees.",
-          "Learning advanced frontend architecture by examining how performance-heavy apps like vector studios, audio editors, and spreadsheets are built for the browser."
+          "Building browser-based spatial analysis and mapping tools using RustGIS compiled to WebAssembly.",
+          "Automating multi-step remote sensing and terrain analysis pipelines via Python notebooks and CLI execution."
         ]
       }
     },
     {
       "rank": 4,
-      "name": "storytold/figcraft",
-      "score": 87,
-      "reason": "A clean-room Rust reimplementation of collaborative design workflows, appealing strongly to performance-minded systems engineers.",
-      "why_interesting_today": "Tackles high-conformance real-time collaborative editing primitives outside of standard JavaScript stacks.",
-      "why_developers_should_care": "Offers deep learning value into how CRDTs, canvas rendering, and real-time multiplayer states can be implemented cleanly in Rust.",
-      "momentum": "Strong early fork-to-star ratio indicating intense developer evaluation.",
-      "novelty": "High novelty in bringing heavy collaborative UI tooling into native, memory-safe systems code.",
+      "name": "Arekejoker/qwen21-nsfw-pose-skill",
+      "score": 86,
+      "reason": "A specialized prompt recipe and control framework integrating advanced image generation models (Qwen-Image) with granular pose control and multi-platform agent tools.",
+      "why_interesting_today": "Highlights the cutting edge of agentic workflow extensions, showing how AI assistants can be augmented with complex, niche multi-modal skills.",
+      "why_developers_should_care": "Demonstrates advanced integration patterns for embedding complex creative pipelines directly into coding and assistant frameworks like Claude Code and OpenClaw.",
+      "momentum": "Remarkable viral surge with 510 star growth right out of the gate.",
+      "novelty": "Combines high-level agent skills with granular pose-control structures in an innovative way.",
       "deep_analysis": {
-        "name": "storytold/figcraft",
-        "headline_hook": "FigCraft is a clean-room, pure Rust reimplementation of Figma that delivers sub-millisecond document manipulation, local-first offline support, and native AI agent control.",
-        "core_functionality": "FigCraft solves the bloat, latency, and cloud lock-in of traditional web-based interface design tools by providing a high-performance, native application built entirely in Rust. It offers complete parity with complex design workflows including auto layout, vector networks, component variants, prototypes, and real-time collaboration using standard local file formats.",
+        "name": "Arekejoker/qwen21-nsfw-pose-skill",
+        "headline_hook": "An open-source agent skill framework integrating Qwen-Image 2.1 with granular 3D pose control and modular NSFW generation pipelines for ComfyUI.",
+        "core_functionality": "The project solves the complexity of bridging advanced multimodal image generation models (Qwen-Image 2.1) with precise structural pose manipulation and character identity preservation. It provides a standardized agent skill recipe (compatible with Claude Code, Cursor, and OpenClaw) that unifies automated doctor diagnostics, four distinct generation/transfer pipelines, and a library of 136 3D doll poses to execute repeatable, high-fidelity image synthesis workflows.",
         "key_features": [
-          "Native Rust Engine with Persistent Document Model: Executes edits touching only changed nodes, allowing a 20,000-node file operation to complete in a fraction of a millisecond without Electron or web views.",
-          "Dual-Interface Command Architecture: Exposes every menu item, tool, and canvas interaction as a command accessible via UI, CLI, JSON control channel, or MCP server for AI agents.",
-          "Local-First and Offline-Capable: Stores files as plain disk archives (.figcraft) with zero required accounts, telemetry, or cloud dependencies while retaining import/export bridges for standard formats.",
-          "Comprehensive Design Primitive Support: Implements advanced UI design standards including frame auto layouts, variable-width strokes, live theme collections, and multi-user live session servers."
+          "Integrated Multi-Route Pipeline: Supports four operational workflows ranging from standard Text-to-Image with NSFW LoRA, image-to-image identity/pose editing, script-based pose transfer, to browser-assisted 3D VNCCS PoseStudio automation.",
+          "Comprehensive 3D Pose Control Library: Includes 136 meticulously curated poses sourced from open HuggingFace repositories and manual selections, mapped to MakeHuman and three.js rendering frameworks.",
+          "Automated Diagnostic and Validation Suite: Features a robust doctor script (scripts/doctor.py) that validates ComfyUI connectivity, model weights, LoRA files, VNCCS nodes, and browser dependencies prior to execution.",
+          "Strict Parameter and Prompt Engineering Recipes: Enforces structured 7-element, high-density prompting strategies paired with optimized ComfyUI samplers (er_sde and beta schedulers) to replicate exact author-grade outputs."
         ],
-        "target_audience": "Systems engineers, desktop application developers, performance-minded frontend architects, and developers building autonomous AI agents for software design workflows.",
-        "practical_developer_value": "Developers can bypass heavy Electron stacks to build lightning-fast desktop creative tools using pure systems programming. Furthermore, the MCP server and command API allow software agents to programmatically generate, inspect, and export production-ready user interfaces and design systems directly from code.",
+        "target_audience": "AI Engineers, Generative AI Workflow Developers, and Technical Creators building automated image generation pipelines or agentic workflows.",
+        "practical_developer_value": "Developers can leverage this repository as a blueprint for extending agent capabilities with complex multimodal tools. It demonstrates how to wrap local ComfyUI REST/WebSocket APIs, manage large multi-gigabyte int8 model weights, implement automated environment health checks, and execute parameterized multi-step image generation tasks programmatically via CLI scripts.",
         "suggested_use_cases": [
-          "Embedding design systems generation directly into CI/CD pipelines or AI coding assistants via the MCP server command API.",
-          "Building high-performance custom desktop productivity tools and local-first vector graphics editors in Rust."
+          "Embedding specialized image generation and pose-control skills into autonomous AI developer agents like Claude Code or Cursor.",
+          "Building automated visual asset generation pipelines that require strict character consistency and exact anatomical or skeletal positioning."
         ]
       }
     },
     {
       "rank": 5,
-      "name": "rociiu/talorys",
-      "score": 85,
-      "reason": "A lightweight, self-hosted personal AI assistant engineered natively for Cloudflare's serverless and edge ecosystem.",
-      "why_interesting_today": "Solves the friction of hosting personal AI agents by leveraging free-tier Cloudflare Workers and Durable Objects with a single deployment command.",
-      "why_developers_should_care": "Demonstrates a practical, zero-cost architecture for maintaining persistent memory, tasks, and chat agents without renting expensive dedicated cloud instances.",
-      "momentum": "Solid organic growth shortly after release with clean TypeScript code structure.",
-      "novelty": "Clever use of Cloudflare Workers and Durable Objects for stateful, zero-telemetry personal AI infrastructure.",
+      "name": "Caho1/open-claude-ui",
+      "score": 84,
+      "reason": "A high-fidelity reverse-engineered clone of the official Claude desktop UI, complete with standalone React components and interactive motion physics.",
+      "why_interesting_today": "Appeals strongly to frontend engineers interested in replicating sophisticated AI chat interfaces and fluid motion design systems.",
+      "why_developers_should_care": "Provides ready-to-use production-grade React components and an extensive reverse-analysis manual for building polished AI interaction layers.",
+      "momentum": "Strong initial interest with over 1,000 stars and significant fork ratios for a UI component project.",
+      "novelty": "Provides an uncommon, deep architectural breakdown and UI replication of a leading commercial AI desktop client.",
       "deep_analysis": {
-        "name": "rociiu/talorys",
-        "headline_hook": "Deploy your own private, persistent AI assistant entirely on Cloudflare's free tier with a single command.",
-        "core_functionality": "Talorys solves the friction and privacy concerns of hosting personal AI agents by packing a chat interface, vector-like semantic memory, task manager, and cron-based automations into a serverless architecture running inside a single Cloudflare account.",
+        "name": "Caho1/open-claude-ui",
+        "headline_hook": "Reverse-engineered using REA, Open Claude UI delivers a production-grade, pixel-accurate clone of the Claude desktop design system complete with physics-based spring animations and native audio synthesis.",
+        "core_functionality": "The project provides a comprehensive, open-source React component library and interaction physics engine reverse-engineered directly from the official Claude desktop AI client. It solves the challenge of replicating sophisticated AI chat interfaces by delivering exact CSS tokens, UI components, and motion physics without relying on proprietary binaries.",
         "key_features": [
-          "Durable Object SQLite backend providing stateful conversational history and reliable cron scheduling via alarms without keeping a server online.",
-          "Zero-public-URL private Worker architecture connected to Cloudflare Pages via secure service bindings.",
-          "Optional semantic recall and memory history management that track changing facts over time and execute automatic conflict resolution.",
-          "Built-in robust cost controls and usage panels tracking estimated neurons and token consumption against Cloudflare free-tier quotas."
+          "Strict design system tokens including 4-layer low-contrast surfaces, Editorial Warmth clay colors, hairline ring borders, and retina font-weight compensation.",
+          "Advanced interaction physics featuring 4-stage spring configurations, 7-stop non-linear alpha fade scroll masks, and CJK input method composition guards.",
+          "Comprehensive audiovisual and architecture modules such as zero-latency synthetic Web Audio API prompt tones, cursor-anchored image pan/zoom, and macOS vibrancy styling.",
+          "Extensive reverse-engineering documentation and an interactive component storybook for immediate offline preview."
         ],
-        "target_audience": "Full-stack developers, edge computing enthusiasts, and privacy-conscious engineers looking for a self-hosted AI companion.",
-        "practical_developer_value": "Developers can use Talorys as a reference architecture for building production-grade serverless applications on Cloudflare using Workers, Durable Objects, SQLite, and Hono. It demonstrates advanced patterns like service bindings for private backend isolation, streaming Server-Sent Events end-to-end, and programmatic OAuth flow integration through Wrangler CLI.",
+        "target_audience": "Frontend engineers, UI/UX designers, and AI application developers looking to build high-fidelity conversational interfaces that match or exceed commercial desktop AI clients.",
+        "practical_developer_value": "Developers can bypass the guesswork of recreating complex AI chat UIs by directly adopting production-ready components, accessibility patterns, and micro-interactions. It serves as an educational masterclass in reverse-engineering modern electron applications and extracting precise design tokens and motion physics for custom web projects.",
         "suggested_use_cases": [
-          "Deploying a completely free, private personal assistant for task management and daily digests running entirely on edge infrastructure.",
-          "Studying a reference implementation of the Cloudflare Agents SDK combined with SQLite-backed Durable Objects."
+          "Building custom desktop or web-based AI chat interfaces that require an elite, human-centric design aesthetic.",
+          "Studying advanced animation physics, spring configurations, and non-linear CSS masking techniques for high-performance React applications."
         ]
       }
     }
