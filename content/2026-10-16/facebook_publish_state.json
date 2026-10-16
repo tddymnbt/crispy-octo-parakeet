@@ -35,8 +35,8 @@
       "caption": "Tired of bloated, sluggish web-based design tools that hold your projects hostage in the cloud? 🛠️💨\n\nMeet FigCraft: a clean-room, pure Rust reimplementation of Figma designed for blazing speed, total privacy, and next-gen AI workflows. \n\nFigCraft eliminates Electron bloat and cloud lock-in by delivering sub-millisecond document manipulation, full offline support, and native control for autonomous AI agents. \n\n⚡ Key Features:\n• Blazing Fast Native Engine: Execute operations on massive 20,000-node files in a fraction of a millisecond with zero web views.\n• Local-First & Private: Store files as plain disk archives (.figcraft) with zero required accounts, telemetry, or cloud dependencies.\n• Dual-Interface Command Architecture: Access every menu, tool, and canvas interaction via UI, CLI, JSON control channel, or MCP server.\n• Full Design Parity: Built-in support for auto layouts, variable-width strokes, live theme collections, vector networks, and real-time collaboration.\n\nWhether you are a systems engineer wanting to escape heavy JavaScript stacks or an AI developer looking to give your agents programmatic control over production-ready user interfaces, FigCraft is built for you. Embed design system generation right into your CI/CD pipelines or build lightning-fast local-first vector editors from scratch. 🚀\n\n👉 Check it out on GitHub: https://github.com/storytold/figcraft\n\nClone the repo, drop your feedback in the comments, and star the project to support high-performance native Rust software! ⭐\n\n#Rust #OpenSource #AI #SoftwareEngineering #WebDev #UIUX #DeveloperTools",
       "image_file": "4_storytold_figcraft.png",
       "photo_id": "122121054723476221",
-      "published_post_id": null,
-      "published_at": null
+      "published_post_id": "1410193715501138_122121214929476221",
+      "published_at": "2026-10-16T19:00:38.759211+08:00"
     },
     {
       "rank": 5,
