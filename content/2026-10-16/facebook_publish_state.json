@@ -44,8 +44,8 @@
       "caption": "Deploy your own private, persistent AI assistant entirely on Cloudflare's free tier with a single command. 🚀\n\nTired of subscription fees, privacy concerns, and the hassle of keeping a traditional server online just to run a personal AI companion? \n\nTalorys solves this by packing a full chat interface, semantic memory, task manager, and cron-based automations into a serverless architecture running inside a single Cloudflare account. \n\n✨ Key Features:\n• Durable Object SQLite backend for stateful chat history and reliable cron scheduling via alarms—no server required.\n• Zero-public-URL private Worker architecture securely connected to Cloudflare Pages via service bindings.\n• Optional semantic recall that tracks changing facts over time and handles automatic conflict resolution.\n• Built-in cost controls tracking token and neuron consumption against Cloudflare free-tier quotas.\n\nWhether you want a zero-cost personal assistant for daily digests and task management, or you need a production-grade reference architecture for building serverless apps using Cloudflare Workers, Durable Objects, SQLite, and Hono, Talorys is ready to deploy.\n\nCheck out the repository and spin up your edge AI assistant today:\nhttps://github.com/rociiu/talorys\n\n👉 Drop a comment below if you are building on Cloudflare Workers, and share how you plan to use your new private AI companion!\n\n#Cloudflare #EdgeComputing #AI #OpenSource #Serverless #FullStack #Developers",
       "image_file": "5_rociiu_talorys.png",
       "photo_id": "122121054765476221",
-      "published_post_id": null,
-      "published_at": null
+      "published_post_id": "1410193715501138_122121276951476221",
+      "published_at": "2026-10-16T23:00:38.696958+08:00"
     }
   ]
 }
