@@ -1,0 +1,54 @@
+{
+  "top_repositories": [
+    {
+      "rank": 1,
+      "name": "deeplethe/solid-glass",
+      "score": 94,
+      "reason": "An emerging design system specifically tailored for AI applications and agents, marrying tactile UI with modern web standards.",
+      "why_interesting_today": "AI applications are breaking away from standard chat boxes toward complex agentic interfaces; developers urgently need specialized UI paradigms.",
+      "why_developers_should_care": "Provides ready-to-use building blocks built on Tailwind CSS and shadcn philosophy tailored specifically for LLM and agent interactions.",
+      "momentum": "Rapidly accelerating star growth (331 stars added) despite being created just days ago.",
+      "novelty": "High novelty in addressing the specific design and UX constraints of autonomous AI agents."
+    },
+    {
+      "rank": 2,
+      "name": "chenglou/handwired",
+      "score": 92,
+      "reason": "A clever and experimental repository bridging standard JavaScript code with neural network concepts.",
+      "why_interesting_today": "Explores novel boundaries between traditional imperative coding and machine learning representations.",
+      "why_developers_should_care": "Offers deep educational value and sparks creative thinking regarding how code can be structured or interpreted through an ML lens.",
+      "momentum": "Strong viral traction and developer chatter with 140 star growth.",
+      "novelty": "Extremely high novelty and conceptual originality."
+    },
+    {
+      "rank": 3,
+      "name": "shaongitbd/doory",
+      "score": 88,
+      "reason": "An ambitious open-source Canva alternative built using modern TypeScript stacks.",
+      "why_interesting_today": "Graphic design tools are increasingly moving into the open-source and web-native domain.",
+      "why_developers_should_care": "Serves as an exceptional reference architecture for building complex, canvas-based web applications in React/TypeScript.",
+      "momentum": "Consistent momentum with over 100 star growth and active contributions.",
+      "novelty": "Moderate-high novelty given the complexity of replicating rich design tooling in the browser."
+    },
+    {
+      "rank": 4,
+      "name": "marclou/mailcheap",
+      "score": 85,
+      "reason": "A developer-focused open-source newsletter platform designed around pay-per-email economics rather than subscriber counts.",
+      "why_interesting_today": "Substack and Beehiiv alternatives are in high demand as indie hackers and developers seek cost-effective, self-hostable marketing tools.",
+      "why_developers_should_care": "Provides an immediate, self-hostable solution integrated with modern tools like Amazon SES and AI/MCP support.",
+      "momentum": "Solid adoption and fork momentum indicating real-world usage.",
+      "novelty": "High practical novelty in disrupting traditional SaaS pricing models for email marketing."
+    },
+    {
+      "rank": 5,
+      "name": "zhuyansen/new-term-radar",
+      "score": 83,
+      "reason": "An automated trend-spotting radar designed to catch emerging AI terms and repositories before mainstream keyword tools index them.",
+      "why_interesting_today": "The AI ecosystem moves at a dizzying pace, and early discovery of new models and repos is a massive competitive advantage.",
+      "why_developers_should_care": "Integrates with modern workflows like Claude skills and MCP servers to surface high-signal intelligence automatically.",
+      "momentum": "Steady fork and community interest with significant utility for researchers and creators.",
+      "novelty": "High novelty in targeting ultra-early metadata capture across fragmented platforms like X and Hugging Face."
+    }
+  ]
+}
