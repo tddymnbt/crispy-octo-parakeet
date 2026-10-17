@@ -17,8 +17,8 @@
       "caption": "Classic Git workflows were built for humans who code for hours and push once a day. But what happens when a fleet of autonomous AI agents tries to generate thousands of concurrent tasks on a shared branch? \n\nTotal gridlock. 🛑\n\nEnter Gitai (git-ai): a server-centric version control system entirely reimagined for the age of AI coding agents and implemented using Anthropic's Scion architecture. \n\nIt completely eliminates traditional bottlenecks by moving heavy lifting like history walks, blame, and code search directly to the server. Instead of struggling with sluggish merge queues, Gitai uses atomic compare-and-swap operations and automated conflict resolvers (driven by deterministic tools or LLMs) to land changes in seconds. 🚀\n\nKey Features:\n• Server-Centric API and Derived Data: Offloads resource-intensive tasks and memoizes results per commit.\n• Queue-Free Landing: Uses UserLand to rebase changes onto the current tip instantly.\n• Changeset Log & Real-Time Monitoring: Records every reference update in a dense, ordered log that clients can watch live.\n• Decoupled Storage Core: Separates transactional metadata (SQLite/PostgreSQL) from content-addressed object storage (S3, GCS, Azure, Local).\n\nWhether you are deploying autonomous agents to tackle enterprise bug fixes or scaling high-concurrency CI/CD pipelines, Gitai gives you the high-performance version control layer your stack needs. \n\nCheck out the repo, drop it into your workflow, and let your agents code concurrently without the clone lag:\nhttps://github.com/feder-cr/git-ai\n\n👉 Drop a comment below: How is your team currently handling the merge conflict bottleneck with AI coding agents?\n\n#AI #MachineLearning #SoftwareEngineering #VersionControl #Git #DeveloperTools #OpenSource #ArtificialIntelligence",
       "image_file": "2_feder-cr_git-ai.png",
       "photo_id": "122121417429476221",
-      "published_post_id": null,
-      "published_at": null
+      "published_post_id": "1410193715501138_122121472929476221",
+      "published_at": "2026-10-17T11:00:38.989651+08:00"
     },
     {
       "rank": 3,
