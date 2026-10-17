@@ -26,8 +26,8 @@
       "caption": "Tired of heavy, sluggish legacy GIS software that chokes on massive datasets and demands complex server setups? 🌍💥\n\nMeet RustGIS: a high-performance, open-source Geographic Information System written entirely in pure Rust. It brings lightning-fast, memory-safe geospatial processing, raster rendering, and 1,000+ GIS tools natively to your desktop, browser, and Python pipelines.\n\nBuilt for geospatial developers, data scientists, and Python engineers, RustGIS delivers native performance across Windows, macOS, Linux, and WebAssembly without the massive external runtimes.\n\n🚀 Key Features:\n\n⚡ GPU-drawn, cross-platform native and WebAssembly rendering supporting thousands of vector formats, Cloud-Optimized GeoTIFFs (COGs), LiDAR point clouds, and live PostGIS or DuckDB spatial integrations.\n🛠️ Built-in integration with over 1,000 GeoLibre and Whitebox geoprocessing tools for advanced terrain, hydrology, and remote sensing workflows.\n🤖 Command-driven architecture where every GUI action maps to a unique scriptable command ID, making it easy to automate pipelines via CLI, Python notebooks, or local AI assistants.\n🌐 Sandboxed WebAssembly plugin registry, supporting 3D globes, multiple projections, and publication-ready cartography.\n\nWhether you are building zero-install browser mapping tools with WebAssembly or automating heavy spatial analysis in Python via PyPI, RustGIS keeps your workflows fast, memory-safe, and dependency-light.\n\n👉 Check out the repo and star the project:\nhttps://github.com/opengeos/RustGIS\n\n👇 Drop a comment below: What spatial dataset or pipeline are you planning to run with RustGIS first?\n\n#RustLang #Geospatial #GIS #WebAssembly #Python #DataScience #OpenSource #Mapping",
       "image_file": "3_opengeos_RustGIS.png",
       "photo_id": "122121417471476221",
-      "published_post_id": null,
-      "published_at": null
+      "published_post_id": "1410193715501138_122121513621476221",
+      "published_at": "2026-10-17T15:00:36.895026+08:00"
     },
     {
       "rank": 4,
