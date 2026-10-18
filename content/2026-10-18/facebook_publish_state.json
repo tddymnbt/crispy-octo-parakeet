@@ -35,8 +35,8 @@
       "caption": "Tired of paying crazy monthly SaaS fees just because your newsletter subscriber list grew? 💸\n\nMainstream newsletter platforms charge you a fortune based on total subscriber counts—even for dead emails and inactive readers. \n\nMeet MailCheap: the open-source, self-hosted newsletter platform that shifts email economics. 🚀 Instead of tiering prices, it connects directly to Amazon SES so you only pay fractions of a cent for the exact number of emails you actually send. \n\nBuilt specifically for indie hackers, full-stack devs, and technical founders, it gives you complete data ownership and programmatic control.\n\n✨ Key Features You’ll Love:\n🤖 AI Agent Integration (MCP Server): Let ChatGPT, Claude, Cursor, or Claude Code write, review, and send newsletters securely using OAuth or API keys.\n🛡️ Deliverability Guardrails: Includes automatic smart warm-ups (sending initial 5% slices), automated list cleanup, spam-trap elimination, and hard bounce circuit breakers.\n🔄 Seamless Migrations: Import existing lists, statuses, and signup dates via CSV from Beehiiv, Substack, Mailchimp, Kit, and Ghost without losing history.\n⚡ Developer-First Stack: Built on Node.js 22+, MongoDB, and Upstash QStash, making it easily deployable on Vercel or custom infrastructure.\n\nStop letting legacy platforms tax your growth. Take back your email infrastructure today!\n\nCheck out the repo and drop a star:\nhttps://github.com/marclou/mailcheap\n\n👉 How are you currently handling your newsletter and transactional emails? Let's discuss in the comments below!\n\n#OpenSource #SelfHosted #IndieHacker #WebDev #NodeJS #AmazonSES #DeveloperTools",
       "image_file": "4_marclou_mailcheap.png",
       "photo_id": "122121727119476221",
-      "published_post_id": null,
-      "published_at": null
+      "published_post_id": "1410193715501138_122121925023476221",
+      "published_at": "2026-10-18T19:00:37.638042+08:00"
     },
     {
       "rank": 5,
