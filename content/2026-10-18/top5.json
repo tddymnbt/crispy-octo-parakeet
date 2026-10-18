@@ -1,0 +1,54 @@
+{
+  "top_repositories": [
+    {
+      "rank": 1,
+      "name": "firecrawl/firecrawl",
+      "score": 96,
+      "reason": "Massive star momentum (280 growth) combined with critical high-utility tooling for the booming AI agent ecosystem.",
+      "why_interesting_today": "Web data extraction remains one of the highest friction points for LLM developers; Firecrawl turns chaotic unstructured web pages into clean markdown natively optimized for AI ingestion.",
+      "why_developers_should_care": "It eliminates complex custom scraping pipelines, proxies, and rendering boilerplate, allowing developers to feed real-time web context directly into agents.",
+      "momentum": "Extremely high daily star velocity and active commit frequency relative to its age.",
+      "novelty": "Bridges the gap between raw unstructured HTML and direct LLM-ready markdown contexts efficiently."
+    },
+    {
+      "rank": 2,
+      "name": "jwuthri-cloud/Tracely-ai",
+      "score": 91,
+      "reason": "Addresses the most painful bottleneck in modern AI engineering: turning erratic production agent traces into reliable regression tests.",
+      "why_interesting_today": "As agentic workflows move to production, debugging non-deterministic failures is notoriously difficult without specialized tracing and CI/CD gates.",
+      "why_developers_should_care": "It enables teams to self-host trace-native CI/CD that blocks pull requests on agent regression, bringing traditional software engineering rigor to LLM apps.",
+      "momentum": "Rapidly gaining developer mindshare and strong early forks for a specialized infrastructure tool.",
+      "novelty": "Translates production execution failures directly into replayable test suites."
+    },
+    {
+      "rank": 3,
+      "name": "rohit267/net-merge",
+      "score": 88,
+      "reason": "High-utility practical networking tool solving a universal developer pain point: combining multiple internet connections simultaneously.",
+      "why_interesting_today": "Remote developers and engineers often juggle unstable Wi-Fi, Ethernet, and phone tethering; net-merge offers seamless per-connection load balancing across OS platforms.",
+      "why_developers_should_care": "It leverages TUN/Wintun drivers to transparently aggregate bandwidth without needing proprietary enterprise bonding hardware.",
+      "momentum": "Steady organic traction and strong technical validation from developers working in low-connectivity or high-bandwidth scenarios.",
+      "novelty": "Brings robust client-side network bonding and load balancing to everyday desktop environments."
+    },
+    {
+      "rank": 4,
+      "name": "Supermedo/uncharted_pc",
+      "score": 85,
+      "reason": "Exceptional technical significance in reverse engineering and native source porting of complex console games.",
+      "why_interesting_today": "Demonstrates advanced systems-level C++ wizardry by bringing console-exclusive titles to native Windows environments.",
+      "why_developers_should_care": "Fascinating case study in low-level graphics API translation, memory management, and cross-platform architecture disassembly.",
+      "momentum": "Sudden sharp spikes in star growth following recent code pushes and community releases.",
+      "novelty": "High novelty in reverse-engineering consumer software archives into fully functional native ports."
+    },
+    {
+      "rank": 5,
+      "name": "Gathin23/tv-vibehack",
+      "score": 82,
+      "reason": "Highly practical, creative, and timely developer utility built natively using modern AI coding workflows.",
+      "why_interesting_today": "Smart TVs are notoriously bogged down by intrusive launcher ads and bloatware; this project provides a clean, tvOS-inspired debloater over ADB.",
+      "why_developers_should_care": "Showcases how rapidly developers can scratch their own itches and build polished consumer-facing utilities using tools like Claude Code in a single afternoon.",
+      "momentum": "Impressive velocity for a newly introduced personal project with high social engagement.",
+      "novelty": "Combines ADB device management with minimalist aesthetic design principles for hardware UI."
+    }
+  ]
+}
