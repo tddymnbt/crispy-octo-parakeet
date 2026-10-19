@@ -26,8 +26,8 @@
       "caption": "Tired of unstable Wi-Fi and slow hotel connections? net-merge lets you combine your Wi-Fi, Ethernet, and phone tethering simultaneously into a single aggregated pipe across macOS, Windows, and Linux without a VPN or server. 🚀\n\nDevelopers and remote workers know the frustration of dealing with a single, spotty internet connection while trying to pull massive multi-gigabyte container images, sync large cloud repos, or fetch heavy vendor dependencies. \n\nnet-merge solves this by pooling multiple active network adapters together. It dynamically balances and spreads out concurrent TCP and UDP connections across all available interfaces, aggregating your bandwidth completely locally—no paid VPN subscription, proxy, or external server required. 💻⚡\n\nNotable Features:\n• Per-connection multi-link load balancing that distributes traffic based on interface speed and automatically ignores dead links until they recover\n• Seamless cross-platform system tray and menu bar integration supporting Windows, macOS Universal binaries, and a wide array of Linux distributions\n• Zero-configuration design with no mandatory user accounts, keeping your data private and local\n• Ultra-lightweight architecture consuming only about 0.18 CPU cores per 100 Mbit/s, with graceful fail-safe behavior if the app ever crashes\n\nWhether you are combining wired Ethernet with a mobile USB tether to slash download times or ensuring uninterrupted remote workflow continuity during unstable network drops, this tool is built for your stack.\n\nCheck out the repo and drop a star to support the project:\nhttps://github.com/rohit267/net-merge\n\nHow do you usually handle spotty networks while traveling or working remotely? Let us know in the comments below! 👇\n\n#SoftwareEngineering #DevOps #Networking #OpenSource #RemoteWork #Developers #Linux #Windows #macOS",
       "image_file": "3_rohit267_net-merge.png",
       "photo_id": "122122124715476221",
-      "published_post_id": null,
-      "published_at": null
+      "published_post_id": "1410193715501138_122122203867476221",
+      "published_at": "2026-10-19T15:00:38.716795+08:00"
     },
     {
       "rank": 4,
