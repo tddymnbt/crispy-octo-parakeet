@@ -17,8 +17,8 @@
       "caption": "Production AI agents fail in unpredictable ways. Manually writing speculative test datasets to catch those bugs is a massive bottleneck. \n\nEnter Tracely: Turn unpredictable production AI agent failures into zero-cost, hermetic regression tests and block bad code in CI. 🚀\n\nTracely bridges the gap between production observability and testing by automatically ingesting and grading production agent traces. It clusters failures into actionable issues, freezes failing runs into hermetic regression test fixtures, and stops bad pull requests right in their tracks.\n\nHere is what makes it a game-changer for AI engineering teams:\n\n⚡ Trace-Native CI/CD Gates: Replay recorded failure fixtures in CI offline with zero model spend and zero API keys required, blocking pull requests via strict pass/fail contracts.\n🧠 Automated Failure Clustering: Group erratic agent trace errors using structural signatures and semantic embeddings into actionable issues with auto-suggested evaluators.\n📦 Hermetic Regression Case Promotion: Instantly promote a real failing trace into a packaged test bundle complete with recorded inputs, tool calls, and LLM outputs.\n📊 Visual Alert Flows & Evaluations: Combine real-time SSE-streamed LLM judges directly on trace tables with a visual node-based canvas for custom conditional alerting workflows.\n\nStop wasting time and money hand-authoring LLM test datasets. Get high-fidelity safety guarantees for your non-deterministic agent code at zero token cost.\n\n👉 Check it out on GitHub: https://github.com/jwuthri-cloud/Tracely-ai\n\nDrop a star to support the project, and let us know in the comments how you are currently handling your LLM agent regression testing! 👇\n\n#AIEngineering #LLM #DevOps #MachineLearning #GitHub #SoftwareDevelopment #ArtificialIntelligence",
       "image_file": "2_jwuthri-cloud_Tracely-ai.png",
       "photo_id": "122122124673476221",
-      "published_post_id": null,
-      "published_at": null
+      "published_post_id": "1410193715501138_122122160091476221",
+      "published_at": "2026-10-19T11:00:37.804529+08:00"
     },
     {
       "rank": 3,
