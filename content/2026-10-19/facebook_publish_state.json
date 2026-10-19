@@ -44,8 +44,8 @@
       "caption": "Turn your laggy, ad-infested Smart TV into a clean, lightning-fast setup with an Apple TV-inspired interface! 📺⚡\n\nMost Android TVs ship with sluggish interfaces, aggressive manufacturer telemetry, and unskippable ads that drain limited hardware resources. \n\ntv-vibehack is an open-source, zero-root debloating toolkit and custom launcher built specifically to reclaim your TV's performance. \n\nKey features include:\n🐍 Pure-Python ADB Client: A standalone Python script replacing standard binaries to handle network operations smoothly.\n🛡️ Reversible Debloating: Safely disables bloatware and ads using pm disable-user without permanent uninstallation.\n🚀 Ultra-Lightweight Launcher: A tiny 1.6 MB Java application designed for 1 GB RAM systems with zero background services.\n🤖 AI-Assisted Discovery: Integrates prompts for LLM coding assistants to safely map out model-specific package bloat.\n\nWhether you are looking for production-ready patterns in programmatic ADB automation, cross-platform provisioning utilities, or clean-room Android UI design for constrained hardware, this repository is worth a star.\n\nCheck it out and drop your feedback here:\nhttps://github.com/Gathin23/tv-vibehack\n\nWhat is the first app or service you disable on a new Smart TV? Let us know in the comments! 👇\n\n#AndroidDev #Python #SoftwareEngineering #OpenSource #AndroidTV #AppDevelopment #TechCommunity",
       "image_file": "5_Gathin23_tv-vibehack.png",
       "photo_id": "122122124799476221",
-      "published_post_id": null,
-      "published_at": null
+      "published_post_id": "1410193715501138_122122295373476221",
+      "published_at": "2026-10-19T23:00:42.354669+08:00"
     }
   ]
 }
