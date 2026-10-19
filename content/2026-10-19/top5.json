@@ -1,0 +1,54 @@
+{
+  "top_repositories": [
+    {
+      "rank": 1,
+      "name": "Leonxlnx/earshot",
+      "score": 93,
+      "reason": "Brings an entirely novel sensory modality (audio listening/review) to coding agents using CPU-only local processing.",
+      "why_interesting_today": "As AI coding agents like Claude Code become mainstream, expanding their feedback loops beyond visual text diffs into audio review is a cutting-edge frontier.",
+      "why_developers_should_care": "Allows developers to give AI coding agents 'ears' to hear, review, and evaluate sound or audio feedback locally without heavy GPU dependencies.",
+      "momentum": "Strong early traction for a specialized AI agent plugin tool with steady activity.",
+      "novelty": "High novelty; introduces audio-based debugging and feedback loops specifically designed for modern AI coding workflows."
+    },
+    {
+      "rank": 2,
+      "name": "LiCinCan/blender-ai-mcp-addon",
+      "score": 91,
+      "reason": "Bridges Model Context Protocol (MCP) and LLMs directly into Blender for multi-agent 3D automation and visual scripting.",
+      "why_interesting_today": "Extends the usefulness of AI agents out of text editors and terminal windows and directly into complex 3D creative software and bpy scripting.",
+      "why_developers_should_care": "Provides a robust copilot and MCP server for 3D graphics, streamlining procedural generation and scene management through natural language.",
+      "momentum": "Solid initial adoption with strong fork-to-star ratio, indicating deep utility among developers testing 3D AI integrations.",
+      "novelty": "Brings modern multi-agent LLM workflows into a historically isolated domain like 3D modeling and animation."
+    },
+    {
+      "rank": 3,
+      "name": "aicodeking/leanrea",
+      "score": 89,
+      "reason": "A lightweight, highly efficient CLI skill alternative to heavy reverse-engineering frameworks, boasting measurable speed and cost improvements.",
+      "why_interesting_today": "Reflects the ongoing industry shift toward ultra-lean, modular AI agent skills over bloated, complex MCP architectures.",
+      "why_developers_should_care": "Offers a faster (38%) and cheaper (35%) way to handle reverse engineering tasks via plain CLI tools.",
+      "momentum": "Rapidly gaining interest among developers looking to optimize their LLM agent prompt/skill overhead.",
+      "novelty": "Strips away unnecessary protocol overhead in favor of a hyper-focused, minimal command-line agent skill."
+    },
+    {
+      "rank": 4,
+      "name": "AjncSystem/ShadowOfTheColossus-PC",
+      "score": 87,
+      "reason": "An impressive native PC port project bringing a major console title (PS4 version) to desktop environments.",
+      "why_interesting_today": "Demonstrates advanced systems-level reverse engineering, graphics API translation, and native performance optimization.",
+      "why_developers_should_care": "Fascinating case study in low-level C++ systems programming, asset parsing, and platform porting architecture.",
+      "momentum": "Experiencing notable star growth and active day-to-day commit velocity.",
+      "novelty": "High technical significance in the game preservation and native porting community."
+    },
+    {
+      "rank": 5,
+      "name": "Gathin23/cleanyourtv",
+      "score": 85,
+      "reason": "A practical developer utility that lets users debloat Android/Google TVs over Wi-Fi and inject a clean, privacy-focused UI.",
+      "why_interesting_today": "Hits a strong chord for developer-centric self-hosting and hardware customization, stripping away invasive smart TV telemetry.",
+      "why_developers_should_care": "Leverages ADB and modern tooling to reclaim hardware control over commercial streaming devices.",
+      "momentum": "Healthy organic growth for a newly released utility tool.",
+      "novelty": "Clever application of standard debugging protocols to drastically improve consumer hardware UX."
+    }
+  ]
+}

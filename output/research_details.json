@@ -3,136 +3,136 @@
   "repositories": [
     {
       "rank": 1,
-      "name": "firecrawl/firecrawl",
-      "score": 96,
-      "reason": "Massive star momentum (280 growth) combined with critical high-utility tooling for the booming AI agent ecosystem.",
-      "why_interesting_today": "Web data extraction remains one of the highest friction points for LLM developers; Firecrawl turns chaotic unstructured web pages into clean markdown natively optimized for AI ingestion.",
-      "why_developers_should_care": "It eliminates complex custom scraping pipelines, proxies, and rendering boilerplate, allowing developers to feed real-time web context directly into agents.",
-      "momentum": "Extremely high daily star velocity and active commit frequency relative to its age.",
-      "novelty": "Bridges the gap between raw unstructured HTML and direct LLM-ready markdown contexts efficiently.",
+      "name": "Leonxlnx/earshot",
+      "score": 93,
+      "reason": "Brings an entirely novel sensory modality (audio listening/review) to coding agents using CPU-only local processing.",
+      "why_interesting_today": "As AI coding agents like Claude Code become mainstream, expanding their feedback loops beyond visual text diffs into audio review is a cutting-edge frontier.",
+      "why_developers_should_care": "Allows developers to give AI coding agents 'ears' to hear, review, and evaluate sound or audio feedback locally without heavy GPU dependencies.",
+      "momentum": "Strong early traction for a specialized AI agent plugin tool with steady activity.",
+      "novelty": "High novelty; introduces audio-based debugging and feedback loops specifically designed for modern AI coding workflows.",
       "deep_analysis": {
-        "name": "firecrawl/firecrawl",
-        "headline_hook": "Firecrawl transforms chaotic, JavaScript-heavy web pages into clean LLM-ready markdown instantly, solving the biggest friction point in building AI agents.",
-        "core_functionality": "Firecrawl automates web data extraction and interaction by converting arbitrary URLs, search queries, or natural language prompts into clean, structured data and LLM-friendly markdown, entirely bypassing proxy management, rate limiting, and JavaScript rendering hurdles.",
+        "name": "Leonxlnx/earshot",
+        "headline_hook": "Earshot bridges the sensory gap for AI coding agents by providing CPU-only local audio processing, letting them listen to, critique, and programmatically synthesize sound effects for films and games.",
+        "core_functionality": "Earshot solves the problem of sensory blindness in AI coding agents by giving them the ability to process, analyze, and evaluate audio data locally on a CPU. While modern coding agents can write code to generate digital media, they traditionally lack any feedback loop to evaluate the audio they produce. Earshot acts as a comprehensive audio analysis, critique, and synthesis engine that translates sound files into actionable textual evidence, objective measurements, and structured scorecards that an agent can reason about.",
         "key_features": [
-          "AI-Powered Autonomous Agent: Gathers information and returns structured data using natural language prompts without requiring predefined URLs.",
-          "LLM-Ready & Media Parsing Output: Instantly cleans and formats web pages, PDFs, and DOCX files into token-efficient markdown or strict JSON schemas.",
-          "Interactive Browser Actions: Enables programmatic or AI-driven interaction with pages to click, scroll, fill forms, and execute complex workflows.",
-          "Native AI Ecosystem Integration: Provides built-in support for MCP (Model Context Protocol) clients and CLI developer skills out of the box."
+          "Comprehensive Audio Analysis and Critique: Converts sound into readable semantic data, providing calibrated tags, descriptive matches, realness scores, second-by-second listening transcripts, and automated launch-video scorecards compared against professional references.",
+          "Programmatic Sound Synthesis and Forge: Enables AI agents to write code-based recipes using physical synthesis techniques (modal resonators, filtered noise) and iteratively improve them using an automated critic that measures artifacts, tonal balance, and envelope shape.",
+          "Built-in Sound Effect Bank and Kits: Ships with a bank of 201 programmatic sound effects and kits that can be rendered by ID with timed sync points for films without requiring external AI models or a network connection.",
+          "Multiple Integration Interfaces: Operates locally via a command-line interface, a Python API, and a Model Context Protocol (MCP) server designed to integrate seamlessly with AI agents like Claude Code."
         ],
-        "target_audience": "AI engineers, full-stack developers, and automation specialists building LLM agents, retrieval-augmented generation (RAG) systems, or data harvesting pipelines.",
-        "practical_developer_value": "Developers save weeks of engineering time usually wasted on building custom scrapers, handling IP rotation, fighting Cloudflare blocks, and parsing messy HTML. By integrating Firecrawl via Python, Node.js, CLI, or MCP, developers can feed real-time, clean web data directly into AI applications with minimal configuration.",
+        "target_audience": "AI engineers, developer tooling creators, creative technologists, and software developers building autonomous coding agents or multimedia-generation workflows.",
+        "practical_developer_value": "Developers building autonomous agents or automated media pipelines can use Earshot to close the feedback loop on audio generation tasks. Instead of treating audio output as a black box, an agent can use the MCP server or Python API to listen to its output, measure LUFS and peak levels, check sync points against video cuts, and iteratively fix synthesis parameters until the audio meets professional standards entirely on local CPU resources.",
         "suggested_use_cases": [
-          "Building real-time web-aware AI agents that can browse, search, and extract information dynamically.",
-          "Automating competitive intelligence and lead generation by mapping, crawling, and structuring large corporate websites."
+          "Integrating the MCP server into Claude Code to allow an AI assistant to automatically test, review, and refine code that renders games, product demos, or promotional films.",
+          "Building automated CI/CD pipelines that audit generated video and audio assets for professional polish, loudness compliance, and timing accuracy."
         ]
       }
     },
     {
       "rank": 2,
-      "name": "jwuthri-cloud/Tracely-ai",
+      "name": "LiCinCan/blender-ai-mcp-addon",
       "score": 91,
-      "reason": "Addresses the most painful bottleneck in modern AI engineering: turning erratic production agent traces into reliable regression tests.",
-      "why_interesting_today": "As agentic workflows move to production, debugging non-deterministic failures is notoriously difficult without specialized tracing and CI/CD gates.",
-      "why_developers_should_care": "It enables teams to self-host trace-native CI/CD that blocks pull requests on agent regression, bringing traditional software engineering rigor to LLM apps.",
-      "momentum": "Rapidly gaining developer mindshare and strong early forks for a specialized infrastructure tool.",
-      "novelty": "Translates production execution failures directly into replayable test suites.",
+      "reason": "Bridges Model Context Protocol (MCP) and LLMs directly into Blender for multi-agent 3D automation and visual scripting.",
+      "why_interesting_today": "Extends the usefulness of AI agents out of text editors and terminal windows and directly into complex 3D creative software and bpy scripting.",
+      "why_developers_should_care": "Provides a robust copilot and MCP server for 3D graphics, streamlining procedural generation and scene management through natural language.",
+      "momentum": "Solid initial adoption with strong fork-to-star ratio, indicating deep utility among developers testing 3D AI integrations.",
+      "novelty": "Brings modern multi-agent LLM workflows into a historically isolated domain like 3D modeling and animation.",
       "deep_analysis": {
-        "name": "jwuthri-cloud/Tracely-ai",
-        "headline_hook": "Tracely turns unpredictable production AI agent failures into zero-cost, hermetic regression tests and blocks bad code in CI.",
-        "core_functionality": "Tracely addresses the core bottleneck of AI engineering by bridging the gap between production observability and testing. Instead of forcing developers to manually author speculative test datasets, Tracely automatically ingests and grades production agent traces, clusters failures into issues, freezes failing runs into hermetic regression test fixtures, and blocks pull requests that introduce regressions.",
+        "name": "LiCinCan/blender-ai-mcp-addon",
+        "headline_hook": "Bridge the Model Context Protocol directly into Blender to orchestrate multi-agent 3D automation and visual scripting through local or cloud LLMs.",
+        "core_functionality": "The project solves the isolation of AI models from heavy creative applications by embedding a Model Context Protocol server and visual studio workspace directly into Blender, allowing LLMs to inspect scenes, execute Python scripts, manipulate 3D assets, and coordinate multi-step workflows.",
         "key_features": [
-          "Trace-Native CI/CD Gates: Replays recorded failure fixtures in CI offline with zero model spend and zero API keys required, blocking pull requests via strict pass/fail contracts.",
-          "Automated Failure Clustering: Groups erratic agent trace errors using structural signatures and semantic embeddings into actionable issues with auto-suggested evaluators.",
-          "Hermetic Regression Case Promotion: Promotes a real failing trace instantly into a packaged test bundle complete with recorded inputs, tool calls, and LLM outputs.",
-          "Visual Alert Flows & Evaluations: Combines real-time SSE-streamed LLM judges directly on trace tables with a visual node-based canvas for custom conditional alerting workflows."
+          "Built-in Model Context Protocol (MCP) server supporting authenticated Streamable HTTP MCP connections for external clients like OpenCode.",
+          "Comprehensive suite of 21 scene tools covering inspection, object creation, editing, viewport screenshots, dynamic bpy API lookup, and asset importation.",
+          "Multi-agent team chain architecture featuring managers, workers, and reviewers with structured task boards and automated error correction.",
+          "Extensive model provider flexibility supporting OpenAI, Anthropic, Google Gemini, OpenRouter, Ollama local models, and custom API endpoints."
         ],
-        "target_audience": "AI Engineers, LLM application developers, and Backend/DevOps engineers building and scaling production agentic workflows.",
-        "practical_developer_value": "Developers save significant time and money by eliminating the need to hand-author and constantly update LLM test datasets. By running regression tests locally or in CI against recorded production traces without live model calls, teams achieve high-fidelity safety guarantees for non-deterministic agent code at zero token cost.",
+        "target_audience": "Technical artists, AI software engineers, and 3D tool developers building automated content pipelines or interactive AI extensions.",
+        "practical_developer_value": "Developers can leverage the Model Context Protocol to programmatically interact with complex domain-specific APIs like Blender's bpy Python engine without writing manual boilerplate. It provides a blueprint for exposing native desktop application state and tooling securely to external LLM agents and multi-step agent workflows.",
         "suggested_use_cases": [
-          "Integrating Tracely into GitHub Actions to block pull requests that reintroduce specific multi-turn tool calling failures caught in production.",
-          "Using failure clusters and automated trace scoring to audit and calibrate LLM judges before allowing them to gate production releases."
+          "Automating repetitive 3D product-display scene generation and asset populating from text prompts.",
+          "Building multi-agent quality assurance pipelines that programmatically inspect, render, and refine architectural or gaming assets."
         ]
       }
     },
     {
       "rank": 3,
-      "name": "rohit267/net-merge",
-      "score": 88,
-      "reason": "High-utility practical networking tool solving a universal developer pain point: combining multiple internet connections simultaneously.",
-      "why_interesting_today": "Remote developers and engineers often juggle unstable Wi-Fi, Ethernet, and phone tethering; net-merge offers seamless per-connection load balancing across OS platforms.",
-      "why_developers_should_care": "It leverages TUN/Wintun drivers to transparently aggregate bandwidth without needing proprietary enterprise bonding hardware.",
-      "momentum": "Steady organic traction and strong technical validation from developers working in low-connectivity or high-bandwidth scenarios.",
-      "novelty": "Brings robust client-side network bonding and load balancing to everyday desktop environments.",
+      "name": "aicodeking/leanrea",
+      "score": 89,
+      "reason": "A lightweight, highly efficient CLI skill alternative to heavy reverse-engineering frameworks, boasting measurable speed and cost improvements.",
+      "why_interesting_today": "Reflects the ongoing industry shift toward ultra-lean, modular AI agent skills over bloated, complex MCP architectures.",
+      "why_developers_should_care": "Offers a faster (38%) and cheaper (35%) way to handle reverse engineering tasks via plain CLI tools.",
+      "momentum": "Rapidly gaining interest among developers looking to optimize their LLM agent prompt/skill overhead.",
+      "novelty": "Strips away unnecessary protocol overhead in favor of a hyper-focused, minimal command-line agent skill.",
       "deep_analysis": {
-        "name": "rohit267/net-merge",
-        "headline_hook": "Tired of unstable Wi-Fi and slow hotel connections? net-merge lets you combine your Wi-Fi, Ethernet, and phone tethering simultaneously into a single aggregated pipe across macOS, Windows, and Linux without a VPN or server.",
-        "core_functionality": "net-merge solves the developer and remote worker pain point of dealing with a single, potentially unstable or slow internet connection by pooling multiple active network adapters together. It dynamically balances and spreads out concurrent TCP and UDP connections across all available interfaces, aggregating bandwidth without requiring a proxy, external server, or paid VPN subscription.",
+        "name": "aicodeking/leanrea",
+        "headline_hook": "Ditch bloated MCP tool servers and save over sixty percent in token overhead for AI agent reverse engineering tasks using a single eight-kilobyte skill file.",
+        "core_functionality": "leanrea replaces heavy Model Context Protocol server architectures and hundreds of bundled tool definitions with an ultra-lightweight skill file. Instead of routing reverse-engineering commands through intermediate wrapper layers that bloat prompt context, it teaches AI coding assistants how to execute standard shell-based recon commands directly.",
         "key_features": [
-          "Per-connection multi-link load balancing that distributes traffic based on interface speed, automatically ignoring dead links until they recover.",
-          "Cross-platform system tray and menu bar integration supporting Windows, macOS (Universal binaries), and a wide array of Linux distributions.",
-          "Zero-configuration design with no mandatory user accounts, proxies, or remote servers required, keeping data local and private.",
-          "Lightweight architecture consuming only about 0.18 CPU cores per 100 Mbit/s of traffic, with graceful fail-safe behavior where the system network remains functional even if the app crashes."
+          "Zero added tool definitions, relying entirely on native agent Bash execution to slash token overhead and drastically reduce initialization costs.",
+          "A built-in command router mapping target types such as Electron app asar bundles, Mach-O binaries, Go binaries, and SQLite databases to the absolute fastest raw command.",
+          "Comprehensive trap lists and speed patterns extracted from heavy frameworks, guiding agents away from common analysis failures without manual intervention.",
+          "Seamless installation through the skills CLI supporting major AI agents like Claude Code, Cursor, and Gemini CLI."
         ],
-        "target_audience": "Remote developers, infrastructure engineers, DevOps professionals, and heavy data users who frequently download large dependencies, Docker images, or game builds while dealing with spotty network conditions.",
-        "practical_developer_value": "Developers often work in bandwidth-constrained environments—such as traveling, working from home with fluctuating broadband, or dealing with congested office Wi-Fi. By bonding an Ethernet connection with a cellular hotspot, developers can dramatically accelerate heavy operations like pulling massive multi-gigabyte container images, syncing large cloud repositories, fetching heavy vendor dependencies, or downloading game builds, without altering application code or configuring complicated proxy routing tables.",
+        "target_audience": "AI engineers, security researchers, and software developers building or utilizing LLM coding agents who want to minimize token costs, reduce latency, and avoid the complexity of maintaining massive MCP tool inventories.",
+        "practical_developer_value": "Developers save significant API costs and reduce latency during agentic debugging and code exploration sessions. By stripping away hundreds of unnecessary tool definitions, agents spend fewer tokens on context overhead, run fewer turns, and complete complex reverse-engineering tasks faster and more accurately.",
         "suggested_use_cases": [
-          "Combining wired Ethernet and a mobile phone USB tether to drastically reduce download times for heavy software development dependencies and local container registries.",
-          "Ensuring uninterrupted remote workflow continuity by dynamically failing over or supplementing an unstable primary Wi-Fi connection with a secondary cellular hotspot."
+          "Tracing proprietary feature implementations through compiled Electron application bundles and native node modules.",
+          "Auditing third-party binaries, Go toolchains, and mobile APKs for security vulnerabilities and dependency versions using standard terminal utilities."
         ]
       }
     },
     {
       "rank": 4,
-      "name": "Supermedo/uncharted_pc",
-      "score": 85,
-      "reason": "Exceptional technical significance in reverse engineering and native source porting of complex console games.",
-      "why_interesting_today": "Demonstrates advanced systems-level C++ wizardry by bringing console-exclusive titles to native Windows environments.",
-      "why_developers_should_care": "Fascinating case study in low-level graphics API translation, memory management, and cross-platform architecture disassembly.",
-      "momentum": "Sudden sharp spikes in star growth following recent code pushes and community releases.",
-      "novelty": "High novelty in reverse-engineering consumer software archives into fully functional native ports.",
+      "name": "AjncSystem/ShadowOfTheColossus-PC",
+      "score": 87,
+      "reason": "An impressive native PC port project bringing a major console title (PS4 version) to desktop environments.",
+      "why_interesting_today": "Demonstrates advanced systems-level reverse engineering, graphics API translation, and native performance optimization.",
+      "why_developers_should_care": "Fascinating case study in low-level C++ systems programming, asset parsing, and platform porting architecture.",
+      "momentum": "Experiencing notable star growth and active day-to-day commit velocity.",
+      "novelty": "High technical significance in the game preservation and native porting community.",
       "deep_analysis": {
-        "name": "Supermedo/uncharted_pc",
-        "headline_hook": "This open-source native Windows port runs the PS4 Uncharted collection directly on PC by translating its original game code and piping graphics through Vulkan.",
-        "core_functionality": "The project solves the challenge of console-exclusivity by enabling original PlayStation 4 game binaries (Uncharted: The Nathan Drake Collection) to execute natively on Windows 10 and 11 environments. Instead of traditional full-system emulation, it runs the native game code directly on the host CPU while translating graphics API calls to Vulkan and wrapping proprietary platform subsystems.",
+        "name": "AjncSystem/ShadowOfTheColossus-PC",
+        "headline_hook": "Experience the Bluepoint remaster of Shadow of the Colossus natively on Windows PCs via an advanced game loader and Vulkan graphics translation layer.",
+        "core_functionality": "The project serves as a native PC port loader for the PlayStation 4 version of Shadow of the Colossus. Rather than operating as a heavy traditional emulator, it executes the game's original x86-64 machine code directly on the host CPU while intercepting system calls and translating the PlayStation 4 GPU pipeline to modern Vulkan APIs.",
         "key_features": [
-          "Native execution of original PS4 game code binaries directly on Windows x86_64 hardware with Vulkan graphics translation.",
-          "Advanced upscaling and frame generation integration supporting AMD FSR 3.1, FSR 4, NVIDIA DLSS, and DLAA.",
-          "Comprehensive unified launcher supporting all three titles with customized input mapping, high refresh rates up to 120+ FPS, and desktop integration.",
-          "Advanced systems-level workarounds including instruction emulation (such as translating missing MOVBE instructions for older AMD FX processors) and custom graphics pipeline synchronization."
+          "Direct x86-64 CPU execution coupled with real-time Vulkan graphics API translation via a specialized shadPS4-derived core.",
+          "A comprehensive custom launcher providing automated asset validation, save migration, resolution scaling up to 4K, and aspect ratio support for 21:9 and 32:9 displays.",
+          "Advanced performance and visual enhancements, including configurable 30/60/unlimited framerates, experimental FSR 3 and DLSS-G frame generation, and high-quality texture streaming fixes.",
+          "Modular system integration that hooks directly into user-provided PlayStation 4 firmware components (such as audio modules) to guarantee authentic audio and system behavior."
         ],
-        "target_audience": "Systems software engineers, reverse engineers, graphics programmers, and emulation developers interested in low-level binary translation, graphics API bridging, and native porting architectures.",
-        "practical_developer_value": "Developers working on complex systems integration, cross-platform portability, or graphics rendering pipelines can study this repository as a masterclass in modern hardware abstraction and graphics translation. It demonstrates how to bridge proprietary console runtimes with modern PC upscaling technologies like DLSS and FSR, manage low-level memory allocation via Vulkan Memory Allocator, and handle platform-specific CPU instruction discrepancies.",
+        "target_audience": "Systems engineers, graphics programmers, emulator developers, and reverse engineers interested in low-level binary analysis, hardware abstraction, and API translation layers.",
+        "practical_developer_value": "Developers working on graphics pipeline translation, compatibility layers, and systems-level reverse engineering can study this codebase to understand how to map proprietary console graphics APIs to modern cross-platform graphics backends like Vulkan. It offers blueprints for memory management under 31-bit pointer constraints, thread handling, and dynamic shader translation.",
         "suggested_use_cases": [
-          "Studying advanced graphics API translation architectures bridging proprietary console runtimes to Vulkan.",
-          "Investigating low-level instruction set emulation techniques for executing foreign platform binaries on standard x86_64 Windows hardware."
+          "Studying advanced graphics API translation techniques from proprietary console frameworks to Vulkan SPIR-V.",
+          "Analyzing binary loaders and system call interception methodologies for running console software on desktop operating systems."
         ]
       }
     },
     {
       "rank": 5,
-      "name": "Gathin23/tv-vibehack",
-      "score": 82,
-      "reason": "Highly practical, creative, and timely developer utility built natively using modern AI coding workflows.",
-      "why_interesting_today": "Smart TVs are notoriously bogged down by intrusive launcher ads and bloatware; this project provides a clean, tvOS-inspired debloater over ADB.",
-      "why_developers_should_care": "Showcases how rapidly developers can scratch their own itches and build polished consumer-facing utilities using tools like Claude Code in a single afternoon.",
-      "momentum": "Impressive velocity for a newly introduced personal project with high social engagement.",
-      "novelty": "Combines ADB device management with minimalist aesthetic design principles for hardware UI.",
+      "name": "Gathin23/cleanyourtv",
+      "score": 85,
+      "reason": "A practical developer utility that lets users debloat Android/Google TVs over Wi-Fi and inject a clean, privacy-focused UI.",
+      "why_interesting_today": "Hits a strong chord for developer-centric self-hosting and hardware customization, stripping away invasive smart TV telemetry.",
+      "why_developers_should_care": "Leverages ADB and modern tooling to reclaim hardware control over commercial streaming devices.",
+      "momentum": "Healthy organic growth for a newly released utility tool.",
+      "novelty": "Clever application of standard debugging protocols to drastically improve consumer hardware UX.",
       "deep_analysis": {
-        "name": "Gathin23/tv-vibehack",
-        "headline_hook": "Strip invasive ads and bloatware from any Android TV using a custom AI-driven workflow and a lightning-fast, Apple TV-inspired native launcher.",
-        "core_functionality": "The project solves the problem of sluggish, ad-infested Smart TV interfaces by providing a zero-root debloating toolkit over Wi-Fi and a custom, lightweight replacement launcher built for low-spec hardware.",
+        "name": "Gathin23/cleanyourtv",
+        "headline_hook": "Strip invasive ads and manufacturer bloatware from Android and Google TVs over Wi-Fi without rooting, replacing the home screen with a clean Apple TV-style launcher.",
+        "core_functionality": "The project solves the problem of invasive smart TV telemetry, sponsored content rows, and preloaded junk by leveraging the Android Debug Bridge (ADB) over Wi-Fi. It backs up device settings, safely disables manufacturer ad services and bloatware packages using pm disable-user without uninstallation, and injects a lightweight, privacy-focused alternative native launcher.",
         "key_features": [
-          "Pure-Python ADB Client: A standalone Python script that replaces standard ADB binaries to bypass local network privacy restrictions and flaky system integrations.",
-          "Reversible Debloating: Disables manufacturer telemetry, ads, and bloatware using pm disable-user without permanently uninstalling packages, ensuring a safe one-line restore.",
-          "Resource-Efficient Native Launcher: A tiny 1.6 MB Java application designed for 1 GB RAM systems featuring a clean Apple TV-inspired layout, smooth memory management, and zero background services.",
-          "AI-Assisted Discovery Workflow: Integrates an automated prompt designed for LLM coding assistants to discover model-specific bloatware safely via interactive checklists."
+          "Wireless ADB Debloating: Connects to Android and Google TVs over Wi-Fi to backup state and disable telemetry, ad services, and preloaded junk packages via pm disable-user.",
+          "Safe Reversible Modifications: Nothing is uninstalled, ensuring a complete one-line restore script can undo any change if needed.",
+          "Custom Minimalist Launcher: Installs a native, lightweight 280 KB launcher featuring a pitch-black home screen, customizable app docks, top-shelf dynamic color ambient glows, and a glass highlight grid navigation.",
+          "AI-Driven Automation Support: Integrates a structured prompt for AI coding assistants like Claude Code to discover specific TV models, map installed packages, and guide users through the debloating process."
         ],
-        "target_audience": "Android developers, systems hobbyists, and software engineers looking for practical automation scripts and lightweight native mobile/TV UI development patterns.",
-        "practical_developer_value": "Developers gain access to production-ready patterns for programmatic ADB automation in Python, cross-platform PowerShell and shell script utilities for device provisioning, and clean-room Android UI design optimized for extremely constrained hardware environments.",
+        "target_audience": "Hardware hackers, privacy advocates, self-hosters, and developers looking to customize consumer electronics or automate Android debugging via AI assistants.",
+        "practical_developer_value": "Developers can learn how to programmatically interact with the Android Debug Bridge over Wi-Fi, script bulk package management operations for custom hardware environments, and build lightweight, high-performance native UI overlays for constrained embedded systems. It also serves as a practical blueprint for leveraging AI coding assistants in physical device automation.",
         "suggested_use_cases": [
-          "Automating mass provisioning or configuration testing for Android-based IoT and embedded hardware devices.",
-          "Building custom kiosk-mode interfaces or specialized launchers for resource-constrained Android displays."
+          "Automating the setup and hardening of smart TV fleets or digital signage hardware in residential or commercial spaces.",
+          "Building custom local module plugins that inject interactive widgets and media feeds into the launcher home screen."
         ]
       }
     }
