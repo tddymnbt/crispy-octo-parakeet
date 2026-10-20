@@ -44,8 +44,8 @@
       "caption": "Tired of your smart TV serving up invasive telemetry, sponsored content rows, and manufacturer bloatware right on your home screen? 📺🔥\n\nMeet CleanYourTV: the ultimate tool to reclaim your Android or Google TV over Wi-Fi without ever needing to root your device. \n\nThe Problem:\nModern smart TVs are packed with preloaded junk, non-removable ad services, and constant tracking. CleanYourTV solves this by leveraging Wireless ADB to clean up your living room hardware, protect your privacy, and swap out the cluttered default interface for a sleek alternative.\n\nKey Features:\n⚡ Wireless ADB Debloating: Connect over Wi-Fi to backup device state and safely disable telemetry and ad packages using pm disable-user.\n🛡️ Safe & Reversible: Nothing is permanently uninstalled, meaning a simple one-line restore script rolls back any change instantly.\n🖤 Custom Minimalist Launcher: Installs a native, ultra-lightweight 280 KB launcher featuring a pitch-black home screen, customizable docks, ambient color glows, and a glass highlight grid.\n🤖 AI-Driven Automation: Includes structured prompts for AI coding assistants like Claude Code to map packages and guide your debloating setup.\n\nFor Developers & Tinkerers:\nLearn how to programmatically interact with ADB over Wi-Fi, script bulk package management for constrained embedded systems, build high-performance native UI overlays, and leverage AI for physical device automation.\n\nCheck out the repo and start customizing your setup today:\nhttps://github.com/Gathin23/cleanyourtv\n\nDrop a comment below if you have questions about the setup, and hit that link to star the repository! 👇\n\n#AndroidDev #SmartTV #OpenSource #Privacy #Developer #GitHub #ADB #AIAutomation",
       "image_file": "5_Gathin23_cleanyourtv.png",
       "photo_id": "122122400823476221",
-      "published_post_id": null,
-      "published_at": null
+      "published_post_id": "1410193715501138_122122590441476221",
+      "published_at": "2026-10-20T23:00:40.077131+08:00"
     }
   ]
 }
