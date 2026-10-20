@@ -26,8 +26,8 @@
       "caption": "Stop wasting your API budget on bloated MCP tool servers for AI agent reverse engineering. \n\nMeet Leanrea: an ultra-lightweight, 8KB skill file that slashes token overhead by over 60% for AI agent reverse engineering tasks. \n\nIf you are tired of routing commands through heavy Model Context Protocol wrappers and hundreds of unnecessary tool definitions, Leanrea is the fix. Instead of bloating your prompt context, it teaches AI coding assistants to execute standard shell-based recon commands directly.\n\nHere is why your agent workflow needs it:\n⚡ Zero Added Tool Definitions: Relies entirely on native agent Bash execution to slash token overhead and dramatically cut initialization costs.\n🎯 Smart Command Router: Maps target types—like Electron app asar bundles, Mach-O binaries, Go binaries, and SQLite databases—to the absolute fastest raw command.\n🛡️ Built-in Speed Patterns: Comprehensive trap lists extracted from heavy frameworks guide agents away from common analysis failures without manual intervention.\n🔌 Seamless CLI Install: Installs instantly via the skills CLI and supports major AI agents like Claude Code, Cursor, and Gemini CLI.\n\nWhether you are tracing proprietary features through compiled Electron bundles or auditing third-party binaries for security vulnerabilities, Leanrea cuts down latency, reduces turns, and saves serious API costs.\n\n👉 Check out the repo and drop it into your workflow today:\nhttps://github.com/aicodeking/leanrea\n\nHow much of your agent token budget is currently eaten up by tool definitions? Let us know in the comments!\n\n#AI #SoftwareEngineering #DeveloperTools #MachineLearning #ArtificialIntelligence #Coding #OpenSource #SecurityResearch",
       "image_file": "3_aicodeking_leanrea.png",
       "photo_id": "122122400715476221",
-      "published_post_id": null,
-      "published_at": null
+      "published_post_id": "1410193715501138_122122476501476221",
+      "published_at": "2026-10-20T15:00:36.662773+08:00"
     },
     {
       "rank": 4,
