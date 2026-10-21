@@ -44,8 +44,8 @@
       "caption": "Tencent-Hunyuan just dropped Hy-Memory: A production-grade cognitive memory engine for LLM agents! 🚀\n\nBuilding stateful LLM agents that actually remember things across sessions is notoriously difficult. Between context window limits, memory bloat, and fragmented data across different developer tools, building custom persistence layers is a massive engineering bottleneck. \n\nHy-Memory completely transforms how AI agents handle long-term context by introducing a dual-system cognitive architecture with specialized pipelines for chat, working environments, and coding.\n\n🔥 Key Features:\n• Dual-System Cognitive Architecture: Features an 8-layer hierarchy for chat, multi-layer abstraction for work, and conflict reconciliation.\n• Specialized Task Pipelines: Tailored processing paths including version-evolution diff-chain tracking for coding agents.\n• MemHub Integration: A local-first desktop and CLI product that unifies conversation history and coding traces from tools like Claude Code, Cursor, and Qwen Code into a single managed directory.\n• Attributed RL Models: Open-source models like Hy-Memory-30B-A3B (alongside FP8 and GGUF versions) trained specifically for high-precision memory extraction.\n• Flexible SDK: Modular Python SDK with zero-cost search routing and native support for vector and graph stores like ChromaDB, Qdrant, FAISS, and Neo4j.\n\nStop letting your agents suffer from short-term memory loss. Embed sophisticated long-term memory, factual consistency, and code-evolution tracking into your apps today.\n\n👉 Check it out on GitHub: https://github.com/Tencent-Hunyuan/Hy-Memory\n\nDrop a comment below: How are you currently handling long-term context and memory bloat in your production LLM agents? 👇\n\n#ArtificialIntelligence #MachineLearning #LLM #SoftwareEngineering #OpenSource #DeveloperTools #TechNews",
       "image_file": "5_Tencent-Hunyuan_Hy-Memory.png",
       "photo_id": "122122746615476221",
-      "published_post_id": null,
-      "published_at": null
+      "published_post_id": "1410193715501138_122122917741476221",
+      "published_at": "2026-10-21T23:00:45.294090+08:00"
     }
   ]
 }
