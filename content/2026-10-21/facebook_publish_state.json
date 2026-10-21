@@ -26,8 +26,8 @@
       "caption": "🎮 Bring AAA Nintendo Switch titles like Zelda natively to Apple Silicon Macs, iPhones, and iPads—without traditional emulation! 🚀\n\nTired of heavy instruction emulation slowing down your favorite games on Apple hardware? \n\nThe MacNativeGames repository (https://github.com/ly05010419/MacNativeGames) lets you compile and run native ARM64 ports of popular Nintendo Switch games directly on Apple Silicon by translating NVN graphics calls straight to Metal and wrapping system services into a local, standalone executable using your own game ROM and keys.\n\n🔥 Key Features:\n• Direct Execution: Native ARM64 game code paired with a high-performance Metal graphics backend instead of slow legacy emulation.\n• Zero-Stutter Shaders: Includes a crowd-sourced shader list with tens of thousands of variants to eliminate pipeline compilation stutter.\n• Cross-Platform: Full support for macOS, iPhone, and iPad complete with integrated touch control layouts and high frame-rate rendering fixes.\n• Automated Builds: Local build scripts that generate custom self-contained app targets straight from your user-supplied game files.\n\n💡 Why Graphics & App Developers Will Love It:\nStudy advanced graphics API translation strategies from proprietary console command buffers to Apple's Metal framework, analyze custom asset pipeline prewarming implementations, and master modern binary packaging practices for multi-platform Apple deployment. \n\nCheck it out on GitHub today and start experimenting with low-overhead graphics translation:\n👉 https://github.com/ly05010419/MacNativeGames\n\n👇 Drop a comment below: What game are you testing first on your M-series Mac or iPad?\n\n#AppleSilicon #MetalAPI #GameDev #iOSDev #NintendoSwitch #MacGaming #OpenSource",
       "image_file": "3_ly05010419_MacNativeGames.png",
       "photo_id": "122122746531476221",
-      "published_post_id": null,
-      "published_at": null
+      "published_post_id": "1410193715501138_122122825467476221",
+      "published_at": "2026-10-21T15:00:35.406619+08:00"
     },
     {
       "rank": 4,
