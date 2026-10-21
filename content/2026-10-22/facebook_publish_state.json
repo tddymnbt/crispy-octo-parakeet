@@ -1,0 +1,51 @@
+{
+  "date": "2026-10-22",
+  "prepared_at": "2026-10-22T07:02:20.677639+08:00",
+  "posts": [
+    {
+      "rank": 1,
+      "repo_name": "deepseek-ai/DeepInfer",
+      "caption": "🚀 DeepSeek has just open-sourced DeepInfer, the high-performance inference framework powering their large-scale production services for DeepSeek-V4.1-Flash!\n\nIf you are scaling frontier language models, you already know the brutal bottlenecks of offline inference. DeepInfer solves this by tightly coupling optimized execution kernels, advanced parallelisms, and zero-overhead batch scheduling to maximize your hardware utilization out of the box. \n\n🔥 Key Features Built for Scale:\n• Custom Kernel Suite: Includes FlashMLA, DeepGEMM, DeepEP, TileKernels, DeepSelect, and TileLang ops.\n• Advanced Parallelism: Covers attention data/balanced context parallelism, MoE expert load balancing, and DSpark confidence-scheduled verification.\n• Production-Ready Runtime: Features async CPU-GPU scheduling overlap, batch-invariant inference, deterministic sampling, and structured outputs.\n• Multi-Hardware Support: Targets modern accelerators including NVIDIA SM100 GPUs and Huawei Ascend 950 NPUs.\n\nWhether you are running high-throughput offline inference pipelines on NVIDIA SM100 clusters or deploying deterministic, structurally constrained LLM outputs for enterprise API services, DeepInfer gives you production-grade muscle.\n\n👉 Check out the repo and start benchmarking today: https://github.com/deepseek-ai/DeepInfer\n\n👇 Drop a comment: Are you testing this on NVIDIA or Huawei hardware? Tag your favorite MLOps engineer below!\n\n#DeepSeek #DeepInfer #AIInfrastructure #MachineLearning #MLOps #ArtificialIntelligence #OpenSource #SoftwareEngineering",
+      "image_file": "1_deepseek-ai_DeepInfer.png",
+      "photo_id": "122123055117476221",
+      "published_post_id": "1410193715501138_122123055333476221",
+      "published_at": "2026-10-22T07:02:24.106855+08:00"
+    },
+    {
+      "rank": 2,
+      "repo_name": "xiaoyang111222/cn-math-taxonomy",
+      "caption": "Ever wonder why a high schooler is struggling with quadratic equations? Spoiler alert: the root cause usually isn't the current lesson—it's a forgotten foundational gap buried all the way back in elementary school! 📉\n\nBuilding an adaptive diagnostic engine or AI tutor from scratch usually means spending months manually mapping out thousands of curriculum standards and prerequisite dependency chains. \n\nEnter cn-math-taxonomy: a meticulously structured open K-12 knowledge graph and adaptive diagnostic engine that traces math and English learning gaps all the way back to elementary school. 🧠✨\n\nHere is what makes it a game-changer for EdTech devs and AI education researchers:\n\n🗺️ Comprehensive K-12 Knowledge Graphs: Encapsulates over 800 math topics and hundreds of English topics, mapping complex dependency edges across grade levels and educational standards.\n🔍 Adaptive Diagnostic Engine: Implements automated backward-tracing logic that traverses prerequisite edges upon encountering a wrong answer to pinpoint root-cause knowledge deficits.\n📝 Built-in Verification & Test Banks: Contains thousands of structured questions mapped directly to curriculum standards, complete with automated verification scripts and review logs.\n📚 Dual-Subject Curriculum Alignment: Fully aligned with official Chinese Ministry of Education curriculum standards and People's Education Press (PEP) textbook chapters for both mathematics and English.\n\nInstead of reinventing the wheel, you can directly ingest these structured JSON datasets to power personalized learning paths, intelligent tutoring systems, or interactive visual knowledge map explorers in your own applications. 🚀\n\nCheck out the repo and start building smarter EdTech today:\nhttps://github.com/xiaoyang111222/cn-math-taxonomy\n\n👇 Drop a comment below: Are you building AI tutors or adaptive learning systems right now? Let us know what tech stack you are using!\n\n#EdTech #ArtificialIntelligence #SoftwareEngineering #MachineLearning #OpenSource #GitHub #Python #DeveloperCommunity",
+      "image_file": "2_xiaoyang111222_cn-math-taxonomy.png",
+      "photo_id": "122123055165476221",
+      "published_post_id": null,
+      "published_at": null
+    },
+    {
+      "rank": 3,
+      "repo_name": "MyLuxy/overdrive",
+      "caption": "🎮 Ever wondered what happens when a closed-source console app gets completely reverse-engineered and brought back to life? \n\nMeet Overdrive (https://github.com/MyLuxy/overdrive)—a feature-complete, community-driven game and homebrew store built specifically for jailbroken PlayStation 5 consoles. After its original shutdown, it was meticulously rebuilt from the ground up by parsing a compiled binary, splitting a monolithic bundled eboot.bin payload back into 137 structured React modules.\n\nIf you are a reverse engineer, systems developer, or just fascinated by non-standard runtime environments, this repository is an absolute goldmine. \n\n⚡ Key Architectural Highlights:\n• Binary Decompilation & Recovery: Reconstructed with verified imports and exports from raw compiled binaries.\n• React on Console: Powered by a vendored version of ps5-react, bridging modern web component architecture with low-level console execution.\n• Automated Hot-Plugging: Integrates with ShadowMount+ payloads to detect, mount, and install .exfat packages via external USB.\n• Self-Updating OTA Loop: Downloads, validates, and swaps package versions at runtime natively on-device.\n\nCheck out the code, study the reverse-engineering methodology, and see how modern React apps can run inside proprietary console ecosystems.\n\n👉 Explore the repo and drop a star: https://github.com/MyLuxy/overdrive\n\nWhat is the wildest reverse-engineering project you have ever worked on? Let us know in the comments! 👇\n\n#PS5 #Homebrew #ReverseEngineering #React #OpenSource #SoftwareDevelopment #CyberSecurity",
+      "image_file": "3_MyLuxy_overdrive.png",
+      "photo_id": "122123055207476221",
+      "published_post_id": null,
+      "published_at": null
+    },
+    {
+      "rank": 4,
+      "repo_name": "pengchujin/aerial-tv",
+      "caption": "Tired of aggressive ads, endless recommendation streams, and bloatware on your smart TV? \n\nMeet Aerial: an open-source, tvOS-inspired Android TV launcher built specifically to take back control of Chinese market hardware like Xiaomi and TCL TVs. 📺✨\n\nDomestic smart TVs are notorious for intrusive ads and aggressive background app killing that constantly resets your custom launcher. Aerial solves this head-on with some clever engineering.\n\nHere is what makes it stand out for developers and power users:\n\n🔄 Resilient Process Management: Bypasses OEM restrictions by combining standard HOME intent registration with a notification listener service and accessibility watchdog to automatically revive your launcher when killed or booted.\n\n🎬 Apple TV-Style Screensavers: Stream 114 stunning Apple TV aerial videos directly from remote servers, complete with daily curated photo slideshows and built-in burn-in prevention.\n\n🎛️ Comprehensive Control Center: Integrates CEC device inputs, network states, brightness and volume sliders, plus a local web server displaying a QR code for seamless mobile-based wallpaper and settings management.\n\n🤖 Developer & Agent-Friendly: Includes automated multi-platform installation scripts and specialized AI Agent instructions to streamline ADB-based setup without requiring root access.\n\nWhether you want a clean, ad-free viewing experience or you are an Android developer looking to study advanced techniques for bypassing OEM process termination and implementing secure local web UIs on embedded systems, this repo is a goldmine.\n\n👉 Check out the source code and start customizing today:\nhttps://github.com/pengchujin/aerial-tv\n\nWhat is your go-to trick for stripping bloatware out of OEM hardware? Let us know in the comments! 👇\n\n#AndroidDev #AndroidTV #OpenSource #CustomROM #SmartTV #SoftwareEngineering #DeveloperCommunity",
+      "image_file": "4_pengchujin_aerial-tv.png",
+      "photo_id": "122123055261476221",
+      "published_post_id": null,
+      "published_at": null
+    },
+    {
+      "rank": 5,
+      "repo_name": "public-apis/public-apis",
+      "caption": "Stop wasting hours searching for free developer tools—this definitive crowdsourced directory indexes hundreds of public APIs and MCP servers for your next project. 🚀\n\nEvery developer knows the pain of hunting down reliable, free data sources, mock services, and third-party integrations across scattered web searches. It drains your momentum before you even write the first line of code.\n\nEnter public-apis/public-apis, the ultimate community-curated index designed to accelerate your product development. \n\nHere is what makes it an essential bookmark for your workflow:\n• Crowdsourced & Structured: Hundreds of public APIs cleanly categorized by domain, from weather and geolocation to financial data.\n• Model Context Protocol (MCP) Support: Easily integrate MCP servers via stdio or HTTP transports so AI assistants like Claude or Cursor can interact with real-time external tools.\n• Rapid Prototyping: Jumpstart your builds with direct integration pathways, Postman collections, and native SDK links.\n\nWhether you are an indie hacker shipping an MVP, an AI engineer wiring up autonomous agents, or a full-stack dev needing quick fallback data, this single source of truth saves you massive amounts of discovery time. ⏱️\n\nCheck out the repository and drop a star to support the community:\nhttps://github.com/public-apis/public-apis\n\nWhat is the absolute best API you have ever used in a side project? Drop it in the comments below! 👇\n\n#SoftwareEngineering #WebDev #AI #OpenSource #APIs #IndieHacker #Coding",
+      "image_file": "5_public-apis_public-apis.png",
+      "photo_id": "122123055303476221",
+      "published_post_id": null,
+      "published_at": null
+    }
+  ]
+}

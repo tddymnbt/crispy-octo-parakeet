@@ -3,136 +3,135 @@
   "repositories": [
     {
       "rank": 1,
-      "name": "alchaincyf/huashu-motion",
-      "score": 93,
-      "reason": "An innovative agent-skill toolkit that allows coding agents to generate and dynamically edit commercial-grade launch and promotional motion graphics.",
-      "why_interesting_today": "It bridges the gap between raw text-based AI coding agents and rich media asset generation, letting developers point directly at frames to tweak animations.",
-      "why_developers_should_care": "It provides a practical blueprint for turning coding assistants into full-service multimedia creators capable of producing polished product trailers.",
-      "momentum": "Strong interest for a niche tool with solid initial adoption relative to its creation date.",
-      "novelty": "High novelty in combining agent frameworks with direct spatial/visual code-editing for motion graphics.",
+      "name": "deepseek-ai/DeepInfer",
+      "score": 98,
+      "reason": "Explosive star growth for a high-performance inference framework designed specifically for DeepSeek models.",
+      "why_interesting_today": "AI infrastructure is shifting toward optimized inference engines tailored for specific frontier model architectures, making DeepInfer a major talking point.",
+      "why_developers_should_care": "Developers deploying DeepSeek models need efficient, scalable inference solutions that minimize latency and hardware costs.",
+      "momentum": "Extremely high, with over 5,800 stars added in a single burst shortly after launch.",
+      "novelty": "High; directly addresses the operational bottlenecks of running modern open-weights LLMs efficiently.",
       "deep_analysis": {
-        "name": "alchaincyf/huashu-motion",
-        "headline_hook": "An innovative agent-skill toolkit that empowers AI coding agents to generate, compose, and dynamically edit commercial-grade promotional motion graphics directly through a browser interface.",
-        "core_functionality": "huashu-motion bridges the gap between text-based AI coding agents and rich media asset generation. It provides a specialized agent skill and runtime that enables coding assistants like Claude Code, Codex, and others to write, render, and refine complete product promotional videos, motion graphics, and audio scores from a simple prompt, complete with point-to-edit debugging directly on rendered frames.",
+        "name": "deepseek-ai/DeepInfer",
+        "headline_hook": "DeepSeek has open-sourced DeepInfer, the high-performance inference framework powering their large-scale production services for DeepSeek-V4.1-Flash.",
+        "core_functionality": "DeepInfer solves the challenge of high-performance, large-scale offline inference for frontier model architectures like DeepSeek-V4.1-Flash by tightly coupling optimized execution kernels, advanced parallelisms, and zero-overhead batch scheduling.",
         "key_features": [
-          "Point-to-Edit Visual Debugging: Allows developers to press C, click on any element in the local browser editor, and issue natural language change requests that precisely update the underlying source code and timestamps.",
-          "Composer Mode & Audio Synthesis: Generates ABC notation music scores programmatically and uses local instrument samplers to sync sound effects and background music natively without paid APIs.",
-          "Web-Native Rendering Engine: Bypasses heavy black-box video models by outputting standard HTML, CSS, GSAP, and Canvas code, driven by local Chrome instances for fast multi-threaded frame capture.",
-          "Comprehensive Director Rules: Incorporates robust production logic derived from quantitative analysis of top industry product launch films, ensuring strong pacing, color consistency, and responsive layouts."
+          "Integrated suite of highly optimized custom kernels including FlashMLA, DeepGEMM, DeepEP, TileKernels, DeepSelect, and TileLang ops.",
+          "Advanced parallelism support covering attention data/balanced context parallelism, mixture-of-experts expert parallelism with expert load balancing, and DSpark confidence-scheduled verification.",
+          "Production-ready runtime capabilities such as asynchronous CPU-GPU scheduling overlap, batch-invariant inference, deterministic sampling, and structured outputs.",
+          "Multi-hardware support targeting modern accelerators including NVIDIA SM100 GPUs and Huawei Ascend 950 NPUs."
         ],
-        "target_audience": "AI Engineers, Frontend Developers, and Indie Hackers building AI agent workflows or seeking rapid, programmatic generation of product launch videos and marketing assets.",
-        "practical_developer_value": "Developers can integrate this toolkit into their daily agent workflows to automatically generate, style, and iterate on product launch reels, explainer videos, and data visualizers straight from a codebase or CSV dataset, saving hours of manual timeline editing in traditional NLE software.",
+        "target_audience": "AI infrastructure engineers, MLOps practitioners, and machine learning researchers deploying frontier language models at scale.",
+        "practical_developer_value": "Developers and infrastructure teams running production-grade DeepSeek models can leverage DeepInfer to maximize throughput and hardware utilization, take advantage of deterministic and structured generation constraints, and easily reproduce high-performance Pareto benchmarks out of the box.",
         "suggested_use_cases": [
-          "Generating a 30-second product release video automatically by pointing an AI agent at a live web application URL or repository.",
-          "Converting structured analytics datasets and CSV funnels into dynamic, high-pacing explanatory animations."
+          "Running high-throughput offline inference pipelines for DeepSeek-V4.1-Flash models on NVIDIA SM100 clusters.",
+          "Deploying deterministic and structurally constrained language model outputs for enterprise API services."
         ]
       }
     },
     {
       "rank": 2,
-      "name": "OpenMOSS/MOSS-Image",
+      "name": "xiaoyang111222/cn-math-taxonomy",
       "score": 91,
-      "reason": "Official repository for a 5-billion-parameter DiT foundation model emphasizing high-quality text rendering and precise layout generation.",
-      "why_interesting_today": "Accurate text rendering inside generated images remains a primary battleground for open-source visual AI models.",
-      "why_developers_should_care": "It offers developers a powerful, customizable open-source diffusion transformer model that solves common typographical and layout flaws found in earlier image generators.",
-      "momentum": "Steady early traction among AI researchers and enthusiasts seeking lighter, high-performance visual models.",
-      "novelty": "Moderate-to-high novelty with a strong focus on typography and layout control within an efficient 5B parameter footprint.",
+      "reason": "A highly structured open K-12 knowledge graph and adaptive diagnostic toolset combining curriculum alignment with modern edtech.",
+      "why_interesting_today": "Demonstrates the practical fusion of structured educational data with automated diagnostic processing for K-12 subjects.",
+      "why_developers_should_care": "Provides an exceptional blueprint and dataset for developers building AI tutors, edtech platforms, and knowledge graph systems.",
+      "momentum": "Strong early traction with nearly 400 new stars and solid fork growth.",
+      "novelty": "Very high in the open-source edtech space, offering a granular, standards-aligned dataset rather than just generic study lists.",
       "deep_analysis": {
-        "name": "OpenMOSS/MOSS-Image",
-        "headline_hook": "OpenMOSS-Image brings 5-billion-parameter DiT foundation modeling to open-source visual AI with native layout control and accurate typography rendering.",
-        "core_functionality": "MOSS-Image is an open-source 5-billion-parameter Diffusion Transformer (DiT) foundation model designed for text-to-image generation. It directly addresses historical weaknesses in open-source visual models by providing precise spatial layout control, accurate text rendering inside images, and long-context prompt support up to 4K tokens.",
+        "name": "xiaoyang111222/cn-math-taxonomy",
+        "headline_hook": "A meticulously structured open K-12 knowledge graph and adaptive diagnostic engine that traces math and English learning gaps all the way back to elementary school.",
+        "core_functionality": "This project solves the problem of automated learning gap diagnosis and curriculum alignment for K-12 mathematics and English. By organizing thousands of curriculum standards, learning topics, dependencies, and questions into structured JSON datasets, it allows educators and edtech developers to automatically trace a student's incorrect answer on an advanced topic (like high school quadratic equations or calculus prerequisites) back through prerequisite dependency chains to pinpoint foundational gaps in middle or elementary school.",
         "key_features": [
-          "Precise spatial layout control enabling developers to dictate the exact placement of text and visual elements within the generated canvas.",
-          "Advanced typography generation capabilities for producing clear, readable, and contextually accurate text inside images.",
-          "Long-prompt support accepting text inputs of up to 4K tokens for detailed, complex scene descriptions.",
-          "Comprehensive ecosystem integration with day-0 support in ComfyUI, SGLang, vLLM-Omni, and dedicated fine-tuning toolkits like KohakuMossTrainer."
+          "Comprehensive K-12 Knowledge Graphs: Encapsulates over 800 math topics and hundreds of English topics, mapping complex dependency edges across grade levels and educational standards.",
+          "Adaptive Diagnostic Engine: Implements automated backward-tracing logic that traverses prerequisite edges upon encountering a wrong answer, diagnosing root-cause knowledge deficits.",
+          "Built-in Verification and Test Banks: Contains thousands of structured questions mapped directly to curriculum standards, complete with automated verification scripts and second-pass review logs.",
+          "Dual-Subject Curriculum Alignment: Aligned with official Chinese Ministry of Education curriculum standards and People's Education Press (PEP) textbook chapters for both mathematics and English."
         ],
-        "target_audience": "AI engineers, machine learning researchers, generative AI developers, and creative technologists building custom image-generation pipelines.",
-        "practical_developer_value": "Developers gain access to an enterprise-grade, compact 5B visual foundation model that can be fine-tuned locally with low VRAM constraints (as low as 6GB using efficient training frameworks). Its native ComfyUI and inference ecosystem support allows immediate integration into existing creative pipelines, while layout control primitives enable deterministic, programmatic image synthesis.",
+        "target_audience": "EdTech software engineers, AI education researchers, frontend developers building learning management systems, and curriculum data architects.",
+        "practical_developer_value": "Developers working in educational technology can bypass the immense manual effort required to build pedagogical knowledge graphs and diagnostic question banks. They can directly ingest the JSON datasets (topics, dependencies, and questions) to power personalized learning paths, student diagnostic tools, or intelligent tutoring systems in their own applications.",
         "suggested_use_cases": [
-          "Generating marketing materials, posters, and product packaging that require accurate spelling and localized text placement.",
-          "Building custom fine-tuned image generation APIs and web applications using modular base and SFT weights."
+          "Powering an AI-driven tutoring application that identifies why a student is failing high school math by dynamically evaluating lower-level prerequisite nodes.",
+          "Building an interactive visual knowledge map explorer that lets students and teachers visualize curriculum dependencies and learning paths."
         ]
       }
     },
     {
       "rank": 3,
-      "name": "ly05010419/MacNativeGames",
+      "name": "MyLuxy/overdrive",
       "score": 88,
-      "reason": "A breakout repository capturing massive developer and user curiosity around native gaming performance and titles on macOS.",
-      "why_interesting_today": "Spiking star growth indicates immense community hunger for curated resources and implementations relating to Apple Silicon native gaming compatibility.",
-      "why_developers_should_care": "Provides valuable reference points and community discoveries regarding graphics optimization and native porting pipelines on macOS.",
-      "momentum": "Exceptional viral star and fork momentum over a very short lifespan.",
-      "novelty": "High practical curiosity and utility for Apple platform developers and enthusiasts.",
+      "reason": "A feature-complete homebrew game store targeting the PS5, combining low-level C++ systems work with console reverse engineering.",
+      "why_interesting_today": "Console homebrew tooling is rare and commands intense curiosity from systems and security developers.",
+      "why_developers_should_care": "Offers deep insights into exFAT manipulation, console filesystems, and specialized embedded application development.",
+      "momentum": "Rapidly accelerating growth with strong fork momentum indicating active community usage and compilation.",
+      "novelty": "High; localized application store for current-generation console homebrew ecosystems.",
       "deep_analysis": {
-        "name": "ly05010419/MacNativeGames",
-        "headline_hook": "Bring AAA Nintendo Switch titles like Zelda natively to Apple Silicon Macs, iPhones, and iPads without traditional emulation.",
-        "core_functionality": "The project allows users to compile and run native ARM64 ports of popular Nintendo Switch games on Apple Silicon hardware by translating NVN graphics calls directly to Metal, wrapping Switch system services, and utilizing a user-provided game ROM and cryptographic keys to build a local, standalone executable.",
+        "name": "MyLuxy/overdrive",
+        "headline_hook": "Rebuilt entirely from a compiled binary after its original shutdown, this open-source PS5 homebrew game store showcases advanced reverse engineering and React-based console tooling.",
+        "core_functionality": "Overdrive acts as a feature-complete, community-driven game and homebrew store designed specifically for jailbroken PlayStation 5 consoles, enabling users to browse libraries, download apps directly to internal or external USB storage, and manage updates natively on-device.",
         "key_features": [
-          "Direct native execution of ARM64 game code paired with a Metal graphics backend instead of slow legacy instruction emulation.",
-          "Distributed crowd-sourced shader list containing tens of thousands of variants to eliminate pipeline compilation stutter.",
-          "Comprehensive platform support spanning macOS, iPhone, and iPad with integrated touch control layouts and high frame-rate rendering fixes.",
-          "Automated local build scripts that generate custom self-contained app targets directly from user-supplied game files and keys."
+          "Binary Decompilation and Source Recovery: Reconstructed from the ground up by parsing a released binary, splitting a monolithic bundled eboot.bin payload back into 137 structured React modules with verified imports and exports.",
+          "React on Console Framework: Powered by a vendored version of ps5-react, bridging modern web component architecture with low-level console execution environments.",
+          "Automated Hot-Plugging and Installation: Integrates directly with ShadowMount+ payloads to automatically detect, mount, and install .exfat container packages via external USB media.",
+          "Self-Updating Lifecycle: Implements an internal OTA update loop that downloads, validates, and swaps package versions at runtime without requiring external PC intervention."
         ],
-        "target_audience": "macOS and iOS application developers, graphics engineers interested in Metal and low-level translation layers, and emulation enthusiasts looking at modern runtime performance techniques.",
-        "practical_developer_value": "Developers can study advanced graphics API translation strategies from proprietary console command buffers to Apple's Metal framework, examine custom asset pipeline prewarming implementations, and understand modern binary packaging practices for multi-platform Apple deployment.",
+        "target_audience": "Systems and security developers, reverse engineers, console homebrew enthusiasts, and frontend engineers curious about non-standard runtime environments.",
+        "practical_developer_value": "Developers gain a rare architectural blueprint for how modern React applications can be bundled, executed, and reverse-engineered within proprietary console ecosystems. It provides educational value in binary analysis, script bundle reconstruction, and low-level system interaction on constrained hardware.",
         "suggested_use_cases": [
-          "Investigating low-overhead graphics translation between non-standard platform APIs and Apple Metal for high-performance rendering.",
-          "Experimenting with cross-platform application compilation pipelines targeting macOS, iOS, and iPadOS from a unified source architecture."
+          "Studying advanced reverse engineering methodologies for de-bundling and reconstructing ES6 modules from compiled binaries.",
+          "Exploring alternative UI rendering frameworks and runtime architectures for embedded systems or game consoles."
         ]
       }
     },
     {
       "rank": 4,
-      "name": "simbasjungles/free-my-tv",
+      "name": "pengchujin/aerial-tv",
       "score": 85,
-      "reason": "An open-source, ad-free Google TV home screen launcher built with Claude Code featuring simple undo capabilities.",
-      "why_interesting_today": "Highlights how rapidly modern AI-assisted coding tools can produce practical, consumer-facing applications that solve everyday UX frustrations.",
-      "why_developers_should_care": "Serves as an inspiring real-world case study of building, styling, and polishing an Android TV application using advanced AI coding agents.",
-      "momentum": "Solid organic interest driven by a clear, frustration-free consumer utility.",
-      "novelty": "High novelty as a clean, community-driven alternative to heavily monetized smart TV interfaces.",
+      "reason": "An open-source tvOS-style launcher for Android TVs designed to strip away bloatware and ads on Chinese market smart TVs.",
+      "why_interesting_today": "Smart TV interfaces have become notorious for intrusive advertisements, driving strong demand for clean, open alternatives.",
+      "why_developers_should_care": "Kotlin developers working with Android TV APIs get a clean architecture reference for overriding default system home screens.",
+      "momentum": "Steady organic interest and utility-driven adoption.",
+      "novelty": "High practical novelty for users frustrated by heavily monetized, ad-laden smart TV operating systems.",
       "deep_analysis": {
-        "name": "simbasjungles/free-my-tv",
-        "headline_hook": "Free My TV transforms bloated, ad-driven smart TV interfaces into a lightweight, high-performance home screen built entirely with Claude Code.",
-        "core_functionality": "Free My TV replaces intrusive, ad-heavy stock operating system launchers on Google TV, LG webOS, and Samsung Tizen with a minimalist, customizable, open-source home screen. It eliminates sponsored banners and autoplaying promotions while optimizing performance, reducing memory footprints, and retaining a reliable one-button undo mechanism to revert to factory defaults.",
+        "name": "pengchujin/aerial-tv",
+        "headline_hook": "Aerial is an open-source, tvOS-inspired Android TV launcher designed to eliminate bloatware, ads, and recommendation streams on Chinese market smart TVs.",
+        "core_functionality": "The project solves the problem of intrusive advertisements, unwanted content recommendation streams, and aggressive background app killing on Chinese market smart TVs (such as Xiaomi and TCL). It acts as an open-source launcher mimicking the Apple TV interface, providing a clean grid for applications, custom wallpapers, and Apple TV-style aerial screensapers.",
         "key_features": [
-          "Cross-platform television support spanning Google TV, Android TV, LG webOS, and Samsung Tizen devices via native developer mode integrations.",
-          "Engineered for high performance with a 60 frames per second UI rendering profile that reduces memory consumption by 60 percent compared to stock launchers.",
-          "Integrated dynamic sun-following day and night themes, weather forecasting, real-time cryptocurrency price tickers, and tailored content recommendation feeds powered by the TMDB API.",
-          "Comprehensive fallback safety mechanics including automatic safety checks for protected system apps and instant reversion to the original stock home screen after three crashes."
+          "Resilient Process Management: Overcomes OEM restrictions by combining standard HOME intent registration with a notification listener service and accessibility watchdog to automatically revive the launcher when killed or booted.",
+          "Apple TV-Style Screensavers: Streams 114 Apple TV aerial videos directly from remote servers or falls back to daily curated photo slideshows with burn-in prevention.",
+          "Comprehensive Control Center: Integrates CEC device inputs, network states, brightness/volume sliders, and a local web server displaying a QR code for mobile-based wallpaper and settings management.",
+          "Developer and Agent-Friendly Installation: Offers automated multi-platform installation scripts and specialized AI Agent instructions to streamline ADB-based setup without requiring root access."
         ],
-        "target_audience": "Android and embedded systems developers, AI-assisted software engineers, custom firmware enthusiasts, and frontend developers interested in high-performance TV UI design.",
-        "practical_developer_value": "The repository serves as a masterclass in modern AI-assisted engineering using Claude Code to rapidly scaffold, build, and deploy multi-platform consumer applications across fragmented hardware ecosystems. Developers can study its clean build scripts, device-specific deployment pipelines, and efficient rendering techniques to learn how to build lightweight, low-overhead mobile and embedded applications.",
+        "target_audience": "Android developers, custom ROM enthusiasts, reverse engineers, and power users seeking to customize or strip bloatware from smart TV hardware.",
+        "practical_developer_value": "Developers working with Android TV or custom system integration can learn advanced techniques for bypassing OEM background process termination, leveraging notification listeners for process revival, and implementing secure local web UIs via mobile QR code handoffs on resource-constrained embedded systems.",
         "suggested_use_cases": [
-          "Building custom vertical market dashboards or digital signage launchers for commercial displays using Android TV hardware.",
-          "Experimenting with Claude Code and local automation scripts to streamline cross-platform mobile and embedded application deployments."
+          "Replacing bloated stock launchers on domestic smart TVs to create a streamlined, ad-free viewing experience.",
+          "Studying programmatic Android TV home replacement and process watchdog patterns for custom hardware deployments."
         ]
       }
     },
     {
       "rank": 5,
-      "name": "Tencent-Hunyuan/Hy-Memory",
+      "name": "public-apis/public-apis",
       "score": 82,
-      "reason": "A specialized memory optimization framework from Tencent-Hunyuan targeted at improving large-scale model performance and context handling.",
-      "why_interesting_today": "Context window efficiency and memory management continue to be critical bottlenecks in production-grade LLM deployments.",
-      "why_developers_should_care": "Engineers working on large-scale inference and long-context architectures can leverage these techniques to optimize memory usage and reduce overhead.",
-      "momentum": "Healthy upward momentum with consistent early star growth.",
-      "novelty": "Moderate novelty, addressing a foundational and highly active optimization problem in modern AI systems.",
+      "reason": "Enduring classic utility list maintaining strong daily velocity and consistent developer contributions.",
+      "why_interesting_today": "Continues to serve as the definitive crowdsourced index for free developer resources and third-party integrations.",
+      "why_developers_should_care": "An indispensable bookmark for prototyping, side projects, and discovering accessible APIs across domains.",
+      "momentum": "Consistently high daily star growth (266+ stars) despite its maturity.",
+      "novelty": "Low novelty, but unmatched longevity and practical developer usefulness.",
       "deep_analysis": {
-        "name": "Tencent-Hunyuan/Hy-Memory",
-        "headline_hook": "Tencent-Hunyuan open-sourced Hy-Memory, a production-grade dual-system cognitive memory engine and Python SDK that brings advanced long-term memory, cross-application context sharing, and attributed reinforcement learning to LLM agents.",
-        "core_functionality": "Hy-Memory solves the critical LLM context window and persistence bottleneck by implementing a dual-system cognitive memory framework. It handles specialized memory pipelines across three distinct task scenes: hierarchical long-term cognitive memory for chat, a two-layer fact and reusable-experience memory for working environments, and version-evolution diff-chain tracking for coding agents. Coupled with MemHub, it unifies conversation history and coding traces from various developer tools into a single managed runtime.",
+        "name": "public-apis/public-apis",
+        "headline_hook": "Stop wasting hours searching for free developer tools—this definitive crowdsourced directory indexes hundreds of public APIs and MCP servers for your next project.",
+        "core_functionality": "The project serves as a comprehensive, community-curated directory and index of free and public APIs, structured by domain to help developers quickly discover third-party data sources, integrations, and services for software development.",
         "key_features": [
-          "Dual-System Cognitive Architecture: Organizes personal memory into an 8-layer hierarchy for chat and multi-layer abstraction for working and coding scenes, featuring conflict reconciliation and cross-domain schema induction.",
-          "Specialized Task Pipelines: Distinct processing paths for Chat (hierarchical facts, summaries, and intentions), Working (fact and reusable-experience layers), and Coding (version-evolution diff-chain tracking).",
-          "MemHub Integration: A local-first desktop and CLI product that unifies conversation history and coding traces from applications like Claude Code, Cursor, Codex, OpenCode, and Qwen Code into a single managed local data directory for cross-application memory recall.",
-          "Attributed Reinforcement Learning Model: Includes open-source model releases like Hy-Memory-30B-A3B along with quantized FP8 and GGUF versions trained specifically for high-precision long-term memory extraction and writing."
+          "Crowdsourced and manually maintained index categorizing hundreds of public APIs across diverse domains.",
+          "Integrated support for Model Context Protocol (MCP) servers, enabling AI agents to interact with third-party tools via stdio or HTTP transports.",
+          "Direct integration pathways including Postman collections and native SDK links for rapid prototyping."
         ],
-        "target_audience": "AI engineers, LLM application developers, backend engineers building autonomous agents, and DevOps practitioners managing multi-agent production pipelines.",
-        "practical_developer_value": "Developers building production-grade LLM agents often struggle with maintaining context, memory bloat, and cross-session persistence. Hy-Memory provides a modular Python SDK with zero-cost and agentic search routing, native support for popular vector databases and graph stores like ChromaDB, Qdrant, FAISS, and Neo4j, and unified cross-tool tracking. This allows developers to easily embed sophisticated long-term memory, factual consistency, and code-evolution tracking into their AI applications without reinventing memory architectures.",
+        "target_audience": "Full-stack developers, AI engineers, indie hackers, and students looking for free data sources or mock services to accelerate product development.",
+        "practical_developer_value": "Developers save significant discovery time by using this repository as a single source of truth for third-party utilities—ranging from geolocation and weather to financial data—eliminating the need to piece together scattered web searches.",
         "suggested_use_cases": [
-          "Building stateful, long-horizon coding assistants that retain repository patches, debugging choices, and exact code revision trajectories across multiple task branches.",
-          "Creating personalized conversational AI agents that maintain long-term user preferences, resolve conflicting historical facts, and dynamically route queries across chat, working, and coding domains."
+          "Sourcing free fallback data APIs for a new prototype or MVP.",
+          "Integrating Model Context Protocol (MCP) servers to allow AI assistants like Claude or Cursor to query real-time external data sources."
         ]
       }
     }

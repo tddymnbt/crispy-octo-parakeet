@@ -1,0 +1,54 @@
+{
+  "top_repositories": [
+    {
+      "rank": 1,
+      "name": "deepseek-ai/DeepInfer",
+      "score": 98,
+      "reason": "Explosive star growth for a high-performance inference framework designed specifically for DeepSeek models.",
+      "why_interesting_today": "AI infrastructure is shifting toward optimized inference engines tailored for specific frontier model architectures, making DeepInfer a major talking point.",
+      "why_developers_should_care": "Developers deploying DeepSeek models need efficient, scalable inference solutions that minimize latency and hardware costs.",
+      "momentum": "Extremely high, with over 5,800 stars added in a single burst shortly after launch.",
+      "novelty": "High; directly addresses the operational bottlenecks of running modern open-weights LLMs efficiently."
+    },
+    {
+      "rank": 2,
+      "name": "xiaoyang111222/cn-math-taxonomy",
+      "score": 91,
+      "reason": "A highly structured open K-12 knowledge graph and adaptive diagnostic toolset combining curriculum alignment with modern edtech.",
+      "why_interesting_today": "Demonstrates the practical fusion of structured educational data with automated diagnostic processing for K-12 subjects.",
+      "why_developers_should_care": "Provides an exceptional blueprint and dataset for developers building AI tutors, edtech platforms, and knowledge graph systems.",
+      "momentum": "Strong early traction with nearly 400 new stars and solid fork growth.",
+      "novelty": "Very high in the open-source edtech space, offering a granular, standards-aligned dataset rather than just generic study lists."
+    },
+    {
+      "rank": 3,
+      "name": "MyLuxy/overdrive",
+      "score": 88,
+      "reason": "A feature-complete homebrew game store targeting the PS5, combining low-level C++ systems work with console reverse engineering.",
+      "why_interesting_today": "Console homebrew tooling is rare and commands intense curiosity from systems and security developers.",
+      "why_developers_should_care": "Offers deep insights into exFAT manipulation, console filesystems, and specialized embedded application development.",
+      "momentum": "Rapidly accelerating growth with strong fork momentum indicating active community usage and compilation.",
+      "novelty": "High; localized application store for current-generation console homebrew ecosystems."
+    },
+    {
+      "rank": 4,
+      "name": "pengchujin/aerial-tv",
+      "score": 85,
+      "reason": "An open-source tvOS-style launcher for Android TVs designed to strip away bloatware and ads on Chinese market smart TVs.",
+      "why_interesting_today": "Smart TV interfaces have become notorious for intrusive advertisements, driving strong demand for clean, open alternatives.",
+      "why_developers_should_care": "Kotlin developers working with Android TV APIs get a clean architecture reference for overriding default system home screens.",
+      "momentum": "Steady organic interest and utility-driven adoption.",
+      "novelty": "High practical novelty for users frustrated by heavily monetized, ad-laden smart TV operating systems."
+    },
+    {
+      "rank": 5,
+      "name": "public-apis/public-apis",
+      "score": 82,
+      "reason": "Enduring classic utility list maintaining strong daily velocity and consistent developer contributions.",
+      "why_interesting_today": "Continues to serve as the definitive crowdsourced index for free developer resources and third-party integrations.",
+      "why_developers_should_care": "An indispensable bookmark for prototyping, side projects, and discovering accessible APIs across domains.",
+      "momentum": "Consistently high daily star growth (266+ stars) despite its maturity.",
+      "novelty": "Low novelty, but unmatched longevity and practical developer usefulness."
+    }
+  ]
+}

@@ -2,53 +2,53 @@
   "top_repositories": [
     {
       "rank": 1,
-      "name": "alchaincyf/huashu-motion",
-      "score": 93,
-      "reason": "An innovative agent-skill toolkit that allows coding agents to generate and dynamically edit commercial-grade launch and promotional motion graphics.",
-      "why_interesting_today": "It bridges the gap between raw text-based AI coding agents and rich media asset generation, letting developers point directly at frames to tweak animations.",
-      "why_developers_should_care": "It provides a practical blueprint for turning coding assistants into full-service multimedia creators capable of producing polished product trailers.",
-      "momentum": "Strong interest for a niche tool with solid initial adoption relative to its creation date.",
-      "novelty": "High novelty in combining agent frameworks with direct spatial/visual code-editing for motion graphics."
+      "name": "deepseek-ai/DeepInfer",
+      "score": 98,
+      "reason": "Explosive star growth for a high-performance inference framework designed specifically for DeepSeek models.",
+      "why_interesting_today": "AI infrastructure is shifting toward optimized inference engines tailored for specific frontier model architectures, making DeepInfer a major talking point.",
+      "why_developers_should_care": "Developers deploying DeepSeek models need efficient, scalable inference solutions that minimize latency and hardware costs.",
+      "momentum": "Extremely high, with over 5,800 stars added in a single burst shortly after launch.",
+      "novelty": "High; directly addresses the operational bottlenecks of running modern open-weights LLMs efficiently."
     },
     {
       "rank": 2,
-      "name": "OpenMOSS/MOSS-Image",
+      "name": "xiaoyang111222/cn-math-taxonomy",
       "score": 91,
-      "reason": "Official repository for a 5-billion-parameter DiT foundation model emphasizing high-quality text rendering and precise layout generation.",
-      "why_interesting_today": "Accurate text rendering inside generated images remains a primary battleground for open-source visual AI models.",
-      "why_developers_should_care": "It offers developers a powerful, customizable open-source diffusion transformer model that solves common typographical and layout flaws found in earlier image generators.",
-      "momentum": "Steady early traction among AI researchers and enthusiasts seeking lighter, high-performance visual models.",
-      "novelty": "Moderate-to-high novelty with a strong focus on typography and layout control within an efficient 5B parameter footprint."
+      "reason": "A highly structured open K-12 knowledge graph and adaptive diagnostic toolset combining curriculum alignment with modern edtech.",
+      "why_interesting_today": "Demonstrates the practical fusion of structured educational data with automated diagnostic processing for K-12 subjects.",
+      "why_developers_should_care": "Provides an exceptional blueprint and dataset for developers building AI tutors, edtech platforms, and knowledge graph systems.",
+      "momentum": "Strong early traction with nearly 400 new stars and solid fork growth.",
+      "novelty": "Very high in the open-source edtech space, offering a granular, standards-aligned dataset rather than just generic study lists."
     },
     {
       "rank": 3,
-      "name": "ly05010419/MacNativeGames",
+      "name": "MyLuxy/overdrive",
       "score": 88,
-      "reason": "A breakout repository capturing massive developer and user curiosity around native gaming performance and titles on macOS.",
-      "why_interesting_today": "Spiking star growth indicates immense community hunger for curated resources and implementations relating to Apple Silicon native gaming compatibility.",
-      "why_developers_should_care": "Provides valuable reference points and community discoveries regarding graphics optimization and native porting pipelines on macOS.",
-      "momentum": "Exceptional viral star and fork momentum over a very short lifespan.",
-      "novelty": "High practical curiosity and utility for Apple platform developers and enthusiasts."
+      "reason": "A feature-complete homebrew game store targeting the PS5, combining low-level C++ systems work with console reverse engineering.",
+      "why_interesting_today": "Console homebrew tooling is rare and commands intense curiosity from systems and security developers.",
+      "why_developers_should_care": "Offers deep insights into exFAT manipulation, console filesystems, and specialized embedded application development.",
+      "momentum": "Rapidly accelerating growth with strong fork momentum indicating active community usage and compilation.",
+      "novelty": "High; localized application store for current-generation console homebrew ecosystems."
     },
     {
       "rank": 4,
-      "name": "simbasjungles/free-my-tv",
+      "name": "pengchujin/aerial-tv",
       "score": 85,
-      "reason": "An open-source, ad-free Google TV home screen launcher built with Claude Code featuring simple undo capabilities.",
-      "why_interesting_today": "Highlights how rapidly modern AI-assisted coding tools can produce practical, consumer-facing applications that solve everyday UX frustrations.",
-      "why_developers_should_care": "Serves as an inspiring real-world case study of building, styling, and polishing an Android TV application using advanced AI coding agents.",
-      "momentum": "Solid organic interest driven by a clear, frustration-free consumer utility.",
-      "novelty": "High novelty as a clean, community-driven alternative to heavily monetized smart TV interfaces."
+      "reason": "An open-source tvOS-style launcher for Android TVs designed to strip away bloatware and ads on Chinese market smart TVs.",
+      "why_interesting_today": "Smart TV interfaces have become notorious for intrusive advertisements, driving strong demand for clean, open alternatives.",
+      "why_developers_should_care": "Kotlin developers working with Android TV APIs get a clean architecture reference for overriding default system home screens.",
+      "momentum": "Steady organic interest and utility-driven adoption.",
+      "novelty": "High practical novelty for users frustrated by heavily monetized, ad-laden smart TV operating systems."
     },
     {
       "rank": 5,
-      "name": "Tencent-Hunyuan/Hy-Memory",
+      "name": "public-apis/public-apis",
       "score": 82,
-      "reason": "A specialized memory optimization framework from Tencent-Hunyuan targeted at improving large-scale model performance and context handling.",
-      "why_interesting_today": "Context window efficiency and memory management continue to be critical bottlenecks in production-grade LLM deployments.",
-      "why_developers_should_care": "Engineers working on large-scale inference and long-context architectures can leverage these techniques to optimize memory usage and reduce overhead.",
-      "momentum": "Healthy upward momentum with consistent early star growth.",
-      "novelty": "Moderate novelty, addressing a foundational and highly active optimization problem in modern AI systems."
+      "reason": "Enduring classic utility list maintaining strong daily velocity and consistent developer contributions.",
+      "why_interesting_today": "Continues to serve as the definitive crowdsourced index for free developer resources and third-party integrations.",
+      "why_developers_should_care": "An indispensable bookmark for prototyping, side projects, and discovering accessible APIs across domains.",
+      "momentum": "Consistently high daily star growth (266+ stars) despite its maturity.",
+      "novelty": "Low novelty, but unmatched longevity and practical developer usefulness."
     }
   ]
 }
