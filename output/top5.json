@@ -2,53 +2,53 @@
   "top_repositories": [
     {
       "rank": 1,
-      "name": "deepseek-ai/DeepInfer",
-      "score": 98,
-      "reason": "Explosive star growth for a high-performance inference framework designed specifically for DeepSeek models.",
-      "why_interesting_today": "AI infrastructure is shifting toward optimized inference engines tailored for specific frontier model architectures, making DeepInfer a major talking point.",
-      "why_developers_should_care": "Developers deploying DeepSeek models need efficient, scalable inference solutions that minimize latency and hardware costs.",
-      "momentum": "Extremely high, with over 5,800 stars added in a single burst shortly after launch.",
-      "novelty": "High; directly addresses the operational bottlenecks of running modern open-weights LLMs efficiently."
+      "name": "affaan-m/ECC",
+      "score": 96,
+      "reason": "An extraordinarily fast-growing agent harness performance optimization system designed to supercharge developer tools like Claude Code and Cursor.",
+      "why_interesting_today": "AI coding assistants are evolving past simple chat interfaces into autonomous loops; this repo tackles the exact bottlenecks of memory, context, and harness efficiency.",
+      "why_developers_should_care": "It offers direct, practical optimizations, skills, and instincts that immediately improve the output quality of LLM-driven development workflows.",
+      "momentum": "Explosive star growth (+808) and high fork velocity relative to its age, signaling massive developer adoption.",
+      "novelty": "Bridges the gap between raw LLM capabilities and robust, secure, research-first developer agent harnesses."
     },
     {
       "rank": 2,
-      "name": "xiaoyang111222/cn-math-taxonomy",
-      "score": 91,
-      "reason": "A highly structured open K-12 knowledge graph and adaptive diagnostic toolset combining curriculum alignment with modern edtech.",
-      "why_interesting_today": "Demonstrates the practical fusion of structured educational data with automated diagnostic processing for K-12 subjects.",
-      "why_developers_should_care": "Provides an exceptional blueprint and dataset for developers building AI tutors, edtech platforms, and knowledge graph systems.",
-      "momentum": "Strong early traction with nearly 400 new stars and solid fork growth.",
-      "novelty": "Very high in the open-source edtech space, offering a granular, standards-aligned dataset rather than just generic study lists."
+      "name": "yt-dlp/yt-dlp",
+      "score": 92,
+      "reason": "The quintessential feature-rich media extraction utility that continues to exhibit massive daily momentum.",
+      "why_interesting_today": "Media platforms constantly tweak their infrastructure, requiring rapid, ongoing maintenance and robust edge-case handling.",
+      "why_developers_should_care": "It serves as a masterclass in Python systems programming, network request handling, and robust command-line interface design.",
+      "momentum": "Extremely strong daily star growth (+460) proving its indispensable, everyday utility.",
+      "novelty": "Though a mature project type, its constant adaptation to modern web changes maintains high functional relevance."
     },
     {
       "rank": 3,
-      "name": "MyLuxy/overdrive",
-      "score": 88,
-      "reason": "A feature-complete homebrew game store targeting the PS5, combining low-level C++ systems work with console reverse engineering.",
-      "why_interesting_today": "Console homebrew tooling is rare and commands intense curiosity from systems and security developers.",
-      "why_developers_should_care": "Offers deep insights into exFAT manipulation, console filesystems, and specialized embedded application development.",
-      "momentum": "Rapidly accelerating growth with strong fork momentum indicating active community usage and compilation.",
-      "novelty": "High; localized application store for current-generation console homebrew ecosystems."
+      "name": "humblemuzzu/dumbtv",
+      "score": 89,
+      "reason": "A highly practical tool enabling users to strip ads, tracking, and telemetry from Fire TV devices over ADB without rooting.",
+      "why_interesting_today": "Smart TVs have become notorious for bloatware, aggressive advertising, and intrusive data collection.",
+      "why_developers_should_care": "It showcases clever use of ADB interfaces and provides a fully open-source launcher alternative for constrained Android environments.",
+      "momentum": "Rapidly gaining traction (+148 stars) as privacy-conscious developers look to clean up their living room hardware.",
+      "novelty": "Tackles consumer smart-device bloat with a clean, reversible, open-source approach."
     },
     {
       "rank": 4,
-      "name": "pengchujin/aerial-tv",
+      "name": "JoasASantos/REA-Prompts",
       "score": 85,
-      "reason": "An open-source tvOS-style launcher for Android TVs designed to strip away bloatware and ads on Chinese market smart TVs.",
-      "why_interesting_today": "Smart TV interfaces have become notorious for intrusive advertisements, driving strong demand for clean, open alternatives.",
-      "why_developers_should_care": "Kotlin developers working with Android TV APIs get a clean architecture reference for overriding default system home screens.",
-      "momentum": "Steady organic interest and utility-driven adoption.",
-      "novelty": "High practical novelty for users frustrated by heavily monetized, ad-laden smart TV operating systems."
+      "reason": "A specialized collection of prompt-engineering strategies focused on 'Reverse Engineer Anything' (REA).",
+      "why_interesting_today": "Developers are increasingly using LLMs to dissect unfamiliar binaries, legacy codebases, and proprietary systems.",
+      "why_developers_should_care": "Provides structured prompts that guide AI models to break down, analyze, and clone programs methodically.",
+      "momentum": "Strong early-stage velocity (+144 stars) indicating acute interest in AI-assisted reverse engineering.",
+      "novelty": "Applies prompt engineering specifically to the complex domain of reverse engineering and software teardowns."
     },
     {
       "rank": 5,
-      "name": "public-apis/public-apis",
+      "name": "ikow/php2shell-poc",
       "score": 82,
-      "reason": "Enduring classic utility list maintaining strong daily velocity and consistent developer contributions.",
-      "why_interesting_today": "Continues to serve as the definitive crowdsourced index for free developer resources and third-party integrations.",
-      "why_developers_should_care": "An indispensable bookmark for prototyping, side projects, and discovering accessible APIs across domains.",
-      "momentum": "Consistently high daily star growth (266+ stars) despite its maturity.",
-      "novelty": "Low novelty, but unmatched longevity and practical developer usefulness."
+      "reason": "A focused proof-of-concept and detection rule repository targeting recent high-severity PHP session upload vulnerabilities.",
+      "why_interesting_today": "Zero-day and emerging CVE research requires immediate defensive validation, rule writing, and penetration testing insight.",
+      "why_developers_should_care": "Security engineers and backend maintainers get immediate access to Suricata, Sigma, and ModSecurity rules to protect infrastructure.",
+      "momentum": "Strong initial traction with high fork-to-star ratios typical of critical security research releases.",
+      "novelty": "Combines multi-vector RCE exploit research with ready-to-deploy defensive WAF and detection artifacts."
     }
   ]
 }

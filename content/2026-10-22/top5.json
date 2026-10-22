@@ -1,0 +1,54 @@
+{
+  "top_repositories": [
+    {
+      "rank": 1,
+      "name": "affaan-m/ECC",
+      "score": 96,
+      "reason": "An extraordinarily fast-growing agent harness performance optimization system designed to supercharge developer tools like Claude Code and Cursor.",
+      "why_interesting_today": "AI coding assistants are evolving past simple chat interfaces into autonomous loops; this repo tackles the exact bottlenecks of memory, context, and harness efficiency.",
+      "why_developers_should_care": "It offers direct, practical optimizations, skills, and instincts that immediately improve the output quality of LLM-driven development workflows.",
+      "momentum": "Explosive star growth (+808) and high fork velocity relative to its age, signaling massive developer adoption.",
+      "novelty": "Bridges the gap between raw LLM capabilities and robust, secure, research-first developer agent harnesses."
+    },
+    {
+      "rank": 2,
+      "name": "yt-dlp/yt-dlp",
+      "score": 92,
+      "reason": "The quintessential feature-rich media extraction utility that continues to exhibit massive daily momentum.",
+      "why_interesting_today": "Media platforms constantly tweak their infrastructure, requiring rapid, ongoing maintenance and robust edge-case handling.",
+      "why_developers_should_care": "It serves as a masterclass in Python systems programming, network request handling, and robust command-line interface design.",
+      "momentum": "Extremely strong daily star growth (+460) proving its indispensable, everyday utility.",
+      "novelty": "Though a mature project type, its constant adaptation to modern web changes maintains high functional relevance."
+    },
+    {
+      "rank": 3,
+      "name": "humblemuzzu/dumbtv",
+      "score": 89,
+      "reason": "A highly practical tool enabling users to strip ads, tracking, and telemetry from Fire TV devices over ADB without rooting.",
+      "why_interesting_today": "Smart TVs have become notorious for bloatware, aggressive advertising, and intrusive data collection.",
+      "why_developers_should_care": "It showcases clever use of ADB interfaces and provides a fully open-source launcher alternative for constrained Android environments.",
+      "momentum": "Rapidly gaining traction (+148 stars) as privacy-conscious developers look to clean up their living room hardware.",
+      "novelty": "Tackles consumer smart-device bloat with a clean, reversible, open-source approach."
+    },
+    {
+      "rank": 4,
+      "name": "JoasASantos/REA-Prompts",
+      "score": 85,
+      "reason": "A specialized collection of prompt-engineering strategies focused on 'Reverse Engineer Anything' (REA).",
+      "why_interesting_today": "Developers are increasingly using LLMs to dissect unfamiliar binaries, legacy codebases, and proprietary systems.",
+      "why_developers_should_care": "Provides structured prompts that guide AI models to break down, analyze, and clone programs methodically.",
+      "momentum": "Strong early-stage velocity (+144 stars) indicating acute interest in AI-assisted reverse engineering.",
+      "novelty": "Applies prompt engineering specifically to the complex domain of reverse engineering and software teardowns."
+    },
+    {
+      "rank": 5,
+      "name": "ikow/php2shell-poc",
+      "score": 82,
+      "reason": "A focused proof-of-concept and detection rule repository targeting recent high-severity PHP session upload vulnerabilities.",
+      "why_interesting_today": "Zero-day and emerging CVE research requires immediate defensive validation, rule writing, and penetration testing insight.",
+      "why_developers_should_care": "Security engineers and backend maintainers get immediate access to Suricata, Sigma, and ModSecurity rules to protect infrastructure.",
+      "momentum": "Strong initial traction with high fork-to-star ratios typical of critical security research releases.",
+      "novelty": "Combines multi-vector RCE exploit research with ready-to-deploy defensive WAF and detection artifacts."
+    }
+  ]
+}
