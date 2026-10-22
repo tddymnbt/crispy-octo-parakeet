@@ -26,8 +26,8 @@
       "caption": "🎮 Ever wondered what happens when a closed-source console app gets completely reverse-engineered and brought back to life? \n\nMeet Overdrive (https://github.com/MyLuxy/overdrive)—a feature-complete, community-driven game and homebrew store built specifically for jailbroken PlayStation 5 consoles. After its original shutdown, it was meticulously rebuilt from the ground up by parsing a compiled binary, splitting a monolithic bundled eboot.bin payload back into 137 structured React modules.\n\nIf you are a reverse engineer, systems developer, or just fascinated by non-standard runtime environments, this repository is an absolute goldmine. \n\n⚡ Key Architectural Highlights:\n• Binary Decompilation & Recovery: Reconstructed with verified imports and exports from raw compiled binaries.\n• React on Console: Powered by a vendored version of ps5-react, bridging modern web component architecture with low-level console execution.\n• Automated Hot-Plugging: Integrates with ShadowMount+ payloads to detect, mount, and install .exfat packages via external USB.\n• Self-Updating OTA Loop: Downloads, validates, and swaps package versions at runtime natively on-device.\n\nCheck out the code, study the reverse-engineering methodology, and see how modern React apps can run inside proprietary console ecosystems.\n\n👉 Explore the repo and drop a star: https://github.com/MyLuxy/overdrive\n\nWhat is the wildest reverse-engineering project you have ever worked on? Let us know in the comments! 👇\n\n#PS5 #Homebrew #ReverseEngineering #React #OpenSource #SoftwareDevelopment #CyberSecurity",
       "image_file": "3_MyLuxy_overdrive.png",
       "photo_id": "122123055207476221",
-      "published_post_id": null,
-      "published_at": null
+      "published_post_id": "1410193715501138_122123125635476221",
+      "published_at": "2026-10-22T15:00:43.658631+08:00"
     },
     {
       "rank": 4,
