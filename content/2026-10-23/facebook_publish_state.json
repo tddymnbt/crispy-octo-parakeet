@@ -17,8 +17,8 @@
       "caption": "When media platforms constantly shift their infrastructure, yt-dlp remains the ultimate battle-tested, feature-rich extraction engine for robust video and audio downloading. 🎥⚡\n\nBuilding scraping pipelines or gathering data for AI training shouldn't mean constantly rewriting fragile web scrapers. This command-line utility and Python library serves as the heavily extended, actively maintained successor to youtube-dl, solving the headache of brittle media ingestion.\n\nHere is why developers and data engineers rely on it:\n🔹 Massive Platform Support: Extract content from thousands of distinct media platforms with rapid patching for breaking changes and site updates.\n🔹 Advanced Format Selection: Utilize precise sorting algorithms for fine-grained control over resolution, codecs, and container types.\n🔹 Automated Post-Processing: Embed subtitles, chapters, and thumbnails natively, or integrate seamlessly with SponsorBlock.\n🔹 Python API & Plugin Architecture: Embed it directly into your applications or extend it with custom extractors for complex workflows.\n\nWhether you are automating large-scale dataset harvesting for machine learning or archiving historical video streams with custom metadata tagging, yt-dlp handles the edge cases so you don't have to.\n\nCheck out the repository and level up your media pipelines today:\nhttps://github.com/yt-dlp/yt-dlp\n\nDrop a comment below: What is your go-to tech stack for automating data ingestion? \n\n#SoftwareEngineering #Python #MachineLearning #DevOps #OpenSource #DataEngineering #WebScraping",
       "image_file": "2_yt-dlp_yt-dlp.png",
       "photo_id": "122123343789476221",
-      "published_post_id": null,
-      "published_at": null
+      "published_post_id": "1410193715501138_122123386815476221",
+      "published_at": "2026-10-23T11:00:39.797887+08:00"
     },
     {
       "rank": 3,
