@@ -3,138 +3,136 @@
   "repositories": [
     {
       "rank": 1,
-      "name": "affaan-m/ECC",
+      "name": "openclaw/openclaw",
       "score": 96,
-      "reason": "An extraordinarily fast-growing agent harness performance optimization system designed to supercharge developer tools like Claude Code and Cursor.",
-      "why_interesting_today": "AI coding assistants are evolving past simple chat interfaces into autonomous loops; this repo tackles the exact bottlenecks of memory, context, and harness efficiency.",
-      "why_developers_should_care": "It offers direct, practical optimizations, skills, and instincts that immediately improve the output quality of LLM-driven development workflows.",
-      "momentum": "Explosive star growth (+808) and high fork velocity relative to its age, signaling massive developer adoption.",
-      "novelty": "Bridges the gap between raw LLM capabilities and robust, secure, research-first developer agent harnesses.",
+      "reason": "Combines massive popularity with strong daily star growth and cutting-edge personal AI assistant relevance.",
+      "why_interesting_today": "Represents the vanguard of autonomous personal AI tools operating locally across platforms with significant developer engagement.",
+      "why_developers_should_care": "Provides a robust architecture for taking back data ownership while building sophisticated, multi-platform AI agents.",
+      "momentum": "Exceptionally high daily star growth and active pushes indicate a massive viral and professional adoption wave.",
+      "novelty": "High novelty in merging cross-OS agent execution with data privacy principles under a fresh open-source paradigm.",
       "deep_analysis": {
-        "name": "affaan-m/ECC",
-        "headline_hook": "ECC supercharges AI coding assistants like Claude Code and Cursor by introducing a coordinated operating system with persistent memory, autonomous planning, and self-verification loops.",
-        "core_functionality": "ECC acts as an agent harness optimization system that solves the core bottlenecks of AI coding assistants—such as context window limits, lack of persistent memory, and poor multi-step planning. Instead of relying on manual prompting for every task, developers install ECC to provide their AI agents with a rigorous engineering lifecycle: planning before building, verifying with tests, conducting self-reviews from a fresh context, and converting successful workflows into reusable skills.",
+        "name": "openclaw/openclaw",
+        "headline_hook": "Take full ownership of your personal AI assistant by running OpenClaw locally on your hardware with native integrations across all your favorite chat apps and devices.",
+        "core_functionality": "OpenClaw solves the fragmentation and privacy concerns of closed, cloud-hosted AI assistants by providing a self-hosted, open-source control plane (the Gateway) that connects local or hosted LLMs directly to popular messaging platforms and companion devices.",
         "key_features": [
-          "Comprehensive Agent and Skill Ecosystem: Includes 71 specialized agents (for planning, architecture, security, and build repair) and 311 skills covering TDD, documentation, frontend development, and machine learning.",
-          "Autonomous Engineering Loop: Implements a structured workflow spanning planning, testing, implementation, review, verification, memory retention, and continuous improvement.",
-          "Multi-Harness Compatibility: Deep native support for Claude Code, Codex, and Qoder, alongside adapters for Cursor, OpenCode, Gemini, Zed, GitHub Copilot, and others.",
-          "Security and Safety Guardrails: Integrated with AgentShield security scanning to protect codebases against vulnerabilities and malicious or unsafe agent executions."
+          "Multi-Channel Support: Integrates natively with Discord, iMessage, Slack, Teams, Telegram, WhatsApp, and 20+ other chat services out of the box.",
+          "Local State and Security: State, memory, and credentials reside entirely on your hardware with opt-in telemetry and a trusted gateway architecture.",
+          "Extensible Plugin SDK: Swap out model harnesses, add custom tools, skills, and plugins, or distribute capabilities via ClawHub.",
+          "Cross-Platform Companion Apps: Native apps and nodes for macOS, iOS, Android, Windows, and Linux enabling voice, canvas, and device-local actions."
         ],
-        "target_audience": "AI Engineers, Full-Stack Developers, and Technical Leads who heavily rely on autonomous AI coding assistants and want to optimize harness efficiency, context retention, and multi-agent coordination.",
-        "practical_developer_value": "Developers can dramatically reduce context exhaustion and erratic AI behavior by offloading repetitive prompt logic to ECC. In real-world projects, it allows teams to enforce strict Test-Driven Development (TDD) loops, maintain persistent memory across sessions, and leverage domain-specific specialized agents directly inside their terminal or IDE toolchains.",
+        "target_audience": "AI engineers, privacy-conscious developers, and power users looking to build, orchestrate, and self-host autonomous personal or team-shared AI agents.",
+        "practical_developer_value": "Developers get a production-ready, open-source framework for deploying localized AI agents without relying on third-party SaaS wrappers. It provides an extensible plugin architecture, local CLI and TUI control panels, and a robust Gateway design that allows you to safely expose tools and execution environments to LLMs.",
         "suggested_use_cases": [
-          "Enforcing automated, multi-step planning and self-review cycles before an AI assistant modifies production codebases.",
-          "Managing complex, long-running refactoring tasks without losing context or blowing past token limits."
+          "Building a personalized, multi-platform DevOps bot that coordinates alerts and automated actions across Slack and Telegram.",
+          "Running a completely private, local-model-backed personal assistant that manages local files, device actions, and messaging apps without leaking telemetry data."
         ]
       }
     },
     {
       "rank": 2,
-      "name": "yt-dlp/yt-dlp",
-      "score": 92,
-      "reason": "The quintessential feature-rich media extraction utility that continues to exhibit massive daily momentum.",
-      "why_interesting_today": "Media platforms constantly tweak their infrastructure, requiring rapid, ongoing maintenance and robust edge-case handling.",
-      "why_developers_should_care": "It serves as a masterclass in Python systems programming, network request handling, and robust command-line interface design.",
-      "momentum": "Extremely strong daily star growth (+460) proving its indispensable, everyday utility.",
-      "novelty": "Though a mature project type, its constant adaptation to modern web changes maintains high functional relevance.",
+      "name": "Ansub/tv-detox",
+      "score": 91,
+      "reason": "Extremely practical, highly focused developer utility solving a universal annoyance (bloated smart TVs) using modern AI assistance.",
+      "why_interesting_today": "Demonstrates real-world use cases of leveraging LLMs like Claude Code or Codex to refactor legacy embedded hardware software.",
+      "why_developers_should_care": "Offers both a clean home screen application and the exact prompting strategy used to strip away sluggish OEM bloatware.",
+      "momentum": "Strong early-stage velocity with rapid star acquisition relative to its age and niche focus.",
+      "novelty": "High novelty in applying AI-driven code generation directly to revitalize abandoned or sluggish Android TV hardware.",
       "deep_analysis": {
-        "name": "yt-dlp/yt-dlp",
-        "headline_hook": "When media platforms constantly shift their infrastructure, yt-dlp remains the ultimate battle-tested, feature-rich extraction engine for robust video and audio downloading.",
-        "core_functionality": "yt-dlp is a command-line utility and Python library that extracts and downloads audio and video content from thousands of websites, serving as a heavily extended, actively maintained successor to youtube-dl.",
+        "name": "Ansub/tv-detox",
+        "headline_hook": "Transform a sluggish, ad-bloated smart TV into a lightning-fast display using a conversational prompt and an LLM.",
+        "core_functionality": "The project uses LLM-powered coding assistants like Claude Code or Codex to interact with Android TV hardware via ADB (Android Debug Bridge), safely removing bloatware, turning off resource-heavy system animations, disabling sponsored rows, and installing a lightweight custom home screen launcher without breaking core TV functionality.",
         "key_features": [
-          "Support for thousands of distinct media platforms with rapid patching for breaking changes and edge-case site updates.",
-          "Advanced format selection and sorting algorithms allowing fine-grained control over resolution, codecs, and container types.",
-          "Built-in post-processing capabilities including embedding subtitles, chapters, thumbnails, and integrating with SponsorBlock.",
-          "Flexible extensibility via a plugin architecture for custom extractors and post-processors."
+          "LLM-Driven System Audit: Prompts the AI to analyze installed apps in plain English, categorizing them into safe-to-disable, required system services, and user apps before making any changes.",
+          "Safety Guardrails & Automated Rollback: Enforces strict whitelists of critical dependencies (such as Google Play services, System UI, and HDMI tuners) and includes comprehensive undo scripts to revert modifications.",
+          "Hardware-Specific Optimization: Automates UI performance tweaks including disabling system animations, configuring aggressive sleep timers, and managing screen savers for OLED burn-in protection.",
+          "Cross-Version ADB Compatibility: Automatically handles complex connection setups including standard USB debugging and modern wireless debugging workflows with pairing ports."
         ],
-        "target_audience": "Software developers, data engineers building large-scale scraping pipelines, AI/ML engineers collecting training datasets, and DevOps professionals automating media processing workflows.",
-        "practical_developer_value": "Developers can bypass the fragility of writing custom web scrapers for video platforms by utilizing yt-dlp either as a robust CLI tool within shell scripts or directly embedded into Python applications via its programmatic API for automated content ingestion.",
+        "target_audience": "Software developers, systems engineers, and technical hobbyists who want to hack consumer hardware, experiment with practical agentic AI workflows, or reclaim old devices.",
+        "practical_developer_value": "It serves as a stellar blueprint for agentic system administration, demonstrating how to bridge high-level LLM planning with low-level command-line execution (ADB) safely. Developers can study this repository to learn how to structure guardrails, multi-step prompt workflows, and automated rollback logic for safely mutating remote headless or embedded environments.",
         "suggested_use_cases": [
-          "Building automated ingestion pipelines to harvest video and audio data for machine learning datasets.",
-          "Archiving live streams and historical video content reliably with customized post-processing metadata tagging."
+          "Refactoring and stripping legacy embedded Linux or Android firmware for custom IoT appliances and dedicated office displays.",
+          "Building automated device-provisioning or regression-testing pipelines for mobile and TV applications using natural language interfaces."
         ]
       }
     },
     {
       "rank": 3,
-      "name": "humblemuzzu/dumbtv",
-      "score": 89,
-      "reason": "A highly practical tool enabling users to strip ads, tracking, and telemetry from Fire TV devices over ADB without rooting.",
-      "why_interesting_today": "Smart TVs have become notorious for bloatware, aggressive advertising, and intrusive data collection.",
-      "why_developers_should_care": "It showcases clever use of ADB interfaces and provides a fully open-source launcher alternative for constrained Android environments.",
-      "momentum": "Rapidly gaining traction (+148 stars) as privacy-conscious developers look to clean up their living room hardware.",
-      "novelty": "Tackles consumer smart-device bloat with a clean, reversible, open-source approach.",
+      "name": "reason-machines/reason-network",
+      "score": 88,
+      "reason": "Taps directly into the emerging paradigm of multi-agent collaboration and decentralized peer-to-peer developer tools.",
+      "why_interesting_today": "Brings peer-to-peer networking (via iroh) and Model Context Protocol (MCP) together specifically for communicating coding agents.",
+      "why_developers_should_care": "As teams transition from single-agent workflows to coordinated multi-agent squads, tools enabling secure agent-to-agent communication are vital.",
+      "momentum": "Solid organic growth and active maintenance in a brand-new technological subsegment.",
+      "novelty": "Very high novelty, pioneering decentralized and protocol-driven communication layers strictly tailored for autonomous coding agents.",
       "deep_analysis": {
-        "name": "humblemuzzu/dumbtv",
-        "headline_hook": "Tired of your smart TV serving up laggy ads and telemetry instead of content? dumbtv lets you clean up Fire TV devices over ADB without rooting.",
-        "core_functionality": "dumbtv is a non-destructive script-based toolkit that strips ads, sponsored content, telemetry, and tracking from Amazon Fire TV devices over ADB without requiring root access. It disables approximately 50 bloatware packages, runs an on-device DNS filter to block telemetry, and replaces the stock launcher with a lightweight, permissionless home screen.",
+        "name": "reason-machines/reason-network",
+        "headline_hook": "Reason Network bridges peer-to-peer networking and the Model Context Protocol to let your local AI coding agents collaborate directly across machines, end-to-end encrypted.",
+        "core_functionality": "Reason Network solves the siloed nature of local AI coding assistants by establishing a secure, end-to-end encrypted peer-to-peer network across machines. It enables AI coding agents (such as Claude Code, Codex, Cursor, and others) running on different developers' computers to discover each other, check status, send messages, exchange code files, and coordinate tasks without exposing data to third-party servers.",
         "key_features": [
-          "Non-root ADB package management that disables rather than deletes Amazon ad services, tracking, and telemetry packages",
-          "An on-device DNS filter powered by personalDNSfilter that blocks over 400 telemetry and ad domains without breaking core apps",
-          "A custom, ultra-lightweight launcher (dumbtv home) written in plain Java with zero internet permissions or libraries",
-          "Interactive preflight checks and configurable execution scripts that let users selectively keep or drop features like Prime Video or Alexa"
+          "End-to-end encrypted peer-to-peer transport powered by iroh with fallback to privacy-preserving relays.",
+          "Native Model Context Protocol integration providing coding agents with tools like list_team, send_message, check_inbox, and ask_user.",
+          "Cross-agent state visibility showing active repository, branch, and busy or idle status across teammate sessions.",
+          "Human-in-the-loop approval workflows via desktop pop-ups for actions requiring explicit authorization."
         ],
-        "target_audience": "Software developers, privacy advocates, and system engineers who prefer local control over consumer hardware, enjoy tinkering with ADB and Android internals, or want to automate device provisioning.",
-        "practical_developer_value": "Developers can use dumbtv as a reference implementation for automated Android device management, ADB scripting, and non-root system debloating. It demonstrates how to cleanly handle package state modifications, implement local DNS filtering on embedded systems, and build resource-constrained native Android launchers with zero network dependencies.",
+        "target_audience": "AI engineers, remote software development teams, and power users leveraging multiple local LLM coding assistants who need decentralized coordination.",
+        "practical_developer_value": "Developers can orchestrate multi-agent workflows across multiple local machines or team members without managing complex cloud infrastructure or exposing source code to centralized servers. It allows an agent on one machine to query another machine's agent for code snippets, run automated distributed reviews, or sync context seamlessly during collaborative coding sessions.",
         "suggested_use_cases": [
-          "Automating the provisioning and debloating of multiple media streaming sticks in a homelab environment",
-          "Studying how to write low-overhead Android launchers and custom home screen replacements using plain Java"
+          "Coordinating multi-agent code reviews and testing across distributed developer machines.",
+          "Passing logs, configuration schemas, or small code contexts between a local Claude Code session and a teammate's Codex instance."
         ]
       }
     },
     {
       "rank": 4,
-      "name": "JoasASantos/REA-Prompts",
+      "name": "wesbos/3d-model-anything",
       "score": 85,
-      "reason": "A specialized collection of prompt-engineering strategies focused on 'Reverse Engineer Anything' (REA).",
-      "why_interesting_today": "Developers are increasingly using LLMs to dissect unfamiliar binaries, legacy codebases, and proprietary systems.",
-      "why_developers_should_care": "Provides structured prompts that guide AI models to break down, analyze, and clone programs methodically.",
-      "momentum": "Strong early-stage velocity (+144 stars) indicating acute interest in AI-assisted reverse engineering.",
-      "novelty": "Applies prompt engineering specifically to the complex domain of reverse engineering and software teardowns.",
+      "reason": "Bridges physical space capture (LiDAR/photos) directly into web-native Three.js environments with impressive practical utility.",
+      "why_interesting_today": "Provides a streamlined workflow for developers looking to turn real rooms into interactive web experiences effortlessly.",
+      "why_developers_should_care": "Simplifies spatial computing, computer vision output processing, and browser-based 3D rendering pipelines into an accessible project.",
+      "momentum": "Strong interest from frontend and creative coding communities shortly after launch.",
+      "novelty": "Moderate-high novelty in offering an end-to-end pipeline from mobile device spatial capture to web rendering.",
       "deep_analysis": {
-        "name": "JoasASantos/REA-Prompts",
-        "headline_hook": "Unlock the power of AI coding agents to reverse engineer binaries, legacy codebases, and proprietary protocols with precision prompts.",
-        "core_functionality": "This repository provides a curated collection of specialized prompt-engineering strategies designed to guide AI coding agents through reverse-engineering tasks. Using the Reverse Engineer Anything toolset, it structures LLM interactions to safely and systematically analyze native binaries, firmware, games, and web apps while strictly separating factual evidence from hypotheses.",
+        "name": "wesbos/3d-model-anything",
+        "headline_hook": "Turn any physical room into an interactive Three.js web experience using an iPhone LiDAR scan and an AI coding agent.",
+        "core_functionality": "This project bridges physical space capture with web-native 3D environments. It provides an iPhone app to record room geometry and photos, combined with an AI agent skill that guides an LLM through measuring, modeling, and iteratively reconstructing the space into an editable Three.js scene.",
         "key_features": [
-          "Evidence-backed analysis prompts that force AI agents to cite file paths, functions, memory addresses, or code snippets for every conclusion.",
-          "Comprehensive coverage across diverse domains including native binary exploration, feature tracing, game mechanics recovery, and protocol extraction.",
-          "Clean-room cloning frameworks that help extract behavior and specifications without copying proprietary source code or assets.",
-          "Structured safeguards and warnings emphasizing responsible security research, bug bounties, and interoperability testing."
+          "LiDAR-equipped iPhone app capture that packages room geometry and photo collections for spatial data export.",
+          "An AI coding agent skill designed to interpret raw scan exports, execute measurements, and build editable Three.js scenes.",
+          "Matched-camera visual comparison tooling that enables iterative refinement between the generated 3D scene and original photographs.",
+          "A versatile Three.js runtime viewer featuring multiple perspectives including dollhouse, walking, overhead, wireframe, and knolling views."
         ],
-        "target_audience": "Security researchers, reverse engineers, vulnerability analysts, game developers, and software engineers working with legacy systems or unfamiliar codebases.",
-        "practical_developer_value": "Developers can dramatically accelerate the process of understanding undocumented third-party libraries, legacy applications, or custom file formats. By utilizing these structured prompts with an AI agent, teams can perform clean-room feature reimplementations, security audits, and interoperability research in a fraction of traditional manual analysis times.",
+        "target_audience": "Frontend developers, creative technologists, and AI engineers working with WebGL, Three.js, or spatial computing workflows.",
+        "practical_developer_value": "Developers often struggle to translate real-world spaces into lightweight, interactive web 3D models. This repository offers a turnkey workflow and AI agent skill that automates the tedious translation from raw LiDAR data to structured Three.js code, dramatically lowering the barrier to entry for building web-based virtual tours, digital twins, and immersive portfolios.",
         "suggested_use_cases": [
-          "Tracing complex data flows from a user interface button click down to database or file writes in unfamiliar applications.",
-          "Extracting and documenting proprietary wire formats and serialization protocols to build compatible clients or plugins.",
-          "Analyzing native binaries and game executables to understand performance loops, state machines, or logic for educational ports.",
-          "Conducting security research, vulnerability analysis, and defensive assessments on internal codebases or authorized targets."
+          "Building interactive virtual office tours or digital twins for portfolios and corporate websites.",
+          "Prototyping interior design, retail space layouts, or architectural walkthroughs directly in the browser."
         ]
       }
     },
     {
       "rank": 5,
-      "name": "ikow/php2shell-poc",
-      "score": 82,
-      "reason": "A focused proof-of-concept and detection rule repository targeting recent high-severity PHP session upload vulnerabilities.",
-      "why_interesting_today": "Zero-day and emerging CVE research requires immediate defensive validation, rule writing, and penetration testing insight.",
-      "why_developers_should_care": "Security engineers and backend maintainers get immediate access to Suricata, Sigma, and ModSecurity rules to protect infrastructure.",
-      "momentum": "Strong initial traction with high fork-to-star ratios typical of critical security research releases.",
-      "novelty": "Combines multi-vector RCE exploit research with ready-to-deploy defensive WAF and detection artifacts.",
+      "name": "awesome-selfhosted/awesome-selfhosted",
+      "score": 83,
+      "reason": "An established reference list showing phenomenal current star momentum resurgence, reflecting growing developer interest in data privacy.",
+      "why_interesting_today": "Surging interest highlights the broader developer movement away from centralized cloud services towards self-hosted infrastructure.",
+      "why_developers_should_care": "Serves as the definitive directory for finding open-source alternatives to commercial SaaS tools.",
+      "momentum": "Unusually high star growth for an established curation list, indicating macro shifts in developer sentiment.",
+      "novelty": "Low structural novelty as a curated list, but exceptional ongoing utility and renewed community relevance.",
       "deep_analysis": {
-        "name": "ikow/php2shell-poc",
-        "headline_hook": "Discover how the critical php2shell vulnerabilities (CVE-2026-109618 and CVE-2026-109619) impact the PHP ecosystem and how this toolkit provides exploit verification and comprehensive multi-layer detection rules.",
-        "core_functionality": "This project provides a comprehensive proof-of-concept, exploitation, and defensive detection toolkit for CVE-2026-109618 and CVE-2026-109619, a pair of critical pre-authentication Remote Code Execution vulnerabilities affecting PHP's session upload progress mechanism and the Zend engine core across multiple major versions.",
+        "name": "awesome-selfhosted/awesome-selfhosted",
+        "headline_hook": "Reclaim your digital sovereignty and data privacy by replacing centralized SaaS providers with a massive curated directory of over 100 categories of free, open-source self-hosted applications.",
+        "core_functionality": "The repository serves as a comprehensive, community-curated directory and knowledge base of free software network services and web applications that users can host on their own servers, eliminating reliance on third-party SaaS providers.",
         "key_features": [
-          "Multi-chain exploitation framework demonstrating five independent RCE vectors ranging from session injection and LFI to use-after-free and Zend engine OOM memory corruption.",
-          "Comprehensive detection rule suite containing production-ready signatures for Suricata, Snort, Sigma SIEM, ModSecurity WAF, and OpenResty Lua reverse proxies.",
-          "Isolated testing lab utilizing Docker Compose with pre-configured vulnerable PHP environments across different SAPI configurations like PHP-FPM, Nginx, and Apache mod_php.",
-          "Targeted verification scripts allowing security engineers and administrators to safely test specific attack chains without executing full disruptive exploits."
+          "Extensive categorization covering everything from analytics, automation, and backup solutions to generative AI, media streaming, and software development tools.",
+          "Automated maintenance workflows integrated directly into the repository data layer to continuously check for dead links and unmaintained projects.",
+          "Clear licensing and technology stack indicators associated with each listed project, helping developers evaluate software suitability.",
+          "Availability of both an updated, user-friendly HTML version and a legacy Markdown catalog for easy browsing and integration."
         ],
-        "target_audience": "Application Security Engineers, Penetration Testers, DevSecOps Engineers, and System Administrators managing PHP-based infrastructure.",
-        "practical_developer_value": "Developers and security teams can use this repository to understand deeply how low-level memory corruption and session state mismanagement can bypass high-level application logic. By deploying the included lab environment and WAF or IDS rules, teams can validate their stack's resilience, test patching efficacy across PHP 8.2, 8.3, 8.4, and 8.5, and implement immediate mitigations before broader automated exploitation occurs.",
+        "target_audience": "DevOps engineers, sysadmins, privacy-conscious developers, and homelab hobbyists who prefer managing their own infrastructure over consuming centralized cloud services.",
+        "practical_developer_value": "Developers and infrastructure teams can use this repository as an immediate, trustworthy reference guide to discover production-ready open-source alternatives for commercial tools, reducing software licensing costs, improving data privacy, and accelerating the deployment of internal tools using Docker and Kubernetes.",
         "suggested_use_cases": [
-          "Validating internal web server and container images against zero-day and pre-auth session upload progress vulnerabilities.",
-          "Deploying Suricata, Snort, or ModSecurity signatures to catch malicious multipart POST bodies attempting to leverage session upload progress variables."
+          "Setting up a private analytics and monitoring stack using self-hosted alternatives to Google Analytics and commercial status page tools.",
+          "Building an isolated, secure developer toolchain complete with self-hosted continuous integration, project management, and password management systems."
         ]
       }
     }
