@@ -44,8 +44,8 @@
       "caption": "Tired of renting your digital life to big tech and dealing with endless SaaS price hikes? \n\nReclaim your digital sovereignty and data privacy by replacing centralized SaaS providers with a massive curated directory of over 100 categories of free, open-source self-hosted applications.\n\nWhether you are a DevOps engineer, sysadmin, or a homelab hobbyist, setting up your own infrastructure often hits a wall when you are searching for reliable, production-ready alternatives to commercial tools. \n\n`awesome-selfhosted` solves this by giving you a comprehensive knowledge base of free software network services that you can run on your own servers using Docker and Kubernetes. \n\nNotable Features:\n- Massive categorization covering everything from analytics, automation, and backup solutions to generative AI, media streaming, and dev tools.\n- Automated maintenance workflows that continuously check for dead links and unmaintained projects.\n- Clear licensing and tech stack indicators to help you quickly evaluate software suitability.\n- Available as both a user-friendly HTML version and a legacy Markdown catalog.\n\nUse it to spin up a private analytics stack, build an isolated developer toolchain, cut licensing costs, and keep your data entirely under your control.\n\nCheck out the repository and star it to build your ultimate homelab stack:\nhttps://github.com/awesome-selfhosted/awesome-selfhosted\n\nWhat is the one self-hosted tool you cannot live without in your setup? Drop it in the comments below! 👇\n\n#SelfHosted #OpenSource #DevOps #Homelab #DataPrivacy #SysAdmin #Docker #Kubernetes",
       "image_file": "5_awesome-selfhosted_awesome-selfhosted.png",
       "photo_id": "122123662659476221",
-      "published_post_id": null,
-      "published_at": null
+      "published_post_id": "1410193715501138_122123839725476221",
+      "published_at": "2026-10-24T23:00:37.199991+08:00"
     }
   ]
 }
