@@ -26,8 +26,8 @@
       "caption": "Stop letting your local AI coding agents work in total isolation! 🤖🧱\n\nReason Network bridges peer-to-peer networking and the Model Context Protocol to let your local AI coding agents collaborate directly across machines, end-to-end encrypted. \n\nMost developer AI setups today are completely siloed, leaving your coding assistants unable to talk to each other across different computers without routing sensitive source code through third-party cloud servers. \n\nReason Network solves this by establishing a secure, E2EE peer-to-peer network across machines. Now, AI coding agents running on different computers can discover each other, check status, send messages, exchange code files, and coordinate complex tasks with absolute privacy.\n\nKey features you get out of the box:\n🔒 End-to-end encrypted P2P transport powered by iroh with privacy-preserving relay fallbacks.\n🔌 Native Model Context Protocol (MCP) integration giving agents tools like list_team, send_message, check_inbox, and ask_user.\n👀 Cross-agent state visibility showing active repositories, branches, and busy or idle statuses across teammate sessions.\n🛡️ Human-in-the-loop approval workflows via desktop pop-ups for any actions requiring your explicit authorization.\n\nWhether you are coordinating multi-agent code reviews across distributed developer rigs or passing code contexts between local sessions, you can now orchestrate multi-agent workflows without managing complex cloud infrastructure.\n\nCheck out the repo, drop a star, and start building your decentralized AI dev team today:\nhttps://github.com/reason-machines/reason-network\n\nWhat is your current workflow for managing multiple local AI agents? Let us know in the comments! 👇\n\n#AI #SoftwareEngineering #MachineLearning #OpenSource #DeveloperTools #Coding #ArtificialIntelligence #MCP",
       "image_file": "3_reason-machines_reason-network.png",
       "photo_id": "122123662575476221",
-      "published_post_id": null,
-      "published_at": null
+      "published_post_id": "1410193715501138_122123731707476221",
+      "published_at": "2026-10-24T15:00:35.951405+08:00"
     },
     {
       "rank": 4,
