@@ -3,136 +3,136 @@
   "repositories": [
     {
       "rank": 1,
-      "name": "openclaw/openclaw",
-      "score": 96,
-      "reason": "Combines massive popularity with strong daily star growth and cutting-edge personal AI assistant relevance.",
-      "why_interesting_today": "Represents the vanguard of autonomous personal AI tools operating locally across platforms with significant developer engagement.",
-      "why_developers_should_care": "Provides a robust architecture for taking back data ownership while building sophisticated, multi-platform AI agents.",
-      "momentum": "Exceptionally high daily star growth and active pushes indicate a massive viral and professional adoption wave.",
-      "novelty": "High novelty in merging cross-OS agent execution with data privacy principles under a fresh open-source paradigm.",
+      "name": "colinhacks/reylo",
+      "score": 94,
+      "reason": "Provides a high-utility developer tool that solves an annoying workflow friction point—importing raw SQL directly into TypeScript with zero codegen and full type inference.",
+      "why_interesting_today": "Bridges the gap between raw database schemas and modern type-safe TypeScript backends without cumbersome build step code generation.",
+      "why_developers_should_care": "Eliminates boilerplate and keeps type safety intact straight from your `.sql` files, streamlining data-layer development.",
+      "momentum": "Strong early traction and interest for a newly released specialized tool.",
+      "novelty": "High; combining direct SQL parsing with zero-codegen TypeScript type inference in Rust is a fresh approach.",
       "deep_analysis": {
-        "name": "openclaw/openclaw",
-        "headline_hook": "Take full ownership of your personal AI assistant by running OpenClaw locally on your hardware with native integrations across all your favorite chat apps and devices.",
-        "core_functionality": "OpenClaw solves the fragmentation and privacy concerns of closed, cloud-hosted AI assistants by providing a self-hosted, open-source control plane (the Gateway) that connects local or hosted LLMs directly to popular messaging platforms and companion devices.",
+        "name": "colinhacks/reylo",
+        "headline_hook": "Import raw SQL files directly into TypeScript with zero code generation and full end-to-end type inference.",
+        "core_functionality": "Reylo solves the friction of bridging raw database queries with TypeScript codebases. By leveraging TypeScript content mappers, it allows developers to import .sql files directly into their TypeScript modules. It queries a development database during compilation to automatically infer precise column types, parameter constraints, nullability, and return cardinality without requiring any build-step code generation or watch processes.",
         "key_features": [
-          "Multi-Channel Support: Integrates natively with Discord, iMessage, Slack, Teams, Telegram, WhatsApp, and 20+ other chat services out of the box.",
-          "Local State and Security: State, memory, and credentials reside entirely on your hardware with opt-in telemetry and a trusted gateway architecture.",
-          "Extensible Plugin SDK: Swap out model harnesses, add custom tools, skills, and plugins, or distribute capabilities via ClawHub.",
-          "Cross-Platform Companion Apps: Native apps and nodes for macOS, iOS, Android, Windows, and Linux enabling voice, canvas, and device-local actions."
+          "Zero code generation architecture powered by TypeScript content mappers and the --runExternalCode flag.",
+          "Database-backed type checking that catches syntax errors, misspelled columns, and parameter mismatches in tsc and your editor.",
+          "Brought-your-own-driver compatibility supporting a massive range of Postgres, MySQL, and SQLite drivers like pg, mysql2, better-sqlite3, and Bun.sql.",
+          "Smart runtime cardinality and nullability inference mapping queries automatically to single rows, null-safe lookups, arrays, or void based on unique keys and operators."
         ],
-        "target_audience": "AI engineers, privacy-conscious developers, and power users looking to build, orchestrate, and self-host autonomous personal or team-shared AI agents.",
-        "practical_developer_value": "Developers get a production-ready, open-source framework for deploying localized AI agents without relying on third-party SaaS wrappers. It provides an extensible plugin architecture, local CLI and TUI control panels, and a robust Gateway design that allows you to safely expose tools and execution environments to LLMs.",
+        "target_audience": "Full-stack TypeScript engineers, backend developers, and AI-assisted software engineers who prefer writing raw SQL over heavy ORMs.",
+        "practical_developer_value": "Developers save countless hours typically wasted maintaining manual row types or configuring clunky code generation pipelines. By keeping SQL in dedicated files while preserving strict type safety, teams can write complex, optimized database queries without losing the safety net of compiler-enforced types.",
         "suggested_use_cases": [
-          "Building a personalized, multi-platform DevOps bot that coordinates alerts and automated actions across Slack and Telegram.",
-          "Running a completely private, local-model-backed personal assistant that manages local files, device actions, and messaging apps without leaking telemetry data."
+          "Building high-performance APIs with complex analytical queries and custom database-specific operators.",
+          "Empowering AI coding agents to safely generate and modify raw SQL queries alongside TypeScript code with guaranteed type validation."
         ]
       }
     },
     {
       "rank": 2,
-      "name": "Ansub/tv-detox",
+      "name": "EthanArbuckle/fairplay-decrypt",
       "score": 91,
-      "reason": "Extremely practical, highly focused developer utility solving a universal annoyance (bloated smart TVs) using modern AI assistance.",
-      "why_interesting_today": "Demonstrates real-world use cases of leveraging LLMs like Claude Code or Codex to refactor legacy embedded hardware software.",
-      "why_developers_should_care": "Offers both a clean home screen application and the exact prompting strategy used to strip away sluggish OEM bloatware.",
-      "momentum": "Strong early-stage velocity with rapid star acquisition relative to its age and niche focus.",
-      "novelty": "High novelty in applying AI-driven code generation directly to revitalize abandoned or sluggish Android TV hardware.",
+      "reason": "Demonstrates advanced systems programming and independent key derivation for offline FairPlay App Store IPA decryption.",
+      "why_interesting_today": "Shows rapid star and fork growth as security researchers and developers look into independent decryption mechanics.",
+      "why_developers_should_care": "Offers deep insights into mobile digital rights management (DRM) internals, reverse engineering, and cryptographic key derivation.",
+      "momentum": "Exceptionally high star and fork momentum right out of the gate.",
+      "novelty": "High level of technical novelty regarding offline independent key derivation for App Store binaries.",
       "deep_analysis": {
-        "name": "Ansub/tv-detox",
-        "headline_hook": "Transform a sluggish, ad-bloated smart TV into a lightning-fast display using a conversational prompt and an LLM.",
-        "core_functionality": "The project uses LLM-powered coding assistants like Claude Code or Codex to interact with Android TV hardware via ADB (Android Debug Bridge), safely removing bloatware, turning off resource-heavy system animations, disabling sponsored rows, and installing a lightweight custom home screen launcher without breaking core TV functionality.",
+        "name": "EthanArbuckle/fairplay-decrypt",
+        "headline_hook": "Decrypt iOS applications offline by independently deriving FairPlay page keys using custom Python-based SINF and SUPF record parsing.",
+        "core_functionality": "EthanArbuckle/fairplay-decrypt solves the problem of decrypting Apple FairPlay-protected iOS applications (IPAs) without relying on active device-side runtime dumping tools. By leveraging a 16-byte account credential retrieved from a jailbroken device, the tool parses app-specific SINF and SUPF metadata records, derives the necessary cryptographic page keys, decrypts encrypted arm64 Mach-O slices, and clears the cryptographic protection flags.",
         "key_features": [
-          "LLM-Driven System Audit: Prompts the AI to analyze installed apps in plain English, categorizing them into safe-to-disable, required system services, and user apps before making any changes.",
-          "Safety Guardrails & Automated Rollback: Enforces strict whitelists of critical dependencies (such as Google Play services, System UI, and HDMI tuners) and includes comprehensive undo scripts to revert modifications.",
-          "Hardware-Specific Optimization: Automates UI performance tweaks including disabling system animations, configuring aggressive sleep timers, and managing screen savers for OLED burn-in protection.",
-          "Cross-Version ADB Compatibility: Automatically handles complex connection setups including standard USB debugging and modern wireless debugging workflows with pairing ports."
+          "Pure Python implementation that executes seamlessly on both macOS and Linux environments.",
+          "Comprehensive support for version-3 and version-5 SUPF structures along with 448-byte and padding-compliant 440-byte SINF priv records.",
+          "Integrated credential retrieval companion system designed for jailbroken iOS devices using Xcode and ldid.",
+          "Targeted extraction and page-level decryption of encrypted arm64 Mach-O binaries alongside automated cryptid clearing."
         ],
-        "target_audience": "Software developers, systems engineers, and technical hobbyists who want to hack consumer hardware, experiment with practical agentic AI workflows, or reclaim old devices.",
-        "practical_developer_value": "It serves as a stellar blueprint for agentic system administration, demonstrating how to bridge high-level LLM planning with low-level command-line execution (ADB) safely. Developers can study this repository to learn how to structure guardrails, multi-step prompt workflows, and automated rollback logic for safely mutating remote headless or embedded environments.",
+        "target_audience": "Security researchers, reverse engineers, mobile application developers, and digital forensics specialists.",
+        "practical_developer_value": "This repository provides deep educational insight into Apple digital rights management, binary file structures, and applied cryptography. Developers working in security auditing or static analysis can utilize or adapt this logic to automate the unpacking and analysis of iOS binaries in continuous integration environments or proprietary security pipelines without manual device interaction.",
         "suggested_use_cases": [
-          "Refactoring and stripping legacy embedded Linux or Android firmware for custom IoT appliances and dedicated office displays.",
-          "Building automated device-provisioning or regression-testing pipelines for mobile and TV applications using natural language interfaces."
+          "Automating the decryption and static analysis of internal enterprise iOS builds within security scanning pipelines.",
+          "Studying the inner workings of Apple FairPlay DRM architecture, SINF/SUPF records, and Mach-O decryption mechanics."
         ]
       }
     },
     {
       "rank": 3,
-      "name": "reason-machines/reason-network",
+      "name": "xevrion/hatchzip",
       "score": 88,
-      "reason": "Taps directly into the emerging paradigm of multi-agent collaboration and decentralized peer-to-peer developer tools.",
-      "why_interesting_today": "Brings peer-to-peer networking (via iroh) and Model Context Protocol (MCP) together specifically for communicating coding agents.",
-      "why_developers_should_care": "As teams transition from single-agent workflows to coordinated multi-agent squads, tools enabling secure agent-to-agent communication are vital.",
-      "momentum": "Solid organic growth and active maintenance in a brand-new technological subsegment.",
-      "novelty": "Very high novelty, pioneering decentralized and protocol-driven communication layers strictly tailored for autonomous coding agents.",
+      "reason": "An ingenious CLI utility addressing a common disk-space frustration: extracting huge archives in-place by shrinking the archive file as contents hatch.",
+      "why_interesting_today": "Solves the classic 'need 2x the space to unzip a massive archive' problem with an efficient Rust implementation.",
+      "why_developers_should_care": "Saves massive amounts of temporary disk space and time when dealing with large datasets, VM images, or bulky archives in development environments.",
+      "momentum": "Steady engagement and strong practical appreciation from systems developers.",
+      "novelty": "Very high; an in-place shrinking archive extractor is a clever spin on traditional decompression tools.",
       "deep_analysis": {
-        "name": "reason-machines/reason-network",
-        "headline_hook": "Reason Network bridges peer-to-peer networking and the Model Context Protocol to let your local AI coding agents collaborate directly across machines, end-to-end encrypted.",
-        "core_functionality": "Reason Network solves the siloed nature of local AI coding assistants by establishing a secure, end-to-end encrypted peer-to-peer network across machines. It enables AI coding agents (such as Claude Code, Codex, Cursor, and others) running on different developers' computers to discover each other, check status, send messages, exchange code files, and coordinate tasks without exposing data to third-party servers.",
+        "name": "xevrion/hatchzip",
+        "headline_hook": "HatchZip is a Rust-powered CLI utility that extracts massive archives in-place by shrinking the archive file as its contents hatch, eliminating the traditional requirement for twice the disk space.",
+        "core_functionality": "Traditional archive extraction tools like unzip, 7-Zip, or WinRAR require disk space equal to both the compressed archive and the total uncompressed output combined. HatchZip solves this '2x disk space' frustration by reading archives from the end and truncating finished segments from the file on-the-fly, allowing the disk space freed up by the archive to be immediately reused for the extracted files.",
         "key_features": [
-          "End-to-end encrypted peer-to-peer transport powered by iroh with fallback to privacy-preserving relays.",
-          "Native Model Context Protocol integration providing coding agents with tools like list_team, send_message, check_inbox, and ask_user.",
-          "Cross-agent state visibility showing active repository, branch, and busy or idle status across teammate sessions.",
-          "Human-in-the-loop approval workflows via desktop pop-ups for actions requiring explicit authorization."
+          "In-place shrinkage supporting multiple formats including ZIP, 7z, tar, gz, and RAR volume sets.",
+          "Pre-flight safety checks that calculate exact space requirements before altering any files and maintain a free-space safety margin.",
+          "Crash-resilient processing that allows interrupted extractions to safely pick up where they left off.",
+          "File-chunk hole-punching on supported filesystems (ext4, XFS, btrfs, tmpfs) to reclaim space even faster during single-file extractions."
         ],
-        "target_audience": "AI engineers, remote software development teams, and power users leveraging multiple local LLM coding assistants who need decentralized coordination.",
-        "practical_developer_value": "Developers can orchestrate multi-agent workflows across multiple local machines or team members without managing complex cloud infrastructure or exposing source code to centralized servers. It allows an agent on one machine to query another machine's agent for code snippets, run automated distributed reviews, or sync context seamlessly during collaborative coding sessions.",
+        "target_audience": "Software developers, system administrators, and power users working with large datasets, massive game files, or virtual machine images on disk-constrained development machines or CI/CD runners.",
+        "practical_developer_value": "Developers frequently deal with massive software dependencies, AI model weights, or asset bundles on constrained local environments or cloud virtual machines. HatchZip prevents build failures and deployment bottlenecks caused by out-of-disk errors during extraction. Furthermore, its modular design features a core library (hatchzip-core) that can be integrated into custom Rust tooling or deployment pipelines requiring space-efficient archive handling.",
         "suggested_use_cases": [
-          "Coordinating multi-agent code reviews and testing across distributed developer machines.",
-          "Passing logs, configuration schemas, or small code contexts between a local Claude Code session and a teammate's Codex instance."
+          "Extracting massive multi-gigabyte software assets or AI model checkpoints inside tight CI/CD runner storage limits.",
+          "Unpacking huge game builds or development dependencies on a laptop with low available disk space."
         ]
       }
     },
     {
       "rank": 4,
-      "name": "wesbos/3d-model-anything",
+      "name": "Jakeschincariol/day-trader-skill",
       "score": 85,
-      "reason": "Bridges physical space capture (LiDAR/photos) directly into web-native Three.js environments with impressive practical utility.",
-      "why_interesting_today": "Provides a streamlined workflow for developers looking to turn real rooms into interactive web experiences effortlessly.",
-      "why_developers_should_care": "Simplifies spatial computing, computer vision output processing, and browser-based 3D rendering pipelines into an accessible project.",
-      "momentum": "Strong interest from frontend and creative coding communities shortly after launch.",
-      "novelty": "Moderate-high novelty in offering an end-to-end pipeline from mobile device spatial capture to web rendering.",
+      "reason": "Blends modern AI workflow tooling with algorithmic trading by providing specific Claude skills for chart scanning, backtesting, and market analysis.",
+      "why_interesting_today": "Capitalizes on the surge of interest in extending LLM assistants (like Claude) with specialized, domain-specific execution skills.",
+      "why_developers_should_care": "Illustrates how developers can package complex analytical pipelines and multi-step tasks into modular AI agent skills.",
+      "momentum": "Solid fork-to-star ratio indicating strong community adoption of its modular trading skill architecture.",
+      "novelty": "Moderate-to-high novelty in the burgeoning ecosystem of LLM tool-use frameworks.",
       "deep_analysis": {
-        "name": "wesbos/3d-model-anything",
-        "headline_hook": "Turn any physical room into an interactive Three.js web experience using an iPhone LiDAR scan and an AI coding agent.",
-        "core_functionality": "This project bridges physical space capture with web-native 3D environments. It provides an iPhone app to record room geometry and photos, combined with an AI agent skill that guides an LLM through measuring, modeling, and iteratively reconstructing the space into an editable Three.js scene.",
+        "name": "Jakeschincariol/day-trader-skill",
+        "headline_hook": "Turn Claude into a disciplined day-trading co-pilot that scans thousands of charts, simulates 10,000 outcomes, and executes paper trades only with your explicit approval.",
+        "core_functionality": "Bridges modern AI assistant tooling with quantitative day-trading workflows by providing a modular pack of eleven Claude skills backed by plain Python tools. It automates the end-to-end trading pipeline from multi-thousand stock chart scanning and breaking news analysis to entry timing, risk management, Monte Carlo backtesting via a Time Machine simulation, and broker execution.",
         "key_features": [
-          "LiDAR-equipped iPhone app capture that packages room geometry and photo collections for spatial data export.",
-          "An AI coding agent skill designed to interpret raw scan exports, execute measurements, and build editable Three.js scenes.",
-          "Matched-camera visual comparison tooling that enables iterative refinement between the generated 3D scene and original photographs.",
-          "A versatile Three.js runtime viewer featuring multiple perspectives including dollhouse, walking, overhead, wireframe, and knolling views."
+          "Modular Unix-philosophy pipeline where each skill reads output JSON from the previous step, flowing from scanner to risk manager to broker.",
+          "Monte Carlo Time Machine simulation that replays 10,000 sessions derived from recent intraday bars to calculate objective historical odds before risking capital.",
+          "Built-in guardrails including strict paper-trading defaults, mandatory manual approval steps via Claude chat prompts, and programmatic limit checking.",
+          "Zero-dependency standard-library Python backend that parses free public data feeds like Yahoo Finance charts, Nasdaq symbols, and SEC EDGAR without requiring external paid API keys."
         ],
-        "target_audience": "Frontend developers, creative technologists, and AI engineers working with WebGL, Three.js, or spatial computing workflows.",
-        "practical_developer_value": "Developers often struggle to translate real-world spaces into lightweight, interactive web 3D models. This repository offers a turnkey workflow and AI agent skill that automates the tedious translation from raw LiDAR data to structured Three.js code, dramatically lowering the barrier to entry for building web-based virtual tours, digital twins, and immersive portfolios.",
+        "target_audience": "Algorithmic traders, AI engineers building LLM agent plugins, and software developers interested in quantitative finance and workflow automation.",
+        "practical_developer_value": "Developers can study how to architect composable, stateful CLI tools that interface cleanly with LLM context windows using file-based state sharing. It provides a blueprint for building domain-specific agentic skills that enforce safety constraints and human-in-the-loop validation for high-risk operations.",
         "suggested_use_cases": [
-          "Building interactive virtual office tours or digital twins for portfolios and corporate websites.",
-          "Prototyping interior design, retail space layouts, or architectural walkthroughs directly in the browser."
+          "Automating pre-market stock scans and opening-range breakout alerts directly within a local developer workspace or Claude Code environment.",
+          "Extending custom Model Context Protocol (MCP) servers and LLM agent workflows with rigorous risk management and paper-trading execution loops."
         ]
       }
     },
     {
       "rank": 5,
-      "name": "awesome-selfhosted/awesome-selfhosted",
-      "score": 83,
-      "reason": "An established reference list showing phenomenal current star momentum resurgence, reflecting growing developer interest in data privacy.",
-      "why_interesting_today": "Surging interest highlights the broader developer movement away from centralized cloud services towards self-hosted infrastructure.",
-      "why_developers_should_care": "Serves as the definitive directory for finding open-source alternatives to commercial SaaS tools.",
-      "momentum": "Unusually high star growth for an established curation list, indicating macro shifts in developer sentiment.",
-      "novelty": "Low structural novelty as a curated list, but exceptional ongoing utility and renewed community relevance.",
+      "name": "Zagitta/gpu-unlock",
+      "score": 82,
+      "reason": "Unlocks professional-grade FP/BF16 instruction issue rates on consumer NVIDIA 3000 series cards.",
+      "why_interesting_today": "Provides massive practical value to budget-conscious machine learning practitioners attempting to run local inference and training workloads.",
+      "why_developers_should_care": "Democratizes high-performance hardware capabilities for local AI development without requiring enterprise-tier GPUs.",
+      "momentum": "Maintains steady technical interest from the local LLM and deep learning community.",
+      "novelty": "High technical significance in low-level GPU hacking and hardware feature accessibility.",
       "deep_analysis": {
-        "name": "awesome-selfhosted/awesome-selfhosted",
-        "headline_hook": "Reclaim your digital sovereignty and data privacy by replacing centralized SaaS providers with a massive curated directory of over 100 categories of free, open-source self-hosted applications.",
-        "core_functionality": "The repository serves as a comprehensive, community-curated directory and knowledge base of free software network services and web applications that users can host on their own servers, eliminating reliance on third-party SaaS providers.",
+        "name": "Zagitta/gpu-unlock",
+        "headline_hook": "Unlock workstation-grade FP and BF16 instruction rates on consumer NVIDIA RTX 3000 series cards without modifying drivers or UEFI.",
+        "core_functionality": "This project provides a Linux kernel module that configures speed selectors and executes a functional level reset on consumer NVIDIA Ampere GPUs (GA102, GA103, GA104, GA106) prior to the official NVIDIA driver binding. By writing specific speed selector values (SS0 and SS1), it effectively doubles the instruction issuing speed of FP and BF16 FMA operations into FP32 operations, bridging the performance gap between consumer cards and their professional data center equivalents.",
         "key_features": [
-          "Extensive categorization covering everything from analytics, automation, and backup solutions to generative AI, media streaming, and software development tools.",
-          "Automated maintenance workflows integrated directly into the repository data layer to continuously check for dead links and unmaintained projects.",
-          "Clear licensing and technology stack indicators associated with each listed project, helping developers evaluate software suitability.",
-          "Availability of both an updated, user-friendly HTML version and a legacy Markdown catalog for easy browsing and integration."
+          "Pre-driver initialization via a Linux kernel module loaded in the initramfs, avoiding the need for manual binary patching on every NVIDIA driver update.",
+          "Significant performance boosts for machine learning workloads, including up to an 80 percent increase in BF16 GEMM throughput and accelerated LLM prefill, diffusion, and FlashAttention.",
+          "Comprehensive boot-time target configuration through kernel command-line arguments to selectively unlock specific PCI bus addresses or all supported cards.",
+          "Robust power-management integration that automatically restores the hardware unlock state following a system suspend-to-RAM cycle."
         ],
-        "target_audience": "DevOps engineers, sysadmins, privacy-conscious developers, and homelab hobbyists who prefer managing their own infrastructure over consuming centralized cloud services.",
-        "practical_developer_value": "Developers and infrastructure teams can use this repository as an immediate, trustworthy reference guide to discover production-ready open-source alternatives for commercial tools, reducing software licensing costs, improving data privacy, and accelerating the deployment of internal tools using Docker and Kubernetes.",
+        "target_audience": "Budget-conscious machine learning engineers, local AI researchers, and self-hosters running heavy transformer inference or model training workloads on consumer hardware.",
+        "practical_developer_value": "Developers building local LLM infrastructure or training pipelines on consumer-grade hardware (such as the RTX 3090) can achieve near-professional performance levels without purchasing expensive workstation cards. Because the tool runs as an early-stage kernel module rather than a patched driver, it seamlessly survives regular graphics driver upgrades and supports multi-GPU setups as well as VFIO-PCI virtual machine passthrough.",
         "suggested_use_cases": [
-          "Setting up a private analytics and monitoring stack using self-hosted alternatives to Google Analytics and commercial status page tools.",
-          "Building an isolated, secure developer toolchain complete with self-hosted continuous integration, project management, and password management systems."
+          "Accelerating local Large Language Model prefill speeds and training throughput on multi-GPU RTX 3090 rigs.",
+          "Boosting image generation pipelines and FlashAttention tasks in local AI development environments."
         ]
       }
     }

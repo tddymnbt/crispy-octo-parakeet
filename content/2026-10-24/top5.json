@@ -1,0 +1,54 @@
+{
+  "top_repositories": [
+    {
+      "rank": 1,
+      "name": "colinhacks/reylo",
+      "score": 94,
+      "reason": "Provides a high-utility developer tool that solves an annoying workflow friction point—importing raw SQL directly into TypeScript with zero codegen and full type inference.",
+      "why_interesting_today": "Bridges the gap between raw database schemas and modern type-safe TypeScript backends without cumbersome build step code generation.",
+      "why_developers_should_care": "Eliminates boilerplate and keeps type safety intact straight from your `.sql` files, streamlining data-layer development.",
+      "momentum": "Strong early traction and interest for a newly released specialized tool.",
+      "novelty": "High; combining direct SQL parsing with zero-codegen TypeScript type inference in Rust is a fresh approach."
+    },
+    {
+      "rank": 2,
+      "name": "EthanArbuckle/fairplay-decrypt",
+      "score": 91,
+      "reason": "Demonstrates advanced systems programming and independent key derivation for offline FairPlay App Store IPA decryption.",
+      "why_interesting_today": "Shows rapid star and fork growth as security researchers and developers look into independent decryption mechanics.",
+      "why_developers_should_care": "Offers deep insights into mobile digital rights management (DRM) internals, reverse engineering, and cryptographic key derivation.",
+      "momentum": "Exceptionally high star and fork momentum right out of the gate.",
+      "novelty": "High level of technical novelty regarding offline independent key derivation for App Store binaries."
+    },
+    {
+      "rank": 3,
+      "name": "xevrion/hatchzip",
+      "score": 88,
+      "reason": "An ingenious CLI utility addressing a common disk-space frustration: extracting huge archives in-place by shrinking the archive file as contents hatch.",
+      "why_interesting_today": "Solves the classic 'need 2x the space to unzip a massive archive' problem with an efficient Rust implementation.",
+      "why_developers_should_care": "Saves massive amounts of temporary disk space and time when dealing with large datasets, VM images, or bulky archives in development environments.",
+      "momentum": "Steady engagement and strong practical appreciation from systems developers.",
+      "novelty": "Very high; an in-place shrinking archive extractor is a clever spin on traditional decompression tools."
+    },
+    {
+      "rank": 4,
+      "name": "Jakeschincariol/day-trader-skill",
+      "score": 85,
+      "reason": "Blends modern AI workflow tooling with algorithmic trading by providing specific Claude skills for chart scanning, backtesting, and market analysis.",
+      "why_interesting_today": "Capitalizes on the surge of interest in extending LLM assistants (like Claude) with specialized, domain-specific execution skills.",
+      "why_developers_should_care": "Illustrates how developers can package complex analytical pipelines and multi-step tasks into modular AI agent skills.",
+      "momentum": "Solid fork-to-star ratio indicating strong community adoption of its modular trading skill architecture.",
+      "novelty": "Moderate-to-high novelty in the burgeoning ecosystem of LLM tool-use frameworks."
+    },
+    {
+      "rank": 5,
+      "name": "Zagitta/gpu-unlock",
+      "score": 82,
+      "reason": "Unlocks professional-grade FP/BF16 instruction issue rates on consumer NVIDIA 3000 series cards.",
+      "why_interesting_today": "Provides massive practical value to budget-conscious machine learning practitioners attempting to run local inference and training workloads.",
+      "why_developers_should_care": "Democratizes high-performance hardware capabilities for local AI development without requiring enterprise-tier GPUs.",
+      "momentum": "Maintains steady technical interest from the local LLM and deep learning community.",
+      "novelty": "High technical significance in low-level GPU hacking and hardware feature accessibility."
+    }
+  ]
+}
