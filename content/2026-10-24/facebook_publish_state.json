@@ -17,8 +17,8 @@
       "caption": "Transform a sluggish, ad-bloated smart TV into a lightning-fast display using just a conversational prompt and an LLM! 📺⚡\n\nIf you are tired of modern smart TVs crawling under heavy sponsored rows, background telemetry, and resource-hogging system animations, there is finally a better way. \n\nAnsub/tv-detox bridges high-level agentic AI with low-level hardware control. Using LLM-powered coding assistants like Claude Code or Codex, it interacts with Android TV via ADB to safely audit, strip, and supercharge your display without breaking core functionality.\n\n🔍 Key Features:\n• LLM-Driven System Audit: AI analyzes installed apps in plain English, sorting them into safe-to-disable, required system services, and user apps.\n• Safety Guardrails & Automated Rollback: Enforces strict whitelists for critical dependencies like Google Play services and System UI, complete with comprehensive undo scripts.\n• Hardware-Specific Optimization: Automates UI performance tweaks by killing system animations, setting aggressive sleep timers, and managing OLED burn-in protection.\n• Cross-Version ADB Compatibility: Seamlessly handles both standard USB debugging and modern wireless debugging workflows with pairing ports.\n\nFor developers and systems engineers, this repo serves as a stellar blueprint for agentic system administration. Learn how to structure strict guardrails, multi-step prompt workflows, and automated rollback logic for safely mutating remote headless or embedded environments. \n\nCheck out the source code and start hacking your consumer hardware today:\nhttps://github.com/Ansub/tv-detox\n\nWhat legacy hardware or embedded device are you planning to strip down next? Drop a comment below! 👇\n\n#SoftwareDevelopment #ArtificialIntelligence #AndroidDev #OpenSource #DeveloperTools #EmbeddedSystems",
       "image_file": "2_Ansub_tv-detox.png",
       "photo_id": "122123662527476221",
-      "published_post_id": null,
-      "published_at": null
+      "published_post_id": "1410193715501138_122123696181476221",
+      "published_at": "2026-10-24T11:00:37.183887+08:00"
     },
     {
       "rank": 3,
