@@ -3,136 +3,136 @@
   "repositories": [
     {
       "rank": 1,
-      "name": "colinhacks/reylo",
-      "score": 94,
-      "reason": "Provides a high-utility developer tool that solves an annoying workflow friction point—importing raw SQL directly into TypeScript with zero codegen and full type inference.",
-      "why_interesting_today": "Bridges the gap between raw database schemas and modern type-safe TypeScript backends without cumbersome build step code generation.",
-      "why_developers_should_care": "Eliminates boilerplate and keeps type safety intact straight from your `.sql` files, streamlining data-layer development.",
-      "momentum": "Strong early traction and interest for a newly released specialized tool.",
-      "novelty": "High; combining direct SQL parsing with zero-codegen TypeScript type inference in Rust is a fresh approach.",
+      "name": "ultraworkers/claw-code",
+      "score": 96,
+      "reason": "Demonstrates fully autonomous, agent-managed software development and exhibit curation built in Rust with zero human intervention.",
+      "why_interesting_today": "As AI agents increasingly move past simple code-completion to fully autonomous operations, seeing a complex repository entirely developed and maintained by AI stands as a major technical milestone.",
+      "why_developers_should_care": "It offers a compelling glimpse into the future of autonomous software engineering workflows and the potential of agent-driven project maintenance.",
+      "momentum": "Massive cumulative star base with intense interest in autonomous agent frameworks.",
+      "novelty": "Extremely high; represents a true zero-human-intervention project lifecycle in a modern systems programming language (Rust).",
       "deep_analysis": {
-        "name": "colinhacks/reylo",
-        "headline_hook": "Import raw SQL files directly into TypeScript with zero code generation and full end-to-end type inference.",
-        "core_functionality": "Reylo solves the friction of bridging raw database queries with TypeScript codebases. By leveraging TypeScript content mappers, it allows developers to import .sql files directly into their TypeScript modules. It queries a development database during compilation to automatically infer precise column types, parameter constraints, nullability, and return cardinality without requiring any build-step code generation or watch processes.",
+        "name": "ultraworkers/claw-code",
+        "headline_hook": "Claw Code is a fully autonomous, agent-managed Rust CLI harness and exhibit built to execute, verify, and preserve software development tasks with zero human intervention.",
+        "core_functionality": "Claw Code provides a Rust-based CLI agent harness designed to plan, execute, verify, and manage autonomous software development tasks. Acting as an agent-managed artifact, it interfaces with large language models to run prompts, manage sessions, perform diagnostics, and automate engineering workflows independently.",
         "key_features": [
-          "Zero code generation architecture powered by TypeScript content mappers and the --runExternalCode flag.",
-          "Database-backed type checking that catches syntax errors, misspelled columns, and parameter mismatches in tsc and your editor.",
-          "Brought-your-own-driver compatibility supporting a massive range of Postgres, MySQL, and SQLite drivers like pg, mysql2, better-sqlite3, and Bun.sql.",
-          "Smart runtime cardinality and nullability inference mapping queries automatically to single rows, null-safe lookups, arrays, or void based on unique keys and operators."
+          "Native Rust workspace delivering a high-performance, memory-safe CLI binary for agent orchestration.",
+          "Built-in doctor diagnostic tooling to verify system wiring, authentication, and execution environments before running agents.",
+          "Comprehensive platform support spanning macOS, Linux, and PowerShell-first Windows environments.",
+          "Flexible provider setup supporting Anthropic API keys as well as local OpenAI-compatible models and offline skill installations."
         ],
-        "target_audience": "Full-stack TypeScript engineers, backend developers, and AI-assisted software engineers who prefer writing raw SQL over heavy ORMs.",
-        "practical_developer_value": "Developers save countless hours typically wasted maintaining manual row types or configuring clunky code generation pipelines. By keeping SQL in dedicated files while preserving strict type safety, teams can write complex, optimized database queries without losing the safety net of compiler-enforced types.",
+        "target_audience": "AI engineers, systems developers, and automation specialists building or experimenting with fully autonomous developer agents and CLI harness architectures.",
+        "practical_developer_value": "Developers can use Claw Code to study advanced agent harness design in Rust, deploy local OpenAI-compatible coding agents, or leverage automated CLI execution loops to prototype zero-human-intervention software development workflows.",
         "suggested_use_cases": [
-          "Building high-performance APIs with complex analytical queries and custom database-specific operators.",
-          "Empowering AI coding agents to safely generate and modify raw SQL queries alongside TypeScript code with guaranteed type validation."
+          "Running local offline coding agent workflows using OpenAI-compatible models.",
+          "Building and testing automated agent harnesses for continuous software refactoring and execution."
         ]
       }
     },
     {
       "rank": 2,
-      "name": "EthanArbuckle/fairplay-decrypt",
+      "name": "JustAResearcher/gpu-unlock-ada",
       "score": 91,
-      "reason": "Demonstrates advanced systems programming and independent key derivation for offline FairPlay App Store IPA decryption.",
-      "why_interesting_today": "Shows rapid star and fork growth as security researchers and developers look into independent decryption mechanics.",
-      "why_developers_should_care": "Offers deep insights into mobile digital rights management (DRM) internals, reverse engineering, and cryptographic key derivation.",
-      "momentum": "Exceptionally high star and fork momentum right out of the gate.",
-      "novelty": "High level of technical novelty regarding offline independent key derivation for App Store binaries.",
+      "reason": "Provides local firmware generation and tensor unlock sources for high-end consumer GPUs (RTX 4090 and 4070 Ti SUPER).",
+      "why_interesting_today": "Hardware-level modifications and local firmware generation for high-end workstation GPUs are intensely relevant to AI researchers striving to maximize compute efficiency on consumer hardware.",
+      "why_developers_should_care": "Local machine learning practitioners and hardware hackers can benefit from unlocking restricted capabilities on consumer-grade workstation parts.",
+      "momentum": "Rapidly catching the attention of systems and AI infrastructure developers despite being recently published.",
+      "novelty": "High novelty in terms of localized hardware enablement and specialized firmware manipulation.",
       "deep_analysis": {
-        "name": "EthanArbuckle/fairplay-decrypt",
-        "headline_hook": "Decrypt iOS applications offline by independently deriving FairPlay page keys using custom Python-based SINF and SUPF record parsing.",
-        "core_functionality": "EthanArbuckle/fairplay-decrypt solves the problem of decrypting Apple FairPlay-protected iOS applications (IPAs) without relying on active device-side runtime dumping tools. By leveraging a 16-byte account credential retrieved from a jailbroken device, the tool parses app-specific SINF and SUPF metadata records, derives the necessary cryptographic page keys, decrypts encrypted arm64 Mach-O slices, and clears the cryptographic protection flags.",
+        "name": "JustAResearcher/gpu-unlock-ada",
+        "headline_hook": "Unlock up to 2x FP16 and BF16 tensor throughput on high-end consumer GPUs like the RTX 4090 and 4070 Ti SUPER using a local Linux kernel module and firmware generation pipeline.",
+        "core_functionality": "The project provides a Linux kernel module and local firmware generation pipeline that applies an SM speed-select override to high-end consumer NVIDIA Ada Lovelace GPUs before the stock proprietary driver initializes. This bypasses artificial hardware performance restrictions, restoring full tensor instruction throughput (such as doubling FP16 and BF16 rates with FP32 accumulation on supported cards like the RTX 4090) without requiring a patched proprietary NVIDIA driver.",
         "key_features": [
-          "Pure Python implementation that executes seamlessly on both macOS and Linux environments.",
-          "Comprehensive support for version-3 and version-5 SUPF structures along with 448-byte and padding-compliant 440-byte SINF priv records.",
-          "Integrated credential retrieval companion system designed for jailbroken iOS devices using Xcode and ldid.",
-          "Targeted extraction and page-level decryption of encrypted arm64 Mach-O binaries alongside automated cryptid clearing."
+          "Pre-driver initialization via a Linux kernel module that configures SM speed-select registers and completes a PCIe Function Level Reset before the stock NVIDIA driver binds.",
+          "Automated local firmware generation and asset packaging supporting popular distribution build systems including Arch Linux, Debian, and RPM.",
+          "Initramfs integration via mkinitcpio, initramfs-tools, and dracut to guarantee the unlock sequence executes on early boot.",
+          "Experimental support for targeted consumer cards including the RTX 4090, RTX 4070 Ti SUPER, and RTX 4060 Ti 16GB via explicit PCI address binding."
         ],
-        "target_audience": "Security researchers, reverse engineers, mobile application developers, and digital forensics specialists.",
-        "practical_developer_value": "This repository provides deep educational insight into Apple digital rights management, binary file structures, and applied cryptography. Developers working in security auditing or static analysis can utilize or adapt this logic to automate the unpacking and analysis of iOS binaries in continuous integration environments or proprietary security pipelines without manual device interaction.",
+        "target_audience": "AI researchers, machine learning engineers, and high-performance computing developers operating on consumer-grade workstation hardware who want to maximize compute efficiency and tensor performance.",
+        "practical_developer_value": "Developers and researchers working with local deep learning clusters can significantly accelerate model training and matrix multiplication workloads on affordable consumer hardware, achieving near data-center class tensor throughput without investing in enterprise-tier A-series or H-series accelerators.",
         "suggested_use_cases": [
-          "Automating the decryption and static analysis of internal enterprise iOS builds within security scanning pipelines.",
-          "Studying the inner workings of Apple FairPlay DRM architecture, SINF/SUPF records, and Mach-O decryption mechanics."
+          "Accelerating local PyTorch and TensorFlow training workloads on multi-GPU RTX 4090 workstations by unlocking native tensor core performance limits.",
+          "Deploying optimized high-throughput LLM fine-tuning pipelines on high-end consumer Ada architecture GPUs in self-hosted research environments."
         ]
       }
     },
     {
       "rank": 3,
-      "name": "xevrion/hatchzip",
+      "name": "ELY-Open-Source/ElyOffice",
       "score": 88,
-      "reason": "An ingenious CLI utility addressing a common disk-space frustration: extracting huge archives in-place by shrinking the archive file as contents hatch.",
-      "why_interesting_today": "Solves the classic 'need 2x the space to unzip a massive archive' problem with an efficient Rust implementation.",
-      "why_developers_should_care": "Saves massive amounts of temporary disk space and time when dealing with large datasets, VM images, or bulky archives in development environments.",
-      "momentum": "Steady engagement and strong practical appreciation from systems developers.",
-      "novelty": "Very high; an in-place shrinking archive extractor is a clever spin on traditional decompression tools.",
+      "reason": "An offline-first desktop suite built using Rust and GPUI, targeting native performance and modern UI architecture.",
+      "why_interesting_today": "There is a strong industry shift toward building high-performance, GPU-accelerated native desktop applications using memory-safe languages like Rust rather than heavy Electron-based wrappers.",
+      "why_developers_should_care": "Frontend and desktop application developers can study its architecture to learn how to build lightning-fast, secure, offline-first applications leveraging GPUI.",
+      "momentum": "Steady organic growth as developers increasingly favor Rust-based desktop GUI frameworks.",
+      "novelty": "High novelty due to its adoption of GPUI for modern, high-performance offline desktop applications.",
       "deep_analysis": {
-        "name": "xevrion/hatchzip",
-        "headline_hook": "HatchZip is a Rust-powered CLI utility that extracts massive archives in-place by shrinking the archive file as its contents hatch, eliminating the traditional requirement for twice the disk space.",
-        "core_functionality": "Traditional archive extraction tools like unzip, 7-Zip, or WinRAR require disk space equal to both the compressed archive and the total uncompressed output combined. HatchZip solves this '2x disk space' frustration by reading archives from the end and truncating finished segments from the file on-the-fly, allowing the disk space freed up by the archive to be immediately reused for the extracted files.",
+        "name": "ELY-Open-Source/ElyOffice",
+        "headline_hook": "ElyOffice brings native, GPU-accelerated performance to offline-first productivity apps using Rust and GPUI, bypassing the resource bloat of Electron.",
+        "core_functionality": "ElyOffice is an offline-first desktop suite consisting of document editors, PDF tools, a mail client, and a Git client built natively in Rust and GPUI. It solves the issue of heavy, resource-intensive, cloud-dependent Electron desktop apps by operating entirely locally on user files without requiring accounts or cloud subscriptions.",
         "key_features": [
-          "In-place shrinkage supporting multiple formats including ZIP, 7z, tar, gz, and RAR volume sets.",
-          "Pre-flight safety checks that calculate exact space requirements before altering any files and maintain a free-space safety margin.",
-          "Crash-resilient processing that allows interrupted extractions to safely pick up where they left off.",
-          "File-chunk hole-punching on supported filesystems (ext4, XFS, btrfs, tmpfs) to reclaim space even faster during single-file extractions."
+          "GPU-accelerated native user interface rendering powered by GPUI and Rust for maximum responsiveness and low memory consumption.",
+          "Comprehensive office suite capabilities leveraging robust core engines like LibreOfficeKit for documents and spreadsheets, MuPDF and Tesseract for PDFs, and custom Rust engines for mail and markdown.",
+          "True offline-first design where all files remain on local drives, eliminating telemetry, cloud lock-in, and forced account logins.",
+          "Cross-platform support spanning Windows, macOS (Intel and Apple Silicon), and multiple Linux distributions with containerized build pipelines targeting older glibc versions."
         ],
-        "target_audience": "Software developers, system administrators, and power users working with large datasets, massive game files, or virtual machine images on disk-constrained development machines or CI/CD runners.",
-        "practical_developer_value": "Developers frequently deal with massive software dependencies, AI model weights, or asset bundles on constrained local environments or cloud virtual machines. HatchZip prevents build failures and deployment bottlenecks caused by out-of-disk errors during extraction. Furthermore, its modular design features a core library (hatchzip-core) that can be integrated into custom Rust tooling or deployment pipelines requiring space-efficient archive handling.",
+        "target_audience": "Rust developers, desktop application engineers, privacy-conscious power users, and enterprise developers looking for lightweight, high-performance native productivity alternatives.",
+        "practical_developer_value": "For developers, ElyOffice serves as an architectural blueprint and reference implementation for building complex, production-grade desktop applications using Rust and GPUI. It demonstrates how to integrate heavy C and C++ upstream engines like LibreOfficeKit and MuPDF into a memory-safe Rust workspace, manage complex multi-platform build scripts, and handle system-level integrations like mail protocols and Git workflows natively.",
         "suggested_use_cases": [
-          "Extracting massive multi-gigabyte software assets or AI model checkpoints inside tight CI/CD runner storage limits.",
-          "Unpacking huge game builds or development dependencies on a laptop with low available disk space."
+          "Building custom secure, offline enterprise productivity workstations that comply with strict data residency and zero-cloud policies.",
+          "Studying advanced GPUI architecture and patterns for high-performance, GPU-rendered desktop applications in Rust."
         ]
       }
     },
     {
       "rank": 4,
-      "name": "Jakeschincariol/day-trader-skill",
+      "name": "oosexgang/hackios-xnu-kernel",
       "score": 85,
-      "reason": "Blends modern AI workflow tooling with algorithmic trading by providing specific Claude skills for chart scanning, backtesting, and market analysis.",
-      "why_interesting_today": "Capitalizes on the surge of interest in extending LLM assistants (like Claude) with specialized, domain-specific execution skills.",
-      "why_developers_should_care": "Illustrates how developers can package complex analytical pipelines and multi-step tasks into modular AI agent skills.",
-      "momentum": "Solid fork-to-star ratio indicating strong community adoption of its modular trading skill architecture.",
-      "novelty": "Moderate-to-high novelty in the burgeoning ecosystem of LLM tool-use frameworks.",
+      "reason": "Provides low-level visibility into core kernel components, capturing immediate attention from security researchers and systems engineers.",
+      "why_interesting_today": "Kernel-level exploration and low-level system hacking projects consistently draw heavy engagement for their technical depth.",
+      "why_developers_should_care": "Low-level developers and security analysts can examine the codebase to understand kernel internals and vulnerability surface areas.",
+      "momentum": "Demonstrating high star and fork growth velocity over a very short lifespan.",
+      "novelty": "Moderate-high novelty within low-level OS research and kernel development circles.",
       "deep_analysis": {
-        "name": "Jakeschincariol/day-trader-skill",
-        "headline_hook": "Turn Claude into a disciplined day-trading co-pilot that scans thousands of charts, simulates 10,000 outcomes, and executes paper trades only with your explicit approval.",
-        "core_functionality": "Bridges modern AI assistant tooling with quantitative day-trading workflows by providing a modular pack of eleven Claude skills backed by plain Python tools. It automates the end-to-end trading pipeline from multi-thousand stock chart scanning and breaking news analysis to entry timing, risk management, Monte Carlo backtesting via a Time Machine simulation, and broker execution.",
+        "name": "oosexgang/hackios-xnu-kernel",
+        "headline_hook": "Running Apple's XNU kernel and stock iOS 16.5 user space natively on Qualcomm Android hardware via a custom UEFI bootloader and hardware abstraction layer.",
+        "core_functionality": "HakiOS provides an experimental research bench that allows Apple's open-source XNU kernel and stock iOS user space (launchd, SpringBoard, apps) to boot on non-Apple hardware, specifically Qualcomm-powered Android devices and QEMU virtual machines. It circumvents the need to flash the phone by injecting a custom bootloader into RAM via fastboot, utilizing the target device's native device tree and firmware to dynamically translate hardware interactions.",
         "key_features": [
-          "Modular Unix-philosophy pipeline where each skill reads output JSON from the previous step, flowing from scanner to risk manager to broker.",
-          "Monte Carlo Time Machine simulation that replays 10,000 sessions derived from recent intraday bars to calculate objective historical odds before risking capital.",
-          "Built-in guardrails including strict paper-trading defaults, mandatory manual approval steps via Claude chat prompts, and programmatic limit checking.",
-          "Zero-dependency standard-library Python backend that parses free public data feeds like Yahoo Finance charts, Nasdaq symbols, and SEC EDGAR without requiring external paid API keys."
+          "Cross-Architecture Kernel Porting: Adapts Apple's XNU kernel (originally built for Apple Silicon) to run on ARM64 Qualcomm SoCs using custom-written device drivers in C.",
+          "Dynamic Hardware Abstraction via Device Trees: Leverages the target phone's native Android device tree, firmware, and power rails at runtime without requiring a pre-flashed custom ROM.",
+          "Modem and DSP Integration: Communicates with Qualcomm's Hexagon MPSS modem, audio DSP, and IPA packet engine entirely from within the XNU kernel environment.",
+          "QEMU Virtualization Support: Provides a fully functional QEMU aarch64 environment allowing developers to test and run the entire stack locally without physical hardware."
         ],
-        "target_audience": "Algorithmic traders, AI engineers building LLM agent plugins, and software developers interested in quantitative finance and workflow automation.",
-        "practical_developer_value": "Developers can study how to architect composable, stateful CLI tools that interface cleanly with LLM context windows using file-based state sharing. It provides a blueprint for building domain-specific agentic skills that enforce safety constraints and human-in-the-loop validation for high-risk operations.",
+        "target_audience": "Security researchers, kernel hackers, low-level systems engineers, and mobile platform developers interested in operating system internals and cross-platform hardware bring-up.",
+        "practical_developer_value": "Developers and systems engineers gain deep, rare visibility into kernel-level architecture, hybrid operating system design, and the mechanics of porting proprietary kernels to foreign hardware architectures. It serves as an advanced educational playground for understanding low-level boot flows, device tree parsing, and driver development without permanent modification to physical devices.",
         "suggested_use_cases": [
-          "Automating pre-market stock scans and opening-range breakout alerts directly within a local developer workspace or Claude Code environment.",
-          "Extending custom Model Context Protocol (MCP) servers and LLM agent workflows with rigorous risk management and paper-trading execution loops."
+          "Investigating XNU kernel internals, memory management, and hardware abstraction layers on non-Apple hardware.",
+          "Developing and debugging custom UEFI bootloaders and low-level system drivers for ARM64 SoCs."
         ]
       }
     },
     {
       "rank": 5,
-      "name": "Zagitta/gpu-unlock",
-      "score": 82,
-      "reason": "Unlocks professional-grade FP/BF16 instruction issue rates on consumer NVIDIA 3000 series cards.",
-      "why_interesting_today": "Provides massive practical value to budget-conscious machine learning practitioners attempting to run local inference and training workloads.",
-      "why_developers_should_care": "Democratizes high-performance hardware capabilities for local AI development without requiring enterprise-tier GPUs.",
-      "momentum": "Maintains steady technical interest from the local LLM and deep learning community.",
-      "novelty": "High technical significance in low-level GPU hacking and hardware feature accessibility.",
+      "name": "nilbuild/developer-roadmap",
+      "score": 83,
+      "reason": "Provides exceptional, comprehensive interactive roadmaps and career guidance across diverse engineering domains.",
+      "why_interesting_today": "Maintains perennial value by keeping the broader developer community informed on modern tech stacks, architectural patterns, and career trajectories.",
+      "why_developers_should_care": "Serves as an invaluable reference guide for upskilling, onboarding engineers, and navigating modern engineering specializations.",
+      "momentum": "Consistent daily star momentum and robust community engagement reflecting its status as an industry staple.",
+      "novelty": "Low technical novelty, but unmatched practical utility and widespread educational impact.",
       "deep_analysis": {
-        "name": "Zagitta/gpu-unlock",
-        "headline_hook": "Unlock workstation-grade FP and BF16 instruction rates on consumer NVIDIA RTX 3000 series cards without modifying drivers or UEFI.",
-        "core_functionality": "This project provides a Linux kernel module that configures speed selectors and executes a functional level reset on consumer NVIDIA Ampere GPUs (GA102, GA103, GA104, GA106) prior to the official NVIDIA driver binding. By writing specific speed selector values (SS0 and SS1), it effectively doubles the instruction issuing speed of FP and BF16 FMA operations into FP32 operations, bridging the performance gap between consumer cards and their professional data center equivalents.",
+        "name": "nilbuild/developer-roadmap",
+        "headline_hook": "Master any tech stack, system architecture, or engineering career trajectory with roadmap.sh, the open-source platform providing comprehensive, community-driven visual guides for software developers.",
+        "core_functionality": "The project solves the pervasive problem of information overload in software engineering by providing structured, interactive visual guides, career paths, best practices, and knowledge-testing questions across virtually every modern technology domain.",
         "key_features": [
-          "Pre-driver initialization via a Linux kernel module loaded in the initramfs, avoiding the need for manual binary patching on every NVIDIA driver update.",
-          "Significant performance boosts for machine learning workloads, including up to an 80 percent increase in BF16 GEMM throughput and accelerated LLM prefill, diffusion, and FlashAttention.",
-          "Comprehensive boot-time target configuration through kernel command-line arguments to selectively unlock specific PCI bus addresses or all supported cards.",
-          "Robust power-management integration that automatically restores the hardware unlock state following a system suspend-to-RAM cycle."
+          "Interactive nodes on visual roadmaps that link directly to detailed markdown explanations and resources.",
+          "Extensive coverage of traditional domains (Frontend, Backend, DevOps, Data Science) alongside cutting-edge tracks (AI Engineering, Vibe Coding, Claude Code, Inference Engineering).",
+          "Interactive best practices guides and skill-testing questions to validate knowledge across core technologies.",
+          "Open-source content architecture where markdown files directly sync to the production platform, encouraging community contributions."
         ],
-        "target_audience": "Budget-conscious machine learning engineers, local AI researchers, and self-hosters running heavy transformer inference or model training workloads on consumer hardware.",
-        "practical_developer_value": "Developers building local LLM infrastructure or training pipelines on consumer-grade hardware (such as the RTX 3090) can achieve near-professional performance levels without purchasing expensive workstation cards. Because the tool runs as an early-stage kernel module rather than a patched driver, it seamlessly survives regular graphics driver upgrades and supports multi-GPU setups as well as VFIO-PCI virtual machine passthrough.",
+        "target_audience": "Junior developers seeking clear career direction, mid-level engineers looking to pivot or upskill into specialized domains (like AI or cloud architecture), and engineering managers or technical writers designing team training paths.",
+        "practical_developer_value": "Developers can use this repository to design personalized learning paths, identify skill gaps when transitioning into new roles (such as moving from backend engineering to cloud architecture or AI engineering), and establish standardized technical best practices within their engineering teams.",
         "suggested_use_cases": [
-          "Accelerating local Large Language Model prefill speeds and training throughput on multi-GPU RTX 3090 rigs.",
-          "Boosting image generation pipelines and FlashAttention tasks in local AI development environments."
+          "Structuring an onboarding curriculum and mentorship framework for junior developers joining an engineering team.",
+          "Planning a personal upskilling strategy to master modern paradigms like cloud-native infrastructure, system design, or AI agent development."
         ]
       }
     }
