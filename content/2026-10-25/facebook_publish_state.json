@@ -26,8 +26,8 @@
       "caption": "Ever tried extracting a massive AI model checkpoint, game asset bundle, or multi-gigabyte dataset on a laptop or CI/CD runner, only to be hit with an \"Out of Disk Space\" error right at the end? 🛑\n\nTraditional archive tools like unzip or 7-Zip force you to have double the disk space: you need enough room for the compressed archive AND the full uncompressed output sitting side-by-side. \n\nMeet HatchZip: a Rust-powered CLI utility that extracts massive archives in-place by shrinking the archive file as its contents hatch. 🚀\n\nBy reading archives from the end and truncating finished segments on-the-fly, the disk space freed up by the archive is immediately reused for your extracted files. No more 2x disk space penalties!\n\n✨ Key Features:\n• True in-place shrinkage for ZIP, 7z, tar, gz, and RAR volume sets\n• Pre-flight safety checks that calculate exact space requirements and maintain a safety margin before touching your files\n• Crash-resilient processing that lets interrupted extractions safely pick up where they left off\n• File-chunk hole-punching on supported filesystems (ext4, XFS, btrfs, tmpfs) to reclaim space even faster\n• A modular core library (hatchzip-core) ready to integrate into your own custom Rust tooling or pipelines\n\nWhether you are managing tight storage limits on cloud runners or working with heavy datasets locally, HatchZip eliminates deployment bottlenecks and build failures.\n\nCheck out the repo, star it if it saves your disk, and let us know what you think:\nhttps://github.com/xevrion/hatchzip\n\nWhat is the biggest archive you have ever struggled to unpack? Drop it in the comments! 👇\n\n#Rust #DeveloperTools #OpenSource #SoftwareEngineering #DataManagement #ArtificialIntelligence #Coding",
       "image_file": "3_xevrion_hatchzip.png",
       "photo_id": "122123965833476221",
-      "published_post_id": null,
-      "published_at": null
+      "published_post_id": "1410193715501138_122124100017476221",
+      "published_at": "2026-10-25T15:00:37.096626+08:00"
     },
     {
       "rank": 4,
