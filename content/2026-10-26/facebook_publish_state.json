@@ -17,8 +17,8 @@
       "caption": "🚀 Unlock 2x Tensor Throughput on Your RTX 4090! \n\nAre artificial performance limits slowing down your local AI training and LLM fine-tuning? \n\nMeet gpu-unlock-ada, the open-source Linux kernel module and firmware pipeline that bypasses artificial speed restrictions on high-end consumer NVIDIA Ada Lovelace GPUs. By applying an SM speed-select override before the stock proprietary driver initializes, this tool restores full tensor instruction throughput—doubling FP16 and BF16 rates with FP32 accumulation on cards like the RTX 4090, RTX 4070 Ti SUPER, and RTX 4060 Ti 16GB. \n\nAchieve near data-center class compute efficiency on your local workstation without paying enterprise-tier prices!\n\n✨ Key Features:\n• Pre-Driver Initialization: Configures SM speed-select registers and executes a PCIe Function Level Reset before the NVIDIA driver binds.\n• Automated Pipeline: Generates and packages local firmware seamlessly with support for Arch Linux, Debian, and RPM build systems.\n• Initramfs Integration: Works natively with mkinitcpio, initramfs-tools, and dracut to guarantee the unlock sequence fires on early boot.\n• Target Hardware Support: Explicit PCI address binding for popular high-end consumer workstation GPUs.\n\nPerfect for AI researchers, ML engineers, and HPC developers looking to maximize local PyTorch and TensorFlow matrix multiplication performance. \n\nCheck out the repository and supercharge your local GPU cluster today:\nhttps://github.com/JustAResearcher/gpu-unlock-ada\n\n👇 Drop a comment if you are testing this on your workstation, and share this post with fellow developers pushing the limits of consumer hardware!\n\n#MachineLearning #AIResearch #DeepLearning #NVIDIA #OpenSource #DeveloperTools #PyTorch #Linux",
       "image_file": "2_JustAResearcher_gpu-unlock-ada.png",
       "photo_id": "122124316233476221",
-      "published_post_id": null,
-      "published_at": null
+      "published_post_id": "1410193715501138_122124351279476221",
+      "published_at": "2026-10-26T11:00:38.351250+08:00"
     },
     {
       "rank": 3,
