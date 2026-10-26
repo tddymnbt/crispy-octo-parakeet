@@ -1,0 +1,407 @@
+{
+  "snapshot_date": "2026-10-26",
+  "generated_at": "2026-10-26T23:00:58.369148+00:00",
+  "candidate_count": 40,
+  "repositories": [
+    {
+      "name": "public-apis/public-apis",
+      "url": "https://github.com/public-apis/public-apis",
+      "stars": 492425,
+      "forks": 54851,
+      "language": "Python",
+      "created_at": "2016-03-20T23:49:42Z",
+      "updated_at": "2026-10-26T22:39:07Z",
+      "pushed_at": "2026-10-24T09:30:33Z"
+    },
+    {
+      "name": "freeCodeCamp/freeCodeCamp",
+      "url": "https://github.com/freeCodeCamp/freeCodeCamp",
+      "stars": 457985,
+      "forks": 48662,
+      "language": "TypeScript",
+      "created_at": "2014-12-24T17:49:19Z",
+      "updated_at": "2026-10-26T22:51:52Z",
+      "pushed_at": "2026-10-26T20:34:15Z"
+    },
+    {
+      "name": "EbookFoundation/free-programming-books",
+      "url": "https://github.com/EbookFoundation/free-programming-books",
+      "stars": 400199,
+      "forks": 67012,
+      "language": "Python",
+      "created_at": "2013-10-11T06:50:37Z",
+      "updated_at": "2026-10-26T22:52:56Z",
+      "pushed_at": "2026-10-25T00:26:40Z"
+    },
+    {
+      "name": "openclaw/openclaw",
+      "url": "https://github.com/openclaw/openclaw",
+      "stars": 393155,
+      "forks": 82656,
+      "language": "TypeScript",
+      "created_at": "2025-11-24T10:16:47Z",
+      "updated_at": "2026-10-26T23:00:11Z",
+      "pushed_at": "2026-10-26T23:00:26Z"
+    },
+    {
+      "name": "morluto/rea",
+      "url": "https://github.com/morluto/rea",
+      "stars": 391360,
+      "forks": 98057,
+      "language": "TypeScript",
+      "created_at": "2026-04-14T00:51:32Z",
+      "updated_at": "2026-10-26T23:00:34Z",
+      "pushed_at": "2026-10-26T22:57:54Z"
+    },
+    {
+      "name": "nilbuild/developer-roadmap",
+      "url": "https://github.com/nilbuild/developer-roadmap",
+      "stars": 370486,
+      "forks": 45154,
+      "language": "TypeScript",
+      "created_at": "2017-03-15T13:45:52Z",
+      "updated_at": "2026-10-26T22:59:28Z",
+      "pushed_at": "2026-10-26T15:33:17Z"
+    },
+    {
+      "name": "vinta/awesome-python",
+      "url": "https://github.com/vinta/awesome-python",
+      "stars": 330464,
+      "forks": 29014,
+      "language": "Python",
+      "created_at": "2014-06-27T21:00:06Z",
+      "updated_at": "2026-10-26T22:56:56Z",
+      "pushed_at": "2026-10-26T04:44:34Z"
+    },
+    {
+      "name": "affaan-m/ECC",
+      "url": "https://github.com/affaan-m/ECC",
+      "stars": 289787,
+      "forks": 42937,
+      "language": "JavaScript",
+      "created_at": "2026-01-18T00:51:51Z",
+      "updated_at": "2026-10-26T23:00:16Z",
+      "pushed_at": "2026-10-26T04:56:56Z"
+    },
+    {
+      "name": "practical-tutorials/project-based-learning",
+      "url": "https://github.com/practical-tutorials/project-based-learning",
+      "stars": 288105,
+      "forks": 36727,
+      "language": "Python",
+      "created_at": "2017-04-12T05:07:46Z",
+      "updated_at": "2026-10-26T22:35:50Z",
+      "pushed_at": "2026-10-26T07:13:08Z"
+    },
+    {
+      "name": "NousResearch/hermes-agent",
+      "url": "https://github.com/NousResearch/hermes-agent",
+      "stars": 257397,
+      "forks": 56401,
+      "language": "Python",
+      "created_at": "2025-07-22T22:22:28Z",
+      "updated_at": "2026-10-26T22:58:12Z",
+      "pushed_at": "2026-10-26T22:45:38Z"
+    },
+    {
+      "name": "torvalds/linux",
+      "url": "https://github.com/torvalds/linux",
+      "stars": 253587,
+      "forks": 67403,
+      "language": "C",
+      "created_at": "2011-09-04T22:48:12Z",
+      "updated_at": "2026-10-26T22:57:01Z",
+      "pushed_at": "2026-10-26T19:18:49Z"
+    },
+    {
+      "name": "react/react",
+      "url": "https://github.com/react/react",
+      "stars": 251883,
+      "forks": 51579,
+      "language": "JavaScript",
+      "created_at": "2013-05-24T16:15:54Z",
+      "updated_at": "2026-10-26T22:52:54Z",
+      "pushed_at": "2026-10-26T19:12:26Z"
+    },
+    {
+      "name": "anomalyco/opencode",
+      "url": "https://github.com/anomalyco/opencode",
+      "stars": 221944,
+      "forks": 29685,
+      "language": "TypeScript",
+      "created_at": "2025-04-30T20:08:00Z",
+      "updated_at": "2026-10-26T22:59:01Z",
+      "pushed_at": "2026-10-26T22:55:55Z"
+    },
+    {
+      "name": "n8n-io/n8n",
+      "url": "https://github.com/n8n-io/n8n",
+      "stars": 208668,
+      "forks": 61255,
+      "language": "TypeScript",
+      "created_at": "2019-06-22T09:24:21Z",
+      "updated_at": "2026-10-26T22:54:47Z",
+      "pushed_at": "2026-10-26T22:59:23Z"
+    },
+    {
+      "name": "yt-dlp/yt-dlp",
+      "url": "https://github.com/yt-dlp/yt-dlp",
+      "stars": 202568,
+      "forks": 17744,
+      "language": "Python",
+      "created_at": "2020-10-26T04:22:55Z",
+      "updated_at": "2026-10-26T22:52:35Z",
+      "pushed_at": "2026-10-26T22:25:00Z"
+    },
+    {
+      "name": "tensorflow/tensorflow",
+      "url": "https://github.com/tensorflow/tensorflow",
+      "stars": 201277,
+      "forks": 78702,
+      "language": "C++",
+      "created_at": "2015-11-07T01:19:20Z",
+      "updated_at": "2026-10-26T22:57:26Z",
+      "pushed_at": "2026-10-26T22:53:01Z"
+    },
+    {
+      "name": "firecrawl/firecrawl",
+      "url": "https://github.com/firecrawl/firecrawl",
+      "stars": 195684,
+      "forks": 10328,
+      "language": "TypeScript",
+      "created_at": "2024-04-15T21:02:29Z",
+      "updated_at": "2026-10-26T22:57:32Z",
+      "pushed_at": "2026-10-26T22:32:01Z"
+    },
+    {
+      "name": "microsoft/vscode",
+      "url": "https://github.com/microsoft/vscode",
+      "stars": 194349,
+      "forks": 44868,
+      "language": "TypeScript",
+      "created_at": "2015-09-03T20:23:38Z",
+      "updated_at": "2026-10-26T22:59:48Z",
+      "pushed_at": "2026-10-26T22:58:44Z"
+    },
+    {
+      "name": "avelino/awesome-go",
+      "url": "https://github.com/avelino/awesome-go",
+      "stars": 190511,
+      "forks": 13668,
+      "language": "Go",
+      "created_at": "2014-07-06T13:42:15Z",
+      "updated_at": "2026-10-26T22:46:53Z",
+      "pushed_at": "2026-10-26T09:02:58Z"
+    },
+    {
+      "name": "ohmyzsh/ohmyzsh",
+      "url": "https://github.com/ohmyzsh/ohmyzsh",
+      "stars": 190177,
+      "forks": 28618,
+      "language": "Shell",
+      "created_at": "2009-08-28T18:15:37Z",
+      "updated_at": "2026-10-26T22:51:24Z",
+      "pushed_at": "2026-10-25T14:39:33Z"
+    },
+    {
+      "name": "pengchujin/aerial-tv",
+      "url": "https://github.com/pengchujin/aerial-tv",
+      "stars": 6022,
+      "forks": 505,
+      "language": "Kotlin",
+      "created_at": "2026-10-20T09:13:06Z",
+      "updated_at": "2026-10-26T22:58:45Z",
+      "pushed_at": "2026-10-26T14:44:41Z"
+    },
+    {
+      "name": "simbasjungles/free-my-tv",
+      "url": "https://github.com/simbasjungles/free-my-tv",
+      "stars": 4851,
+      "forks": 794,
+      "language": "Java",
+      "created_at": "2026-10-19T19:29:01Z",
+      "updated_at": "2026-10-26T22:57:14Z",
+      "pushed_at": "2026-10-26T19:59:50Z"
+    },
+    {
+      "name": "JustAResearcher/gpu-unlock-ada",
+      "url": "https://github.com/JustAResearcher/gpu-unlock-ada",
+      "stars": 3798,
+      "forks": 496,
+      "language": "C",
+      "created_at": "2026-10-23T21:00:53Z",
+      "updated_at": "2026-10-26T22:58:57Z",
+      "pushed_at": "2026-10-26T04:24:46Z"
+    },
+    {
+      "name": "JoasASantos/REA-Prompts",
+      "url": "https://github.com/JoasASantos/REA-Prompts",
+      "stars": 2710,
+      "forks": 489,
+      "language": "Batchfile",
+      "created_at": "2026-10-19T22:20:47Z",
+      "updated_at": "2026-10-26T23:00:36Z",
+      "pushed_at": "2026-10-26T03:00:18Z"
+    },
+    {
+      "name": "EthanArbuckle/fairplay-decrypt",
+      "url": "https://github.com/EthanArbuckle/fairplay-decrypt",
+      "stars": 2175,
+      "forks": 340,
+      "language": "C",
+      "created_at": "2026-10-19T10:07:58Z",
+      "updated_at": "2026-10-26T22:46:14Z",
+      "pushed_at": "2026-10-24T21:59:52Z"
+    },
+    {
+      "name": "wesbos/3d-model-anything",
+      "url": "https://github.com/wesbos/3d-model-anything",
+      "stars": 2066,
+      "forks": 305,
+      "language": "Swift",
+      "created_at": "2026-10-21T19:38:50Z",
+      "updated_at": "2026-10-26T22:59:31Z",
+      "pushed_at": "2026-10-22T13:10:22Z"
+    },
+    {
+      "name": "xevrion/hatchzip",
+      "url": "https://github.com/xevrion/hatchzip",
+      "stars": 2054,
+      "forks": 60,
+      "language": "Rust",
+      "created_at": "2026-10-21T17:29:28Z",
+      "updated_at": "2026-10-26T22:56:00Z",
+      "pushed_at": "2026-10-26T20:31:08Z"
+    },
+    {
+      "name": "Jakeschincariol/day-trader-skill",
+      "url": "https://github.com/Jakeschincariol/day-trader-skill",
+      "stars": 2039,
+      "forks": 424,
+      "language": "Python",
+      "created_at": "2026-10-20T14:17:54Z",
+      "updated_at": "2026-10-26T23:00:15Z",
+      "pushed_at": "2026-10-20T14:18:00Z"
+    },
+    {
+      "name": "rddmwmddr/android-ad-cleaner",
+      "url": "https://github.com/rddmwmddr/android-ad-cleaner",
+      "stars": 1839,
+      "forks": 152,
+      "language": "Python",
+      "created_at": "2026-10-24T05:35:47Z",
+      "updated_at": "2026-10-26T23:00:17Z",
+      "pushed_at": "2026-10-25T16:46:03Z"
+    },
+    {
+      "name": "ikow/php2shell-poc",
+      "url": "https://github.com/ikow/php2shell-poc",
+      "stars": 1829,
+      "forks": 628,
+      "language": "Python",
+      "created_at": "2026-10-21T07:55:16Z",
+      "updated_at": "2026-10-26T21:04:06Z",
+      "pushed_at": "2026-10-22T22:41:36Z"
+    },
+    {
+      "name": "oosexgang/hackios-xnu-kernel",
+      "url": "https://github.com/oosexgang/hackios-xnu-kernel",
+      "stars": 1652,
+      "forks": 302,
+      "language": "C",
+      "created_at": "2026-10-22T06:20:11Z",
+      "updated_at": "2026-10-26T22:38:27Z",
+      "pushed_at": "2026-10-26T10:14:10Z"
+    },
+    {
+      "name": "designfuchen/word-atlas",
+      "url": "https://github.com/designfuchen/word-atlas",
+      "stars": 1613,
+      "forks": 405,
+      "language": "TypeScript",
+      "created_at": "2026-10-25T08:27:22Z",
+      "updated_at": "2026-10-26T22:47:48Z",
+      "pushed_at": "2026-10-26T13:47:33Z"
+    },
+    {
+      "name": "t3dotgg/tstack",
+      "url": "https://github.com/t3dotgg/tstack",
+      "stars": 1514,
+      "forks": 82,
+      "language": "Python",
+      "created_at": "2026-10-24T05:00:20Z",
+      "updated_at": "2026-10-26T23:00:12Z",
+      "pushed_at": "2026-10-25T02:25:51Z"
+    },
+    {
+      "name": "9bie/php2shell-bypass-aslr-exp",
+      "url": "https://github.com/9bie/php2shell-bypass-aslr-exp",
+      "stars": 1473,
+      "forks": 425,
+      "language": "Python",
+      "created_at": "2026-10-21T11:11:57Z",
+      "updated_at": "2026-10-26T21:30:18Z",
+      "pushed_at": "2026-10-23T20:40:43Z"
+    },
+    {
+      "name": "openai/php2shell-checker",
+      "url": "https://github.com/openai/php2shell-checker",
+      "stars": 1421,
+      "forks": 136,
+      "language": "JavaScript",
+      "created_at": "2026-10-21T00:29:12Z",
+      "updated_at": "2026-10-26T21:06:15Z",
+      "pushed_at": "2026-10-22T22:55:16Z"
+    },
+    {
+      "name": "colinhacks/reylo",
+      "url": "https://github.com/colinhacks/reylo",
+      "stars": 1312,
+      "forks": 13,
+      "language": "Rust",
+      "created_at": "2026-10-21T00:16:54Z",
+      "updated_at": "2026-10-26T22:54:53Z",
+      "pushed_at": "2026-10-26T19:35:26Z"
+    },
+    {
+      "name": "lyramakesmusic/neuron-explorer",
+      "url": "https://github.com/lyramakesmusic/neuron-explorer",
+      "stars": 1232,
+      "forks": 146,
+      "language": "Python",
+      "created_at": "2026-10-21T04:09:05Z",
+      "updated_at": "2026-10-26T23:00:00Z",
+      "pushed_at": "2026-10-26T15:13:39Z"
+    },
+    {
+      "name": "morganlinton/BeautifulRust",
+      "url": "https://github.com/morganlinton/BeautifulRust",
+      "stars": 1207,
+      "forks": 51,
+      "language": "Python",
+      "created_at": "2026-10-23T03:01:11Z",
+      "updated_at": "2026-10-26T22:57:37Z",
+      "pushed_at": "2026-10-26T13:45:53Z"
+    },
+    {
+      "name": "UniXNU/UniXNU",
+      "url": "https://github.com/UniXNU/UniXNU",
+      "stars": 1056,
+      "forks": 183,
+      "language": "Python",
+      "created_at": "2026-10-19T10:46:55Z",
+      "updated_at": "2026-10-26T22:31:13Z",
+      "pushed_at": "2026-10-26T18:35:20Z"
+    },
+    {
+      "name": "ELY-Open-Source/ElyOffice",
+      "url": "https://github.com/ELY-Open-Source/ElyOffice",
+      "stars": 1037,
+      "forks": 67,
+      "language": "Rust",
+      "created_at": "2026-10-19T23:04:42Z",
+      "updated_at": "2026-10-26T21:10:54Z",
+      "pushed_at": "2026-10-26T04:31:17Z"
+    }
+  ]
+}

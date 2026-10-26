@@ -3,136 +3,136 @@
   "repositories": [
     {
       "rank": 1,
-      "name": "ultraworkers/claw-code",
+      "name": "morganlinton/BeautifulRust",
       "score": 96,
-      "reason": "Demonstrates fully autonomous, agent-managed software development and exhibit curation built in Rust with zero human intervention.",
-      "why_interesting_today": "As AI agents increasingly move past simple code-completion to fully autonomous operations, seeing a complex repository entirely developed and maintained by AI stands as a major technical milestone.",
-      "why_developers_should_care": "It offers a compelling glimpse into the future of autonomous software engineering workflows and the potential of agent-driven project maintenance.",
-      "momentum": "Massive cumulative star base with intense interest in autonomous agent frameworks.",
-      "novelty": "Extremely high; represents a true zero-human-intervention project lifecycle in a modern systems programming language (Rust).",
+      "reason": "Bridges the gap between AI coding assistants and writing production-grade, idiomatic Rust through dedicated agent skills and clippy configs.",
+      "why_interesting_today": "As developers increasingly rely on AI coding assistants (Claude Code, Cursor, Copilot), specialized prompt and skill layers that enforce strict language idioms like Rust's memory safety rules are becoming essential.",
+      "why_developers_should_care": "Rust has a steep learning curve and strict compiler checks; giving your coding agent deep domain knowledge dramatically reduces boilerplate errors and fights against unidiomatic code generation.",
+      "momentum": "Strong early traction with over 1,200 stars right after creation, indicating intense developer interest in agent-assisted workflows.",
+      "novelty": "Directly targets the emerging paradigm of 'agent skills' for specific programming languages rather than relying on general-purpose LLM system prompts.",
       "deep_analysis": {
-        "name": "ultraworkers/claw-code",
-        "headline_hook": "Claw Code is a fully autonomous, agent-managed Rust CLI harness and exhibit built to execute, verify, and preserve software development tasks with zero human intervention.",
-        "core_functionality": "Claw Code provides a Rust-based CLI agent harness designed to plan, execute, verify, and manage autonomous software development tasks. Acting as an agent-managed artifact, it interfaces with large language models to run prompts, manage sessions, perform diagnostics, and automate engineering workflows independently.",
+        "name": "morganlinton/BeautifulRust",
+        "headline_hook": "Transform AI coding assistants from writing sloppy Rust with unwrap() and public fields into strict, idiomatic systems programming experts.",
+        "core_functionality": "BeautifulRust bridges the gap between AI coding assistants and production-grade, memory-safe Rust development. It provides a comprehensive suite of agent skills and drop-in clippy configurations distilled from industry-standard style guides, API guidelines, and effective patterns to guide AI models when writing, reviewing, or porting code.",
         "key_features": [
-          "Native Rust workspace delivering a high-performance, memory-safe CLI binary for agent orchestration.",
-          "Built-in doctor diagnostic tooling to verify system wiring, authentication, and execution environments before running agents.",
-          "Comprehensive platform support spanning macOS, Linux, and PowerShell-first Windows environments.",
-          "Flexible provider setup supporting Anthropic API keys as well as local OpenAI-compatible models and offline skill installations."
+          "rust-best-practices agent skill that steers AI coding assistants toward idiomatic, robust, and maintainable Rust code during generation.",
+          "rust-review agent skill that analyzes existing code, crates, or diffs to produce prioritized reports citing exact rule violations and fixes.",
+          "rust-port agent skill that safely translates C, C++, Python, Go, or JavaScript code into idiomatic Rust by porting tests first and mapping legacy types properly.",
+          "Drop-in clippy configuration and lints config that enforce machine-checkable rules like zero unwrap usage, mandatory safety comments, and proper error documentation in CI."
         ],
-        "target_audience": "AI engineers, systems developers, and automation specialists building or experimenting with fully autonomous developer agents and CLI harness architectures.",
-        "practical_developer_value": "Developers can use Claw Code to study advanced agent harness design in Rust, deploy local OpenAI-compatible coding agents, or leverage automated CLI execution loops to prototype zero-human-intervention software development workflows.",
+        "target_audience": "Rust software engineers, backend developers, and systems programmers who regularly utilize AI coding assistants like Claude Code, Cursor, GitHub Copilot, or OpenAI Codex.",
+        "practical_developer_value": "Developers waste significant time refactoring AI-generated Rust code that compiles but violates memory safety idioms, lacks error documentation, or overuses unwraps. By installing these skills and clippy configs, developers can trust their AI assistants to natively produce clean, production-ready libraries and applications that pass strict CI linting on the first try.",
         "suggested_use_cases": [
-          "Running local offline coding agent workflows using OpenAI-compatible models.",
-          "Building and testing automated agent harnesses for continuous software refactoring and execution."
+          "Enforcing strict idiomatic standards and documentation requirements automatically within AI-assisted microservices development.",
+          "Porting legacy C or Python codebases to memory-safe Rust securely by leveraging automated test-first translation strategies."
         ]
       }
     },
     {
       "rank": 2,
-      "name": "JustAResearcher/gpu-unlock-ada",
-      "score": 91,
-      "reason": "Provides local firmware generation and tensor unlock sources for high-end consumer GPUs (RTX 4090 and 4070 Ti SUPER).",
-      "why_interesting_today": "Hardware-level modifications and local firmware generation for high-end workstation GPUs are intensely relevant to AI researchers striving to maximize compute efficiency on consumer hardware.",
-      "why_developers_should_care": "Local machine learning practitioners and hardware hackers can benefit from unlocking restricted capabilities on consumer-grade workstation parts.",
-      "momentum": "Rapidly catching the attention of systems and AI infrastructure developers despite being recently published.",
-      "novelty": "High novelty in terms of localized hardware enablement and specialized firmware manipulation.",
+      "name": "lyramakesmusic/neuron-explorer",
+      "score": 93,
+      "reason": "Provides a steering-first neuron explorer specifically tailored for Qwen3.5-4B, pushing mechanistic interpretability into accessible hands-on developer tooling.",
+      "why_interesting_today": "Mechanistic interpretability is transitioning from academic whitepapers to practical developer workflows, allowing engineers to look under the hood of open-weight models.",
+      "why_developers_should_care": "Understanding how individual MLP neurons behave and how steering vectors affect model outputs enables better control, alignment, and customization of open-weight LLMs.",
+      "momentum": "Solid initial traction with over 1,200 stars for a niche AI/ML interpretability repo.",
+      "novelty": "Focuses on interactive steering and rollout inspection rather than passive analysis of model weights.",
       "deep_analysis": {
-        "name": "JustAResearcher/gpu-unlock-ada",
-        "headline_hook": "Unlock up to 2x FP16 and BF16 tensor throughput on high-end consumer GPUs like the RTX 4090 and 4070 Ti SUPER using a local Linux kernel module and firmware generation pipeline.",
-        "core_functionality": "The project provides a Linux kernel module and local firmware generation pipeline that applies an SM speed-select override to high-end consumer NVIDIA Ada Lovelace GPUs before the stock proprietary driver initializes. This bypasses artificial hardware performance restrictions, restoring full tensor instruction throughput (such as doubling FP16 and BF16 rates with FP32 accumulation on supported cards like the RTX 4090) without requiring a patched proprietary NVIDIA driver.",
+        "name": "lyramakesmusic/neuron-explorer",
+        "headline_hook": "Democratizing mechanistic interpretability with a steering-first, 3D neuron explorer for Qwen3.5-4B that lets developers inspect and manipulate internal model representations in real time.",
+        "core_functionality": "The project solves the black-box nature of open-weight large language models by providing a comprehensive, interactive ecosystem for mechanistic interpretability. It sweeps, analyzes, and visualizes every MLP neuron in Qwen3.5-4B, allowing developers to push neurons up and down, observe steered rollouts, evaluate steer and logit lenses, and interact with the model via a spatial 3D visualization and an integrated AI assistant.",
         "key_features": [
-          "Pre-driver initialization via a Linux kernel module that configures SM speed-select registers and completes a PCIe Function Level Reset before the stock NVIDIA driver binds.",
-          "Automated local firmware generation and asset packaging supporting popular distribution build systems including Arch Linux, Debian, and RPM.",
-          "Initramfs integration via mkinitcpio, initramfs-tools, and dracut to guarantee the unlock sequence executes on early boot.",
-          "Experimental support for targeted consumer cards including the RTX 4090, RTX 4070 Ti SUPER, and RTX 4060 Ti 16GB via explicit PCI address binding."
+          "3D interactive model visualization mapping layers, attention, and MLP neurons with spatial clustering based on down-projection columns.",
+          "Comprehensive automated sweep pipelines utilizing a specialized vLLM steering fork to capture activation extremes, word-cluster masses, and next-token shifts.",
+          "Live inference and steered chat capabilities supporting MPS, CUDA, or CPU backends for real-time testing of neuron effects on custom text.",
+          "Built-in Claude MCP server integration allowing an AI agent to read neurons, manipulate the 3D map, execute live model inferences, and run shell or file tools."
         ],
-        "target_audience": "AI researchers, machine learning engineers, and high-performance computing developers operating on consumer-grade workstation hardware who want to maximize compute efficiency and tensor performance.",
-        "practical_developer_value": "Developers and researchers working with local deep learning clusters can significantly accelerate model training and matrix multiplication workloads on affordable consumer hardware, achieving near data-center class tensor throughput without investing in enterprise-tier A-series or H-series accelerators.",
+        "target_audience": "AI Engineers, Mechanistic Interpretability Researchers, and LLM Application Developers looking to understand and control internal model behavior.",
+        "practical_developer_value": "Developers working with open-weight models often struggle to diagnose hallucinations, unintended biases, or behavioral nuances. This tool bridges the gap between academic interpretability whitepapers and hands-on developer tooling, enabling engineers to audit specific neurons, debug model generations through steering, and build safer, more predictable LLM pipelines.",
         "suggested_use_cases": [
-          "Accelerating local PyTorch and TensorFlow training workloads on multi-GPU RTX 4090 workstations by unlocking native tensor core performance limits.",
-          "Deploying optimized high-throughput LLM fine-tuning pipelines on high-end consumer Ada architecture GPUs in self-hosted research environments."
+          "Auditing and suppressing specific internal neurons responsible for toxic outputs or factual hallucinations in Qwen3.5-4B.",
+          "Researching internal concept representations and feature clustering to guide targeted fine-tuning or model alignment."
         ]
       }
     },
     {
       "rank": 3,
-      "name": "ELY-Open-Source/ElyOffice",
-      "score": 88,
-      "reason": "An offline-first desktop suite built using Rust and GPUI, targeting native performance and modern UI architecture.",
-      "why_interesting_today": "There is a strong industry shift toward building high-performance, GPU-accelerated native desktop applications using memory-safe languages like Rust rather than heavy Electron-based wrappers.",
-      "why_developers_should_care": "Frontend and desktop application developers can study its architecture to learn how to build lightning-fast, secure, offline-first applications leveraging GPUI.",
-      "momentum": "Steady organic growth as developers increasingly favor Rust-based desktop GUI frameworks.",
-      "novelty": "High novelty due to its adoption of GPUI for modern, high-performance offline desktop applications.",
+      "name": "rddmwmddr/android-ad-cleaner",
+      "score": 91,
+      "reason": "A practical non-root debloater and ad-cleaner for modern custom Android skins (HyperOS, ColorOS, etc.) that integrates AI agent execution.",
+      "why_interesting_today": "Tackles the widespread annoyance of system-level bloatware and telemetry in modern smartphones using automated scripts and AI agents.",
+      "why_developers_should_care": "Demonstrates a creative, real-world application of ADB combined with AI agents to automate tedious system configuration tasks without requiring root access.",
+      "momentum": "Gaining rapid adoption among power users and developers looking to clean up localized device interfaces.",
+      "novelty": "Combines traditional ADB automation with modern AI agent capabilities to handle complex, system-specific UI prompts automatically.",
       "deep_analysis": {
-        "name": "ELY-Open-Source/ElyOffice",
-        "headline_hook": "ElyOffice brings native, GPU-accelerated performance to offline-first productivity apps using Rust and GPUI, bypassing the resource bloat of Electron.",
-        "core_functionality": "ElyOffice is an offline-first desktop suite consisting of document editors, PDF tools, a mail client, and a Git client built natively in Rust and GPUI. It solves the issue of heavy, resource-intensive, cloud-dependent Electron desktop apps by operating entirely locally on user files without requiring accounts or cloud subscriptions.",
+        "name": "rddmwmddr/android-ad-cleaner",
+        "headline_hook": "A practical, non-root Android debloater and ad-cleaner for modern custom skins like HyperOS and ColorOS that leverages automated UI testing and AI agent execution.",
+        "core_functionality": "The project solves the problem of pervasive system-level ads, marketing notifications, heat-search recommendations, and telemetry in modern Chinese custom Android skins (HyperOS, ColorOS, OriginOS, MagicOS). It achieves this without requiring root access, bootloader unlocking, or custom ROM flashing, ensuring system updates remain uninterrupted.",
         "key_features": [
-          "GPU-accelerated native user interface rendering powered by GPUI and Rust for maximum responsiveness and low memory consumption.",
-          "Comprehensive office suite capabilities leveraging robust core engines like LibreOfficeKit for documents and spreadsheets, MuPDF and Tesseract for PDFs, and custom Rust engines for mail and markdown.",
-          "True offline-first design where all files remain on local drives, eliminating telemetry, cloud lock-in, and forced account logins.",
-          "Cross-platform support spanning Windows, macOS (Intel and Apple Silicon), and multiple Linux distributions with containerized build pipelines targeting older glibc versions."
+          "Multi-Modal Execution Modes: Supports native desktop GUI clients (macOS and Windows), programmatic Python CLI tools, direct manual checklists, and AI-driven agent execution (compatible with Claude Code, Cursor, Trae, etc.).",
+          "Smart UI Automation Engine: Utilizes uiautomator2 to read screens, locate settings pathways dynamically, toggle specific switches, and selectively manage system notification channels without blindly disabling packages.",
+          "Granular and Reversible Tweaks: Safely handles ad components via pm suspend with explicit user consent, isolates quickapps, and cleans up promotional slots in system stores while preserving critical utilities like search card widgets, weather alerts, and delivery tracking.",
+          "Automated Diagnostics and Troubleshooting: Features robust error-handling for screen-reader conflicts, automatic backup state snapshots, and one-click GitHub issue reporting with scrubbed logs."
         ],
-        "target_audience": "Rust developers, desktop application engineers, privacy-conscious power users, and enterprise developers looking for lightweight, high-performance native productivity alternatives.",
-        "practical_developer_value": "For developers, ElyOffice serves as an architectural blueprint and reference implementation for building complex, production-grade desktop applications using Rust and GPUI. It demonstrates how to integrate heavy C and C++ upstream engines like LibreOfficeKit and MuPDF into a memory-safe Rust workspace, manage complex multi-platform build scripts, and handle system-level integrations like mail protocols and Git workflows natively.",
+        "target_audience": "Android power users, mobile software engineers, automation scripters, and developers who work with ADB tooling or custom ROM ecosystems and want a programmatic, non-destructive way to clean up OEM bloat.",
+        "practical_developer_value": "Developers can use this repository as a reference architecture for building cross-platform Python desktop applications (using pywebview and PyInstaller) combined with device automation layers via uiautomator2 and ADB. It also provides a great blueprint for structuring context-driven AI agent tasks through dedicated markdown manifests like AGENTS.md.",
         "suggested_use_cases": [
-          "Building custom secure, offline enterprise productivity workstations that comply with strict data residency and zero-cloud policies.",
-          "Studying advanced GPUI architecture and patterns for high-performance, GPU-rendered desktop applications in Rust."
+          "Automating multi-device setup and provisioning scripts for enterprise QA testing on various OEM Android hardware.",
+          "Building custom desktop tools that interface with Android debugging bridges for UI inspection and preference toggling."
         ]
       }
     },
     {
       "rank": 4,
-      "name": "oosexgang/hackios-xnu-kernel",
-      "score": 85,
-      "reason": "Provides low-level visibility into core kernel components, capturing immediate attention from security researchers and systems engineers.",
-      "why_interesting_today": "Kernel-level exploration and low-level system hacking projects consistently draw heavy engagement for their technical depth.",
-      "why_developers_should_care": "Low-level developers and security analysts can examine the codebase to understand kernel internals and vulnerability surface areas.",
-      "momentum": "Demonstrating high star and fork growth velocity over a very short lifespan.",
-      "novelty": "Moderate-high novelty within low-level OS research and kernel development circles.",
+      "name": "t3dotgg/tstack",
+      "score": 89,
+      "reason": "Curated collection of everyday agent skills tailored for modern development environments like Claude Code and Codex.",
+      "why_interesting_today": "Captures the workflows and toolsets used by prominent developers to maximize productivity with advanced LLM coding loops.",
+      "why_developers_should_care": "Offers immediate, drop-in utility for developers trying to optimize their AI-assisted coding environment and streamline daily workflows.",
+      "momentum": "Strong community interest and rapid star accumulation driven by the reputation of its ecosystem context.",
+      "novelty": "Codifies real-world developer agent habits into reusable, shareable configurations.",
       "deep_analysis": {
-        "name": "oosexgang/hackios-xnu-kernel",
-        "headline_hook": "Running Apple's XNU kernel and stock iOS 16.5 user space natively on Qualcomm Android hardware via a custom UEFI bootloader and hardware abstraction layer.",
-        "core_functionality": "HakiOS provides an experimental research bench that allows Apple's open-source XNU kernel and stock iOS user space (launchd, SpringBoard, apps) to boot on non-Apple hardware, specifically Qualcomm-powered Android devices and QEMU virtual machines. It circumvents the need to flash the phone by injecting a custom bootloader into RAM via fastboot, utilizing the target device's native device tree and firmware to dynamically translate hardware interactions.",
+        "name": "t3dotgg/tstack",
+        "headline_hook": "Want to automate your entire PR lifecycle using AI agents? Theo Browne just open-sourced his daily Claude Code and Codex skill stack.",
+        "core_functionality": "The project solves the friction of managing the full software development lifecycle with LLM coding assistants by providing a curated collection of agent skills. It automates complex, multi-step workflows like end-to-end pull request creation, automated code reviews, multi-model consensus checks, and CI babysitting directly within modern development environments like Claude Code and Codex.",
         "key_features": [
-          "Cross-Architecture Kernel Porting: Adapts Apple's XNU kernel (originally built for Apple Silicon) to run on ARM64 Qualcomm SoCs using custom-written device drivers in C.",
-          "Dynamic Hardware Abstraction via Device Trees: Leverages the target phone's native Android device tree, firmware, and power rails at runtime without requiring a pre-flashed custom ROM.",
-          "Modem and DSP Integration: Communicates with Qualcomm's Hexagon MPSS modem, audio DSP, and IPA packet engine entirely from within the XNU kernel environment.",
-          "QEMU Virtualization Support: Provides a fully functional QEMU aarch64 environment allowing developers to test and run the entire stack locally without physical hardware."
+          "Full-Send and Full-Stop Automation: Automatically takes code changes, proves them, reviews them, files PRs, handles CI checks, fixes real issues, and merges them with minimal human intervention.",
+          "Multi-Model Consensus Loops: Implements council and sol-loop patterns to cross-examine code changes across different LLM providers until they reach an agreement.",
+          "Intelligent PR Management: Includes specialized skills for modernizing old branches, filing problem-centric PR descriptions rather than raw file inventories, and babysitting CI pipelines.",
+          "Graceful Fallbacks: Integrates natively with T3 Code features while gracefully falling back to standard tools when advanced features are unavailable."
         ],
-        "target_audience": "Security researchers, kernel hackers, low-level systems engineers, and mobile platform developers interested in operating system internals and cross-platform hardware bring-up.",
-        "practical_developer_value": "Developers and systems engineers gain deep, rare visibility into kernel-level architecture, hybrid operating system design, and the mechanics of porting proprietary kernels to foreign hardware architectures. It serves as an advanced educational playground for understanding low-level boot flows, device tree parsing, and driver development without permanent modification to physical devices.",
+        "target_audience": "Advanced software engineers, AI-native developers, and tech leads who utilize terminal-based coding agents and want to maximize productivity through automation.",
+        "practical_developer_value": "Developers can eliminate hours of manual PR overhead, context-switching, and boilerplate code review tasks by delegating repetitive git and GitHub workflows to autonomous agents. It serves as a blueprint for designing robust agentic loops that handle real-world software engineering edge cases, such as failing CI tests and conflicting rebases.",
         "suggested_use_cases": [
-          "Investigating XNU kernel internals, memory management, and hardware abstraction layers on non-Apple hardware.",
-          "Developing and debugging custom UEFI bootloaders and low-level system drivers for ARM64 SoCs."
+          "Automating the deployment and validation of low-risk feature branches straight to production without manual babysitting.",
+          "Running multi-model code reviews on critical security changes before opening a pull request to catch subtle bugs."
         ]
       }
     },
     {
       "rank": 5,
-      "name": "nilbuild/developer-roadmap",
-      "score": 83,
-      "reason": "Provides exceptional, comprehensive interactive roadmaps and career guidance across diverse engineering domains.",
-      "why_interesting_today": "Maintains perennial value by keeping the broader developer community informed on modern tech stacks, architectural patterns, and career trajectories.",
-      "why_developers_should_care": "Serves as an invaluable reference guide for upskilling, onboarding engineers, and navigating modern engineering specializations.",
-      "momentum": "Consistent daily star momentum and robust community engagement reflecting its status as an industry staple.",
-      "novelty": "Low technical novelty, but unmatched practical utility and widespread educational impact.",
+      "name": "designfuchen/word-atlas",
+      "score": 87,
+      "reason": "A polished open-source vocabulary learning application and dataset utilizing FSRS (Free Spaced Repetition Scheduler) and WebGL enhancements for IELTS preparation.",
+      "why_interesting_today": "Combines state-of-the-art spaced repetition algorithms with clean, modern web tech (React, PWA, WebGL) and an open-source dataset.",
+      "why_developers_should_care": "Serves as an exceptional architectural reference for building high-performance, offline-capable Progressive Web Apps with complex state and learning mechanics.",
+      "momentum": "Steady growth and high fork counts relative to its star base, showing active developer engagement with the codebase and dataset.",
+      "novelty": "Integrates the advanced FSRS algorithm directly into an aesthetically rich, open-source language learning interface.",
       "deep_analysis": {
-        "name": "nilbuild/developer-roadmap",
-        "headline_hook": "Master any tech stack, system architecture, or engineering career trajectory with roadmap.sh, the open-source platform providing comprehensive, community-driven visual guides for software developers.",
-        "core_functionality": "The project solves the pervasive problem of information overload in software engineering by providing structured, interactive visual guides, career paths, best practices, and knowledge-testing questions across virtually every modern technology domain.",
+        "name": "designfuchen/word-atlas",
+        "headline_hook": "An open-source IELTS vocabulary learning app that pairs 7,298 AI-generated illustrations and native audio with the FSRS spaced repetition algorithm.",
+        "core_functionality": "Word Atlas solves the problem of dry, text-heavy vocabulary memorization by embedding words into rich visual, auditory, and contextual environments. It combines an offline-first React frontend with the Free Spaced Repetition Scheduler (FSRS) algorithm to optimize review intervals and a WebGL2 star map interface to track learning progress visually.",
         "key_features": [
-          "Interactive nodes on visual roadmaps that link directly to detailed markdown explanations and resources.",
-          "Extensive coverage of traditional domains (Frontend, Backend, DevOps, Data Science) alongside cutting-edge tracks (AI Engineering, Vibe Coding, Claude Code, Inference Engineering).",
-          "Interactive best practices guides and skill-testing questions to validate knowledge across core technologies.",
-          "Open-source content architecture where markdown files directly sync to the production platform, encouraging community contributions."
+          "FSRS (Free Spaced Repetition Scheduler) integration via ts-fsrs for mathematically optimized memory retention and review scheduling.",
+          "WebGL2-powered interactive vocabulary galaxy that renders learning progress across 19 topics with dynamic zooming and rotation.",
+          "Comprehensive offline-first architecture built on React 19 and Vite with local storage persistence and full asset caching.",
+          "Massive open-source multimodal dataset containing 7,298 CEFR-aligned entries, custom WebP illustrations, and over 22,000 audio files."
         ],
-        "target_audience": "Junior developers seeking clear career direction, mid-level engineers looking to pivot or upskill into specialized domains (like AI or cloud architecture), and engineering managers or technical writers designing team training paths.",
-        "practical_developer_value": "Developers can use this repository to design personalized learning paths, identify skill gaps when transitioning into new roles (such as moving from backend engineering to cloud architecture or AI engineering), and establish standardized technical best practices within their engineering teams.",
+        "target_audience": "Frontend developers, EdTech builders, and open-source data engineers looking for a clean, modern blueprint combining React, WebGL, and state-of-the-art spaced repetition algorithms.",
+        "practical_developer_value": "Developers can study a production-ready implementation of modern React 19 paired with ts-fsrs, examine custom WebGL2 rendering techniques for UI data visualization, or extract the openly licensed dataset (JSON and CSV) and 22,000+ audio files to power custom language-learning tools or Anki decks.",
         "suggested_use_cases": [
-          "Structuring an onboarding curriculum and mentorship framework for junior developers joining an engineering team.",
-          "Planning a personal upskilling strategy to master modern paradigms like cloud-native infrastructure, system design, or AI agent development."
+          "Extracting the CC BY 4.0 JSON dataset and audio assets to build custom language-learning applications or flashcard decks.",
+          "Studying the TypeScript implementation of ts-fsrs to integrate advanced spaced repetition algorithms into web applications."
         ]
       }
     }
