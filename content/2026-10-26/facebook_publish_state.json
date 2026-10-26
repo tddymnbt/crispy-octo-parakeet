@@ -35,8 +35,8 @@
       "caption": "Ever wondered if you could boot Apple's XNU kernel and stock iOS 16.5 user space natively on Qualcomm Android hardware? \n\nRunning proprietary Apple operating systems on foreign hardware used to be a pipe dream. Security researchers and low-level engineers often hit a wall when trying to inspect kernel internals without bricking physical devices or dealing with rigid hardware locks.\n\nHakiOS solves this by providing an experimental research bench that boots Apple's XNU kernel and stock iOS user space (launchd, SpringBoard, and apps) on non-Apple hardware like Qualcomm-powered Android devices and QEMU virtual machines. Best of all? It injects a custom UEFI bootloader into RAM via fastboot, eliminating the need to flash your phone.\n\nHere is what makes it a game-changer for systems engineers:\n\n* Cross-Architecture Kernel Porting: Adapts the XNU kernel to run on ARM64 Qualcomm SoCs using custom C device drivers.\n* Dynamic Hardware Abstraction: Leverages native Android device trees, firmware, and power rails at runtime.\n* Modem & DSP Integration: Interfaces with Qualcomm's Hexagon MPSS modem, audio DSP, and IPA packet engine straight from XNU.\n* QEMU Virtualization Support: Test the full stack locally without risking physical hardware.\n\nGet deep visibility into kernel-level architecture, hybrid OS design, and low-level boot flows today. \n\nCheck out the repo and start experimenting:\nhttps://github.com/oosexgang/hackios-xnu-kernel\n\nWhat's the wildest kernel port you have ever attempted? Drop your thoughts in the comments below, and share this with a fellow kernel hacker!\n\n#KernelDevelopment #XNU #iOSInternals #SystemsEngineering #AndroidDev #SecurityResearch #OpenSource #LowLevelProgramming",
       "image_file": "4_oosexgang_hackios-xnu-kernel.png",
       "photo_id": "122124316317476221",
-      "published_post_id": null,
-      "published_at": null
+      "published_post_id": "1410193715501138_122124428511476221",
+      "published_at": "2026-10-26T19:00:37.086494+08:00"
     },
     {
       "rank": 5,
