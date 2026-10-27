@@ -1,0 +1,54 @@
+{
+  "top_repositories": [
+    {
+      "rank": 1,
+      "name": "NousResearch/hermes-agent",
+      "score": 96,
+      "reason": "Outstanding star momentum and high relevance in the current AI agent landscape, standing out among massive repositories due to exceptional active growth.",
+      "why_interesting_today": "Autonomous agents that integrate closely with developer workflows like Claude Code and Codex are driving massive community discussion.",
+      "why_developers_should_care": "Provides advanced capabilities for creating personalized, evolving AI agents that adapt to developer workflows.",
+      "momentum": "Extremely high daily star and fork growth compared to traditional giants.",
+      "novelty": "High novelty in autonomous agent customization and continuous evolution."
+    },
+    {
+      "rank": 2,
+      "name": "andyhuo520/digital-human-koubo",
+      "score": 90,
+      "reason": "Bridges AI-generated talking-head video creation with modern developer agent workflows (Claude Code, Codex, MCP).",
+      "why_interesting_today": "Multimodal AI video generation tools packaged as agent skills are trending as developers look to automate rich media pipelines.",
+      "why_developers_should_care": "Offers a streamlined way to programmatically generate creator-grade video content directly via AI agent toolsets.",
+      "momentum": "Strong early-stage traction and solid fork interest from developers experimenting with MCP tools.",
+      "novelty": "Very high, combining talking-head generation with agent-driven packaging components."
+    },
+    {
+      "rank": 3,
+      "name": "DenisSergeevitch/ex-ussr-kinship-research",
+      "score": 87,
+      "reason": "A niche, highly creative application of evidence-first genealogy structured as an AI agent skill.",
+      "why_interesting_today": "Demonstrates the expanding capability of AI agents to handle specialized archival research and historical data retrieval.",
+      "why_developers_should_care": "Shows how developers can design precise, domain-specific research agents for niche databases and multi-language support.",
+      "momentum": "Steady organic growth and healthy engagement relative to its specialized focus.",
+      "novelty": "High, showcasing automated historical archive and genealogy research capabilities for LLMs."
+    },
+    {
+      "rank": 4,
+      "name": "enesozturk/dimensional-drawing",
+      "score": 84,
+      "reason": "Provides a clean, practical solution for creating distinctive Apple-style dimensional UI component drawings.",
+      "why_interesting_today": "Design-focused developer tools that enhance UI presentation routinely capture strong interest on social channels.",
+      "why_developers_should_care": "Quickly generates polished, modern UI presentation graphics without needing heavy graphic design software.",
+      "momentum": "Good steady initial adoption among frontend developers and UI designers.",
+      "novelty": "Moderate-high, offering specialized formatting for modern UI showcases."
+    },
+    {
+      "rank": 5,
+      "name": "9bie/php2shell-bypass-aslr-exp",
+      "score": 81,
+      "reason": "Selected for significant security research activity surrounding recent PHP vulnerability disclosures.",
+      "why_interesting_today": "Critical security research and PoCs regarding modern web environments draw intense scrutiny from security professionals.",
+      "why_developers_should_care": "Essential context for security engineers and backend maintainers to audit and patch vulnerable PHP deployments.",
+      "momentum": "Notable active star growth and high fork counts indicating widespread security analysis.",
+      "novelty": "Moderate, focusing on specific vulnerability exploitation and ASLR bypass mechanics."
+    }
+  ]
+}

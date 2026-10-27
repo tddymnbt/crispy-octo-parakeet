@@ -2,53 +2,53 @@
   "top_repositories": [
     {
       "rank": 1,
-      "name": "morganlinton/BeautifulRust",
+      "name": "NousResearch/hermes-agent",
       "score": 96,
-      "reason": "Bridges the gap between AI coding assistants and writing production-grade, idiomatic Rust through dedicated agent skills and clippy configs.",
-      "why_interesting_today": "As developers increasingly rely on AI coding assistants (Claude Code, Cursor, Copilot), specialized prompt and skill layers that enforce strict language idioms like Rust's memory safety rules are becoming essential.",
-      "why_developers_should_care": "Rust has a steep learning curve and strict compiler checks; giving your coding agent deep domain knowledge dramatically reduces boilerplate errors and fights against unidiomatic code generation.",
-      "momentum": "Strong early traction with over 1,200 stars right after creation, indicating intense developer interest in agent-assisted workflows.",
-      "novelty": "Directly targets the emerging paradigm of 'agent skills' for specific programming languages rather than relying on general-purpose LLM system prompts."
+      "reason": "Outstanding star momentum and high relevance in the current AI agent landscape, standing out among massive repositories due to exceptional active growth.",
+      "why_interesting_today": "Autonomous agents that integrate closely with developer workflows like Claude Code and Codex are driving massive community discussion.",
+      "why_developers_should_care": "Provides advanced capabilities for creating personalized, evolving AI agents that adapt to developer workflows.",
+      "momentum": "Extremely high daily star and fork growth compared to traditional giants.",
+      "novelty": "High novelty in autonomous agent customization and continuous evolution."
     },
     {
       "rank": 2,
-      "name": "lyramakesmusic/neuron-explorer",
-      "score": 93,
-      "reason": "Provides a steering-first neuron explorer specifically tailored for Qwen3.5-4B, pushing mechanistic interpretability into accessible hands-on developer tooling.",
-      "why_interesting_today": "Mechanistic interpretability is transitioning from academic whitepapers to practical developer workflows, allowing engineers to look under the hood of open-weight models.",
-      "why_developers_should_care": "Understanding how individual MLP neurons behave and how steering vectors affect model outputs enables better control, alignment, and customization of open-weight LLMs.",
-      "momentum": "Solid initial traction with over 1,200 stars for a niche AI/ML interpretability repo.",
-      "novelty": "Focuses on interactive steering and rollout inspection rather than passive analysis of model weights."
+      "name": "andyhuo520/digital-human-koubo",
+      "score": 90,
+      "reason": "Bridges AI-generated talking-head video creation with modern developer agent workflows (Claude Code, Codex, MCP).",
+      "why_interesting_today": "Multimodal AI video generation tools packaged as agent skills are trending as developers look to automate rich media pipelines.",
+      "why_developers_should_care": "Offers a streamlined way to programmatically generate creator-grade video content directly via AI agent toolsets.",
+      "momentum": "Strong early-stage traction and solid fork interest from developers experimenting with MCP tools.",
+      "novelty": "Very high, combining talking-head generation with agent-driven packaging components."
     },
     {
       "rank": 3,
-      "name": "rddmwmddr/android-ad-cleaner",
-      "score": 91,
-      "reason": "A practical non-root debloater and ad-cleaner for modern custom Android skins (HyperOS, ColorOS, etc.) that integrates AI agent execution.",
-      "why_interesting_today": "Tackles the widespread annoyance of system-level bloatware and telemetry in modern smartphones using automated scripts and AI agents.",
-      "why_developers_should_care": "Demonstrates a creative, real-world application of ADB combined with AI agents to automate tedious system configuration tasks without requiring root access.",
-      "momentum": "Gaining rapid adoption among power users and developers looking to clean up localized device interfaces.",
-      "novelty": "Combines traditional ADB automation with modern AI agent capabilities to handle complex, system-specific UI prompts automatically."
+      "name": "DenisSergeevitch/ex-ussr-kinship-research",
+      "score": 87,
+      "reason": "A niche, highly creative application of evidence-first genealogy structured as an AI agent skill.",
+      "why_interesting_today": "Demonstrates the expanding capability of AI agents to handle specialized archival research and historical data retrieval.",
+      "why_developers_should_care": "Shows how developers can design precise, domain-specific research agents for niche databases and multi-language support.",
+      "momentum": "Steady organic growth and healthy engagement relative to its specialized focus.",
+      "novelty": "High, showcasing automated historical archive and genealogy research capabilities for LLMs."
     },
     {
       "rank": 4,
-      "name": "t3dotgg/tstack",
-      "score": 89,
-      "reason": "Curated collection of everyday agent skills tailored for modern development environments like Claude Code and Codex.",
-      "why_interesting_today": "Captures the workflows and toolsets used by prominent developers to maximize productivity with advanced LLM coding loops.",
-      "why_developers_should_care": "Offers immediate, drop-in utility for developers trying to optimize their AI-assisted coding environment and streamline daily workflows.",
-      "momentum": "Strong community interest and rapid star accumulation driven by the reputation of its ecosystem context.",
-      "novelty": "Codifies real-world developer agent habits into reusable, shareable configurations."
+      "name": "enesozturk/dimensional-drawing",
+      "score": 84,
+      "reason": "Provides a clean, practical solution for creating distinctive Apple-style dimensional UI component drawings.",
+      "why_interesting_today": "Design-focused developer tools that enhance UI presentation routinely capture strong interest on social channels.",
+      "why_developers_should_care": "Quickly generates polished, modern UI presentation graphics without needing heavy graphic design software.",
+      "momentum": "Good steady initial adoption among frontend developers and UI designers.",
+      "novelty": "Moderate-high, offering specialized formatting for modern UI showcases."
     },
     {
       "rank": 5,
-      "name": "designfuchen/word-atlas",
-      "score": 87,
-      "reason": "A polished open-source vocabulary learning application and dataset utilizing FSRS (Free Spaced Repetition Scheduler) and WebGL enhancements for IELTS preparation.",
-      "why_interesting_today": "Combines state-of-the-art spaced repetition algorithms with clean, modern web tech (React, PWA, WebGL) and an open-source dataset.",
-      "why_developers_should_care": "Serves as an exceptional architectural reference for building high-performance, offline-capable Progressive Web Apps with complex state and learning mechanics.",
-      "momentum": "Steady growth and high fork counts relative to its star base, showing active developer engagement with the codebase and dataset.",
-      "novelty": "Integrates the advanced FSRS algorithm directly into an aesthetically rich, open-source language learning interface."
+      "name": "9bie/php2shell-bypass-aslr-exp",
+      "score": 81,
+      "reason": "Selected for significant security research activity surrounding recent PHP vulnerability disclosures.",
+      "why_interesting_today": "Critical security research and PoCs regarding modern web environments draw intense scrutiny from security professionals.",
+      "why_developers_should_care": "Essential context for security engineers and backend maintainers to audit and patch vulnerable PHP deployments.",
+      "momentum": "Notable active star growth and high fork counts indicating widespread security analysis.",
+      "novelty": "Moderate, focusing on specific vulnerability exploitation and ASLR bypass mechanics."
     }
   ]
 }
