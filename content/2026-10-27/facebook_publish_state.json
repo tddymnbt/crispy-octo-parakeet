@@ -17,8 +17,8 @@
       "caption": "Stop treating open-weight LLMs like uninterpretable black boxes. 🧠✨\n\nIf you are an AI engineer or researcher trying to debug hallucinations, spot unintended biases, or figure out why your model is behaving a certain way, you need to see what is happening under the hood. \n\nNeuron Explorer (lyramakesmusic/neuron-explorer) is a steering-first, 3D mechanistic interpretability tool built specifically for Qwen3.5-4B that lets you inspect and manipulate internal model representations in real time. \n\nHere is what you get out of the box:\n\n🪐 3D Interactive Visualization: Map layers, attention, and MLP neurons with spatial clustering based on down-projection columns.\n⚡ Automated Sweep Pipelines: Utilize a specialized vLLM steering fork to capture activation extremes, word-cluster masses, and next-token shifts.\n🎮 Live Steered Chat: Push neurons up and down, observe steered rollouts, and test neuron effects on custom text with MPS, CUDA, or CPU backends.\n🤖 Claude MCP Server Integration: Let an AI agent read neurons, manipulate the 3D map, execute live inferences, and run shell or file tools.\n\nBridge the gap between academic interpretability whitepapers and hands-on developer tooling. Audit specific neurons, debug generations through live steering, and build safer LLM pipelines today.\n\nCheck out the repo and drop a star if you want to crack open the black box:\nhttps://github.com/lyramakesmusic/neuron-explorer\n\nHow are you currently handling interpretability in your open-weight workflows? Let us know in the comments! 👇\n\n#AI #MachineLearning #LLM #OpenSource #MechanisticInterpretability #ArtificialIntelligence #SoftwareEngineering",
       "image_file": "2_lyramakesmusic_neuron-explorer.png",
       "photo_id": "122124615663476221",
-      "published_post_id": null,
-      "published_at": null
+      "published_post_id": "1410193715501138_122124648975476221",
+      "published_at": "2026-10-27T11:00:40.710727+08:00"
     },
     {
       "rank": 3,
