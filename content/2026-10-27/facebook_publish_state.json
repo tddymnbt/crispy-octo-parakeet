@@ -44,8 +44,8 @@
       "caption": "Tired of dry, text-heavy vocabulary memorization that just doesn't stick? \n\nMeet Word Atlas, an open-source IELTS vocabulary learning app that pairs 7,298 AI-generated illustrations and native audio with the FSRS spaced repetition algorithm.\n\nWord Atlas solves the problem of boring flashcards by embedding words into rich visual, auditory, and contextual environments. Built with a production-ready React 19 and Vite offline-first architecture, it is a masterclass in modern EdTech engineering.\n\nKey features include:\n✨ FSRS Integration: Uses the ts-fsrs algorithm for mathematically optimized memory retention and review scheduling.\n🌌 WebGL2 Star Map: An interactive vocabulary galaxy rendering your learning progress across 19 topics with dynamic zooming and rotation.\n📦 Massive Multimodal Dataset: Over 7,298 CEFR-aligned entries, custom WebP illustrations, and more than 22,000 audio files.\n\nWhether you want to study advanced React 19 patterns, explore custom WebGL2 rendering techniques, or extract the CC BY 4.0 dataset to build your own custom language-learning tools, this repo is packed with value.\n\nCheck it out on GitHub:\nhttps://github.com/designfuchen/word-atlas\n\nWhat is your go-to algorithm or tech stack for building modern EdTech apps? Let us know in the comments below!\n\n#WebDev #OpenSource #ReactJS #WebGL #EdTech #TypeScript #ArtificialIntelligence #SoftwareEngineering",
       "image_file": "5_designfuchen_word-atlas.png",
       "photo_id": "122124615789476221",
-      "published_post_id": null,
-      "published_at": null
+      "published_post_id": "1410193715501138_122124814101476221",
+      "published_at": "2026-10-27T23:00:40.379438+08:00"
     }
   ]
 }
