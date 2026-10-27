@@ -35,8 +35,8 @@
       "caption": "Want to automate your entire PR lifecycle using AI agents? Theo Browne just open-sourced his daily Claude Code and Codex skill stack.\n\nManaging the full software development lifecycle with LLM coding assistants usually comes with a lot of friction. T-Stack solves this by providing a curated collection of agent skills that automate complex, multi-step workflows like end-to-end pull request creation, automated code reviews, multi-model consensus checks, and CI babysitting directly within your development environment.\n\nHere is what is under the hood:\n\n🚀 Full-Send and Full-Stop Automation: Automatically takes code changes, proves them, reviews them, files PRs, handles CI checks, fixes real issues, and merges them with minimal human intervention.\n\n🧠 Multi-Model Consensus Loops: Implements council and sol-loop patterns to cross-examine code changes across different LLM providers until they reach an agreement.\n\n📋 Intelligent PR Management: Includes specialized skills for modernizing old branches, filing problem-centric PR descriptions rather than raw file inventories, and babysitting CI pipelines.\n\n🛡️ Graceful Fallbacks: Integrates natively with advanced code features while gracefully falling back to standard tools when needed.\n\nStop wasting hours on manual PR overhead, context-switching, and boilerplate code reviews. Delegate your repetitive git and GitHub workflows to autonomous agents and let your team focus on building.\n\nCheck out the repo and drop a star:\nhttps://github.com/t3dotgg/tstack\n\nWhat is your favorite task to delegate to an AI coding agent? Let us know in the comments!\n\n#AI #SoftwareEngineering #OpenSource #DeveloperTools #CodingAgents #ClaudeCode #GitHub",
       "image_file": "4_t3dotgg_tstack.png",
       "photo_id": "122124615747476221",
-      "published_post_id": null,
-      "published_at": null
+      "published_post_id": "1410193715501138_122124772245476221",
+      "published_at": "2026-10-27T19:00:41.135822+08:00"
     },
     {
       "rank": 5,
