@@ -1,0 +1,51 @@
+{
+  "date": "2026-10-29",
+  "prepared_at": "2026-10-29T07:03:01.387561+08:00",
+  "posts": [
+    {
+      "rank": 1,
+      "repo_name": "morluto/rea",
+      "caption": "Ever wished you could hand a black-box binary to your AI coding agent and say, \"figure out how this works\"? \n\nMeet REA (morluto/rea). It bridges LLM agents with deep application and native binary inspection, letting you reverse engineer any software feature without source code.\n\nThe Problem: \nUnderstanding closed-source desktop apps, compiled native binaries, Electron packages, or .NET assemblies usually means context-switching between dozens of heavy disassemblers and manually piecing together logic. \n\nHow REA Solves It:\nREA connects AI coding agents directly to specialized reverse engineering tools via the Model Context Protocol (MCP). It gives your favorite agents—like Claude Code or Cursor—the ability to inspect binaries locally and feed you structured evidence and runtime traces.\n\nKey Features:\n- Unified MCP Interface: Seamlessly integrates with popular AI agents for streamlined reverse engineering workflows.\n- Deep Native Binary Inspection: Connects with industry standards like Hopper, Ghidra, and IDA to extract pseudocode, assembly, strings, and symbols.\n- Static JS & Electron Analysis: Breaks down modules, imports, and execution boundaries from ASAR or extracted directories.\n- Token-Optimized Schemas: Compact and full input/output profiles minimize token overhead while maintaining rigorous server-side validation.\n\nDeveloper Value:\nAccelerate feature research instantly. Instruct your AI agent to analyze a third-party application, review the generated code evidence, and automatically scaffold an equivalent implementation for your own project. Whether you are auditing closed-source apps for hidden API calls or extracting proprietary UI component behaviors to reimplement them in a modern web stack, REA changes the game.\n\nCheck it out on GitHub and drop a star if you find it useful:\nhttps://github.com/morluto/rea\n\nWhat is the first black-box app you are going to point your AI agent at? Let us know in the comments!\n\n#SoftwareEngineering #ReverseEngineering #AI #ArtificialIntelligence #MachineLearning #Developers #OpenSource #GitHub",
+      "image_file": "1_morluto_rea.png",
+      "photo_id": "122125226535476221",
+      "published_post_id": "1410193715501138_122125226769476221",
+      "published_at": "2026-10-29T07:03:04.074672+08:00"
+    },
+    {
+      "rank": 2,
+      "repo_name": "anomalyco/opencode",
+      "caption": "Tired of rigid, proprietary AI coding assistants that lock you into the cloud? Take full control of your AI-assisted development workflow with OpenCode, a powerful, open-source coding agent that runs locally and adapts to your exact needs.\n\nOpenCode eliminates the frustration of closed ecosystems by executing tasks directly in your terminal or via a sleek desktop app, giving you a truly customizable development companion.\n\nHere is what makes it stand out:\n⚡ Built-In Agent Switching: Toggle instantly between full-access development modes and read-only analysis modes with a simple keystroke.\n🔍 Specialized Subagents: Leverage tools like @general to handle complex searches and multi-step background tasks effortlessly.\n💻 Flexible Interfaces & Installation: Enjoy a robust terminal experience or a cross-platform desktop app, with quick setup via shell scripts, Homebrew, npm, pacman, or Nix.\n\nWhether you need to safely analyze legacy codebases using read-only constraints or accelerate your debugging loops directly from the command line, OpenCode fits right into your existing workflow without compromising security or flexibility.\n\nCheck out the repo and start building on your terms:\nhttps://github.com/anomalyco/opencode\n\nDrop a comment below and let us know: are you using local AI agents in your terminal yet? Hit that share button and tag a fellow developer who needs this!\n\n#OpenSource #AI #SoftwareEngineering #Coding #DeveloperTools #LocalAI",
+      "image_file": "2_anomalyco_opencode.png",
+      "photo_id": "122125226589476221",
+      "published_post_id": null,
+      "published_at": null
+    },
+    {
+      "rank": 3,
+      "repo_name": "interplains/Zero-Breach-Toolkit",
+      "caption": "🛡️ Protect high-risk users by running offline scans for sophisticated mercenary spyware traces across computers, Android devices, and iPhone backups!\n\nTargeted surveillance threats like Pegasus, Predator, and Candiru are becoming more sophisticated, but auditing your systems shouldn't require sending sensitive data to the cloud. \n\nIntroducing Zero-Breach-Toolkit: an open-source, read-only utility designed to scan local systems, browser histories, and mobile device backups for indicators of known mercenary spyware without relying on active network connections or telemetry.\n\n🔍 Key Features:\n• 100% Offline Operation: Zero network requests or telemetry uploads during scans to ensure absolute user privacy.\n• Deep Forensic Analysis: Performs read-only analysis of local system files, web browsers, and connected Android or encrypted iOS backups.\n• Transparent Reporting: Details exact evidence found, confidence strengths, and explicitly lists any unchecked areas.\n• Cross-Platform & Accessible: Fully supports Windows, macOS, and Linux with clear guidance for operators.\n\n💻 Developer & Security Value:\nSecurity engineers and developers can study its local data parser architectures, read-only enforcement patterns, and artifact extraction workflows to build secure, privacy-preserving forensic scripts and compliance auditing utilities. Perfect for auditing developer workstations or inspecting encrypted mobile backups safely.\n\n👉 Check it out on GitHub and secure your workflows today:\nhttps://github.com/interplains/Zero-Breach-Toolkit\n\n👇 Drop a comment below: How do you handle local privacy and security audits in your development environment?\n\n#CyberSecurity #DigitalForensics #PrivacyFirst #OpenSource #SoftwareEngineering #InfoSec #ZeroBreachToolkit",
+      "image_file": "3_interplains_Zero-Breach-Toolkit.png",
+      "photo_id": "122125226643476221",
+      "published_post_id": null,
+      "published_at": null
+    },
+    {
+      "rank": 4,
+      "repo_name": "unclebob/ub-mode",
+      "caption": "🛑 Tired of AI coding assistants writing sloppy, unmaintainable code that just barely works? \n\nUncle Bob just dropped the ultimate fix: ub-mode! 🚀\n\nThe Problem: LLM assistants love taking shortcuts, leaving you with high cyclomatic complexity, tight coupling, hidden bugs, and a mountain of technical debt that hits your codebase before you even realize it.\n\nEnter ub-mode—a revolutionary agent skill configuration designed to govern your AI coding assistants by forcing them to adhere to strict software engineering principles, rigorous testing methodologies, and architectural boundaries. \n\n🔥 Key Features:\n• Strict Two-Phase Workflow: Forces the AI through \"First Make it Work\" (foundational thinking and TDD) followed by \"Then Make it Right\" (refactoring and deep root-cause analysis).\n• Deterministic Quality Gates: Integrates CRAP score metrics, code duplication checks, and mutation testing right into the loop.\n• Smart Context Hygiene: Enforces worktree cleanup, precise logging, and small, ordered atomic commits.\n• Universal Compatibility: Works seamlessly with your favorite dev environments like Grok, Claude, and Cursor via a standardized skill definition.\n\nSay goodbye to superficial code and hello to maintainability, testability, and architectural discipline. \n\n👉 Check out the repo and install it in your workflow today:\nhttps://github.com/unclebob/ub-mode\n\n👇 Drop a comment below: Are you trusting your AI assistant to write your tests, or are you ready to lock it down with ub-mode? \n\n#SoftwareEngineering #CleanCode #ArtificialIntelligence #DeveloperTools #TDD #CodingLife #AIEnthusiasts",
+      "image_file": "4_unclebob_ub-mode.png",
+      "photo_id": "122125226691476221",
+      "published_post_id": null,
+      "published_at": null
+    },
+    {
+      "rank": 5,
+      "repo_name": "CopilotKit/OpenDuet",
+      "caption": "Stop waiting on chatbots and start building proactive, human-in-the-loop AI agents that execute async tasks in dedicated sandboxes. 🚀\n\nMost AI apps today are stuck in a reactive loop: you prompt, they answer, nothing happens in the background. OpenDuet changes the game. It is a powerful open-source framework designed to help developers build autonomous, background AI agents that actually *do* things—from processing emails and running scheduled routines to executing code in an isolated environment. \n\nBest of all? It keeps you in control. \n\n🛠 Notable Features:\n• Isolated Agent Environments: Each agent gets its own dedicated workspace with a secure environment, real browser, and shell access.\n• Granular Human-in-the-Loop Controls: Enforce explicit permission gates (Refuse, Allow once, Always allow) before sensitive actions like sending messages or payments.\n• Secure Secret Management: Sensitive credentials are masked and hidden entirely from the agent's conversation context.\n• Integrated State & Memory: Built on CopilotKit Intelligence to persist cross-thread memory and scheduled background routines.\n\nWhether you want to build an automated executive assistant that triages your emails and drafts morning briefs, or complex background automation agents that securely run under your supervision, OpenDuet gives you a production-ready template to deploy self-hosted proactive agents fast. Stop building sandbox management and approval workflows from scratch. \n\nCheck it out on GitHub and deploy your first proactive agent today:\nhttps://github.com/CopilotKit/OpenDuet\n\n👇 Drop a comment below: What background task would you delegate to an autonomous agent first? \n\n#AIDev #OpenSource #ArtificialIntelligence #SoftwareEngineering #CopilotKit #TechCommunity",
+      "image_file": "5_CopilotKit_OpenDuet.png",
+      "photo_id": "122125226733476221",
+      "published_post_id": null,
+      "published_at": null
+    }
+  ]
+}
