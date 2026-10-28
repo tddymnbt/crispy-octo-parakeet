@@ -35,8 +35,8 @@
       "caption": "Ever wanted your UI components to look like an iconic Apple technical blueprint? 🍎📐\n\nFrontend developers and design system maintainers know the pain of manually drawing architectural specs or trying to clearly communicate layout structures across teams. It is a massive time sink.\n\nEnter dimensional-drawing: a game-changing tool that transforms any UI component, URL, or screenshot into a stunning, Apple-style technical specification sheet and animated blueprint using AI agents! 🤖✨\n\nHere is why you need to check this out:\n\n⚡ AI Agent Integration: Ships as portable skill packages designed for Claude Code, claude.ai, and other AI coding assistants via the skills CLI standard.\n📐 Architectural Abstraction: Focuses purely on component layout using strict monochrome palettes, structural variables, and unbranded nomenclature, stripping away distractions.\n🎬 Exploded Layer Motion Graphics: Turn static specs into cinematic 10-second animations showing layers lifting apart.\n🎞️ Dual Rendering Adapters: Supports Claude's native Motion artifact format alongside a headless Node.js adapter with Playwright and ffmpeg for automated video generation.\n\nWhether you are building a robust design system or want to generate cinematic technical teasers for your next product launch, this automates the entire process straight from your source code.\n\n👉 Explore the repo and start building blueprints here: https://github.com/enesozturk/dimensional-drawing\n\nDrop a comment below and let us know how you plan to use this for your next UI release! 👇\n\n#WebDevelopment #UIDesign #DesignSystems #ArtificialIntelligence #Frontend #Coding #OpenSource #TechLaunch",
       "image_file": "4_enesozturk_dimensional-drawing.png",
       "photo_id": "122124906387476221",
-      "published_post_id": null,
-      "published_at": null
+      "published_post_id": "1410193715501138_122125050375476221",
+      "published_at": "2026-10-28T19:00:40.252462+08:00"
     },
     {
       "rank": 5,
