@@ -3,136 +3,137 @@
   "repositories": [
     {
       "rank": 1,
-      "name": "morluto/rea",
-      "score": 98,
-      "reason": "Exceptional velocity in AI-assisted reverse engineering, bridging LLM agents with deep binary and application analysis.",
-      "why_interesting_today": "It leverages agentic workflows to reverse engineer anything from complex application behaviors down to native machine code binaries.",
-      "why_developers_should_care": "It offers an unprecedented way to integrate AI context protocols (MCP) with established tools like Ghidra and Hopper for automated analysis.",
-      "momentum": "Explosive growth with over 5,100 new stars and massive fork velocity, indicating intense developer adoption.",
-      "novelty": "High novelty; merges modern agent frameworks with hardcore binary analysis and reverse engineering.",
+      "name": "n8n-io/n8n",
+      "score": 96,
+      "reason": "Combines a massive established community with cutting-edge workflow automation and native AI/MCP capabilities.",
+      "why_interesting_today": "Workflow engines are shifting rapidly from static integrations to autonomous AI agent orchestration via Model Context Protocol (MCP).",
+      "why_developers_should_care": "Provides an enterprise-ready, self-hostable bridge between complex backend systems and modern AI agents without sacrificing code flexibility.",
+      "momentum": "Extremely strong with consistent high star growth and active daily pushes.",
+      "novelty": "High for a traditional automation tool due to its recent native MCP and AI agent integrations.",
       "deep_analysis": {
-        "name": "morluto/rea",
-        "headline_hook": "Bridge LLM agents with deep application and native binary inspection to reverse engineer any software feature without source code.",
-        "core_functionality": "REA connects AI coding agents to specialized reverse engineering tools through the Model Context Protocol (MCP), allowing developers to inspect native binaries, JavaScript and Electron apps, .NET assemblies, and websites locally while providing structured evidence and runtime traces.",
+        "name": "n8n-io/n8n",
+        "headline_hook": "Move beyond static integrations by orchestrating autonomous AI agents and complex workflows on a fair-code, self-hostable canvas with native tool use.",
+        "core_functionality": "n8n solves the problem of bridging disparate software systems and modern AI models by providing a hybrid visual-and-code automation platform. It allows developers to build, orchestrate, and self-host multi-step workflows that combine traditional API integrations with autonomous AI agents, LLMs, and custom logic without vendor lock-in.",
         "key_features": [
-          "Unified Model Context Protocol (MCP) interface supporting popular AI agents like Claude Code, Cursor, and Codex for seamless reverse engineering workflows",
-          "Deep native binary inspection integrating with industry standards such as Hopper, Ghidra, and IDA to extract pseudocode, assembly, strings, and symbols",
-          "Static JavaScript and Electron application analysis that breaks down modules, imports, and execution boundaries from ASAR or extracted directories",
-          "Compact and full input/output schema profiles designed to minimize token context overhead while maintaining rigorous server-side validation"
+          "AI-Native Orchestration: Build multi-step AI agents and workflows with native support for LLMs, tool usage, human-in-the-loop approvals, and full observability.",
+          "Model Flexibility: Connect seamlessly to OpenAI, Anthropic, Google, or open-source models, allowing architecture-agnostic switching between providers.",
+          "Extensible Hybrid Coding: Combine a visual node-based canvas with custom JavaScript, Python, and npm packages for deep data transformation and custom logic.",
+          "Massive Integration Ecosystem: Access over 1500 native integrations and 9000+ templates to quickly connect AI systems to existing enterprise databases, SaaS tools, and internal APIs."
         ],
-        "target_audience": "AI engineers, security researchers, systems developers, and software engineers looking to understand or clone undocumented application features without source code access.",
-        "practical_developer_value": "Developers can dramatically accelerate feature research by instructing their AI agent to analyze a third-party application, review the generated binary or code evidence, and automatically scaffold an equivalent implementation for their own project.",
+        "target_audience": "Backend developers, AI engineers, and DevOps professionals who need to rapidly prototype, deploy, and self-host complex AI agents and workflow automation pipelines while retaining full data control.",
+        "practical_developer_value": "Developers should care about n8n because it eliminates the boilerplate of building custom orchestration layers for AI applications and microservices. Instead of writing and maintaining thousands of lines of integration code, developers can use n8n as a self-hosted backend engine to handle retries, error handling, state management, and external API connections, dropping into JavaScript or Python only when complex custom logic is required.",
         "suggested_use_cases": [
-          "Investigating and extracting proprietary algorithms or UI component behaviors from compiled desktop applications to reimplement them in a modern web app",
-          "Auditing closed-source binaries and Electron packages for security vulnerabilities, unauthorized telemetry, or hidden API calls"
+          "Building autonomous AI customer support agents that query internal vector databases, execute business logic, and escalate to humans via Slack or Jira.",
+          "Orchestrating data engineering pipelines that ingest unstructured data from multiple SaaS tools, process it via local or cloud LLMs, and sync clean outputs to a primary data warehouse."
         ]
       }
     },
     {
       "rank": 2,
-      "name": "anomalyco/opencode",
-      "score": 92,
-      "reason": "Strong continuous momentum as a premier open-source coding agent alternative in the AI-assisted development space.",
-      "why_interesting_today": "Developers are heavily adopting open-source developer coding agents that can run locally or be customized entirely.",
-      "why_developers_should_care": "Provides transparent, extendable control over automated coding tasks without being locked into proprietary ecosystem wrappers.",
-      "momentum": "Rapid and steady accumulation of hundreds of daily stars and solid fork engagement.",
-      "novelty": "Moderate-high novelty within the evolving ecosystem of open autonomous coding assistants.",
+      "name": "anhao/ai-pose-gallery-zh",
+      "score": 90,
+      "reason": "Exceptional viral star momentum and immediate practical utility for AI artists and developers building generative UI tools.",
+      "why_interesting_today": "Zero-dependency static reference galleries are gaining massive traction as generative AI workflows demand rapid visual asset sourcing.",
+      "why_developers_should_care": "Provides a completely localized, lightweight blueprint for deploying fast, static resource directories on platforms like Cloudflare Pages.",
+      "momentum": "Explosive growth relative to its age, with over 1,200 new stars and heavy fork activity.",
+      "novelty": "Moderate-high as a hyper-focused, beautifully curated utility designed specifically for modern generative AI prompting.",
       "deep_analysis": {
-        "name": "anomalyco/opencode",
-        "headline_hook": "Take full control of your AI-assisted development workflow with OpenCode, a powerful, open-source coding agent that runs locally and adapts to your exact needs.",
-        "core_functionality": "OpenCode solves the problem of rigid, proprietary AI coding tools by providing an open-source, customizable AI coding agent that executes tasks directly within the developer terminal or via a desktop application.",
+        "name": "anhao/ai-pose-gallery-zh",
+        "headline_hook": "A zero-dependency, fully localized 1439-image AI pose reference gallery designed for lightning-fast visual asset sourcing and instant Cloudflare Pages deployment.",
+        "core_functionality": "The project solves the problem of inaccessible, foreign-language AI art reference material by mirroring, fully localizing into Chinese, and packaging a massive database of 1,439 human pose reference images (288 groups) across 5 camera angles into a zero-dependency, responsive static web gallery.",
         "key_features": [
-          "Built-in agent switching allowing seamless toggling between full-access development modes and read-only analysis modes using a simple keystroke",
-          "Multi-platform installation support via a quick shell script, Homebrew, package managers like npm and pacman, and Nix",
-          "Cross-platform desktop application availability alongside a robust terminal interface for flexible user experiences",
-          "Specialized subagents like @general for handling complex searches and multi-step background tasks"
+          "Complete bilingual translation and structuring of 1,439 records across 4 systems and 26 categories, backed by a localized frontend with keyboard shortcuts and instant search.",
+          "Zero-dependency vanilla frontend featuring multi-angle thumbnail switching, grouped card views, responsive image lightbox navigation, and optimized lazy loading.",
+          "Robust Python-based asset pipeline including concurrent downloading with resume support, automated translation mapping, and file integrity verification scripts.",
+          "Production-ready static deployment configuration featuring Cloudflare Pages optimization, 1-year asset caching rules, built-in SEO, JSON-LD schema, and sitemap integration."
         ],
-        "target_audience": "Full-stack software developers, AI engineers, and open-source enthusiasts looking for customizable, local-first coding agent alternatives.",
-        "practical_developer_value": "Developers gain a flexible assistant that can plan, analyze codebases securely with read-only constraints, or write and modify code on the fly. It integrates seamlessly into existing CLI workflows without locking users into proprietary cloud environments.",
+        "target_audience": "AI artists, generative AI prompt engineers, full-stack developers building reference tools, and frontend engineers looking for an ultra-fast, zero-framework static site implementation.",
+        "practical_developer_value": "Developers can use this repository as a turnkey blueprint for building localized, high-performance static asset galleries. It provides clean patterns for handling bulk static media, implementing fast client-side filtering over large JSON datasets without heavy frontend frameworks, and setting up bulletproof static deployments on edge networks like Cloudflare Pages.",
         "suggested_use_cases": [
-          "Exploring unfamiliar or legacy codebases safely using the read-only plan agent to analyze code without risking accidental modifications",
-          "Accelerating feature implementation and debugging loops directly from the command line using the full-access build agent"
+          "Deploying a private or public localized visual reference dashboard for AI image generation pipelines and 3D modeling workflows.",
+          "Studying and adapting the lightweight Python data-scraping, translation, and verification pipeline for other media archiving projects."
         ]
       }
     },
     {
       "rank": 3,
-      "name": "interplains/Zero-Breach-Toolkit",
-      "score": 85,
-      "reason": "Provides a crucial, highly relevant security utility for offline detection of sophisticated mercenary spyware traces.",
-      "why_interesting_today": "As digital threats escalate, cross-platform local tooling for privacy and breach checking gains immediate traction.",
-      "why_developers_should_care": "Equips engineers and security-conscious users with open, verifiable, and offline scripts to audit personal and professional devices.",
-      "momentum": "Strong interest and organic traction for a niche security utility.",
-      "novelty": "High novelty in practical, offline client-side threat hunting across mobile and desktop environments.",
+      "name": "Snapintosh/Snapintosh",
+      "score": 87,
+      "reason": "A fascinating systems-level engineering project attempting to boot macOS on ARM-based non-Apple hardware.",
+      "why_interesting_today": "Hardware emulation and EL2 hypervisor work targeting alternative silicon (Snapdragon X2 Elite) pushes the boundaries of cross-platform OS virtualization.",
+      "why_developers_should_care": "Offers deep low-level insights into modern hypervisor design, custom toolchains, and hardware graphics stacking (Adreno Metal/IOGPU).",
+      "momentum": "Steady niche traction among systems programmers and hardware hackers.",
+      "novelty": "Very high; bridging Apple silicon expectations with Snapdragon hardware via custom virtualization is a rare technical feat.",
       "deep_analysis": {
-        "name": "interplains/Zero-Breach-Toolkit",
-        "headline_hook": "Protect high-risk users by running offline scans for sophisticated mercenary spyware traces across computers, Android devices, and iPhone backups.",
-        "core_functionality": "The Zero-Breach-Toolkit provides an open-source, read-only utility for scanning local systems, browser histories, and mobile device backups for indicators of known mercenary spyware like Pegasus, Predator, and Candiru without relying on active network connections or cloud telemetry.",
+        "name": "Snapintosh/Snapintosh",
+        "headline_hook": "Snapintosh achieves the extraordinary engineering feat of booting stock, unmodified macOS on non-Apple ARM hardware using a custom EL2 hypervisor and an Adreno Metal graphics driver stack.",
+        "core_functionality": "Snapintosh solves the systems-level virtualization and hardware-emulation problem of running Apple Silicon-targeted operating systems (macOS) on alternative ARM architecture (Qualcomm Snapdragon X2 Elite). It functions as an EL2 monitor and hypervisor that bridges platform contracts, translates memory page tables, emulates Apple-specific hardware components, and implements a custom translation layer for GPU and I/O drivers.",
         "key_features": [
-          "Operates entirely offline with zero network requests or telemetry uploads during a scan to ensure user privacy.",
-          "Performs read-only analysis of local system files, web browser histories, and connected Android or encrypted iOS backups.",
-          "Provides transparent reporting that details what evidence was found, confidence strengths, and explicitly lists unchecked areas.",
-          "Supports cross-platform environments including Windows, macOS, and Linux with clear step-by-step guidance for non-technical operators."
+          "EL2 hypervisor monitor that runs stock, unmodified Apple kernelcache binaries (J700/T8140 kernel) by emulating SPTM/TXM monitor calls and Apple device models.",
+          "Shadow page-table walker translating the kernel's 16 KiB guest page tables to 4 KiB hardware shadow tables.",
+          "Custom GPU driver stack consisting of an AdrenoMetal Metal plugin, an AdrenoX2 IOGPU kernel extension, and an air2ir3 compiler translating Apple IR (AIR) to Mesa ir3.",
+          "Bare-metal hardware integration including an I2C-HID keyboard/touchpad driver, QCC2072 Wi-Fi work, and NVMe storage routed through an emulated Apple storage controller."
         ],
-        "target_audience": "Security researchers, digital forensics specialists, privacy advocates, journalists, human rights defenders, and developers building privacy-first diagnostic tooling.",
-        "practical_developer_value": "Developers and security engineers can study the toolkit's local data parser architectures, read-only enforcement patterns, and artifact extraction workflows to build secure, privacy-preserving forensic scripts and compliance auditing utilities.",
+        "target_audience": "Systems engineers, hypervisor developers, reverse engineers, OS kernel developers, and platform virtualization enthusiasts.",
+        "practical_developer_value": "This repository provides a masterclass in low-level systems architecture, hardware virtualization, and custom driver development. Developers working on bare-metal hypervisors, architecture translation, custom shader compilers, or platform bring-up can study its implementation of EL2 exception level execution, MMU shadow page tables, and cross-vendor GPU instruction translation.",
         "suggested_use_cases": [
-          "Conducting local, offline privacy and security audits on developer workstations for suspected targeted malware traces.",
-          "Extracting and inspecting indicators of compromise safely from encrypted mobile backups without transmitting sensitive data to external servers."
+          "Studying advanced EL2 hypervisor design and bare-metal hardware virtualization techniques.",
+          "Exploring cross-architecture shader compilation by analyzing the AIR to Mesa ir3 translation pipeline."
         ]
       }
     },
     {
       "rank": 4,
-      "name": "unclebob/ub-mode",
-      "score": 82,
-      "reason": "Surged into the spotlight due to its association and high initial star momentum following its recent creation.",
-      "why_interesting_today": "Sparks immediate curiosity within software craftsmanship circles regarding new paradigms or configurations.",
-      "why_developers_should_care": "Provides insight into modern workflow iterations or philosophies from prominent software engineering figures.",
-      "momentum": "Sudden sharp burst of star growth right after release.",
-      "novelty": "Moderate novelty driven primarily by community recognition and author attribution.",
+      "name": "ZiChuanLan/agent-purge",
+      "score": 84,
+      "reason": "Addresses a very modern developer pain point: standardizing and injecting custom agent personas/system prompts across multiple disparate coding tools.",
+      "why_interesting_today": "As developers juggle various coding assistants (Claude Code, Codex, OpenCode, etc.), unified prompt management has become essential.",
+      "why_developers_should_care": "Allows developers to maintain a single 'persona' or set of instructions and sync it across numerous local and cloud-based coding agents.",
+      "momentum": "Strong initial traction with high fork-to-star interest indicating widespread utility among power users.",
+      "novelty": "High, given the rapid proliferation of terminal and IDE-based coding agents requiring centralized management.",
       "deep_analysis": {
-        "name": "unclebob/ub-mode",
-        "headline_hook": "Uncle Bob just dropped an AI agent skill that forces LLMs to stop writing sloppy code by enforcing strict TDD, mutation testing, and architectural discipline.",
-        "core_functionality": "ub-mode is an agent skill configuration designed to govern AI coding assistants, forcing them to adhere to disciplined software engineering principles, rigorous testing methodologies, and architectural boundaries rather than taking shortcuts.",
+        "name": "ZiChuanLan/agent-purge",
+        "headline_hook": "Juggle multiple AI coding assistants? agent-purge unifies your custom system prompts and personas across Claude Code, Codex, OpenCode, and more with zero friction and total reversibility.",
+        "core_functionality": "The project solves the fragmentation problem of managing custom system prompts across disparate coding agents. Since every AI coding assistant reads system prompts differently—via CLI flags, config files, or runtime patches—agent-purge unifies these entry points into a single Markdown-based persona system that can be hot-swapped, installed persistently, or managed via a local web console.",
         "key_features": [
-          "Strict two-phase workflow enforcing First Make it Work through foundational thinking and TDD, followed by Then Make it Right through refactoring and root-cause analysis.",
-          "Integration with deterministic quality gates like CRAP score metrics, code duplication checks, and mutation testing.",
-          "Context window management and hygiene rules that enforce worktree cleanup, logging, and small, ordered atomic commits.",
-          "Cross-platform agent support compatible with developer environments like Grok, Claude, and Cursor via a standardized skill definition file."
+          "Multi-channel injection supporting permanent installation, PATH shims for raw commands, and in-session hot-swapping via slash commands.",
+          "Comprehensive coverage across a wide matrix of coding agents including Claude Code, Codex, Grok, OpenCode, and others, with real benchmark-tested prompt reduction rates.",
+          "Optional Magpie gateway plugin support that intercepts requests locally to rewrite system prompts on the fly without modifying individual harnesses.",
+          "Zero-dependency, fully reversible architecture stored safely in a local home directory that ensures original configurations can be restored down to the exact byte."
         ],
-        "target_audience": "Software developers, technical leads, and AI engineers who utilize LLM-based coding assistants and want to prevent the accumulation of AI-generated technical debt.",
-        "practical_developer_value": "Developers often find that AI coding assistants generate code that works superficially but introduces high cyclomatic complexity, tight coupling, and inadequate test coverage. By installing ub-mode into an AI agent workflow, developers can automate strict adherence to clean code principles, ensuring that AI-written code meets rigorous maintainability and testability thresholds before it ever hits a pull request.",
+        "target_audience": "AI engineers, power users, and full-stack developers who frequently juggle multiple AI-assisted coding tools and need a standardized, environment-agnostic way to enforce custom system instructions and developer personas.",
+        "practical_developer_value": "Developers often waste time rewriting or re-configuring context and constraints for different AI tools. agent-purge provides a centralized source of truth for custom system prompts. Instead of configuring instructions per tool, developers write a single persona markdown file and apply it globally, ensuring consistent AI behavior and tone across their entire toolchain.",
         "suggested_use_cases": [
-          "Enforcing strict Test-Driven Development loops where an AI assistant writes failing tests first and must achieve specific mutation testing scores before completing a feature.",
-          "Auditing and refactoring legacy or AI-generated modules to lower CRAP scores below 10 and eliminate structural duplication across the codebase."
+          "Enforcing strict coding style guides, language constraints, or security rules globally across all local AI coding assistants.",
+          "Quickly toggling between specialized debugging, refactoring, and architectural personas without restarting development environments."
         ]
       }
     },
     {
       "rank": 5,
-      "name": "CopilotKit/OpenDuet",
-      "score": 80,
-      "reason": "Delivers an accessible template for building proactive, human-in-the-loop AI agents that execute complex async tasks.",
-      "why_interesting_today": "Addresses the industry-wide shift from reactive chat interfaces to proactive background agents.",
-      "why_developers_should_care": "Saves substantial boilerplate time when implementing collaborative multi-step AI agents in web applications.",
-      "momentum": "Healthy baseline adoption and steady developer interest as template projects scale.",
-      "novelty": "Good novelty focusing on proactive collaboration patterns for developer workflows.",
+      "name": "smithjohn78390/tongjiang-lab",
+      "score": 81,
+      "reason": "Combines high-performance WebGL/Three.js rendering with open educational resources for interactive 3D science lessons.",
+      "why_interesting_today": "Demonstrates how rich browser-based 3D graphics can be leveraged for high-school level interactive science education.",
+      "why_developers_should_care": "Serves as an exceptional reference implementation for developers building performant, browser-based educational tools using Three.js.",
+      "momentum": "Healthy initial growth and strong community engagement since creation.",
+      "novelty": "Moderate-high for combining accessible science curricula with immersive WebGL components.",
       "deep_analysis": {
-        "name": "CopilotKit/OpenDuet",
-        "headline_hook": "Stop waiting on chatbots and start building proactive, human-in-the-loop AI agents that execute async tasks in dedicated sandboxes.",
-        "core_functionality": "OpenDuet solves the limitations of reactive chat interfaces by providing an open-source framework for autonomous, background AI agents. It acts as a proactive assistant that manages complex asynchronous tasks—such as processing email, running scheduled routines, and executing code in its own isolated environment—while strictly enforcing human-in-the-loop oversight before executing critical or sensitive actions.",
+        "name": "smithjohn78390/tongjiang-lab",
+        "headline_hook": "Tongjiang Lab transforms browser-based 3D graphics into a powerful open educational platform, offering 54 self-contained interactive science simulations built using WebGL and Three.js.",
+        "core_functionality": "The project provides a collection of free, interactive 3D science lessons covering high school physics, chemistry, biology, and geography. Each lesson runs inside a single, self-contained HTML file (approx. 1 MB) that bundles all necessary assets and logic, ensuring complete offline functionality, easy embedding via iframes, and zero complex backend deployment requirements.",
         "key_features": [
-          "Isolated Agent Environments: Each agent operates in its own dedicated computer context with a secure workspace, real browser, and shell access.",
-          "Granular Human-in-the-Loop Controls: Enforces explicit permission gates (Refuse, Allow once, Always allow) for actions like sending messages, making payments, or deleting data.",
-          "Secure Secret Management: Passwords and sensitive credentials route through masked input boxes and remain entirely hidden from the agent's conversation context.",
-          "Integrated State & Memory: Leverages CopilotKit Intelligence to persist cross-thread memory, routines, and scheduled background work."
+          "Single-file architecture bundling 3D rendering logic, interactive UI consoles, and step-by-step instructional paths into portable HTML files.",
+          "High-performance browser-based 3D graphics leveraging WebGL and Three.js to render complex molecular structures, chemical processes, and physics experiments smoothly.",
+          "Built-in live control consoles and structured step guides designed specifically for classroom instruction, projectors, and interactive whiteboards.",
+          "Comprehensive machine-readable metadata via catalog.json mapping every lesson directly to national curriculum standards and textbook locations."
         ],
-        "target_audience": "AI application developers, full-stack engineers, and automation architects looking to transition from basic prompt-response bots to autonomous, multi-step agent systems.",
-        "practical_developer_value": "Developers can use OpenDuet as a production-ready template to rapidly deploy self-hosted proactive agents. Instead of building agent runtimes, sandbox management, and approval workflows from scratch, developers can fork the codebase, customize bots and skills in a single configuration folder, and integrate Model Context Protocol (MCP) connectors to extend agent capabilities safely.",
+        "target_audience": "Frontend developers, EdTech engineers, and science educators looking for patterns in browser-based 3D visualization and lightweight offline-first application design.",
+        "practical_developer_value": "Developers can study this repository to learn how to bundle complex Three.js applications into single, lightweight, highly portable HTML files without bloated build pipelines. It also serves as an architectural blueprint for building offline-capable, interactive educational tools and embedding rich 3D simulations seamlessly into larger web platforms via iframes.",
         "suggested_use_cases": [
-          "Building an automated executive assistant that triages emails, organizes calendars, and drafts morning briefs.",
-          "Developing specialized background automation agents that securely execute administrative tasks under human supervision."
+          "Embedding interactive 3D STEM simulations into online learning management systems using lightweight iframes.",
+          "Building offline-first educational software for schools with limited or unreliable internet connectivity.",
+          "Prototyping self-contained, single-page WebGL applications that require zero external asset dependencies."
         ]
       }
     }

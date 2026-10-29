@@ -1,0 +1,407 @@
+{
+  "snapshot_date": "2026-10-29",
+  "generated_at": "2026-10-29T23:01:15.518767+00:00",
+  "candidate_count": 40,
+  "repositories": [
+    {
+      "name": "public-apis/public-apis",
+      "url": "https://github.com/public-apis/public-apis",
+      "stars": 493258,
+      "forks": 55008,
+      "language": "Python",
+      "created_at": "2016-03-20T23:49:42Z",
+      "updated_at": "2026-10-29T22:59:52Z",
+      "pushed_at": "2026-10-29T14:36:24Z"
+    },
+    {
+      "name": "freeCodeCamp/freeCodeCamp",
+      "url": "https://github.com/freeCodeCamp/freeCodeCamp",
+      "stars": 458191,
+      "forks": 48721,
+      "language": "TypeScript",
+      "created_at": "2014-12-24T17:49:19Z",
+      "updated_at": "2026-10-29T22:52:52Z",
+      "pushed_at": "2026-10-29T17:20:10Z"
+    },
+    {
+      "name": "morluto/rea",
+      "url": "https://github.com/morluto/rea",
+      "stars": 407595,
+      "forks": 102059,
+      "language": "TypeScript",
+      "created_at": "2026-04-14T00:51:32Z",
+      "updated_at": "2026-10-29T23:00:01Z",
+      "pushed_at": "2026-10-29T22:49:39Z"
+    },
+    {
+      "name": "EbookFoundation/free-programming-books",
+      "url": "https://github.com/EbookFoundation/free-programming-books",
+      "stars": 400491,
+      "forks": 67029,
+      "language": "Python",
+      "created_at": "2013-10-11T06:50:37Z",
+      "updated_at": "2026-10-29T22:55:13Z",
+      "pushed_at": "2026-10-27T20:40:54Z"
+    },
+    {
+      "name": "openclaw/openclaw",
+      "url": "https://github.com/openclaw/openclaw",
+      "stars": 393380,
+      "forks": 82690,
+      "language": "TypeScript",
+      "created_at": "2025-11-24T10:16:47Z",
+      "updated_at": "2026-10-29T22:57:41Z",
+      "pushed_at": "2026-10-29T22:57:30Z"
+    },
+    {
+      "name": "nilbuild/developer-roadmap",
+      "url": "https://github.com/nilbuild/developer-roadmap",
+      "stars": 370740,
+      "forks": 45156,
+      "language": "TypeScript",
+      "created_at": "2017-03-15T13:45:52Z",
+      "updated_at": "2026-10-29T22:34:26Z",
+      "pushed_at": "2026-10-28T12:18:10Z"
+    },
+    {
+      "name": "awesome-selfhosted/awesome-selfhosted",
+      "url": "https://github.com/awesome-selfhosted/awesome-selfhosted",
+      "stars": 331806,
+      "forks": 15635,
+      "language": null,
+      "created_at": "2015-06-01T02:33:17Z",
+      "updated_at": "2026-10-29T22:59:11Z",
+      "pushed_at": "2026-10-29T10:27:46Z"
+    },
+    {
+      "name": "vinta/awesome-python",
+      "url": "https://github.com/vinta/awesome-python",
+      "stars": 331187,
+      "forks": 29029,
+      "language": "Python",
+      "created_at": "2014-06-27T21:00:06Z",
+      "updated_at": "2026-10-29T22:58:23Z",
+      "pushed_at": "2026-10-29T12:38:48Z"
+    },
+    {
+      "name": "mattpocock/skills",
+      "url": "https://github.com/mattpocock/skills",
+      "stars": 306585,
+      "forks": 25788,
+      "language": "Shell",
+      "created_at": "2026-02-03T11:15:53Z",
+      "updated_at": "2026-10-29T23:00:01Z",
+      "pushed_at": "2026-10-29T10:43:06Z"
+    },
+    {
+      "name": "affaan-m/ECC",
+      "url": "https://github.com/affaan-m/ECC",
+      "stars": 292668,
+      "forks": 43316,
+      "language": "JavaScript",
+      "created_at": "2026-01-18T00:51:51Z",
+      "updated_at": "2026-10-29T22:53:51Z",
+      "pushed_at": "2026-10-29T22:22:48Z"
+    },
+    {
+      "name": "deepseek-ai/deepseek-harness",
+      "url": "https://github.com/deepseek-ai/deepseek-harness",
+      "stars": 265762,
+      "forks": 32218,
+      "language": "TypeScript",
+      "created_at": "2026-08-13T11:56:32Z",
+      "updated_at": "2026-10-29T22:58:28Z",
+      "pushed_at": "2026-10-28T02:48:17Z"
+    },
+    {
+      "name": "NousResearch/hermes-agent",
+      "url": "https://github.com/NousResearch/hermes-agent",
+      "stars": 258499,
+      "forks": 56770,
+      "language": "Python",
+      "created_at": "2025-07-22T22:22:28Z",
+      "updated_at": "2026-10-29T23:01:00Z",
+      "pushed_at": "2026-10-29T21:59:26Z"
+    },
+    {
+      "name": "torvalds/linux",
+      "url": "https://github.com/torvalds/linux",
+      "stars": 253779,
+      "forks": 67470,
+      "language": "C",
+      "created_at": "2011-09-04T22:48:12Z",
+      "updated_at": "2026-10-29T22:51:05Z",
+      "pushed_at": "2026-10-29T22:43:03Z"
+    },
+    {
+      "name": "react/react",
+      "url": "https://github.com/react/react",
+      "stars": 251743,
+      "forks": 51598,
+      "language": "JavaScript",
+      "created_at": "2013-05-24T16:15:54Z",
+      "updated_at": "2026-10-29T22:46:57Z",
+      "pushed_at": "2026-10-29T22:16:54Z"
+    },
+    {
+      "name": "anomalyco/opencode",
+      "url": "https://github.com/anomalyco/opencode",
+      "stars": 223045,
+      "forks": 29903,
+      "language": "TypeScript",
+      "created_at": "2025-04-30T20:08:00Z",
+      "updated_at": "2026-10-29T22:55:41Z",
+      "pushed_at": "2026-10-29T22:49:49Z"
+    },
+    {
+      "name": "n8n-io/n8n",
+      "url": "https://github.com/n8n-io/n8n",
+      "stars": 209040,
+      "forks": 61302,
+      "language": "TypeScript",
+      "created_at": "2019-06-22T09:24:21Z",
+      "updated_at": "2026-10-29T22:56:58Z",
+      "pushed_at": "2026-10-29T22:56:15Z"
+    },
+    {
+      "name": "yt-dlp/yt-dlp",
+      "url": "https://github.com/yt-dlp/yt-dlp",
+      "stars": 203697,
+      "forks": 17874,
+      "language": "Python",
+      "created_at": "2020-10-26T04:22:55Z",
+      "updated_at": "2026-10-29T22:41:31Z",
+      "pushed_at": "2026-10-29T20:36:18Z"
+    },
+    {
+      "name": "tensorflow/tensorflow",
+      "url": "https://github.com/tensorflow/tensorflow",
+      "stars": 201214,
+      "forks": 78728,
+      "language": "C++",
+      "created_at": "2015-11-07T01:19:20Z",
+      "updated_at": "2026-10-29T22:30:16Z",
+      "pushed_at": "2026-10-29T22:58:39Z"
+    },
+    {
+      "name": "firecrawl/firecrawl",
+      "url": "https://github.com/firecrawl/firecrawl",
+      "stars": 196758,
+      "forks": 10384,
+      "language": "TypeScript",
+      "created_at": "2024-04-15T21:02:29Z",
+      "updated_at": "2026-10-29T22:57:43Z",
+      "pushed_at": "2026-10-29T22:01:30Z"
+    },
+    {
+      "name": "ultraworkers/claw-code",
+      "url": "https://github.com/ultraworkers/claw-code",
+      "stars": 194969,
+      "forks": 107645,
+      "language": "Rust",
+      "created_at": "2026-03-31T08:58:08Z",
+      "updated_at": "2026-10-29T22:50:30Z",
+      "pushed_at": "2026-10-28T19:59:24Z"
+    },
+    {
+      "name": "rddmwmddr/android-ad-cleaner",
+      "url": "https://github.com/rddmwmddr/android-ad-cleaner",
+      "stars": 4712,
+      "forks": 425,
+      "language": "Python",
+      "created_at": "2026-10-24T05:35:47Z",
+      "updated_at": "2026-10-29T23:00:17Z",
+      "pushed_at": "2026-10-29T19:24:53Z"
+    },
+    {
+      "name": "unclebob/ub-mode",
+      "url": "https://github.com/unclebob/ub-mode",
+      "stars": 4656,
+      "forks": 257,
+      "language": null,
+      "created_at": "2026-10-25T16:04:09Z",
+      "updated_at": "2026-10-29T23:00:15Z",
+      "pushed_at": "2026-10-25T16:07:59Z"
+    },
+    {
+      "name": "JustAResearcher/gpu-unlock-ada",
+      "url": "https://github.com/JustAResearcher/gpu-unlock-ada",
+      "stars": 4511,
+      "forks": 576,
+      "language": "C",
+      "created_at": "2026-10-23T21:00:53Z",
+      "updated_at": "2026-10-29T22:44:24Z",
+      "pushed_at": "2026-10-26T04:24:46Z"
+    },
+    {
+      "name": "interplains/Zero-Breach-Toolkit",
+      "url": "https://github.com/interplains/Zero-Breach-Toolkit",
+      "stars": 3559,
+      "forks": 381,
+      "language": "Python",
+      "created_at": "2026-10-25T14:41:34Z",
+      "updated_at": "2026-10-29T22:56:08Z",
+      "pushed_at": "2026-10-29T18:02:15Z"
+    },
+    {
+      "name": "designfuchen/word-atlas",
+      "url": "https://github.com/designfuchen/word-atlas",
+      "stars": 3222,
+      "forks": 706,
+      "language": "TypeScript",
+      "created_at": "2026-10-25T08:27:22Z",
+      "updated_at": "2026-10-29T22:44:52Z",
+      "pushed_at": "2026-10-27T10:55:44Z"
+    },
+    {
+      "name": "anhao/ai-pose-gallery-zh",
+      "url": "https://github.com/anhao/ai-pose-gallery-zh",
+      "stars": 3104,
+      "forks": 806,
+      "language": "HTML",
+      "created_at": "2026-10-27T12:24:37Z",
+      "updated_at": "2026-10-29T23:00:49Z",
+      "pushed_at": "2026-10-27T14:32:23Z"
+    },
+    {
+      "name": "t3dotgg/tstack",
+      "url": "https://github.com/t3dotgg/tstack",
+      "stars": 2387,
+      "forks": 146,
+      "language": "Python",
+      "created_at": "2026-10-24T05:00:20Z",
+      "updated_at": "2026-10-29T22:58:17Z",
+      "pushed_at": "2026-10-28T02:38:03Z"
+    },
+    {
+      "name": "oosexgang/hakios-xnu-kernel",
+      "url": "https://github.com/oosexgang/hakios-xnu-kernel",
+      "stars": 1939,
+      "forks": 333,
+      "language": "C",
+      "created_at": "2026-10-22T06:20:11Z",
+      "updated_at": "2026-10-29T21:43:54Z",
+      "pushed_at": "2026-10-28T19:07:44Z"
+    },
+    {
+      "name": "enesozturk/dimensional-drawing",
+      "url": "https://github.com/enesozturk/dimensional-drawing",
+      "stars": 1561,
+      "forks": 102,
+      "language": "HTML",
+      "created_at": "2026-10-23T12:20:16Z",
+      "updated_at": "2026-10-29T22:49:22Z",
+      "pushed_at": "2026-10-24T09:41:54Z"
+    },
+    {
+      "name": "andyhuo520/digital-human-koubo",
+      "url": "https://github.com/andyhuo520/digital-human-koubo",
+      "stars": 1461,
+      "forks": 333,
+      "language": "TypeScript",
+      "created_at": "2026-10-26T04:34:09Z",
+      "updated_at": "2026-10-29T23:00:24Z",
+      "pushed_at": "2026-10-26T11:52:14Z"
+    },
+    {
+      "name": "morganlinton/BeautifulRust",
+      "url": "https://github.com/morganlinton/BeautifulRust",
+      "stars": 1412,
+      "forks": 68,
+      "language": "Python",
+      "created_at": "2026-10-23T03:01:11Z",
+      "updated_at": "2026-10-29T22:45:23Z",
+      "pushed_at": "2026-10-28T15:41:26Z"
+    },
+    {
+      "name": "DenisSergeevitch/ex-ussr-kinship-research",
+      "url": "https://github.com/DenisSergeevitch/ex-ussr-kinship-research",
+      "stars": 1263,
+      "forks": 133,
+      "language": "Python",
+      "created_at": "2026-10-25T10:05:56Z",
+      "updated_at": "2026-10-29T23:00:26Z",
+      "pushed_at": "2026-10-29T22:28:21Z"
+    },
+    {
+      "name": "Motionsites-AI/claude-skill",
+      "url": "https://github.com/Motionsites-AI/claude-skill",
+      "stars": 1085,
+      "forks": 114,
+      "language": "Python",
+      "created_at": "2026-10-26T06:58:45Z",
+      "updated_at": "2026-10-29T22:53:11Z",
+      "pushed_at": "2026-10-26T07:04:24Z"
+    },
+    {
+      "name": "Snapintosh/Snapintosh",
+      "url": "https://github.com/Snapintosh/Snapintosh",
+      "stars": 1049,
+      "forks": 60,
+      "language": "Python",
+      "created_at": "2026-10-22T01:40:05Z",
+      "updated_at": "2026-10-29T22:45:13Z",
+      "pushed_at": "2026-10-25T05:05:43Z"
+    },
+    {
+      "name": "KillaBoi/StealMyBitcoin-PoC",
+      "url": "https://github.com/KillaBoi/StealMyBitcoin-PoC",
+      "stars": 1003,
+      "forks": 146,
+      "language": "Python",
+      "created_at": "2026-10-25T21:48:32Z",
+      "updated_at": "2026-10-29T22:29:01Z",
+      "pushed_at": "2026-10-26T11:25:47Z"
+    },
+    {
+      "name": "assetnote/php2shell-scanner",
+      "url": "https://github.com/assetnote/php2shell-scanner",
+      "stars": 965,
+      "forks": 142,
+      "language": "Python",
+      "created_at": "2026-10-22T03:53:20Z",
+      "updated_at": "2026-10-29T22:05:26Z",
+      "pushed_at": "2026-10-24T03:40:18Z"
+    },
+    {
+      "name": "smithjohn78390/tongjiang-lab",
+      "url": "https://github.com/smithjohn78390/tongjiang-lab",
+      "stars": 914,
+      "forks": 247,
+      "language": "HTML",
+      "created_at": "2026-10-28T04:29:29Z",
+      "updated_at": "2026-10-29T22:59:53Z",
+      "pushed_at": "2026-10-28T11:35:35Z"
+    },
+    {
+      "name": "aschmelyun/print-my-profile-pic",
+      "url": "https://github.com/aschmelyun/print-my-profile-pic",
+      "stars": 875,
+      "forks": 1,
+      "language": null,
+      "created_at": "2026-10-27T20:40:05Z",
+      "updated_at": "2026-10-29T22:56:55Z",
+      "pushed_at": "2026-10-29T03:34:22Z"
+    },
+    {
+      "name": "ZiChuanLan/agent-purge",
+      "url": "https://github.com/ZiChuanLan/agent-purge",
+      "stars": 875,
+      "forks": 642,
+      "language": "JavaScript",
+      "created_at": "2026-10-25T06:06:02Z",
+      "updated_at": "2026-10-29T22:22:46Z",
+      "pushed_at": "2026-10-29T10:41:57Z"
+    },
+    {
+      "name": "kargulstudio/calender-app-design",
+      "url": "https://github.com/kargulstudio/calender-app-design",
+      "stars": 804,
+      "forks": 98,
+      "language": "TypeScript",
+      "created_at": "2026-10-26T18:38:56Z",
+      "updated_at": "2026-10-29T22:09:53Z",
+      "pushed_at": "2026-10-26T20:34:05Z"
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "top_repositories": [
+    {
+      "rank": 1,
+      "name": "n8n-io/n8n",
+      "score": 96,
+      "reason": "Combines a massive established community with cutting-edge workflow automation and native AI/MCP capabilities.",
+      "why_interesting_today": "Workflow engines are shifting rapidly from static integrations to autonomous AI agent orchestration via Model Context Protocol (MCP).",
+      "why_developers_should_care": "Provides an enterprise-ready, self-hostable bridge between complex backend systems and modern AI agents without sacrificing code flexibility.",
+      "momentum": "Extremely strong with consistent high star growth and active daily pushes.",
+      "novelty": "High for a traditional automation tool due to its recent native MCP and AI agent integrations."
+    },
+    {
+      "rank": 2,
+      "name": "anhao/ai-pose-gallery-zh",
+      "score": 90,
+      "reason": "Exceptional viral star momentum and immediate practical utility for AI artists and developers building generative UI tools.",
+      "why_interesting_today": "Zero-dependency static reference galleries are gaining massive traction as generative AI workflows demand rapid visual asset sourcing.",
+      "why_developers_should_care": "Provides a completely localized, lightweight blueprint for deploying fast, static resource directories on platforms like Cloudflare Pages.",
+      "momentum": "Explosive growth relative to its age, with over 1,200 new stars and heavy fork activity.",
+      "novelty": "Moderate-high as a hyper-focused, beautifully curated utility designed specifically for modern generative AI prompting."
+    },
+    {
+      "rank": 3,
+      "name": "Snapintosh/Snapintosh",
+      "score": 87,
+      "reason": "A fascinating systems-level engineering project attempting to boot macOS on ARM-based non-Apple hardware.",
+      "why_interesting_today": "Hardware emulation and EL2 hypervisor work targeting alternative silicon (Snapdragon X2 Elite) pushes the boundaries of cross-platform OS virtualization.",
+      "why_developers_should_care": "Offers deep low-level insights into modern hypervisor design, custom toolchains, and hardware graphics stacking (Adreno Metal/IOGPU).",
+      "momentum": "Steady niche traction among systems programmers and hardware hackers.",
+      "novelty": "Very high; bridging Apple silicon expectations with Snapdragon hardware via custom virtualization is a rare technical feat."
+    },
+    {
+      "rank": 4,
+      "name": "ZiChuanLan/agent-purge",
+      "score": 84,
+      "reason": "Addresses a very modern developer pain point: standardizing and injecting custom agent personas/system prompts across multiple disparate coding tools.",
+      "why_interesting_today": "As developers juggle various coding assistants (Claude Code, Codex, OpenCode, etc.), unified prompt management has become essential.",
+      "why_developers_should_care": "Allows developers to maintain a single 'persona' or set of instructions and sync it across numerous local and cloud-based coding agents.",
+      "momentum": "Strong initial traction with high fork-to-star interest indicating widespread utility among power users.",
+      "novelty": "High, given the rapid proliferation of terminal and IDE-based coding agents requiring centralized management."
+    },
+    {
+      "rank": 5,
+      "name": "smithjohn78390/tongjiang-lab",
+      "score": 81,
+      "reason": "Combines high-performance WebGL/Three.js rendering with open educational resources for interactive 3D science lessons.",
+      "why_interesting_today": "Demonstrates how rich browser-based 3D graphics can be leveraged for high-school level interactive science education.",
+      "why_developers_should_care": "Serves as an exceptional reference implementation for developers building performant, browser-based educational tools using Three.js.",
+      "momentum": "Healthy initial growth and strong community engagement since creation.",
+      "novelty": "Moderate-high for combining accessible science curricula with immersive WebGL components."
+    }
+  ]
+}
