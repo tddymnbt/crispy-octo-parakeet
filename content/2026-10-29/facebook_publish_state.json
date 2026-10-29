@@ -44,8 +44,8 @@
       "caption": "Stop waiting on chatbots and start building proactive, human-in-the-loop AI agents that execute async tasks in dedicated sandboxes. 🚀\n\nMost AI apps today are stuck in a reactive loop: you prompt, they answer, nothing happens in the background. OpenDuet changes the game. It is a powerful open-source framework designed to help developers build autonomous, background AI agents that actually *do* things—from processing emails and running scheduled routines to executing code in an isolated environment. \n\nBest of all? It keeps you in control. \n\n🛠 Notable Features:\n• Isolated Agent Environments: Each agent gets its own dedicated workspace with a secure environment, real browser, and shell access.\n• Granular Human-in-the-Loop Controls: Enforce explicit permission gates (Refuse, Allow once, Always allow) before sensitive actions like sending messages or payments.\n• Secure Secret Management: Sensitive credentials are masked and hidden entirely from the agent's conversation context.\n• Integrated State & Memory: Built on CopilotKit Intelligence to persist cross-thread memory and scheduled background routines.\n\nWhether you want to build an automated executive assistant that triages your emails and drafts morning briefs, or complex background automation agents that securely run under your supervision, OpenDuet gives you a production-ready template to deploy self-hosted proactive agents fast. Stop building sandbox management and approval workflows from scratch. \n\nCheck it out on GitHub and deploy your first proactive agent today:\nhttps://github.com/CopilotKit/OpenDuet\n\n👇 Drop a comment below: What background task would you delegate to an autonomous agent first? \n\n#AIDev #OpenSource #ArtificialIntelligence #SoftwareEngineering #CopilotKit #TechCommunity",
       "image_file": "5_CopilotKit_OpenDuet.png",
       "photo_id": "122125226733476221",
-      "published_post_id": null,
-      "published_at": null
+      "published_post_id": "1410193715501138_122125388871476221",
+      "published_at": "2026-10-29T23:00:41.514012+08:00"
     }
   ]
 }
