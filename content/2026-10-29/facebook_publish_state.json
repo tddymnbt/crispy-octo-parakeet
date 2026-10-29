@@ -17,8 +17,8 @@
       "caption": "Tired of rigid, proprietary AI coding assistants that lock you into the cloud? Take full control of your AI-assisted development workflow with OpenCode, a powerful, open-source coding agent that runs locally and adapts to your exact needs.\n\nOpenCode eliminates the frustration of closed ecosystems by executing tasks directly in your terminal or via a sleek desktop app, giving you a truly customizable development companion.\n\nHere is what makes it stand out:\n⚡ Built-In Agent Switching: Toggle instantly between full-access development modes and read-only analysis modes with a simple keystroke.\n🔍 Specialized Subagents: Leverage tools like @general to handle complex searches and multi-step background tasks effortlessly.\n💻 Flexible Interfaces & Installation: Enjoy a robust terminal experience or a cross-platform desktop app, with quick setup via shell scripts, Homebrew, npm, pacman, or Nix.\n\nWhether you need to safely analyze legacy codebases using read-only constraints or accelerate your debugging loops directly from the command line, OpenCode fits right into your existing workflow without compromising security or flexibility.\n\nCheck out the repo and start building on your terms:\nhttps://github.com/anomalyco/opencode\n\nDrop a comment below and let us know: are you using local AI agents in your terminal yet? Hit that share button and tag a fellow developer who needs this!\n\n#OpenSource #AI #SoftwareEngineering #Coding #DeveloperTools #LocalAI",
       "image_file": "2_anomalyco_opencode.png",
       "photo_id": "122125226589476221",
-      "published_post_id": null,
-      "published_at": null
+      "published_post_id": "1410193715501138_122125257555476221",
+      "published_at": "2026-10-29T11:00:43.015229+08:00"
     },
     {
       "rank": 3,
