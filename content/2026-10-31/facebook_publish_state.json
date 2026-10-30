@@ -1,0 +1,51 @@
+{
+  "date": "2026-10-31",
+  "prepared_at": "2026-10-31T07:02:02.216003+08:00",
+  "posts": [
+    {
+      "rank": 1,
+      "repo_name": "qybaihe/bla",
+      "caption": "🤖 Tired of autonomous AI agents instantly reverse-engineering and dissecting your hard-earned code and proprietary binaries? \n\nTraditional obfuscation isn't enough anymore against modern AI scrapers. That is why BLA was built: a proactive Counter-REA framework designed to protect your software against AI reverse-engineering agents by injecting strategic poisons, decoys, and resource exhaustions into release binaries without altering their runtime behavior.\n\nWhen an automated AI analyzer attempts to parse your protected artifacts, it runs straight into format-valid canaries, deep AST nesting, and decoy metadata. This deliberately exhausts token budgets, burns compute resources, and induces hallucinations—all while your application runs completely unaffected.\n\nKey features you get out of the box:\n🛡️ Multi-format hardening supporting JavaScript, TypeScript, WebAssembly, Electron ASAR packages, Go buildinfo, SQLite databases, and AI model weights like Safetensors and GGUF.\n💥 Resource budget exhaustion that pushes headers and interface inventories past the documented limits of AI analyzer parsers.\n🧠 Poisoning and hallucination strategies like honey metadata and decoy control flows that lead automated tools into dead ends.\n⚡ Seamless CLI and Model Context Protocol integration to audit, protect, and verify builds with a single command or directly via your coding agents.\n\nWhether you are releasing proprietary desktop apps, web bundles, or AI model weights, you can easily integrate BLA into your CI/CD release pipeline to automatically harden build artifacts before deployment.\n\n👉 Check it out on GitHub: https://github.com/qybaihe/bla\n\nDrop a comment below, give the repository a star, and let us know how you are securing your builds against AI reverse-engineering!\n\n#SoftwareEngineering #CyberSecurity #WebAssembly #AI #OpenSource #DevSecOps #Coding",
+      "image_file": "1_qybaihe_bla.png",
+      "photo_id": "122125705425476221",
+      "published_post_id": "1410193715501138_122125705623476221",
+      "published_at": "2026-10-31T07:02:05.451152+08:00"
+    },
+    {
+      "rank": 2,
+      "repo_name": "heydamir/unslop",
+      "caption": "Tired of your AI-generated code looking like a generic SaaS clone? \n\nWe have all been there. You prompt an LLM to build a quick dashboard or landing page, and it spits out the exact same \"vibecoded\" aesthetic: aggressive purple gradients, random emoji labels, generic hero sections, and uneven spacing everywhere. It screams boilerplate AI.\n\nMeet Unslop (https://github.com/heydamir/unslop). \n\nIt is a specialized Claude skill that acts as a senior designer doing a ruthless redline review on your codebase. Instead of wasting hours manually tweaking Tailwind classes and fighting with layout primitives, this tool audits your UI and systematically refactors it pass by pass into a polished, human-grade design.\n\n🔥 Key Features:\n• Comprehensive UI Auditing: Instantly flags design clichés like purple glows, shouty copy, and poor spacing.\n• Methodical Redline Passes: Handles spacing, color, icons, typography, layout, details, visuals, and motion in a strict, professional order.\n• Universal Stack Support: Works with local frameworks like Next.js, React, Vue, Svelte, and Tailwind, plus live-site auditing via URL inputs.\n• Before-and-After Videos: Features built-in story video generation using Playwright and ffmpeg to showcase the transformation.\n\nWhether you are prepping an indie hacker product launch or cleaning up a Next.js boilerplate, this integrates strict design discipline directly into your coding workflow so your apps actually stand out.\n\n👇 Check out the repo, star it, and stop shipping AI slop:\nhttps://github.com/heydamir/unslop\n\n#WebDevelopment #Frontend #ArtificialIntelligence #IndieHacker #React #TailwindCSS #Coding #SoftwareEngineering",
+      "image_file": "2_heydamir_unslop.png",
+      "photo_id": "122125705467476221",
+      "published_post_id": null,
+      "published_at": null
+    },
+    {
+      "rank": 3,
+      "repo_name": "wangzan101/Mika",
+      "caption": "Ever wished your phone could run complex multi-step tasks in the background while you keep using it normally? 🤖📱\n\nMeet Mika: an open-source, on-device Android AI agent that translates your natural language requests into real actions across native apps and the web. \n\nThe Problem:\nMost mobile automation tools either rely on heavy cloud wrappers that compromise your privacy or take over your entire screen, locking you out of your device while they work. \n\nHow Mika Solves It:\nMika runs everything on a hidden background screen using accessibility layers and visual recognition models. It navigates apps, fills forms, and browses the web locally—keeping your data entirely private and your main screen free.\n\nNotable Features:\n✨ Background Screen Execution: Run apps on an invisible secondary display context for true mobile multitasking.\n🔒 Zero-Server Privacy Architecture: Completely bypasses centralized third-party servers by routing directly from your local device.\n🐧 Integrated Linux Sandbox: A local arm64-based environment to run Python, Node, and shell scripts on-device.\n🛡️ Human-in-the-Loop Controls: Automatically handles UI flows while intelligently pausing for sensitive steps like CAPTCHAs and payments.\n\nWhether you are an AI engineer building local-first autonomous agents or an Android developer exploring device control tooling, Mika provides an incredible reference architecture to study and build upon.\n\n👉 Check out the repo and start building:\nhttps://github.com/wangzan101/Mika\n\nDrop a comment below: What mobile workflow would you automate first with a local background AI agent? 👇\n\n#AndroidDev #AIEngineers #OpenSource #MobileAutomation #LocalFirst #ArtificialIntelligence #SoftwareEngineering",
+      "image_file": "3_wangzan101_Mika.png",
+      "photo_id": "122125705509476221",
+      "published_post_id": null,
+      "published_at": null
+    },
+    {
+      "rank": 4,
+      "repo_name": "valentderah/totk-pc-recomp",
+      "caption": "Witness the impressive technical feat of statically recompiling a modern console blockbuster, The Legend of Zelda: Tears of the Kingdom, directly into native Windows x86-64 machine code! \n\nAre you tired of the performance and architectural limitations of running modern console games through traditional hardware interpretation? \n\nTotK Recomp solves this by statically translating the original ARM64 Nintendo Switch binary of Tears of the Kingdom into native Windows x86-64 instructions. Instead of emulating hardware dynamically at runtime, it recompiles the game assets and code locally on your machine to generate a standalone executable that executes natively on PC hardware. \n\nKey technical features include:\n- Native Windows x86-64 execution bypassing traditional overhead for maximum performance\n- Custom Vulkan 1.3 rendering pipeline featuring upfront shader preparation, custom resolutions, supersampling, and AMD FSR 1 integration\n- Comprehensive support for modern PC inputs including customized keyboard, mouse, and gamepad mappings with native rumble and gyro\n- Seamless compatibility with game updates 1.2.1 and 1.4.3 while maintaining save file continuity\n\nWhether you are researching custom static recompilers for proprietary console binaries or studying advanced Vulkan 1.3 integration patterns, this repository provides an elite blueprint for systems programmers, emulator developers, and graphics engineers.\n\nCheck out the repository here: https://github.com/valentderah/totk-pc-recomp\n\nWhat are your thoughts on static recompilation versus traditional emulation? Drop a comment below and share this with your fellow systems architects and low-level developers!\n\n#GameDev #SoftwareEngineering #BinaryTranslation #Vulkan #SystemsProgramming #OpenSource #PCGaming",
+      "image_file": "4_valentderah_totk-pc-recomp.png",
+      "photo_id": "122125705551476221",
+      "published_post_id": null,
+      "published_at": null
+    },
+    {
+      "rank": 5,
+      "repo_name": "aschmelyun/print-my-profile-pic",
+      "caption": "Turn your digital GitHub stars into physical thermal receipts pinned to your wall! 🧾✨\n\nEver wish your online open-source community engagement had a physical presence in your workspace? The print-my-profile-pic project bridges the gap between digital code and physical computing by automatically capturing GitHub star events, processing user profile pictures into custom-framed graphics, and printing them out instantly on a local thermal receipt printer. \n\nThis project gives you a complete, end-to-end blueprint for connecting cloud webhooks all the way down to local edge hardware. \n\nNotable Features:\n🔌 Real-Time Webhooks: GitHub webhook integration that listens for repository star events instantly.\n☁️ Secure Edge Routing: Cloudflare tunnels route secure inbound webhooks straight to your local network server.\n🖼️ PHP Image Processing: Custom PHP-based image rendering formats user avatars inside tailored photo frames.\n🖨️ ESC/POS Thermal Printing: Direct communication with USB thermal receipt printers using the escpos-php library.\n\nWhether you want to gamify your open-source maintainer journey, build physical notification tickers for office CI/CD deployments, or create interactive booth experiences at tech conferences, this is a fun weekend maker project to level up your full-stack and hardware orchestration skills. \n\nCheck out the full repository and start printing your stars today:\nhttps://github.com/aschmelyun/print-my-profile-pic\n\nWhat kind of physical notification ticker would you build for your desk? Drop a comment below and let us know! 👇\n\n#OpenSource #RaspberryPi #PHP #Webhooks #FullStack #MakerCommunity #GitHub",
+      "image_file": "5_aschmelyun_print-my-profile-pic.png",
+      "photo_id": "122125705593476221",
+      "published_post_id": null,
+      "published_at": null
+    }
+  ]
+}
