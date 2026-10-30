@@ -35,8 +35,8 @@
       "caption": "Juggle multiple AI coding assistants? agent-purge unifies your custom system prompts and personas across Claude Code, Codex, OpenCode, and more with zero friction and total reversibility. 🤖⚡️\n\nEvery AI coding tool reads system prompts differently—through CLI flags, config files, or runtime patches. Managing this fragmentation across your daily workflow is a massive headache. \n\nagent-purge solves this by unifying all entry points into a single Markdown-based persona system. Write your custom instructions once and enforce them globally across your entire tech stack. \n\n🔥 Key Features:\n• Multi-channel injection: Permanent installation, PATH shims for raw commands, and in-session hot-swapping via slash commands\n• Comprehensive coverage: Works seamlessly across Claude Code, Codex, Grok, OpenCode, and more\n• Magpie gateway plugin: Intercepts requests locally to rewrite system prompts on the fly without touching individual harnesses\n• Fully reversible: Zero-dependency architecture stored in your local home directory, letting you restore original configs down to the exact byte\n\n🛠️ Perfect for: Enforcing strict coding style guides, language constraints, and security rules universally, or instantly toggling between architectural, debugging, and refactoring personas without restarting your environment.\n\nStop wasting time rewriting context for every separate tool. Establish a single source of truth for your AI personas today!\n\n👇 Check it out on GitHub:\nhttps://github.com/ZiChuanLan/agent-purge\n\nWhat AI coding assistants are in your daily rotation? Let us know in the comments! 💻👇\n\n#ArtificialIntelligence #SoftwareEngineering #DeveloperTools #AICoding #OpenSource #CodingAssistants",
       "image_file": "4_ZiChuanLan_agent-purge.png",
       "photo_id": "122125461063476221",
-      "published_post_id": null,
-      "published_at": null
+      "published_post_id": "1410193715501138_122125576533476221",
+      "published_at": "2026-10-30T19:00:39.783538+08:00"
     },
     {
       "rank": 5,
