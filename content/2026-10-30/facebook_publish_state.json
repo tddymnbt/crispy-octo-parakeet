@@ -44,8 +44,8 @@
       "caption": "🚀 Ever wondered how to pack an entire interactive 3D physics, chemistry, and biology lab into a single 1 MB HTML file? \n\nMeet Tongjiang Lab—a brilliant open-source platform that transforms browser-based 3D graphics into 54 self-contained interactive science simulations built using WebGL and Three.js. \n\n💡 The Problem It Solves:\nBuilding rich educational tech usually means wrestling with complex backend deployments, heavy asset loaders, and poor offline performance. Tongjiang Lab eliminates this friction by bundling 3D rendering logic, interactive UI consoles, and step-by-step guides into completely portable, single-file HTML files that run anywhere with zero external dependencies.\n\n✨ Key Features:\n• Single-File Architecture: Bundles 3D logic, UI consoles, and instruction paths into ~1 MB portable files.\n• High-Performance WebGL: Leverages Three.js to render smooth, complex molecular structures, chemical processes, and physics experiments.\n• Classroom-Ready: Includes built-in live control consoles and step guides designed for interactive whiteboards and projectors.\n• Machine-Readable Metadata: A comprehensive catalog.json maps every lesson directly to curriculum standards and textbook locations.\n\n🛠️ Why Developers & EdTech Engineers Love It:\nStudy this repository to master the architectural pattern of packing complex Three.js apps into lightweight, single-file bundles without bloated build pipelines. It is the ultimate blueprint for offline-first educational tools and seamless iframe embedding.\n\n🔗 Explore the repository and drop a star:\nhttps://github.com/smithjohn78390/tongjiang-lab\n\n👇 How would you use single-file WebGL simulations in your next project? Let us know in the comments!\n\n#WebDevelopment #ThreeJS #WebGL #EdTech #OpenSource #JavaScript #Frontend #SoftwareEngineering",
       "image_file": "5_smithjohn78390_tongjiang-lab.png",
       "photo_id": "122125461111476221",
-      "published_post_id": null,
-      "published_at": null
+      "published_post_id": "1410193715501138_122125622757476221",
+      "published_at": "2026-10-30T23:00:41.796628+08:00"
     }
   ]
 }
