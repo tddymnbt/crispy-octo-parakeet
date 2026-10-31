@@ -1,0 +1,54 @@
+{
+  "top_repositories": [
+    {
+      "rank": 1,
+      "name": "ccch1mneyyy/dsh-Go",
+      "score": 96,
+      "reason": "Brings the DeepSeek Harness ecosystem directly to mobile devices (Flutter/Dart), allowing developers to run coding agents locally on Android or remotely control their desktop setup.",
+      "why_interesting_today": "Extends server-side AI harness tooling into a highly accessible mobile and local-first context, tapping into massive interest around DeepSeek's ecosystem.",
+      "why_developers_should_care": "Offers unprecedented flexibility for managing workflows and coding agents on the go without being chained to a desk.",
+      "momentum": "Extremely high star growth (1153) and solid fork momentum given its very recent creation date.",
+      "novelty": "High novelty in bridging enterprise-grade agent harnesses with mobile hardware clients."
+    },
+    {
+      "rank": 2,
+      "name": "mattpocock/skills",
+      "score": 93,
+      "reason": "A curated collection of real-world engineering skills extracted directly from an expert developer's agentic workflow directory.",
+      "why_interesting_today": "As agentic coding and custom developer tooling explode, practical and battle-tested prompt/skill configurations are in extreme demand.",
+      "why_developers_should_care": "Provides immediate, copy-pasteable utility to upgrade how developers prompt and leverage AI coding assistants.",
+      "momentum": "Outstanding star growth (897) showcasing immediate community resonance.",
+      "novelty": "Reflects the cutting-edge shift toward modular, config-driven agent environments."
+    },
+    {
+      "rank": 3,
+      "name": "paipiange/nvzhuang",
+      "score": 89,
+      "reason": "Combines a substantial AI visual asset dataset (1,407 reference images) with a virtual try-on web application supporting multiple model backends.",
+      "why_interesting_today": "Bridges multi-modal AI image generation with a concrete, niche domain use-case (virtual fashion/try-on) with flexible API key configurations.",
+      "why_developers_should_care": "A great reference implementation for developers building custom image-to-image or multi-modal wrapper applications.",
+      "momentum": "Strong daily growth (553 stars, 102 forks) indicating high practical engagement.",
+      "novelty": "Brings structured open-source tooling directly to generative fashion and virtual try-on workflows."
+    },
+    {
+      "rank": 4,
+      "name": "patch-gg/pixelfx",
+      "score": 87,
+      "reason": "Combines 232 pixel art code effects with an integrated Claude Code skill to enable AI assistants to generate custom sprite effects.",
+      "why_interesting_today": "Blends retro gamedev with modern LLM coding capabilities through custom agent skills.",
+      "why_developers_should_care": "Game developers and creative coders get both a rich library of effects and a workflow extender for their AI coding assistants.",
+      "momentum": "Steady initial traction demonstrating a unique cross-section of AI and gamedev utility.",
+      "novelty": "Leverages agent skills specifically for niche visual programming and procedural pixel art generation."
+    },
+    {
+      "rank": 5,
+      "name": "lexifina/global-law",
+      "score": 84,
+      "reason": "An ambitious conceptual project organizing every country's legal codes into a single Git history with submodules where each commit represents a law taking effect.",
+      "why_interesting_today": "Applies version control paradigms to global legal history in a fascinating open-source experiment.",
+      "why_developers_should_care": "Demonstrates the power of Git's architecture applied to massive, non-traditional datasets.",
+      "momentum": "Stable interest and unique discussion value within the developer community.",
+      "novelty": "Extremely novel application of version control tooling to comparative global jurisprudence."
+    }
+  ]
+}

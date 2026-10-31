@@ -3,136 +3,137 @@
   "repositories": [
     {
       "rank": 1,
-      "name": "qybaihe/bla",
+      "name": "ccch1mneyyy/dsh-Go",
       "score": 96,
-      "reason": "Addresses an urgent, emerging threat vector: shielding source code, binaries, and bundles against autonomous AI reverse-engineering agents.",
-      "why_interesting_today": "As AI coding agents become hyper-efficient at reverse-engineering applications, developers need defensive countermeasures. BLA introduces poisoning, exhaustion, and hallucination techniques specifically designed to thwart LLM-driven analysis.",
-      "why_developers_should_care": "Protects proprietary IP, Electron apps, WebAssembly, and JS bundles from being easily scraped and deconstructed by automated reverse-engineering agents like REA.",
-      "momentum": "Strong early traction with meaningful fork activity relative to its young age.",
-      "novelty": "Extremely high; represents a brand new security category—adversarial AI defense shields for codebases against AI agents.",
+      "reason": "Brings the DeepSeek Harness ecosystem directly to mobile devices (Flutter/Dart), allowing developers to run coding agents locally on Android or remotely control their desktop setup.",
+      "why_interesting_today": "Extends server-side AI harness tooling into a highly accessible mobile and local-first context, tapping into massive interest around DeepSeek's ecosystem.",
+      "why_developers_should_care": "Offers unprecedented flexibility for managing workflows and coding agents on the go without being chained to a desk.",
+      "momentum": "Extremely high star growth (1153) and solid fork momentum given its very recent creation date.",
+      "novelty": "High novelty in bridging enterprise-grade agent harnesses with mobile hardware clients.",
       "deep_analysis": {
-        "name": "qybaihe/bla",
-        "headline_hook": "BLA protects software against AI reverse-engineering agents by injecting strategic poisons, decoys, and resource exhaustions into release binaries without altering runtime behavior.",
-        "core_functionality": "BLA is a defensive Counter-REA framework that hardens software builds, source code, and binaries against autonomous AI reverse-engineering agents. When an AI analyzer attempts to parse the protected artifact, it encounters format-valid canaries, deep nesting, and decoy metadata designed to exhaust resource budgets, burn tokens, and induce hallucinations, while ensuring the application runtime remains completely unaffected.",
+        "name": "ccch1mneyyy/dsh-Go",
+        "headline_hook": "Bring DeepSeek Harness directly to your Android device with a built-in Linux environment for local execution or remote desktop control.",
+        "core_functionality": "DSH Go bridges the DeepSeek Harness ecosystem to mobile devices by providing a Flutter-based client. It enables developers to either run a self-contained Linux runtime directly on their Android phone without Root or Termux, or remotely control and interface with an existing desktop DeepSeek Harness setup.",
         "key_features": [
-          "Multi-format hardening supporting JavaScript, TypeScript, WebAssembly, Electron ASAR packages, Go buildinfo, SQLite databases, and AI model weights like Safetensors and GGUF.",
-          "Resource budget exhaustion mechanisms that deliberately push artifact headers, AST depth, and interface inventories past documented limits of AI analyzer parsers.",
-          "Poisoning and hallucination strategies including honey metadata, decoy control flows, and trap columns that mislead AI analyzers into dead ends and truncation errors.",
-          "Seamless CLI and Model Context Protocol integration that allows developers to audit, protect, and verify builds with a single command or directly via coding agents."
+          "Built-in Linux runtime environment utilizing PRoot to run Ubuntu, Node.js, and DSH engines locally on Android 8+ without requiring Root or Termux.",
+          "Dual connection model allowing seamless switching between local mobile execution and remote desktop/server hosts via SSH or DSH Remote.",
+          "Advanced mobile workflow capabilities including mid-stream response steering, automated process collapsing, encrypted shareable links, and optional screen reading/input automation.",
+          "Customizable desktop-style UI elements featuring virtual pets with status animations, multi-theme support, and adaptive tablet/landscape layouts."
         ],
-        "target_audience": "Software engineers, security architects, and application developers releasing proprietary binaries, desktop apps, web bundles, or AI models who need to defend intellectual property from automated AI scrapers and reverse-engineers.",
-        "practical_developer_value": "As AI coding agents become hyper-efficient at automatically dissecting codebases and binaries, traditional obfuscation is no longer sufficient. BLA gives developers a proactive countermeasure to drain an attacker's compute budget and confuse automated parsers. Developers can integrate it into their CI/CD release pipelines to automatically harden build artifacts like build directories, WASM files, or Electron packages before deployment.",
+        "target_audience": "AI engineers, mobile developers, and power users who actively use the DeepSeek Harness ecosystem and want continuous, mobile-first access to their coding agents and workflows.",
+        "practical_developer_value": "Developers can monitor, interrupt, and manage heavy AI coding workflows on the go without being chained to a desk. The inclusion of a plugin SDK and custom tool card UI interfaces enables developers to build custom mobile extensions for their AI workloads.",
         "suggested_use_cases": [
-          "Integrating a pre-release build hardening step in a CI/CD pipeline to automatically run a Counter-REA pass over output directories like dist or build.",
-          "Protecting proprietary WebAssembly modules and Electron applications from automated code extraction by AI agents while preserving normal runtime execution."
+          "Remotely monitoring and steering long-running DeepSeek coding agents on a home or cloud server while away from the desk.",
+          "Running lightweight local AI harness operations directly on an Android tablet or phone using the built-in Ubuntu/Node.js environment."
         ]
       }
     },
     {
       "rank": 2,
-      "name": "heydamir/unslop",
+      "name": "mattpocock/skills",
       "score": 93,
-      "reason": "A highly practical Claude skill that directly addresses 'vibecoded' UI—converting generic, AI-generated looks into polished designs.",
-      "why_interesting_today": "Everyone is generating code with LLMs right now, leading to a sea of generic-looking interfaces ('AI slop'). This tool brings actual human-grade design discipline back into the workflow.",
-      "why_developers_should_care": "Saves hours of manual CSS and design tweaking by instantly upgrading raw AI code outputs into sophisticated, production-ready interfaces.",
-      "momentum": "Rapid community adoption and strong developer interest right out of the gate.",
-      "novelty": "High novelty in terms of workflow optimization for AI-assisted design and frontend engineering.",
+      "reason": "A curated collection of real-world engineering skills extracted directly from an expert developer's agentic workflow directory.",
+      "why_interesting_today": "As agentic coding and custom developer tooling explode, practical and battle-tested prompt/skill configurations are in extreme demand.",
+      "why_developers_should_care": "Provides immediate, copy-pasteable utility to upgrade how developers prompt and leverage AI coding assistants.",
+      "momentum": "Outstanding star growth (897) showcasing immediate community resonance.",
+      "novelty": "Reflects the cutting-edge shift toward modular, config-driven agent environments.",
       "deep_analysis": {
-        "name": "heydamir/unslop",
-        "headline_hook": "Tired of your AI-generated code looking like a generic SaaS clone? This Claude skill acts as a senior designer doing a redline review to strip out purple gradients, emoji labels, and uneven spacing.",
-        "core_functionality": "The project solves the prevalent issue of AI slop—generic, over-styled, vibecoded user interfaces generated by LLMs. It functions as a specialized Claude skill that audits existing user interfaces across various tech stacks and systematically refactor them pass by pass into polished, human-grade designs.",
+        "name": "mattpocock/skills",
+        "headline_hook": "Stop vibe coding and bring engineering rigor back to AI agents with Matt Pocock's battle-tested prompt and skill configurations.",
+        "core_functionality": "The project solves the high failure rate and code entropy of AI-assisted software development by providing small, composable, and model-agnostic agent skills. It addresses core agentic challenges such as misalignment, verbosity, lack of feedback loops, and architectural decay.",
         "key_features": [
-          "Comprehensive UI audit that flags specific design clichés like purple glows, shouty copy, and poor spacing.",
-          "Methodical redline passes handling spacing, color, icons, typography, layout, details, visuals, and motion in order.",
-          "Support for live-site auditing via URL inputs as well as local frameworks like Next.js, React, Vue, Svelte, and Tailwind.",
-          "Built-in story video generation utilizing Playwright and ffmpeg to create before-and-after transformation clips."
+          "Grilling Sessions: Interactive alignment skills like grill-me and grill-with-docs that force agents to ask detailed clarifying questions and build a shared domain language before writing code.",
+          "TDD Enforcement: A dedicated tdd skill that implements red-green-refactor loops and guides the agent on writing robust automated tests.",
+          "Architecture Management: Codebase improvement tools like improve-codebase-architecture that survey systems for design deepening and refactoring candidates.",
+          "Cross-Agent Compatibility: Native installation support for Claude Code, Codex, GitHub Copilot, Gemini CLI, Cursor, Windsurf, and other custom developer agents."
         ],
-        "target_audience": "Frontend developers, full-stack engineers, and indie hackers who rely heavily on AI code generation tools but want their software to maintain a professional, high-end visual standard.",
-        "practical_developer_value": "Developers can dramatically cut down the time spent manually styling AI-generated components. Instead of endlessly tweaking Tailwind classes or fighting with layout primitives, running this skill integrates professional design discipline directly into the coding workflow, ensuring applications stand out from standard AI templates.",
+        "target_audience": "Professional software engineers, full-stack developers, and technical leads who actively use AI coding agents and want to enforce high engineering standards rather than relying on unguided code generation.",
+        "practical_developer_value": "Developers can eliminate the communication gap between themselves and AI agents, reduce token usage through concise domain languages, and prevent codebase degradation. By implementing structured grilling, TDD, and diagnostic skills, teams can ship maintainable, production-ready applications faster while retaining full control over the development process.",
         "suggested_use_cases": [
-          "Quickly transforming a boilerplate AI-generated Next.js dashboard into a cohesive, branded interface before a product launch.",
-          "Auditing and refactoring a live landing page directly from a URL to fix generic hero sections and improve conversion-focused typography."
+          "Running a pre-implementation grilling session via grill-with-docs to establish a shared domain language and generate architectural decision records before building a complex feature.",
+          "Enforcing a disciplined red-green-refactor workflow on bug fixes using the tdd and diagnosing-bugs skills to ensure reliable execution loops."
         ]
       }
     },
     {
       "rank": 3,
-      "name": "wangzan101/Mika",
-      "score": 91,
-      "reason": "An on-device Android AI agent designed to execute real-world tasks by operating apps and the web natively.",
-      "why_interesting_today": "Mobile AI automation is shifting from cloud-based wrappers to local, on-device execution models that interact directly with OS accessibility layers.",
-      "why_developers_should_care": "Provides an open reference architecture for building mobile-first autonomous agents using Kotlin and Jetpack Compose.",
-      "momentum": "Solid early traction with healthy fork and star metrics for a fresh mobile AI repository.",
-      "novelty": "Strong novelty in local mobile automation and practical UI interaction agents.",
+      "name": "paipiange/nvzhuang",
+      "score": 89,
+      "reason": "Combines a substantial AI visual asset dataset (1,407 reference images) with a virtual try-on web application supporting multiple model backends.",
+      "why_interesting_today": "Bridges multi-modal AI image generation with a concrete, niche domain use-case (virtual fashion/try-on) with flexible API key configurations.",
+      "why_developers_should_care": "A great reference implementation for developers building custom image-to-image or multi-modal wrapper applications.",
+      "momentum": "Strong daily growth (553 stars, 102 forks) indicating high practical engagement.",
+      "novelty": "Brings structured open-source tooling directly to generative fashion and virtual try-on workflows.",
       "deep_analysis": {
-        "name": "wangzan101/Mika",
-        "headline_hook": "Mika is an on-device Android AI agent that operates native apps and the web on a hidden background screen, allowing you to execute multi-step real-world tasks while continuing to use your phone normally.",
-        "core_functionality": "Mika acts as a private, on-device AI assistant for Android that translates natural language requests into physical interface actions. By leveraging accessibility layers, visual recognition models, and an internal background display sandbox, it navigates third-party applications, fills out forms, reads chat logs, and browses desktop-class web content without relying on heavy cloud wrappers or manual application pre-adaptation.",
+        "name": "paipiange/nvzhuang",
+        "headline_hook": "An open-source virtual fashion try-on ecosystem featuring 1,407 AI-generated costume references and a multi-backend GoFrame API.",
+        "core_functionality": "The project combines a static front-end image gallery of 1,407 AI-generated clothing assets with a modular GoFrame-based backend that handles AI-driven virtual try-on workflows, supporting both commercial cloud APIs (OpenAI, Gemini, Doubao) and local ComfyUI pipelines.",
         "key_features": [
-          "Background Screen Execution: Operates apps on an invisible secondary display context, enabling true multitasking so users can continue interacting with their primary phone screen undisturbed.",
-          "Zero-Server Privacy Architecture: Completely bypasses centralized third-party servers by routing requests directly from the local device to the developer-configured model provider.",
-          "Integrated Linux Sandbox: Features a local arm64-based environment capable of running Python, Node, and shell scripts to process unstructured file data directly on the device.",
-          "Adaptive Fallback and Human-in-the-Loop Controls: Automatically handles UI elements while intelligently pausing for sensitive human-managed steps like authentication, captcha resolution, and payment confirmations."
+          "Pluggable multi-model AI backend supporting OpenAI-compatible APIs, Google Gemini, Doubao, and local ComfyUI workflows with auto-fallback capabilities.",
+          "Zero-dependency static front-end web application providing bilingual browsing, real-time multi-dimensional search, infinite scrolling, and IndexedDB local generation history.",
+          "Enterprise-grade backend security features including Bearer token authentication, precise CORS whitelisting, token-bucket rate limiting, and pixel-bomb image decompression defenses.",
+          "Cross-project workflow integration with an AI pose reference library to simultaneously control skeletal posture, facial identity, and clothing textures."
         ],
-        "target_audience": "AI engineers, Android developers, and mobile automation researchers building local-first autonomous agents and device control tooling.",
-        "practical_developer_value": "Mika offers a powerful reference architecture for building local mobile AI agents that interact directly with the Android OS via wireless debugging, accessibility layers, and custom knowledge injection files. Developers can inspect how it structures multi-modal tool execution, manages local state with encryption, and implements a secure, sandboxed execution pipeline on mobile hardware.",
+        "target_audience": "AI application developers, full-stack engineers, and e-commerce technologists building generative media pipelines or virtual try-on features.",
+        "practical_developer_value": "Developers can use this repository as a production-ready reference architecture for integrating multimodal image-editing models into web apps, complete with rate-limiting, secure image payload validation, and a decoupled Go backend paired with a lightweight static frontend.",
         "suggested_use_cases": [
-          "Automating repetitive mobile workflows such as cross-app data extraction, batch job applications, and scheduled notification summaries.",
-          "Prototyping local-first LLM orchestration patterns that integrate tightly with native mobile operating system layers and on-device compute sandboxes."
+          "Building an in-house virtual fitting room or e-commerce try-on portal using pluggable LLM and image-generation endpoints.",
+          "Studying secure file upload handling, memory limits, and request validation in GoFrame for high-throughput AI image processing APIs."
         ]
       }
     },
     {
       "rank": 4,
-      "name": "valentderah/totk-pc-recomp",
-      "score": 89,
-      "reason": "Impressive technical feat involving static recompilation of a major modern console game to native Windows x86-64 with a custom Vulkan renderer.",
-      "why_interesting_today": "Static recompilation projects push the boundaries of systems programming, binary translation, and performance optimization.",
-      "why_developers_should_care": "Offers deep educational value for systems engineers interested in code transformation, compilation targets, and high-performance graphics pipelines.",
-      "momentum": "Steady early growth and high technical curiosity among low-level developers.",
-      "novelty": "High technical significance in the niche but sophisticated field of static game recompilation.",
+      "name": "patch-gg/pixelfx",
+      "score": 87,
+      "reason": "Combines 232 pixel art code effects with an integrated Claude Code skill to enable AI assistants to generate custom sprite effects.",
+      "why_interesting_today": "Blends retro gamedev with modern LLM coding capabilities through custom agent skills.",
+      "why_developers_should_care": "Game developers and creative coders get both a rich library of effects and a workflow extender for their AI coding assistants.",
+      "momentum": "Steady initial traction demonstrating a unique cross-section of AI and gamedev utility.",
+      "novelty": "Leverages agent skills specifically for niche visual programming and procedural pixel art generation.",
       "deep_analysis": {
-        "name": "valentderah/totk-pc-recomp",
-        "headline_hook": "Witness the impressive technical feat of statically recompiling a modern console blockbuster, The Legend of Zelda: Tears of the Kingdom, directly into native Windows x86-64 machine code.",
-        "core_functionality": "TotK Recomp solves the performance and architectural limitations of running modern console games by statically translating the original ARM64 Nintendo Switch binary of Tears of the Kingdom into native Windows x86-64 instructions. Instead of emulating the console hardware dynamically at runtime, it recompiles the game assets and code locally on the user's machine to generate a standalone executable that executes natively on PC hardware.",
+        "name": "patch-gg/pixelfx",
+        "headline_hook": "Combines 244 procedural pixel art effects with a custom Claude Code skill, bridging retro game development and modern AI agent generation.",
+        "core_functionality": "patch-gg/pixelfx is a library of over 240 algorithmic pixel art effects and animations—such as fire, explosions, spells, and UI elements—built entirely from code without static image assets. It includes comprehensive tooling for live rendering, sprite sheet exports, color palette swaps, and an integrated Claude Code skill that enables AI assistants to draft, refine, and generate brand-new pixel art effects matching strict visual quality bars.",
         "key_features": [
-          "Native Windows x86-64 execution bypassing traditional hardware interpretation overhead for maximum performance.",
-          "Custom Vulkan 1.3 rendering pipeline featuring upfront shader preparation, custom resolutions, supersampling, and AMD FSR 1 integration.",
-          "Comprehensive support for modern PC inputs including customized keyboard, mouse, and gamepad mappings with native rumble and gyro.",
-          "Seamless compatibility with game updates 1.2.1 and 1.4.3 while maintaining save file continuity."
+          "Procedural pixel art architecture featuring pure frame functions and real-time 120 Hz physical particle simulations that require zero image dependencies.",
+          "Integrated Claude Code skill allowing AI assistants to intelligently design, test, export, and iterate on custom sprite effects.",
+          "Dual-buffer rendering engine separating opaque/translucent color pixels from additive light glows for realistic luminosity and fire effects.",
+          "Complete acting and combat choreography system supporting wind-ups, contact freezes, follow-throughs, camera shakes, and target reactions."
         ],
-        "target_audience": "Systems programmers, emulator developers, graphics engineers, and low-level software architects interested in binary translation, static recompilation, and cross-platform native runtime optimization.",
-        "practical_developer_value": "This repository provides an elite blueprint for developers studying advanced binary translation, custom graphics pipeline implementation using Vulkan, and automated build pipelines that bridge proprietary console architectures to standard desktop environments. Systems engineers can adapt these techniques for legacy software migration, performance-critical code porting, and understanding low-level memory management.",
+        "target_audience": "Indie game developers, creative technologists, and frontend engineers looking to integrate dynamic retro visuals, alongside AI-assisted developers building custom workflows with LLM coding agents.",
+        "practical_developer_value": "Developers gain immediate access to a massive catalog of lightweight, zero-dependency pixel effects that can be embedded directly into web games via HTML5 canvas or exported as transparent sprite sheets and JSON data for standard engines like Godot, Unity, and Phaser. Furthermore, the included Claude Code skill provides a blueprint for how developers can empower AI assistants with domain-specific programmatic tools.",
         "suggested_use_cases": [
-          "Researching and building custom static recompilers for proprietary console binaries.",
-          "Studying advanced Vulkan 1.3 integration patterns and modern PC graphics feature implementation."
+          "Generating and embedding dynamic combat effects and magic spells directly into web-based JavaScript or TypeScript games.",
+          "Exporting batch sprite sheets and ASEPRITE-compatible JSON metadata for import into external engines like Godot or Unity.",
+          "Using the Claude Code skill within an AI-assisted development loop to autonomously generate, critique, and refine custom game animations on the fly."
         ]
       }
     },
     {
       "rank": 5,
-      "name": "aschmelyun/print-my-profile-pic",
-      "score": 86,
-      "reason": "A delightfully whimsical and viral physical computing project that bridges GitHub activity with a real-world receipt printer.",
-      "why_interesting_today": "Injects a dose of physical-world interaction and fun back into developer profiles and open-source engagement.",
-      "why_developers_should_care": "Demonstrates creative hardware hacking and webhook integration in a memorable, lighthearted format.",
-      "momentum": "High star velocity and immediate viral appeal across developer social channels.",
-      "novelty": "High novelty for combining GitHub stars with tangible physical output.",
+      "name": "lexifina/global-law",
+      "score": 84,
+      "reason": "An ambitious conceptual project organizing every country's legal codes into a single Git history with submodules where each commit represents a law taking effect.",
+      "why_interesting_today": "Applies version control paradigms to global legal history in a fascinating open-source experiment.",
+      "why_developers_should_care": "Demonstrates the power of Git's architecture applied to massive, non-traditional datasets.",
+      "momentum": "Stable interest and unique discussion value within the developer community.",
+      "novelty": "Extremely novel application of version control tooling to comparative global jurisprudence.",
       "deep_analysis": {
-        "name": "aschmelyun/print-my-profile-pic",
-        "headline_hook": "Turn your digital GitHub stars into physical thermal receipts pinned to a developer's wall using PHP, a Raspberry Pi, and a Cloudflare tunnel.",
-        "core_functionality": "The project bridges digital open-source engagement with physical computing by automatically capturing GitHub star events, processing user profile pictures into framed graphics, and printing them out on a physical thermal receipt printer.",
+        "name": "lexifina/global-law",
+        "headline_hook": "By mapping global legislation directly into a unified Git history where every commit represents a law taking effect, this open-source experiment turns entire legal codes into a semantic, searchable, and version-controlled database.",
+        "core_functionality": "The project solves the fragmentation and opacity of international law by organizing the legislative histories of multiple countries and jurisdictions into a single, chronologically interleaved Git repository. It maps every legislative amendment to a specific commit and in-force date, allowing users to query, diff, and audit exact legal states across different points in history.",
         "key_features": [
-          "GitHub webhook integration that listens for repository star events in real time",
-          "Cloudflare tunnel routing secure inbound webhooks to a local network server",
-          "PHP-based image rendering to format user avatars inside custom photo frames",
-          "ESC/POS thermal printer communication via USB using the escpos-php library"
+          "Interleaved global timeline where a single Git commit represents the state of all participating jurisdictional laws on a specific day",
+          "Model Context Protocol (MCP) server providing 18 read-only tools and resource templates for AI assistants like Claude to query legal texts, dates, and lineage locally",
+          "Word-level granularity tracking via custom scripts to determine precisely which legislation altered specific phrasing, overcoming Git line-based limitations",
+          "Deterministic build process that compiles individual country corpora submodules into a unified repository via automated tooling"
         ],
-        "target_audience": "Full-stack developers, maker enthusiasts, and open-source maintainers looking for creative ways to gamify community engagement and explore physical computing.",
-        "practical_developer_value": "It provides a clear, end-to-end blueprint for connecting cloud webhooks down to local edge hardware. Developers can learn how to orchestrate webhooks, edge tunnels, local hardware communication, and image manipulation libraries to build playful, real-world notification systems.",
+        "target_audience": "AI engineers, legal tech developers, compliance officers, and researchers building systems that require deterministic historical analysis of legislation.",
+        "practical_developer_value": "Developers building legal-tech, compliance automation, or AI-driven contract and brief analysis tools can leverage the MCP server or Python utilities to query historical law programmatically. Instead of scraping inconsistent government websites, developers get a clean, version-controlled git tree with a standard API interface to verify citations, track regulatory changes over time, and audit compliance against historical statutes.",
         "suggested_use_cases": [
-          "Building automated physical notification tickers for office spaces based on CI/CD pipeline builds or deployments",
-          "Creating interactive booth experiences at developer conferences where user actions trigger physical artifact generation"
+          "Building an AI legal assistant that checks citations in briefs against historical statutes active on a specific court date",
+          "Automating regulatory compliance checks by diffing legal codes between past and present versions to see how specific liabilities change"
         ]
       }
     }

@@ -1,0 +1,51 @@
+{
+  "date": "2026-11-01",
+  "prepared_at": "2026-11-01T07:02:39.443847+08:00",
+  "posts": [
+    {
+      "rank": 1,
+      "repo_name": "ccch1mneyyy/dsh-Go",
+      "caption": "Want to bring DeepSeek Harness directly to your Android device? 🤖📱\n\nMeet dsh-Go: the ultimate client that bridges the DeepSeek Harness ecosystem straight to your mobile screen. \n\n🛑 The Problem:\nBeing chained to your desk while running heavy AI coding workflows and long-running agents is a massive bottleneck. You need continuous, mobile-first access without losing control of your environment.\n\n🚀 Key Features:\n• Built-in Linux Runtime: Run Ubuntu, Node.js, and DSH engines locally on Android 8+ using PRoot — absolutely NO Root or Termux required! 🐧\n• Dual Connection Model: Seamlessly switch between local mobile execution and remote desktop/server hosts via SSH or DSH Remote. 🔄\n• Advanced Mobile Workflows: Steer mid-stream responses, trigger automated process collapsing, generate encrypted shareable links, and leverage optional screen reading/input automation. ⚡\n• Plugin SDK & Custom UI: Build custom mobile extensions for your AI workloads using adaptable tablet and landscape layouts (complete with fun status-animated virtual pets!). 🐾\n\nWhether you want to remotely monitor and steer AI coding agents from your phone while away from your desk, or run lightweight local operations on an Android tablet, dsh-Go keeps you in total command.\n\n👉 Check out the repo and start building on the go:\nhttps://github.com/ccch1mneyyy/dsh-Go\n\n💬 Drop a comment below: How would you use a portable DeepSeek Harness environment? Don't forget to leave a ⭐ on GitHub if this levels up your workflow!\n\n#AI #SoftwareEngineering #DeepSeek #AndroidDev #Flutter #TechInnovation #DeveloperTools",
+      "image_file": "1_ccch1mneyyy_dsh-Go.png",
+      "photo_id": "122126048505476221",
+      "published_post_id": "1410193715501138_122126048709476221",
+      "published_at": "2026-11-01T07:02:42.196182+08:00"
+    },
+    {
+      "rank": 2,
+      "repo_name": "mattpocock/skills",
+      "caption": "Stop vibe coding and bring engineering rigor back to AI agents with Matt Pocock's battle-tested prompt and skill configurations. 🚀\n\nAre you tired of AI-assisted coding resulting in high failure rates, code entropy, and architectural decay? Relying on unguided code generation often leads to misalignment, verbosity, and a lack of feedback loops. \n\n`mattpocock/skills` provides a toolkit of small, composable, and model-agnostic agent skills designed to solve these exact agentic challenges. \n\nKey Features:\n🔥 Grilling Sessions: Interactive alignment skills like grill-me and grill-with-docs force agents to ask detailed clarifying questions and build a shared domain language before writing a single line of code.\n🧪 TDD Enforcement: A dedicated tdd skill implements strict red-green-refactor loops and guides the agent on writing robust automated tests.\n🏗️ Architecture Management: Codebase improvement tools like improve-codebase-architecture survey your systems for design deepening and refactoring candidates.\n🤖 Cross-Agent Compatibility: Native installation support for Claude Code, Codex, GitHub Copilot, Gemini CLI, Cursor, Windsurf, and other custom developer agents.\n\nWhether you are running a pre-implementation grilling session to establish a shared domain language or enforcing a disciplined red-green-refactor workflow on complex bug fixes, this repository helps you eliminate the communication gap, reduce token usage, and prevent codebase degradation. Ship maintainable, production-ready applications faster while retaining full control over your development process.\n\n👉 Check it out on GitHub:\nhttps://github.com/mattpocock/skills\n\nDrop a comment below: how are you currently keeping your AI coding agents aligned with your architecture? Let us know, and share this with your engineering team! 👇\n\n#SoftwareEngineering #AICoding #GitHub #WebDevelopment #DeveloperTools #TypeScript #CodingStandards",
+      "image_file": "2_mattpocock_skills.png",
+      "photo_id": "122126048541476221",
+      "published_post_id": null,
+      "published_at": null
+    },
+    {
+      "rank": 3,
+      "repo_name": "paipiange/nvzhuang",
+      "caption": "Ready to build the ultimate AI virtual fitting room? 👗✨\n\nVirtual try-on pipelines are notoriously complex to architect, often forcing developers to choose between heavy monolithic setups or brittle API integrations that crash under heavy image payloads. \n\nSay hello to nvzhuang—an open-source virtual fashion try-on ecosystem packed with 1,407 AI-generated costume references and a robust, multi-backend GoFrame API. It bridges the gap between sleek frontend galleries and production-grade backend security for generative media. 🚀\n\nHere is what makes this repository a must-watch for AI and full-stack engineers:\n\n🔥 Pluggable Multi-Model AI Backend: Seamlessly switch between commercial cloud APIs like OpenAI, Google Gemini, and Doubao, or hook directly into local ComfyUI pipelines with built-in auto-fallback capabilities.\n⚡ Zero-Dependency Static Frontend: A lightning-fast, bilingual web app featuring real-time multi-dimensional search, infinite scrolling, and local generation history powered by IndexedDB.\n🛡️ Enterprise-Grade Security: Built-in Bearer token authentication, precise CORS whitelisting, token-bucket rate limiting, and pixel-bomb image decompression defenses to keep your server safe.\n🤸 Cross-Project Workflow Integration: Leverage an AI pose reference library to control skeletal posture, facial identity, and clothing textures all at once.\n\nWhether you are building an in-house e-commerce try-on portal or studying secure file handling and rate-limiting in GoFrame for high-throughput image processing, this is a production-ready reference architecture you do not want to miss.\n\nCheck it out on GitHub:\nhttps://github.com/paipiange/nvzhuang\n\nDrop a star ⭐ to support the project, and let us know in the comments how you plan to integrate virtual try-on into your next tech stack! 👇\n\n#AI #WebDevelopment #OpenSource #GoLang #VirtualTryOn #ComfyUI #FullStack #SoftwareEngineering",
+      "image_file": "3_paipiange_nvzhuang.png",
+      "photo_id": "122126048589476221",
+      "published_post_id": null,
+      "published_at": null
+    },
+    {
+      "rank": 4,
+      "repo_name": "patch-gg/pixelfx",
+      "caption": "Retro pixel art meets modern AI agents. 🎮🤖\n\nAre you tired of hunting down or manually drawing static image assets for every little spell, explosion, and UI effect in your game? \n\npatch-gg/pixelfx is a massive library of over 240 algorithmic pixel art effects built entirely from code with zero image dependencies. It features real-time 120 Hz physical particle simulations, dual-buffer rendering for realistic fire and luminosity, and a complete combat choreography system supporting wind-ups, camera shakes, and target reactions. \n\nBest of all? It includes a custom Claude Code skill that enables your AI assistant to intelligently draft, test, iterate, and generate brand-new pixel art effects on the fly, matching strict visual quality bars. \n\nEmbed them directly into web games via HTML5 canvas, or export batch sprite sheets and metadata for Godot, Unity, and Phaser. \n\nCheck out the repository here:\nhttps://github.com/patch-gg/pixelfx\n\nDrop a comment below and let us know: are you building your next game with procedural code or AI-assisted workflows? \n\n#GameDev #PixelArt #ClaudeCode #AI #IndieDev #WebDev #JavaScript #TypeScript",
+      "image_file": "4_patch-gg_pixelfx.png",
+      "photo_id": "122126048631476221",
+      "published_post_id": null,
+      "published_at": null
+    },
+    {
+      "rank": 5,
+      "repo_name": "lexifina/global-law",
+      "caption": "What if you could `git log` an entire country's legal code? 🏛️📜\n\nGlobal legislation is notoriously fragmented, opaque, and scattered across inconsistent government websites. But what if entire legal codes lived in a unified version-controlled database?\n\nEnter global-law: an open-source experiment that maps global legislation directly into a single, chronologically interleaved Git history where every commit represents a law taking effect. \n\nHere is how it works under the hood:\n• Interleaved Global Timeline: A single Git commit represents the state of all participating jurisdictional laws on a specific day.\n• Model Context Protocol (MCP) Server: Includes 18 read-only tools and resource templates for AI assistants like Claude to query legal texts, dates, and lineage locally.\n• Word-Level Granularity: Uses custom scripts to track precisely which legislation altered specific phrasing, overcoming standard Git line-based limitations.\n• Deterministic Build Process: Compiles individual country corpora submodules into a unified repository via automated tooling.\n\nWhether you are building an AI legal assistant that checks citations in briefs against historical statutes active on a specific court date, or automating compliance checks by diffing legal codes over time, this project gives you a clean, programmatic interface to audit history without the scraping headache.\n\nCheck out the repo and start querying legal history:\nhttps://github.com/lexifina/global-law\n\n👉 Drop a comment below: How would you use a Git-based legal history in your current stack?\n\n#OpenSource #LegalTech #ArtificialIntelligence #SoftwareEngineering #Git #Python #Compliance #DevCommunity",
+      "image_file": "5_lexifina_global-law.png",
+      "photo_id": "122126048673476221",
+      "published_post_id": null,
+      "published_at": null
+    }
+  ]
+}
