@@ -26,8 +26,8 @@
       "caption": "Ever wished your phone could run complex multi-step tasks in the background while you keep using it normally? 🤖📱\n\nMeet Mika: an open-source, on-device Android AI agent that translates your natural language requests into real actions across native apps and the web. \n\nThe Problem:\nMost mobile automation tools either rely on heavy cloud wrappers that compromise your privacy or take over your entire screen, locking you out of your device while they work. \n\nHow Mika Solves It:\nMika runs everything on a hidden background screen using accessibility layers and visual recognition models. It navigates apps, fills forms, and browses the web locally—keeping your data entirely private and your main screen free.\n\nNotable Features:\n✨ Background Screen Execution: Run apps on an invisible secondary display context for true mobile multitasking.\n🔒 Zero-Server Privacy Architecture: Completely bypasses centralized third-party servers by routing directly from your local device.\n🐧 Integrated Linux Sandbox: A local arm64-based environment to run Python, Node, and shell scripts on-device.\n🛡️ Human-in-the-Loop Controls: Automatically handles UI flows while intelligently pausing for sensitive steps like CAPTCHAs and payments.\n\nWhether you are an AI engineer building local-first autonomous agents or an Android developer exploring device control tooling, Mika provides an incredible reference architecture to study and build upon.\n\n👉 Check out the repo and start building:\nhttps://github.com/wangzan101/Mika\n\nDrop a comment below: What mobile workflow would you automate first with a local background AI agent? 👇\n\n#AndroidDev #AIEngineers #OpenSource #MobileAutomation #LocalFirst #ArtificialIntelligence #SoftwareEngineering",
       "image_file": "3_wangzan101_Mika.png",
       "photo_id": "122125705509476221",
-      "published_post_id": null,
-      "published_at": null
+      "published_post_id": "1410193715501138_122125782303476221",
+      "published_at": "2026-10-31T15:00:36.950943+08:00"
     },
     {
       "rank": 4,
