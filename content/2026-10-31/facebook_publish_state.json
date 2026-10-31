@@ -44,8 +44,8 @@
       "caption": "Turn your digital GitHub stars into physical thermal receipts pinned to your wall! 🧾✨\n\nEver wish your online open-source community engagement had a physical presence in your workspace? The print-my-profile-pic project bridges the gap between digital code and physical computing by automatically capturing GitHub star events, processing user profile pictures into custom-framed graphics, and printing them out instantly on a local thermal receipt printer. \n\nThis project gives you a complete, end-to-end blueprint for connecting cloud webhooks all the way down to local edge hardware. \n\nNotable Features:\n🔌 Real-Time Webhooks: GitHub webhook integration that listens for repository star events instantly.\n☁️ Secure Edge Routing: Cloudflare tunnels route secure inbound webhooks straight to your local network server.\n🖼️ PHP Image Processing: Custom PHP-based image rendering formats user avatars inside tailored photo frames.\n🖨️ ESC/POS Thermal Printing: Direct communication with USB thermal receipt printers using the escpos-php library.\n\nWhether you want to gamify your open-source maintainer journey, build physical notification tickers for office CI/CD deployments, or create interactive booth experiences at tech conferences, this is a fun weekend maker project to level up your full-stack and hardware orchestration skills. \n\nCheck out the full repository and start printing your stars today:\nhttps://github.com/aschmelyun/print-my-profile-pic\n\nWhat kind of physical notification ticker would you build for your desk? Drop a comment below and let us know! 👇\n\n#OpenSource #RaspberryPi #PHP #Webhooks #FullStack #MakerCommunity #GitHub",
       "image_file": "5_aschmelyun_print-my-profile-pic.png",
       "photo_id": "122125705593476221",
-      "published_post_id": null,
-      "published_at": null
+      "published_post_id": "1410193715501138_122125917189476221",
+      "published_at": "2026-10-31T23:00:38.984672+08:00"
     }
   ]
 }
