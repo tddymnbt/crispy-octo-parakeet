@@ -17,8 +17,8 @@
       "caption": "Tired of your AI-generated code looking like a generic SaaS clone? \n\nWe have all been there. You prompt an LLM to build a quick dashboard or landing page, and it spits out the exact same \"vibecoded\" aesthetic: aggressive purple gradients, random emoji labels, generic hero sections, and uneven spacing everywhere. It screams boilerplate AI.\n\nMeet Unslop (https://github.com/heydamir/unslop). \n\nIt is a specialized Claude skill that acts as a senior designer doing a ruthless redline review on your codebase. Instead of wasting hours manually tweaking Tailwind classes and fighting with layout primitives, this tool audits your UI and systematically refactors it pass by pass into a polished, human-grade design.\n\n🔥 Key Features:\n• Comprehensive UI Auditing: Instantly flags design clichés like purple glows, shouty copy, and poor spacing.\n• Methodical Redline Passes: Handles spacing, color, icons, typography, layout, details, visuals, and motion in a strict, professional order.\n• Universal Stack Support: Works with local frameworks like Next.js, React, Vue, Svelte, and Tailwind, plus live-site auditing via URL inputs.\n• Before-and-After Videos: Features built-in story video generation using Playwright and ffmpeg to showcase the transformation.\n\nWhether you are prepping an indie hacker product launch or cleaning up a Next.js boilerplate, this integrates strict design discipline directly into your coding workflow so your apps actually stand out.\n\n👇 Check out the repo, star it, and stop shipping AI slop:\nhttps://github.com/heydamir/unslop\n\n#WebDevelopment #Frontend #ArtificialIntelligence #IndieHacker #React #TailwindCSS #Coding #SoftwareEngineering",
       "image_file": "2_heydamir_unslop.png",
       "photo_id": "122125705467476221",
-      "published_post_id": null,
-      "published_at": null
+      "published_post_id": "1410193715501138_122125739607476221",
+      "published_at": "2026-10-31T11:00:39.353108+08:00"
     },
     {
       "rank": 3,
