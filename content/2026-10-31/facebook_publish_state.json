@@ -35,8 +35,8 @@
       "caption": "Witness the impressive technical feat of statically recompiling a modern console blockbuster, The Legend of Zelda: Tears of the Kingdom, directly into native Windows x86-64 machine code! \n\nAre you tired of the performance and architectural limitations of running modern console games through traditional hardware interpretation? \n\nTotK Recomp solves this by statically translating the original ARM64 Nintendo Switch binary of Tears of the Kingdom into native Windows x86-64 instructions. Instead of emulating hardware dynamically at runtime, it recompiles the game assets and code locally on your machine to generate a standalone executable that executes natively on PC hardware. \n\nKey technical features include:\n- Native Windows x86-64 execution bypassing traditional overhead for maximum performance\n- Custom Vulkan 1.3 rendering pipeline featuring upfront shader preparation, custom resolutions, supersampling, and AMD FSR 1 integration\n- Comprehensive support for modern PC inputs including customized keyboard, mouse, and gamepad mappings with native rumble and gyro\n- Seamless compatibility with game updates 1.2.1 and 1.4.3 while maintaining save file continuity\n\nWhether you are researching custom static recompilers for proprietary console binaries or studying advanced Vulkan 1.3 integration patterns, this repository provides an elite blueprint for systems programmers, emulator developers, and graphics engineers.\n\nCheck out the repository here: https://github.com/valentderah/totk-pc-recomp\n\nWhat are your thoughts on static recompilation versus traditional emulation? Drop a comment below and share this with your fellow systems architects and low-level developers!\n\n#GameDev #SoftwareEngineering #BinaryTranslation #Vulkan #SystemsProgramming #OpenSource #PCGaming",
       "image_file": "4_valentderah_totk-pc-recomp.png",
       "photo_id": "122125705551476221",
-      "published_post_id": null,
-      "published_at": null
+      "published_post_id": "1410193715501138_122125828641476221",
+      "published_at": "2026-10-31T19:00:43.129353+08:00"
     },
     {
       "rank": 5,
