@@ -44,8 +44,8 @@
       "caption": "What if you could `git log` an entire country's legal code? 🏛️📜\n\nGlobal legislation is notoriously fragmented, opaque, and scattered across inconsistent government websites. But what if entire legal codes lived in a unified version-controlled database?\n\nEnter global-law: an open-source experiment that maps global legislation directly into a single, chronologically interleaved Git history where every commit represents a law taking effect. \n\nHere is how it works under the hood:\n• Interleaved Global Timeline: A single Git commit represents the state of all participating jurisdictional laws on a specific day.\n• Model Context Protocol (MCP) Server: Includes 18 read-only tools and resource templates for AI assistants like Claude to query legal texts, dates, and lineage locally.\n• Word-Level Granularity: Uses custom scripts to track precisely which legislation altered specific phrasing, overcoming standard Git line-based limitations.\n• Deterministic Build Process: Compiles individual country corpora submodules into a unified repository via automated tooling.\n\nWhether you are building an AI legal assistant that checks citations in briefs against historical statutes active on a specific court date, or automating compliance checks by diffing legal codes over time, this project gives you a clean, programmatic interface to audit history without the scraping headache.\n\nCheck out the repo and start querying legal history:\nhttps://github.com/lexifina/global-law\n\n👉 Drop a comment below: How would you use a Git-based legal history in your current stack?\n\n#OpenSource #LegalTech #ArtificialIntelligence #SoftwareEngineering #Git #Python #Compliance #DevCommunity",
       "image_file": "5_lexifina_global-law.png",
       "photo_id": "122126048673476221",
-      "published_post_id": null,
-      "published_at": null
+      "published_post_id": "1410193715501138_122126254911476221",
+      "published_at": "2026-11-01T23:00:38.409689+08:00"
     }
   ]
 }
