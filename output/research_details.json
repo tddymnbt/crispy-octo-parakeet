@@ -3,137 +3,136 @@
   "repositories": [
     {
       "rank": 1,
-      "name": "ccch1mneyyy/dsh-Go",
+      "name": "deepseek-ai/dsh-superagent-prototype",
       "score": 96,
-      "reason": "Brings the DeepSeek Harness ecosystem directly to mobile devices (Flutter/Dart), allowing developers to run coding agents locally on Android or remotely control their desktop setup.",
-      "why_interesting_today": "Extends server-side AI harness tooling into a highly accessible mobile and local-first context, tapping into massive interest around DeepSeek's ecosystem.",
-      "why_developers_should_care": "Offers unprecedented flexibility for managing workflows and coding agents on the go without being chained to a desk.",
-      "momentum": "Extremely high star growth (1153) and solid fork momentum given its very recent creation date.",
-      "novelty": "High novelty in bridging enterprise-grade agent harnesses with mobile hardware clients.",
+      "reason": "Exceptional viral momentum and high-impact AI innovation coming directly from DeepSeek's new harness architecture ecosystem.",
+      "why_interesting_today": "It represents the vanguard of autonomous agent systems, capturing massive community interest just days after launch.",
+      "why_developers_should_care": "Provides concrete architectural patterns for building more autonomous, modular AI agent pipelines.",
+      "momentum": "Explosive growth with nearly 5,000 new stars and over 500 forks instantly upon release.",
+      "novelty": "Highly novel approach to pushing agent autonomy limits within a plugin-driven structure.",
       "deep_analysis": {
-        "name": "ccch1mneyyy/dsh-Go",
-        "headline_hook": "Bring DeepSeek Harness directly to your Android device with a built-in Linux environment for local execution or remote desktop control.",
-        "core_functionality": "DSH Go bridges the DeepSeek Harness ecosystem to mobile devices by providing a Flutter-based client. It enables developers to either run a self-contained Linux runtime directly on their Android phone without Root or Termux, or remotely control and interface with an existing desktop DeepSeek Harness setup.",
+        "name": "deepseek-ai/dsh-superagent-prototype",
+        "headline_hook": "DeepSeek just dropped dsh-superagent-prototype, a cutting-edge research harness designed for proactive, autonomous coding agents that minimize human interruption while maximizing engineering output.",
+        "core_functionality": "The project solves the problem of human bottlenecking in AI-assisted software development by providing a proactive coding agent bundle for the DeepSeek Harness architecture. It autonomously listens to events from GitHub and Feishu, evaluates requests against team-defined rules, executes tasks in isolated directories, and interacts back via pull requests and human-in-the-loop web panels only when necessary.",
         "key_features": [
-          "Built-in Linux runtime environment utilizing PRoot to run Ubuntu, Node.js, and DSH engines locally on Android 8+ without requiring Root or Termux.",
-          "Dual connection model allowing seamless switching between local mobile execution and remote desktop/server hosts via SSH or DSH Remote.",
-          "Advanced mobile workflow capabilities including mid-stream response steering, automated process collapsing, encrypted shareable links, and optional screen reading/input automation.",
-          "Customizable desktop-style UI elements featuring virtual pets with status animations, multi-theme support, and adaptive tablet/landscape layouts."
+          "DeepSeek Harness integration packaged as a proactive agent bundle for single repository management.",
+          "Event-driven automation listening to GitHub and Feishu with strict role and authorization boundaries.",
+          "Isolated execution environments where agents handle tasks in dedicated directories and sessions.",
+          "Human-in-the-loop web panel specifically designed to surface only items requiring manual developer attention."
         ],
-        "target_audience": "AI engineers, mobile developers, and power users who actively use the DeepSeek Harness ecosystem and want continuous, mobile-first access to their coding agents and workflows.",
-        "practical_developer_value": "Developers can monitor, interrupt, and manage heavy AI coding workflows on the go without being chained to a desk. The inclusion of a plugin SDK and custom tool card UI interfaces enables developers to build custom mobile extensions for their AI workloads.",
+        "target_audience": "AI engineers, backend developers, and engineering leads building autonomous agent workflows and looking to scale team productivity without multiplying notification fatigue.",
+        "practical_developer_value": "Developers and teams can use this repository as a reference architecture to design low-attention, high-autonomy internal agents that handle routine repository work safely. It provides production-inspired patterns for authorization, domain modeling, prompt structuring, and safe execution that can be adapted into proprietary developer tooling.",
         "suggested_use_cases": [
-          "Remotely monitoring and steering long-running DeepSeek coding agents on a home or cloud server while away from the desk.",
-          "Running lightweight local AI harness operations directly on an Android tablet or phone using the built-in Ubuntu/Node.js environment."
+          "Deploying an autonomous triage and PR creation agent for open-source or enterprise repositories.",
+          "Studying advanced agentic design patterns, authorization boundaries, and human-in-the-loop web panel architectures."
         ]
       }
     },
     {
       "rank": 2,
-      "name": "mattpocock/skills",
-      "score": 93,
-      "reason": "A curated collection of real-world engineering skills extracted directly from an expert developer's agentic workflow directory.",
-      "why_interesting_today": "As agentic coding and custom developer tooling explode, practical and battle-tested prompt/skill configurations are in extreme demand.",
-      "why_developers_should_care": "Provides immediate, copy-pasteable utility to upgrade how developers prompt and leverage AI coding assistants.",
-      "momentum": "Outstanding star growth (897) showcasing immediate community resonance.",
-      "novelty": "Reflects the cutting-edge shift toward modular, config-driven agent environments.",
+      "name": "haydenschmitty/floorplan",
+      "score": 91,
+      "reason": "Solves a universal developer pain point—understanding new codebases—by combining LLMs like Claude/Codex with visual mapping.",
+      "why_interesting_today": "Taps directly into the modern 'vibe-coding' and AI assistant workflow revolution.",
+      "why_developers_should_care": "Drastically reduces onboarding friction and architectural confusion in large codebases through automated plain-English maps.",
+      "momentum": "Solid organic adoption among early-adopting developer circles leveraging AI tooling plugins.",
+      "novelty": "Bridges text-based LLM outputs and visual architecture diagrams in a fresh, highly practical way.",
       "deep_analysis": {
-        "name": "mattpocock/skills",
-        "headline_hook": "Stop vibe coding and bring engineering rigor back to AI agents with Matt Pocock's battle-tested prompt and skill configurations.",
-        "core_functionality": "The project solves the high failure rate and code entropy of AI-assisted software development by providing small, composable, and model-agnostic agent skills. It addresses core agentic challenges such as misalignment, verbosity, lack of feedback loops, and architectural decay.",
+        "name": "haydenschmitty/floorplan",
+        "headline_hook": "Floorplan combines LLMs like Claude and Codex with interactive visual mapping to instantly turn complex codebases into explorable, plain-English maps of your app.",
+        "core_functionality": "Floorplan solves the universal developer pain point of understanding new or AI-generated codebases. It leverages LLMs to read your code and automatically generate an interactive, plain-English visual map showing how different parts, files, web requests, and external services fit together across single or multiple repositories.",
         "key_features": [
-          "Grilling Sessions: Interactive alignment skills like grill-me and grill-with-docs that force agents to ask detailed clarifying questions and build a shared domain language before writing code.",
-          "TDD Enforcement: A dedicated tdd skill that implements red-green-refactor loops and guides the agent on writing robust automated tests.",
-          "Architecture Management: Codebase improvement tools like improve-codebase-architecture that survey systems for design deepening and refactoring candidates.",
-          "Cross-Agent Compatibility: Native installation support for Claude Code, Codex, GitHub Copilot, Gemini CLI, Cursor, Windsurf, and other custom developer agents."
+          "Cross-Repo & Frontend-to-Backend Mapping: Automatically matches web requests in frontend code to server endpoints across separate repositories.",
+          "Health Check Security Analysis: Identifies common AI-built app flaws like hardcoded API keys, open database tables, and unauthenticated endpoints, complete with ready-to-paste fixes.",
+          "AI-Assisted Recent Work Tracking: Lights up changed cards in green after an AI agent updates code, providing clear annotations on what was modified and why.",
+          "Interactive PRD Blueprints: Generates architectural blueprints and build plans directly from product requirement documents before writing any code."
         ],
-        "target_audience": "Professional software engineers, full-stack developers, and technical leads who actively use AI coding agents and want to enforce high engineering standards rather than relying on unguided code generation.",
-        "practical_developer_value": "Developers can eliminate the communication gap between themselves and AI agents, reduce token usage through concise domain languages, and prevent codebase degradation. By implementing structured grilling, TDD, and diagnostic skills, teams can ship maintainable, production-ready applications faster while retaining full control over the development process.",
+        "target_audience": "AI-assisted developers, indie hackers, full-stack engineers, and engineering teams looking to rapidly onboard or audit complex software systems.",
+        "practical_developer_value": "Developers can use Floorplan to eliminate the guesswork of exploring unfamiliar or vibe-coded codebases. It allows teams to onboard new members in minutes, trace complex data flows and API requests visually, and catch critical security misconfigurations before shipping to production.",
         "suggested_use_cases": [
-          "Running a pre-implementation grilling session via grill-with-docs to establish a shared domain language and generate architectural decision records before building a complex feature.",
-          "Enforcing a disciplined red-green-refactor workflow on bug fixes using the tdd and diagnosing-bugs skills to ensure reliable execution loops."
+          "Auditing and visualizing cross-repository microservices architectures built with the help of AI coding assistants.",
+          "Onboarding junior developers or new team members to an existing legacy or fast-moving codebase using interactive visual walkthroughs."
         ]
       }
     },
     {
       "rank": 3,
-      "name": "paipiange/nvzhuang",
-      "score": 89,
-      "reason": "Combines a substantial AI visual asset dataset (1,407 reference images) with a virtual try-on web application supporting multiple model backends.",
-      "why_interesting_today": "Bridges multi-modal AI image generation with a concrete, niche domain use-case (virtual fashion/try-on) with flexible API key configurations.",
-      "why_developers_should_care": "A great reference implementation for developers building custom image-to-image or multi-modal wrapper applications.",
-      "momentum": "Strong daily growth (553 stars, 102 forks) indicating high practical engagement.",
-      "novelty": "Brings structured open-source tooling directly to generative fashion and virtual try-on workflows.",
+      "name": "Djihads80/Eglantine",
+      "score": 88,
+      "reason": "High-risk, high-reward emulation project targeting unreleased/bleeding-edge hardware architectures.",
+      "why_interesting_today": "Spun up rapidly with significant community curiosity surrounding next-generation hardware reverse engineering.",
+      "why_developers_should_care": "Offers deep systems-level learning opportunities in low-level C++, emulation theory, and hardware profiling.",
+      "momentum": "Rapidly accelerating star and fork growth for a hyper-niche experimental project.",
+      "novelty": "Cutting-edge exploration into future console hardware emulation.",
       "deep_analysis": {
-        "name": "paipiange/nvzhuang",
-        "headline_hook": "An open-source virtual fashion try-on ecosystem featuring 1,407 AI-generated costume references and a multi-backend GoFrame API.",
-        "core_functionality": "The project combines a static front-end image gallery of 1,407 AI-generated clothing assets with a modular GoFrame-based backend that handles AI-driven virtual try-on workflows, supporting both commercial cloud APIs (OpenAI, Gemini, Doubao) and local ComfyUI pipelines.",
+        "name": "Djihads80/Eglantine",
+        "headline_hook": "Eglantine is an open-source emulator targeting next-generation console hardware, built on the architectural lineage of Yuzu and Eden.",
+        "core_functionality": "Eglantine is a free and open-source software emulator designed to run software and games intended for next-generation portable console hardware, specifically succeeding earlier popular emulation ecosystems like Yuzu, Sudachi, and Eden.",
         "key_features": [
-          "Pluggable multi-model AI backend supporting OpenAI-compatible APIs, Google Gemini, Doubao, and local ComfyUI workflows with auto-fallback capabilities.",
-          "Zero-dependency static front-end web application providing bilingual browsing, real-time multi-dimensional search, infinite scrolling, and IndexedDB local generation history.",
-          "Enterprise-grade backend security features including Bearer token authentication, precise CORS whitelisting, token-bucket rate limiting, and pixel-bomb image decompression defenses.",
-          "Cross-project workflow integration with an AI pose reference library to simultaneously control skeletal posture, facial identity, and clothing textures."
+          "Written in C++ with a strong focus on cross-platform portability across Windows, Linux, and macOS.",
+          "Derived from mature emulation codebases (Eden, Yuzu, Sudachi), inheriting a robust foundation for hardware abstraction and instruction translation.",
+          "Early-stage capability to boot and run demanding, unreleased-generation titles like Mario Kart World and Splatoon Raiders.",
+          "Active development tooling ecosystem and structured user documentation to onboard new reverse engineering and emulation contributors."
         ],
-        "target_audience": "AI application developers, full-stack engineers, and e-commerce technologists building generative media pipelines or virtual try-on features.",
-        "practical_developer_value": "Developers can use this repository as a production-ready reference architecture for integrating multimodal image-editing models into web apps, complete with rate-limiting, secure image payload validation, and a decoupled Go backend paired with a lightweight static frontend.",
+        "target_audience": "Emulator developers, low-level systems engineers, graphics programmers, and reverse engineers interested in hardware emulation and high-performance C++ systems architecture.",
+        "practical_developer_value": "Developers working on systems-level programming, hardware acceleration, JIT compilers, or graphics translation layers can study Eglantine's codebase to understand how next-gen console architectures are reverse-engineered and emulated. It offers a practical sandbox for learning low-level C++, memory management, and cross-platform graphics API integration.",
         "suggested_use_cases": [
-          "Building an in-house virtual fitting room or e-commerce try-on portal using pluggable LLM and image-generation endpoints.",
-          "Studying secure file upload handling, memory limits, and request validation in GoFrame for high-throughput AI image processing APIs."
+          "Studying advanced C++ systems architecture and hardware emulation techniques.",
+          "Contributing to open-source hardware reverse engineering and compatibility layers for next-generation platforms."
         ]
       }
     },
     {
       "rank": 4,
-      "name": "patch-gg/pixelfx",
-      "score": 87,
-      "reason": "Combines 232 pixel art code effects with an integrated Claude Code skill to enable AI assistants to generate custom sprite effects.",
-      "why_interesting_today": "Blends retro gamedev with modern LLM coding capabilities through custom agent skills.",
-      "why_developers_should_care": "Game developers and creative coders get both a rich library of effects and a workflow extender for their AI coding assistants.",
-      "momentum": "Steady initial traction demonstrating a unique cross-section of AI and gamedev utility.",
-      "novelty": "Leverages agent skills specifically for niche visual programming and procedural pixel art generation.",
+      "name": "Motionsites-AI/claude-skill",
+      "score": 85,
+      "reason": "A targeted AI skill extension designed to push the aesthetic and functional boundaries of LLM-generated web frontends.",
+      "why_interesting_today": "Addresses the desire for AI-generated code to go beyond generic templates and produce 'award-level' design.",
+      "why_developers_should_care": "Shows front-end developers how to program custom skills that enforce high-end design standards in AI coding tools.",
+      "momentum": "Steady influx of stars and practical forks from designers and frontend engineers.",
+      "novelty": "Clever use of custom Claude skills to bridge the gap between AI generation and elite visual design.",
       "deep_analysis": {
-        "name": "patch-gg/pixelfx",
-        "headline_hook": "Combines 244 procedural pixel art effects with a custom Claude Code skill, bridging retro game development and modern AI agent generation.",
-        "core_functionality": "patch-gg/pixelfx is a library of over 240 algorithmic pixel art effects and animations—such as fire, explosions, spells, and UI elements—built entirely from code without static image assets. It includes comprehensive tooling for live rendering, sprite sheet exports, color palette swaps, and an integrated Claude Code skill that enables AI assistants to draft, refine, and generate brand-new pixel art effects matching strict visual quality bars.",
+        "name": "Motionsites-AI/claude-skill",
+        "headline_hook": "Stop getting generic AI landing pages by giving Claude a built-in design taste guide, a cinematic media shelf, and a self-correcting visual QA loop.",
+        "core_functionality": "This project is a targeted skill extension for Claude that solves the problem of generic, template-driven AI frontend generation. It equips Claude with curated design examples, a real-media shelf of cinematic videos and assets, precise technical recipes, and a visual feedback loop using Playwright screenshots to iteratively test and fix its own code until it hits an award-winning gallery standard.",
         "key_features": [
-          "Procedural pixel art architecture featuring pure frame functions and real-time 120 Hz physical particle simulations that require zero image dependencies.",
-          "Integrated Claude Code skill allowing AI assistants to intelligently design, test, export, and iterate on custom sprite effects.",
-          "Dual-buffer rendering engine separating opaque/translucent color pixels from additive light glows for realistic luminosity and fire effects.",
-          "Complete acting and combat choreography system supporting wind-ups, contact freezes, follow-throughs, camera shakes, and target reactions."
+          "A self-correcting look-and-fix QA loop that uses Playwright screenshots to inspect layout bugs, mobile overflow, and broken assets, automatically refining the code until it passes a strict scoring rubric.",
+          "A rich media shelf providing 50+ cinematic hero videos, 3D cutouts, and images displayed via contact sheets so Claude can select and integrate real, high-end visual assets by eye.",
+          "Over 55 production-ready technique recipes containing working code for advanced frontend effects like liquid glass, mouse-scrubbed video, seamless loops, word-by-word blur headlines, and Three.js 3D models.",
+          "Strict design taste rules and spec templates with quantitative metrics for typography, spacing, tracking, and motion timing to prevent the default generic aesthetic of LLM-generated UIs."
         ],
-        "target_audience": "Indie game developers, creative technologists, and frontend engineers looking to integrate dynamic retro visuals, alongside AI-assisted developers building custom workflows with LLM coding agents.",
-        "practical_developer_value": "Developers gain immediate access to a massive catalog of lightweight, zero-dependency pixel effects that can be embedded directly into web games via HTML5 canvas or exported as transparent sprite sheets and JSON data for standard engines like Godot, Unity, and Phaser. Furthermore, the included Claude Code skill provides a blueprint for how developers can empower AI assistants with domain-specific programmatic tools.",
+        "target_audience": "Frontend developers, full-stack engineers, and AI-native builders who want to drastically speed up UI development without sacrificing high-end aesthetic quality.",
+        "practical_developer_value": "Developers can bypass the tedious hours usually spent tweaking AI-generated boilerplate into a polished state. By integrating this skill into Claude or Claude Code, developers get production-ready, highly cinematic landing pages and components on the first try, complete with advanced interactive effects and responsive layouts that look professionally designed rather than machine-generated.",
         "suggested_use_cases": [
-          "Generating and embedding dynamic combat effects and magic spells directly into web-based JavaScript or TypeScript games.",
-          "Exporting batch sprite sheets and ASEPRITE-compatible JSON metadata for import into external engines like Godot or Unity.",
-          "Using the Claude Code skill within an AI-assisted development loop to autonomously generate, critique, and refine custom game animations on the fly."
+          "Rapidly prototyping high-conversion marketing landing pages and startup waitlist sites with cinematic hero sections and advanced scroll animations.",
+          "Generating portfolio homepages and brand-forward client websites that require strict attention to editorial typography, fluid layouts, and bespoke visual styling."
         ]
       }
     },
     {
       "rank": 5,
-      "name": "lexifina/global-law",
-      "score": 84,
-      "reason": "An ambitious conceptual project organizing every country's legal codes into a single Git history with submodules where each commit represents a law taking effect.",
-      "why_interesting_today": "Applies version control paradigms to global legal history in a fascinating open-source experiment.",
-      "why_developers_should_care": "Demonstrates the power of Git's architecture applied to massive, non-traditional datasets.",
-      "momentum": "Stable interest and unique discussion value within the developer community.",
-      "novelty": "Extremely novel application of version control tooling to comparative global jurisprudence.",
+      "name": "kevinraymond/florilegium",
+      "score": 82,
+      "reason": "A delightful intersection of procedural generation, graphic design, and traditional document publishing.",
+      "why_interesting_today": "Provides a striking visual contrast to the heavy influx of machine learning and AI tooling repositories.",
+      "why_developers_should_care": "Demonstrates advanced Lua scripting within LuaLaTeX for custom generative typography and algorithmic art.",
+      "momentum": "Strong organic niche interest among academic and typography communities.",
+      "novelty": "Unique application of procedural algorithms to classic Delft-blue aesthetics in document generation.",
       "deep_analysis": {
-        "name": "lexifina/global-law",
-        "headline_hook": "By mapping global legislation directly into a unified Git history where every commit represents a law taking effect, this open-source experiment turns entire legal codes into a semantic, searchable, and version-controlled database.",
-        "core_functionality": "The project solves the fragmentation and opacity of international law by organizing the legislative histories of multiple countries and jurisdictions into a single, chronologically interleaved Git repository. It maps every legislative amendment to a specific commit and in-force date, allowing users to query, diff, and audit exact legal states across different points in history.",
+        "name": "kevinraymond/florilegium",
+        "headline_hook": "Transform rigid technical documents into organic masterpieces with procedural, Lua-driven Delft-blue botanical page margins compiled directly into your LaTeX PDFs.",
+        "core_functionality": "Florilegium bridges procedural generation, graphic design, and traditional document publishing by dynamically generating algorithmic page margins, drop caps, and illustrations inside LaTeX and Typst documents using custom Lua scripts. Without relying on external image assets or imported vector paths, it computes parametric curves on the fly, painting watercolor-like botanical motifs, geometric lattices, or mathematical visualizations that intelligently fill the empty whitespace left by document text.",
         "key_features": [
-          "Interleaved global timeline where a single Git commit represents the state of all participating jurisdictional laws on a specific day",
-          "Model Context Protocol (MCP) server providing 18 read-only tools and resource templates for AI assistants like Claude to query legal texts, dates, and lineage locally",
-          "Word-level granularity tracking via custom scripts to determine precisely which legislation altered specific phrasing, overcoming Git line-based limitations",
-          "Deterministic build process that compiles individual country corpora submodules into a unified repository via automated tooling"
+          "Procedural Layout and Growth: Utilizes a greedy space-filling algorithm derived from 1998 ornament literature to dynamically grow vines, leaves, and flowers that naturally adapt to available page whitespace.",
+          "Embedded Lua Rendering: Executes custom Lua code during the page compilation phase to render parametric curves, color gradients in OKLCH color space, and organic watercolor washes straight into the output PDF.",
+          "Context-Aware Typography and Interactivity: Integrates directly with document elements, allowing ornaments to weave through drop-cap font counters, align with section headings, react to document aging across seasons, and place visitors like bees and birds.",
+          "Modular Theme System: Swap visual engines seamlessly via modular theme configurations, transitioning the output from organic Delft-blue flora to flat-shaded geometric crystals or cascading mathematical figures."
         ],
-        "target_audience": "AI engineers, legal tech developers, compliance officers, and researchers building systems that require deterministic historical analysis of legislation.",
-        "practical_developer_value": "Developers building legal-tech, compliance automation, or AI-driven contract and brief analysis tools can leverage the MCP server or Python utilities to query historical law programmatically. Instead of scraping inconsistent government websites, developers get a clean, version-controlled git tree with a standard API interface to verify citations, track regulatory changes over time, and audit compliance against historical statutes.",
+        "target_audience": "LaTeX document authors, academic publishers, typography enthusiasts, and creative technologists interested in generative art and algorithmic document design.",
+        "practical_developer_value": "It demonstrates how procedural generation, mathematical layout algorithms, and embedded scripting languages can be integrated into traditional build and document compilation pipelines. Developers can use it to study advanced algorithmic layout logic, leverage custom Lua-driven rendering inside TeX engines, or adapt its space-filling and procedural generation concepts for automated document design, PDF generation pipelines, and dynamic graphic assets.",
         "suggested_use_cases": [
-          "Building an AI legal assistant that checks citations in briefs against historical statutes active on a specific court date",
-          "Automating regulatory compliance checks by diffing legal codes between past and present versions to see how specific liabilities change"
+          "Automating the generation of beautifully embellished academic theses, poetry books, and historical document reproductions in LaTeX.",
+          "Building programmatic report generators that use algorithmic themes to dynamically fill whitespace and brand technical documents."
         ]
       }
     }

@@ -1,0 +1,54 @@
+{
+  "top_repositories": [
+    {
+      "rank": 1,
+      "name": "deepseek-ai/dsh-superagent-prototype",
+      "score": 96,
+      "reason": "Exceptional viral momentum and high-impact AI innovation coming directly from DeepSeek's new harness architecture ecosystem.",
+      "why_interesting_today": "It represents the vanguard of autonomous agent systems, capturing massive community interest just days after launch.",
+      "why_developers_should_care": "Provides concrete architectural patterns for building more autonomous, modular AI agent pipelines.",
+      "momentum": "Explosive growth with nearly 5,000 new stars and over 500 forks instantly upon release.",
+      "novelty": "Highly novel approach to pushing agent autonomy limits within a plugin-driven structure."
+    },
+    {
+      "rank": 2,
+      "name": "haydenschmitty/floorplan",
+      "score": 91,
+      "reason": "Solves a universal developer pain point—understanding new codebases—by combining LLMs like Claude/Codex with visual mapping.",
+      "why_interesting_today": "Taps directly into the modern 'vibe-coding' and AI assistant workflow revolution.",
+      "why_developers_should_care": "Drastically reduces onboarding friction and architectural confusion in large codebases through automated plain-English maps.",
+      "momentum": "Solid organic adoption among early-adopting developer circles leveraging AI tooling plugins.",
+      "novelty": "Bridges text-based LLM outputs and visual architecture diagrams in a fresh, highly practical way."
+    },
+    {
+      "rank": 3,
+      "name": "Djihads80/Eglantine",
+      "score": 88,
+      "reason": "High-risk, high-reward emulation project targeting unreleased/bleeding-edge hardware architectures.",
+      "why_interesting_today": "Spun up rapidly with significant community curiosity surrounding next-generation hardware reverse engineering.",
+      "why_developers_should_care": "Offers deep systems-level learning opportunities in low-level C++, emulation theory, and hardware profiling.",
+      "momentum": "Rapidly accelerating star and fork growth for a hyper-niche experimental project.",
+      "novelty": "Cutting-edge exploration into future console hardware emulation."
+    },
+    {
+      "rank": 4,
+      "name": "Motionsites-AI/claude-skill",
+      "score": 85,
+      "reason": "A targeted AI skill extension designed to push the aesthetic and functional boundaries of LLM-generated web frontends.",
+      "why_interesting_today": "Addresses the desire for AI-generated code to go beyond generic templates and produce 'award-level' design.",
+      "why_developers_should_care": "Shows front-end developers how to program custom skills that enforce high-end design standards in AI coding tools.",
+      "momentum": "Steady influx of stars and practical forks from designers and frontend engineers.",
+      "novelty": "Clever use of custom Claude skills to bridge the gap between AI generation and elite visual design."
+    },
+    {
+      "rank": 5,
+      "name": "kevinraymond/florilegium",
+      "score": 82,
+      "reason": "A delightful intersection of procedural generation, graphic design, and traditional document publishing.",
+      "why_interesting_today": "Provides a striking visual contrast to the heavy influx of machine learning and AI tooling repositories.",
+      "why_developers_should_care": "Demonstrates advanced Lua scripting within LuaLaTeX for custom generative typography and algorithmic art.",
+      "momentum": "Strong organic niche interest among academic and typography communities.",
+      "novelty": "Unique application of procedural algorithms to classic Delft-blue aesthetics in document generation."
+    }
+  ]
+}
