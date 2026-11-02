@@ -17,8 +17,8 @@
       "caption": "Stop getting lost in massive, unfamiliar codebases. 🗺️✨\n\nWhether you are drowning in legacy code or trying to make sense of a massive web of AI-generated files, understanding how a system actually fits together shouldn't take weeks. \n\nEnter Floorplan: an open-source tool that combines LLMs like Claude and Codex with interactive visual mapping to instantly turn complex codebases into explorable, plain-English maps of your app. 🚀\n\nHere is how it fixes the universal developer onboarding and auditing headache:\n\n🔍 Cross-Repo & Frontend-to-Backend Mapping: Automatically matches web requests in frontend code to server endpoints across separate repositories.\n🔒 Health Check Security Analysis: Identifies common AI-built app flaws like hardcoded API keys, open database tables, and unauthenticated endpoints—complete with ready-to-paste fixes.\n🟢 AI-Assisted Recent Work Tracking: Lights up changed cards in green after an AI agent updates code, providing clear annotations on what was modified and why.\n📋 Interactive PRD Blueprints: Generates architectural blueprints and build plans directly from product requirement documents before you even write a line of code.\n\nEliminate the guesswork of \"vibe-coded\" repositories, onboard team members in minutes, trace complex data flows visually, and catch critical security risks before shipping to production. \n\nCheck out the repo, drop a star, and start mapping your architecture today:\nhttps://github.com/haydenschmitty/floorplan\n\nHow do you usually tackle onboarding into a massive new codebase? Let us know in the comments! 👇\n\n#SoftwareEngineering #WebDevelopment #ArtificialIntelligence #Coding #OpenSource #DeveloperTools #FullStack",
       "image_file": "2_haydenschmitty_floorplan.png",
       "photo_id": "122126449005476221",
-      "published_post_id": null,
-      "published_at": null
+      "published_post_id": "1410193715501138_122126478249476221",
+      "published_at": "2026-11-02T11:00:49.056807+08:00"
     },
     {
       "rank": 3,
