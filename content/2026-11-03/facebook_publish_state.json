@@ -44,8 +44,8 @@
       "caption": "Tired of the tedious, error-prone dance of creating bootable USB sticks just to test Linux? 🛑\n\nSay goodbye to BIOS configuration headaches and risky manual partition management. Hop lets you install Linux directly from a Windows PowerShell interface without ever needing external media! 🚀\n\nBuilt with .NET, Hop is a single Windows application designed to eliminate the friction of dual-booting. Whether you are testing native Linux command-line tools, checking containerization edge cases, or benchmarking file system performance on bare metal, Hop reduces setup time from hours down to a single streamlined workflow. 💻⚡\n\n✨ Key Features:\n• Intelligent Partition Management: Safely shrinks partitions and even clears unmovable files blocking the process in a single click.\n• Automated Internal Emulation: Writes verified ISO files to a local FAT32 partition and registers a one-time UEFI startup entry.\n• Broad Distribution Support: Works seamlessly with Ubuntu and its flavors, Fedora, Debian, Arch, and elementary OS.\n• Built-In Safety: Includes comprehensive safety checks, an undo functionality to restore space, and easy cleanup of existing installations.\n\nStop disrupting your primary Windows workflow with complex dual-boot setups. Perfect for developers, sysadmins, and tech enthusiasts who need native Linux testing environments fast. 🛠️🐧\n\n👉 Check out the repo and try it out today: https://github.com/Arjun-Ingole/hop\n\nDrop a comment below and let us know which Linux distro you will be installing first! Don't forget to like and share this post with fellow developers who love tinkering with OS setups. 💬👇\n\n#Linux #Windows #DotNet #SoftwareDevelopment #OpenSource #TechNews #SysAdmin",
       "image_file": "5_Arjun-Ingole_hop.png",
       "photo_id": "122126726451476221",
-      "published_post_id": null,
-      "published_at": null
+      "published_post_id": "1410193715501138_122126989311476221",
+      "published_at": "2026-11-03T23:00:45.164687+08:00"
     }
   ]
 }
