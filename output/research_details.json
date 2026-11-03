@@ -3,136 +3,136 @@
   "repositories": [
     {
       "rank": 1,
-      "name": "firecrawl/firecrawl",
+      "name": "obra/superpowers",
       "score": 96,
-      "reason": "Exceptional growth and high relevance in the AI agent ecosystem, turning complex web pages into clean LLM-ready markdown at scale.",
-      "why_interesting_today": "AI applications require robust, real-time web extraction tools. Firecrawl continues to dominate developer mindshare for powering context-aware AI agents.",
-      "why_developers_should_care": "It eliminates the massive boilerplate and fragility usually associated with web scraping, letting developers focus directly on prompt engineering and agent workflows.",
-      "momentum": "Outstanding daily star growth (326 new stars) and steady fork activity, reflecting high community adoption.",
-      "novelty": "High utility combined with specialized design focused exclusively on serving LLMs and autonomous agents.",
+      "reason": "Exceptional star momentum with 634 new stars on an innovative agentic skills framework and software development methodology.",
+      "why_interesting_today": "As agent-driven workflows mature, frameworks that structure how subagents operate and collaborate are seeing explosive developer interest.",
+      "why_developers_should_care": "It offers a concrete, structured methodology for integrating autonomous agents into the standard software development lifecycle (SDLC).",
+      "momentum": "Extremely high daily star growth (634 stars) and active fork accumulation for a recent project.",
+      "novelty": "High; pushes beyond basic prompt engineering into a systematic agentic skills framework.",
       "deep_analysis": {
-        "name": "firecrawl/firecrawl",
-        "headline_hook": "Firecrawl gives AI agents the context API they need by turning complex, JavaScript-heavy web pages into clean LLM-ready markdown at scale.",
-        "core_functionality": "Firecrawl solves the friction of web data extraction for applications and LLMs by handling the heavy lifting of scraping, crawling, searching, and browser orchestration. It bypasses bot protections, handles dynamic JavaScript rendering, manages rotating proxies, and outputs clean markdown or structured JSON.",
+        "name": "obra/superpowers",
+        "headline_hook": "Superpowers transforms your coding agent from an overeager junior dev into a disciplined software architect by enforcing strict TDD, brainstorming, and subagent-driven workflows.",
+        "core_functionality": "Superpowers is a comprehensive software development methodology and agentic skills framework. It prevents AI coding assistants from prematurely jumping into writing code by systematically guiding them through requirement brainstorming, architectural planning, isolated git worktree setup, strict Test-Driven Development, and autonomous subagent execution loops.",
         "key_features": [
-          "LLM-ready outputs and document parsing that convert websites, PDFs, and DOCX files into clean markdown or structured JSON to minimize token consumption.",
-          "Interactive browser automation capabilities that allow developers to scrape a page and use prompts or code to click, scroll, and navigate dynamically.",
-          "Autonomous agent endpoints that search, navigate, and retrieve requested data across the web without requiring upfront URL specifications.",
-          "Seamless integration with the Model Context Protocol (MCP) and custom CLI skills, allowing AI coding assistants and agents to query real-time web data instantly."
+          "Automatic skill triggering that initiates brainstorming and spec refinement sessions before any code is written.",
+          "Subagent-driven development that isolates engineering tasks across fresh subagents with continuous review loops and clean test baselines via git worktrees.",
+          "Strict RED-GREEN-REFACTOR enforcement that mandates failing tests before writing minimal implementation code.",
+          "Extensive cross-harness compatibility supporting Claude Code, Cursor, Codex, Gemini, Devin, GitHub Copilot, and many other CLI or app-based AI coding agents."
         ],
-        "target_audience": "AI engineers, full-stack developers building context-aware AI applications, and creators of autonomous AI agents who require reliable, programmatic real-time web data.",
-        "practical_developer_value": "Developers can completely offload the brittle infrastructure of custom scraping pipelines, headless browser setups, proxy management, and rate-limiting issues. By integrating Firecrawl via Python, Node.js, CLI, or MCP, developers gain a production-ready API to feed real-time, structured web data directly into RAG pipelines, AI agents, and dynamic applications with zero configuration headaches.",
+        "target_audience": "AI engineers, full-stack developers, and software engineering teams who heavily rely on AI coding assistants and want to eliminate hallucinated code, poor architectural design, and missing tests.",
+        "practical_developer_value": "Developers can use Superpowers to regain control over autonomous coding agents. Instead of dealing with messy, untested, monolithic code dumps from AI tools, developers gain a predictable, repeatable pipeline that breaks complex features into 2-5 minute bite-sized tasks, ensuring high code quality, robust test coverage, and long autonomous runtime without context drift.",
         "suggested_use_cases": [
-          "Powering real-time Retrieval-Augmented Generation (RAG) systems that need up-to-date documentation or knowledge base updates from the live web.",
-          "Enabling autonomous AI agents to search, browse, and extract structured business data, competitive intelligence, or pricing models on demand."
+          "Building complex greenfield web applications with strict test coverage and architectural alignment using autonomous subagents.",
+          "Refactoring legacy codebases safely by forcing AI agents to establish clean test baselines and use isolated git worktrees."
         ]
       }
     },
     {
       "rank": 2,
-      "name": "vinta/awesome-python",
-      "score": 90,
-      "reason": "The definitive resource for Python developers, exhibiting extraordinary star momentum today despite its long-standing presence.",
-      "why_interesting_today": "With the massive surge in AI and data engineering, developers constantly look for curated packages, making this authoritative list heavily trafficked.",
-      "why_developers_should_care": "Saves hours of vetting by providing a battle-tested directory of libraries and tools across every imaginable Python use case.",
-      "momentum": "Remarkable star growth of 223 for a mature repository, showing an ongoing influx of new developers entering the ecosystem.",
-      "novelty": "Low structural novelty as a curated list, but unmatched evergreen value and high daily discovery utility.",
+      "name": "storytold/craft-anything",
+      "score": 94,
+      "reason": "Massive viral star growth (4,281 stars) right out of the gate for a Rust-based utility aimed at software comprehension and crafting.",
+      "why_interesting_today": "Developers are constantly looking for robust, systems-level tooling to deconstruct and understand complex codebases quickly.",
+      "why_developers_should_care": "Written in Rust, it delivers high performance and reliability when analyzing how software works under the hood.",
+      "momentum": "Outstanding viral growth trajectory with over 4,200 new stars and hundreds of forks immediately after launch.",
+      "novelty": "Very high; combines deep code analysis with a unique crafting paradigm in systems programming.",
       "deep_analysis": {
-        "name": "vinta/awesome-python",
-        "headline_hook": "Stop digging through outdated documentation and discover the definitive, community-vetted toolbox for modern Python development.",
-        "core_functionality": "It solves the problem of information overload and tool discovery by providing a comprehensively curated, opinionated list of the best Python frameworks, libraries, tools, and software resources available.",
+        "name": "storytold/craft-anything",
+        "headline_hook": "Deconstruct any application, website, or game using a pure Rust reverse-engineering engine and have autonomous coding agents rebuild it from scratch.",
+        "core_functionality": "Craft Anything is an open-source, systems-level reverse-engineering and code generation engine built entirely in Rust. It systematically inspects arbitrary software, websites, or games using advanced analysis tools, then orchestrates coding agents to design, build, and iteratively verify equivalent functional implementations in a requested technology stack.",
         "key_features": [
-          "Extensive categorization covering everything from traditional web development and DevOps to cutting-edge AI, machine learning, and quantum computing",
-          "Regularly updated selections highlighting modern paradigms such as LLM orchestration agents, Model Context Protocol (MCP) servers, and local inference engines",
-          "Seamlessly integrated companion website (awesome-python.com) that enables fast searching and filtering of hundreds of top-tier open-source projects",
-          "Direct links to official repositories, allowing developers to immediately inspect stars, contribution health, and codebases"
+          "Pure Rust Reverse Engineering Engine: Features over 300 built-in native decoders, disassemblers, and decompilers that analyze codebases, binaries, web assets, and game files without relying on external runtimes.",
+          "Dual Inspection Modes (Clean Room vs. Deep): Operates strictly from observable external behavior in Clean Room mode, or unlocks comprehensive internal code and file analysis using built-in engines and Ghidra in Deep mode.",
+          "Automated Build Verification Loop: Follows a structured four-step process of Study, Build, Check, and Ready, comparing the newly generated software against original targets to iteratively correct discrepancies.",
+          "Dual Interface with Model Context Protocol (MCP) Support: Exposes its 320 capabilities uniformly across a desktop application built with egui, a command-line interface, and an MCP server so external AI agents can drive the engine directly."
         ],
-        "target_audience": "Python developers, data engineers, AI/ML practitioners, DevOps engineers, and software architects looking for reliable, production-ready libraries.",
-        "practical_developer_value": "Developers save countless hours of research by using this list as a trusted starting point when evaluating packages for new projects, ensuring they choose actively maintained, high-performance industry standards instead of abandoned or subpar alternatives.",
+        "target_audience": "Software engineers, security researchers, AI application developers, and reverse-engineering enthusiasts looking for robust automated tooling to comprehend legacy or proprietary codebases.",
+        "practical_developer_value": "Developers can dramatically accelerate the process of modernizing legacy software, understanding undocumented third-party libraries, or prototyping alternative implementations of existing platforms. By exposing a comprehensive CLI and MCP server, it allows developers to integrate advanced reverse-engineering and verification pipelines directly into their automated AI workflows.",
         "suggested_use_cases": [
-          "Sourcing state-of-the-art agentic frameworks, RAG toolkits, and local inference engines for a new generative AI application",
-          "Discovering robust async web frameworks, database ORMs, and security tools when spinning up a new microservice architecture"
+          "Recreating proprietary applications or web interfaces in a modern programming language or framework by studying their runtime behavior and layout.",
+          "Auditing and deconstructing native binaries, firmware, or game mechanics to generate clean-room functional equivalents and documentation."
         ]
       }
     },
     {
       "rank": 3,
-      "name": "modelflare-ai/AnyModelBot",
+      "name": "Verlintas/NOIR",
       "score": 88,
-      "reason": "A timely, local-first multi-model agent platform bridging desktop and communication apps like WeChat and Feishu with over 70 AI models.",
-      "why_interesting_today": "The push toward local-first privacy combined with unified access to competing frontier models (GPT, Claude, Gemini, DeepSeek) is a major trend.",
-      "why_developers_should_care": "It offers an open-source alternative to proprietary assistant bots, enabling deeply customized personal automation workflows with pay-per-use flexibility.",
-      "momentum": "Solid emerging traction for an early-stage repository created just days ago.",
-      "novelty": "Strong combination of local-first architecture, computer-use capabilities, and multi-messenger integration.",
+      "reason": "A highly practical privacy and security utility for Android devices leveraging ADB and static analysis.",
+      "why_interesting_today": "With rising concerns over telemetry, background data leakage, and bloated apps, mobile device privacy audits are increasingly critical.",
+      "why_developers_should_care": "Provides developers and security enthusiasts with a CLI/TUI tool to audit permissions, trace endpoints, and apply reversible fixes.",
+      "momentum": "Steady organic interest and adoption in the mobile security and privacy niche.",
+      "novelty": "Strong; brings terminal-ui driven static analysis and granular data flow auditing directly to mobile device management via ADB.",
       "deep_analysis": {
-        "name": "modelflare-ai/AnyModelBot",
-        "headline_hook": "Run a local-first, privacy-focused AI agent on your own hardware that integrates with desktop tools, messaging apps, and over 70 frontier models through pay-as-you-go billing.",
-        "core_functionality": "AnyModelBot is a local-first desktop and server application that bridges multiple AI frontier models (GPT, Claude, Gemini, DeepSeek, Grok) with everyday chat platforms like WeChat, Feishu, Telegram, Slack, and Discord. It serves as a persistent personal agent capable of reading/writing files, executing sandbox commands, and performing computer-use actions, while ensuring complete user control via human-in-the-loop approval gates for sensitive operations.",
+        "name": "Verlintas/NOIR",
+        "headline_hook": "Transform any Android device's telemetry, permissions, and network footprint into an actionable, reproducible privacy audit report entirely offline.",
+        "core_functionality": "NOIR is an offline desktop utility that interfaces with Android devices via ADB to audit application manifests, runtime permissions, and hardcoded network endpoints. It computes risk scores, identifies trackers, translates permissions into real-world data exposure risks, and generates reversible remediation scripts without requiring root access or cloud telemetry.",
         "key_features": [
-          "Unified Multi-Model Gateway via Modelflare: Access over 70 text, image, and video models from 13 providers under a single account with transparent token-based pricing and automated caching guarantees.",
-          "Granular Sandbox and Human-in-the-Loop Permissions: Assign agents strict autonomy tiers ranging from read-only to full workspace control, requiring explicit user approval cards for actions that breach designated boundaries.",
-          "Omnichannel Messaging Integration: Deploy persona-based bots not just locally, but directly into mainstream communication tools like WeChat, Feishu, and Slack with robust group chat handling and slash commands.",
-          "Autonomous Background Tasks and Rules: Schedule recurring tasks, trigger time-based rules (e.g., monitoring metrics or checking prices), and maintain budgets per task to limit API consumption safely."
+          "On-device endpoint extraction using unzip and strings over ADB to minimize transfer overhead and inspect DEX-level network destinations.",
+          "Comprehensive data correlation mapping raw permissions to specific data assets like location, contacts, and media, paired with automatic manufacturer and tracker categorization.",
+          "DeepScan engine utilizing local jadx integration to perform static analysis and regex grep for high-risk runtime calls and exported components.",
+          "Automated remediation planning that outputs precise appops configurations and rollback commands for granular privacy control."
         ],
-        "target_audience": "Software developers, AI engineers, and power users who want self-hosted, privacy-compliant multi-model agent workflows without locking into a single proprietary subscription ecosystem.",
-        "practical_developer_value": "Developers gain a ready-to-run, open-source Super Agent framework built on top of DeepSeek Harness and Cua Driver. It provides a blueprint for secure local file execution, multi-channel messaging adapters, and cost-managed background task automation that can be extended or deployed via Docker for custom personal and professional workflows.",
+        "target_audience": "Android developers, security researchers, privacy-conscious engineers, and mobile QA specialists.",
+        "practical_developer_value": "Developers can use NOIR to internally audit their own Android applications for leaked network endpoints, overly permissive manifest configurations, and exposed components before shipping to production. It saves hours of manual reverse engineering by automatically orchestrating ADB pulls and static analysis workflows locally.",
         "suggested_use_cases": [
-          "Automating local file organization, report generation, and workspace cleanups with safe, approval-gated directory modifications.",
-          "Integrating a multi-model personal assistant into team communication tools like Slack or Feishu for asynchronous research and task handling."
+          "Auditing pre-installed OEM apps and third-party software on personal or test Android devices for unexpected telemetry and background data leakage.",
+          "Integrating into local CI or staging workflows to verify that test builds do not contain unauthorized tracking domains or insecure debug flags."
         ]
       }
     },
     {
       "rank": 4,
-      "name": "physicsdolphin/nv-uefi-unlocker",
+      "name": "BryceYuuu/RUN",
       "score": 85,
-      "reason": "A technically fascinating low-level systems project implementing a Rust-based UEFI pre-driver unlocker for NVIDIA GPUs.",
-      "why_interesting_today": "Deep hardware-level hacking and firmware manipulation tools in Rust are rare, highly technical feats that capture advanced developer curiosity.",
-      "why_developers_should_care": "Showcases advanced systems programming, UEFI internals, and secure bootloader payload mechanisms.",
-      "momentum": "Steady initial traction among systems engineers and hardware enthusiasts.",
-      "novelty": "Extremely high technical novelty and niche hardware utility.",
+      "reason": "Rapidly trending informational resource providing a comprehensive emigration and relocation guide for Europe.",
+      "why_interesting_today": "Curated, multi-country migration guides represent high-utility reference material that captures immense community attention.",
+      "why_developers_should_care": "While non-technical code-wise, it exemplifies structured documentation and crowdsourced knowledge organization that tech workers frequently reference.",
+      "momentum": "Strong viral momentum with 1,494 new stars shortly after release.",
+      "novelty": "Moderate-high for a GitHub repository, serving as an exhaustive, structured handbook for international mobility.",
       "deep_analysis": {
-        "name": "physicsdolphin/nv-uefi-unlocker",
-        "headline_hook": "Unlock up to 2.6x higher AI tensor performance on GeForce consumer GPUs entirely in UEFI before the driver loads, without flashing the VBIOS.",
-        "core_functionality": "The project is a low-level systems tool written in Rust that acts as a UEFI pre-driver unlocker for NVIDIA GeForce GPUs (GTX 16, RTX 20, 30, and 40 series). It removes artificial hardware limitations and constraints on Tensor core calculations, effectively restoring full compute performance for FP16, BF16, TF32, and FP8 workloads used in AI training, fine-tuning, and inference.",
+        "name": "BryceYuuu/RUN",
+        "headline_hook": "Navigating international relocation as a software engineer just got easier with this massive, open-source guide tracking 36 European countries and 110 immigration routes.",
+        "core_functionality": "The project serves as a comprehensive, crowdsourced emigration and relocation handbook that aggregates up-to-date immigration pathways, digital nomad visas, skilled work permits, EU Blue Cards, startup options, and investment requirements across Europe and major global destinations.",
         "key_features": [
-          "Pre-OS UEFI Execution: Operates before the operating system bootloader hands over control, applying patches and interacting with GPU firmware early in the boot sequence without requiring kernel-level hooks.",
-          "Non-Destructive Volatile Patching: Does not permanently flash or modify the Video BIOS (VBIOS); changes live entirely in volatile memory and revert automatically upon a full system power cycle.",
-          "Rust-Based Safety and Rigor: Employs strict read-back validation, mock testing frameworks, and robust transaction chains to ensure hardware safety during low-level register and firmware manipulations.",
-          "Cross-Platform Boot Media Generation: Includes streamlined deployment scripts for Windows, Linux, and compatible environments to quickly provision self-contained UEFI bootable FAT32 USB drives."
+          "Maintains a granular country-by-country breakdown covering 36 European nations with living costs, salary thresholds, tax info, and processing times.",
+          "Categorizes relocation paths into clear functional buckets such as digital nomad, skilled tech work, study-to-work, and startup self-employment.",
+          "Provides regular timestamped updates on rapidly changing global visa policies, such as British permanent residency changes and Canadian Express Entry rules.",
+          "Includes cross-cutting reference tables comparing residency requirements, path durations, and passport timelines for technical professionals."
         ],
-        "target_audience": "AI researchers, machine learning engineers, and local LLM operators running workloads on consumer-grade NVIDIA hardware, alongside systems programmers and low-level firmware developers interested in UEFI programming and GPU internals.",
-        "practical_developer_value": "Developers and researchers working with local large language models or computer vision pipelines can dramatically boost throughput on consumer hardware (such as RTX 4090 or 3090 setups) without expensive enterprise accelerators. For systems engineers, the codebase serves as an advanced, real-world reference for writing safe, production-grade UEFI applications in Rust that interface directly with complex hardware components.",
+        "target_audience": "Software developers, DevOps engineers, tech leads, and remote-first digital workers looking to relocate, work remotely from abroad, or secure international employment.",
+        "practical_developer_value": "Relocation requires filtering through chaotic and outdated government sites; this repository acts as a structured, developer-maintained data reference that saves hundreds of hours of research by standardizing immigration criteria, salary minimums, and document preparation steps.",
         "suggested_use_cases": [
-          "Unlocking full FP16 and TF32 tensor throughput on consumer GeForce GPUs to accelerate local fine-tuning and inference for open-source LLMs.",
-          "Studying low-level UEFI development in Rust, including custom bootloader implementation, memory-mapped I/O, and secure hardware state transactions."
+          "Researching remote-friendly European digital nomad visas and income thresholds before applying.",
+          "Comparing EU Blue Card salary limits and permanent residency timelines across different tech hubs like Germany, France, and Estonia."
         ]
       }
     },
     {
       "rank": 5,
-      "name": "Arjun-Ingole/hop",
-      "score": 82,
-      "reason": "A pragmatic utility solving a classic friction point: installing Linux directly next to Windows without needing a bootable USB stick.",
-      "why_interesting_today": "Lowers the barrier to entry for dual-booting and experimenting with alternative operating systems directly from a PowerShell interface.",
-      "why_developers_should_care": "Provides a smooth, frictionless onboarding path for developers who want a local Linux environment without dealing with traditional partitioning and ISO flashing hassles.",
-      "momentum": "Healthy organic interest for a specialized utility script.",
-      "novelty": "High practical convenience for developers seeking dual-boot setups without hardware workarounds.",
+      "name": "caru-ini/stack-diagram",
+      "score": 83,
+      "reason": "An innovative agent skill that automatically transforms a text-based stack description into a visual architecture diagram with official logos.",
+      "why_interesting_today": "Automating tedious documentation tasks using AI agent skills saves developers significant time during project kickoffs.",
+      "why_developers_should_care": "Streamlines the creation of professional system architecture diagrams directly from natural language specifications.",
+      "momentum": "Solid early adoption among AI coding assistant users and developer workflow tool enthusiasts.",
+      "novelty": "High; bridges the gap between natural language stack descriptions and polished architecture visuals using agentic workflows.",
       "deep_analysis": {
-        "name": "Arjun-Ingole/hop",
-        "headline_hook": "Hop eliminates the friction of dual-booting by letting you install Linux directly from a Windows PowerShell interface without ever needing a bootable USB stick.",
-        "core_functionality": "hop is a single Windows application built with .NET that abstracts away the tedious and error-prone process of dual-booting Linux alongside Windows. Instead of requiring a formatted USB stick, BIOS configuration for external media, and manual partition management, hop automates downloading verified Linux ISOs, safely shrinking partitions, creating a temporary internal installation partition, and registering a one-time UEFI boot entry.",
+        "name": "caru-ini/stack-diagram",
+        "headline_hook": "Turn a single sentence describing your tech stack into a clean, professional architecture diagram with official logos using an AI agent skill.",
+        "core_functionality": "stack-diagram is an AI agent skill that translates natural language text descriptions of technology stacks into visual architecture diagrams. It fetches authentic brand and cloud provider logos, routes lines cleanly around text labels, and generates self-contained visual outputs supporting light and dark themes.",
         "key_features": [
-          "Intelligent partition management that can clear unmovable files blocking drive shrinking in a single click.",
-          "Automated internal USB emulation by writing ISO files to a local FAT32 partition and adding a signed UEFI startup entry for the next boot only.",
-          "Comprehensive safety checks, built-in undo functionality to restore space to the host drive, and the ability to clean up existing Linux installations.",
-          "Broad support for major Linux distributions including Ubuntu and its flavors, Fedora, Debian, Arch, and elementary OS."
+          "Fetches and embeds official unadulterated logos from curated open sources and major cloud providers including AWS, Google Cloud, and Azure without recoloring or altering them.",
+          "Intelligently routes connecting lines around text labels to prevent visual clutter and layout overlap.",
+          "Exports versatile formats including self-contained standalone HTML files, PNG images via Playwright, dependency-free React components, and native Claude artifacts.",
+          "Supports dual-theme rendering with smart handling that preserves white tiles for brand color fidelity while dynamically adapting group labels for dark mode."
         ],
-        "target_audience": "Software developers, sysadmins, and tech enthusiasts who frequently test operating systems, container setups, or cross-platform toolchains on bare metal without wanting to disrupt their primary Windows workflow.",
-        "practical_developer_value": "Developers often need to test applications against native Linux environments to catch platform-specific bugs, file system performance issues, or containerization edge cases. hop reduces the barrier to entry for setting up a bare-metal Linux testing environment from hours of manual disk management down to a single drag-and-click Windows interface.",
+        "target_audience": "Full-stack developers, solution architects, technical writers, and engineering teams looking to automate project documentation and technical onboarding materials.",
+        "practical_developer_value": "Developers often waste valuable hours manually designing architecture diagrams in tools like Figma or Excalidraw during project kickoffs, documentation updates, or proposal writing. This tool automates the entire process directly from natural language via AI coding agents like Claude Code or Cursor, saving time and keeping documentation synchronized with the actual tech stack.",
         "suggested_use_cases": [
-          "Rapidly provisioning a dual-boot environment on a development laptop to test native Linux command-line tools and performance benchmarks.",
-          "Onboarding junior developers onto Linux-first development stacks without requiring them to purchase or configure external boot media."
+          "Generating professional architecture diagrams automatically for newly initialized GitHub repositories and project READMEs.",
+          "Creating cloud infrastructure diagrams for AWS, Google Cloud, or Azure deployments directly from a textual configuration summary."
         ]
       }
     }
