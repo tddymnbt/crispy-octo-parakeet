@@ -44,8 +44,8 @@
       "caption": "Stop wasting hours manually dragging boxes in Figma or Excalidraw just to sketch out a project kickoff or README update. 🎨⏱️\n\nMeet stack-diagram: an open-source AI agent skill that translates a single natural language sentence into a clean, professional architecture diagram with official logos. 🚀\n\nSay goodbye to messy documentation and tedious layout work. This tool automates the entire process directly from your text prompts via AI coding agents like Claude Code or Cursor.\n\n✨ Key features you'll love:\n• Authentic Logos: Automatically fetches unadulterated official brand and cloud provider logos from AWS, GCP, Azure, and curated open sources without altering brand colors.\n• Smart Line Routing: Intelligently routes connecting lines around text labels to prevent visual clutter and layout overlap.\n• Versatile Exports: Generates standalone HTML files, PNG images via Playwright, dependency-free React components, and native Claude artifacts.\n• Dual-Theme Rendering: Supports smart light and dark themes while preserving white icon tiles for brand color fidelity.\n\nWhether you are onboarding new engineers, drafting a client proposal, or mapping out cloud infrastructure for AWS or Azure, this keeps your documentation instantly synchronized with your actual tech stack. ☁️💻\n\nCheck it out on GitHub and automate your architecture diagrams today:\nhttps://github.com/caru-ini/stack-diagram\n\nDrop a comment below and let us know what tech stack you will diagram first! 👇\n\n#SoftwareEngineering #WebDev #CloudComputing #ArtificialIntelligence #DeveloperTools #OpenSource",
       "image_file": "5_caru-ini_stack-diagram.png",
       "photo_id": "122127085899476221",
-      "published_post_id": null,
-      "published_at": null
+      "published_post_id": "1410193715501138_122127257709476221",
+      "published_at": "2026-11-04T23:00:44.889683+08:00"
     }
   ]
 }
