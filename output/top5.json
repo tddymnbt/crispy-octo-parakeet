@@ -2,53 +2,53 @@
   "top_repositories": [
     {
       "rank": 1,
-      "name": "obra/superpowers",
+      "name": "deepseek-ai/deepseek-harness",
       "score": 96,
-      "reason": "Exceptional star momentum with 634 new stars on an innovative agentic skills framework and software development methodology.",
-      "why_interesting_today": "As agent-driven workflows mature, frameworks that structure how subagents operate and collaborate are seeing explosive developer interest.",
-      "why_developers_should_care": "It offers a concrete, structured methodology for integrating autonomous agents into the standard software development lifecycle (SDLC).",
-      "momentum": "Extremely high daily star growth (634 stars) and active fork accumulation for a recent project.",
-      "novelty": "High; pushes beyond basic prompt engineering into a systematic agentic skills framework."
+      "reason": "Extremely high star growth from a major AI organization, introducing a modular plug-and-play architecture for AI agents.",
+      "why_interesting_today": "It addresses the massive industry shift towards modular AI agent execution environments, pushing 'Everything is a Plugin' as a core paradigm.",
+      "why_developers_should_care": "Developers building and orchestrating complex AI agents get a standardized, highly extensible harness directly from DeepSeek.",
+      "momentum": "Outstanding star and fork growth, indicating immediate heavy adoption and community attention.",
+      "novelty": "High; reimagines agentic frameworks through a unified, ultra-modular plugin architecture."
     },
     {
       "rank": 2,
-      "name": "storytold/craft-anything",
-      "score": 94,
-      "reason": "Massive viral star growth (4,281 stars) right out of the gate for a Rust-based utility aimed at software comprehension and crafting.",
-      "why_interesting_today": "Developers are constantly looking for robust, systems-level tooling to deconstruct and understand complex codebases quickly.",
-      "why_developers_should_care": "Written in Rust, it delivers high performance and reliability when analyzing how software works under the hood.",
-      "momentum": "Outstanding viral growth trajectory with over 4,200 new stars and hundreds of forks immediately after launch.",
-      "novelty": "Very high; combines deep code analysis with a unique crafting paradigm in systems programming."
+      "name": "elvarofficial/teardown",
+      "score": 91,
+      "reason": "An imaginative and practical Claude Code skill that bridges terminal/coding workflows with 3D physical visualization.",
+      "why_interesting_today": "Combines AI coding assistance with novel simulation outputs, capturing the current excitement around interactive AI tools.",
+      "why_developers_should_care": "It demonstrates the expanding capabilities of Claude Code skills, turning abstract codebases or machine environments into explorable 3D simulators.",
+      "momentum": "Rapidly accumulating momentum with strong star and fork growth relative to its age.",
+      "novelty": "Very high; blending developer terminal workflows with 3D simulation models is a unique concept."
     },
     {
       "rank": 3,
-      "name": "Verlintas/NOIR",
-      "score": 88,
-      "reason": "A highly practical privacy and security utility for Android devices leveraging ADB and static analysis.",
-      "why_interesting_today": "With rising concerns over telemetry, background data leakage, and bloated apps, mobile device privacy audits are increasingly critical.",
-      "why_developers_should_care": "Provides developers and security enthusiasts with a CLI/TUI tool to audit permissions, trace endpoints, and apply reversible fixes.",
-      "momentum": "Steady organic interest and adoption in the mobile security and privacy niche.",
-      "novelty": "Strong; brings terminal-ui driven static analysis and granular data flow auditing directly to mobile device management via ADB."
+      "name": "BryceYuuu/RUN",
+      "score": 85,
+      "reason": "A comprehensive, high-utility curated guide on international mobility and European relocation routes.",
+      "why_interesting_today": "Gaining immense traction due to high practical utility and deep coverage of 36 European countries with 110 distinct pathways.",
+      "why_developers_should_care": "Provides an exceptional template for massive, crowdsourced, structured information repositories covering complex real-world topics.",
+      "momentum": "Exceptional daily star growth showing viral interest across tech communities.",
+      "novelty": "Moderate structurally, but high in terms of subject matter depth and curation quality."
     },
     {
       "rank": 4,
-      "name": "BryceYuuu/RUN",
-      "score": 85,
-      "reason": "Rapidly trending informational resource providing a comprehensive emigration and relocation guide for Europe.",
-      "why_interesting_today": "Curated, multi-country migration guides represent high-utility reference material that captures immense community attention.",
-      "why_developers_should_care": "While non-technical code-wise, it exemplifies structured documentation and crowdsourced knowledge organization that tech workers frequently reference.",
-      "momentum": "Strong viral momentum with 1,494 new stars shortly after release.",
-      "novelty": "Moderate-high for a GitHub repository, serving as an exhaustive, structured handbook for international mobility."
+      "name": "govijr/terminal-mac",
+      "score": 83,
+      "reason": "A delightful terminal-based project that renders an entire macOS environment directly inside the command line.",
+      "why_interesting_today": "Pushes the boundaries of TUI (Terminal User Interface) design and Swift-based terminal applications.",
+      "why_developers_should_care": "Offers inspiration and technical patterns for developers building advanced terminal-based interfaces and emulators.",
+      "momentum": "Strong early-stage traction and interest from terminal enthusiasts and Swift developers.",
+      "novelty": "High; running a graphical operating system concept purely inside a text-based terminal interface is technically fascinating."
     },
     {
       "rank": 5,
-      "name": "caru-ini/stack-diagram",
-      "score": 83,
-      "reason": "An innovative agent skill that automatically transforms a text-based stack description into a visual architecture diagram with official logos.",
-      "why_interesting_today": "Automating tedious documentation tasks using AI agent skills saves developers significant time during project kickoffs.",
-      "why_developers_should_care": "Streamlines the creation of professional system architecture diagrams directly from natural language specifications.",
-      "momentum": "Solid early adoption among AI coding assistant users and developer workflow tool enthusiasts.",
-      "novelty": "High; bridges the gap between natural language stack descriptions and polished architecture visuals using agentic workflows."
+      "name": "mromidev/claude-animated-shorts",
+      "score": 80,
+      "reason": "A creative Claude skill combining Three.js and Remotion to automatically generate viral 2D-in-3D animated storytelling shorts.",
+      "why_interesting_today": "Taps directly into the booming generative video and automated content-creation developer niche.",
+      "why_developers_should_care": "Showcases how developers can chain AI coding assistants with modern web animation and video rendering libraries (Three.js + Remotion) for end-to-end media automation.",
+      "momentum": "Solid organic adoption with healthy fork counts indicating practical experimentation by creators.",
+      "novelty": "High; automates the creation of complex animated shorts using standard web tech stacks driven by AI skills."
     }
   ]
 }
