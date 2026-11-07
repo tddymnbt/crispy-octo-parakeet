@@ -44,8 +44,8 @@
       "caption": "Tired of bloated, Electron-based note apps that chew through your RAM and lag when you paste a massive code block? \n\nMeet Quiet.md: a blazing-fast, local-first notes application built with Rust and GPUI that ditches WebViews entirely for native GPU rendering. \n\n🔥 The Problem It Solves:\nModern note-taking apps are sluggish, memory-heavy, and lock your data in proprietary clouds. Quiet.md fixes this by giving you a high-performance, GPU-accelerated native desktop client. It stores your work locally as individual files using the Feishu (Lark) DocxXML format, meaning you keep total ownership and can track everything seamlessly with Git.\n\n⚡ Standout Features:\n• Sub-6ms Frame Processing: Built with Rust and GPUI to handle million-character documents without breaking a sweat.\n• 100% Local-First: Zero mandatory background services, zero telemetry, and complete offline capability.\n• Rich Developer-Focused Formatting: Natively supports tables, callouts, LaTeX math, and code blocks.\n• Customizable Theming: Pre-built styles matching tools like Obsidian and Notion, plus custom CSS injection support.\n\nWhether you are a Rust developer looking for a production-grade reference implementation for building complex GUI apps with GPUI, or a technical writer demanding a lightning-fast workspace, Quiet.md is worth a star on GitHub.\n\n👉 Check it out and explore the source code here: https://github.com/s1dashu/quiet-md\n\nWhat is your go-to tech stack for building desktop tools? Drop your thoughts below and don't forget to star the repo if you love Rust-powered apps!\n\n#RustLang #GPUI #SoftwareEngineering #OpenSource #DeveloperTools #LocalFirst",
       "image_file": "5_s1dashu_quiet-md.png",
       "photo_id": "122128101411476221",
-      "published_post_id": null,
-      "published_at": null
+      "published_post_id": "1410193715501138_122128325967476221",
+      "published_at": "2026-11-07T23:00:38.842874+08:00"
     }
   ]
 }
