@@ -1,0 +1,407 @@
+{
+  "snapshot_date": "2026-11-08",
+  "generated_at": "2026-11-08T23:01:01.900723+00:00",
+  "candidate_count": 40,
+  "repositories": [
+    {
+      "name": "codecrafters-io/build-your-own-x",
+      "url": "https://github.com/codecrafters-io/build-your-own-x",
+      "stars": 561073,
+      "forks": 52502,
+      "language": "Markdown",
+      "created_at": "2018-05-09T12:03:18Z",
+      "updated_at": "2026-11-08T23:00:12Z",
+      "pushed_at": "2026-11-08T16:38:15Z"
+    },
+    {
+      "name": "public-apis/public-apis",
+      "url": "https://github.com/public-apis/public-apis",
+      "stars": 497314,
+      "forks": 55595,
+      "language": "Python",
+      "created_at": "2016-03-20T23:49:42Z",
+      "updated_at": "2026-11-08T22:59:42Z",
+      "pushed_at": "2026-11-07T19:45:54Z"
+    },
+    {
+      "name": "freeCodeCamp/freeCodeCamp",
+      "url": "https://github.com/freeCodeCamp/freeCodeCamp",
+      "stars": 458767,
+      "forks": 48145,
+      "language": "TypeScript",
+      "created_at": "2014-12-24T17:49:19Z",
+      "updated_at": "2026-11-08T22:39:28Z",
+      "pushed_at": "2026-11-08T17:31:39Z"
+    },
+    {
+      "name": "morluto/rea",
+      "url": "https://github.com/morluto/rea",
+      "stars": 443626,
+      "forks": 109588,
+      "language": "TypeScript",
+      "created_at": "2026-04-14T00:51:32Z",
+      "updated_at": "2026-11-08T23:00:23Z",
+      "pushed_at": "2026-11-08T23:00:41Z"
+    },
+    {
+      "name": "EbookFoundation/free-programming-books",
+      "url": "https://github.com/EbookFoundation/free-programming-books",
+      "stars": 401299,
+      "forks": 67429,
+      "language": "Python",
+      "created_at": "2013-10-11T06:50:37Z",
+      "updated_at": "2026-11-08T22:44:34Z",
+      "pushed_at": "2026-11-07T19:10:09Z"
+    },
+    {
+      "name": "openclaw/openclaw",
+      "url": "https://github.com/openclaw/openclaw",
+      "stars": 394216,
+      "forks": 82845,
+      "language": "TypeScript",
+      "created_at": "2025-11-24T10:16:47Z",
+      "updated_at": "2026-11-08T22:58:51Z",
+      "pushed_at": "2026-11-08T22:58:41Z"
+    },
+    {
+      "name": "nilbuild/developer-roadmap",
+      "url": "https://github.com/nilbuild/developer-roadmap",
+      "stars": 371561,
+      "forks": 45565,
+      "language": "TypeScript",
+      "created_at": "2017-03-15T13:45:52Z",
+      "updated_at": "2026-11-08T22:41:18Z",
+      "pushed_at": "2026-11-08T16:06:59Z"
+    },
+    {
+      "name": "jwasham/coding-interview-university",
+      "url": "https://github.com/jwasham/coding-interview-university",
+      "stars": 364104,
+      "forks": 85487,
+      "language": null,
+      "created_at": "2016-06-06T02:34:12Z",
+      "updated_at": "2026-11-08T22:37:23Z",
+      "pushed_at": "2026-11-07T16:03:02Z"
+    },
+    {
+      "name": "awesome-selfhosted/awesome-selfhosted",
+      "url": "https://github.com/awesome-selfhosted/awesome-selfhosted",
+      "stars": 335162,
+      "forks": 15773,
+      "language": null,
+      "created_at": "2015-06-01T02:33:17Z",
+      "updated_at": "2026-11-08T23:00:25Z",
+      "pushed_at": "2026-11-07T11:49:42Z"
+    },
+    {
+      "name": "vinta/awesome-python",
+      "url": "https://github.com/vinta/awesome-python",
+      "stars": 333430,
+      "forks": 29064,
+      "language": "Python",
+      "created_at": "2014-06-27T21:00:06Z",
+      "updated_at": "2026-11-08T22:57:26Z",
+      "pushed_at": "2026-11-08T14:42:33Z"
+    },
+    {
+      "name": "affaan-m/ECC",
+      "url": "https://github.com/affaan-m/ECC",
+      "stars": 299687,
+      "forks": 44272,
+      "language": "JavaScript",
+      "created_at": "2026-01-18T00:51:51Z",
+      "updated_at": "2026-11-08T22:58:03Z",
+      "pushed_at": "2026-11-06T21:21:50Z"
+    },
+    {
+      "name": "NousResearch/hermes-agent",
+      "url": "https://github.com/NousResearch/hermes-agent",
+      "stars": 261750,
+      "forks": 58198,
+      "language": "Python",
+      "created_at": "2025-07-22T22:22:28Z",
+      "updated_at": "2026-11-08T22:54:17Z",
+      "pushed_at": "2026-11-08T22:46:41Z"
+    },
+    {
+      "name": "torvalds/linux",
+      "url": "https://github.com/torvalds/linux",
+      "stars": 254888,
+      "forks": 67367,
+      "language": "C",
+      "created_at": "2011-09-04T22:48:12Z",
+      "updated_at": "2026-11-08T22:57:17Z",
+      "pushed_at": "2026-11-08T20:18:36Z"
+    },
+    {
+      "name": "react/react",
+      "url": "https://github.com/react/react",
+      "stars": 252421,
+      "forks": 52010,
+      "language": "JavaScript",
+      "created_at": "2013-05-24T16:15:54Z",
+      "updated_at": "2026-11-08T22:06:06Z",
+      "pushed_at": "2026-11-07T02:19:03Z"
+    },
+    {
+      "name": "anomalyco/opencode",
+      "url": "https://github.com/anomalyco/opencode",
+      "stars": 225522,
+      "forks": 30454,
+      "language": "TypeScript",
+      "created_at": "2025-04-30T20:08:00Z",
+      "updated_at": "2026-11-08T22:52:53Z",
+      "pushed_at": "2026-11-08T22:55:41Z"
+    },
+    {
+      "name": "ossu/computer-science",
+      "url": "https://github.com/ossu/computer-science",
+      "stars": 210979,
+      "forks": 26111,
+      "language": "HTML",
+      "created_at": "2014-05-04T00:18:39Z",
+      "updated_at": "2026-11-08T22:22:54Z",
+      "pushed_at": "2026-11-07T09:14:50Z"
+    },
+    {
+      "name": "n8n-io/n8n",
+      "url": "https://github.com/n8n-io/n8n",
+      "stars": 209848,
+      "forks": 61407,
+      "language": "TypeScript",
+      "created_at": "2019-06-22T09:24:21Z",
+      "updated_at": "2026-11-08T22:59:13Z",
+      "pushed_at": "2026-11-08T22:54:46Z"
+    },
+    {
+      "name": "tensorflow/tensorflow",
+      "url": "https://github.com/tensorflow/tensorflow",
+      "stars": 201401,
+      "forks": 78430,
+      "language": "C++",
+      "created_at": "2015-11-07T01:19:20Z",
+      "updated_at": "2026-11-08T22:34:22Z",
+      "pushed_at": "2026-11-08T22:39:44Z"
+    },
+    {
+      "name": "firecrawl/firecrawl",
+      "url": "https://github.com/firecrawl/firecrawl",
+      "stars": 199801,
+      "forks": 10514,
+      "language": "TypeScript",
+      "created_at": "2024-04-15T21:02:29Z",
+      "updated_at": "2026-11-08T22:59:34Z",
+      "pushed_at": "2026-11-08T16:51:25Z"
+    },
+    {
+      "name": "microsoft/vscode",
+      "url": "https://github.com/microsoft/vscode",
+      "stars": 195201,
+      "forks": 44449,
+      "language": "TypeScript",
+      "created_at": "2015-09-03T20:23:38Z",
+      "updated_at": "2026-11-08T22:48:34Z",
+      "pushed_at": "2026-11-08T22:18:47Z"
+    },
+    {
+      "name": "KKKKhazix/agent-autoloop",
+      "url": "https://github.com/KKKKhazix/agent-autoloop",
+      "stars": 4096,
+      "forks": 747,
+      "language": "TypeScript",
+      "created_at": "2026-11-03T08:02:11Z",
+      "updated_at": "2026-11-08T22:51:28Z",
+      "pushed_at": "2026-11-08T19:09:34Z"
+    },
+    {
+      "name": "worldonlyu/Google_AI_Pro_2Year_ZeroCost_Auto",
+      "url": "https://github.com/worldonlyu/Google_AI_Pro_2Year_ZeroCost_Auto",
+      "stars": 3248,
+      "forks": 1201,
+      "language": "Python",
+      "created_at": "2026-11-04T14:54:56Z",
+      "updated_at": "2026-11-08T22:50:30Z",
+      "pushed_at": "2026-11-06T03:52:06Z"
+    },
+    {
+      "name": "Minireel/HGhub",
+      "url": "https://github.com/Minireel/HGhub",
+      "stars": 3213,
+      "forks": 1351,
+      "language": "TypeScript",
+      "created_at": "2026-11-03T14:04:27Z",
+      "updated_at": "2026-11-08T22:54:27Z",
+      "pushed_at": "2026-11-08T02:42:53Z"
+    },
+    {
+      "name": "NotRexed/Hookshot",
+      "url": "https://github.com/NotRexed/Hookshot",
+      "stars": 2971,
+      "forks": 280,
+      "language": "C++",
+      "created_at": "2026-11-05T12:18:58Z",
+      "updated_at": "2026-11-08T22:59:57Z",
+      "pushed_at": "2026-11-08T21:38:21Z"
+    },
+    {
+      "name": "mromidev/claude-animated-shorts",
+      "url": "https://github.com/mromidev/claude-animated-shorts",
+      "stars": 2416,
+      "forks": 524,
+      "language": "TypeScript",
+      "created_at": "2026-11-01T05:50:38Z",
+      "updated_at": "2026-11-08T22:44:45Z",
+      "pushed_at": "2026-11-01T05:57:14Z"
+    },
+    {
+      "name": "govijr/terminal-mac",
+      "url": "https://github.com/govijr/terminal-mac",
+      "stars": 2380,
+      "forks": 162,
+      "language": "Swift",
+      "created_at": "2026-11-03T03:22:56Z",
+      "updated_at": "2026-11-08T22:49:42Z",
+      "pushed_at": "2026-11-07T05:58:26Z"
+    },
+    {
+      "name": "caru-ini/stack-diagram",
+      "url": "https://github.com/caru-ini/stack-diagram",
+      "stars": 2130,
+      "forks": 104,
+      "language": "TypeScript",
+      "created_at": "2026-11-01T05:35:12Z",
+      "updated_at": "2026-11-08T22:32:24Z",
+      "pushed_at": "2026-11-03T03:42:46Z"
+    },
+    {
+      "name": "wquguru/cicada",
+      "url": "https://github.com/wquguru/cicada",
+      "stars": 1910,
+      "forks": 330,
+      "language": "Swift",
+      "created_at": "2026-11-01T05:41:23Z",
+      "updated_at": "2026-11-08T22:53:02Z",
+      "pushed_at": "2026-11-08T15:07:23Z"
+    },
+    {
+      "name": "JenkinWoo/sheeridVerify",
+      "url": "https://github.com/JenkinWoo/sheeridVerify",
+      "stars": 1856,
+      "forks": 994,
+      "language": "JavaScript",
+      "created_at": "2026-11-06T09:28:09Z",
+      "updated_at": "2026-11-08T20:43:26Z",
+      "pushed_at": "2026-11-06T09:54:37Z"
+    },
+    {
+      "name": "sarpstar/cinecode",
+      "url": "https://github.com/sarpstar/cinecode",
+      "stars": 1575,
+      "forks": 285,
+      "language": "Python",
+      "created_at": "2026-11-03T10:08:16Z",
+      "updated_at": "2026-11-08T22:59:31Z",
+      "pushed_at": "2026-11-03T15:21:18Z"
+    },
+    {
+      "name": "Sandflow-ai/sand3d",
+      "url": "https://github.com/Sandflow-ai/sand3d",
+      "stars": 1377,
+      "forks": 144,
+      "language": "HTML",
+      "created_at": "2026-11-03T08:23:03Z",
+      "updated_at": "2026-11-08T22:58:14Z",
+      "pushed_at": "2026-11-06T11:03:55Z"
+    },
+    {
+      "name": "s1dashu/quiet-md",
+      "url": "https://github.com/s1dashu/quiet-md",
+      "stars": 1341,
+      "forks": 120,
+      "language": "Rust",
+      "created_at": "2026-11-01T14:22:53Z",
+      "updated_at": "2026-11-08T22:47:11Z",
+      "pushed_at": "2026-11-08T16:39:42Z"
+    },
+    {
+      "name": "livliv-dev/player",
+      "url": "https://github.com/livliv-dev/player",
+      "stars": 1328,
+      "forks": 139,
+      "language": "TypeScript",
+      "created_at": "2026-11-04T03:28:33Z",
+      "updated_at": "2026-11-08T22:13:47Z",
+      "pushed_at": "2026-11-08T11:11:07Z"
+    },
+    {
+      "name": "tangerineturtle1/NX2navi",
+      "url": "https://github.com/tangerineturtle1/NX2navi",
+      "stars": 1251,
+      "forks": 57,
+      "language": "C",
+      "created_at": "2026-11-07T10:01:23Z",
+      "updated_at": "2026-11-08T22:59:59Z",
+      "pushed_at": "2026-11-08T20:52:18Z"
+    },
+    {
+      "name": "mmdoctor/google-pro-helper",
+      "url": "https://github.com/mmdoctor/google-pro-helper",
+      "stars": 1244,
+      "forks": 444,
+      "language": "Python",
+      "created_at": "2026-11-05T04:52:28Z",
+      "updated_at": "2026-11-08T22:41:27Z",
+      "pushed_at": "2026-11-05T09:41:40Z"
+    },
+    {
+      "name": "CzJam/gjgjxweb",
+      "url": "https://github.com/CzJam/gjgjxweb",
+      "stars": 1209,
+      "forks": 104,
+      "language": "HTML",
+      "created_at": "2026-11-03T02:00:54Z",
+      "updated_at": "2026-11-08T22:56:44Z",
+      "pushed_at": "2026-11-07T12:19:22Z"
+    },
+    {
+      "name": "libracoder/kiri",
+      "url": "https://github.com/libracoder/kiri",
+      "stars": 1177,
+      "forks": 78,
+      "language": "Rust",
+      "created_at": "2026-11-02T16:11:30Z",
+      "updated_at": "2026-11-08T22:59:53Z",
+      "pushed_at": "2026-11-08T19:09:39Z"
+    },
+    {
+      "name": "voyager-so/vork",
+      "url": "https://github.com/voyager-so/vork",
+      "stars": 1112,
+      "forks": 81,
+      "language": "Rust",
+      "created_at": "2026-11-05T22:37:07Z",
+      "updated_at": "2026-11-08T22:34:04Z",
+      "pushed_at": "2026-11-07T20:54:07Z"
+    },
+    {
+      "name": "Leviidev/Henge",
+      "url": "https://github.com/Leviidev/Henge",
+      "stars": 1105,
+      "forks": 84,
+      "language": "C",
+      "created_at": "2026-11-02T01:13:51Z",
+      "updated_at": "2026-11-08T22:53:38Z",
+      "pushed_at": "2026-11-08T20:58:41Z"
+    },
+    {
+      "name": "chadyi/StudyOnTV",
+      "url": "https://github.com/chadyi/StudyOnTV",
+      "stars": 989,
+      "forks": 230,
+      "language": "Kotlin",
+      "created_at": "2026-11-01T15:31:22Z",
+      "updated_at": "2026-11-08T22:10:58Z",
+      "pushed_at": "2026-11-08T08:16:57Z"
+    }
+  ]
+}

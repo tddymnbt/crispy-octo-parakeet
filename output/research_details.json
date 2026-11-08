@@ -3,137 +3,136 @@
   "repositories": [
     {
       "rank": 1,
-      "name": "voyager-so/vork",
-      "score": 94,
-      "reason": "A headless 3D and VFX engine built specifically for AI agents, written in Rust with GPU support.",
-      "why_interesting_today": "Bridges the gap between modern high-performance rendering (Vulkan/Metal/Slang) and autonomous AI agent workflows.",
-      "why_developers_should_care": "As AI agents increasingly handle creative production, automated 3D rendering and VFX pipelines will require headless, programmatic engines like this.",
-      "momentum": "Strong early traction for an advanced systems-level research preview.",
-      "novelty": "High novelty; combining GPU ray-tracing pipelines with agent-native headless design is a cutting-edge architectural pattern.",
+      "name": "sarpstar/cinecode",
+      "score": 93,
+      "reason": "Combines generative AI coding agents with automated media production, synthesizing scripts, programmatic frame rendering, and sound design into a single pipeline.",
+      "why_interesting_today": "As AI video tools gain traction, shifting from black-box video generation to code-built frames and programmatic direction represents a fascinating paradigm shift in automated media creation.",
+      "why_developers_should_care": "It demonstrates how AI agents can orchestrate complex, multi-modal pipelines (scripting, graphics, audio, video muxing) using code as the intermediate representation.",
+      "momentum": "Strong interest and organic community buzz despite being a relatively recent release.",
+      "novelty": "High novelty in using an AI coding agent to generate entire short films and videos purely through programmatic execution and frame building.",
       "deep_analysis": {
-        "name": "voyager-so/vork",
-        "headline_hook": "vork is a headless 3D and VFX rendering engine written in Rust and Slang, built specifically for AI agents to write, render, and refine scenes without human-driven editors.",
-        "core_functionality": "vork solves the bottleneck of integrating high-end 3D graphics and VFX into autonomous AI agent workflows by providing a headless, GPU-accelerated rendering kernel. Instead of requiring a traditional GUI editor operated by a human, vork exposes geometry, ray queries, and GPU execution directly to code, allowing AI agents to generate scenes, write custom shaders, render previews, inspect results, and autonomously iterate on shots.",
+        "name": "sarpstar/cinecode",
+        "headline_hook": "cinecode bridges generative AI coding agents and automated media production, synthesizing scripts, programmatic frame rendering, and sound design into a single pipeline inside tools like Claude Code and Cursor.",
+        "core_functionality": "cinecode solves the friction of automated media creation by replacing black-box video generation models with code-driven execution. Operating inside developer environments like Claude Code and Cursor, an AI agent takes a user's concept, researches real-world references, writes scripts, programmatically builds visual frames using Three.js and Canvas 2D in a headless browser, designs spatial soundscapes via Web Audio, and compiles everything into a finished MP4 using FFmpeg.",
         "key_features": [
-          "Headless 3D and VFX rendering engine powered by Rust, Vulkan, and Metal, leveraging high-performance GPU ray queries without requiring a graphical user interface.",
-          "First-class agent integration via CLI commands, JSON schemas, and structured help tooling designed for AI consumption and iterative self-correction.",
-          "Advanced custom shader and simulation capabilities through Slang compute programs, enabling agents to implement complex physics, fluid simulations, and custom light propagation.",
-          "Comprehensive scene composition supporting both standalone 3D generation and advanced VFX compositing onto real-world video footage."
+          "Programmatic Frame Rendering: Generates high-fidelity scenes using code-built 3D environments via Three.js, Canvas 2D, and WebGL running inside headless Chrome rather than relying solely on unpredictable generative video models.",
+          "Dual Production Modes: Offers a Fast Mode for single-file, rapid turnarounds under three minutes, and a Film Mode for structured, multi-scene documentaries requiring detailed script approval, reference research, and layered audio.",
+          "Integrated Multi-Modal Sound Design: Automatically handles offline audio rendering, ambient soundscapes, cue-locked sound effects, text-to-speech narration, and audio mastering to -14 LUFS.",
+          "Developer-Native Workflow: Runs locally inside popular developer environments like Claude Code and Cursor without requiring costly third-party video generation SaaS subscriptions."
         ],
-        "target_audience": "AI engineers, autonomous agent developers, graphics programmers, and technical directors building generative media pipelines or automated content creation systems.",
-        "practical_developer_value": "Developers building autonomous agents can give them visual perception and creation capabilities. Instead of relying on unpredictable generative video models, agents can write deterministic 3D scenes, simulate physics, handle lighting, and composite VFX onto real footage with precise programmatic control.",
+        "target_audience": "AI engineers, creative technologists, frontend developers, and multimedia creators who want to leverage code and LLM agents for programmatic video production.",
+        "practical_developer_value": "Developers gain a fully scriptable, programmatic video generation pipeline that eliminates the nondeterministic nature of traditional AI video models. By treating video as code, engineering teams can version-control, automate, and dynamically template high-volume video production for marketing, social media, and educational content directly from their standard development environments.",
         "suggested_use_cases": [
-          "Building autonomous creative agents that generate, render, and refine cinematic shots or product visualizations entirely through code iteration.",
-          "Automating VFX workflows by programming camera tracking, proxy geometry, and relighting passes over live-action plates."
+          "Automating personalized product marketing videos and data-driven explainer clips for SaaS platforms using programmatic templates.",
+          "Generating dynamic, data-backed YouTube documentary videos complete with script research, synthetic narration, and timed kinetic typography."
         ]
       }
     },
     {
       "rank": 2,
-      "name": "livliv-dev/player",
-      "score": 91,
-      "reason": "A lightweight 2.5D character player for the web supporting real-time lip sync and webcam face tracking.",
-      "why_interesting_today": "Democratizes interactive web avatars and VTuber-style streaming directly in the browser via WebGL2 without heavy desktop runtimes.",
-      "why_developers_should_care": "Provides an easy drop-in frontend component for adding responsive, expressive character animations to web apps using standard VRM models.",
-      "momentum": "Rapid star accumulation and strong fork activity shortly after release.",
-      "novelty": "Refreshes browser-based character rendering by combining face-tracking and lip-sync into a compact TypeScript library.",
+      "name": "openclaw/openclaw",
+      "score": 90,
+      "reason": "An ambitious multi-platform personal AI assistant framework designed to handle real OS-level tasks and user data autonomously.",
+      "why_interesting_today": "General-purpose AI assistants that actually execute OS-level workflows continue to capture developer interest as they push beyond simple chatbot interfaces.",
+      "why_developers_should_care": "Offers a modular architecture for building cross-platform, agentic assistants that respect data ownership and local execution environments.",
+      "momentum": "Steady daily star growth and active pushes indicate robust ongoing development and high engagement.",
+      "novelty": "Moderate-high; pushes the envelope on practical, cross-platform personal AI execution rather than web-only wrappers.",
       "deep_analysis": {
-        "name": "livliv-dev/player",
-        "headline_hook": "Bring interactive 2.5D web avatars and VTuber-style streaming directly to the browser using a lightweight, dependency-free WebGL2 player.",
-        "core_functionality": "LivLiv Player solves the complexity and heavy resource requirements of traditional desktop VTuber and character runtimes by providing a lightweight, dependency-free WebGL2 JavaScript library that renders 2.5D characters, VRM models, and PNGTubers natively in the browser with real-time lip sync and webcam face tracking.",
+        "name": "openclaw/openclaw",
+        "headline_hook": "Take back control of your AI workflow with OpenClaw, an open-source, self-hosted multi-platform assistant framework that runs locally on your devices and integrates directly with your favorite chat apps.",
+        "core_functionality": "OpenClaw solves the problem of fragmented, cloud-locked AI assistants by providing a self-hosted, OS-level personal assistant framework. It runs locally on your hardware, managing your state, memory, and credentials while bridging AI models to more than 20 messaging platforms and native desktop or mobile operating systems through a unified local Gateway architecture.",
         "key_features": [
-          "Extremely lightweight core coming in at approximately 30 KB gzipped with zero runtime dependencies and built entirely on WebGL2.",
-          "Client-side real-time lip sync supporting microphone, audio, and video inputs, alongside in-browser webcam face tracking powered by Google MediaPipe.",
-          "Unified API capable of rendering LivLiv packages, VRM avatars via Three.js, and classic PNGTubers interchangeably.",
-          "Comprehensive out-of-the-box support for expressions, skeletal actions, and 21 pre-styled featured characters ready for immediate integration."
+          "Multi-platform Gateway architecture that acts as a local control plane for sessions, tools, events, and native integrations across macOS, Linux, Windows, iOS, and Android.",
+          "Extensive native chat channel integrations including WhatsApp, Telegram, Slack, Discord, Signal, and iMessage.",
+          "Modular plugin, tool, and skill system allowing developers to easily swap out model providers and extend assistant capabilities.",
+          "Built-in security primitives featuring strict pairing requirements for unknown inbound DM senders and extensible sandboxing for host-level tool execution."
         ],
-        "target_audience": "Frontend developers, web application creators, VTuber streaming tool builders, and UI/UX designers looking to integrate interactive animated avatars into websites or stream overlays without native desktop runtimes.",
-        "practical_developer_value": "Developers gain a drop-in ES module solution to embed expressive, responsive characters into web apps or OBS browser sources with just a few lines of JavaScript. It bypasses heavy server-side processing for tracking and speech by executing MediaPipe and audio analysis locally in the user's browser, significantly reducing infrastructure costs and latency.",
+        "target_audience": "AI engineers, privacy-conscious developers, and power users looking to build, self-host, and customize advanced agentic workflows that interact with real operating system tasks and messaging tools.",
+        "practical_developer_value": "Developers should care because OpenClaw eliminates the dependency on locked-down cloud assistant APIs, offering complete data sovereignty and a modular plugin SDK. You can use it in real-world projects to deploy a custom, context-aware autonomous agent that handles local desktop automation, orchestrates workflows across multiple chat platforms, and executes custom toolsets securely within your own infrastructure.",
         "suggested_use_cases": [
-          "Creating interactive virtual assistant or mascot widgets for customer service and education web applications.",
-          "Building browser-based VTuber stream overlays for OBS using transparent iframe embeddings with real-time webcam tracking."
+          "Deploying a centralized, self-hosted team or personal AI copilot that bridges multiple messaging apps like Slack and Telegram to a local LLM or cloud model.",
+          "Building custom automated development or system administration workflows using the plugin SDK and local host-level tool execution."
         ]
       }
     },
     {
       "rank": 3,
-      "name": "libracoder/kiri",
-      "score": 89,
-      "reason": "A small, fast container runtime designed to run natively across macOS, Windows, and Linux.",
-      "why_interesting_today": "Tackles cross-platform containerization friction with a lightweight implementation written in memory-safe Rust.",
-      "why_developers_should_care": "Offers developers a simpler, faster alternative for local container execution without heavy virtualization overhead.",
-      "momentum": "Solid initial interest and active code pushing from systems developers.",
-      "novelty": "High utility for local development workflows desiring lightweight, cross-platform container isolation.",
+      "name": "NotRexed/Hookshot",
+      "score": 88,
+      "reason": "A native decompilation project targeting advanced platform ports and modern remakes of classic gaming titles.",
+      "why_interesting_today": "Reverse engineering and native recompilation projects always attract intense technical scrutiny and excitement from systems programmers.",
+      "why_developers_should_care": "Provides deep insights into low-level systems programming, recompilation techniques, and handling complex legacy codebases for modern hardware architectures.",
+      "momentum": "Explosive star growth (over 1,200 stars recently) with solid fork traction from reverse-engineering enthusiasts.",
+      "novelty": "High novelty in targeting cutting-edge hardware remakes through clean-room native recompilation.",
       "deep_analysis": {
-        "name": "libracoder/kiri",
-        "headline_hook": "Tired of heavy local container environments? Kiri is a tiny, memory-safe Rust container runtime that boots up containers 80 times faster than Docker Desktop.",
-        "core_functionality": "Kiri solves the friction, high resource usage, and slowness of traditional local container runtimes like Docker Desktop. Written in Rust, it implements a lightweight replacement that speaks the standard Docker Engine API, meaning it works out of the box with your existing Docker CLI, Compose, and buildx workflows while spinning up a small Linux VM on macOS and Windows or running natively on Linux.",
+        "name": "NotRexed/Hookshot",
+        "headline_hook": "Hookshot performs static recompilation of modern console games into native Windows and Linux binaries, completely bypassing traditional emulation.",
+        "core_functionality": "Hookshot solves the challenge of playing modern console titles on standard PC hardware without the overhead of an emulator. It accomplishes this via static recompilation, translating game source code into C and compiling it directly into a native executable while reimplementing the console system software and mapping graphics calls to Vulkan.",
         "key_features": [
-          "Ultra-fast container lifecycle execution, spinning up and tearing down via the Docker API in approximately 2.5 milliseconds.",
-          "Extremely lightweight resource footprint, with the VM sleeping after 60 seconds of idle time, a daemon resting around 15 MB, and sub-second wake times.",
-          "Deep developer utility including local wildcard domains with custom certificates, single-command Kubernetes clusters, and standalone Linux machines.",
-          "Streamlined architecture bypassing traditional heavy layers like dockerd, runc, and shims in favor of a custom 10 MB kernel and a lean Rust guest agent using clone3 directly."
+          "Performs static source-to-source translation of console binaries into C code for direct native compilation on Windows and Linux.",
+          "Reimplements proprietary console system software layers natively on top of standard host operating systems.",
+          "Rebuilds modern console graphics pipelines directly on top of modern Vulkan APIs, leveraging advanced features like mesh shaders.",
+          "Provides a dedicated builder and launcher ecosystem that supports automated incremental compilation and updates."
         ],
-        "target_audience": "Full-stack developers, backend engineers, and DevOps professionals who rely heavily on local containers, Docker Compose stacks, and Kubernetes but want a faster, battery-friendly alternative to Docker Desktop or OrbStack.",
-        "practical_developer_value": "Developers can drop Kiri into their daily workflows without changing their command-line habits since it implements the Docker Engine API and integrates natively with the CLI and Compose. It drastically reduces battery drain and RAM overhead on laptops, speeds up local test cycles and integration testing through near-instant container boots, and provides seamless local routing for web applications using built-in local domains.",
+        "target_audience": "Systems programmers, reverse engineers, compiler engineers, and emulator developers interested in advanced binary translation and native performance optimization.",
+        "practical_developer_value": "Developers working in low-level systems, compiler design, and graphics pipeline translation can study Hookshot to understand advanced techniques in static recompilation, ahead-of-time code translation from proprietary instruction sets to C, and high-performance Vulkan graphics implementation.",
         "suggested_use_cases": [
-          "Running multi-container microservice applications locally via Docker Compose with minimal CPU and memory overhead.",
-          "Spinning up quick, disposable single-node Kubernetes clusters and lightweight Linux development VMs using native CLI commands."
+          "Studying advanced static binary translation and code generation architectures.",
+          "Researching techniques for reimplementing proprietary platform system software on open operating systems."
         ]
       }
     },
     {
       "rank": 4,
-      "name": "chadyi/StudyOnTV",
-      "score": 88,
-      "reason": "An open-source Android TV app where kids unlock screen time by solving educational questions, managed locally via a LAN QR code.",
-      "why_interesting_today": "A clever offline-first edtech utility focusing on digital wellbeing and parental control without reliance on external cloud accounts.",
-      "why_developers_should_care": "Demonstrates excellent local-first Android TV architecture, utilizing lightweight embedded management via local networks.",
-      "momentum": "Strong organic engagement from parents and developers looking for practical Android solutions.",
-      "novelty": "Brings the 'learn-first, watch-later' paradigm natively to smart TVs with zero server complexity.",
+      "name": "awesome-selfhosted/awesome-selfhosted",
+      "score": 85,
+      "reason": "The definitive, highly active community directory of free software network services and web applications for self-hosting.",
+      "why_interesting_today": "With ongoing shifts in cloud pricing and privacy concerns, self-hosting alternatives to SaaS products remain a massive priority for developers.",
+      "why_developers_should_care": "Serves as an indispensable resource for discovering open-source alternatives to proprietary cloud services, databases, and monitoring tools.",
+      "momentum": "Outstanding star velocity (over 300 daily star growth) for a mature list, proving enduring developer demand.",
+      "novelty": "Low novelty as a concept, but unmatched ongoing curation value for practical infrastructure.",
       "deep_analysis": {
-        "name": "chadyi/StudyOnTV",
-        "headline_hook": "An open-source Android TV and tablet app that enforces parental digital wellbeing by forcing kids to solve educational questions to unlock screen time, managed completely locally via a LAN QR code and zero external cloud servers.",
-        "core_functionality": "StudyOnTV solves the problem of excessive screen time and passive consumption on Android tablets, phones, and TVs. Instead of relying on rigid timers or external cloud accounts, it acts as an offline-first guardian that intercepts device usage and presents custom educational question banks. Children must successfully complete study tasks, math problems, or language tests to earn screen time minutes, while parents manage rules, question pools, and AI grading locally over a secure LAN connection.",
+        "name": "awesome-selfhosted/awesome-selfhosted",
+        "headline_hook": "Take back control of your data and infrastructure with the ultimate community-curated directory of free self-hosted software and web applications.",
+        "core_functionality": "It serves as a comprehensive, curated index of Free Software network services and web applications that developers and organizations can host on their own servers, eliminating reliance on proprietary SaaS providers.",
         "key_features": [
-          "Zero-Dependency Native Android Stack: Built entirely in Kotlin on the native side with zero third-party dependencies, running an embedded HTTP server via a raw ServerSocket on port 8099 to serve the admin dashboard locally.",
-          "Dual-Layer Client Architecture: Features a lightweight ES5 and CSS learning interface optimized for older WebViews alongside a modern React and shadcn/ui management dashboard accessible via local QR code scanning.",
-          "Comprehensive EdTech & AI Grading Engine: Supports advanced question formats including LaTeX math formulas, handwriting, voice input, spaced repetition, and subjective AI grading via integrated endpoints like DeepSeek, Ollama, and custom agents.",
-          "Robust Local Resilience: Leverages built-in Android SQLite for storing rules, question banks, and audit logs locally, ensuring privacy and continuity across device reboots and network disconnections."
+          "Extensive categorization covering everything from analytics, databases, and CI/CD pipelines to media streaming and project management.",
+          "Automated maintenance checks including active workflows to detect dead links and unmaintained projects.",
+          "Strictly enforces criteria ensuring listed projects are true free/open-source software or clearly documenting anti-features.",
+          "Available as both a structured Markdown repository and a polished, recommended HTML documentation site."
         ],
-        "target_audience": "Android developers, full-stack hobbyists, and tech-savvy parents seeking privacy-first digital wellbeing tools built with clean, minimalist native architectures.",
-        "practical_developer_value": "For Android developers, this repository serves as an exceptional reference implementation for building local-first utility apps that bridge low-level Android system components with lightweight embedded web servers. It demonstrates how to serve a modern React dashboard directly from an Android background service using raw sockets, manage SQLite persistence natively without heavy ORMs, and handle system-level audio focus, kiosk-like app restrictions, and boot receivers cleanly.",
+        "target_audience": "DevOps engineers, system administrators, privacy-conscious developers, indie hackers, and homelab enthusiasts looking to replace third-party SaaS products with self-hosted alternatives.",
+        "practical_developer_value": "Developers facing rising cloud API and SaaS pricing or strict data privacy constraints can use this repository as a reference catalog to rapidly discover, evaluate, and deploy open-source alternatives for logging, authentication, file storage, and software development tools directly onto their own infrastructure.",
         "suggested_use_cases": [
-          "Deploying a privacy-conscious, self-hosted screen time and parental control system on household Android TVs and tablets without trusting third-party cloud vendors.",
-          "Studying how to embed lightweight HTTP servers and serve single-page React applications locally inside an Android background service."
+          "Setting up a private, self-hosted analytics and error-tracking pipeline to comply with GDPR without relying on third-party cloud services.",
+          "Building out a complete internal developer platform using self-hosted CI/CD, project management, feature toggle, and API management tools."
         ]
       }
     },
     {
       "rank": 5,
-      "name": "Sandflow-ai/sand3d",
-      "score": 86,
-      "reason": "A Python-based 3D modeling and procedural CAD tool explicitly built to interface with Large Language Models.",
-      "why_interesting_today": "Explores text-to-CAD and procedural 3D generation patterns that bypass traditional GUI-heavy workflows like Blender.",
-      "why_developers_should_care": "Enables LLMs to programmatically generate, inspect, and manipulate 3D geometry and USD assets using Python.",
-      "momentum": "Steady early interest from developers experimenting with generative AI and 3D pipelines.",
-      "novelty": "Distinctive approach to procedural 3D modeling centered around AI-driven API generation rather than manual design.",
+      "name": "Minireel/HGhub",
+      "score": 82,
+      "reason": "A feature-rich third-party client for modern streaming and short-form video web applications across Windows and Android.",
+      "why_interesting_today": "Demonstrates cross-platform UI engineering in TypeScript, bridging desktop and mobile environments for alternative media consumption.",
+      "why_developers_should_care": "Provides a clean reference implementation for building multi-platform clients using modern web and TypeScript tech stacks.",
+      "momentum": "Rapidly accelerating star and fork growth indicating strong community adoption and utility.",
+      "novelty": "Moderate novelty in cross-platform UI design and API client architecture for niche media formats.",
       "deep_analysis": {
-        "name": "Sandflow-ai/sand3d",
-        "headline_hook": "Sand3d bridges the gap between text-to-CAD and programmatic 3D generation by letting LLMs write compact, human-readable Python code to build complex meshes, mechanical assemblies, and articulated robotics assets without GUI workflows.",
-        "core_functionality": "Sand3d is a Python-based 3D modeling and procedural CAD library built on top of Blender's bpy module. It replaces traditional GUI-heavy 3D workflows and verbose scripting languages with a concise vocabulary where 3D objects are defined as short, declarative code blocks. It enables LLMs to generate complete models, kinematic joints, and physics-ready assemblies within a tight token budget, outputting deterministic meshes and multi-format exports like GLB, URDF, and USD.",
+        "name": "Minireel/HGhub",
+        "headline_hook": "Discover how Minireel/HGhub leverages Rust and Tauri 2 to build a high-performance, cross-platform client for modern streaming applications across Windows, macOS, and Android.",
+        "core_functionality": "Minireel/HGhub is a feature-rich, cross-platform third-party client built with Rust and Tauri 2 that provides an immersive streaming and short-form video consumption experience across Windows, macOS, and Android with native Fluent design.",
         "key_features": [
-          "Token-Efficient API: The entire API surface fits into roughly 3,600 tokens, consuming 2 to 6 times fewer tokens per part than Blender Python, CadQuery, or FeatureScript.",
-          "Named Geometry and Topology: Parts, edges, and faces are addressed by semantic names rather than hand-computed coordinate matrices, reducing spatial reasoning errors for AI models.",
-          "Comprehensive Export Pipelines: A single call exports models to GLB for web viewing, URDF for ROS and physics simulators like PyBullet and Isaac, USDA for OpenUSD workflows, and raw OBJ or STL formats.",
-          "First-Class Articulation and Assemblies: Explicitly handles hierarchical groups, moving parts, kinematic joints (continuous, prismatic, hinge), and multi-part assemblies."
+          "Unified Edge Envelope networking architecture via reqwest and rustls that consolidates backend API requests to simplify proxying and avoid complex cookie management.",
+          "Custom protocol media handlers implemented in Rust for AES-128-CBC cover decryption and HLS stream rewriting (m3u8/fragments) to seamlessly bypass WebView CORS and hotlink protection constraints.",
+          "Cross-platform desktop and mobile support utilizing Tauri 2, combining a native Rust backend with a React 19, TypeScript, Vite 7, and Tailwind CSS 4 frontend.",
+          "Robust local state management handling navigation stacks, user profiles, local favorites, and custom UI themes optimized for immersive vertical video playback."
         ],
-        "target_audience": "AI engineers, robotics developers, simulation engineers, and backend developers building text-to-CAD applications or automated 3D asset generation pipelines.",
-        "practical_developer_value": "Developers building generative AI tools for 3D design or simulation can feed the compact API specification directly into an LLM system prompt, allowing the model to reliably synthesize precise, functional CAD models, everyday objects, and simulation-ready articulated assets. This bypasses the fragility of direct mesh generation and heavy CAD frameworks, outputting production-grade files for game engines, web viewers, and robotics simulators.",
+        "target_audience": "Cross-platform application developers, Rust backend engineers, and frontend developers building media streaming clients with Tauri and React.",
+        "practical_developer_value": "Developers can use this repository as a comprehensive reference implementation for building high-performance, cross-platform desktop and mobile applications using Tauri 2. It demonstrates advanced integration patterns such as custom protocol URI schemes for media interception, secure HTTP networking in Rust, and managing a React 19 frontend within a hybrid native shell.",
         "suggested_use_cases": [
-          "Building text-to-CAD generative pipelines that output functional, deterministic 3D models for e-commerce or manufacturing.",
-          "Automatically generating articulated robot parts and environment assets with pre-configured URDF/USD kinematics for simulation in NVIDIA Isaac or ROS.",
-          "Creating procedural asset libraries for games and web applications using short, human-editable Python scripts."
+          "Studying how to implement custom protocol handlers in Tauri 2 to intercept and decrypt media streams and images.",
+          "Building cross-platform video players or media consumption tools with React, TypeScript, and Rust."
         ]
       }
     }

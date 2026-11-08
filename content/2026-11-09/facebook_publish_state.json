@@ -1,0 +1,51 @@
+{
+  "date": "2026-11-09",
+  "prepared_at": "2026-11-09T07:03:01.699744+08:00",
+  "posts": [
+    {
+      "rank": 1,
+      "repo_name": "sarpstar/cinecode",
+      "caption": "Stop fighting black-box AI video generators that hallucinate artifacts and ignore your constraints. 🎬\n\nMeet cinecode: the open-source pipeline that bridges generative AI coding agents and automated media production directly inside tools like Claude Code and Cursor. \n\nInstead of crossing your fingers and hoping a text-to-video model gets it right, cinecode treats video production as pure code. An AI agent takes your concept, researches real-world references, writes the script, programmatically renders high-fidelity visual frames using Three.js and Canvas 2D in a headless browser, designs spatial soundscapes, and compiles everything into a finished MP4 using FFmpeg.\n\n🔥 Key Developer Features:\n• Programmatic Frame Rendering: Ditch unpredictable video models for deterministic, code-built 3D environments via Three.js, Canvas 2D, and WebGL running in headless Chrome.\n• Dual Production Modes: Use Fast Mode for rapid single-file turnarounds, or Film Mode for structured, multi-scene documentaries with full script approval and layered audio.\n• Integrated Multi-Modal Sound Design: Automatically handles offline audio rendering, ambient soundscapes, text-to-speech narration, and mastering to -14 LUFS.\n• Developer-Native Workflow: Run everything locally in your favorite IDE without paying for costly third-party video SaaS subscriptions.\n\nWhether you are automating personalized product marketing clips, generating data-driven SaaS explainers, or spinning up programmatic educational content, cinecode lets you version-control and scale your video production with total precision.\n\nCheck out the repo, star the project, and start building videos with code today:\nhttps://github.com/sarpstar/cinecode\n\n👉 Drop a comment below: What would you build first with a fully scriptable video generation pipeline?\n\n#AI #ArtificialIntelligence #SoftwareEngineering #ClaudeCode #Cursor #WebDevelopment #ThreeJS #OpenSource #DeveloperTools",
+      "image_file": "1_sarpstar_cinecode.png",
+      "photo_id": "122128690779476221",
+      "published_post_id": "1410193715501138_122128691073476221",
+      "published_at": "2026-11-09T07:03:05.503846+08:00"
+    },
+    {
+      "rank": 2,
+      "repo_name": "openclaw/openclaw",
+      "caption": "Take back control of your AI workflow with OpenClaw, an open-source, self-hosted multi-platform assistant framework that runs locally on your devices and integrates directly with your favorite chat apps. 🤖🔐\n\nAre you tired of fragmented, cloud-locked AI assistants? OpenClaw solves this by providing a self-hosted, OS-level personal assistant framework. It runs locally on your hardware, managing your state, memory, and credentials while bridging AI models to more than 20 messaging platforms and native desktop or mobile operating systems through a unified local Gateway architecture. \n\nHere is what makes OpenClaw a game-changer for your tech stack:\n\n🚀 Multi-Platform Gateway: Acts as a local control plane for sessions, tools, events, and native integrations across macOS, Linux, Windows, iOS, and Android.\n💬 Extensive Chat Channels: Out-of-the-box native integrations for WhatsApp, Telegram, Slack, Discord, Signal, and iMessage.\n🧩 Modular Plugin & Skill System: Easily swap out model providers and extend assistant capabilities with a custom plugin SDK.\n🔒 Built-In Security Primitives: Features strict pairing requirements for unknown inbound DM senders and extensible sandboxing for host-level tool execution.\n\nWhether you want to deploy a centralized, self-hosted AI copilot bridging Slack and Telegram to a local LLM, or build custom automated sysadmin workflows, OpenClaw gives you complete data sovereignty without dependency on locked-down cloud assistant APIs. 🛠️\n\nCheck out the repository and start building your custom autonomous agent today:\nhttps://github.com/openclaw/openclaw\n\nDrop a comment below and let us know what messaging platform you will connect first! 👇\n\n#OpenSource #AI #ArtificialIntelligence #SoftwareEngineering #SelfHosted #DevCommunity #GitHub",
+      "image_file": "2_openclaw_openclaw.png",
+      "photo_id": "122128690821476221",
+      "published_post_id": null,
+      "published_at": null
+    },
+    {
+      "rank": 3,
+      "repo_name": "NotRexed/Hookshot",
+      "caption": "Stop emulating. Start natively compiling. 🎮⚡️\n\nIf you are a systems programmer, compiler engineer, or reverse engineer, you know the massive CPU and memory overhead that traditional console emulation introduces. \n\nMeet Hookshot: a breakthrough project that performs static recompilation of modern console games directly into native Windows and Linux binaries. Instead of running a heavy runtime interpreter, Hookshot translates game binaries into C code, compiles them natively, reimplements proprietary console system software layers, and maps graphics pipelines straight to Vulkan using advanced features like mesh shaders.\n\n🔥 Key Features:\n• Performs static source-to-source translation of console binaries into C for direct native compilation\n• Natively reimplements proprietary console system software on standard host OSes\n• Rebuilds console graphics pipelines directly onto modern Vulkan APIs with mesh shader support\n• Features a dedicated builder and launcher ecosystem supporting automated incremental compilation and updates\n\nWhether you want to eliminate emulation overhead, study advanced ahead-of-time code translation from proprietary instruction sets, or research modern Vulkan graphics implementations, Hookshot is an incredible architecture to explore.\n\nCheck out the repository and dive into the source code today:\nhttps://github.com/NotRexed/Hookshot\n\n👇 Drop a comment below: What are your thoughts on static recompilation versus traditional emulation for modern platforms? Make sure to like and share this post with your fellow systems and compiler devs!\n\n#SoftwareEngineering #SystemsProgramming #CompilerDesign #ReverseEngineering #GameDev #Vulkan #OpenSource #GitHub",
+      "image_file": "3_NotRexed_Hookshot.png",
+      "photo_id": "122128690869476221",
+      "published_post_id": null,
+      "published_at": null
+    },
+    {
+      "rank": 4,
+      "repo_name": "awesome-selfhosted/awesome-selfhosted",
+      "caption": "Take back control of your data and infrastructure with the ultimate community-curated directory of free self-hosted software and web applications. 🚀\n\nAre you tired of rising cloud SaaS costs, unexpected API price hikes, and strict third-party data privacy constraints? Managing your own infrastructure shouldn't mean spending days hunting down reliable open-source alternatives.\n\nEnter awesome-selfhosted—a massive, community-driven index of Free Software network services and web applications that you can run directly on your own servers. \n\n🔥 Key Features:\n• Extensive categorization covering everything from analytics, databases, and CI/CD pipelines to media streaming and project management.\n• Automated maintenance workflows that constantly check for dead links and unmaintained projects to keep the directory fresh.\n• Strict criteria ensuring listed projects are true free/open-source software or clearly document any anti-features.\n• Available as both a clean Markdown repository and a polished, easy-to-navigate HTML documentation site.\n\nWhether you are setting up a private, self-hosted analytics and error-tracking pipeline to comply with GDPR, or building out a complete internal developer platform with your own CI/CD and project management tools, this repo is your blueprint. 🛠️\n\nSay goodbye to proprietary vendor lock-in and hello to true digital sovereignty. \n\n👉 Star and explore the directory on GitHub:\nhttps://github.com/awesome-selfhosted/awesome-selfhosted\n\nWhat is your absolute favorite self-hosted tool in your homelab right now? Drop it in the comments below! 👇\n\n#SelfHosted #OpenSource #DevOps #Homelab #Privacy #SysAdmin #SoftwareEngineering #Linux",
+      "image_file": "4_awesome-selfhosted_awesome-selfhosted.png",
+      "photo_id": "122128690911476221",
+      "published_post_id": null,
+      "published_at": null
+    },
+    {
+      "rank": 5,
+      "repo_name": "Minireel/HGhub",
+      "caption": "🚀 Sick of bloated Electron apps for streaming media? \n\nDiscover how Minireel/HGhub leverages Rust and Tauri 2 to build a high-performance, cross-platform client for modern streaming applications across Windows, macOS, and Android.\n\n⚡ THE PROBLEM IT SOLVES:\nBuilding high-performance desktop and mobile media clients usually means dealing with clunky frameworks, complex cookie management, and frustrating WebView CORS constraints. Minireel/HGhub solves this by delivering a feature-rich, cross-platform third-party client with native Fluent design that handles immersive short-form video consumption effortlessly.\n\n🔥 NOTABLE FEATURES:\n• Unified Edge Envelope Networking: Uses reqwest and rustls to consolidate backend API requests, simplifying proxying and cookie handling.\n• Rust-Powered Custom Protocol Handlers: Implements AES-128-CBC cover decryption and HLS stream rewriting (m3u8/fragments) to seamlessly bypass CORS and hotlink protection.\n• Modern Hybrid Stack: Combines a robust native Rust backend with a frontend built on React 19, TypeScript, Vite 7, and Tailwind CSS 4.\n• Immersive State Management: Manages navigation stacks, user profiles, local favorites, and custom UI themes optimized for vertical video playback.\n\nWhether you are a Rust backend engineer, a Tauri cross-platform developer, or building high-performance media tools with React, this repository is a goldmine for advanced integration patterns.\n\n👉 Check out the repo and explore the source code here:\nhttps://github.com/Minireel/HGhub\n\n👇 What's your go-to framework for cross-platform desktop and mobile apps? Drop a comment below and let us know!\n\n#RustLang #Tauri #ReactJS #WebDev #OpenSource #SoftwareEngineering #TailwindCSS #AppDevelopment",
+      "image_file": "5_Minireel_HGhub.png",
+      "photo_id": "122128690953476221",
+      "published_post_id": null,
+      "published_at": null
+    }
+  ]
+}
