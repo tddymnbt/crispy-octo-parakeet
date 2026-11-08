@@ -26,8 +26,8 @@
       "caption": "Tired of heavy local container environments? 🚀\n\nSay goodbye to the massive RAM overhead, sluggish startup times, and battery drain of traditional tools. Meet Kiri, a tiny, memory-safe Rust container runtime that boots up containers 80 times faster than Docker Desktop.\n\nWritten completely in Rust, Kiri bypasses heavy layers like dockerd, runc, and shims using a custom 10 MB kernel and a lean guest agent. The best part? It speaks the standard Docker Engine API, meaning it works out of the box with your existing Docker CLI, Compose, and buildx workflows without changing your habits.\n\n🔥 Key Features:\n• Blazing fast: Spin up and tear down containers via the Docker API in approximately 2.5 milliseconds.\n• Featherlight footprint: The daemon rests at around 15 MB, and the underlying VM goes to sleep after 60 seconds of idle time with sub-second wake times.\n• Developer-first utilities: Get local wildcard domains with custom certificates, single-command Kubernetes clusters, and standalone Linux machines out of the box.\n\nWhether you are running multi-container microservice stacks locally via Docker Compose or spinning up quick, disposable K8s clusters, Kiri gives you a lightning-fast, battery-friendly alternative that saves your laptop's resources.\n\nCheck out the repository and try it today:\nhttps://github.com/libracoder/kiri\n\nDrop a comment below if you are ready to speed up your local dev loop, and make sure to give the repo a star on GitHub! 👇\n\n#Docker #RustLang #DevOps #SoftwareEngineering #WebDev #Kubernetes #OpenSource",
       "image_file": "3_libracoder_kiri.png",
       "photo_id": "122128427715476221",
-      "published_post_id": null,
-      "published_at": null
+      "published_post_id": "1410193715501138_122128528611476221",
+      "published_at": "2026-11-08T15:00:37.919953+08:00"
     },
     {
       "rank": 4,
