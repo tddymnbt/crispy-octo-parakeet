@@ -17,8 +17,8 @@
       "caption": "Bring interactive 2.5D web avatars and VTuber-style streaming directly to the browser using a lightweight, dependency-free WebGL2 player! 🚀\n\nTired of the complexity and heavy resource requirements of traditional desktop VTuber and character runtimes? \n\nLivLiv Player is a lightweight, dependency-free WebGL2 JavaScript library that renders 2.5D characters, VRM models, and PNGTubers natively in the browser with real-time lip sync and webcam face tracking. 💡\n\n✨ Key Features:\n• Featherlight Core: ~30 KB gzipped with zero runtime dependencies and built entirely on WebGL2.\n• Real-Time Tracking & Audio: Client-side real-time lip sync supporting mic/audio/video inputs and in-browser webcam face tracking powered by Google MediaPipe.\n• Unified API: Render LivLiv packages, VRM avatars via Three.js, and classic PNGTubers interchangeably.\n• Out-of-the-Box Ready: Comprehensive support for expressions, skeletal actions, and 21 pre-styled featured characters.\n\n🛠️ Why Developers Love It:\nGain a drop-in ES module solution to embed expressive, responsive characters into web apps or OBS browser sources with just a few lines of JavaScript. By executing MediaPipe and audio analysis locally in the user's browser, it completely bypasses heavy server-side processing to significantly cut down infrastructure costs and latency.\n\n🌐 Perfect for building browser-based VTuber stream overlays for OBS or adding interactive virtual assistant and mascot widgets to web applications.\n\nCheck it out on GitHub:\nhttps://github.com/livliv-dev/player\n\n👇 Drop a comment below with how you plan to use interactive web avatars in your next project, and don't forget to give the repo a star! ⭐\n\n#WebDevelopment #JavaScript #WebGL #VTuber #OpenSource #Frontend #WebDev #AI #Coding",
       "image_file": "2_livliv-dev_player.png",
       "photo_id": "122128427673476221",
-      "published_post_id": null,
-      "published_at": null
+      "published_post_id": "1410193715501138_122128456011476221",
+      "published_at": "2026-11-08T11:00:38.906683+08:00"
     },
     {
       "rank": 3,
