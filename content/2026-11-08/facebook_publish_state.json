@@ -44,8 +44,8 @@
       "caption": "Tired of LLMs choking on verbose Blender scripts and complex coordinate matrices when trying to generate 3D assets? \n\nMeet Sand3d (https://github.com/Sandflow-ai/sand3d), a game-changing Python library that bridges the gap between text-to-CAD and programmatic 3D generation. Built on Blender's bpy module, it replaces heavy GUI workflows with a concise vocabulary where 3D objects are defined as short, declarative code blocks.\n\nHere is why AI and robotics engineers are adding it to their stack:\n\n✨ Ultra Token-Efficient API: The entire API fits into ~3,600 tokens—consuming 2x to 6x fewer tokens per part than standard Blender Python or CadQuery. Perfect for fitting directly into LLM system prompts.\n🏷️ Named Geometry & Topology: Parts, edges, and faces are addressed by semantic names instead of fragile, hand-computed coordinate matrices, virtually eliminating spatial reasoning errors.\n🤖 First-Class Articulation: Explicitly handles hierarchical groups, moving parts, and kinematic joints (continuous, prismatic, hinge) for complex assemblies.\n🔄 Comprehensive Exports: Export directly to GLB for web, URDF for ROS and physics simulators like Isaac and PyBullet, OpenUSD (USDA), OBJ, and STL.\n\nWhether you are building text-to-CAD generative pipelines, automated simulation environments, or procedural asset libraries, Sand3d bypasses the fragility of direct mesh generation to output production-grade files.\n\nCheck out the repository, drop a star, and start building your automated 3D pipelines today:\nhttps://github.com/Sandflow-ai/sand3d\n\n#ArtificialIntelligence #MachineLearning #GenerativeAI #Robotics #Python #CAD #3DModeling #OpenSource #SoftwareEngineering",
       "image_file": "5_Sandflow-ai_sand3d.png",
       "photo_id": "122128427799476221",
-      "published_post_id": null,
-      "published_at": null
+      "published_post_id": "1410193715501138_122128616907476221",
+      "published_at": "2026-11-08T23:00:37.052538+08:00"
     }
   ]
 }
