@@ -44,8 +44,8 @@
       "caption": "🚀 Sick of bloated Electron apps for streaming media? \n\nDiscover how Minireel/HGhub leverages Rust and Tauri 2 to build a high-performance, cross-platform client for modern streaming applications across Windows, macOS, and Android.\n\n⚡ THE PROBLEM IT SOLVES:\nBuilding high-performance desktop and mobile media clients usually means dealing with clunky frameworks, complex cookie management, and frustrating WebView CORS constraints. Minireel/HGhub solves this by delivering a feature-rich, cross-platform third-party client with native Fluent design that handles immersive short-form video consumption effortlessly.\n\n🔥 NOTABLE FEATURES:\n• Unified Edge Envelope Networking: Uses reqwest and rustls to consolidate backend API requests, simplifying proxying and cookie handling.\n• Rust-Powered Custom Protocol Handlers: Implements AES-128-CBC cover decryption and HLS stream rewriting (m3u8/fragments) to seamlessly bypass CORS and hotlink protection.\n• Modern Hybrid Stack: Combines a robust native Rust backend with a frontend built on React 19, TypeScript, Vite 7, and Tailwind CSS 4.\n• Immersive State Management: Manages navigation stacks, user profiles, local favorites, and custom UI themes optimized for vertical video playback.\n\nWhether you are a Rust backend engineer, a Tauri cross-platform developer, or building high-performance media tools with React, this repository is a goldmine for advanced integration patterns.\n\n👉 Check out the repo and explore the source code here:\nhttps://github.com/Minireel/HGhub\n\n👇 What's your go-to framework for cross-platform desktop and mobile apps? Drop a comment below and let us know!\n\n#RustLang #Tauri #ReactJS #WebDev #OpenSource #SoftwareEngineering #TailwindCSS #AppDevelopment",
       "image_file": "5_Minireel_HGhub.png",
       "photo_id": "122128690953476221",
-      "published_post_id": null,
-      "published_at": null
+      "published_post_id": "1410193715501138_122128895685476221",
+      "published_at": "2026-11-09T23:00:45.719240+08:00"
     }
   ]
 }
