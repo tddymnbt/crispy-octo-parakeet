@@ -17,8 +17,8 @@
       "caption": "Take back control of your AI workflow with OpenClaw, an open-source, self-hosted multi-platform assistant framework that runs locally on your devices and integrates directly with your favorite chat apps. 🤖🔐\n\nAre you tired of fragmented, cloud-locked AI assistants? OpenClaw solves this by providing a self-hosted, OS-level personal assistant framework. It runs locally on your hardware, managing your state, memory, and credentials while bridging AI models to more than 20 messaging platforms and native desktop or mobile operating systems through a unified local Gateway architecture. \n\nHere is what makes OpenClaw a game-changer for your tech stack:\n\n🚀 Multi-Platform Gateway: Acts as a local control plane for sessions, tools, events, and native integrations across macOS, Linux, Windows, iOS, and Android.\n💬 Extensive Chat Channels: Out-of-the-box native integrations for WhatsApp, Telegram, Slack, Discord, Signal, and iMessage.\n🧩 Modular Plugin & Skill System: Easily swap out model providers and extend assistant capabilities with a custom plugin SDK.\n🔒 Built-In Security Primitives: Features strict pairing requirements for unknown inbound DM senders and extensible sandboxing for host-level tool execution.\n\nWhether you want to deploy a centralized, self-hosted AI copilot bridging Slack and Telegram to a local LLM, or build custom automated sysadmin workflows, OpenClaw gives you complete data sovereignty without dependency on locked-down cloud assistant APIs. 🛠️\n\nCheck out the repository and start building your custom autonomous agent today:\nhttps://github.com/openclaw/openclaw\n\nDrop a comment below and let us know what messaging platform you will connect first! 👇\n\n#OpenSource #AI #ArtificialIntelligence #SoftwareEngineering #SelfHosted #DevCommunity #GitHub",
       "image_file": "2_openclaw_openclaw.png",
       "photo_id": "122128690821476221",
-      "published_post_id": null,
-      "published_at": null
+      "published_post_id": "1410193715501138_122128719879476221",
+      "published_at": "2026-11-09T11:00:42.204599+08:00"
     },
     {
       "rank": 3,
