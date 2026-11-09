@@ -3,136 +3,136 @@
   "repositories": [
     {
       "rank": 1,
-      "name": "sarpstar/cinecode",
-      "score": 93,
-      "reason": "Combines generative AI coding agents with automated media production, synthesizing scripts, programmatic frame rendering, and sound design into a single pipeline.",
-      "why_interesting_today": "As AI video tools gain traction, shifting from black-box video generation to code-built frames and programmatic direction represents a fascinating paradigm shift in automated media creation.",
-      "why_developers_should_care": "It demonstrates how AI agents can orchestrate complex, multi-modal pipelines (scripting, graphics, audio, video muxing) using code as the intermediate representation.",
-      "momentum": "Strong interest and organic community buzz despite being a relatively recent release.",
-      "novelty": "High novelty in using an AI coding agent to generate entire short films and videos purely through programmatic execution and frame building.",
+      "name": "jhaizhou-ops/S2Arm",
+      "score": 96,
+      "reason": "An impressive technical feat enabling native execution of Switch games on Apple Silicon (iOS, iPadOS, Mac) through game code rewritten to ARM64 and graphics direct to Metal.",
+      "why_interesting_today": "Translating complex hardware architectures directly onto Apple Silicon via static recompilation represents cutting-edge systems and emulation engineering.",
+      "why_developers_should_care": "Offers deep insights into static binary translation, ARM64 optimization, and leveraging low-level graphics APIs like Metal for performance-critical emulation.",
+      "momentum": "Rapidly gaining visibility and high community curiosity upon entering the open-source ecosystem.",
+      "novelty": "High novelty in bringing native console emulation architecture directly to Apple mobile devices without traditional heavy virtualization.",
       "deep_analysis": {
-        "name": "sarpstar/cinecode",
-        "headline_hook": "cinecode bridges generative AI coding agents and automated media production, synthesizing scripts, programmatic frame rendering, and sound design into a single pipeline inside tools like Claude Code and Cursor.",
-        "core_functionality": "cinecode solves the friction of automated media creation by replacing black-box video generation models with code-driven execution. Operating inside developer environments like Claude Code and Cursor, an AI agent takes a user's concept, researches real-world references, writes scripts, programmatically builds visual frames using Three.js and Canvas 2D in a headless browser, designs spatial soundscapes via Web Audio, and compiles everything into a finished MP4 using FFmpeg.",
+        "name": "jhaizhou-ops/S2Arm",
+        "headline_hook": "S2Arm enables native execution of Switch games on Apple Silicon through static ARM64 code rewriting and direct Metal graphics translation, bypassing CPU emulation entirely.",
+        "core_functionality": "S2Arm bridges the architecture gap between Nintendo Switch game binaries and Apple Silicon by rewriting game code to native ARM64 at build time and mapping graphics calls straight to Apple's Metal API, running games natively on iOS, iPadOS, and macOS without a traditional CPU emulator.",
         "key_features": [
-          "Programmatic Frame Rendering: Generates high-fidelity scenes using code-built 3D environments via Three.js, Canvas 2D, and WebGL running inside headless Chrome rather than relying solely on unpredictable generative video models.",
-          "Dual Production Modes: Offers a Fast Mode for single-file, rapid turnarounds under three minutes, and a Film Mode for structured, multi-scene documentaries requiring detailed script approval, reference research, and layered audio.",
-          "Integrated Multi-Modal Sound Design: Automatically handles offline audio rendering, ambient soundscapes, cue-locked sound effects, text-to-speech narration, and audio mastering to -14 LUFS.",
-          "Developer-Native Workflow: Runs locally inside popular developer environments like Claude Code and Cursor without requiring costly third-party video generation SaaS subscriptions."
+          "AOT Binary Rewriting: Rewrites Switch game code to native ARM64 at build time for direct processor execution without runtime CPU emulation overhead.",
+          "Direct Metal Graphics Pipeline: Translates graphics API calls straight to Apple Metal, delivering high framerates, low heat, and optimal battery efficiency.",
+          "AI-Driven Operations: Exposes a control interface (s2armctl) allowing AI assistants to programmatically manage imports, builds, installations, and diagnostics.",
+          "Single-App Library Shell: Aggregates an entire game library into a single developer account app slot, avoiding multiple app installations."
         ],
-        "target_audience": "AI engineers, creative technologists, frontend developers, and multimedia creators who want to leverage code and LLM agents for programmatic video production.",
-        "practical_developer_value": "Developers gain a fully scriptable, programmatic video generation pipeline that eliminates the nondeterministic nature of traditional AI video models. By treating video as code, engineering teams can version-control, automate, and dynamically template high-volume video production for marketing, social media, and educational content directly from their standard development environments.",
+        "target_audience": "Systems engineers, emulation developers, iOS/macOS platform developers, and toolchain architects interested in static binary translation and cross-architecture compilation.",
+        "practical_developer_value": "S2Arm serves as a masterclass in advanced systems engineering, demonstrating how to perform ahead-of-time (AOT) binary translation, direct graphics API bridging to Metal, and automated developer tooling workflows driven by AI agents.",
         "suggested_use_cases": [
-          "Automating personalized product marketing videos and data-driven explainer clips for SaaS platforms using programmatic templates.",
-          "Generating dynamic, data-backed YouTube documentary videos complete with script research, synthetic narration, and timed kinetic typography."
+          "Studying static binary translation and ahead-of-time instruction rewriting techniques for ARM64 architectures.",
+          "Implementing AI-driven command-line control interfaces for complex build and deployment pipelines."
         ]
       }
     },
     {
       "rank": 2,
-      "name": "openclaw/openclaw",
-      "score": 90,
-      "reason": "An ambitious multi-platform personal AI assistant framework designed to handle real OS-level tasks and user data autonomously.",
-      "why_interesting_today": "General-purpose AI assistants that actually execute OS-level workflows continue to capture developer interest as they push beyond simple chatbot interfaces.",
-      "why_developers_should_care": "Offers a modular architecture for building cross-platform, agentic assistants that respect data ownership and local execution environments.",
-      "momentum": "Steady daily star growth and active pushes indicate robust ongoing development and high engagement.",
-      "novelty": "Moderate-high; pushes the envelope on practical, cross-platform personal AI execution rather than web-only wrappers.",
+      "name": "shanselman/gputaskman",
+      "score": 92,
+      "reason": "A specialized GPU task manager tailored for modern hardware needs, providing crucial per-process VRAM and LLM model/KV-cache insights across Windows, Linux, and WSL.",
+      "why_interesting_today": "As local LLMs and heavy GPU workloads become mainstream for developers, standard task managers lack visibility into VRAM consumption and KV-caches.",
+      "why_developers_should_care": "Essential utility for developers running local AI models, helping diagnose memory bottlenecks, VRAM leaks, and GPU resource contention.",
+      "momentum": "Strong organic interest among systems and AI engineers looking for targeted diagnostic tooling.",
+      "novelty": "Fills a major tooling gap for AI developers by surfacing granular insights specific to modern GPU and LLM workloads.",
       "deep_analysis": {
-        "name": "openclaw/openclaw",
-        "headline_hook": "Take back control of your AI workflow with OpenClaw, an open-source, self-hosted multi-platform assistant framework that runs locally on your devices and integrates directly with your favorite chat apps.",
-        "core_functionality": "OpenClaw solves the problem of fragmented, cloud-locked AI assistants by providing a self-hosted, OS-level personal assistant framework. It runs locally on your hardware, managing your state, memory, and credentials while bridging AI models to more than 20 messaging platforms and native desktop or mobile operating systems through a unified local Gateway architecture.",
+        "name": "shanselman/gputaskman",
+        "headline_hook": "An htop for your GPU that reveals what is actually consuming your VRAM—from model weights to KV caches—across Windows, Linux, WSL, and macOS.",
+        "core_functionality": "Traditional GPU monitors like Task Manager or nvidia-smi only reveal aggregate VRAM consumption, leaving developers blind to what specific processes, model files, or LLM buffers are consuming memory. gputaskman bridges this gap by providing a terminal UI that connects per-process GPU memory and engine activity with loaded runtimes, model files, and buffer breakdowns.",
         "key_features": [
-          "Multi-platform Gateway architecture that acts as a local control plane for sessions, tools, events, and native integrations across macOS, Linux, Windows, iOS, and Android.",
-          "Extensive native chat channel integrations including WhatsApp, Telegram, Slack, Discord, Signal, and iMessage.",
-          "Modular plugin, tool, and skill system allowing developers to easily swap out model providers and extend assistant capabilities.",
-          "Built-in security primitives featuring strict pairing requirements for unknown inbound DM senders and extensible sandboxing for host-level tool execution."
+          "Per-process VRAM and engine activity tracking across Windows (WDDM), Linux (NVML and amdgpu drm-fdinfo), WSL, and macOS Apple Silicon.",
+          "Granular LLM breakdown separating model weights, compute buffers, and KV-cache allocations.",
+          "Container-aware process mapping for Docker and Kubernetes environments where host PIDs do not align with container namespaces.",
+          "Cross-platform portable execution with zero-dependency installations via uv, pipx, or standalone binaries."
         ],
-        "target_audience": "AI engineers, privacy-conscious developers, and power users looking to build, self-host, and customize advanced agentic workflows that interact with real operating system tasks and messaging tools.",
-        "practical_developer_value": "Developers should care because OpenClaw eliminates the dependency on locked-down cloud assistant APIs, offering complete data sovereignty and a modular plugin SDK. You can use it in real-world projects to deploy a custom, context-aware autonomous agent that handles local desktop automation, orchestrates workflows across multiple chat platforms, and executes custom toolsets securely within your own infrastructure.",
+        "target_audience": "AI/ML Engineers, Local LLM Developers, Infrastructure Engineers, and Power Users running heavy local GPU workloads.",
+        "practical_developer_value": "Developers running local LLMs, vision models, or fine-tuning pipelines often hit mysterious OOM errors without knowing whether the memory bloat comes from the browser, system compositors, or unoptimized KV-caches. gputaskman gives developers instant observability into their local hardware without needing complex toolkits or cloud-heavy APM solutions, allowing them to debug memory leaks and optimize context windows directly from the terminal.",
         "suggested_use_cases": [
-          "Deploying a centralized, self-hosted team or personal AI copilot that bridges multiple messaging apps like Slack and Telegram to a local LLM or cloud model.",
-          "Building custom automated development or system administration workflows using the plugin SDK and local host-level tool execution."
+          "Debugging out-of-memory errors during local LLM inference and fine-tuning with Ollama, llama.cpp, or PyTorch.",
+          "Monitoring multi-container GPU allocations and matching host NVML metrics inside Docker environments on rented GPU boxes."
         ]
       }
     },
     {
       "rank": 3,
-      "name": "NotRexed/Hookshot",
-      "score": 88,
-      "reason": "A native decompilation project targeting advanced platform ports and modern remakes of classic gaming titles.",
-      "why_interesting_today": "Reverse engineering and native recompilation projects always attract intense technical scrutiny and excitement from systems programmers.",
-      "why_developers_should_care": "Provides deep insights into low-level systems programming, recompilation techniques, and handling complex legacy codebases for modern hardware architectures.",
-      "momentum": "Explosive star growth (over 1,200 stars recently) with solid fork traction from reverse-engineering enthusiasts.",
-      "novelty": "High novelty in targeting cutting-edge hardware remakes through clean-room native recompilation.",
+      "name": "DIYgod/pinky",
+      "score": 89,
+      "reason": "An innovative framework allowing AI agents to interact with mobile phones with human oversight built directly into the loop.",
+      "why_interesting_today": "Bridges the gap between conversational AI and device automation, offering a practical approach to mobile agent workflows.",
+      "why_developers_should_care": "Provides a robust architectural pattern for building safe, human-in-the-loop automation agents capable of navigating mobile interfaces.",
+      "momentum": "Strong early traction reflecting the surge in developer interest around autonomous agent applications.",
+      "novelty": "Brings agentic execution to mobile form factors with a strong emphasis on user safety and interactive control.",
       "deep_analysis": {
-        "name": "NotRexed/Hookshot",
-        "headline_hook": "Hookshot performs static recompilation of modern console games into native Windows and Linux binaries, completely bypassing traditional emulation.",
-        "core_functionality": "Hookshot solves the challenge of playing modern console titles on standard PC hardware without the overhead of an emulator. It accomplishes this via static recompilation, translating game source code into C and compiling it directly into a native executable while reimplementing the console system software and mapping graphics calls to Vulkan.",
+        "name": "DIYgod/pinky",
+        "headline_hook": "Pinky is an innovative open-source framework and native app that bridges the gap between conversational AI agents and mobile device automation by introducing human-in-the-loop oversight directly at the gateway layer.",
+        "core_functionality": "Pinky solves the problem of uncontrolled or potentially dangerous AI agent behavior on mobile devices by intercepting actions at the Model Context Protocol gateway level. It allows any MCP-compatible AI agent (such as Claude Code, Cursor, or custom scripts) to interact with physical or emulated Android and iOS devices while forcing critical, risky, or out-of-scope actions to wait for explicit human approval.",
         "key_features": [
-          "Performs static source-to-source translation of console binaries into C code for direct native compilation on Windows and Linux.",
-          "Reimplements proprietary console system software layers natively on top of standard host operating systems.",
-          "Rebuilds modern console graphics pipelines directly on top of modern Vulkan APIs, leveraging advanced features like mesh shaders.",
-          "Provides a dedicated builder and launcher ecosystem that supports automated incremental compilation and updates."
+          "Gateway-Enforced Approvals: Security rules and human approvals run inside Pinky's gateway layer, ensuring agents cannot bypass restrictions or talk users into self-approval.",
+          "Off-Limits App Protection: Sensitive applications like banking, password managers, and crypto wallets are invisible to agents by default, blocking them from interacting with password and OTP fields unless explicitly permitted per task.",
+          "Cross-Platform Native Desktop Client: Written using MyGo for direct GPU rendering without Electron, providing a lightweight multi-platform window for macOS, Windows, and Linux that idles at low resource usage.",
+          "Universal Agent and Device Support: Integrates seamlessly with any MCP-compatible agent and drives Android devices (versions 10-17) alongside iOS devices (iOS 17.4+), supporting both physical connections and emulators."
         ],
-        "target_audience": "Systems programmers, reverse engineers, compiler engineers, and emulator developers interested in advanced binary translation and native performance optimization.",
-        "practical_developer_value": "Developers working in low-level systems, compiler design, and graphics pipeline translation can study Hookshot to understand advanced techniques in static recompilation, ahead-of-time code translation from proprietary instruction sets to C, and high-performance Vulkan graphics implementation.",
+        "target_audience": "AI engineers, developer tooling builders, QA automation specialists, and power users developing autonomous workflows that interact with mobile apps.",
+        "practical_developer_value": "Developers building agentic workflows often struggle with testing or deploying AI systems that perform real-world actions on mobile devices due to security risks and lack of precise control. Pinky provides a secure abstraction layer using MCP, allowing developers to safely test mobile agents, audit execution steps via automated logs and recordings, and inject human-in-the-loop safety boundaries into automated QA or assistant pipelines.",
         "suggested_use_cases": [
-          "Studying advanced static binary translation and code generation architectures.",
-          "Researching techniques for reimplementing proprietary platform system software on open operating systems."
+          "Automated mobile application testing and regression suites driven by LLM agents with human sign-off on destructive actions.",
+          "Secure personal assistant workflows where AI agents help manage messages, schedule tasks, or look up information on a mobile device without risking unauthorized financial transactions."
         ]
       }
     },
     {
       "rank": 4,
-      "name": "awesome-selfhosted/awesome-selfhosted",
-      "score": 85,
-      "reason": "The definitive, highly active community directory of free software network services and web applications for self-hosting.",
-      "why_interesting_today": "With ongoing shifts in cloud pricing and privacy concerns, self-hosting alternatives to SaaS products remain a massive priority for developers.",
-      "why_developers_should_care": "Serves as an indispensable resource for discovering open-source alternatives to proprietary cloud services, databases, and monitoring tools.",
-      "momentum": "Outstanding star velocity (over 300 daily star growth) for a mature list, proving enduring developer demand.",
-      "novelty": "Low novelty as a concept, but unmatched ongoing curation value for practical infrastructure.",
+      "name": "Leviidev/Henge",
+      "score": 86,
+      "reason": "An ambitious project focused on emulating the macOS environment directly on iOS and iPadOS devices.",
+      "why_interesting_today": "Pushes the boundaries of mobile operating system flexibility and virtualization constraints on Apple hardware.",
+      "why_developers_should_care": "Fascinating exploration of low-level OS architecture, hypervisor capabilities, and software boundaries on modern mobile processors.",
+      "momentum": "Exceptional star growth velocity indicating intense curiosity from the mobile tinkering community.",
+      "novelty": "High novelty in attempting desktop-grade OS emulation on constrained mobile hardware.",
       "deep_analysis": {
-        "name": "awesome-selfhosted/awesome-selfhosted",
-        "headline_hook": "Take back control of your data and infrastructure with the ultimate community-curated directory of free self-hosted software and web applications.",
-        "core_functionality": "It serves as a comprehensive, curated index of Free Software network services and web applications that developers and organizations can host on their own servers, eliminating reliance on proprietary SaaS providers.",
+        "name": "Leviidev/Henge",
+        "headline_hook": "Henge emulates full macOS directly on iOS and iPadOS devices using a custom JIT, MMU, and Metal-accelerated virtual GPU without relying on QEMU or Virtualization.framework.",
+        "core_functionality": "Henge enables users to download, install, and run native macOS arm64 restore images directly on iPhones and iPads. Because iOS apps lack a native hypervisor layer, Henge bypasses conventional virtualization frameworks by implementing its own custom JIT engine, MMU, device emulation, and a Metal-based virtual graphics pipeline.",
         "key_features": [
-          "Extensive categorization covering everything from analytics, databases, and CI/CD pipelines to media streaming and project management.",
-          "Automated maintenance checks including active workflows to detect dead links and unmaintained projects.",
-          "Strictly enforces criteria ensuring listed projects are true free/open-source software or clearly documenting anti-features.",
-          "Available as both a structured Markdown repository and a polished, recommended HTML documentation site."
+          "Custom JIT and Device Emulation: Runs Mac arm64 code via a proprietary JIT engine with its own Memory Management Unit and device emulation layers rather than utilizing QEMU or Virtualization.framework.",
+          "Metal-Accelerated Graphics Replay: macOS graphics commands are intercepted and replayed using Apple Metal, allowing complex software like Safari, VS Code, and Electron apps to render correctly.",
+          "Hardware and Peripheral Integration: Automatically detects external displays via USB-C or HDMI docks for desktop extension, while mapping touchscreens to trackpads and integrating physical Bluetooth or Magic Keyboards.",
+          "Direct Apple Restore Image Installation: Downloads official macOS restore images and executes authentic restoration procedures directly on the mobile hardware without requiring an intermediary Mac."
         ],
-        "target_audience": "DevOps engineers, system administrators, privacy-conscious developers, indie hackers, and homelab enthusiasts looking to replace third-party SaaS products with self-hosted alternatives.",
-        "practical_developer_value": "Developers facing rising cloud API and SaaS pricing or strict data privacy constraints can use this repository as a reference catalog to rapidly discover, evaluate, and deploy open-source alternatives for logging, authentication, file storage, and software development tools directly onto their own infrastructure.",
+        "target_audience": "Mobile systems engineers, iOS jailbreak and low-level developers, security researchers, and enthusiasts pushing the boundaries of Apple hardware virtualization.",
+        "practical_developer_value": "Henge serves as an extraordinary engineering reference for low-level systems programming on iOS, showcasing advanced techniques in user-space instruction emulation, JIT compilation, graphics translation to Metal, and hardware accessory integration. Developers exploring mobile constraints, custom runtime environments, or hypervisor alternatives can study its architecture to understand how to maximize performance on locked-down mobile silicon.",
         "suggested_use_cases": [
-          "Setting up a private, self-hosted analytics and error-tracking pipeline to comply with GDPR without relying on third-party cloud services.",
-          "Building out a complete internal developer platform using self-hosted CI/CD, project management, feature toggle, and API management tools."
+          "Experimenting with mobile hardware limits by running full desktop development tools like VS Code directly on an iPad.",
+          "Studying advanced user-space emulation and Metal-based graphics re-rendering techniques for custom execution environments."
         ]
       }
     },
     {
       "rank": 5,
-      "name": "Minireel/HGhub",
-      "score": 82,
-      "reason": "A feature-rich third-party client for modern streaming and short-form video web applications across Windows and Android.",
-      "why_interesting_today": "Demonstrates cross-platform UI engineering in TypeScript, bridging desktop and mobile environments for alternative media consumption.",
-      "why_developers_should_care": "Provides a clean reference implementation for building multi-platform clients using modern web and TypeScript tech stacks.",
-      "momentum": "Rapidly accelerating star and fork growth indicating strong community adoption and utility.",
-      "novelty": "Moderate novelty in cross-platform UI design and API client architecture for niche media formats.",
+      "name": "IainKay/ram-altman",
+      "score": 81,
+      "reason": "A clever and humorous parody monitoring tool that checks system RAM and emails unused capacity directly to OpenAI's CEO.",
+      "why_interesting_today": "Blends system administration scripting with satirical commentary on the relentless industry-wide demand for compute resources.",
+      "why_developers_should_care": "A fun, lightweight Bash script showcasing practical sysadmin monitoring concepts combined with external API/email alerting.",
+      "momentum": "Viral developer interest driven by its sharp tech humor and creative premise.",
+      "novelty": "Combines practical hardware telemetry with brilliant satirical performance art.",
       "deep_analysis": {
-        "name": "Minireel/HGhub",
-        "headline_hook": "Discover how Minireel/HGhub leverages Rust and Tauri 2 to build a high-performance, cross-platform client for modern streaming applications across Windows, macOS, and Android.",
-        "core_functionality": "Minireel/HGhub is a feature-rich, cross-platform third-party client built with Rust and Tauri 2 that provides an immersive streaming and short-form video consumption experience across Windows, macOS, and Android with native Fluent design.",
+        "name": "IainKay/ram-altman",
+        "headline_hook": "A bash script that monitors your PC's unused RAM and automatically emails the daily surplus to Sam Altman, blending satirical sysadmin tooling with industry commentary.",
+        "core_functionality": "The tool parses Linux kernel memory metrics from /proc/meminfo to calculate true available RAM (accounting for reclaimable page caches), tracks historical data in a local CSV log, and uses a cron job to send a humorous daily report if available capacity exceeds a configured threshold.",
         "key_features": [
-          "Unified Edge Envelope networking architecture via reqwest and rustls that consolidates backend API requests to simplify proxying and avoid complex cookie management.",
-          "Custom protocol media handlers implemented in Rust for AES-128-CBC cover decryption and HLS stream rewriting (m3u8/fragments) to seamlessly bypass WebView CORS and hotlink protection constraints.",
-          "Cross-platform desktop and mobile support utilizing Tauri 2, combining a native Rust backend with a React 19, TypeScript, Vite 7, and Tailwind CSS 4 frontend.",
-          "Robust local state management handling navigation stacks, user profiles, local favorites, and custom UI themes optimized for immersive vertical video playback."
+          "Precise Linux memory accounting that correctly handles MemAvailable versus page caches, avoiding false positives.",
+          "Built-in state management and rate limiting to guarantee at most one email per day alongside comprehensive dry-run preview capabilities.",
+          "Templated email generation rotating through multiple subject lines, humorous body messages, and sign-offs to keep correspondence fresh.",
+          "Comprehensive test suite utilizing simulated memory stats and a mock sendmail binary to ensure zero accidental live mailings during testing."
         ],
-        "target_audience": "Cross-platform application developers, Rust backend engineers, and frontend developers building media streaming clients with Tauri and React.",
-        "practical_developer_value": "Developers can use this repository as a comprehensive reference implementation for building high-performance, cross-platform desktop and mobile applications using Tauri 2. It demonstrates advanced integration patterns such as custom protocol URI schemes for media interception, secure HTTP networking in Rust, and managing a React 19 frontend within a hybrid native shell.",
+        "target_audience": "Linux systems administrators, DevOps engineers, and software developers who appreciate developer humor and command-line automation.",
+        "practical_developer_value": "While framed as a parody, the repository provides clean, idiomatic Bash scripting patterns for parsing system metrics, handling state files safely, implementing robust rate limiting via cron, and structuring automated testing frameworks for shell scripts.",
         "suggested_use_cases": [
-          "Studying how to implement custom protocol handlers in Tauri 2 to intercept and decrypt media streams and images.",
-          "Building cross-platform video players or media consumption tools with React, TypeScript, and Rust."
+          "Auditing personal or local development machine memory allocation trends over time using the included CSV logging and awk analysis snippet.",
+          "Serving as a lightweight template or educational reference for writing robust, tested system monitoring scripts in pure Bash."
         ]
       }
     }
