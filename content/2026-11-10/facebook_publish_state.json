@@ -17,8 +17,8 @@
       "caption": "Tired of mysterious OOM errors while running local LLMs and AI workloads? Meet gputaskman: an htop for your GPU that finally reveals what is actually consuming your VRAM—from model weights to KV caches—across Windows, Linux, WSL, and macOS.\n\nTraditional GPU monitors like Task Manager or nvidia-smi only show aggregate VRAM consumption, leaving developers completely blind to specific processes, model files, and memory buffers. \n\ngputaskman bridges this gap with a powerful terminal UI that connects per-process GPU memory and engine activity directly to your loaded runtimes, model files, and buffer breakdowns.\n\nKey Features:\n- Per-process VRAM and engine activity tracking across Windows (WDDM), Linux (NVML and amdgpu drm-fdinfo), WSL, and macOS Apple Silicon.\n- Granular LLM breakdown separating model weights, compute buffers, and KV-cache allocations.\n- Container-aware process mapping for Docker and Kubernetes environments where host PIDs do not align with container namespaces.\n- Cross-platform portable execution with zero-dependency installations via uv, pipx, or standalone binaries.\n\nWhether you are debugging memory leaks during local LLM inference and fine-tuning with Ollama, llama.cpp, or PyTorch, or monitoring multi-container GPU allocations on rented GPU boxes, gputaskman gives you instant hardware observability right from your terminal.\n\nCheck out the repo and drop a star if it saves your workflows:\nhttps://github.com/shanselman/gputaskman\n\nHow do you currently debug your GPU memory bloat? Let us know in the comments below!\n\n#ArtificialIntelligence #MachineLearning #LocalLLM #DeveloperTools #OpenSource #Python #DevOps #GPU",
       "image_file": "2_shanselman_gputaskman.png",
       "photo_id": "122128998963476221",
-      "published_post_id": null,
-      "published_at": null
+      "published_post_id": "1410193715501138_122129035275476221",
+      "published_at": "2026-11-10T11:00:43.122348+08:00"
     },
     {
       "rank": 3,
