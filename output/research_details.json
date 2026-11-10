@@ -3,136 +3,135 @@
   "repositories": [
     {
       "rank": 1,
-      "name": "jhaizhou-ops/S2Arm",
+      "name": "huamidev/GestaltX",
       "score": 96,
-      "reason": "An impressive technical feat enabling native execution of Switch games on Apple Silicon (iOS, iPadOS, Mac) through game code rewritten to ARM64 and graphics direct to Metal.",
-      "why_interesting_today": "Translating complex hardware architectures directly onto Apple Silicon via static recompilation represents cutting-edge systems and emulation engineering.",
-      "why_developers_should_care": "Offers deep insights into static binary translation, ARM64 optimization, and leveraging low-level graphics APIs like Metal for performance-critical emulation.",
-      "momentum": "Rapidly gaining visibility and high community curiosity upon entering the open-source ecosystem.",
-      "novelty": "High novelty in bringing native console emulation architecture directly to Apple mobile devices without traditional heavy virtualization.",
+      "reason": "Exceptional star and fork momentum right out of the gate for an iOS MobileGestalt editor tailored for newer iOS versions.",
+      "why_interesting_today": "It addresses low-level iOS configuration and region tweaking with modern device presets and multi-language support, capturing rapid interest from mobile enthusiasts and developers.",
+      "why_developers_should_care": "Offers a rare window into MobileGestalt parameter editing and device customization techniques on recent iOS builds.",
+      "momentum": "Extremely high star_growth (3,234) and fork_growth (1,247) relative to its recent creation date.",
+      "novelty": "High novelty for developers exploring iOS internal configurations and system-level property modifications.",
       "deep_analysis": {
-        "name": "jhaizhou-ops/S2Arm",
-        "headline_hook": "S2Arm enables native execution of Switch games on Apple Silicon through static ARM64 code rewriting and direct Metal graphics translation, bypassing CPU emulation entirely.",
-        "core_functionality": "S2Arm bridges the architecture gap between Nintendo Switch game binaries and Apple Silicon by rewriting game code to native ARM64 at build time and mapping graphics calls straight to Apple's Metal API, running games natively on iOS, iPadOS, and macOS without a traditional CPU emulator.",
+        "name": "huamidev/GestaltX",
+        "headline_hook": "GestaltX is a powerful SwiftUI-based MobileGestalt editor for iOS and iPadOS that lets developers modify low-level device configurations, feature flags, and regional capabilities.",
+        "core_functionality": "GestaltX solves the problem of rigid iOS hardware and regional restrictions by providing an on-device and local plist editing interface for MobileGestalt cache files. It allows advanced users and security researchers to inspect, modify, back up, and restore low-level capability flags and system properties on supported iOS versions.",
         "key_features": [
-          "AOT Binary Rewriting: Rewrites Switch game code to native ARM64 at build time for direct processor execution without runtime CPU emulation overhead.",
-          "Direct Metal Graphics Pipeline: Translates graphics API calls straight to Apple Metal, delivering high framerates, low heat, and optimal battery efficiency.",
-          "AI-Driven Operations: Exposes a control interface (s2armctl) allowing AI assistants to programmatically manage imports, builds, installations, and diagnostics.",
-          "Single-App Library Shell: Aggregates an entire game library into a single developer account app slot, avoiding multiple app installations."
+          "Comprehensive feature flag management covering display options like Dynamic Island and Always-On Display, device behaviors, and Apple Intelligence capabilities.",
+          "A full-featured field editor supporting read, search, add, edit, and remove operations on CacheExtra plist fields across multiple data types.",
+          "Robust safety mechanisms including automatic initial backups, staged before-and-after reviews, verified writes, and per-preset restores.",
+          "Secure plist import and export capabilities via share extensions with device-bound proof verification to ensure safe local document handling."
         ],
-        "target_audience": "Systems engineers, emulation developers, iOS/macOS platform developers, and toolchain architects interested in static binary translation and cross-architecture compilation.",
-        "practical_developer_value": "S2Arm serves as a masterclass in advanced systems engineering, demonstrating how to perform ahead-of-time (AOT) binary translation, direct graphics API bridging to Metal, and automated developer tooling workflows driven by AI agents.",
+        "target_audience": "iOS developers, security researchers, jailbreak and tweak developers, and mobile enthusiasts interested in low-level iOS system configurations.",
+        "practical_developer_value": "Developers working on advanced iOS customization, localization testing, or security research can use GestaltX to study how iOS handles hardware capability flags and region-locked features. It provides a reference implementation for securely handling shared App Groups, parsing complex plist structures in SwiftUI, and executing verified system-level changes.",
         "suggested_use_cases": [
-          "Studying static binary translation and ahead-of-time instruction rewriting techniques for ARM64 architectures.",
-          "Implementing AI-driven command-line control interfaces for complex build and deployment pipelines."
+          "Researching how low-level capability flags affect feature availability such as Apple Intelligence and display behaviors across different iOS hardware models.",
+          "Testing application behavior under varying region codes and device configurations without requiring physical hardware modifications for every scenario."
         ]
       }
     },
     {
       "rank": 2,
-      "name": "shanselman/gputaskman",
+      "name": "janestreet/agent_skills",
       "score": 92,
-      "reason": "A specialized GPU task manager tailored for modern hardware needs, providing crucial per-process VRAM and LLM model/KV-cache insights across Windows, Linux, and WSL.",
-      "why_interesting_today": "As local LLMs and heavy GPU workloads become mainstream for developers, standard task managers lack visibility into VRAM consumption and KV-caches.",
-      "why_developers_should_care": "Essential utility for developers running local AI models, helping diagnose memory bottlenecks, VRAM leaks, and GPU resource contention.",
-      "momentum": "Strong organic interest among systems and AI engineers looking for targeted diagnostic tooling.",
-      "novelty": "Fills a major tooling gap for AI developers by surfacing granular insights specific to modern GPU and LLM workloads.",
+      "reason": "Strong momentum from an industry-leading quantitative finance firm (Jane Street) releasing tooling around agent skills and workflows.",
+      "why_interesting_today": "As AI coding agents and automated workflows become mainstream, reference architectures and capability definitions from heavy engineering shops draw intense scrutiny.",
+      "why_developers_should_care": "Provides practical insights into how sophisticated engineering organizations structure and define agentic capabilities.",
+      "momentum": "Rapidly gaining traction with 1,767 stars shortly after release.",
+      "novelty": "High novelty given the institutional backing and the current surge in AI agent ecosystem design.",
       "deep_analysis": {
-        "name": "shanselman/gputaskman",
-        "headline_hook": "An htop for your GPU that reveals what is actually consuming your VRAM—from model weights to KV caches—across Windows, Linux, WSL, and macOS.",
-        "core_functionality": "Traditional GPU monitors like Task Manager or nvidia-smi only reveal aggregate VRAM consumption, leaving developers blind to what specific processes, model files, or LLM buffers are consuming memory. gputaskman bridges this gap by providing a terminal UI that connects per-process GPU memory and engine activity with loaded runtimes, model files, and buffer breakdowns.",
+        "name": "janestreet/agent_skills",
+        "headline_hook": "Jane Street has open-sourced its internal framework for defining modular, file-based capabilities for AI coding agents and LLM chatbots.",
+        "core_functionality": "This project solves the problem of unstructured and inconsistent AI agent behavior by providing a standardized, directory-based specification format (SKILL.md) that encapsulates specialized workflows, instructions, and domain knowledge for LLMs.",
         "key_features": [
-          "Per-process VRAM and engine activity tracking across Windows (WDDM), Linux (NVML and amdgpu drm-fdinfo), WSL, and macOS Apple Silicon.",
-          "Granular LLM breakdown separating model weights, compute buffers, and KV-cache allocations.",
-          "Container-aware process mapping for Docker and Kubernetes environments where host PIDs do not align with container namespaces.",
-          "Cross-platform portable execution with zero-dependency installations via uv, pipx, or standalone binaries."
+          "Directory-based encapsulation where each skill lives in its own folder containing a self-contained SKILL.md instruction file.",
+          "Cross-platform compatibility supporting both advanced coding agents that natively understand the SKILL.md format and plain LLM chat interfaces via system prompt injection.",
+          "Built-in pedagogical frameworks demonstrated by the socratic-tutor skill, featuring level 0-5 skill mapping, diagnostic testing, and spaced review."
         ],
-        "target_audience": "AI/ML Engineers, Local LLM Developers, Infrastructure Engineers, and Power Users running heavy local GPU workloads.",
-        "practical_developer_value": "Developers running local LLMs, vision models, or fine-tuning pipelines often hit mysterious OOM errors without knowing whether the memory bloat comes from the browser, system compositors, or unoptimized KV-caches. gputaskman gives developers instant observability into their local hardware without needing complex toolkits or cloud-heavy APM solutions, allowing them to debug memory leaks and optimize context windows directly from the terminal.",
+        "target_audience": "AI engineers, developer productivity tool builders, and software developers building customized agentic workflows who want structured ways to manage LLM capabilities.",
+        "practical_developer_value": "Developers can use this repository as a reference architecture to design deterministic, modular behaviors for their coding assistants or chatbots, ensuring agents follow rigorous, multi-step domain-specific workflows instead of relying solely on baseline system prompts.",
         "suggested_use_cases": [
-          "Debugging out-of-memory errors during local LLM inference and fine-tuning with Ollama, llama.cpp, or PyTorch.",
-          "Monitoring multi-container GPU allocations and matching host NVML metrics inside Docker environments on rented GPU boxes."
+          "Integrating specialized tutoring or code review workflows directly into developer environments using coding agents that support SKILL.md.",
+          "Creating custom system prompts for team chatbots by pasting or referencing standardized skill specifications to enforce engineering best practices."
         ]
       }
     },
     {
       "rank": 3,
-      "name": "DIYgod/pinky",
-      "score": 89,
-      "reason": "An innovative framework allowing AI agents to interact with mobile phones with human oversight built directly into the loop.",
-      "why_interesting_today": "Bridges the gap between conversational AI and device automation, offering a practical approach to mobile agent workflows.",
-      "why_developers_should_care": "Provides a robust architectural pattern for building safe, human-in-the-loop automation agents capable of navigating mobile interfaces.",
-      "momentum": "Strong early traction reflecting the surge in developer interest around autonomous agent applications.",
-      "novelty": "Brings agentic execution to mobile form factors with a strong emphasis on user safety and interactive control.",
+      "name": "jamesondh/chimera-vocal-synth",
+      "score": 88,
+      "reason": "An ambitious Rust-based ultimate vocal synthesizer capable of singing, speaking, and beatboxing.",
+      "why_interesting_today": "Audio synthesis and voice generation in systems programming languages like Rust represent a cutting-edge intersection of performance audio and AI/DSP algorithms.",
+      "why_developers_should_care": "Demonstrates advanced audio manipulation, real-time voice synthesis techniques, and systems-level audio processing in Rust.",
+      "momentum": "Steady organic interest as developers discover its capabilities in the audio-synth space.",
+      "novelty": "Very high novelty as a dedicated open-source vocal synthesizer written in Rust.",
       "deep_analysis": {
-        "name": "DIYgod/pinky",
-        "headline_hook": "Pinky is an innovative open-source framework and native app that bridges the gap between conversational AI agents and mobile device automation by introducing human-in-the-loop oversight directly at the gateway layer.",
-        "core_functionality": "Pinky solves the problem of uncontrolled or potentially dangerous AI agent behavior on mobile devices by intercepting actions at the Model Context Protocol gateway level. It allows any MCP-compatible AI agent (such as Claude Code, Cursor, or custom scripts) to interact with physical or emulated Android and iOS devices while forcing critical, risky, or out-of-scope actions to wait for explicit human approval.",
+        "name": "jamesondh/chimera-vocal-synth",
+        "headline_hook": "Chimera is a physics-based vocal synthesizer written in Rust and compiled to WebAssembly, simulating an entire human airway in real time without samples or neural audio.",
+        "core_functionality": "Chimera solves the limitations of sample-based and neural text-to-speech or vocal synthesis engines by using a deterministic, real-time safe physical model of the human vocal tract (lungs, vocal folds, throat, mouth, and nasal cavity). By processing acoustic physics directly in a Rust-powered WebAssembly module running inside an AudioWorklet, it generates speech, singing, beatboxing, and animal sounds completely from scratch.",
         "key_features": [
-          "Gateway-Enforced Approvals: Security rules and human approvals run inside Pinky's gateway layer, ensuring agents cannot bypass restrictions or talk users into self-approval.",
-          "Off-Limits App Protection: Sensitive applications like banking, password managers, and crypto wallets are invisible to agents by default, blocking them from interacting with password and OTP fields unless explicitly permitted per task.",
-          "Cross-Platform Native Desktop Client: Written using MyGo for direct GPU rendering without Electron, providing a lightweight multi-platform window for macOS, Windows, and Linux that idles at low resource usage.",
-          "Universal Agent and Device Support: Integrates seamlessly with any MCP-compatible agent and drives Android devices (versions 10-17) alongside iOS devices (iOS 17.4+), supporting both physical connections and emulators."
+          "Pure physical modeling engine implemented in Rust, free of audio samples and heavyweight neural networks, ensuring deterministic and real-time safe performance.",
+          "WebAssembly compilation targeting browser AudioWorklets, allowing interactive vocal synthesis with a live anatomical cutaway UI powered by Vite and Bun.",
+          "Cross-platform capability sharing the exact same core Rust codebase between web browsers, native CLI rendering, and audio plugins (CLAP, VST3, AU).",
+          "Comprehensive text-to-speech and singing pipeline supporting CMUdict, IPA, lyric-to-note alignment, and articulatory gestures for consonants and vowels."
         ],
-        "target_audience": "AI engineers, developer tooling builders, QA automation specialists, and power users developing autonomous workflows that interact with mobile apps.",
-        "practical_developer_value": "Developers building agentic workflows often struggle with testing or deploying AI systems that perform real-world actions on mobile devices due to security risks and lack of precise control. Pinky provides a secure abstraction layer using MCP, allowing developers to safely test mobile agents, audit execution steps via automated logs and recordings, and inject human-in-the-loop safety boundaries into automated QA or assistant pipelines.",
+        "target_audience": "Audio software engineers, Rust systems developers, WebAssembly enthusiasts, and creative technologists building web-based audio applications.",
+        "practical_developer_value": "Developers working on high-performance audio or systems programming gain a prime architectural blueprint for compiling complex Rust DSP code to WebAssembly for zero-latency browser audio worklets. It demonstrates how to maintain a single source of truth for both native CLI workflows and web browser interfaces while optimizing for real-time safety constraints.",
         "suggested_use_cases": [
-          "Automated mobile application testing and regression suites driven by LLM agents with human sign-off on destructive actions.",
-          "Secure personal assistant workflows where AI agents help manage messages, schedule tasks, or look up information on a mobile device without risking unauthorized financial transactions."
+          "Integrating physical modeling audio synthesis into browser-based music production and education web apps.",
+          "Building custom VST/CLAP/AU audio plugins using Rust for cross-platform Digital Audio Workstations."
         ]
       }
     },
     {
       "rank": 4,
-      "name": "Leviidev/Henge",
-      "score": 86,
-      "reason": "An ambitious project focused on emulating the macOS environment directly on iOS and iPadOS devices.",
-      "why_interesting_today": "Pushes the boundaries of mobile operating system flexibility and virtualization constraints on Apple hardware.",
-      "why_developers_should_care": "Fascinating exploration of low-level OS architecture, hypervisor capabilities, and software boundaries on modern mobile processors.",
-      "momentum": "Exceptional star growth velocity indicating intense curiosity from the mobile tinkering community.",
-      "novelty": "High novelty in attempting desktop-grade OS emulation on constrained mobile hardware.",
+      "name": "egoist/mygo-music",
+      "score": 85,
+      "reason": "A clean, native music player built in Go that can be extended via plugins, created by a prolific and well-known open-source developer.",
+      "why_interesting_today": "Modular, lightweight desktop/native applications built with Go provide an appealing alternative to resource-heavy Electron apps.",
+      "why_developers_should_care": "Serves as an excellent architectural blueprint for building extensible, plugin-driven native applications in Go.",
+      "momentum": "Solid initial interest and healthy community curiosity following its launch.",
+      "novelty": "Moderate-to-high novelty for its plugin architecture implemented cleanly in Go.",
       "deep_analysis": {
-        "name": "Leviidev/Henge",
-        "headline_hook": "Henge emulates full macOS directly on iOS and iPadOS devices using a custom JIT, MMU, and Metal-accelerated virtual GPU without relying on QEMU or Virtualization.framework.",
-        "core_functionality": "Henge enables users to download, install, and run native macOS arm64 restore images directly on iPhones and iPads. Because iOS apps lack a native hypervisor layer, Henge bypasses conventional virtualization frameworks by implementing its own custom JIT engine, MMU, device emulation, and a Metal-based virtual graphics pipeline.",
+        "name": "egoist/mygo-music",
+        "headline_hook": "Ditch heavy Electron desktop apps for a lightweight, native Go music player that streams, plays local FLAC files, and scales infinitely via JavaScript plugins.",
+        "core_functionality": "MyGo Music is a high-performance, native desktop music player written entirely in Go without using any WebView or Electron. It handles local audio file playback natively while abstracting catalog searching, streaming, podcasts, and third-party account integrations into a lightweight, sandboxed JavaScript/TypeScript plugin system.",
         "key_features": [
-          "Custom JIT and Device Emulation: Runs Mac arm64 code via a proprietary JIT engine with its own Memory Management Unit and device emulation layers rather than utilizing QEMU or Virtualization.framework.",
-          "Metal-Accelerated Graphics Replay: macOS graphics commands are intercepted and replayed using Apple Metal, allowing complex software like Safari, VS Code, and Electron apps to render correctly.",
-          "Hardware and Peripheral Integration: Automatically detects external displays via USB-C or HDMI docks for desktop extension, while mapping touchscreens to trackpads and integrating physical Bluetooth or Magic Keyboards.",
-          "Direct Apple Restore Image Installation: Downloads official macOS restore images and executes authentic restoration procedures directly on the mobile hardware without requiring an intermediary Mac."
+          "WebView-Free Native Architecture: Built purely in Go using the MyGo framework, resulting in minimal RAM usage, fast startup times, and smooth native UI rendering.",
+          "Comprehensive Local Audio Support: Out-of-the-box playback for MP3, FLAC, Ogg Vorbis, WAV, ALAC, and M4A/AAC files with embedded tags, cover art, and synchronised .lrc lyrics support.",
+          "Advanced JavaScript/TypeScript Plugin Engine: Extensible architecture allowing plugins to provide catalogs, accounts, custom pages, and comment sections via simple JSON manifests and JS modules.",
+          "Local AI-Powered Podcast Captions: Utilizes sherpa-onnx and Qwen3-ASR models downloaded on-device to automatically transcribe podcast episodes as they play."
         ],
-        "target_audience": "Mobile systems engineers, iOS jailbreak and low-level developers, security researchers, and enthusiasts pushing the boundaries of Apple hardware virtualization.",
-        "practical_developer_value": "Henge serves as an extraordinary engineering reference for low-level systems programming on iOS, showcasing advanced techniques in user-space instruction emulation, JIT compilation, graphics translation to Metal, and hardware accessory integration. Developers exploring mobile constraints, custom runtime environments, or hypervisor alternatives can study its architecture to understand how to maximize performance on locked-down mobile silicon.",
+        "target_audience": "Go developers, desktop application engineers, and open-source enthusiasts looking for lightweight alternatives to Electron-based desktop software.",
+        "practical_developer_value": "Developers gain a robust architectural reference for building high-performance, native desktop software in Go that avoids resource-heavy frameworks. It showcases clean design patterns for decoupling core engine logic from dynamic JavaScript/TypeScript extension runtimes, handling cross-platform media controls, and integrating on-device local AI processing pipelines.",
         "suggested_use_cases": [
-          "Experimenting with mobile hardware limits by running full desktop development tools like VS Code directly on an iPad.",
-          "Studying advanced user-space emulation and Metal-based graphics re-rendering techniques for custom execution environments."
+          "Building custom, resource-efficient enterprise media tooling or offline-first desktop utilities in Go.",
+          "Developing custom music streaming plugins or third-party service adapters using standard JavaScript/TypeScript workflows."
         ]
       }
     },
     {
       "rank": 5,
-      "name": "IainKay/ram-altman",
-      "score": 81,
-      "reason": "A clever and humorous parody monitoring tool that checks system RAM and emails unused capacity directly to OpenAI's CEO.",
-      "why_interesting_today": "Blends system administration scripting with satirical commentary on the relentless industry-wide demand for compute resources.",
-      "why_developers_should_care": "A fun, lightweight Bash script showcasing practical sysadmin monitoring concepts combined with external API/email alerting.",
-      "momentum": "Viral developer interest driven by its sharp tech humor and creative premise.",
-      "novelty": "Combines practical hardware telemetry with brilliant satirical performance art.",
+      "name": "tangerineturtle1/NX2navi",
+      "score": 82,
+      "reason": "Strong early star and fork growth for a specialized C-based embedded or navigation-related utility.",
+      "why_interesting_today": "Niche hardware and embedded navigation integrations always attract systems developers and hardware hackers looking for low-level protocol insights.",
+      "why_developers_should_care": "Provides compact, low-level C implementations useful for hardware communication and navigation data parsing.",
+      "momentum": "Healthy upward trend with over 500 star growth in its first few days.",
+      "novelty": "Good novelty for low-level C systems developers working with specialized hardware protocols.",
       "deep_analysis": {
-        "name": "IainKay/ram-altman",
-        "headline_hook": "A bash script that monitors your PC's unused RAM and automatically emails the daily surplus to Sam Altman, blending satirical sysadmin tooling with industry commentary.",
-        "core_functionality": "The tool parses Linux kernel memory metrics from /proc/meminfo to calculate true available RAM (accounting for reclaimable page caches), tracks historical data in a local CSV log, and uses a cron job to send a humorous daily report if available capacity exceeds a configured threshold.",
+        "name": "tangerineturtle1/NX2navi",
+        "headline_hook": "NX2navi is a static recompilation of The Legend of Zelda: Ocarina of Time into a native x86-64 Vulkan application featuring modern graphics tech like DLSS 3.5, FSR 3.1, and frame generation.",
+        "core_functionality": "The project takes a console game build for a Nintendo target and statically recompiles it into a native x86-64 application for Windows. Instead of relying on traditional CPU emulation, it translates and builds the game logic natively alongside a modern Vulkan graphics renderer.",
         "key_features": [
-          "Precise Linux memory accounting that correctly handles MemAvailable versus page caches, avoiding false positives.",
-          "Built-in state management and rate limiting to guarantee at most one email per day alongside comprehensive dry-run preview capabilities.",
-          "Templated email generation rotating through multiple subject lines, humorous body messages, and sign-offs to keep correspondence fresh.",
-          "Comprehensive test suite utilizing simulated memory stats and a mock sendmail binary to ensure zero accidental live mailings during testing."
+          "Native static recompilation that bypasses high-overhead emulation for direct x86-64 execution.",
+          "Modern graphics and upscaling integration supporting Vulkan 1.3, NVIDIA DLSS, DLSS Frame Generation, and AMD FSR 3.1.",
+          "Advanced display features including native ultrawide support, variable refresh rates, HDR tone mapping, and independent HUD scaling.",
+          "Automated local build tooling that takes a user-provided game dump and compiles the final native binary on-machine."
         ],
-        "target_audience": "Linux systems administrators, DevOps engineers, and software developers who appreciate developer humor and command-line automation.",
-        "practical_developer_value": "While framed as a parody, the repository provides clean, idiomatic Bash scripting patterns for parsing system metrics, handling state files safely, implementing robust rate limiting via cron, and structuring automated testing frameworks for shell scripts.",
+        "target_audience": "Systems developers, reverse engineers, graphics programmers, and emulation architects interested in low-level binary analysis, static recompilation, and modern Vulkan renderer implementation.",
+        "practical_developer_value": "Developers studying game porting, static binary translation, or advanced Vulkan graphics pipelines can examine how this project manages asynchronous shader compilation, memory mapping constraints, and modern frame generation techniques without an emulator layer.",
         "suggested_use_cases": [
-          "Auditing personal or local development machine memory allocation trends over time using the included CSV logging and awk analysis snippet.",
-          "Serving as a lightweight template or educational reference for writing robust, tested system monitoring scripts in pure Bash."
+          "Analyzing static recompilation patterns and toolchains used to bring console binaries to native desktop environments.",
+          "Studying custom Vulkan 1.3 rendering pipelines that integrate high-end upscalers like DLSS and FSR alongside native UI elements."
         ]
       }
     }
