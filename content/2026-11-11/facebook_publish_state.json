@@ -26,8 +26,8 @@
       "caption": "No samples. No neural nets. Just pure physics running at 60fps in your browser. 🤯\n\nMeet Chimera: a physics-based vocal synthesizer written in Rust and compiled to WebAssembly that simulates an entire human airway in real time. \n\nTraditional vocal synthesis relies on bloated sample libraries or heavy neural networks. Chimera solves this by using a deterministic, real-time safe physical model of the human vocal tract—simulating your lungs, vocal folds, throat, mouth, and nasal cavity completely from scratch to generate speech, singing, beatboxing, and animal sounds.\n\nNotable features include:\n✨ Pure physical modeling engine implemented in Rust, free of heavy weights and static audio files\n⚡ WebAssembly compilation targeting browser AudioWorklets with a live anatomical cutaway UI powered by Vite and Bun\n🎛️ Cross-platform capability sharing the exact same core Rust codebase between web browsers, native CLI rendering, and VST3/CLAP/AU audio plugins\n🗣️ Comprehensive text-to-speech and singing pipeline supporting CMUdict, IPA, lyric-to-note alignment, and articulatory gestures\n\nWhether you are an audio engineer, a Rust systems dev, or a creative technologist, this repo is a masterclass in compiling complex DSP code to WebAssembly for zero-latency browser audio.\n\n👉 Check out the source code and try the interactive UI here: https://github.com/jamesondh/chimera-vocal-synth\n\nDrop a comment below: What would you build with a real-time browser vocal tract simulator? 👇\n\n#RustLang #WebAssembly #AudioTech #SoftwareEngineering #OpenSource",
       "image_file": "3_jamesondh_chimera-vocal-synth.png",
       "photo_id": "122129310921476221",
-      "published_post_id": null,
-      "published_at": null
+      "published_post_id": "1410193715501138_122129402973476221",
+      "published_at": "2026-11-11T15:00:41.055887+08:00"
     },
     {
       "rank": 4,
