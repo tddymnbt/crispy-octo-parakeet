@@ -44,8 +44,8 @@
       "caption": "🎮 Forget traditional emulation—what if you could statically recompile a legendary console classic into a lightning-fast, native x86-64 desktop application? \n\nThe NX2navi project tackles the massive overhead of CPU emulation by taking a console game build and translating it directly into native x86-64 execution paired with a cutting-edge Vulkan renderer. \n\nFor systems developers, reverse engineers, and graphics programmers, this repository is a masterclass in low-level binary analysis and modern rendering architecture. \n\n✨ Key Features:\n- Native Static Recompilation: Bypasses traditional emulation overhead for direct, high-performance x86-64 execution.\n- Next-Gen Graphics Stack: Built on Vulkan 1.3 with full integration for NVIDIA DLSS, DLSS Frame Generation, and AMD FSR 3.1.\n- Modern Display Tech: Enjoy native ultrawide support, variable refresh rates, HDR tone mapping, and independent HUD scaling.\n- Automated Local Toolchain: Easily takes a user-provided game dump and compiles the final native binary directly on your machine.\n\nWhether you are studying binary translation patterns, memory mapping constraints, or how to inject high-end upscalers like Fsr and Dlss into custom graphics pipelines without an emulator layer, there is immense engineering value to uncover here.\n\n🔗 Explore the source code and dive into the architecture:\nhttps://github.com/tangerineturtle1/NX2navi\n\n👇 Drop a comment below: What console game would you want to see statically recompiled next? Hit share with a fellow systems dev or graphics engineer who needs to see this!\n\n#GameDev #SoftwareEngineering #Vulkan #ReverseEngineering #OpenSource #Programming #GraphicsProgramming",
       "image_file": "5_tangerineturtle1_NX2navi.png",
       "photo_id": "122129311011476221",
-      "published_post_id": null,
-      "published_at": null
+      "published_post_id": "1410193715501138_122129510565476221",
+      "published_at": "2026-11-11T23:00:45.313234+08:00"
     }
   ]
 }
