@@ -35,8 +35,8 @@
       "caption": "Sick of Electron apps eating up 2GB of RAM just to play an audio file? 🛑 Say hello to a breath of fresh air for your desktop.\n\nMeet MyGo Music: a lightning-fast, native music player built entirely in Go—completely free of WebViews and heavy frameworks. \n\nHere is the problem it solves: Traditional desktop media apps are bloated resource hogs. MyGo Music delivers blazing-fast startup times, minimal memory consumption, and smooth native UI rendering while handling both your local library and cloud streams effortlessly.\n\nKey Features Built for Devs:\n⚡ WebView-Free Native Architecture: Crafted purely in Go for maximum performance and near-zero idle RAM usage.\n🎵 Comprehensive Local Audio Support: Native playback for MP3, FLAC, Ogg Vorbis, WAV, ALAC, and M4A with embedded art and synchronized .lrc lyrics.\n🧩 JavaScript/TypeScript Plugin Engine: Easily extend catalogs, accounts, and custom UI views using simple JSON manifests and JS modules.\n🎙️ Local AI-Powered Podcasts: Uses on-device sherpa-onnx and Qwen3-ASR models to automatically transcribe podcast episodes as you listen.\n\nWhether you are looking for a resource-efficient daily driver or an architectural reference for building high-performance, native Go desktop apps with decoupled JS extension runtimes, this repo is a goldmine.\n\nCheck it out on GitHub:\nhttps://github.com/egoist/mygo-music\n\nWhat’s your go-to tech stack for building desktop utilities? Drop a comment below and let us know, then drop a star on the repo if you are ditching Electron this week! 👇\n\n#Golang #SoftwareEngineering #OpenSource #DesktopApps #AI #WebDev #Coding",
       "image_file": "4_egoist_mygo-music.png",
       "photo_id": "122129310969476221",
-      "published_post_id": null,
-      "published_at": null
+      "published_post_id": "1410193715501138_122129460141476221",
+      "published_at": "2026-11-11T19:00:42.816094+08:00"
     },
     {
       "rank": 5,
