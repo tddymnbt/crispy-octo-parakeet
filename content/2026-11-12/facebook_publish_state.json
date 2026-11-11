@@ -1,0 +1,51 @@
+{
+  "date": "2026-11-12",
+  "prepared_at": "2026-11-12T07:02:18.632080+08:00",
+  "posts": [
+    {
+      "rank": 1,
+      "repo_name": "NousResearch/hermes-agent",
+      "caption": "Tired of stateless AI assistants that forget everything the moment you close the tab? 🤖\n\nMeet Hermes Agent by NousResearch – a self-improving AI agent framework designed to bridge local terminals with your favorite messaging platforms while maintaining long-term user context. \n\nThe Problem: Most AI interactions are isolated and static. They lack the ability to learn from past mistakes, build persistent memory, or operate seamlessly across your daily communication tools.\n\nWhat Hermes Agent brings to your stack:\n🔄 Closed Learning Loop: Autonomously creates, refines, and persists custom skills compatible with the agentskills.io standard.\n💬 Universal Messaging Gateway: Connect Telegram, Discord, Slack, WhatsApp, Signal, and CLI from a single running process.\n⚡ Advanced Terminal Backends: Leverage 6 built-in options including serverless persistence environments like Daytona and Modal that hibernate when idle to save resources.\n🧠 Cross-Session Memory: Features FTS5 search, LLM summarization, and Honcho dialectic user modeling for deep contextual awareness.\n\nWhether you want to spin up an autonomous coding assistant that reports back via Telegram on a 5-dollar VPS, or generate batch training trajectories to fine-tune open-source tool-calling models, Hermes Agent gives you a production-ready framework to build on.\n\n👇 Check out the repository and start building today:\nhttps://github.com/NousResearch/hermes-agent\n\nWhat platform are you deploying your first agent to? Let us know in the comments!\n\n#AI #MachineLearning #SoftwareEngineering #OpenSource #DevOps #ArtificialIntelligence #DeveloperTools",
+      "image_file": "1_NousResearch_hermes-agent.png",
+      "photo_id": "122129694069476221",
+      "published_post_id": "1410193715501138_122129694267476221",
+      "published_at": "2026-11-12T07:02:22.006888+08:00"
+    },
+    {
+      "rank": 2,
+      "repo_name": "nilbuild/developer-roadmap",
+      "caption": "Tired of guessing what to learn next in your tech career? 🗺️\n\nWhether you're a junior dev trying to break into the industry, a senior engineer pivoting into AI, or a tech lead onboarding your team, figuring out the right upskilling path is exhausting. \n\nEnter nilbuild/developer-roadmap: a comprehensive, interactive collection of learning paths, best practices, and knowledge-testing questions designed to take the friction out of your career progression. 🚀\n\nWhat makes it a game-changer:\n🔹 Interactive roadmap nodes that link directly to detailed guides and resources with a single click.\n🔹 Cutting-edge coverage of AI Engineering, Prompt Engineering, Inference Engineering, and MLOps alongside core backend and cloud tracks.\n🔹 Built-in knowledge checks and targeted questions to test and level up your technical proficiency.\n🔹 Battle-tested best practices for API security, backend performance, and code reviews.\n\nStop wandering aimlessly through endless tutorials and follow a structured curriculum built by the community. \n\nCheck out the repository here and star it to support the project:\nhttps://github.com/nilbuild/developer-roadmap\n\nWhat technology stack or specialty are you learning next? Let us know in the comments! 👇\n\n#SoftwareEngineering #AIEngineering #CloudComputing #Coding #TechCareers #DeveloperRoadmap #OpenSource #MLOps #WebDev",
+      "image_file": "2_nilbuild_developer-roadmap.png",
+      "photo_id": "122129694111476221",
+      "published_post_id": null,
+      "published_at": null
+    },
+    {
+      "rank": 3,
+      "repo_name": "mmdoctor/google-pro-helper",
+      "caption": "Tired of the tedious multi-step clicks required to activate and manage promotional Google AI Pro subscription tiers? \n\nCheck out mmdoctor/google-pro-helper, a clever dual-architecture toolkit designed to automate and simplify these workflows through targeted browser extensions and local batch console workflows. \n\nWhether you are an automation engineer or a developer researching Web UI automation, this repository tackles the friction of navigation, token injection, and localized payment configuration head-on.\n\nNotable Features:\n- Dual Architecture: Choose between a manual Chrome browser extension and a fully automated local Python console for repetitive subscription operations.\n- Smart Session Handling: Automate session management and multi-factor validation flows, handling structured account credentials and 2FA secrets seamlessly.\n- Precise Workflow Sequencing: Apply multi-layer promotional subscription packages and automate cancellation sequences to prevent unwanted recurring billing.\n- Secure Local Isolation: Keep sensitive credentials, cookies, payment details, and execution logs completely off version control using isolated local directory profiles.\n\nWhy developers are looking at it: It is a fantastic reference for studying practical implementations of browser automation workflows using Python, local web UI consoles, and Chrome extension manifest patterns. \n\nExplore the code and level up your RPA toolkit today:\nhttps://github.com/mmdoctor/google-pro-helper\n\nWhat is your go-to stack for building local browser automation and extension scripts? Drop your thoughts in the comments below!\n\n#Python #ChromeExtensions #WebAutomation #RPA #DeveloperTools #OpenSource #SoftwareEngineering",
+      "image_file": "3_mmdoctor_google-pro-helper.png",
+      "photo_id": "122129694153476221",
+      "published_post_id": null,
+      "published_at": null
+    },
+    {
+      "rank": 4,
+      "repo_name": "WoYun520/gif-factory",
+      "caption": "Tired of wasting hours in traditional editing software just to generate basic animated GIFs and marketing assets? \n\nMeet gif-factory, the ultimate programmatic solution that bridges the gap between AI automation and creative visual asset generation. It acts as an installable skill and script ecosystem for your AI-driven workflows, transforming static text, illustrations, and raw images into professional-grade animated GIFs, dynamic signatures, stickers, and brand shorts from simple text prompts.\n\n✨ Key Features You'll Love:\n• Installable Skill Architecture: Integrates directly with coding assistants via modular folders, providing tailored instructions and execution scripts for multimedia tasks.\n• Diverse Visual Styles: Access over 40 cinematic title letterings, dynamic art signatures with semantic integrations, and multi-format storybooks.\n• Automated Multi-Asset Generation: Handle end-to-end creative workflows from a single prompt, combining character sheets, custom text, background scenes, and synchronized animation loops.\n\nWhether you are a frontend developer building rich UI elements, an AI engineer automating content pipelines, or an indie hacker scaling promotional banners and chat stickers, this tool eliminates repetitive motion graphics tasks completely.\n\nCheck it out on GitHub:\nhttps://github.com/WoYun520/gif-factory\n\nDrop a comment below on how you plan to use automated GIFs in your workflow, and share this post with fellow developers and creators who need to speed up their asset generation!\n\n#WebDevelopment #ArtificialIntelligence #OpenSource #SoftwareEngineering #Automation #Coding #TechCommunity",
+      "image_file": "4_WoYun520_gif-factory.png",
+      "photo_id": "122129694195476221",
+      "published_post_id": null,
+      "published_at": null
+    },
+    {
+      "rank": 5,
+      "repo_name": "freeCodeCamp/freeCodeCamp",
+      "caption": "Ever wondered how a single open-source ecosystem powers free tech education for millions of developers worldwide? 🌍💻\n\nFor millions of aspiring developers, breaking into tech often means running into expensive bootcamps and locked-behind-paywalls learning platforms. \n\nfreeCodeCamp solves this by providing a completely free, self-paced, donor-supported full-stack web development and machine learning curriculum. As a massive open-source project, it removes financial barriers while teaching you by doing.\n\nHere is what makes the platform so powerful:\n✨ Comprehensive full-stack and machine learning curricula featuring interactive coding challenges, workshops, and labs\n🏆 Professional certifications including Responsive Web Design, JavaScript, Python, Relational Databases, and international language tracks\n🧠 Built-in technical prep resources like Coding Interview Prep, Project Euler, and Rosetta Code\n🤝 A massive open-source contributor ecosystem driven by continuous updates and automated testing\n\nFor developers and AI engineers, studying this battle-tested codebase is a masterclass in modern web architecture. You can contribute to tools used by millions, sharpen your collaborative coding skills, or use the structured paths to master new languages.\n\nReady to dive into the code or contribute to global tech education? \n\nCheck out the repository here:\nhttps://github.com/freeCodeCamp/freeCodeCamp\n\n👇 How are you currently upskilling or contributing to open source? Drop a comment below and share your favorite learning resource!\n\n#OpenSource #WebDevelopment #MachineLearning #FullStack #Python #JavaScript #Coding #TechEducation #GitHub",
+      "image_file": "5_freeCodeCamp_freeCodeCamp.png",
+      "photo_id": "122129694237476221",
+      "published_post_id": null,
+      "published_at": null
+    }
+  ]
+}
