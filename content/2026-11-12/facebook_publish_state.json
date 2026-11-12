@@ -26,8 +26,8 @@
       "caption": "Tired of the tedious multi-step clicks required to activate and manage promotional Google AI Pro subscription tiers? \n\nCheck out mmdoctor/google-pro-helper, a clever dual-architecture toolkit designed to automate and simplify these workflows through targeted browser extensions and local batch console workflows. \n\nWhether you are an automation engineer or a developer researching Web UI automation, this repository tackles the friction of navigation, token injection, and localized payment configuration head-on.\n\nNotable Features:\n- Dual Architecture: Choose between a manual Chrome browser extension and a fully automated local Python console for repetitive subscription operations.\n- Smart Session Handling: Automate session management and multi-factor validation flows, handling structured account credentials and 2FA secrets seamlessly.\n- Precise Workflow Sequencing: Apply multi-layer promotional subscription packages and automate cancellation sequences to prevent unwanted recurring billing.\n- Secure Local Isolation: Keep sensitive credentials, cookies, payment details, and execution logs completely off version control using isolated local directory profiles.\n\nWhy developers are looking at it: It is a fantastic reference for studying practical implementations of browser automation workflows using Python, local web UI consoles, and Chrome extension manifest patterns. \n\nExplore the code and level up your RPA toolkit today:\nhttps://github.com/mmdoctor/google-pro-helper\n\nWhat is your go-to stack for building local browser automation and extension scripts? Drop your thoughts in the comments below!\n\n#Python #ChromeExtensions #WebAutomation #RPA #DeveloperTools #OpenSource #SoftwareEngineering",
       "image_file": "3_mmdoctor_google-pro-helper.png",
       "photo_id": "122129694153476221",
-      "published_post_id": null,
-      "published_at": null
+      "published_post_id": "1410193715501138_122129781567476221",
+      "published_at": "2026-11-12T15:00:37.706136+08:00"
     },
     {
       "rank": 4,
