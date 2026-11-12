@@ -3,135 +3,135 @@
   "repositories": [
     {
       "rank": 1,
-      "name": "NousResearch/hermes-agent",
-      "score": 98,
-      "reason": "Outstanding velocity and technical significance as an advanced, adaptable AI agent framework building on top of top-tier foundation models.",
-      "why_interesting_today": "AI agents that evolve and grow with user context are experiencing massive attention and adoption curves across the developer community.",
-      "why_developers_should_care": "Provides practical patterns and infrastructure for building personalized, stateful AI agents that integrate deeply with modern LLMs like Claude and ChatGPT.",
-      "momentum": "Extremely strong growth with over 300 new stars and hundreds of forks demonstrating active community experimentation.",
-      "novelty": "High novelty in autonomous agent customization and long-term user alignment.",
+      "name": "morluto/rea",
+      "score": 96,
+      "reason": "An exceptionally innovative and rapidly growing repository focused on reverse engineering anything with autonomous agents, from application behavior down to native binaries.",
+      "why_interesting_today": "AI agents are expanding beyond standard code generation into deep security research, binary analysis, and multi-platform automation.",
+      "why_developers_should_care": "It introduces a powerful paradigm shift in how developers and security professionals approach legacy binaries, mobile apps, and low-level code inspection using agentic workflows.",
+      "momentum": "Extremely high star growth (2,562 stars) and strong fork activity indicating rapid community adoption.",
+      "novelty": "High novelty; bridges automated reasoning/LLM agents with traditional reverse engineering toolchains.",
       "deep_analysis": {
-        "name": "NousResearch/hermes-agent",
-        "headline_hook": "Hermes Agent is a self-improving AI agent framework featuring built-in learning loops, multi-platform messaging gateways, and serverless sandbox persistence.",
-        "core_functionality": "Hermes Agent solves the limitation of stateless, isolated AI interactions by providing an adaptable, self-improving agent framework that builds long-term user context, autonomously creates and refines skills from experience, and bridges local terminals with messaging platforms like Telegram and Discord.",
+        "name": "morluto/rea",
+        "headline_hook": "Empower your AI agents to reverse engineer applications, binaries, and runtime behavior directly through a unified MCP server.",
+        "core_functionality": "REA (Reverse Engineer Anything) acts as a bridge and Model Context Protocol (MCP) server that connects autonomous AI agents and developers to tools for deep inspection of native binaries, JavaScript and Electron applications, .NET assemblies, and websites without requiring original source code.",
         "key_features": [
-          "Closed learning loop with autonomous skill creation, persistence, and compatibility with the agentskills.io standard",
-          "Multi-platform messaging gateway supporting Telegram, Discord, Slack, WhatsApp, Signal, and CLI from a single process",
-          "Six built-in terminal backends including serverless persistence environments like Daytona and Modal that hibernate when idle",
-          "Advanced cross-session memory featuring FTS5 search, LLM summarization, and Honcho dialectic user modeling"
+          "Unified MCP Server Integration that connects popular AI agents like Claude Code, Cursor, and Codex directly to reverse engineering tools.",
+          "Comprehensive Multi-Target Analysis covering native binaries, JavaScript or Electron application ASAR bundles, .NET assemblies, and firmware.",
+          "Evidence-Backed Findings that return not just conclusions, but code references, raw evidence, and limitations for every traced behavior.",
+          "Seamless CLI and Terminal Execution allowing developers to run standalone commands like JavaScript application analysis directly from the command line."
         ],
-        "target_audience": "AI engineers, backend developers, DevOps professionals, and researchers building autonomous workflows or custom AI assistants.",
-        "practical_developer_value": "Developers can deploy a production-ready, model-agnostic AI agent on minimal infrastructure such as a five-dollar VPS or serverless instances, integrate it seamlessly into existing communication pipelines, and utilize its research-ready trajectory compression for model training.",
+        "target_audience": "Security researchers, reverse engineers, AI engineers building advanced autonomous workflows, and full-stack software developers looking to understand or interoperate with third-party application features.",
+        "practical_developer_value": "Developers can dramatically accelerate feature research by instructing their AI agent to analyze proprietary or undocumented app behavior, extract underlying logic or UI patterns, and generate equivalent implementations for their own projects.",
         "suggested_use_cases": [
-          "Building an autonomous coding assistant that schedules nightly audits, creates custom reusable skills, and reports back via Telegram",
-          "Generating batch training trajectories and compressed interactions to fine-tune custom open-source tool-calling models"
+          "Investigating how a specific feature works inside an unreleased or closed-source desktop application to build a compatible version.",
+          "Auditing and inspecting native binaries or compiled JavaScript packages for hidden dependencies, vulnerabilities, or undocumented API calls."
         ]
       }
     },
     {
       "rank": 2,
-      "name": "nilbuild/developer-roadmap",
+      "name": "HybridRobotics/supermimic",
       "score": 92,
-      "reason": "Continues to be an essential, high-utility resource providing structured guidance for software engineering career paths and technical disciplines.",
-      "why_interesting_today": "Persistent strong engagement as developers continuously look for structured paths to upskill in emerging tech stacks like cloud, AI engineering, and backend architectures.",
-      "why_developers_should_care": "Serves as an indispensable reference map for learning new domains, evaluating skill gaps, and planning engineering career progression.",
-      "momentum": "Consistent high daily momentum with robust star and fork growth reflecting ongoing community reliance.",
-      "novelty": "Moderate novelty, but unmatched in comprehensive visual structuring of technical knowledge.",
+      "reason": "A cutting-edge framework for humanoid whole-body motion tracking leveraging a single differentiable world model.",
+      "why_interesting_today": "Embodied AI and humanoid robotics are seeing intense breakthroughs, requiring advanced physics-informed machine learning models.",
+      "why_developers_should_care": "It offers an elegant, differentiable approach to motion tracking that simplifies complex simulation-to-real pipelines for roboticists and simulation engineers.",
+      "momentum": "Solid initial interest and active push cycles for a specialized robotics repository.",
+      "novelty": "High novelty in combining differentiable world models with whole-body motion tracking.",
       "deep_analysis": {
-        "name": "nilbuild/developer-roadmap",
-        "headline_hook": "Navigate your software engineering career with interactive, community-driven roadmaps spanning backend architectures, cloud computing, and AI engineering.",
-        "core_functionality": "The project provides a comprehensive, structured, and interactive collection of learning paths, best practices, and knowledge-testing questions for various software engineering roles and technologies, helping developers navigate upskilling and career progression.",
+        "name": "HybridRobotics/supermimic",
+        "headline_hook": "SuperMimic leverages a single differentiable world model to revolutionize humanoid whole-body motion tracking for next-generation embodied AI.",
+        "core_functionality": "SuperMimic solves the complex problem of humanoid whole-body motion tracking by utilizing a single differentiable world model built on top of mjlab, enabling efficient training of policies that map complex reference motions to physical humanoid hardware representations.",
         "key_features": [
-          "Interactive roadmap nodes that link directly to detailed guides, explanations, and resources when clicked.",
-          "Extensive coverage of modern technology stacks, including emerging fields like AI Engineering, Prompt Engineering, Inference Engineering, and MLOps alongside foundational roles.",
-          "Curated best practices for major disciplines like backend performance, API security, and code reviews.",
-          "Built-in knowledge checks and targeted questions to test, rate, and improve technical proficiency in specific languages and frameworks."
+          "Differentiable world model integration for gradient-based optimization and physics-informed motion learning.",
+          "Support for both generalized and maximal coordinate representations via dedicated task IDs like SuperMimic-GenCoord-G1 and SuperMimic-MaxCoord-G1.",
+          "Modern Python dependency management and execution via astral uv for rapid environment setup and reproducibility.",
+          "Built-in support for model playback and integration with experiment tracking platforms like Wandb."
         ],
-        "target_audience": "Junior developers looking for structured learning paths, senior engineers transitioning into specialized fields like AI or Cloud Architecture, and technical managers guiding team upskilling.",
-        "practical_developer_value": "Developers can eliminate guesswork in career planning by following battle-tested curricula, identifying skill gaps using self-assessment questions, and establishing engineering standards using built-in best practices.",
+        "target_audience": "Robotics researchers, AI engineers, and embodied AI developers specializing in reinforcement learning, physics simulation, and humanoid control systems.",
+        "practical_developer_value": "Developers working on humanoid robotics can leverage SuperMimic to drastically cut down the iteration time required to train stable whole-body motion tracking policies. By replacing traditional black-box simulation approaches with a differentiable world model framework, engineers can achieve smoother trajectory tracking and more sample-efficient learning, which directly translates to safer and more robust real-world hardware deployment.",
         "suggested_use_cases": [
-          "Designing a personalized upskilling curriculum to transition from frontend development to full-stack or AI engineering.",
-          "Onboarding junior developers by assigning specific roadmap tracks and architectural best practice guides."
+          "Training humanoid robots to mimic complex human motions such as running, jumping, and dynamic acrobatics from motion capture data.",
+          "Benchmarking generalized versus maximal coordinate representations for physics-based reinforcement learning policies."
         ]
       }
     },
     {
       "rank": 3,
-      "name": "mmdoctor/google-pro-helper",
-      "score": 85,
-      "reason": "Shows strong emerging developer interest and utility for specialized helper tooling and integration workflows.",
-      "why_interesting_today": "Capturing solid organic momentum as developers seek practical helper scripts and productivity utilities.",
-      "why_developers_should_care": "Offers lightweight, ready-to-use patterns for streamlining specific cloud or service integrations.",
-      "momentum": "Rapid burst of star growth shortly after creation, indicating high immediate relevance.",
-      "novelty": "Good novelty regarding targeted developer workflow automation.",
+      "name": "anomalyco/opencode",
+      "score": 89,
+      "reason": "A highly active, prominent open-source coding agent project capturing massive attention in the AI-assisted development space.",
+      "why_interesting_today": "The race toward fully transparent, open-source coding assistants that rival proprietary tools is accelerating daily.",
+      "why_developers_should_care": "Provides an extensible, community-driven platform for autonomous programming tasks without vendor lock-in.",
+      "momentum": "Consistent high daily star growth (295 stars) backed by continuous code pushes.",
+      "novelty": "Moderate-to-high novelty as part of the vanguard of open-source coding agents.",
       "deep_analysis": {
-        "name": "mmdoctor/google-pro-helper",
-        "headline_hook": "Automate and simplify the activation of promotional Google AI Pro subscription tiers through targeted browser extensions and local batch console workflows.",
-        "core_functionality": "The project provides two independent helper implementations—a Chrome browser extension and a Windows-based local Python automation console—designed to streamline navigating promotional offer token injection, multi-step subscription tier stacking, and localized payment configuration workflows for Google services.",
+        "name": "anomalyco/opencode",
+        "headline_hook": "OpenCode is an open source AI coding agent with a terminal UI and desktop application that rivals proprietary development assistants.",
+        "core_functionality": "OpenCode provides a powerful, transparent, and open-source AI coding agent designed to assist developers directly from their terminal or desktop environment with building, planning, and executing complex software engineering tasks.",
         "key_features": [
-          "Dual architecture featuring a manual Chrome browser extension and a fully automated local Python console for handling repetitive subscription operations.",
-          "Automated session management and multi-factor validation flows capable of processing structured account credentials and 2FA secrets.",
-          "Targeted workflow sequencing for applying multi-layer promotional subscription packages and automating cancellation sequences to prevent recurring billing.",
-          "Isolated local directory profiles designed to keep sensitive credentials, cookies, payment details, and execution logs off version control."
+          "Dual built-in agent modes allowing seamless switching between a full-access build agent and a read-only plan agent for safe codebase exploration.",
+          "Comprehensive cross-platform installation options supporting npm, Homebrew, Arch Linux AUR, Nix, and a dedicated native desktop application.",
+          "Internal general subagent capabilities invoked via @general for complex searches and multistep task execution."
         ],
-        "target_audience": "Automation engineers, developers building browser-based RPA tools, and technical enthusiasts researching Web UI automation and extension scripting patterns.",
-        "practical_developer_value": "Developers can study this codebase to understand practical implementations of browser automation workflows using Python, local web UI consoles, and Chrome extension manifest patterns. It serves as a reference for orchestrating multi-step web interactions and managing local configuration files securely.",
+        "target_audience": "Software engineers, full-stack developers, and AI enthusiasts seeking an open-source alternative to proprietary coding assistants.",
+        "practical_developer_value": "Developers gain an extensible, transparent AI coding companion that integrates tightly into existing terminal workflows, enabling faster code exploration, automated refactoring, and safe implementation planning without relying on closed ecosystem tools.",
         "suggested_use_cases": [
-          "Studying programmatic browser extension development and script injection techniques for Chrome.",
-          "Examining local Python web console architectures for executing sequential browser automation tasks on Windows."
+          "Exploring and analyzing unfamiliar legacy codebases using the read-only plan agent to map out architecture and changes safely.",
+          "Accelerating full-stack feature development and debugging directly from the terminal using the full-access build agent."
         ]
       }
     },
     {
       "rank": 4,
-      "name": "WoYun520/gif-factory",
-      "score": 82,
-      "reason": "An innovative creative utility repository providing stylized GIF generation skills and design assets.",
-      "why_interesting_today": "Blends programmatic skill design with visual asset creation, appealing to developers building multimedia automation tools.",
-      "why_developers_should_care": "Provides useful templates and scripts for generating stylized pixel art, character animations, and dynamic posters programmatically.",
-      "momentum": "Healthy adoption and steady interest among creative technologists and AI hobbyists.",
-      "novelty": "High novelty in combining structured AI agent skills with multi-style visual generation.",
+      "name": "Kianuni/Erosion-CN",
+      "score": 85,
+      "reason": "A specialized iOS/iPadOS system configuration and MobileGestalt research toolkit featuring safety hardening for advanced device researchers.",
+      "why_interesting_today": "Low-level mobile system research and sandbox analysis remain crucial domains for platform internals enthusiasts.",
+      "why_developers_should_care": "Offers deep insights into Apple's MobileGestalt framework and system configuration parameters for advanced iOS developers.",
+      "momentum": "Sharp velocity spike with over 200 stars gained shortly after release.",
+      "novelty": "High novelty within the niche iOS security and systems engineering community.",
       "deep_analysis": {
-        "name": "WoYun520/gif-factory",
-        "headline_hook": "Transform static text, illustrations, and assets into stylized, professional-grade animated GIFs, dynamic signatures, and brand films through a programmatic skill-based system.",
-        "core_functionality": "GIF Factory bridges the gap between programmatic automation and creative visual asset generation. It acts as an installable skill and script ecosystem for AI-driven assistants like Codex, allowing developers and creators to generate complex animated content—including stickers, lenticular cards, cinematic titles, dynamic storybooks, and brand short films—from simple text prompts and raw image inputs.",
+        "name": "Kianuni/Erosion-CN",
+        "headline_hook": "Erosion-CN is an advanced, safety-hardened iOS and iPadOS system configuration and MobileGestalt research toolkit that brings persistent hardware feature unlocking, deep runtime inspection, and container diagnostics to modern Apple devices.",
+        "core_functionality": "The project serves as a comprehensive system configuration and MobileGestalt research toolkit. It allows advanced developers and platform researchers to read, modify, validate, and persistently write system characteristics and hardware feature flags (such as Apple Intelligence flags, camera behaviors, and regional configurations) on iOS and iPadOS without triggering soft-bricks, bootloops, or checksum corruption.",
         "key_features": [
-          "Installable Skill Architecture: Integrates directly with coding assistants via modular skill folders, providing tailored instructions and execution scripts for specific multimedia tasks.",
-          "Diverse Visual Styles and Templates: Includes over 40 cinematic title letterings, dynamic art signatures with semantic integrations like instruments and particles, and multi-format storybooks.",
-          "Automated Multi-Asset Generation: Handles end-to-end creative workflows from a single prompt, combining character sheets, custom text, background scenes, and transitions into synchronized animation loops."
+          "Zero-byte in-place atomic file I/O utilizing pwrite and F_FULLFSYNC, combined with pre-apply diff previews and automated rollback verification to guarantee persistence and prevent APFS cache destruction.",
+          "Dynamic runtime symbol and slot offset resolution for libMobileGestalt.dylib, eliminating hardcoded offsets and enabling precise hardware feature toggles like Apple Intelligence, spatial audio, and camera enhancements.",
+          "Dual security vault backup system (sandboxed storage and system-level shared containers with exclusion flags) ensuring original factory backups survive app uninstalls and re-signatures.",
+          "Comprehensive container diagnostics, including CSStore2 rapid LaunchServices mapping, power telemetry parsing from APFS database clones, and application archive management for sandboxed environments."
         ],
-        "target_audience": "Frontend developers, multimedia automation engineers, creative technologists, and indie hackers building content creation tools or looking to programmatically generate marketing assets and rich UI elements.",
-        "practical_developer_value": "Developers can integrate this repository into automated media pipelines to programmatically generate custom animated stickers, dynamic loading screens, cinematic titles, or promotional banners using structured prompts. Instead of manually using traditional editing software for repetitive branding and motion graphics tasks, engineers can script and scale visual asset production.",
+        "target_audience": "iOS platform security researchers, low-level system developers, jailbreak ecosystem enthusiasts, and mobile QA engineers analyzing sandbox behavior and device configurations.",
+        "practical_developer_value": "Developers working with low-level Apple frameworks, sandbox restrictions, and binary plist serialization can study this repository to understand robust file I/O strategies, APFS storage interactions, Mach-O code signature parsing, and runtime memory structure introspection. It provides reliable patterns for handling critical system state modifications safely.",
         "suggested_use_cases": [
-          "Automating the generation of localized chat stickers or reaction GIFs for social platforms and messaging apps using a scriptable character pipeline.",
-          "Programmatically building dynamic promotional posters, brand shorts, and cinematic titles for marketing campaigns and indie game releases."
+          "Auditing and inspecting runtime system configurations and hidden hardware flags across different iOS versions.",
+          "Developing automated testing environments for sandboxed applications and managing container storage states."
         ]
       }
     },
     {
       "rank": 5,
-      "name": "freeCodeCamp/freeCodeCamp",
+      "name": "massgravel/Microsoft-Activation-Scripts",
       "score": 80,
-      "reason": "The cornerstone open-source education platform showing continuous active contributions and robust community health.",
-      "why_interesting_today": "Maintains a steady heartbeat of updates and contributions, highlighting the enduring value of accessible global tech education.",
-      "why_developers_should_care": "An exemplary open-source codebase for learning full-stack TypeScript, curriculum design, and contributing to large-scale non-profit software.",
-      "momentum": "Steady, reliable daily growth in stars and forks backed by active core maintenance.",
-      "novelty": "Low novelty due to its long-standing presence, but essential for ecosystem baseline health.",
+      "reason": "A perennial utility suite for open-source Windows and Office activation scripts that maintains immense utility and continuous high traction.",
+      "why_interesting_today": "Serves as an enduring reference point for advanced batch and PowerShell systems administration automation.",
+      "why_developers_should_care": "Demonstrates complex, robust scripting automation and enterprise deployment troubleshooting within constrained environments.",
+      "momentum": "Steady, reliable daily star growth (140 stars) showing ongoing widespread relevance.",
+      "novelty": "Low novelty due to its mature status, but exceptional utility and popularity.",
       "deep_analysis": {
-        "name": "freeCodeCamp/freeCodeCamp",
-        "headline_hook": "Powering a massive global open-source ecosystem that provides free, self-paced full-stack web development and machine learning education to millions.",
-        "core_functionality": "The project serves as the core repository and learning platform for freeCodeCamp.org, delivering interactive coding challenges, full-stack curriculums, and developer certifications entirely free of charge via a donor-supported 501(c)(3) charity.",
+        "name": "massgravel/Microsoft-Activation-Scripts",
+        "headline_hook": "Discover how advanced batch and PowerShell automation powers one of open source's most resilient utility suites for Windows and Office environments.",
+        "core_functionality": "The project serves as an open-source utility suite designed to automate the activation and troubleshooting of Microsoft Windows, Office, and Extended Security Updates (ESU) through methods like HWID, Ohook, TSforge, and Online KMS.",
         "key_features": [
-          "Comprehensive full-stack web development and machine learning curriculum featuring interactive coding challenges, workshops, labs, and projects.",
-          "Specialized professional and language certifications including Responsive Web Design, JavaScript, Python, Relational Databases, and international language proficiency tracks.",
-          "Integrated learning preparation resources such as Coding Interview Prep, Project Euler, Rosetta Code, and Foundational C# certifications.",
-          "Extensive open-source contributor ecosystem backed by continuous active updates, automated testing, and active community forums."
+          "One-line PowerShell deployment leveraging Invoke-RestMethod and Invoke-Expression for streamlined execution.",
+          "Resilient fallback mechanisms including DNS-over-HTTPS queries to bypass strict ISP and DNS blocks.",
+          "Comprehensive All-In-One batch script architecture supporting legacy and modern Windows systems from Vista onwards.",
+          "Multiple activation backends tailored to specific product requirements such as Hardware ID and Online KMS."
         ],
-        "target_audience": "Beginner and intermediate software developers transitioning into tech, educators building programming curriculums, and open-source contributors looking to impact global tech education.",
-        "practical_developer_value": "Developers can study a battle-tested, large-scale open-source codebase to learn modern full-stack web architecture, contribute to educational tools used by millions, or utilize the platform's structured learning paths to master new programming paradigms.",
+        "target_audience": "Systems administrators, IT deployment engineers, DevOps professionals, and power users managing large fleets of Windows workstations and servers.",
+        "practical_developer_value": "Developers and systems engineers can study this repository as a masterclass in advanced native Windows scripting, robust error handling, bypass techniques for restrictive network environments, and user-friendly command-line interface design using pure batch and PowerShell.",
         "suggested_use_cases": [
-          "Contributing code, bug fixes, or curriculum enhancements to an active open-source codebase to gain real-world collaborative development experience.",
-          "Leveraging the platform's structured pathways and reference challenges to brush up on backend APIs, databases, or front-end development libraries."
+          "Automating license management and compliance checking during enterprise virtual machine provisioning.",
+          "Building resilient internal system administration toolsets that require zero external binary dependencies."
         ]
       }
     }
