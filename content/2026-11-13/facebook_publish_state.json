@@ -17,8 +17,8 @@
       "caption": "🤖 Level up your embodied AI stack: SuperMimic is changing the game for humanoid whole-body motion tracking! \n\nIf you are training robots to run, jump, and execute complex acrobatics from motion capture data, you already know how painful traditional black-box simulation approaches can be. \n\nSuperMimic solves this by leveraging a single differentiable world model built on top of mjlab. It enables gradient-based optimization and physics-informed motion learning, drastically cutting down the iteration time required to train stable whole-body control policies.\n\n🚀 Key Features:\n• Differentiable world model integration for gradient-based optimization and physics-informed motion learning\n• Support for both generalized and maximal coordinate representations via dedicated task IDs like SuperMimic-GenCoord-G1 and SuperMimic-MaxCoord-G1\n• Modern Python dependency management and execution via astral uv for rapid environment setup and reproducibility\n• Built-in support for model playback and integration with experiment tracking platforms like Wandb\n\nWhether you're benchmarking coordinate representations for physics-based RL or deploying robust policies to real-world humanoid hardware, SuperMimic delivers smoother trajectory tracking and maximum sample efficiency.\n\n👉 Check out the repo and start building: https://github.com/HybridRobotics/supermimic\n\nDrop a comment below: Are you using generalized or maximal coordinates for your current humanoid projects? 👇\n\n#Robotics #ArtificialIntelligence #EmbodiedAI #MachineLearning #HumanoidRobots #ReinforcementLearning #Python #OpenSource",
       "image_file": "2_HybridRobotics_supermimic.png",
       "photo_id": "122130002637476221",
-      "published_post_id": null,
-      "published_at": null
+      "published_post_id": "1410193715501138_122130039951476221",
+      "published_at": "2026-11-13T11:00:40.252908+08:00"
     },
     {
       "rank": 3,
