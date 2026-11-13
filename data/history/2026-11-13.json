@@ -1,0 +1,407 @@
+{
+  "snapshot_date": "2026-11-13",
+  "generated_at": "2026-11-13T23:01:32.964056+00:00",
+  "candidate_count": 40,
+  "repositories": [
+    {
+      "name": "public-apis/public-apis",
+      "url": "https://github.com/public-apis/public-apis",
+      "stars": 498778,
+      "forks": 55868,
+      "language": "Python",
+      "created_at": "2016-03-20T23:49:42Z",
+      "updated_at": "2026-11-13T22:52:54Z",
+      "pushed_at": "2026-11-13T17:59:59Z"
+    },
+    {
+      "name": "freeCodeCamp/freeCodeCamp",
+      "url": "https://github.com/freeCodeCamp/freeCodeCamp",
+      "stars": 459102,
+      "forks": 47473,
+      "language": "TypeScript",
+      "created_at": "2014-12-24T17:49:19Z",
+      "updated_at": "2026-11-13T22:52:59Z",
+      "pushed_at": "2026-11-13T15:26:31Z"
+    },
+    {
+      "name": "morluto/rea",
+      "url": "https://github.com/morluto/rea",
+      "stars": 457539,
+      "forks": 112283,
+      "language": "TypeScript",
+      "created_at": "2026-04-14T00:51:32Z",
+      "updated_at": "2026-11-13T23:00:36Z",
+      "pushed_at": "2026-11-13T23:00:09Z"
+    },
+    {
+      "name": "EbookFoundation/free-programming-books",
+      "url": "https://github.com/EbookFoundation/free-programming-books",
+      "stars": 401552,
+      "forks": 67796,
+      "language": "Python",
+      "created_at": "2013-10-11T06:50:37Z",
+      "updated_at": "2026-11-13T22:51:28Z",
+      "pushed_at": "2026-11-12T18:46:04Z"
+    },
+    {
+      "name": "openclaw/openclaw",
+      "url": "https://github.com/openclaw/openclaw",
+      "stars": 394397,
+      "forks": 82888,
+      "language": "TypeScript",
+      "created_at": "2025-11-24T10:16:47Z",
+      "updated_at": "2026-11-13T22:59:32Z",
+      "pushed_at": "2026-11-13T23:00:41Z"
+    },
+    {
+      "name": "nilbuild/developer-roadmap",
+      "url": "https://github.com/nilbuild/developer-roadmap",
+      "stars": 371961,
+      "forks": 46268,
+      "language": "TypeScript",
+      "created_at": "2017-03-15T13:45:52Z",
+      "updated_at": "2026-11-13T22:54:02Z",
+      "pushed_at": "2026-11-13T09:05:33Z"
+    },
+    {
+      "name": "vinta/awesome-python",
+      "url": "https://github.com/vinta/awesome-python",
+      "stars": 334559,
+      "forks": 29099,
+      "language": "Python",
+      "created_at": "2014-06-27T21:00:06Z",
+      "updated_at": "2026-11-13T22:58:58Z",
+      "pushed_at": "2026-11-13T05:14:16Z"
+    },
+    {
+      "name": "mattpocock/skills",
+      "url": "https://github.com/mattpocock/skills",
+      "stars": 323786,
+      "forks": 27172,
+      "language": "Shell",
+      "created_at": "2026-02-03T11:15:53Z",
+      "updated_at": "2026-11-13T23:00:06Z",
+      "pushed_at": "2026-11-13T12:30:31Z"
+    },
+    {
+      "name": "deepseek-ai/deepseek-harness",
+      "url": "https://github.com/deepseek-ai/deepseek-harness",
+      "stars": 280477,
+      "forks": 34591,
+      "language": "TypeScript",
+      "created_at": "2026-08-13T11:56:32Z",
+      "updated_at": "2026-11-13T22:54:13Z",
+      "pushed_at": "2026-11-13T07:56:25Z"
+    },
+    {
+      "name": "NousResearch/hermes-agent",
+      "url": "https://github.com/NousResearch/hermes-agent",
+      "stars": 263218,
+      "forks": 59282,
+      "language": "Python",
+      "created_at": "2025-07-22T22:22:28Z",
+      "updated_at": "2026-11-13T22:46:27Z",
+      "pushed_at": "2026-11-13T22:58:38Z"
+    },
+    {
+      "name": "torvalds/linux",
+      "url": "https://github.com/torvalds/linux",
+      "stars": 255595,
+      "forks": 67259,
+      "language": "C",
+      "created_at": "2011-09-04T22:48:12Z",
+      "updated_at": "2026-11-13T22:58:51Z",
+      "pushed_at": "2026-11-13T22:03:23Z"
+    },
+    {
+      "name": "react/react",
+      "url": "https://github.com/react/react",
+      "stars": 252590,
+      "forks": 52620,
+      "language": "JavaScript",
+      "created_at": "2013-05-24T16:15:54Z",
+      "updated_at": "2026-11-13T22:49:17Z",
+      "pushed_at": "2026-11-13T10:28:38Z"
+    },
+    {
+      "name": "anomalyco/opencode",
+      "url": "https://github.com/anomalyco/opencode",
+      "stars": 226661,
+      "forks": 30686,
+      "language": "TypeScript",
+      "created_at": "2025-04-30T20:08:00Z",
+      "updated_at": "2026-11-13T22:56:58Z",
+      "pushed_at": "2026-11-13T21:18:48Z"
+    },
+    {
+      "name": "TheAlgorithms/Python",
+      "url": "https://github.com/TheAlgorithms/Python",
+      "stars": 226090,
+      "forks": 51324,
+      "language": "Python",
+      "created_at": "2016-07-16T09:44:01Z",
+      "updated_at": "2026-11-13T22:19:31Z",
+      "pushed_at": "2026-11-13T04:28:36Z"
+    },
+    {
+      "name": "n8n-io/n8n",
+      "url": "https://github.com/n8n-io/n8n",
+      "stars": 210408,
+      "forks": 61496,
+      "language": "TypeScript",
+      "created_at": "2019-06-22T09:24:21Z",
+      "updated_at": "2026-11-13T22:54:07Z",
+      "pushed_at": "2026-11-13T23:01:04Z"
+    },
+    {
+      "name": "tensorflow/tensorflow",
+      "url": "https://github.com/tensorflow/tensorflow",
+      "stars": 201593,
+      "forks": 77962,
+      "language": "C++",
+      "created_at": "2015-11-07T01:19:20Z",
+      "updated_at": "2026-11-13T22:24:39Z",
+      "pushed_at": "2026-11-13T22:53:08Z"
+    },
+    {
+      "name": "firecrawl/firecrawl",
+      "url": "https://github.com/firecrawl/firecrawl",
+      "stars": 201575,
+      "forks": 10572,
+      "language": "TypeScript",
+      "created_at": "2024-04-15T21:02:29Z",
+      "updated_at": "2026-11-13T22:59:43Z",
+      "pushed_at": "2026-11-13T22:54:17Z"
+    },
+    {
+      "name": "massgravel/Microsoft-Activation-Scripts",
+      "url": "https://github.com/massgravel/Microsoft-Activation-Scripts",
+      "stars": 198886,
+      "forks": 18818,
+      "language": "Batchfile",
+      "created_at": "2020-01-12T23:03:34Z",
+      "updated_at": "2026-11-13T22:47:27Z",
+      "pushed_at": "2026-11-11T14:30:12Z"
+    },
+    {
+      "name": "microsoft/vscode",
+      "url": "https://github.com/microsoft/vscode",
+      "stars": 195351,
+      "forks": 43826,
+      "language": "TypeScript",
+      "created_at": "2015-09-03T20:23:38Z",
+      "updated_at": "2026-11-13T22:20:21Z",
+      "pushed_at": "2026-11-13T22:59:36Z"
+    },
+    {
+      "name": "avelino/awesome-go",
+      "url": "https://github.com/avelino/awesome-go",
+      "stars": 193756,
+      "forks": 13739,
+      "language": "Go",
+      "created_at": "2014-07-06T13:42:15Z",
+      "updated_at": "2026-11-13T22:59:04Z",
+      "pushed_at": "2026-11-13T22:58:32Z"
+    },
+    {
+      "name": "huamidev/GestaltX",
+      "url": "https://github.com/huamidev/GestaltX",
+      "stars": 7289,
+      "forks": 2597,
+      "language": "Swift",
+      "created_at": "2026-11-09T05:15:48Z",
+      "updated_at": "2026-11-13T22:54:40Z",
+      "pushed_at": "2026-11-13T16:51:22Z"
+    },
+    {
+      "name": "tangerineturtle1/NX2navi",
+      "url": "https://github.com/tangerineturtle1/NX2navi",
+      "stars": 3869,
+      "forks": 289,
+      "language": "C",
+      "created_at": "2026-11-07T10:01:23Z",
+      "updated_at": "2026-11-13T23:01:15Z",
+      "pushed_at": "2026-11-13T17:24:52Z"
+    },
+    {
+      "name": "jhaizhou-ops/S2Arm",
+      "url": "https://github.com/jhaizhou-ops/S2Arm",
+      "stars": 2864,
+      "forks": 521,
+      "language": "C#",
+      "created_at": "2026-11-08T05:49:46Z",
+      "updated_at": "2026-11-13T22:14:57Z",
+      "pushed_at": "2026-11-13T22:59:14Z"
+    },
+    {
+      "name": "JenkinWoo/sheeridVerify",
+      "url": "https://github.com/JenkinWoo/sheeridVerify",
+      "stars": 2611,
+      "forks": 1339,
+      "language": "JavaScript",
+      "created_at": "2026-11-06T09:28:09Z",
+      "updated_at": "2026-11-13T22:59:20Z",
+      "pushed_at": "2026-11-06T09:54:37Z"
+    },
+    {
+      "name": "DIYgod/pinky",
+      "url": "https://github.com/DIYgod/pinky",
+      "stars": 2079,
+      "forks": 226,
+      "language": "Go",
+      "created_at": "2026-11-06T16:53:14Z",
+      "updated_at": "2026-11-13T22:40:01Z",
+      "pushed_at": "2026-11-13T14:18:03Z"
+    },
+    {
+      "name": "Kianuni/Erosion-CN",
+      "url": "https://github.com/Kianuni/Erosion-CN",
+      "stars": 1906,
+      "forks": 407,
+      "language": "Swift",
+      "created_at": "2026-11-10T02:37:31Z",
+      "updated_at": "2026-11-13T21:54:24Z",
+      "pushed_at": "2026-11-13T15:38:08Z"
+    },
+    {
+      "name": "apex-compute/ANR",
+      "url": "https://github.com/apex-compute/ANR",
+      "stars": 1448,
+      "forks": 21,
+      "language": "C++",
+      "created_at": "2026-11-11T04:27:17Z",
+      "updated_at": "2026-11-13T22:56:02Z",
+      "pushed_at": "2026-11-12T18:20:33Z"
+    },
+    {
+      "name": "HybridRobotics/supermimic",
+      "url": "https://github.com/HybridRobotics/supermimic",
+      "stars": 1433,
+      "forks": 92,
+      "language": "Python",
+      "created_at": "2026-11-10T10:46:56Z",
+      "updated_at": "2026-11-13T22:46:59Z",
+      "pushed_at": "2026-11-11T08:06:27Z"
+    },
+    {
+      "name": "agentes-chat/agentes-chat",
+      "url": "https://github.com/agentes-chat/agentes-chat",
+      "stars": 1337,
+      "forks": 227,
+      "language": "TypeScript",
+      "created_at": "2026-11-09T00:50:28Z",
+      "updated_at": "2026-11-13T22:42:35Z",
+      "pushed_at": "2026-11-13T22:53:58Z"
+    },
+    {
+      "name": "FrigadeHQ/yogurt",
+      "url": "https://github.com/FrigadeHQ/yogurt",
+      "stars": 1254,
+      "forks": 53,
+      "language": "TypeScript",
+      "created_at": "2026-11-10T20:01:01Z",
+      "updated_at": "2026-11-13T22:53:03Z",
+      "pushed_at": "2026-11-13T23:00:00Z"
+    },
+    {
+      "name": "mahmoudtawfik1998/secure-pdf-document-processor",
+      "url": "https://github.com/mahmoudtawfik1998/secure-pdf-document-processor",
+      "stars": 1212,
+      "forks": 2,
+      "language": "HTML",
+      "created_at": "2026-11-06T21:23:09Z",
+      "updated_at": "2026-11-12T15:35:11Z",
+      "pushed_at": "2026-11-13T22:27:23Z"
+    },
+    {
+      "name": "abdulmannanmalik13-wq/adobe-substance-3d-studio",
+      "url": "https://github.com/abdulmannanmalik13-wq/adobe-substance-3d-studio",
+      "stars": 1210,
+      "forks": 1,
+      "language": "HTML",
+      "created_at": "2026-11-06T20:33:06Z",
+      "updated_at": "2026-11-13T06:42:03Z",
+      "pushed_at": "2026-11-13T19:16:53Z"
+    },
+    {
+      "name": "hembramneeraj3-create/aida-64-extreme",
+      "url": "https://github.com/hembramneeraj3-create/aida-64-extreme",
+      "stars": 1208,
+      "forks": 1,
+      "language": "HTML",
+      "created_at": "2026-11-06T20:33:44Z",
+      "updated_at": "2026-11-12T19:12:19Z",
+      "pushed_at": "2026-11-13T20:15:33Z"
+    },
+    {
+      "name": "sajawal-12/cubase-studio-desktop",
+      "url": "https://github.com/sajawal-12/cubase-studio-desktop",
+      "stars": 1201,
+      "forks": 0,
+      "language": "HTML",
+      "created_at": "2026-11-06T20:50:21Z",
+      "updated_at": "2026-11-12T11:01:02Z",
+      "pushed_at": "2026-11-13T19:17:01Z"
+    },
+    {
+      "name": "tss878/delta-executor-toolkit",
+      "url": "https://github.com/tss878/delta-executor-toolkit",
+      "stars": 1199,
+      "forks": 0,
+      "language": "TypeScript",
+      "created_at": "2026-11-06T20:51:54Z",
+      "updated_at": "2026-11-13T17:21:21Z",
+      "pushed_at": "2026-11-13T19:17:08Z"
+    },
+    {
+      "name": "Arda313131882/aion-2-trainer-tool",
+      "url": "https://github.com/Arda313131882/aion-2-trainer-tool",
+      "stars": 1199,
+      "forks": 0,
+      "language": "HTML",
+      "created_at": "2026-11-06T20:34:15Z",
+      "updated_at": "2026-11-12T11:00:54Z",
+      "pushed_at": "2026-11-13T21:15:43Z"
+    },
+    {
+      "name": "ebtsamalhakmy-sketch/desktop-backup-suite",
+      "url": "https://github.com/ebtsamalhakmy-sketch/desktop-backup-suite",
+      "stars": 1199,
+      "forks": 0,
+      "language": "TypeScript",
+      "created_at": "2026-11-06T20:53:28Z",
+      "updated_at": "2026-11-12T11:01:03Z",
+      "pushed_at": "2026-11-13T19:17:12Z"
+    },
+    {
+      "name": "IsaiaR09/daemon-pro-desktop",
+      "url": "https://github.com/IsaiaR09/daemon-pro-desktop",
+      "stars": 1198,
+      "forks": 0,
+      "language": "HTML",
+      "created_at": "2026-11-06T20:50:44Z",
+      "updated_at": "2026-11-12T11:01:02Z",
+      "pushed_at": "2026-11-13T20:12:45Z"
+    },
+    {
+      "name": "kcgeekedup-hash/delta-force-trainer-tool",
+      "url": "https://github.com/kcgeekedup-hash/delta-force-trainer-tool",
+      "stars": 1197,
+      "forks": 0,
+      "language": "HTML",
+      "created_at": "2026-11-06T20:51:48Z",
+      "updated_at": "2026-11-12T11:01:03Z",
+      "pushed_at": "2026-11-13T20:14:48Z"
+    },
+    {
+      "name": "sostenesfreitas/ocarina-recomp",
+      "url": "https://github.com/sostenesfreitas/ocarina-recomp",
+      "stars": 1186,
+      "forks": 78,
+      "language": "C",
+      "created_at": "2026-11-06T22:24:03Z",
+      "updated_at": "2026-11-13T22:44:50Z",
+      "pushed_at": "2026-11-11T19:20:58Z"
+    }
+  ]
+}
