@@ -35,8 +35,8 @@
       "caption": "Unlock hidden Apple features and master low-level iOS system inspection safely! 📱⚡\n\nAre you tired of risking bootloops and APFS corruption when researching system configurations and MobileGestalt flags on modern iOS and iPadOS devices? \n\nMeet Erosion-CN, an advanced system configuration and MobileGestalt research toolkit built specifically for low-level system developers, security researchers, and mobile QA engineers. It lets you read, modify, validate, and persistently write hardware feature flags—like Apple Intelligence flags, spatial audio, and regional configurations—without the fear of soft-bricks.\n\nHere is what makes Erosion-CN a must-watch repository:\n\n🔒 Zero-byte atomic file I/O using pwrite and F_FULLFSYNC, paired with pre-apply diff previews and automated rollbacks to guarantee persistence without destroying your APFS cache.\n⚙️ Dynamic runtime symbol and slot offset resolution for libMobileGestalt.dylib, completely eliminating brittle hardcoded offsets.\n🛡️ Dual security vault backup system that secures original factory backups across app uninstalls and re-signatures.\n📊 Deep container diagnostics including CSStore2 rapid LaunchServices mapping and power telemetry parsing from APFS database clones.\n\nWhether you are auditing hidden hardware flags, studying robust Mach-O binary parsing, or building automated testing environments for sandboxed apps, this toolkit provides production-grade patterns for safe system state modifications.\n\nExplore the source code and start building today:\nhttps://github.com/Kianuni/Erosion-CN\n\nWhat hidden iOS feature are you testing first? Let us know in the comments below, and drop a star on the repo if you found this useful! 👇\n\n#iOSDevelopment #CyberSecurity #MobileDev #AppleIntelligence #OpenSource #SoftwareEngineering #iOSSecurity",
       "image_file": "4_Kianuni_Erosion-CN.png",
       "photo_id": "122130002727476221",
-      "published_post_id": null,
-      "published_at": null
+      "published_post_id": "1410193715501138_122130124077476221",
+      "published_at": "2026-11-13T19:00:41.899882+08:00"
     },
     {
       "rank": 5,
