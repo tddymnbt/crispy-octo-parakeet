@@ -1,0 +1,51 @@
+{
+  "date": "2026-11-15",
+  "prepared_at": "2026-11-15T07:02:11.191311+08:00",
+  "posts": [
+    {
+      "rank": 1,
+      "repo_name": "apex-compute/ANR",
+      "caption": "Tired of being locked into a single vendor's rendering ecosystem? \n\nApex Neural Rendering introduces high-performance neural frame generation and vendor-agnostic visual benchmarking tools with deep learning integration! 🚀\n\nGraphics engineers, game developers, and AI researchers often struggle with proprietary upscaling and frame generation pipelines that tie them to specific hardware. ANR solves this by providing advanced neural rendering capabilities—including frame generation, super resolution, and ray reconstruction—across a wide array of GPUs and operating systems. \n\nHere is what you can do with ANR:\n⚡ Vendor-agnostic neural frame generation supporting NVIDIA, AMD, and Intel hardware on Windows, Linux, and Steam Deck via Proton.\n🔌 Integrated support with OptiScaler to hook into existing games and replace proprietary pipelines.\n🎥 Lossless input recording toolkit (nr-record) that captures game frames and parameters to replay and compare outputs across DLSS, FSR, and XeSS.\n🛠️ Comprehensive cross-platform build system using Bazel with automated video synchronization and comparison tools.\n\nWhether you are benchmarking competing frame generation solutions or recording real-time graphics inputs for computer vision and neural graphics research, ANR gives you the flexibility you need.\n\nCheck out the repository and start benchmarking today:\nhttps://github.com/apex-compute/ANR\n\nDrop a comment below and let us know which hardware architecture you are testing first! 👇\n\n#GraphicsProgramming #GameDev #AIResearch #NeuralRendering #OpenSource #DevTools",
+      "image_file": "1_apex-compute_ANR.png",
+      "photo_id": "122130645417476221",
+      "published_post_id": "1410193715501138_122130645621476221",
+      "published_at": "2026-11-15T07:02:14.247219+08:00"
+    },
+    {
+      "rank": 2,
+      "repo_name": "alexeyw/lot-map",
+      "caption": "Tired of parsing endless, opaque text logs while watching your AI coding agent work? \n\nMeet Lot-Map: a real-time visualization mod for Claude Code that transforms multi-step AI workflows into a live, radar-style interactive map running right beside your chat. 🚀\n\nWhen autonomous agents handle complex multi-file refactors, background shell jobs, and network requests, it is way too easy to lose track of what is happening under the hood. You get hit with an observability gap, making it tough to catch infinite loops, unexpected file modifications, or sudden context window exhaustion before it breaks your session. \n\nLot-Map fixes this by replacing text-heavy command logs with spatial event mapping. Tool calls, shell commands, and file edits pulse out from a central core to dedicated stations like Files, Shell, Network, and Agents. \n\n✨ Key Features You Get:\n• Dual-Interface Support: Renders natively as a graphical map in the Claude Code desktop app and advanced terminal emulators (like iTerm2 or kitty), with a structured text fallback for standard terminals.\n• Granular Activity Metrics: Features visual context window ring monitors, subagent tracking loops, clock-hand execution timers, and real-time error indicators.\n• Highly Customizable: Tweak paths, labels, custom memory commands, and UI scaling to fit compact layouts like your VS Code side panel.\n\nWhether you are auditing complex autonomous sessions or monitoring token usage during massive refactors, Lot-Map gives you instant visual clarity at a glance. \n\n👉 Check out the repo and drop your feedback: https://github.com/alexeyw/lot-map\n\nHow do you currently debug your AI coding agents? Let us know in the comments below! 👇\n\n#AI #SoftwareEngineering #ClaudeCode #DeveloperTools #OpenSource #ArtificialIntelligence #CodingLife",
+      "image_file": "2_alexeyw_lot-map.png",
+      "photo_id": "122130645459476221",
+      "published_post_id": null,
+      "published_at": null
+    },
+    {
+      "rank": 3,
+      "repo_name": "Goblinmine/homelab-diagram",
+      "caption": "Tired of spending hours manually dragging boxes in Visio or draw.io every time you move a cable or upgrade a switch in your rack? \n\nSay goodbye to outdated documentation. Goblinmine/homelab-diagram lets you turn your homelab inventory YAML file into a stunning, r/homelab-style network architecture diagram automatically using Python and Claude Code.\n\nThis project solves the eternal headache of maintaining network and infrastructure documentation by programmatically transforming a structured YAML inventory into a polished SVG and PNG network diagram, complete with hardware specs, VLAN details, and link-speed-scaled cabling.\n\nKey features include:\n- Data-Driven Rendering: Combines a declarative YAML inventory with Python scripts to generate scalable SVG and PNG diagrams.\n- Dynamic Visual Encodings: Automatically scales link widths based on negotiated network speeds (10G, 2.5G, 1G) and maps VLAN configurations directly to switch port indicators.\n- AI-Assisted Workflow: Includes a dedicated CLAUDE.md context file that guides AI coding agents through interviewing users, structuring inventory data, and iterating on layout coordinates.\n- Built-in Privacy & Redaction: Features native redaction capabilities to automatically mask sensitive domain names and SSIDs before public publishing.\n\nWhether you are a systems administrator, network engineer, or DevOps enthusiast wanting professional documentation without manual drag-and-drop vector editing, this repo is your new best friend. Use it as a reference architecture for programmatic infrastructure visualization and keep your topology maps always in sync with your source-of-truth configuration files.\n\nCheck it out on GitHub:\nhttps://github.com/Goblinmine/homelab-diagram\n\nDrop a comment below with your favorite way to document your infrastructure, and make sure to star the repo if you are ready to automate your network diagrams!\n\n#Homelab #DevOps #Python #NetworkEngineering #SysAdmin #InfrastructureAsCode #OpenSource #ClaudeCode",
+      "image_file": "3_Goblinmine_homelab-diagram.png",
+      "photo_id": "122130645501476221",
+      "published_post_id": null,
+      "published_at": null
+    },
+    {
+      "rank": 4,
+      "repo_name": "serveroshq/panel",
+      "caption": "Tired of jumping between multiple VPS providers and drowning in terminal windows just to manage your servers? 🖥️💨\n\nMeet ServerOS (github.com/serveroshq/panel) – a fresh, open-source Laravel control panel that lets you manage standalone Linux servers across any cloud provider from a single, unified web dashboard. \n\nThe Problem:\nManaging multiple standalone servers across different hosts is fragmented and tedious. ServerOS solves this by acting as your central control plane, communicating securely with a lightweight companion daemon on each target server to handle deployments, monitoring, and admin work without the terminal hassle.\n\nNotable Features:\n🚀 One-command server onboarding across any VPS provider\n📦 Integrated app and service deployment from Git or templates with automated domains, HTTPS, and backups\n🤖 Built-in Model Context Protocol (MCP) server so AI assistants can programmatically interact with your infrastructure\n👥 Team administration with role-based access control, 2FA, uptime monitors, and centralized logs\n\nWhether you are a solo dev, part of a small team, or a self-hosting enthusiast, you can deploy the control panel with a single Docker command and turn cheap VPS instances into a cohesive PaaS. You can even hook your infrastructure straight into AI workflows for automated maintenance and deployments! \n\nCheck out the repo, drop a star, and build your private cloud today:\nhttps://github.com/serveroshq/panel\n\nWhat is your go-to setup for managing multi-server deployments? Let us know in the comments! 👇\n\n#OpenSource #Laravel #DevOps #SelfHosting #Linux #ArtificialIntelligence #CloudComputing #SoftwareDevelopment",
+      "image_file": "4_serveroshq_panel.png",
+      "photo_id": "122130645543476221",
+      "published_post_id": null,
+      "published_at": null
+    },
+    {
+      "rank": 5,
+      "repo_name": "Th0rgal/satmux",
+      "caption": "✈️ Tired of paying for inflight Wi-Fi that drops every time you try to push code or query an API? \n\nGeostationary satellite links are notoriously painful. Onboard 443 middleboxes, DNS interception, and standard TCP congestion collapse over high RTT links make working in the air almost impossible. \n\nMeet Satmux (Th0rgal/satmux), a pure Python network optimization utility designed specifically to accelerate high-latency GEO inflight Wi-Fi using warm BBR TCP multiplexing, Ground-TLS, and zlib. 🚀\n\nBuilt completely in standard library Python with zero external dependencies, it serves as an incredible systems-level reference implementation while solving real traveler pain points.\n\nKey features include:\n🔹 Persistent non-443 carrier pool: Keeps pre-warmed TCP connections open to a ground station VM to bypass cabin transparent proxies and head-of-line blocking.\n🔹 Zero-RTT stream opening: Cuts down satellite round-trips for DNS, TCP, and TLS handshakes.\n🔹 Built-in zlib compression: Compresses plaintext payloads on the ground VM before they cross the high-latency link.\n🔹 Complete CLI & local routing: Includes SOCKS5 and HTTP proxy modes, plus a specialized Unix socket wrapper for seamless GitHub CLI and git operations.\n\nWhether you need to maintain continuous, dropped-connection-free access to remote APIs and package registries while flying, or you want to benchmark network throughput over high-latency links, Satmux has you covered.\n\nCheck out the repository and star the project here:\nhttps://github.com/Th0rgal/satmux\n\nDrop a comment below: What is your go-to workaround for surviving terrible flight Wi-Fi? 👇\n\n#Python #DevOps #Networking #SoftwareEngineering #DeveloperTools #OpenSource #RemoteWork",
+      "image_file": "5_Th0rgal_satmux.png",
+      "photo_id": "122130645585476221",
+      "published_post_id": null,
+      "published_at": null
+    }
+  ]
+}

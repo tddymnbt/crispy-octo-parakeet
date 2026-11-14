@@ -2,53 +2,53 @@
   "top_repositories": [
     {
       "rank": 1,
-      "name": "n8n-io/n8n",
+      "name": "apex-compute/ANR",
       "score": 96,
-      "reason": "Combines robust low-code workflow automation with cutting-edge native AI, Model Context Protocol (MCP) support, and hundreds of integrations.",
-      "why_interesting_today": "As developers increasingly look for ways to orchestrate LLMs, tool-use agents, and traditional APIs, n8n bridges the gap between visual building and custom code.",
-      "why_developers_should_care": "It offers an open, self-hostable alternative to proprietary integration platforms, enabling deep customization with TypeScript and direct integration with modern AI ecosystems.",
-      "momentum": "Exceptionally high and steady, backed by immense community adoption and frequent production-grade updates.",
-      "novelty": "Brings MCP clients and servers directly into a low-code workflow paradigm, letting developers spin up complex agentic data flows in minutes."
+      "reason": "Apex Neural Rendering (ANR) shows massive explosive star growth right after launch, introducing high-performance neural rendering capabilities in C++.",
+      "why_interesting_today": "It is capturing massive attention from graphics engineers and AI researchers looking for high-performance rendering solutions that integrate deep learning natively.",
+      "why_developers_should_care": "It offers an efficient C++ codebase for advanced rendering tasks, bridging the gap between traditional graphics pipelines and neural compute workloads.",
+      "momentum": "Extremely high, with 375 new stars and strong fork activity immediately following its initial release.",
+      "novelty": "Brings cutting-edge neural rendering techniques into a streamlined, high-performance library format."
     },
     {
       "rank": 2,
-      "name": "agentes-chat/agentes-chat",
+      "name": "alexeyw/lot-map",
       "score": 92,
-      "reason": "An innovative open-source, self-hosted Slack alternative built natively for human and AI agent collaboration.",
-      "why_interesting_today": "Teams are moving past simple chatbots toward multi-agent workplaces where LLMs (Claude, GPT, Gemini, Grok) share channels, use browsers, and execute routines.",
-      "why_developers_should_care": "It provides a complete Docker Compose + Postgres template to run an autonomous agent workspace with human-in-the-loop approvals and MCP tools out of the box.",
-      "momentum": "Strong early traction for an emerging agentic collaboration tool with zero-day momentum surge.",
-      "novelty": "Treats AI agents as first-class team members inside a familiar chat interface with their own computer-use capabilities and memory."
+      "reason": "An innovative real-time visualization tool that tracks Claude Code activities, tool calls, hooks, and subagents on a live interactive map beside the chat.",
+      "why_interesting_today": "As developers increasingly rely on complex AI agents like Claude Code, observability into what the agent is actually doing behind the scenes is a major friction point.",
+      "why_developers_should_care": "It solves the 'black box' problem of AI coding assistants by providing a clear, local-first visual map of model steps, hooks, and subagent executions.",
+      "momentum": "Strong early developer interest and robust fork engagement for a recently introduced developer tool.",
+      "novelty": "Combines agent observability with dynamic SVG visualization specifically tailored for CLI-based AI coding workflows."
     },
     {
       "rank": 3,
-      "name": "FrigadeHQ/yogurt",
-      "score": 88,
-      "reason": "A private, open-source AI meeting notes application that runs locally using Whisper and Llama.cpp.",
-      "why_interesting_today": "Data privacy concerns around AI-powered transcription tools make local-first solutions extremely desirable for engineering teams.",
-      "why_developers_should_care": "It demonstrates how to package Electron, local speech-to-text, and local LLMs into a seamless cross-platform desktop utility with MCP capabilities.",
-      "momentum": "Rapidly gaining interest among developers seeking zero-leakage productivity tools.",
-      "novelty": "Combines local speech transcription with private on-device models to generate zero-cloud-dependency meeting summaries."
+      "name": "Goblinmine/homelab-diagram",
+      "score": 89,
+      "reason": "A practical utility that automatically renders professional r/homelab-style network diagrams straight from a YAML inventory file, written with Claude.",
+      "why_interesting_today": "Homelab enthusiasts and network engineers constantly struggle to keep their infrastructure documentation up-to-date manually.",
+      "why_developers_should_care": "It turns infrastructure-as-code principles into visual documentation, making it effortless to generate clean SVG/PNG network topologies from simple YAML configs.",
+      "momentum": "Steady organic traction and high fork-to-star ratio indicating active usage within the self-hosted community.",
+      "novelty": "Streamlines network diagram generation through text-based inventory definitions rather than tedious manual drag-and-drop."
     },
     {
       "rank": 4,
-      "name": "sostenesfreitas/ocarina-recomp",
-      "score": 84,
-      "reason": "A remarkable static recompilation project enabling Ocarina of Time to run natively on Windows without an emulator.",
-      "why_interesting_today": "Static recompilation techniques are pushing the boundaries of software preservation and reverse engineering.",
-      "why_developers_should_care": "Provides an incredible masterclass in low-level systems programming, binary translation, and native hardware optimization using C.",
-      "momentum": "Steady organic growth driven by retro-gaming and systems engineering enthusiasts.",
-      "novelty": "Translating game binaries into native C code for execution without virtualization represents a fascinating technical milestone."
+      "name": "serveroshq/panel",
+      "score": 86,
+      "reason": "A fresh open-source control panel built with Laravel designed to simplify and unify management across standalone Linux servers.",
+      "why_interesting_today": "Self-hosters and small teams looking for lightweight, open-source alternatives to heavy proprietary control panels have a strong new contender.",
+      "why_developers_should_care": "It provides a clean, modern, and open-source web interface for managing VPS instances and Linux servers without vendor lock-in.",
+      "momentum": "Solid initial traction in the self-hosted and DevOps ecosystem with active development pushes.",
+      "novelty": "Brings a polished, modern developer experience (via Laravel) to traditional server management and administration."
     },
     {
       "rank": 5,
-      "name": "avelino/awesome-go",
-      "score": 80,
-      "reason": "The premier curated directory for Go frameworks, libraries, and software, showing massive star acceleration today.",
-      "why_interesting_today": "Go remains a cornerstone language for cloud-native infrastructure, microservices, and high-performance tooling.",
-      "why_developers_should_care": "Serves as an indispensable, continuously updated cheat-sheet for developers vetting Go packages for production architectures.",
-      "momentum": "Persistent high star growth indicating continued developer migration toward Go for backend and tooling stacks.",
-      "novelty": "While curatorial lists are traditional, its sustained community curation makes it an essential anchor resource for the ecosystem."
+      "name": "Th0rgal/satmux",
+      "score": 84,
+      "reason": "A clever network optimization tool designed to accelerate high-latency GEO inflight Wi-Fi using warm BBR TCP multiplexing, Ground-TLS, and zlib.",
+      "why_interesting_today": "Inflight internet is notoriously painful; tackling high-latency satellite links with zero-dependency Python utilities is an ingenious engineering feat.",
+      "why_developers_should_care": "It demonstrates advanced socket-level optimization techniques that developers can study or deploy to improve throughput over terrible network connections.",
+      "momentum": "Maintains a healthy baseline of developer curiosity and adoption for a niche networking project.",
+      "novelty": "Tackles the specific annoyance of satellite Wi-Fi latency using specialized TCP multiplexing and compression."
     }
   ]
 }

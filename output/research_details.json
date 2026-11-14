@@ -3,134 +3,136 @@
   "repositories": [
     {
       "rank": 1,
-      "name": "n8n-io/n8n",
+      "name": "apex-compute/ANR",
       "score": 96,
-      "reason": "Combines robust low-code workflow automation with cutting-edge native AI, Model Context Protocol (MCP) support, and hundreds of integrations.",
-      "why_interesting_today": "As developers increasingly look for ways to orchestrate LLMs, tool-use agents, and traditional APIs, n8n bridges the gap between visual building and custom code.",
-      "why_developers_should_care": "It offers an open, self-hostable alternative to proprietary integration platforms, enabling deep customization with TypeScript and direct integration with modern AI ecosystems.",
-      "momentum": "Exceptionally high and steady, backed by immense community adoption and frequent production-grade updates.",
-      "novelty": "Brings MCP clients and servers directly into a low-code workflow paradigm, letting developers spin up complex agentic data flows in minutes.",
+      "reason": "Apex Neural Rendering (ANR) shows massive explosive star growth right after launch, introducing high-performance neural rendering capabilities in C++.",
+      "why_interesting_today": "It is capturing massive attention from graphics engineers and AI researchers looking for high-performance rendering solutions that integrate deep learning natively.",
+      "why_developers_should_care": "It offers an efficient C++ codebase for advanced rendering tasks, bridging the gap between traditional graphics pipelines and neural compute workloads.",
+      "momentum": "Extremely high, with 375 new stars and strong fork activity immediately following its initial release.",
+      "novelty": "Brings cutting-edge neural rendering techniques into a streamlined, high-performance library format.",
       "deep_analysis": {
-        "name": "n8n-io/n8n",
-        "headline_hook": "Bridge the gap between visual low-code automation and custom code to rapidly build, orchestrate, and self-host advanced AI agents and multi-step workflows.",
-        "core_functionality": "n8n is a fair-code, node-based workflow automation platform designed to orchestrate traditional APIs, custom scripts, and cutting-edge AI models. It solves the problem of building complex, reliable automation pipelines by combining a visual canvas with native support for JavaScript, Python, and LLM tool-use agents, all while remaining fully self-hostable.",
+        "name": "apex-compute/ANR",
+        "headline_hook": "Apex Neural Rendering introduces high-performance neural frame generation and vendor-agnostic visual benchmarking tools with deep learning integration.",
+        "core_functionality": "Apex Neural Rendering (ANR) provides advanced neural rendering capabilities—such as frame generation, super resolution, and ray reconstruction—across a wide array of GPUs and operating systems, while offering specialized tools to losslessly record game rendering inputs and benchmark different upscaling and frame generation solutions side by side.",
         "key_features": [
-          "AI-Native Orchestration: Build multi-step AI agents and workflows with model flexibility, seamlessly switching between OpenAI, Anthropic, Google, and open-source models without architectural changes.",
-          "Code When You Need It: Escape low-code constraints by embedding custom JavaScript, Python, and npm packages directly into workflow nodes for advanced data manipulation and logic.",
-          "Massive Integration Ecosystem: Connect systems using over 1,500 built-in integrations and 9,000+ ready-made workflow templates.",
-          "Enterprise-Ready Self-Hosting: Deploy securely on your own infrastructure via Docker with support for role-based access control, audit trails, and sensitive data handling."
+          "Vendor-agnostic neural frame generation supporting NVIDIA, AMD, and Intel hardware on Windows, Linux, and Steam Deck via Proton.",
+          "Integrated support and compatibility with OptiScaler to hook into existing games and replace proprietary upscaling or frame generation pipelines.",
+          "Lossless input recording toolkit (nr-record) that captures game frames and parameters to replay and compare outputs across different algorithms like DLSS, FSR, and XeSS.",
+          "Comprehensive cross-platform build system using Bazel, supporting Windows cross-compilation and automated video synchronization and comparison tools."
         ],
-        "target_audience": "AI engineers, backend developers, and DevOps professionals who need to rapidly prototype and productionize LLM applications, tool-use agents, and cross-system integrations without writing every boilerplate API wrapper from scratch.",
-        "practical_developer_value": "Developers save hundreds of hours by avoiding manual API integration boilerplate and complex state management for LLMs. Instead of building custom schedulers, retry loops, and webhook handlers from the ground up, developers can use n8n as an orchestration layer—triggering workflows via webhooks, processing payloads with custom Python or JavaScript blocks, and passing context to LLM agents.",
+        "target_audience": "Graphics engineers, game developers, AI researchers, and performance optimization specialists.",
+        "practical_developer_value": "Developers working on real-time rendering, graphics pipelines, or deep learning upscaling can use ANR to benchmark frame generation algorithms, analyze rendering inputs losslessly, and test neural rendering integrations across diverse GPU hardware architectures without being locked into a single vendor ecosystem.",
         "suggested_use_cases": [
-          "Building an autonomous customer support agent that queries internal documentation, interacts with ticketing APIs, and escalates to humans when confidence scores are low.",
-          "Orchestrating multi-source data ingestion pipelines that clean data using Python scripts, summarize insights via LLMs, and sync results to enterprise databases or CRMs."
+          "Benchmarking and comparing proprietary frame generation solutions against open or alternative neural rendering models.",
+          "Recording and debugging real-time graphics inputs and frame timing data for computer vision and neural graphics research."
         ]
       }
     },
     {
       "rank": 2,
-      "name": "agentes-chat/agentes-chat",
+      "name": "alexeyw/lot-map",
       "score": 92,
-      "reason": "An innovative open-source, self-hosted Slack alternative built natively for human and AI agent collaboration.",
-      "why_interesting_today": "Teams are moving past simple chatbots toward multi-agent workplaces where LLMs (Claude, GPT, Gemini, Grok) share channels, use browsers, and execute routines.",
-      "why_developers_should_care": "It provides a complete Docker Compose + Postgres template to run an autonomous agent workspace with human-in-the-loop approvals and MCP tools out of the box.",
-      "momentum": "Strong early traction for an emerging agentic collaboration tool with zero-day momentum surge.",
-      "novelty": "Treats AI agents as first-class team members inside a familiar chat interface with their own computer-use capabilities and memory.",
+      "reason": "An innovative real-time visualization tool that tracks Claude Code activities, tool calls, hooks, and subagents on a live interactive map beside the chat.",
+      "why_interesting_today": "As developers increasingly rely on complex AI agents like Claude Code, observability into what the agent is actually doing behind the scenes is a major friction point.",
+      "why_developers_should_care": "It solves the 'black box' problem of AI coding assistants by providing a clear, local-first visual map of model steps, hooks, and subagent executions.",
+      "momentum": "Strong early developer interest and robust fork engagement for a recently introduced developer tool.",
+      "novelty": "Combines agent observability with dynamic SVG visualization specifically tailored for CLI-based AI coding workflows.",
       "deep_analysis": {
-        "name": "agentes-chat/agentes-chat",
-        "headline_hook": "Agentes.chat is an open-source, self-hosted Slack alternative built natively for human and multi-agent collaboration, allowing LLMs to join channels, execute workflows, and interact securely via MCP tools.",
-        "core_functionality": "The project solves the fragmentation of AI tooling by bridging the gap between team communication and autonomous AI execution. Instead of treating AI as a sidebar bot or a single-player application, it integrates LLMs (Claude, GPT, Gemini, Grok, and OpenRouter models) directly into team channels as first-class workspace members with specific roles, budgets, owners, and permissions.",
+        "name": "alexeyw/lot-map",
+        "headline_hook": "Transform opaque AI agent workflows into a live, radar-style visual map running right beside your Claude Code chat.",
+        "core_functionality": "The project is a real-time visualization mod for Claude Code that replaces text-heavy command logs with a live, interactive node-based map. It tracks tool calls, model steps, hooks, memory access, file operations, and subagents, giving developers instant visual observability into what an AI agent is doing behind the scenes.",
         "key_features": [
-          "Native Multi-Agent Collaboration: Agents join public/private channels and DMs, read context, self-route via code or small models, and hand work back and forth with human team members.",
-          "Safe-by-Default Approvals and Budgeting: High-risk actions like merges, deploys, and sensitive tool executions trigger interactive approval cards in the chat, while every model call is strictly budgeted and recorded per agent.",
-          "Comprehensive Tooling and MCP Integration: Supports Model Context Protocol (MCP) servers, Composio integration for enterprise apps, individual agent computers/browsers with live viewing and human takeover, and Claude Code/Codex execution.",
-          "Self-Hosted and Portable: Deploys via a simple installation script using Docker and PostgreSQL with pgvector, running privately over Tailscale with zero paid tier locks or license keys."
+          "Spatial event mapping: Tool calls, shell commands, file modifications, and network requests pulse out from a central core to dedicated stations like Files, Shell, Network, and Agents.",
+          "Dual-interface support: Renders natively as a graphical map in the Claude Code desktop app and advanced terminal emulators (like iTerm2 or kitty using pixel rendering), while gracefully falling back to a structured text event stream in standard terminals.",
+          "Granular activity metrics: Features visual context window ring monitors, subagent tracking loops, clock-hand execution timers, and real-time error/refusal indicators.",
+          "High customizability: Offers extensive configuration options for custom memory commands, paths, labels, language localization, and UI scaling for compact layouts like VS Code panes."
         ],
-        "target_audience": "AI Engineers, Full-Stack Developers, and DevOps teams building collaborative multi-agent workflows or looking for a secure, self-hosted chat alternative for engineering and product teams.",
-        "practical_developer_value": "Developers gain a production-ready, open-source framework for orchestrating multi-agent systems inside a real-world chat interface rather than building custom chat-to-agent glue code. Using a modern stack (Bun, Hono, Drizzle, PostgreSQL, React, TanStack, Expo, and Tauri), developers can easily extend the platform with custom skills, MCP connectors, routines, and automated developer workflows.",
+        "target_audience": "AI engineers, full-stack developers, and power users who heavily rely on autonomous AI coding agents like Claude Code and struggle with debugging or monitoring opaque multi-step agent executions.",
+        "practical_developer_value": "As AI agents perform complex, multi-file edits, background shell jobs, and network calls, developers often face a severe observability gap, making it difficult to spot when an agent is stuck, looping, or accessing unintended files. Lot-map provides immediate visual feedback, allowing developers to catch errors, monitor context window exhaustion before it fails, and understand agent workflows at a glance without parsing raw terminal logs.",
         "suggested_use_cases": [
-          "Automated software delivery pipelines where AI agents write code, open pull requests, run tests, and request human approval directly in dedicated Slack-like channels.",
-          "Autonomous on-call triage and routine maintenance where scheduled or event-driven agents analyze Sentry issues, query databases safely, and post updates to team wikis or drives."
+          "Auditing complex autonomous coding sessions to instantly spot when an agent triggers unexpected network requests or file modifications.",
+          "Monitoring context window limits and model switches during long refactoring tasks to optimize prompt token usage."
         ]
       }
     },
     {
       "rank": 3,
-      "name": "FrigadeHQ/yogurt",
-      "score": 88,
-      "reason": "A private, open-source AI meeting notes application that runs locally using Whisper and Llama.cpp.",
-      "why_interesting_today": "Data privacy concerns around AI-powered transcription tools make local-first solutions extremely desirable for engineering teams.",
-      "why_developers_should_care": "It demonstrates how to package Electron, local speech-to-text, and local LLMs into a seamless cross-platform desktop utility with MCP capabilities.",
-      "momentum": "Rapidly gaining interest among developers seeking zero-leakage productivity tools.",
-      "novelty": "Combines local speech transcription with private on-device models to generate zero-cloud-dependency meeting summaries.",
+      "name": "Goblinmine/homelab-diagram",
+      "score": 89,
+      "reason": "A practical utility that automatically renders professional r/homelab-style network diagrams straight from a YAML inventory file, written with Claude.",
+      "why_interesting_today": "Homelab enthusiasts and network engineers constantly struggle to keep their infrastructure documentation up-to-date manually.",
+      "why_developers_should_care": "It turns infrastructure-as-code principles into visual documentation, making it effortless to generate clean SVG/PNG network topologies from simple YAML configs.",
+      "momentum": "Steady organic traction and high fork-to-star ratio indicating active usage within the self-hosted community.",
+      "novelty": "Streamlines network diagram generation through text-based inventory definitions rather than tedious manual drag-and-drop.",
       "deep_analysis": {
-        "name": "FrigadeHQ/yogurt",
-        "headline_hook": "Yogurt is a private, open-source desktop AI meeting notes app that runs locally on Whisper and Llama.cpp without adding bots to your calls.",
-        "core_functionality": "Yogurt solves the problem of data privacy and intrusive bots in virtual meetings by locally recording microphone and system audio, transcribing speech using Whisper, and generating meeting summaries and answers using local open-weight models via Llama.cpp.",
+        "name": "Goblinmine/homelab-diagram",
+        "headline_hook": "Turn your homelab inventory YAML file into a stunning, r/homelab-style network architecture diagram automatically using Python and Claude Code.",
+        "core_functionality": "This project solves the eternal headache of maintaining network and infrastructure documentation by programmatically transforming a structured YAML inventory into a polished SVG and PNG network diagram, complete with hardware specs, VLAN details, and link-speed-scaled cabling.",
         "key_features": [
-          "Bot-free meeting recording that captures local microphone and system audio without joining calls as a participant.",
-          "Fully local-first AI processing using whisper.cpp and llama.cpp, keeping all audio, transcripts, and summaries securely on the user device.",
-          "Built-in local Model Context Protocol (MCP) server that grants external assistant apps read-only access to meeting notes and transcripts.",
-          "Cross-platform desktop application built with Electron, supporting macOS (Apple Silicon), Windows, and Linux."
+          "Data-Driven Rendering: Combines a declarative YAML inventory with Python scripts to generate scalable SVG and PNG diagrams.",
+          "Dynamic Visual Encodings: Automatically scales link widths based on negotiated network speeds (10G, 2.5G, 1G) and maps VLAN configurations directly to switch port indicators.",
+          "AI-Assisted Workflow: Includes a dedicated CLAUDE.md context file that guides AI coding agents through interviewing users, structuring inventory data, and iterating on layout coordinates.",
+          "Built-in Privacy & Redaction: Features native redaction capabilities to automatically mask sensitive domain names and SSIDs before public publishing."
         ],
-        "target_audience": "Software developers, engineering managers, and privacy-conscious professionals who want AI-generated meeting insights without sending corporate or personal conversations to third-party cloud services.",
-        "practical_developer_value": "Developers can use Yogurt as a reference architecture for building local-first Electron applications that integrate complex C++ inference engines like Whisper and Llama.cpp. Furthermore, its built-in local MCP server implementation offers a practical blueprint for exposing secure, local data context to AI assistant tools via Unix sockets and named pipes.",
+        "target_audience": "Homelab enthusiasts, systems administrators, network engineers, and DevOps practitioners who want professional documentation without manual drag-and-drop vector editing.",
+        "practical_developer_value": "Developers and systems engineers can use this as a reference architecture for programmatic infrastructure visualization. By leveraging the included Python build scripts and Pillow text-measurement integrations, teams can build customized pipelines that generate up-to-date physical and logical topology diagrams straight from source-of-truth configuration files.",
         "suggested_use_cases": [
-          "Running local-first automated meeting transcription and summarization for security-sensitive engineering discussions.",
-          "Integrating local meeting history and transcripts into external AI assistant workflows using the built-in MCP server."
+          "Generating automated, always-up-to-date visual maps of home networks or enterprise edge environments from infrastructure-as-code definitions.",
+          "Bootstrapping a custom diagram generator for documentation pipelines using AI-driven coding agents and structured inventory data."
         ]
       }
     },
     {
       "rank": 4,
-      "name": "sostenesfreitas/ocarina-recomp",
-      "score": 84,
-      "reason": "A remarkable static recompilation project enabling Ocarina of Time to run natively on Windows without an emulator.",
-      "why_interesting_today": "Static recompilation techniques are pushing the boundaries of software preservation and reverse engineering.",
-      "why_developers_should_care": "Provides an incredible masterclass in low-level systems programming, binary translation, and native hardware optimization using C.",
-      "momentum": "Steady organic growth driven by retro-gaming and systems engineering enthusiasts.",
-      "novelty": "Translating game binaries into native C code for execution without virtualization represents a fascinating technical milestone.",
+      "name": "serveroshq/panel",
+      "score": 86,
+      "reason": "A fresh open-source control panel built with Laravel designed to simplify and unify management across standalone Linux servers.",
+      "why_interesting_today": "Self-hosters and small teams looking for lightweight, open-source alternatives to heavy proprietary control panels have a strong new contender.",
+      "why_developers_should_care": "It provides a clean, modern, and open-source web interface for managing VPS instances and Linux servers without vendor lock-in.",
+      "momentum": "Solid initial traction in the self-hosted and DevOps ecosystem with active development pushes.",
+      "novelty": "Brings a polished, modern developer experience (via Laravel) to traditional server management and administration.",
       "deep_analysis": {
-        "name": "sostenesfreitas/ocarina-recomp",
-        "headline_hook": "Static recompilation techniques are pushing the boundaries of software preservation by translating console game binaries directly into native Windows C code without an emulator.",
-        "core_functionality": "Ocarina Recomp is a static recompilation project that translates game binaries from a console environment into native C code, compiling them directly into a Windows executable paired with a Vulkan runtime graphics layer. This eliminates the need for traditional hardware emulation, allowing the title to execute natively on PC hardware.",
+        "name": "serveroshq/panel",
+        "headline_hook": "ServerOS is a fresh, open-source Laravel control panel that lets you manage standalone Linux servers across any cloud provider from a single, unified web dashboard.",
+        "core_functionality": "ServerOS solves the fragmentation of managing multiple standalone Linux servers across different VPS providers by providing a unified web panel. It acts as the central control plane, communicating securely with a lightweight companion daemon running on each target server to handle deployments, monitoring, and administration without requiring deep terminal diving.",
         "key_features": [
-          "Translates native architecture binaries into ANSI C code using custom recompilation scripts for direct compilation.",
-          "Bridges proprietary graphics commands to standard Vulkan 1.3 with mesh shader support, converting low-level GPU shaders on the fly.",
-          "Provides automated multi-step setup wrappers and scripts for verification, simulation, and local building directly from user-provided game files."
+          "One-command server onboarding and management across any VPS provider using a companion daemon architecture.",
+          "Integrated application and service deployment from Git or templates, complete with automated domains, HTTPS, backups, and staging environments.",
+          "Built-in Model Context Protocol (MCP) server and API support allowing AI assistants and custom tooling to programmatically interact with managed infrastructure.",
+          "Comprehensive team administration featuring role-based access control, two-factor authentication, uptime monitors, and centralized log aggregation."
         ],
-        "target_audience": "Software reverse engineers, emulator developers, systems programmers, and software preservationists interested in binary translation and native runtime execution.",
-        "practical_developer_value": "Developers working in reverse engineering and systems programming can study this repository to understand advanced binary translation pipelines, header-based lowering techniques for custom shader architectures, and the structural design of runtime environments that map proprietary console APIs to modern cross-platform graphics APIs like Vulkan.",
+        "target_audience": "Self-hosters, small development teams, and solo developers looking for an open-source, lightweight alternative to heavy proprietary server control panels.",
+        "practical_developer_value": "Developers can self-host the control panel using a single Docker command, connecting multiple inexpensive VPS instances to create a cohesive PaaS-like environment. The inclusion of an MCP server and API means developers can hook their server infrastructure directly into AI workflows or custom automation tools.",
         "suggested_use_cases": [
-          "Studying custom static binary translation pipelines and automated C code generation from closed-source executables.",
-          "Researching graphics API translation layers that map proprietary low-level console graphics commands to modern Vulkan pipelines."
+          "Setting up a private, unified hosting environment for multiple client websites and staging servers across disparate cloud providers.",
+          "Integrating AI-powered assistants with the MCP server to automate routine server maintenance, log analysis, and deployment steps."
         ]
       }
     },
     {
       "rank": 5,
-      "name": "avelino/awesome-go",
-      "score": 80,
-      "reason": "The premier curated directory for Go frameworks, libraries, and software, showing massive star acceleration today.",
-      "why_interesting_today": "Go remains a cornerstone language for cloud-native infrastructure, microservices, and high-performance tooling.",
-      "why_developers_should_care": "Serves as an indispensable, continuously updated cheat-sheet for developers vetting Go packages for production architectures.",
-      "momentum": "Persistent high star growth indicating continued developer migration toward Go for backend and tooling stacks.",
-      "novelty": "While curatorial lists are traditional, its sustained community curation makes it an essential anchor resource for the ecosystem.",
+      "name": "Th0rgal/satmux",
+      "score": 84,
+      "reason": "A clever network optimization tool designed to accelerate high-latency GEO inflight Wi-Fi using warm BBR TCP multiplexing, Ground-TLS, and zlib.",
+      "why_interesting_today": "Inflight internet is notoriously painful; tackling high-latency satellite links with zero-dependency Python utilities is an ingenious engineering feat.",
+      "why_developers_should_care": "It demonstrates advanced socket-level optimization techniques that developers can study or deploy to improve throughput over terrible network connections.",
+      "momentum": "Maintains a healthy baseline of developer curiosity and adoption for a niche networking project.",
+      "novelty": "Tackles the specific annoyance of satellite Wi-Fi latency using specialized TCP multiplexing and compression.",
       "deep_analysis": {
-        "name": "avelino/awesome-go",
-        "headline_hook": "Discover the ultimate curated directory of Go frameworks, libraries, and tools to accelerate your next cloud-native or microservices project.",
-        "core_functionality": "It solves the problem of discoverability in the Go ecosystem by maintaining an exhaustive, community-curated directory of high-quality frameworks, libraries, databases, tools, and learning resources.",
+        "name": "Th0rgal/satmux",
+        "headline_hook": "A pure Python network optimization utility that accelerates high-latency GEO inflight Wi-Fi using warm BBR TCP multiplexing, Ground-TLS, and zlib.",
+        "core_functionality": "The project solves the notorious unreliability and high latency of geostationary satellite inflight Wi-Fi. Traditional connections break due to onboard 443 middleboxes, DNS interception, and Cubic congestion collapse over high RTT links. Satmux bypasses these issues by maintaining a persistent pool of non-443 TCP carriers to a ground-station VM, multiplexing requests, and handling TLS and zlib compression closer to the origin servers.",
         "key_features": [
-          "Comprehensive categorization spanning dozens of technical domains from Actor Models and Artificial Intelligence to Web Frameworks and Zero Trust security",
-          "Continuous peer review and community maintenance through pull requests and automated tests ensuring outdated or unmaintained packages are flagged or removed",
-          "Extensive collection of developer resources including style guides, free e-books, benchmarks, and community meeting groups"
+          "Persistent non-443 carrier pool that keeps pre-warmed TCP connections open to a ground station VM, bypassing cabin transparent proxies and head-of-line blocking.",
+          "Zero-RTT stream opening and 1-RTT ground fetch that reduce satellite round-trips for DNS, TCP, and TLS handshakes.",
+          "Built-in zlib compression on the ground VM that compresses plaintext payloads before crossing the high-latency satellite link.",
+          "Comprehensive CLI and local routing support, including SOCKS5/HTTP proxy modes and a specialized Unix socket wrapper for the GitHub CLI and git operations."
         ],
-        "target_audience": "Go developers, backend engineers, cloud-native architects, DevOps specialists, and technical leads looking for production-ready libraries.",
-        "practical_developer_value": "Instead of spending hours searching GitHub or evaluating unproven packages, developers can use this repository as a trusted, first-stop reference guide to find battle-tested libraries for routing, ORMs, logging, authentication, and more, drastically reducing research time and architectural risk.",
+        "target_audience": "Software developers, DevOps engineers, and remote technical workers who travel frequently and need reliable, high-performance internet access while flying.",
+        "practical_developer_value": "Developers can maintain continuous, dropped-connection-free access to remote APIs, package registries, and git repositories while in the air. It demonstrates advanced systems-level networking concepts in pure Python stdlib without external dependencies, serving as an exceptional reference implementation for custom TCP multiplexing and proxy tunneling.",
         "suggested_use_cases": [
-          "Sourcing high-performance HTTP routers, middleware, and database drivers for building scalable microservices",
-          "Discovering specialized tools for distributed systems, actor models, and message queues when designing cloud-native infrastructure"
+          "Tunnelling API requests and git commands through a ground station VM to prevent TCP resets and timeouts during flights.",
+          "Benchmarking and optimizing network throughput over high-latency satellite links using custom BBR congestion control and MSS sizing."
         ]
       }
     }
