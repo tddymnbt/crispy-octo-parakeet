@@ -44,8 +44,8 @@
       "caption": "Stop wasting hours digging through GitHub for the right Go packages! 🛑 Whether you are building high-throughput microservices or scalable cloud-native infrastructure, finding production-ready tools shouldn't be a guessing game.\n\nMeet avelino/awesome-go—the ultimate community-curated directory of Go frameworks, libraries, and resources designed to accelerate your next backend project. 🚀\n\nThis repository solves the endless discoverability struggle in the Go ecosystem by maintaining an exhaustive, peer-reviewed list spanning dozens of technical domains—from Artificial Intelligence and Actor Models to Web Frameworks and Zero Trust security. \n\nHere is why it is a must-bookmark for every Go developer:\n• Comprehensive categorization covering everything from HTTP routers and ORMs to database drivers and message queues.\n• Continuous community maintenance and automated checks ensuring outdated or unmaintained packages get flagged and removed.\n• Extensive learning resources including style guides, benchmarks, and free e-books to level up your architectural design.\n\nCut down your research time, eliminate architectural risk, and build with battle-tested libraries on your very next sprint. \n\nCheck out the repository here:\nhttps://github.com/avelino/awesome-go\n\nWhat is your go-to library for building microservices in Go? Drop your favorites in the comments below! 👇\n\n#Golang #SoftwareEngineering #CloudNative #BackendDevelopment #OpenSource #DevOps #Programming",
       "image_file": "5_avelino_awesome-go.png",
       "photo_id": "122130329367476221",
-      "published_post_id": null,
-      "published_at": null
+      "published_post_id": "1410193715501138_122130522393476221",
+      "published_at": "2026-11-14T23:00:48.358078+08:00"
     }
   ]
 }
