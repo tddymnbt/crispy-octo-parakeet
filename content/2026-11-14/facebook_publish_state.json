@@ -35,8 +35,8 @@
       "caption": "Static recompilation techniques are pushing the boundaries of software preservation by translating console game binaries directly into native Windows C code without an emulator. 🎮🚀\n\nAre you tired of the heavy performance overhead of traditional hardware emulation? \n\nOcarina Recomp is a powerful static recompilation project that translates game binaries from a restricted console environment straight into native C code. It compiles them directly into a high-performance Windows executable paired with a modern Vulkan runtime graphics layer, allowing legacy titles to execute completely natively on PC hardware. 💻✨\n\n🔥 Key Features:\n• Direct Binary Translation: Uses custom scripts to translate native architecture binaries into clean ANSI C code for direct compilation.\n• Advanced Graphics Bridging: Bridges proprietary graphics commands to standard Vulkan 1.3 with mesh shader support, converting low-level GPU shaders on the fly.\n• Automated Workflows: Provides multi-step setup wrappers and scripts for verification, simulation, and local building straight from your own game files.\n\n🛠️ Why Systems Programmers and Reverse Engineers Love It:\nIf you work in binary translation or software preservation, you can study this repository to master advanced translation pipelines, header-based lowering techniques for custom shader architectures, and runtime environments that map proprietary console APIs to modern Vulkan.\n\nExplore the source code and start experimenting today:\nhttps://github.com/sostenesfreitas/ocarina-recomp\n\n👇 Drop a comment below: What legacy console game would you want to see recompiled for native PC execution next? Like and share with your fellow systems engineers!\n\n#SoftwareEngineering #ReverseEngineering #GameDev #OpenSource #Vulkan #SystemsProgramming",
       "image_file": "4_sostenesfreitas_ocarina-recomp.png",
       "photo_id": "122130329319476221",
-      "published_post_id": null,
-      "published_at": null
+      "published_post_id": "1410193715501138_122130470703476221",
+      "published_at": "2026-11-14T19:00:41.968681+08:00"
     },
     {
       "rank": 5,
