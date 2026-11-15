@@ -1,0 +1,54 @@
+{
+  "top_repositories": [
+    {
+      "rank": 1,
+      "name": "deepseek-ai/chat-demo",
+      "score": 96,
+      "reason": "Rapidly surging chat application demo from DeepSeek, capturing massive immediate developer interest and high velocity star growth right after release.",
+      "why_interesting_today": "It represents the newest reference interface patterns from a major AI lab, making it a focal point for developers studying modern frontend architecture for LLM apps.",
+      "why_developers_should_care": "Provides a clean, direct blueprint for building responsive, high-performance chat UIs integrated with advanced language models.",
+      "momentum": "Extremely high star and fork growth relative to its age, indicating intense community adoption and curiosity.",
+      "novelty": "High relevance as a fresh open-source reference implementation straight from an industry-leading AI research group."
+    },
+    {
+      "rank": 2,
+      "name": "hitkeeen/blender-ai-mcp-addon",
+      "score": 93,
+      "reason": "Bridges the Model Context Protocol (MCP) and Blender via a powerful AI assistant and scripting addon, combining modern LLM workflows with 3D design automation.",
+      "why_interesting_today": "As MCP ecosystems expand beyond text editors into creative tools, bringing multi-agent chat and scene manipulation directly into Blender is a cutting-edge workflow.",
+      "why_developers_should_care": "Demonstrates how to turn complex desktop software into an AI-agent-controlled environment using bpy Python scripting and standard protocol interfaces.",
+      "momentum": "Solid organic traction upon debut with strong developer discussions around multi-agent 3D automation.",
+      "novelty": "High novelty in applying standardized LLM context protocols directly to complex graphic software and 3D pipelines."
+    },
+    {
+      "rank": 3,
+      "name": "adriadam10/mkw-recomp",
+      "score": 90,
+      "reason": "Performs static recompilation of a modern console game (Mario Kart World) into a native PC program, showcasing advanced systems programming and reverse engineering.",
+      "why_interesting_today": "Static recompilation projects capture immense technical fascination by transforming console binaries into high-performance native executables without traditional emulation overhead.",
+      "why_developers_should_care": "Offers deep educational insights into binary analysis, static recompilation techniques, and cross-platform native execution pipelines.",
+      "momentum": "Strong and steady star growth driven by systems engineers and the retro/modern gaming performance community.",
+      "novelty": "Very high technical novelty in applying full static recompilation workflows to recent hardware targets."
+    },
+    {
+      "rank": 4,
+      "name": "Noniv/abyssal-garden",
+      "score": 88,
+      "reason": "A breathtaking procedural underwater world implemented entirely in a single 97 KB HTML file using WebGPU without external images, audio, or 3D models.",
+      "why_interesting_today": "Pushes the boundaries of browser-based graphics and extreme code minimization, proving what is possible with modern raw WebGPU shaders.",
+      "why_developers_should_care": "An exceptional masterclass in shader programming, procedural generation, and lightweight frontend deployment.",
+      "momentum": "High initial curiosity and appreciation across frontend and graphics engineering circles for its ultra-compact file size.",
+      "novelty": "Exceptional novelty due to the zero-asset constraint and pure WebGPU code-driven rendering approach."
+    },
+    {
+      "rank": 5,
+      "name": "JDhruv14/line-art-animation",
+      "score": 85,
+      "reason": "Combines a Claude skill with a TypeScript library to generate reactive, animated line-art SVG components featuring interactive figures and environments.",
+      "why_interesting_today": "Merges AI agent skills with specialized generative UI components, creating a delightful intersection of design, animation, and LLM tooling.",
+      "why_developers_should_care": "Provides practical patterns for embedding dynamic, interactive SVG animations into web applications while leveraging agentic developer skills.",
+      "momentum": "Healthy growth and positive fork metrics as developers experiment with agentic coding extensions and SVG workflows.",
+      "novelty": "High novelty in packaging specialized procedural animation logic directly into an agent-ready skill format."
+    }
+  ]
+}
