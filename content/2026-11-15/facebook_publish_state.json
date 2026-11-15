@@ -44,8 +44,8 @@
       "caption": "✈️ Tired of paying for inflight Wi-Fi that drops every time you try to push code or query an API? \n\nGeostationary satellite links are notoriously painful. Onboard 443 middleboxes, DNS interception, and standard TCP congestion collapse over high RTT links make working in the air almost impossible. \n\nMeet Satmux (Th0rgal/satmux), a pure Python network optimization utility designed specifically to accelerate high-latency GEO inflight Wi-Fi using warm BBR TCP multiplexing, Ground-TLS, and zlib. 🚀\n\nBuilt completely in standard library Python with zero external dependencies, it serves as an incredible systems-level reference implementation while solving real traveler pain points.\n\nKey features include:\n🔹 Persistent non-443 carrier pool: Keeps pre-warmed TCP connections open to a ground station VM to bypass cabin transparent proxies and head-of-line blocking.\n🔹 Zero-RTT stream opening: Cuts down satellite round-trips for DNS, TCP, and TLS handshakes.\n🔹 Built-in zlib compression: Compresses plaintext payloads on the ground VM before they cross the high-latency link.\n🔹 Complete CLI & local routing: Includes SOCKS5 and HTTP proxy modes, plus a specialized Unix socket wrapper for seamless GitHub CLI and git operations.\n\nWhether you need to maintain continuous, dropped-connection-free access to remote APIs and package registries while flying, or you want to benchmark network throughput over high-latency links, Satmux has you covered.\n\nCheck out the repository and star the project here:\nhttps://github.com/Th0rgal/satmux\n\nDrop a comment below: What is your go-to workaround for surviving terrible flight Wi-Fi? 👇\n\n#Python #DevOps #Networking #SoftwareEngineering #DeveloperTools #OpenSource #RemoteWork",
       "image_file": "5_Th0rgal_satmux.png",
       "photo_id": "122130645585476221",
-      "published_post_id": null,
-      "published_at": null
+      "published_post_id": "1410193715501138_122130828987476221",
+      "published_at": "2026-11-15T23:00:43.547015+08:00"
     }
   ]
 }
