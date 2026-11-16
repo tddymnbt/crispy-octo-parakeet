@@ -3,136 +3,136 @@
   "repositories": [
     {
       "rank": 1,
-      "name": "deepseek-ai/chat-demo",
+      "name": "anthropics/skills",
       "score": 96,
-      "reason": "Rapidly surging chat application demo from DeepSeek, capturing massive immediate developer interest and high velocity star growth right after release.",
-      "why_interesting_today": "It represents the newest reference interface patterns from a major AI lab, making it a focal point for developers studying modern frontend architecture for LLM apps.",
-      "why_developers_should_care": "Provides a clean, direct blueprint for building responsive, high-performance chat UIs integrated with advanced language models.",
-      "momentum": "Extremely high star and fork growth relative to its age, indicating intense community adoption and curiosity.",
-      "novelty": "High relevance as a fresh open-source reference implementation straight from an industry-leading AI research group.",
+      "reason": "Outstanding star growth (680 new stars) in the AI agent domain, showcasing practical building blocks for autonomous workflows.",
+      "why_interesting_today": "AI agent architectures are rapidly evolving towards modular, standardized skill sets, making this repository an essential reference for engineers building advanced agents.",
+      "why_developers_should_care": "Provides structured, production-grade patterns for defining and executing agent skills that can be readily integrated into modern AI applications.",
+      "momentum": "Extremely high daily star and fork momentum reflecting strong industry interest in LLM agent orchestration.",
+      "novelty": "High; directly addresses the standardization gap for AI agent capabilities and tool-use patterns.",
       "deep_analysis": {
-        "name": "deepseek-ai/chat-demo",
-        "headline_hook": "Explore DeepSeek's official client-side chat interface template, a zero-backend reference architecture built for direct API integration, rich multimedia, and local IndexedDB state management.",
-        "core_functionality": "It provides a fully functional, production-grade static chat application frontend that connects directly to the DeepSeek API without requiring any application backend, allowing developers to deploy a ready-to-use LLM client instantly.",
+        "name": "anthropics/skills",
+        "headline_hook": "Anthropic has open-sourced their official agent skills repository, providing a modular framework and production-ready code for teaching Claude complex enterprise workflows and document manipulation.",
+        "core_functionality": "The project solves the challenge of dynamic agent instruction loading by providing a standardized format for packaging instructions, scripts, and resources into self-contained modules called skills. These skills allow AI agents like Claude to learn specialized tasks dynamically without retraining, ranging from creative design to programmatic document generation.",
         "key_features": [
-          "Serverless local architecture storing conversations and attachments natively in IndexedDB with local-first persistence",
-          "Advanced UI capabilities supporting streaming replies, deep thinking visualization, smart search, link reading, and source citations",
-          "Rich multimedia processing featuring attachment drag-and-drop, voice input with mobile audio spectrum display, and text-to-speech playback",
-          "Comprehensive Markdown rendering including syntax highlighting, KaTeX math formatting, and Mermaid diagram generation"
+          "Modular SKILL.md Architecture: Self-contained folders using YAML frontmatter and markdown instructions that define metadata, triggers, and execution guidelines for agents.",
+          "Production-Grade Reference Implementations: Open-source document creation and editing skills powering actual production capabilities for DOCX, PDF, PPTX, and XLSX files under the Apache 2.0 license.",
+          "Native Ecosystem Integration: Seamless distribution and installation via Claude Code plugin marketplaces, Claude.ai, and the Claude API.",
+          "Open Specification Support: Implements the Agent Skills standard hosted at agentskills.io for cross-platform interoperability."
         ],
-        "target_audience": "Frontend developers, UI/UX engineers, and AI application developers looking for a reference implementation of a modern, feature-rich LLM web interface.",
-        "practical_developer_value": "Developers can study or adapt this repository to understand how to build robust, browser-only AI applications that manage complex state like message branching, prompt editing, and ZIP-based chat history import and export without relying on a custom backend server.",
+        "target_audience": "AI engineers, backend developers, and enterprise automation architects building autonomous agent workflows.",
+        "practical_developer_value": "Developers can stop writing brittle prompt chains and instead use standardized modular files to equip their agents with deterministic operational capabilities. By studying Anthropic's production code for handling complex formats like PDF and Excel, teams gain a blueprint for architecting their own domain-specific agent extensions and internal enterprise skill sets.",
         "suggested_use_cases": [
-          "Rapidly bootstrapping a custom client interface for internal team tools or proprietary API endpoints",
-          "Learning advanced patterns for handling Server-Sent Events, streaming responses, and local-first data isolation in modern web apps"
+          "Automating complex document generation and data extraction pipelines for enterprise formats like PDF, DOCX, and XLSX.",
+          "Registering custom internal skill packages into Claude Code environments to streamline organizational developer workflows and tool usage."
         ]
       }
     },
     {
       "rank": 2,
-      "name": "hitkeeen/blender-ai-mcp-addon",
-      "score": 93,
-      "reason": "Bridges the Model Context Protocol (MCP) and Blender via a powerful AI assistant and scripting addon, combining modern LLM workflows with 3D design automation.",
-      "why_interesting_today": "As MCP ecosystems expand beyond text editors into creative tools, bringing multi-agent chat and scene manipulation directly into Blender is a cutting-edge workflow.",
-      "why_developers_should_care": "Demonstrates how to turn complex desktop software into an AI-agent-controlled environment using bpy Python scripting and standard protocol interfaces.",
-      "momentum": "Solid organic traction upon debut with strong developer discussions around multi-agent 3D automation.",
-      "novelty": "High novelty in applying standardized LLM context protocols directly to complex graphic software and 3D pipelines.",
+      "name": "ZiChuanLan/freebie-radar",
+      "score": 90,
+      "reason": "Combines multi-source scraping with an AI secondary filter to categorize promotions and deals with high architectural practicality.",
+      "why_interesting_today": "Demonstrates an end-to-end modern automation pipeline utilizing LLMs for data curation, deduplication, and multi-channel alerting.",
+      "why_developers_should_care": "Serves as an excellent blueprint for building intelligent aggregation bots that rely on AI filtering rather than brittle regex rules.",
+      "momentum": "Strong early traction with 333 new stars and steady fork growth since its recent creation.",
+      "novelty": "Moderate-high; applying AI filtering to aggressive content curation pipelines solves a very common filtering problem.",
       "deep_analysis": {
-        "name": "hitkeeen/blender-ai-mcp-addon",
-        "headline_hook": "Bridge the Model Context Protocol directly into Blender to orchestrate multi-agent 3D scene generation, automated modeling, and asset pipelines through natural conversation.",
-        "core_functionality": "mcp-for-blender-pro solves the friction between creative 3D design and AI automation by embedding a Model Context Protocol (MCP) server, a visual chat workspace, and a suite of 21 scene-manipulation tools directly inside Blender 4.2+. It allows developers and 3D artists to inspect scenes, generate objects, apply materials, execute custom Python code, and query the Blender Python (bpy) API using LLMs from providers like OpenAI, Anthropic, Google, and Ollama.",
+        "name": "ZiChuanLan/freebie-radar",
+        "headline_hook": "Resource Radar automates multi-source deal scraping, AI semantic categorization, and intelligent routing into a single self-hosted workstation.",
+        "core_functionality": "Resource Radar solves information overload and noise pollution from developer communities, deal sites, and social platforms by aggregating feeds from 111+ built-in sources, applying a three-tier noise filter, running AI semantic categorization across 27 domains, and pushing relevant alerts through customizable multi-route channels.",
         "key_features": [
-          "Built-in Model Context Protocol (MCP) server supporting authenticated Streamable HTTP connections for external clients like OpenCode.",
-          "Multi-agent team chain workflows featuring specialized roles including Managers who break down tasks, Workers who execute scene operations, and Reviewers who validate results.",
-          "Comprehensive toolkit of 21 built-in scene tools spanning scene inspection, object creation, material editing, viewport snapshots, asset search across Poly Haven and Sketchfab, and Python execution.",
-          "Flexible model integration supporting major cloud providers, local Ollama models, custom endpoints, and image-capable models that can visually interpret viewport screenshots."
+          "Three-tier high-signal filtering combining hard keyword blockers, OpenAI-compatible semantic classification, and zero-token bulk history reorganization.",
+          "Comprehensive orthagonal classification across 6 content forms, 27 vertical domains, and 6 acquisition obtainment tiers.",
+          "Multi-route Telegram notification engine supporting keyword matching, quiet hours, instant pushes, and batch digests.",
+          "Zero external database dependency utilizing a high-performance native SQLite WAL engine bundled with Node.js 24 and an optimized React 19 web dashboard."
         ],
-        "target_audience": "Technical artists, 3D developers, and AI engineers looking to automate repetitive 3D workflows, build custom scene-generation pipelines, or integrate local LLMs directly into creative software environments.",
-        "practical_developer_value": "Developers can leverage the built-in MCP server to connect external coding assistants and AI agents directly to Blender's internal state. This enables programmatic scene generation, automated asset pipelining, and rapid prototyping of complex 3D environments without writing boilerplate bpy scripts manually. It also provides a robust template for extending MCP into desktop GUI applications.",
+        "target_audience": "Software developers, system administrators, DevOps engineers, and tech enthusiasts who want to curate community deals, open-source projects, and news feeds without manual scrolling.",
+        "practical_developer_value": "Developers can study a production-grade TypeScript codebase demonstrating modern data ingestion pipelines, AI integration loops, SQLite performance tuning, and Hono REST API design. It serves as a blueprint for building autonomous event-driven scraping and notification systems.",
         "suggested_use_cases": [
-          "Automating repetitive product display setup and layout staging by chaining multi-agent LLM workflows to handle lighting, camera positioning, and material assignments.",
-          "Connecting external AI coding environments like OpenCode to generate, test, and debug Blender Python scripts interactively with real-time viewport feedback."
+          "Deploying a self-hosted radar station to track cloud promotions, Black Friday VPS deals, and open-source software updates.",
+          "Using the modular collector architecture and CLI scripts as a foundation for custom enterprise content monitoring or threat intelligence feeds."
         ]
       }
     },
     {
       "rank": 3,
-      "name": "adriadam10/mkw-recomp",
-      "score": 90,
-      "reason": "Performs static recompilation of a modern console game (Mario Kart World) into a native PC program, showcasing advanced systems programming and reverse engineering.",
-      "why_interesting_today": "Static recompilation projects capture immense technical fascination by transforming console binaries into high-performance native executables without traditional emulation overhead.",
-      "why_developers_should_care": "Offers deep educational insights into binary analysis, static recompilation techniques, and cross-platform native execution pipelines.",
-      "momentum": "Strong and steady star growth driven by systems engineers and the retro/modern gaming performance community.",
-      "novelty": "Very high technical novelty in applying full static recompilation workflows to recent hardware targets.",
+      "name": "Eynnzerr/TelemetryCleaner",
+      "score": 88,
+      "reason": "An innovative utility leveraging Shizuku to perform non-root system cleanup of telemetry and privacy modules on Android devices.",
+      "why_interesting_today": "Brings granular privacy control and debloating capabilities to standard non-rooted users via modern Android APIs.",
+      "why_developers_should_care": "Highlights advanced usage of the Shizuku framework for executing system-level maintenance without requiring full root access.",
+      "momentum": "Rapid momentum with 325 star growth in a niche yet highly engaged developer and power-user demographic.",
+      "novelty": "High; leveraging Shizuku for targeted background telemetry removal bridges a critical gap for non-rooted mobile privacy.",
       "deep_analysis": {
-        "name": "adriadam10/mkw-recomp",
-        "headline_hook": "Transforming a modern console game into a high-performance native PC executable through ahead-of-time static recompilation, bypassing traditional emulation overhead entirely.",
-        "core_functionality": "Performs static recompilation of Mario Kart World from Nintendo Switch 2 AArch64 machine code directly into C source code, which is then compiled natively for x86-64 and AArch64 PC processors. It completely eliminates CPU interpretation and JIT emulation layers while reimplementing proprietary graphics and software development kit APIs on top of modern open standards like Vulkan.",
+        "name": "Eynnzerr/TelemetryCleaner",
+        "headline_hook": "TelemetryCleaner is an innovative Android utility that leverages Shizuku to remove pre-installed carrier telemetry and privacy-invasive modules without requiring root access.",
+        "core_functionality": "The project solves the problem of background data collection and telemetry by pre-installed carrier and vendor modules in Chinese domestic Android firmware (such as SystemHelper and RegService). These components typically lack desktop app launcher icons and cannot be easily uninstalled or restricted using standard user-facing settings. TelemetryCleaner detects these packages, inspects their permissions, and handles their removal or freezing across different user spaces.",
         "key_features": [
-          "Ahead-of-time architecture translation converting console binaries to native C code without CPU interpreters or JIT engines",
-          "API-level reimplementation of the NVN2 graphics interface directly onto Vulkan 1.3 with advanced shader translation to SPIR-V",
-          "Integration of cutting-edge PC rendering enhancements including custom internal resolutions, ultrawide aspect ratios up to 48:9, HDR, and frame generation",
-          "Robust automated setup and local asset parsing pipeline that verifies and consumes user-provided console game dumps directly"
+          "Shizuku-powered non-root execution utilizing shell-identity Binder calls to bypass standard ROM command-line restrictions.",
+          "Advanced fallback mechanism using app_process to invoke hidden IPackageManager.deletePackageAsUser APIs when command-layer restrictions block system app removal.",
+          "Comprehensive built-in cross-vendor component registry covering pre-installed telemetry packages across major OEMs like OPPO, Xiaomi, Huawei, Honor, and vivo.",
+          "Multi-user space inspection and automated periodic cleanup capabilities based on user-defined configurations."
         ],
-        "target_audience": "Systems programmers, reverse engineers, game engine developers, and low-level performance engineers interested in binary translation and native hardware acceleration.",
-        "practical_developer_value": "This repository serves as an advanced architectural masterclass in static binary translation, graphics API virtualization, and cross-platform compilation. Systems engineers can study its approach to replacing proprietary SDK layers with native implementations, optimizing CPU-GPU synchronization queues, and translating custom shader bytecode to target-agnostic intermediate representations.",
+        "target_audience": "Android application developers, security researchers, privacy-conscious power users, and systems engineers interested in Android OS internals, package management mechanics, and privilege escalation workarounds.",
+        "practical_developer_value": "Developers working on Android system-level tools or privacy applications can study this repository to learn advanced IPC patterns. Specifically, it demonstrates how to leverage Shizuku for privileged Binder interactions, implement robust error-handling fallbacks using app_process and hidden Android APIs, and programmatically manage system packages across multiple user profiles without root access.",
         "suggested_use_cases": [
-          "Studying advanced binary analysis, ahead-of-time code translation pipelines, and custom symbol hooking strategies",
-          "Investigating modern graphics API translation patterns from proprietary console runtimes to Vulkan"
+          "Auditing and removing stealthy pre-installed telemetry, tracking, and carrier registration modules on domestic Android ROMs.",
+          "Studying implementation patterns for building non-root system management tools that interact with hidden Android framework services via Shizuku."
         ]
       }
     },
     {
       "rank": 4,
-      "name": "Noniv/abyssal-garden",
-      "score": 88,
-      "reason": "A breathtaking procedural underwater world implemented entirely in a single 97 KB HTML file using WebGPU without external images, audio, or 3D models.",
-      "why_interesting_today": "Pushes the boundaries of browser-based graphics and extreme code minimization, proving what is possible with modern raw WebGPU shaders.",
-      "why_developers_should_care": "An exceptional masterclass in shader programming, procedural generation, and lightweight frontend deployment.",
-      "momentum": "High initial curiosity and appreciation across frontend and graphics engineering circles for its ultra-compact file size.",
-      "novelty": "Exceptional novelty due to the zero-asset constraint and pure WebGPU code-driven rendering approach.",
+      "name": "HolyArrs/HolyArrs",
+      "score": 85,
+      "reason": "A well-structured Go-based self-hosted application unifying media management workflows into a single dashboard.",
+      "why_interesting_today": "Appeals directly to the booming homelab and self-hosting community by simplifying the management of movies, shows, and music.",
+      "why_developers_should_care": "Offers clean Go architecture for developers interested in building modular Docker-based media automation tools.",
+      "momentum": "Solid organic growth with 103 star additions and active daily commits.",
+      "novelty": "Moderate; consolidates popular existing media server paradigms (Plex/Jellyfin ecosystem) into a unified interface.",
       "deep_analysis": {
-        "name": "Noniv/abyssal-garden",
-        "headline_hook": "Experience a breathtaking procedural underwater world complete with dynamic lighting and synthesized audio that fits entirely inside a single 97 KB HTML file using raw WebGPU.",
-        "core_functionality": "Abyssal Garden solves the challenge of delivering a high-performance, fully immersive 3D graphical world in a web browser without external assets like textures, 3D models, or audio files, relying instead entirely on real-time procedural generation and modern WebGPU shaders.",
+        "name": "HolyArrs/HolyArrs",
+        "headline_hook": "HolyArrs unifies the fragmented homelab media stack of Sonarr, Radarr, Lidarr, Bazarr, Prowlarr, and Seerr into a single, highly efficient Go-based binary.",
+        "core_functionality": "The project solves the complexity and overhead of managing a traditional self-hosted media server ecosystem. Instead of running six distinct applications with separate ports, logins, update cycles, and API keys, HolyArrs provides an all-in-one dashboard to browse media, handle download requests, manage pick rules, sync subtitles, and monitor calendars with a fraction of the resource footprint.",
         "key_features": [
-          "Zero-asset architecture packing millions of procedural elements, including kelp forests, rock formations, marine life, and a sunken ship into a single 96 KB HTML file.",
-          "Raw WebGPU rendering pipeline written in WGSL that handles procedural terrain sculpting, shadows, water caustics, and volumetric light rays directly on the GPU.",
-          "Dynamic live soundscape synthesized entirely in the browser using the Web Audio API to generate ambient rumbles, chimes, and whale calls.",
-          "Adaptive quality scaling and automated hardware benchmarking that tunes resolution and draw distance in real time to maintain target frame rates across low-end mobile devices and high-end desktop GPUs."
+          "Monolithic Media Management: Replaces six separate containers with a single Go application boasting an exceptionally small binary size (16.1 MB) and low idle RAM footprint.",
+          "Streaming-Like Discovery and Request Pipeline: Features smooth Explore interfaces with hover trailer playback, request management with auto-approval or queue logic, and Plex/Pulsarr watchlist integration.",
+          "Robust Import and Migration Tools: Supports seamless migration from existing instances of Sonarr, Radarr, Lidarr, Prowlarr, Bazarr, Seerr, Overseerr, qBittorrent, and SABnzbd.",
+          "Backward-Compatible APIs: Exposes APIs compatible with older standalone apps like Seerr, Prowlarr, Bazarr, and Unpackerr to ease adoption."
         ],
-        "target_audience": "Frontend developers, graphics programmers, creative coders, and web performance enthusiasts interested in modern browser-based graphics, WebGPU, and code minimization techniques.",
-        "practical_developer_value": "Developers can use this repository as a masterclass in WebGPU programming, procedural generation algorithms, and shader optimization. By inspecting the modular source code, they can learn how to build zero-dependency 3D experiences, implement custom WGSL shaders, and perform real-time procedural audio synthesis without bloating asset pipelines.",
+        "target_audience": "Homelab enthusiasts, self-hosters, and systems administrators who want to streamline their home infrastructure and reduce container sprawl without losing fine-grained control over media acquisition.",
+        "practical_developer_value": "For developers, HolyArrs serves as an exceptional architectural blueprint for building high-performance, resource-efficient Go monoliths that replace multi-service Docker micro-architectures. It demonstrates clean integration with third-party torrent/usenet clients, metadata providers, and notification webhooks while maintaining a lightweight frontend-backend architecture.",
         "suggested_use_cases": [
-          "Building lightweight, standalone portfolio pieces or interactive web experiences that load instantly without heavy asset bundles.",
-          "Learning advanced WebGPU and WGSL techniques for procedural world generation, lighting, and rendering optimization."
+          "Deploying a lean, resource-constrained home media management server on edge hardware like Raspberry Pis or low-power mini PCs.",
+          "Consolidating an existing sprawling Docker compose stack into a single unified dashboard to simplify logging, updates, and maintenance."
         ]
       }
     },
     {
       "rank": 5,
-      "name": "JDhruv14/line-art-animation",
-      "score": 85,
-      "reason": "Combines a Claude skill with a TypeScript library to generate reactive, animated line-art SVG components featuring interactive figures and environments.",
-      "why_interesting_today": "Merges AI agent skills with specialized generative UI components, creating a delightful intersection of design, animation, and LLM tooling.",
-      "why_developers_should_care": "Provides practical patterns for embedding dynamic, interactive SVG animations into web applications while leveraging agentic developer skills.",
-      "momentum": "Healthy growth and positive fork metrics as developers experiment with agentic coding extensions and SVG workflows.",
-      "novelty": "High novelty in packaging specialized procedural animation logic directly into an agent-ready skill format.",
+      "name": "opencoredev/islandcn",
+      "score": 82,
+      "reason": "A creative UI component library bringing the 'Dynamic Island' concept to React and shadcn/ui ecosystems.",
+      "why_interesting_today": "Brings polished, mobile-inspired interactive design patterns directly into standard web applications using modern React tooling.",
+      "why_developers_should_care": "Provides frontend engineers with drop-in, highly customizable UI components that elevate web app interactivity.",
+      "momentum": "Gaining steady developer mindshare in the React and Tailwind UI component ecosystem.",
+      "novelty": "High; successfully translates mobile OS interaction paradigms into clean web component architecture.",
       "deep_analysis": {
-        "name": "JDhruv14/line-art-animation",
-        "headline_hook": "Combine Claude AI with a specialized TypeScript library to generate reactive, hand-inked SVG line-art animations and fully interactive scenes.",
-        "core_functionality": "This project solves the complexity of creating organic, hand-inked vector animations and interactive generative UI components by pairing an AI agent skill with a dependency-free TypeScript library. It calculates complex physical behaviors like procedural gaits, pendulum physics, and dynamic day-night palettes directly inside live SVG elements that respond to pointer movement and time.",
+        "name": "opencoredev/islandcn",
+        "headline_hook": "Bring Apple's Dynamic Island-style interactive UI patterns directly into your React and shadcn/ui applications.",
+        "core_functionality": "Brings the mobile-inspired Dynamic Island concept to standard web applications through a React component library that integrates seamlessly with the shadcn/ui ecosystem, managing multi-state dynamic activities like uploads, timers, media playback, and calls from a single top-level viewport component.",
         "key_features": [
-          "Integrated Claude AI skill workflow that handles planning, reference matching, step-by-step verification, and automated rendering directly in developer environments.",
-          "Dependency-free TypeScript core library featuring procedural gait solvers, physical springs and pendulums, ink-stroke rendering primitives, and day-night palette mapping.",
-          "Fully deterministic frame-capture script using headless Chrome over DevTools protocol to export smooth, artifact-free video outputs without relying on machine execution speed.",
-          "Rich interactive scenes out-of-the-box, supporting real-time pointer wind, draggable celestial bodies, and dynamic environmental click reactions."
+          "An activity stack engine supporting four distinct presentation states (idle, compact, split, and expanded) with custom spring physics tuned to frame-by-frame recordings of real hardware.",
+          "Integrated support for advanced interactions including long-press gestures, real-time activity updates, alerts, and accessibility features like reduced motion.",
+          "A rich collection of built-in presets covering common application states such as file uploads, timers, now playing widgets, ride ETAs, and incoming calls.",
+          "Direct installation via shadcn CLI with an interactive playground for testing animations, customizing copy, and copying ready-to-use code blocks."
         ],
-        "target_audience": "Frontend developers, creative technologists, and AI engineers looking to build bespoke generative UI components, animated vector graphics, or specialized AI coding workflows.",
-        "practical_developer_value": "Developers gain a ready-to-use blueprint for merging LLM capabilities with complex canvas-like SVG mathematics. Instead of manually scripting intricate kinematics and frame interpolation, engineers can prompt Claude to build custom animated scenes using a robust, battle-tested math and rendering library that keeps assets lightweight, scalable, and fully responsive.",
+        "target_audience": "Frontend developers, UI/UX engineers, and React developers building modern web applications who want to incorporate highly polished, mobile-native micro-interactions.",
+        "practical_developer_value": "Developers can abstract away the complex state management, layout transitions, and spring animations required for floating widget systems. By installing via shadcn, teams get production-ready, highly customizable UI patterns for displaying background tasks without cluttering the core application layout.",
         "suggested_use_cases": [
-          "Building interactive, weather-aware landing page hero illustrations with day-night cycles and clickable elements.",
-          "Generating custom procedural loading states, onboarding sequences, or data-driven character animations for web and mobile applications."
+          "Displaying background file upload progress and completion status without forcing users to stay on a dedicated upload page.",
+          "Building real-time tracking widgets for ride-share apps, food delivery statuses, or active audio/video call controls."
         ]
       }
     }
