@@ -35,8 +35,8 @@
       "caption": "Dive into a breathtaking procedural underwater world complete with dynamic lighting and synthesized audio that fits entirely inside a single 97 KB HTML file using raw WebGPU! 🌊\n\nAre you tired of bloated asset pipelines, massive bundle sizes, and slow-loading web experiences? Abyssal Garden solves the challenge of delivering a high-performance, fully immersive 3D graphical world in a web browser without external assets like textures, 3D models, or audio files, relying instead entirely on real-time procedural generation and modern WebGPU shaders.\n\nHere is what makes this project an absolute masterpiece for graphics programmers and creative coders:\n\n✨ Zero-asset architecture packing millions of procedural elements, including kelp forests, rock formations, marine life, and a sunken ship into a single 96 KB HTML file.\n⚡ Raw WebGPU rendering pipeline written in WGSL that handles procedural terrain sculpting, shadows, water caustics, and volumetric light rays directly on the GPU.\n🎵 Dynamic live soundscape synthesized entirely in the browser using the Web Audio API to generate ambient rumbles, chimes, and whale calls.\n⚙️ Adaptive quality scaling and automated hardware benchmarking that tunes resolution and draw distance in real time to maintain target frame rates across low-end mobile devices and high-end desktop GPUs.\n\nWhether you want to build lightweight standalone portfolio pieces or master advanced WebGPU, WGSL, and procedural generation algorithms, this repository is an incredible learning resource. \n\nCheck out the code and explore the abyss today:\nhttps://github.com/Noniv/abyssal-garden\n\nClone the repo, inspect the source, and let us know what you think of this zero-dependency marvel in the comments below! 🚀\n\n#WebGPU #WGSL #GraphicsProgramming #ProceduralGeneration #WebDev #CreativeCoding #OpenSource",
       "image_file": "4_Noniv_abyssal-garden.png",
       "photo_id": "122130933069476221",
-      "published_post_id": null,
-      "published_at": null
+      "published_post_id": "1410193715501138_122131087881476221",
+      "published_at": "2026-11-16T19:00:48.748507+08:00"
     },
     {
       "rank": 5,
