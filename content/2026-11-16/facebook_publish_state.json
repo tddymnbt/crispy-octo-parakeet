@@ -26,8 +26,8 @@
       "caption": "Say goodbye to emulation overhead. 🏎️💨\n\nWhat if you could run a modern console game as a high-performance native PC executable instead of relying on traditional interpreters or JIT engines? \n\nThe adriadam10/mkw-recomp repository is achieving just that by performing static recompilation of Mario Kart World from Nintendo Switch 2 AArch64 machine code directly into C source code. That code is then compiled natively for x86-64 and AArch64 PC processors, completely bypassing CPU emulation layers.\n\nHere is what makes this project an absolute masterclass for systems programmers and reverse engineers:\n\n🔹 Ahead-of-Time Architecture Translation: Converts console binaries straight to native C code without CPU interpreters or JIT runtime bloat.\n🔹 Modern Graphics API Virtualization: Reimplements the proprietary NVN2 graphics interface directly onto Vulkan 1.3 with advanced shader translation to SPIR-V.\n🔹 Next-Gen PC Rendering Enhancements: Unlocks custom internal resolutions, ultrawide aspect ratios up to 48:9, HDR, and frame generation.\n🔹 Automated Setup Pipeline: Includes a local asset parsing pipeline that verifies and consumes user-provided console game dumps seamlessly.\n\nWhether you want to study advanced binary analysis, custom symbol hooking strategies, or how to translate proprietary console runtimes to Vulkan, this repository offers incredible architectural value for low-level performance engineers.\n\nCheck it out on GitHub and dive into the source code today:\nhttps://github.com/adriadam10/mkw-recomp\n\nWhat is your take on static recompilation versus traditional emulation? Drop your thoughts in the comments below, and do not forget to share this with fellow developers and reverse engineers! 💻✨\n\n#GameDev #SystemsProgramming #ReverseEngineering #Vulkan #OpenSource #SoftwareEngineering #BinaryTranslation",
       "image_file": "3_adriadam10_mkw-recomp.png",
       "photo_id": "122130933027476221",
-      "published_post_id": null,
-      "published_at": null
+      "published_post_id": "1410193715501138_122131011207476221",
+      "published_at": "2026-11-16T15:00:47.385230+08:00"
     },
     {
       "rank": 4,
