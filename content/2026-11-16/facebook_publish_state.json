@@ -44,8 +44,8 @@
       "caption": "🎨 Turn your Claude AI prompts into living, hand-inked vector animations!\n\nBuilding organic, physics-driven SVG line-art and interactive generative UI components usually requires writing complex kinematics and math from scratch. \n\nJDhruv14/line-art-animation solves this by pairing a specialized Claude AI skill with a dependency-free TypeScript library. It calculates complex physical behaviors like procedural gaits, pendulum physics, and dynamic day-night palettes directly inside live SVG elements that respond to pointer movement and time.\n\n✨ Key Features:\n• Integrated Claude AI Skill Workflow: Handles planning, reference matching, step-by-step verification, and automated rendering.\n• Dependency-Free TS Core: Features procedural gait solvers, physical springs, pendulums, ink-stroke rendering primitives, and day-night palette mapping.\n• Deterministic Frame-Capture: Uses headless Chrome via DevTools protocol to export smooth, artifact-free video outputs independent of machine speed.\n• Rich Interactive Scenes: Out-of-the-box support for real-time pointer wind, draggable celestial bodies, and dynamic click reactions.\n\nWhether you want to build weather-aware landing page hero illustrations or custom procedural loading states, this gives you a ready-to-use blueprint for merging LLM capabilities with complex SVG mathematics.\n\nCheck out the repo and build your next interactive scene today:\nhttps://github.com/JDhruv14/line-art-animation\n\n👉 Drop a comment below with your favorite use case for generative UI, and don't forget to star the repo if you find it useful!\n\n#TypeScript #ClaudeAI #GenerativeUI #WebDev #SVGAnimation #CreativeTech #OpenSource",
       "image_file": "5_JDhruv14_line-art-animation.png",
       "photo_id": "122130933111476221",
-      "published_post_id": null,
-      "published_at": null
+      "published_post_id": "1410193715501138_122131174737476221",
+      "published_at": "2026-11-16T23:00:41.790431+08:00"
     }
   ]
 }
