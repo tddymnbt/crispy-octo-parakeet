@@ -17,8 +17,8 @@
       "caption": "🌉 Bridge the Model Context Protocol directly into Blender to orchestrate multi-agent 3D scene generation, automated modeling, and asset pipelines through natural conversation.\n\nBuilding complex 3D environments usually means wrestling with repetitive boilerplate scripts and tedious manual setups. \n\nmcp-for-blender-pro solves the friction between creative 3D design and AI automation by embedding an MCP server, a visual chat workspace, and 21 scene-manipulation tools directly inside Blender 4.2+. \n\nKey Features:\n- Built-in Model Context Protocol server supporting authenticated Streamable HTTP connections for external clients like OpenCode\n- Multi-agent team chain workflows with specialized roles for managers, workers, and reviewers\n- Comprehensive toolkit of 21 built-in scene tools for inspection, object creation, material editing, viewport snapshots, asset search on Poly Haven/Sketchfab, and Python execution\n- Flexible model integration supporting OpenAI, Anthropic, Google, local Ollama models, and vision-capable LLMs\n\nDevelopers and AI engineers can now connect external coding assistants directly to Blender's internal state to automate asset pipelines, query the bpy API, and prototype 3D scenes effortlessly.\n\nCheck it out on GitHub:\nhttps://github.com/hitkeeen/blender-ai-mcp-addon\n\nTry it out today, star the repo to support open-source AI tooling, and drop a comment below on what kind of multi-agent 3D workflow you plan to build first!\n\n#Blender #ModelContextProtocol #AI #Python #3DModeling #MachineLearning #OpenSource",
       "image_file": "2_hitkeeen_blender-ai-mcp-addon.png",
       "photo_id": "122130932985476221",
-      "published_post_id": null,
-      "published_at": null
+      "published_post_id": "1410193715501138_122130969675476221",
+      "published_at": "2026-11-16T11:00:39.707060+08:00"
     },
     {
       "rank": 3,
