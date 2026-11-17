@@ -26,8 +26,8 @@
       "caption": "Your phone might be quietly reporting back to base right now. 📱👀\n\nMany domestic Android ROMs come pre-loaded with stealthy carrier telemetry, registration trackers, and hidden modules like SystemHelper and RegService. These background data-collecting apps have no launcher icons, refuse to be uninstalled through standard settings, and eat up your battery and privacy.\n\nMeet TelemetryCleaner: an innovative open-source Android utility that leverages Shizuku to scrub away pre-installed carrier telemetry and privacy-invasive modules entirely without requiring root access! 🔓✨\n\nHere is why Android devs, security researchers, and power users are starring this repo:\n\n⚡ Shizuku-Powered Non-Root Execution: Utilizes shell-identity Binder calls to bypass standard ROM command-line restrictions.\n🔄 Advanced Fallback Mechanism: Employs app_process to invoke hidden IPackageManager.deletePackageAsUser APIs when command-layer blocks prevent system app removal.\n📋 Cross-Vendor Registry: Out-of-the-box coverage for pre-installed telemetry packages across major OEMs like OPPO, Xiaomi, Huawei, Honor, and vivo.\n👥 Multi-User Inspection: Automated periodic cleanup and package management across multiple user spaces.\n\nFor developers, it is a masterclass in Android OS internals. Study how to implement advanced IPC patterns, interact with hidden framework services via Shizuku, and programmatically manage system packages without root.\n\n👉 Check it out on GitHub:\nhttps://github.com/Eynnzerr/TelemetryCleaner\n\n💬 Drop a comment below: What is the most annoying pre-installed system app you have ever had to deal with? Give the repo a star on GitHub if you value your mobile privacy, and share this with an Android dev who needs to see these IPC tricks!\n\n#AndroidDev #OpenSource #CyberSecurity #Privacy #AndroidInternals #Shizuku #Coding",
       "image_file": "3_Eynnzerr_TelemetryCleaner.png",
       "photo_id": "122131339179476221",
-      "published_post_id": null,
-      "published_at": null
+      "published_post_id": "1410193715501138_122131465269476221",
+      "published_at": "2026-11-17T15:00:44.593870+08:00"
     },
     {
       "rank": 4,
