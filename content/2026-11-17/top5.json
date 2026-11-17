@@ -1,0 +1,54 @@
+{
+  "top_repositories": [
+    {
+      "rank": 1,
+      "name": "erkamyaman/rust-anything",
+      "score": 96,
+      "reason": "Provides a systematic, behavior-checked framework to rewrite applications piece-by-piece from various languages into Rust.",
+      "why_interesting_today": "Bridges the gap between legacy/heterogeneous codebases (TypeScript, Python, Go, Java, etc.) and Rust's performance and safety demands via automated, behavior-verified migration paths.",
+      "why_developers_should_care": "Rewriting an entire codebase in Rust is notoriously risky; this project offers a methodical, test-backed approach to migrate piece by piece without breaking existing behaviors.",
+      "momentum": "Strong early traction and intense developer discussion surrounding safe code migration techniques.",
+      "novelty": "High novelty in combining agent-driven workflows and FFI bindings for incremental, behavior-guarded rewrites."
+    },
+    {
+      "rank": 2,
+      "name": "sybil-solutions/inference-optimisation-skill",
+      "score": 93,
+      "reason": "An agent skill focused specifically on hill-climbing local LLM serving performance across arbitrary hardware and quantizations.",
+      "why_interesting_today": "As local LLMs and edge deployment proliferate, squeeze-optimizing TTFT, decode speed, speculative decoding, and KV caches is paramount.",
+      "why_developers_should_care": "Allows AI agents or engineers to systematically tune local inference stacks for maximum throughput and minimal latency without manual guesswork.",
+      "momentum": "Rapid interest among developers deploying models on local hardware and optimizing inference pipelines.",
+      "novelty": "Treating inference optimization as an iterative agent skill rather than a static configuration guide is fresh and highly practical."
+    },
+    {
+      "rank": 3,
+      "name": "haziqahmedqasmi/PeakCut",
+      "score": 89,
+      "reason": "A self-hosted, bring-your-own-AI-key solution for AI-powered clipping of long-form videos and live streams.",
+      "why_interesting_today": "Content creators and media engineers need privacy-focused, cost-effective automation to turn long streams into viral clips.",
+      "why_developers_should_care": "Provides an open-source, self-hosted alternative to expensive third-party clipping SaaS platforms, keeping data and API keys under developer control.",
+      "momentum": "Solid organic adoption driven by creators and developers looking for self-hosted video AI tools.",
+      "novelty": "Combines video processing pipelines with modern LLM/vision API key orchestration for automated highlight extraction."
+    },
+    {
+      "rank": 4,
+      "name": "Immortal-Protocols/lastbook",
+      "score": 86,
+      "reason": "An offline knowledge AI, maps, and video repository tailored for survival and rebuilding scenarios.",
+      "why_interesting_today": "Highlights the engineering challenge of packaging dense, critical technical knowledge and functional AI retrieval into fully offline-capable bundles.",
+      "why_developers_should_care": "Demonstrates edge-case architectures for offline-first RAG systems and resilient data storage when internet connectivity is entirely absent.",
+      "momentum": "Unique concept attracting curious developers interested in extreme resilience and offline AI architectures.",
+      "novelty": "Very high novelty in its explicit focus on offline resilience, survival engineering, and local AI knowledge bases."
+    },
+    {
+      "rank": 5,
+      "name": "krisgfx9/Wireless-Device-Battery-Monitor",
+      "score": 84,
+      "reason": "A lightweight Windows tray utility showing battery levels for major wireless mice, keyboards, headsets, and controllers without vendor bloatware.",
+      "why_interesting_today": "Developers and power users despise heavy, always-running proprietary companion apps (like Razer Synapse or Logitech G Hub) just to check a battery percentage.",
+      "why_developers_should_care": "Offers a clean, native, zero-bloat C++ alternative that unifies multi-vendor hardware monitoring into a single system tray app.",
+      "momentum": "Steady appreciation from Windows power users seeking relief from bloated device drivers.",
+      "novelty": "Solves a universal multi-vendor peripheral annoyance with a lightweight, standalone native solution."
+    }
+  ]
+}

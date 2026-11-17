@@ -2,53 +2,53 @@
   "top_repositories": [
     {
       "rank": 1,
-      "name": "anthropics/skills",
+      "name": "erkamyaman/rust-anything",
       "score": 96,
-      "reason": "Outstanding star growth (680 new stars) in the AI agent domain, showcasing practical building blocks for autonomous workflows.",
-      "why_interesting_today": "AI agent architectures are rapidly evolving towards modular, standardized skill sets, making this repository an essential reference for engineers building advanced agents.",
-      "why_developers_should_care": "Provides structured, production-grade patterns for defining and executing agent skills that can be readily integrated into modern AI applications.",
-      "momentum": "Extremely high daily star and fork momentum reflecting strong industry interest in LLM agent orchestration.",
-      "novelty": "High; directly addresses the standardization gap for AI agent capabilities and tool-use patterns."
+      "reason": "Provides a systematic, behavior-checked framework to rewrite applications piece-by-piece from various languages into Rust.",
+      "why_interesting_today": "Bridges the gap between legacy/heterogeneous codebases (TypeScript, Python, Go, Java, etc.) and Rust's performance and safety demands via automated, behavior-verified migration paths.",
+      "why_developers_should_care": "Rewriting an entire codebase in Rust is notoriously risky; this project offers a methodical, test-backed approach to migrate piece by piece without breaking existing behaviors.",
+      "momentum": "Strong early traction and intense developer discussion surrounding safe code migration techniques.",
+      "novelty": "High novelty in combining agent-driven workflows and FFI bindings for incremental, behavior-guarded rewrites."
     },
     {
       "rank": 2,
-      "name": "ZiChuanLan/freebie-radar",
-      "score": 90,
-      "reason": "Combines multi-source scraping with an AI secondary filter to categorize promotions and deals with high architectural practicality.",
-      "why_interesting_today": "Demonstrates an end-to-end modern automation pipeline utilizing LLMs for data curation, deduplication, and multi-channel alerting.",
-      "why_developers_should_care": "Serves as an excellent blueprint for building intelligent aggregation bots that rely on AI filtering rather than brittle regex rules.",
-      "momentum": "Strong early traction with 333 new stars and steady fork growth since its recent creation.",
-      "novelty": "Moderate-high; applying AI filtering to aggressive content curation pipelines solves a very common filtering problem."
+      "name": "sybil-solutions/inference-optimisation-skill",
+      "score": 93,
+      "reason": "An agent skill focused specifically on hill-climbing local LLM serving performance across arbitrary hardware and quantizations.",
+      "why_interesting_today": "As local LLMs and edge deployment proliferate, squeeze-optimizing TTFT, decode speed, speculative decoding, and KV caches is paramount.",
+      "why_developers_should_care": "Allows AI agents or engineers to systematically tune local inference stacks for maximum throughput and minimal latency without manual guesswork.",
+      "momentum": "Rapid interest among developers deploying models on local hardware and optimizing inference pipelines.",
+      "novelty": "Treating inference optimization as an iterative agent skill rather than a static configuration guide is fresh and highly practical."
     },
     {
       "rank": 3,
-      "name": "Eynnzerr/TelemetryCleaner",
-      "score": 88,
-      "reason": "An innovative utility leveraging Shizuku to perform non-root system cleanup of telemetry and privacy modules on Android devices.",
-      "why_interesting_today": "Brings granular privacy control and debloating capabilities to standard non-rooted users via modern Android APIs.",
-      "why_developers_should_care": "Highlights advanced usage of the Shizuku framework for executing system-level maintenance without requiring full root access.",
-      "momentum": "Rapid momentum with 325 star growth in a niche yet highly engaged developer and power-user demographic.",
-      "novelty": "High; leveraging Shizuku for targeted background telemetry removal bridges a critical gap for non-rooted mobile privacy."
+      "name": "haziqahmedqasmi/PeakCut",
+      "score": 89,
+      "reason": "A self-hosted, bring-your-own-AI-key solution for AI-powered clipping of long-form videos and live streams.",
+      "why_interesting_today": "Content creators and media engineers need privacy-focused, cost-effective automation to turn long streams into viral clips.",
+      "why_developers_should_care": "Provides an open-source, self-hosted alternative to expensive third-party clipping SaaS platforms, keeping data and API keys under developer control.",
+      "momentum": "Solid organic adoption driven by creators and developers looking for self-hosted video AI tools.",
+      "novelty": "Combines video processing pipelines with modern LLM/vision API key orchestration for automated highlight extraction."
     },
     {
       "rank": 4,
-      "name": "HolyArrs/HolyArrs",
-      "score": 85,
-      "reason": "A well-structured Go-based self-hosted application unifying media management workflows into a single dashboard.",
-      "why_interesting_today": "Appeals directly to the booming homelab and self-hosting community by simplifying the management of movies, shows, and music.",
-      "why_developers_should_care": "Offers clean Go architecture for developers interested in building modular Docker-based media automation tools.",
-      "momentum": "Solid organic growth with 103 star additions and active daily commits.",
-      "novelty": "Moderate; consolidates popular existing media server paradigms (Plex/Jellyfin ecosystem) into a unified interface."
+      "name": "Immortal-Protocols/lastbook",
+      "score": 86,
+      "reason": "An offline knowledge AI, maps, and video repository tailored for survival and rebuilding scenarios.",
+      "why_interesting_today": "Highlights the engineering challenge of packaging dense, critical technical knowledge and functional AI retrieval into fully offline-capable bundles.",
+      "why_developers_should_care": "Demonstrates edge-case architectures for offline-first RAG systems and resilient data storage when internet connectivity is entirely absent.",
+      "momentum": "Unique concept attracting curious developers interested in extreme resilience and offline AI architectures.",
+      "novelty": "Very high novelty in its explicit focus on offline resilience, survival engineering, and local AI knowledge bases."
     },
     {
       "rank": 5,
-      "name": "opencoredev/islandcn",
-      "score": 82,
-      "reason": "A creative UI component library bringing the 'Dynamic Island' concept to React and shadcn/ui ecosystems.",
-      "why_interesting_today": "Brings polished, mobile-inspired interactive design patterns directly into standard web applications using modern React tooling.",
-      "why_developers_should_care": "Provides frontend engineers with drop-in, highly customizable UI components that elevate web app interactivity.",
-      "momentum": "Gaining steady developer mindshare in the React and Tailwind UI component ecosystem.",
-      "novelty": "High; successfully translates mobile OS interaction paradigms into clean web component architecture."
+      "name": "krisgfx9/Wireless-Device-Battery-Monitor",
+      "score": 84,
+      "reason": "A lightweight Windows tray utility showing battery levels for major wireless mice, keyboards, headsets, and controllers without vendor bloatware.",
+      "why_interesting_today": "Developers and power users despise heavy, always-running proprietary companion apps (like Razer Synapse or Logitech G Hub) just to check a battery percentage.",
+      "why_developers_should_care": "Offers a clean, native, zero-bloat C++ alternative that unifies multi-vendor hardware monitoring into a single system tray app.",
+      "momentum": "Steady appreciation from Windows power users seeking relief from bloated device drivers.",
+      "novelty": "Solves a universal multi-vendor peripheral annoyance with a lightweight, standalone native solution."
     }
   ]
 }
