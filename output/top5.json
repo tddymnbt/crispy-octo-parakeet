@@ -2,53 +2,53 @@
   "top_repositories": [
     {
       "rank": 1,
-      "name": "erkamyaman/rust-anything",
+      "name": "firecrawl/firecrawl",
       "score": 96,
-      "reason": "Provides a systematic, behavior-checked framework to rewrite applications piece-by-piece from various languages into Rust.",
-      "why_interesting_today": "Bridges the gap between legacy/heterogeneous codebases (TypeScript, Python, Go, Java, etc.) and Rust's performance and safety demands via automated, behavior-verified migration paths.",
-      "why_developers_should_care": "Rewriting an entire codebase in Rust is notoriously risky; this project offers a methodical, test-backed approach to migrate piece by piece without breaking existing behaviors.",
-      "momentum": "Strong early traction and intense developer discussion surrounding safe code migration techniques.",
-      "novelty": "High novelty in combining agent-driven workflows and FFI bindings for incremental, behavior-guarded rewrites."
+      "reason": "Firecrawl serves as vital modern knowledge infrastructure for LLM agents, turning messy web content into clean Markdown via a unified API.",
+      "why_interesting_today": "AI agent architectures are shifting toward autonomous web interaction, making robust search-and-scrape tooling extremely relevant right now.",
+      "why_developers_should_care": "It eliminates the nightmare of writing custom scrapers and handling rate limits, proxies, and DOM parsing for LLM pipelines.",
+      "momentum": "Extremely high daily star growth (496 stars) and active enterprise adoption in the AI community.",
+      "novelty": "Bridges traditional web scraping with modern LLM-ready formats cleanly and reliably."
     },
     {
       "rank": 2,
-      "name": "sybil-solutions/inference-optimisation-skill",
-      "score": 93,
-      "reason": "An agent skill focused specifically on hill-climbing local LLM serving performance across arbitrary hardware and quantizations.",
-      "why_interesting_today": "As local LLMs and edge deployment proliferate, squeeze-optimizing TTFT, decode speed, speculative decoding, and KV caches is paramount.",
-      "why_developers_should_care": "Allows AI agents or engineers to systematically tune local inference stacks for maximum throughput and minimal latency without manual guesswork.",
-      "momentum": "Rapid interest among developers deploying models on local hardware and optimizing inference pipelines.",
-      "novelty": "Treating inference optimization as an iterative agent skill rather than a static configuration guide is fresh and highly practical."
+      "name": "mattpocock/skills",
+      "score": 92,
+      "reason": "Offers practical, battle-tested agent configurations and workflows straight from a well-known engineer's .agents directory.",
+      "why_interesting_today": "Developers are rapidly moving from basic prompt engineering to orchestrating specialized AI agent skills in daily development loops.",
+      "why_developers_should_care": "Provides concrete patterns and configurations to make coding assistants significantly more effective.",
+      "momentum": "Rapid momentum with 705 star growth as engineers look for ways to optimize their local agent setups.",
+      "novelty": "Captures the cutting edge of personal agent workflow organization."
     },
     {
       "rank": 3,
-      "name": "haziqahmedqasmi/PeakCut",
-      "score": 89,
-      "reason": "A self-hosted, bring-your-own-AI-key solution for AI-powered clipping of long-form videos and live streams.",
-      "why_interesting_today": "Content creators and media engineers need privacy-focused, cost-effective automation to turn long streams into viral clips.",
-      "why_developers_should_care": "Provides an open-source, self-hosted alternative to expensive third-party clipping SaaS platforms, keeping data and API keys under developer control.",
-      "momentum": "Solid organic adoption driven by creators and developers looking for self-hosted video AI tools.",
-      "novelty": "Combines video processing pipelines with modern LLM/vision API key orchestration for automated highlight extraction."
+      "name": "CzzzzzzJ/mdldm-maitian",
+      "score": 88,
+      "reason": "An impressive multi-platform self-media management and data monitoring tool covering platforms like Bilibili, Douyin, Xiaohongshu, and YouTube.",
+      "why_interesting_today": "Content creators and indie hackers desperately need unified analytics and cross-posting dashboards without third-party vendor lock-in.",
+      "why_developers_should_care": "Combines browser extension automation, Feishu integrations, and a clean JavaScript dashboard into a practical open-source tool.",
+      "momentum": "Strong viral growth (309 stars, 82 forks) for a freshly released utility.",
+      "novelty": "Integrates multi-network publishing control and monitoring seamlessly into an open-source stack."
     },
     {
       "rank": 4,
-      "name": "Immortal-Protocols/lastbook",
-      "score": 86,
-      "reason": "An offline knowledge AI, maps, and video repository tailored for survival and rebuilding scenarios.",
-      "why_interesting_today": "Highlights the engineering challenge of packaging dense, critical technical knowledge and functional AI retrieval into fully offline-capable bundles.",
-      "why_developers_should_care": "Demonstrates edge-case architectures for offline-first RAG systems and resilient data storage when internet connectivity is entirely absent.",
-      "momentum": "Unique concept attracting curious developers interested in extreme resilience and offline AI architectures.",
-      "novelty": "Very high novelty in its explicit focus on offline resilience, survival engineering, and local AI knowledge bases."
+      "name": "n4ze3m/tiny-voca",
+      "score": 85,
+      "reason": "A remarkably compact 4.5M-parameter text-to-speech model supporting two voices, trained completely from scratch.",
+      "why_interesting_today": "In an era of massive multi-billion parameter models, lightweight, ultra-efficient edge AI models are capturing developer imagination.",
+      "why_developers_should_care": "Enables extremely fast, on-device text-to-speech capabilities without heavy cloud dependencies.",
+      "momentum": "Steady organic interest from the audio and edge-AI developer community.",
+      "novelty": "Achieving usable TTS quality in just 4.5M parameters is an impressive engineering feat."
     },
     {
       "rank": 5,
-      "name": "krisgfx9/Wireless-Device-Battery-Monitor",
-      "score": 84,
-      "reason": "A lightweight Windows tray utility showing battery levels for major wireless mice, keyboards, headsets, and controllers without vendor bloatware.",
-      "why_interesting_today": "Developers and power users despise heavy, always-running proprietary companion apps (like Razer Synapse or Logitech G Hub) just to check a battery percentage.",
-      "why_developers_should_care": "Offers a clean, native, zero-bloat C++ alternative that unifies multi-vendor hardware monitoring into a single system tray app.",
-      "momentum": "Steady appreciation from Windows power users seeking relief from bloated device drivers.",
-      "novelty": "Solves a universal multi-vendor peripheral annoyance with a lightweight, standalone native solution."
+      "name": "joshpuckett/allo",
+      "score": 82,
+      "reason": "Allo is a clean, free, and open-source typeface designed by a developer-designer perspective.",
+      "why_interesting_today": "Open-source typography projects frequently catch fire when they offer unique geometric aesthetics and clean build pipelines.",
+      "why_developers_should_care": "Great open-source typefaces are essential assets for developer portfolios, documentation sites, and modern desktop apps.",
+      "momentum": "Solid initial traction with 177 stars and enthusiastic early feedback.",
+      "novelty": "Brings a fresh open-source font option to developers tired of default system fonts."
     }
   ]
 }

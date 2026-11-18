@@ -1,0 +1,54 @@
+{
+  "top_repositories": [
+    {
+      "rank": 1,
+      "name": "firecrawl/firecrawl",
+      "score": 96,
+      "reason": "Firecrawl serves as vital modern knowledge infrastructure for LLM agents, turning messy web content into clean Markdown via a unified API.",
+      "why_interesting_today": "AI agent architectures are shifting toward autonomous web interaction, making robust search-and-scrape tooling extremely relevant right now.",
+      "why_developers_should_care": "It eliminates the nightmare of writing custom scrapers and handling rate limits, proxies, and DOM parsing for LLM pipelines.",
+      "momentum": "Extremely high daily star growth (496 stars) and active enterprise adoption in the AI community.",
+      "novelty": "Bridges traditional web scraping with modern LLM-ready formats cleanly and reliably."
+    },
+    {
+      "rank": 2,
+      "name": "mattpocock/skills",
+      "score": 92,
+      "reason": "Offers practical, battle-tested agent configurations and workflows straight from a well-known engineer's .agents directory.",
+      "why_interesting_today": "Developers are rapidly moving from basic prompt engineering to orchestrating specialized AI agent skills in daily development loops.",
+      "why_developers_should_care": "Provides concrete patterns and configurations to make coding assistants significantly more effective.",
+      "momentum": "Rapid momentum with 705 star growth as engineers look for ways to optimize their local agent setups.",
+      "novelty": "Captures the cutting edge of personal agent workflow organization."
+    },
+    {
+      "rank": 3,
+      "name": "CzzzzzzJ/mdldm-maitian",
+      "score": 88,
+      "reason": "An impressive multi-platform self-media management and data monitoring tool covering platforms like Bilibili, Douyin, Xiaohongshu, and YouTube.",
+      "why_interesting_today": "Content creators and indie hackers desperately need unified analytics and cross-posting dashboards without third-party vendor lock-in.",
+      "why_developers_should_care": "Combines browser extension automation, Feishu integrations, and a clean JavaScript dashboard into a practical open-source tool.",
+      "momentum": "Strong viral growth (309 stars, 82 forks) for a freshly released utility.",
+      "novelty": "Integrates multi-network publishing control and monitoring seamlessly into an open-source stack."
+    },
+    {
+      "rank": 4,
+      "name": "n4ze3m/tiny-voca",
+      "score": 85,
+      "reason": "A remarkably compact 4.5M-parameter text-to-speech model supporting two voices, trained completely from scratch.",
+      "why_interesting_today": "In an era of massive multi-billion parameter models, lightweight, ultra-efficient edge AI models are capturing developer imagination.",
+      "why_developers_should_care": "Enables extremely fast, on-device text-to-speech capabilities without heavy cloud dependencies.",
+      "momentum": "Steady organic interest from the audio and edge-AI developer community.",
+      "novelty": "Achieving usable TTS quality in just 4.5M parameters is an impressive engineering feat."
+    },
+    {
+      "rank": 5,
+      "name": "joshpuckett/allo",
+      "score": 82,
+      "reason": "Allo is a clean, free, and open-source typeface designed by a developer-designer perspective.",
+      "why_interesting_today": "Open-source typography projects frequently catch fire when they offer unique geometric aesthetics and clean build pipelines.",
+      "why_developers_should_care": "Great open-source typefaces are essential assets for developer portfolios, documentation sites, and modern desktop apps.",
+      "momentum": "Solid initial traction with 177 stars and enthusiastic early feedback.",
+      "novelty": "Brings a fresh open-source font option to developers tired of default system fonts."
+    }
+  ]
+}

@@ -1,0 +1,407 @@
+{
+  "snapshot_date": "2026-11-18",
+  "generated_at": "2026-11-18T23:01:09.362625+00:00",
+  "candidate_count": 40,
+  "repositories": [
+    {
+      "name": "codecrafters-io/build-your-own-x",
+      "url": "https://github.com/codecrafters-io/build-your-own-x",
+      "stars": 563704,
+      "forks": 52725,
+      "language": "Markdown",
+      "created_at": "2018-05-09T12:03:18Z",
+      "updated_at": "2026-11-18T22:56:17Z",
+      "pushed_at": "2026-11-18T05:13:02Z"
+    },
+    {
+      "name": "public-apis/public-apis",
+      "url": "https://github.com/public-apis/public-apis",
+      "stars": 500068,
+      "forks": 56103,
+      "language": "Python",
+      "created_at": "2016-03-20T23:49:42Z",
+      "updated_at": "2026-11-18T23:00:39Z",
+      "pushed_at": "2026-11-18T19:27:01Z"
+    },
+    {
+      "name": "morluto/rea",
+      "url": "https://github.com/morluto/rea",
+      "stars": 468199,
+      "forks": 114449,
+      "language": "TypeScript",
+      "created_at": "2026-04-14T00:51:32Z",
+      "updated_at": "2026-11-18T22:57:54Z",
+      "pushed_at": "2026-11-18T22:57:00Z"
+    },
+    {
+      "name": "freeCodeCamp/freeCodeCamp",
+      "url": "https://github.com/freeCodeCamp/freeCodeCamp",
+      "stars": 459301,
+      "forks": 47480,
+      "language": "TypeScript",
+      "created_at": "2014-12-24T17:49:19Z",
+      "updated_at": "2026-11-18T22:36:29Z",
+      "pushed_at": "2026-11-18T22:50:35Z"
+    },
+    {
+      "name": "openclaw/openclaw",
+      "url": "https://github.com/openclaw/openclaw",
+      "stars": 394757,
+      "forks": 82933,
+      "language": "TypeScript",
+      "created_at": "2025-11-24T10:16:47Z",
+      "updated_at": "2026-11-18T22:44:54Z",
+      "pushed_at": "2026-11-18T22:59:59Z"
+    },
+    {
+      "name": "nilbuild/developer-roadmap",
+      "url": "https://github.com/nilbuild/developer-roadmap",
+      "stars": 372317,
+      "forks": 46511,
+      "language": "TypeScript",
+      "created_at": "2017-03-15T13:45:52Z",
+      "updated_at": "2026-11-18T22:53:39Z",
+      "pushed_at": "2026-11-18T13:44:50Z"
+    },
+    {
+      "name": "awesome-selfhosted/awesome-selfhosted",
+      "url": "https://github.com/awesome-selfhosted/awesome-selfhosted",
+      "stars": 338379,
+      "forks": 15889,
+      "language": null,
+      "created_at": "2015-06-01T02:33:17Z",
+      "updated_at": "2026-11-18T22:59:09Z",
+      "pushed_at": "2026-11-17T17:21:32Z"
+    },
+    {
+      "name": "vinta/awesome-python",
+      "url": "https://github.com/vinta/awesome-python",
+      "stars": 335692,
+      "forks": 29127,
+      "language": "Python",
+      "created_at": "2014-06-27T21:00:06Z",
+      "updated_at": "2026-11-18T22:59:10Z",
+      "pushed_at": "2026-11-17T10:02:01Z"
+    },
+    {
+      "name": "mattpocock/skills",
+      "url": "https://github.com/mattpocock/skills",
+      "stars": 327426,
+      "forks": 27494,
+      "language": "Shell",
+      "created_at": "2026-02-03T11:15:53Z",
+      "updated_at": "2026-11-18T22:46:51Z",
+      "pushed_at": "2026-11-18T09:51:01Z"
+    },
+    {
+      "name": "affaan-m/ECC",
+      "url": "https://github.com/affaan-m/ECC",
+      "stars": 306451,
+      "forks": 45115,
+      "language": "JavaScript",
+      "created_at": "2026-01-18T00:51:51Z",
+      "updated_at": "2026-11-18T23:00:47Z",
+      "pushed_at": "2026-11-17T06:41:46Z"
+    },
+    {
+      "name": "practical-tutorials/project-based-learning",
+      "url": "https://github.com/practical-tutorials/project-based-learning",
+      "stars": 289988,
+      "forks": 36849,
+      "language": "Python",
+      "created_at": "2017-04-12T05:07:46Z",
+      "updated_at": "2026-11-18T22:50:52Z",
+      "pushed_at": "2026-11-16T06:44:31Z"
+    },
+    {
+      "name": "deepseek-ai/deepseek-harness",
+      "url": "https://github.com/deepseek-ai/deepseek-harness",
+      "stars": 283600,
+      "forks": 35186,
+      "language": "TypeScript",
+      "created_at": "2026-08-13T11:56:32Z",
+      "updated_at": "2026-11-18T22:55:19Z",
+      "pushed_at": "2026-11-18T12:48:10Z"
+    },
+    {
+      "name": "NousResearch/hermes-agent",
+      "url": "https://github.com/NousResearch/hermes-agent",
+      "stars": 264486,
+      "forks": 59703,
+      "language": "Python",
+      "created_at": "2025-07-22T22:22:28Z",
+      "updated_at": "2026-11-18T22:58:06Z",
+      "pushed_at": "2026-11-18T22:59:32Z"
+    },
+    {
+      "name": "torvalds/linux",
+      "url": "https://github.com/torvalds/linux",
+      "stars": 256121,
+      "forks": 67533,
+      "language": "C",
+      "created_at": "2011-09-04T22:48:12Z",
+      "updated_at": "2026-11-18T22:59:58Z",
+      "pushed_at": "2026-11-18T17:55:14Z"
+    },
+    {
+      "name": "react/react",
+      "url": "https://github.com/react/react",
+      "stars": 252737,
+      "forks": 52811,
+      "language": "JavaScript",
+      "created_at": "2013-05-24T16:15:54Z",
+      "updated_at": "2026-11-18T22:50:12Z",
+      "pushed_at": "2026-11-18T19:11:19Z"
+    },
+    {
+      "name": "anomalyco/opencode",
+      "url": "https://github.com/anomalyco/opencode",
+      "stars": 227825,
+      "forks": 30912,
+      "language": "TypeScript",
+      "created_at": "2025-04-30T20:08:00Z",
+      "updated_at": "2026-11-18T22:59:09Z",
+      "pushed_at": "2026-11-18T22:53:36Z"
+    },
+    {
+      "name": "n8n-io/n8n",
+      "url": "https://github.com/n8n-io/n8n",
+      "stars": 211040,
+      "forks": 61568,
+      "language": "TypeScript",
+      "created_at": "2019-06-22T09:24:21Z",
+      "updated_at": "2026-11-18T22:49:28Z",
+      "pushed_at": "2026-11-18T22:59:55Z"
+    },
+    {
+      "name": "yt-dlp/yt-dlp",
+      "url": "https://github.com/yt-dlp/yt-dlp",
+      "stars": 208937,
+      "forks": 18433,
+      "language": "Python",
+      "created_at": "2020-10-26T04:22:55Z",
+      "updated_at": "2026-11-18T22:49:27Z",
+      "pushed_at": "2026-11-17T16:08:48Z"
+    },
+    {
+      "name": "firecrawl/firecrawl",
+      "url": "https://github.com/firecrawl/firecrawl",
+      "stars": 203122,
+      "forks": 10638,
+      "language": "TypeScript",
+      "created_at": "2024-04-15T21:02:29Z",
+      "updated_at": "2026-11-18T23:00:22Z",
+      "pushed_at": "2026-11-18T22:39:06Z"
+    },
+    {
+      "name": "tensorflow/tensorflow",
+      "url": "https://github.com/tensorflow/tensorflow",
+      "stars": 201604,
+      "forks": 77960,
+      "language": "C++",
+      "created_at": "2015-11-07T01:19:20Z",
+      "updated_at": "2026-11-18T21:48:38Z",
+      "pushed_at": "2026-11-18T23:00:59Z"
+    },
+    {
+      "name": "deepseek-ai/chat-demo",
+      "url": "https://github.com/deepseek-ai/chat-demo",
+      "stars": 4814,
+      "forks": 1074,
+      "language": "TypeScript",
+      "created_at": "2026-11-12T08:08:19Z",
+      "updated_at": "2026-11-18T22:50:57Z",
+      "pushed_at": "2026-11-18T13:40:01Z"
+    },
+    {
+      "name": "krisgfx9/Wireless-Device-Battery-Monitor",
+      "url": "https://github.com/krisgfx9/Wireless-Device-Battery-Monitor",
+      "stars": 3909,
+      "forks": 341,
+      "language": "C++",
+      "created_at": "2026-11-16T19:28:29Z",
+      "updated_at": "2026-11-18T23:00:40Z",
+      "pushed_at": "2026-11-18T20:58:28Z"
+    },
+    {
+      "name": "erkamyaman/rust-anything",
+      "url": "https://github.com/erkamyaman/rust-anything",
+      "stars": 3284,
+      "forks": 257,
+      "language": "Rust",
+      "created_at": "2026-11-16T12:10:36Z",
+      "updated_at": "2026-11-18T23:01:08Z",
+      "pushed_at": "2026-11-18T21:09:57Z"
+    },
+    {
+      "name": "apex-compute/ANR",
+      "url": "https://github.com/apex-compute/ANR",
+      "stars": 2655,
+      "forks": 57,
+      "language": "C++",
+      "created_at": "2026-11-11T04:27:17Z",
+      "updated_at": "2026-11-18T22:25:37Z",
+      "pushed_at": "2026-11-17T00:20:54Z"
+    },
+    {
+      "name": "Noniv/abyssal-garden",
+      "url": "https://github.com/Noniv/abyssal-garden",
+      "stars": 2388,
+      "forks": 361,
+      "language": "JavaScript",
+      "created_at": "2026-11-12T13:57:34Z",
+      "updated_at": "2026-11-18T23:01:06Z",
+      "pushed_at": "2026-11-14T17:41:33Z"
+    },
+    {
+      "name": "Immortal-Protocols/lastbook",
+      "url": "https://github.com/Immortal-Protocols/lastbook",
+      "stars": 2150,
+      "forks": 279,
+      "language": "Python",
+      "created_at": "2026-11-12T23:49:03Z",
+      "updated_at": "2026-11-18T23:00:00Z",
+      "pushed_at": "2026-11-18T23:00:42Z"
+    },
+    {
+      "name": "Eynnzerr/TelemetryCleaner",
+      "url": "https://github.com/Eynnzerr/TelemetryCleaner",
+      "stars": 1654,
+      "forks": 136,
+      "language": "Kotlin",
+      "created_at": "2026-11-11T06:25:10Z",
+      "updated_at": "2026-11-18T22:15:18Z",
+      "pushed_at": "2026-11-17T08:45:38Z"
+    },
+    {
+      "name": "duwqijlk/muse-protocol",
+      "url": "https://github.com/duwqijlk/muse-protocol",
+      "stars": 1627,
+      "forks": 641,
+      "language": "Python",
+      "created_at": "2026-11-14T01:24:58Z",
+      "updated_at": "2026-11-18T22:18:07Z",
+      "pushed_at": "2026-11-15T02:55:33Z"
+    },
+    {
+      "name": "ZiChuanLan/freebie-radar",
+      "url": "https://github.com/ZiChuanLan/freebie-radar",
+      "stars": 1613,
+      "forks": 268,
+      "language": "TypeScript",
+      "created_at": "2026-11-12T09:08:11Z",
+      "updated_at": "2026-11-18T22:32:59Z",
+      "pushed_at": "2026-11-18T05:21:25Z"
+    },
+    {
+      "name": "CzzzzzzJ/mdldm-maitian",
+      "url": "https://github.com/CzzzzzzJ/mdldm-maitian",
+      "stars": 1301,
+      "forks": 411,
+      "language": "JavaScript",
+      "created_at": "2026-11-14T03:59:22Z",
+      "updated_at": "2026-11-18T22:57:45Z",
+      "pushed_at": "2026-11-18T02:49:13Z"
+    },
+    {
+      "name": "Hut-hzf/ung220z-tool",
+      "url": "https://github.com/Hut-hzf/ung220z-tool",
+      "stars": 1136,
+      "forks": 273,
+      "language": "Python",
+      "created_at": "2026-11-15T11:16:46Z",
+      "updated_at": "2026-11-18T22:59:58Z",
+      "pushed_at": "2026-11-15T11:17:27Z"
+    },
+    {
+      "name": "sybil-solutions/inference-optimisation-skill",
+      "url": "https://github.com/sybil-solutions/inference-optimisation-skill",
+      "stars": 1095,
+      "forks": 98,
+      "language": "Python",
+      "created_at": "2026-11-16T18:40:04Z",
+      "updated_at": "2026-11-18T22:59:19Z",
+      "pushed_at": "2026-11-16T18:40:08Z"
+    },
+    {
+      "name": "haziqahmedqasmi/PeakCut",
+      "url": "https://github.com/haziqahmedqasmi/PeakCut",
+      "stars": 1077,
+      "forks": 365,
+      "language": "Python",
+      "created_at": "2026-11-14T07:38:20Z",
+      "updated_at": "2026-11-18T22:57:25Z",
+      "pushed_at": "2026-11-17T13:20:20Z"
+    },
+    {
+      "name": "joshpuckett/allo",
+      "url": "https://github.com/joshpuckett/allo",
+      "stars": 1040,
+      "forks": 27,
+      "language": "Python",
+      "created_at": "2026-11-15T17:33:42Z",
+      "updated_at": "2026-11-18T22:55:59Z",
+      "pushed_at": "2026-11-18T07:19:43Z"
+    },
+    {
+      "name": "zephyr4123/snug",
+      "url": "https://github.com/zephyr4123/snug",
+      "stars": 903,
+      "forks": 63,
+      "language": "Swift",
+      "created_at": "2026-11-13T03:26:21Z",
+      "updated_at": "2026-11-18T22:45:58Z",
+      "pushed_at": "2026-11-18T16:52:45Z"
+    },
+    {
+      "name": "chuanqisun/spaceship",
+      "url": "https://github.com/chuanqisun/spaceship",
+      "stars": 861,
+      "forks": 84,
+      "language": "HTML",
+      "created_at": "2026-11-16T14:43:45Z",
+      "updated_at": "2026-11-18T22:27:25Z",
+      "pushed_at": "2026-11-16T19:53:46Z"
+    },
+    {
+      "name": "huggingface/pybot",
+      "url": "https://github.com/huggingface/pybot",
+      "stars": 831,
+      "forks": 80,
+      "language": "Python",
+      "created_at": "2026-11-12T11:35:13Z",
+      "updated_at": "2026-11-18T22:56:27Z",
+      "pushed_at": "2026-11-16T11:07:29Z"
+    },
+    {
+      "name": "opencoredev/islandcn",
+      "url": "https://github.com/opencoredev/islandcn",
+      "stars": 809,
+      "forks": 65,
+      "language": "TypeScript",
+      "created_at": "2026-11-13T11:50:50Z",
+      "updated_at": "2026-11-18T21:51:26Z",
+      "pushed_at": "2026-11-18T21:15:36Z"
+    },
+    {
+      "name": "AIRzZ90/study-materials-fork",
+      "url": "https://github.com/AIRzZ90/study-materials-fork",
+      "stars": 751,
+      "forks": 1233,
+      "language": "TypeScript",
+      "created_at": "2026-11-12T10:52:32Z",
+      "updated_at": "2026-11-18T21:48:08Z",
+      "pushed_at": "2026-11-12T11:06:34Z"
+    },
+    {
+      "name": "n4ze3m/tiny-voca",
+      "url": "https://github.com/n4ze3m/tiny-voca",
+      "stars": 743,
+      "forks": 95,
+      "language": "Python",
+      "created_at": "2026-11-14T16:02:56Z",
+      "updated_at": "2026-11-18T22:03:19Z",
+      "pushed_at": "2026-11-18T15:36:23Z"
+    }
+  ]
+}
