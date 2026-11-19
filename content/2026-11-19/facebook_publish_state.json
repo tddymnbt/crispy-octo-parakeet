@@ -26,8 +26,8 @@
       "caption": "Tired of manual cross-posting and scattered analytics? \n\nManaging content across six or seven platforms simultaneously is a massive time sink for solo founders, indie hackers, and developer-content creators. \n\nMeet Maitian (https://github.com/CzzzzzzJ/mdldm-maitian), an open-source, self-hosted media management cockpit that automates your publishing workflow across Bilibili, Douyin, Xiaohongshu, YouTube, and more without risking your account credentials.\n\nHere is why you need it in your stack:\n\n🚀 Hybrid Publishing Architecture: Uses a Chrome extension adapter via Chrome DevTools Protocol to auto-fill form data while leaving the final submit click safely to you, avoiding platform risk flags.\n📊 Unified Analytics & Cohorts: Aggregates daily views, interactions, and follower counts, complete with automated 1st, 3rd, and 7th-day performance comparisons and weekly summaries.\n🔒 Zero-Password Security: Leverages your existing logged-in browser session with local Node.js and SQLite persistence—no third-party SaaS vendor lock-in.\n💬 Real-Time Feishu Integration: Pushes operational updates and metrics directly to your team chat or internal tools.\n\nFor developers, Maitian provides a clean blueprint for building local automation tools that bridge browser automation, local SQLite databases, and external webhooks. \n\nCheck out the repo, star the project, and take control of your distribution pipeline today:\nhttps://github.com/CzzzzzzJ/mdldm-maitian\n\n#OpenSource #IndieHacker #DeveloperTools #ContentAutomation #SelfHosted #AI #TechStack",
       "image_file": "3_CzzzzzzJ_mdldm-maitian.png",
       "photo_id": "122132004981476221",
-      "published_post_id": null,
-      "published_at": null
+      "published_post_id": "1410193715501138_122132072091476221",
+      "published_at": "2026-11-19T15:00:47.623335+08:00"
     },
     {
       "rank": 4,
