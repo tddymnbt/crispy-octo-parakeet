@@ -3,136 +3,136 @@
   "repositories": [
     {
       "rank": 1,
-      "name": "firecrawl/firecrawl",
+      "name": "deepseek-ai/deepseek-harness",
       "score": 96,
-      "reason": "Firecrawl serves as vital modern knowledge infrastructure for LLM agents, turning messy web content into clean Markdown via a unified API.",
-      "why_interesting_today": "AI agent architectures are shifting toward autonomous web interaction, making robust search-and-scrape tooling extremely relevant right now.",
-      "why_developers_should_care": "It eliminates the nightmare of writing custom scrapers and handling rate limits, proxies, and DOM parsing for LLM pipelines.",
-      "momentum": "Extremely high daily star growth (496 stars) and active enterprise adoption in the AI community.",
-      "novelty": "Bridges traditional web scraping with modern LLM-ready formats cleanly and reliably.",
+      "reason": "An innovative plugin-based harness and AI agent framework from DeepSeek that leverages a modular architecture (\"Everything is a Plugin\").",
+      "why_interesting_today": "AI agent architectures are rapidly moving away from monoliths toward highly modular, extensible plugin systems, making this release extremely timely for developers building agentic workflows.",
+      "why_developers_should_care": "It offers a standardized way to construct and manage complex AI agent behaviors using clean plugin abstractions, reducing boilerplate and improving maintainability.",
+      "momentum": "Exceptionally high star and fork growth relative to its recent creation date, signaling massive community adoption.",
+      "novelty": "Brings a plugin-first paradigm (\"Everything is a Plugin\") directly to AI harness engineering.",
       "deep_analysis": {
-        "name": "firecrawl/firecrawl",
-        "headline_hook": "Firecrawl transforms messy web content and complex JavaScript sites into clean Markdown and structured JSON, serving as essential modern knowledge infrastructure for autonomous AI agents.",
-        "core_functionality": "Firecrawl solves the friction of web scraping for AI systems by handling dynamic JavaScript rendering, rotating proxies, rate limits, and structural parsing. It exposes a unified API, CLI, and MCP server to search, scrape, crawl, map, and interact with the live web, instantly converting pages into LLM-ready formats.",
+        "name": "deepseek-ai/deepseek-harness",
+        "headline_hook": "DeepSeek Harness reimagines AI agent infrastructure with an innovative everything-is-a-plugin architecture powered by Cordis for ultimate modularity.",
+        "core_functionality": "DeepSeek Harness provides an open-source agent harness and development framework that solves the rigidity of monolithic AI agent architectures by enforcing a modular, plugin-first design philosophy.",
         "key_features": [
-          "LLM-Ready Output: Converts any URL, PDF, or DOCX directly into clean Markdown or structured JSON to minimize token usage.",
-          "Interactive Web Actions: Allows agents to scrape a page and subsequently execute browser commands like clicking, scrolling, and prompt-driven interactions.",
-          "Firecrawl Alexandria: Integrates over 550 specialized data providers—such as company databases and research papers—directly into agent workflows via a single API or MCP client.",
-          "Comprehensive Discovery & Crawling: Features deep crawling, bulk batch scraping, website mapping, and content monitoring out of the box."
+          "Everything-is-a-plugin architecture ensuring high modularity and extensibility for agentic workflows",
+          "Powered by Cordis, implementing a programming paradigm for spatiotemporal composability",
+          "Built-in Web UI accessible via simple npm execution or source checkout for local interaction",
+          "Comprehensive developer tooling supporting custom plugin creation with discoverability via GitHub topics"
         ],
-        "target_audience": "AI engineers, LLM app developers, and automation architects building autonomous agents that require real-time web access.",
-        "practical_developer_value": "Developers save weeks of engineering overhead typically wasted on maintaining headless browser clusters, bypassing anti-bot protections, and parsing dirty HTML. By integrating Firecrawl via its SDKs, CLI, or Model Context Protocol (MCP), developers can instantly equip agents with reliable web browsing and data retrieval capabilities.",
+        "target_audience": "AI engineers, backend developers, and systems architects building extensible agentic applications and autonomous workflows.",
+        "practical_developer_value": "Developers can easily extend, swap, or scale agent capabilities without rewriting monolithic codebases, allowing for rapid experimentation and production deployment of modular AI systems.",
         "suggested_use_cases": [
-          "Building an autonomous research agent that searches the web, navigates multiple source links, and extracts structured insights from dynamic websites.",
-          "Feeding clean Markdown documentation into an RAG pipeline or LLM context window without writing custom scraping scripts."
+          "Building custom modular AI agent workflows with hot-swappable tools and capabilities",
+          "Developing and publishing open-source extensions using the dsh-plugin ecosystem"
         ]
       }
     },
     {
       "rank": 2,
-      "name": "mattpocock/skills",
-      "score": 92,
-      "reason": "Offers practical, battle-tested agent configurations and workflows straight from a well-known engineer's .agents directory.",
-      "why_interesting_today": "Developers are rapidly moving from basic prompt engineering to orchestrating specialized AI agent skills in daily development loops.",
-      "why_developers_should_care": "Provides concrete patterns and configurations to make coding assistants significantly more effective.",
-      "momentum": "Rapid momentum with 705 star growth as engineers look for ways to optimize their local agent setups.",
-      "novelty": "Captures the cutting edge of personal agent workflow organization.",
+      "name": "zephyr4123/snug",
+      "score": 90,
+      "reason": "A specialized Swift/SwiftUI app designed to enhance remote display and touch capabilities, making remote macOS feel native on phones, tablets, and alternate screens.",
+      "why_interesting_today": "As cross-device productivity workflows and remote desktop usage expand, bridging the gap between desktop operating systems and mobile touch interfaces is a major UX challenge.",
+      "why_developers_should_care": "It demonstrates advanced SwiftUI implementation, virtual display handling, and touch gesture mapping for complex multi-monitor and remote-control scenarios.",
+      "momentum": "Strong early traction with rapid star and fork growth for a specialized desktop utility.",
+      "novelty": "Brings native touch gestures and device-specific layouts to remote desktop streaming.",
       "deep_analysis": {
-        "name": "mattpocock/skills",
-        "headline_hook": "Matt Pocock's battle-tested agent skills fix AI alignment, verbosity, and software entropy by anchoring modern coding workflows in decades of software engineering fundamentals.",
-        "core_functionality": "The project provides a modular, composable collection of AI agent configurations and workflows designed to run inside popular tools like Claude Code, Codex, and GitHub Copilot. It solves the common failure modes of AI-assisted software development—such as requirement misalignment, agent verbosity, lack of automated test loops, and accelerating software entropy—by enforcing rigorous engineering practices through interactive prompts and structured skills.",
+        "name": "zephyr4123/snug",
+        "headline_hook": "Snug bridges the UX gap between desktop macOS and mobile touch interfaces by dynamically generating device-tailored virtual displays for remote desktop sessions.",
+        "core_functionality": "Snug is a native macOS utility designed to enhance remote display and touch capabilities specifically for the UU Remote desktop app. It solves the common frustration of remote desktop usage on mobile devices—where desktop layouts are awkwardly scaled down with black bars and tiny text—by creating custom, aspect-ratio-matched virtual screens for phones, tablets, and alternate monitors, while mapping touch gestures to native macOS behaviors.",
         "key_features": [
-          "Grilling and Alignment Sessions: Interactive skills like /grill-me and /grill-with-docs force agents to interview the developer before writing code, preventing misunderstandings and establishing a shared domain language.",
-          "Shared Domain Glossary and ADRs: Bridges the communication gap between human and machine by creating concise project-specific dictionaries that reduce token waste and ensure consistent naming across files and functions.",
-          "Disciplined Red-Green-Refactor TDD Loops: Integrates automated test guidance through the /tdd skill to give agents immediate feedback and prevent broken code generation.",
-          "Codebase Architecture Surveys: The /improve-codebase-architecture skill periodically assesses the project for deep module opportunities to combat technical debt and software entropy."
+          "Dynamic Multi-Screen Virtual Architecture: Automatically provisions and manages dedicated virtual displays per connected device (iPhone, iPad, alternate PCs) with precise HiDPI scaling and zero black bars.",
+          "Native Touch Gesture Translation: Maps single-finger touch, long-press context menus, and scrolling inertia specifically for mobile and tablet touchscreens without disrupting host mouse or trackpad behavior.",
+          "Integrated App Library & Window Management: Provides a mobile-optimized launcher interface to search, open, switch, resize, and close any macOS window or background application directly from a mobile device.",
+          "Seamless Font and UI Scaling: Automatically adjusts typography and element density for developer tools and text editors (like VS Code, Cursor, Zed, and Ghostty) to ensure readability on small screens."
         ],
-        "target_audience": "Full-stack software engineers, tech leads, and developers who actively use AI coding assistants in production and want structured, controllable, and model-agnostic agent workflows rather than chaotic vibe coding.",
-        "practical_developer_value": "Developers can move past basic prompt engineering by dropping these editable, composable skills directly into their projects via simple installer commands. It gives them explicit control over how their AI agents gather requirements, write tests, diagnose bugs, and maintain architectural cleanliness, resulting in higher-quality production code and vastly reduced debugging time.",
+        "target_audience": "Software developers, DevOps engineers, and power users who frequently manage macOS workstations, local terminal environments, and AI coding assistants (such as Claude Code) remotely from mobile devices or secondary tablets.",
+        "practical_developer_value": "Developers can use Snug to transform an iPad or iPhone into a genuinely usable, touch-friendly terminal and code-review station when away from their primary Mac setup. By abstracting remote desktop integration into an extensible adapter layer, the codebase also serves as a compelling Swift/SwiftUI reference for managing macOS virtual displays, window server APIs, and accessibility-level event mapping.",
         "suggested_use_cases": [
-          "Bootstrapping a new repository by running the setup skill and defining a shared domain glossary with the agent before writing any feature code.",
-          "Enforcing strict Test-Driven Development workflows on complex modules by invoking the tdd skill to make the agent write a failing test first."
+          "Reviewing code, monitoring long-running compilation tasks, or interacting with terminal-based AI coding agents via an iPad or iPhone while away from the desk.",
+          "Setting up headless Mac mini or Mac Studio build servers with custom virtual display resolutions tailored precisely to remote client devices."
         ]
       }
     },
     {
       "rank": 3,
-      "name": "CzzzzzzJ/mdldm-maitian",
-      "score": 88,
-      "reason": "An impressive multi-platform self-media management and data monitoring tool covering platforms like Bilibili, Douyin, Xiaohongshu, and YouTube.",
-      "why_interesting_today": "Content creators and indie hackers desperately need unified analytics and cross-posting dashboards without third-party vendor lock-in.",
-      "why_developers_should_care": "Combines browser extension automation, Feishu integrations, and a clean JavaScript dashboard into a practical open-source tool.",
-      "momentum": "Strong viral growth (309 stars, 82 forks) for a freshly released utility.",
-      "novelty": "Integrates multi-network publishing control and monitoring seamlessly into an open-source stack.",
+      "name": "Hut-hzf/ung220z-tool",
+      "score": 86,
+      "reason": "A targeted Python utility for extracting management credentials and configurations from specific ISP optical network terminal (ONT) hardware.",
+      "why_interesting_today": "Hardware auditing, local device management, and secure home-network self-checks remain perennially fascinating areas for practical systems tinkering.",
+      "why_developers_should_care": "Provides a clean example of automated configuration parsing and hardware credential recovery workflows written in Python.",
+      "momentum": "High velocity in star growth and a high fork-to-star ratio, indicating immediate utility among systems tinkerers.",
+      "novelty": "Solves a specific, hard-to-automate local networking hardware task with a streamlined script.",
       "deep_analysis": {
-        "name": "CzzzzzzJ/mdldm-maitian",
-        "headline_hook": "Tired of manual cross-posting and scattered analytics? Maitian is an open-source, self-hosted media management cockpit that automates publishing across Bilibili, Douyin, Xiaohongshu, YouTube, and more without risking your account credentials.",
-        "core_functionality": "Maitian solves the operational fragmentation faced by solo content creators and indie hackers who publish across six or seven platforms simultaneously. It provides a unified workflow engine running locally on macOS or Windows that handles scheduled multi-platform distribution via a dedicated Chrome instance, aggregates daily traffic and follower metrics into a single dashboard, tracks conversion funnels from video to revenue, and pushes real-time updates via Feishu notifications.",
+        "name": "Hut-hzf/ung220z-tool",
+        "headline_hook": "Bypass rotating ISP credentials and regain full administrative control of your Unionman UNG220Z optical network terminal with a single Python script.",
+        "core_functionality": "The project solves the problem of frequently expiring, TR-069 managed administrator passwords on Unionman (China Mobile) UNG220Z optical network terminals by automating Telnet activation, session unlocking, local configuration database decryption, and credential extraction.",
         "key_features": [
-          "Hybrid publishing architecture using a Chrome extension adapter that fills in form data automatically while leaving the final submit click safely to the user for domestic platforms to avoid risk flags.",
-          "Built-in robust anti-duplication checks and video file validation, ensuring files are formatted with faststart (moov atom at header) and preventing accidental duplicate uploads.",
-          "Comprehensive analytics aggregation pulling daily views, interactions, and follower counts, alongside automated cohort reviews (1st, 3rd, and 7th day performance comparisons) and weekly summaries.",
-          "Zero-password storage security model leveraging your existing logged-in browser session via Chrome DevTools Protocol (CDP) and local Node.js with built-in SQLite persistence."
+          "Automated Telnet enablement via targeted CGI frame requests to bypass restricted management interfaces.",
+          "Decryption of internal device configuration databases using built-in utility commands like sidbg to access plain-text XML data.",
+          "Comprehensive credential aggregation extracting Web accounts, Telnet passwords, PPPoE settings, Wi-Fi keys, and root hashes.",
+          "Zero external dependency design requiring only Python 3 standard libraries for execution."
         ],
-        "target_audience": "Solo founders, indie hackers, developer-content creators, and technical growth marketers who manage multiple social and video channels and demand unified analytics and automation without third-party SaaS vendor lock-in.",
-        "practical_developer_value": "Developers gain a clean blueprint for building local automation tools that bridge AI agents, browser automation via CDP, and local SQLite databases. It offers practical patterns for handling platform rate-limiting, session management, and integrating external webhooks into custom developer workflows.",
+        "target_audience": "Systems engineers, network administrators, security researchers, and advanced home lab hobbyists working with ISP routing and gateway hardware.",
+        "practical_developer_value": "Developers working on IoT, embedded Linux systems, or network auditing tools can study this repository to understand real-world CGI backdoor mechanisms, TR-069 management workarounds, device configuration parsing techniques, and automation design for hardware debugging workflows.",
         "suggested_use_cases": [
-          "Automating multi-platform content distribution pipelines driven by AI-generated markdown assets and JSON publishing configurations.",
-          "Self-hosting a private creator dashboard and metrics aggregator that syncs operational data directly to internal tools or chat groups via secure tunnels."
+          "Extracting and migrating broadband PPPoE configurations and Wi-Fi settings during custom home router upgrades.",
+          "Conducting local security audits and credential recovery on owned ISP gateway hardware."
         ]
       }
     },
     {
       "rank": 4,
-      "name": "n4ze3m/tiny-voca",
-      "score": 85,
-      "reason": "A remarkably compact 4.5M-parameter text-to-speech model supporting two voices, trained completely from scratch.",
-      "why_interesting_today": "In an era of massive multi-billion parameter models, lightweight, ultra-efficient edge AI models are capturing developer imagination.",
-      "why_developers_should_care": "Enables extremely fast, on-device text-to-speech capabilities without heavy cloud dependencies.",
-      "momentum": "Steady organic interest from the audio and edge-AI developer community.",
-      "novelty": "Achieving usable TTS quality in just 4.5M parameters is an impressive engineering feat.",
+      "name": "huggingface/pybot",
+      "score": 84,
+      "reason": "An experimental chatbot written in pure Python created by a swarm of rule-based agents without neural weights or training.",
+      "why_interesting_today": "Explores the boundaries of multi-agent collaboration and rule-driven systems as an alternative to heavyweight LLM training paradigms.",
+      "why_developers_should_care": "It provides a lightweight, transparent playground for experimenting with agent swarms and emergent behavior without the massive compute overhead of deep learning.",
+      "momentum": "Steady and consistent growth from the Hugging Face ecosystem and agent developers.",
+      "novelty": "Deliberately eschews machine learning weights in favor of a pure-Python agent swarm utilizing simple rules.",
       "deep_analysis": {
-        "name": "n4ze3m/tiny-voca",
-        "headline_hook": "In an era of bloated AI models, tiny-voca proves you can build an ultra-efficient, fully open 4.5-million-parameter text-to-speech engine that runs locally in browsers and on microcontrollers for under ten dollars in training costs.",
-        "core_functionality": "tiny-voca is an ultra-lightweight English text-to-speech model with two distinct voices that converts text into natural-sounding audio entirely locally, bypassing heavy cloud APIs and massive multi-billion parameter architectures.",
+        "name": "huggingface/pybot",
+        "headline_hook": "What happens when a swarm of 1,000 agents writes 640k lines of pure Python rules to build a chatbot without neural weights or training?",
+        "core_functionality": "PyBot explores the limits of rule-based conversational agents by using a multi-agent swarm to generate massive amounts of deterministic Python code, regex patterns, and lookup tables instead of relying on heavyweight neural network weights or training.",
         "key_features": [
-          "Extremely compact footprint consisting of only 4.5 million parameters and an 18 MB size file, complete with an integrated waveform generator.",
-          "High-performance execution speed capable of achieving approximately 70 times real-time inference on just four CPU threads.",
-          "Cross-platform runtimes supporting PyTorch, ONNX Runtime, ONNX Runtime Web, Node, Bun, and even microcontrollers like the ESP32-S3.",
-          "Completely open-source training recipe, dataset, and weights trained from scratch for less than ten dollars of GPU time."
+          "Zero-weight architecture operating entirely on if-else branches, regex patterns, and lookup tables without requiring any machine learning model downloads or GPU acceleration.",
+          "Built entirely by a swarm of over 1,000 autonomous agents that wrote and evaluated more than 5,000 code versions alongside 550,000 lines of tests.",
+          "Modular system architecture featuring a dedicated understanding engine, massive structured knowledge base, memory store, and response composer coordinated by an arbiter module.",
+          "Deterministic execution with zero external package dependencies, requiring only Python 3.8+ to run locally with optional seed controls for reproducible outputs."
         ],
-        "target_audience": "AI engineers, frontend developers, embedded systems developers, and indie hackers looking for zero-latency, private, and cost-effective text-to-speech solutions without external API dependencies.",
-        "practical_developer_value": "Developers can embed real-time voice synthesis directly into web applications, desktop apps, or low-power edge hardware without incurring recurring API fees, maintaining complete offline privacy, and avoiding massive dependency trees.",
+        "target_audience": "AI researchers, software engineers exploring deterministic alternatives to LLMs, and multi-agent system developers.",
+        "practical_developer_value": "Developers can study this repository to understand how massive scale rule-based systems and automated agent swarms can be orchestrated to build complex applications, serving as a fascinating architectural contrast to traditional LLM-driven development.",
         "suggested_use_cases": [
-          "Integrating zero-latency text-to-speech directly into client-side browser applications using ONNX Runtime Web.",
-          "Deploying lightweight offline voice generation on resource-constrained edge devices and microcontrollers like the ESP32-S3."
+          "Experimenting with deterministic conversational interfaces in environments where heavy model downloads, APIs, or GPU resources are unavailable.",
+          "Studying multi-agent code generation patterns, automated testing strategies, and software evolution driven by continuous evaluation benchmarks like SmolTalkBench."
         ]
       }
     },
     {
       "rank": 5,
-      "name": "joshpuckett/allo",
+      "name": "Bodila51/gtavi-claudecode",
       "score": 82,
-      "reason": "Allo is a clean, free, and open-source typeface designed by a developer-designer perspective.",
-      "why_interesting_today": "Open-source typography projects frequently catch fire when they offer unique geometric aesthetics and clean build pipelines.",
-      "why_developers_should_care": "Great open-source typefaces are essential assets for developer portfolios, documentation sites, and modern desktop apps.",
-      "momentum": "Solid initial traction with 177 stars and enthusiastic early feedback.",
-      "novelty": "Brings a fresh open-source font option to developers tired of default system fonts.",
+      "reason": "A specialized Claude Code plugin designed to automatically process live gaming streams into monetizable vertical 9:16 clips with hooks and captions.",
+      "why_interesting_today": "Automated video clipping and content repurposing for short-form video platforms (TikTok, YouTube Shorts) are major trends in developer tooling and creator economies.",
+      "why_developers_should_care": "Showcases how AI coding assistant plugins (specifically for Claude Code) can be extended into domain-specific media processing workflows.",
+      "momentum": "Strong interest given the combination of trending gaming content and AI-powered clipping agents.",
+      "novelty": "Brings automated vertical video generation and hook extraction directly into an AI coding assistant plugin interface.",
       "deep_analysis": {
-        "name": "joshpuckett/allo",
-        "headline_hook": "Meet Allo, a meticulously crafted open-source variable typeface born from Inter, featuring custom axes for weight, optical size, and roundness.",
-        "core_functionality": "Allo is a free, open-source variable and static typeface optimized for screens, user interfaces, and digital products, combining the technical reliability of modern UI fonts with a warm, geometric aesthetic.",
+        "name": "Bodila51/gtavi-claudecode",
+        "headline_hook": "Turn Claude Code into an automated video clipping and monetization engine for live gaming streams.",
+        "core_functionality": "The project is a specialized Claude Code plugin that automates the process of finding, cutting, captioning, and validating vertical 1080x1920 video clips from live gaming streams. It integrates stream discovery, moment detection based on audio and chat spikes, automated editing via ffmpeg and faster-whisper, and campaign monetization tracking.",
         "key_features": [
-          "Three variable axes supporting dynamic tuning of Weight, Optical Size, and Roundness from sharp to friendly and round.",
-          "Extensive OpenType features including automatic arrow glyph generation, smart punctuation alignment, fractional numbers, and single-story character alternates.",
-          "Comprehensive package providing both modern WOFF2 web fonts, static OTF files, and a dedicated npm package for web development pipelines.",
-          "Fully reproducible build pipeline using Python, UFO sources, and AFDKO for automated font compilation and autohinting."
+          "Moment Detection Engine: Automatically scores moments using loudness spikes, hype words, YouTube most replayed metrics, and chat velocity.",
+          "Dual-Layout Video Cutter: Generates 1080x1920 vertical clips featuring word-by-word captions, hook overlays, audio normalization (-14 LUFS), and facecam-on-top or blurred background layouts.",
+          "Live Stream Monitoring: Records live streams and cuts clips dynamically whenever chat activity surges.",
+          "Multi-Language and Compliance Pipeline: Translates clips into 5 languages with localized captions and checks output against campaign rules prior to posting."
         ],
-        "target_audience": "Frontend developers, UI/UX designers, and open-source enthusiasts looking for a highly customizable, screen-optimized font for web apps and design systems.",
-        "practical_developer_value": "Developers can easily drop Allo into modern web applications via npm or self-hosted WOFF2 files, utilizing CSS font-variation-settings to programmatically animate or adapt typography states like roundness and weight dynamically on the fly.",
+        "target_audience": "AI engineers, developer-creators, and automation builders exploring agentic workflows and media processing pipelines.",
+        "practical_developer_value": "It serves as a practical blueprint for building AI agent plugins that orchestrate complex media pipelines combining external APIs, local CLI tools like ffmpeg and yt-dlp, and AI transcription models like faster-whisper. Developers can adapt the modular script structure to automate video content generation for other games, events, or marketing funnels.",
         "suggested_use_cases": [
-          "Building clean, friendly user interfaces and design systems for SaaS applications and developer dashboards.",
-          "Dynamic typography applications in interactive web art or data visualization dashboards where font axes respond to user state or input."
+          "Building automated content repurposing pipelines for podcasts, webinars, and developer conference talks.",
+          "Creating custom Claude Code or LLM agent skills that interact with local media processing libraries to streamline developer workflows."
         ]
       }
     }

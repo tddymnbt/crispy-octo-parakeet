@@ -1,0 +1,54 @@
+{
+  "top_repositories": [
+    {
+      "rank": 1,
+      "name": "deepseek-ai/deepseek-harness",
+      "score": 96,
+      "reason": "An innovative plugin-based harness and AI agent framework from DeepSeek that leverages a modular architecture (\"Everything is a Plugin\").",
+      "why_interesting_today": "AI agent architectures are rapidly moving away from monoliths toward highly modular, extensible plugin systems, making this release extremely timely for developers building agentic workflows.",
+      "why_developers_should_care": "It offers a standardized way to construct and manage complex AI agent behaviors using clean plugin abstractions, reducing boilerplate and improving maintainability.",
+      "momentum": "Exceptionally high star and fork growth relative to its recent creation date, signaling massive community adoption.",
+      "novelty": "Brings a plugin-first paradigm (\"Everything is a Plugin\") directly to AI harness engineering."
+    },
+    {
+      "rank": 2,
+      "name": "zephyr4123/snug",
+      "score": 90,
+      "reason": "A specialized Swift/SwiftUI app designed to enhance remote display and touch capabilities, making remote macOS feel native on phones, tablets, and alternate screens.",
+      "why_interesting_today": "As cross-device productivity workflows and remote desktop usage expand, bridging the gap between desktop operating systems and mobile touch interfaces is a major UX challenge.",
+      "why_developers_should_care": "It demonstrates advanced SwiftUI implementation, virtual display handling, and touch gesture mapping for complex multi-monitor and remote-control scenarios.",
+      "momentum": "Strong early traction with rapid star and fork growth for a specialized desktop utility.",
+      "novelty": "Brings native touch gestures and device-specific layouts to remote desktop streaming."
+    },
+    {
+      "rank": 3,
+      "name": "Hut-hzf/ung220z-tool",
+      "score": 86,
+      "reason": "A targeted Python utility for extracting management credentials and configurations from specific ISP optical network terminal (ONT) hardware.",
+      "why_interesting_today": "Hardware auditing, local device management, and secure home-network self-checks remain perennially fascinating areas for practical systems tinkering.",
+      "why_developers_should_care": "Provides a clean example of automated configuration parsing and hardware credential recovery workflows written in Python.",
+      "momentum": "High velocity in star growth and a high fork-to-star ratio, indicating immediate utility among systems tinkerers.",
+      "novelty": "Solves a specific, hard-to-automate local networking hardware task with a streamlined script."
+    },
+    {
+      "rank": 4,
+      "name": "huggingface/pybot",
+      "score": 84,
+      "reason": "An experimental chatbot written in pure Python created by a swarm of rule-based agents without neural weights or training.",
+      "why_interesting_today": "Explores the boundaries of multi-agent collaboration and rule-driven systems as an alternative to heavyweight LLM training paradigms.",
+      "why_developers_should_care": "It provides a lightweight, transparent playground for experimenting with agent swarms and emergent behavior without the massive compute overhead of deep learning.",
+      "momentum": "Steady and consistent growth from the Hugging Face ecosystem and agent developers.",
+      "novelty": "Deliberately eschews machine learning weights in favor of a pure-Python agent swarm utilizing simple rules."
+    },
+    {
+      "rank": 5,
+      "name": "Bodila51/gtavi-claudecode",
+      "score": 82,
+      "reason": "A specialized Claude Code plugin designed to automatically process live gaming streams into monetizable vertical 9:16 clips with hooks and captions.",
+      "why_interesting_today": "Automated video clipping and content repurposing for short-form video platforms (TikTok, YouTube Shorts) are major trends in developer tooling and creator economies.",
+      "why_developers_should_care": "Showcases how AI coding assistant plugins (specifically for Claude Code) can be extended into domain-specific media processing workflows.",
+      "momentum": "Strong interest given the combination of trending gaming content and AI-powered clipping agents.",
+      "novelty": "Brings automated vertical video generation and hook extraction directly into an AI coding assistant plugin interface."
+    }
+  ]
+}
