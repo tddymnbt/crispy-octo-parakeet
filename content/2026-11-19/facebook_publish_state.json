@@ -35,8 +35,8 @@
       "caption": "In an era of bloated AI models, tiny-voca proves you can build an ultra-efficient, fully open 4.5-million-parameter text-to-speech engine that runs locally in browsers and on microcontrollers for under ten dollars in training costs. 🤯\n\nAre you tired of relying on heavy cloud APIs and massive multi-billion parameter architectures just to convert text into audio? Say hello to tiny-voca. It is an ultra-lightweight English text-to-speech model featuring two distinct voices that runs entirely offline. \n\nHere is why developers and indie hackers are loving it:\n• Featherlight Footprint: Only 4.5 million parameters and an 18 MB file size, complete with an integrated waveform generator.\n• Blazing Fast: Achieves about 70x real-time inference speed on just four CPU threads. \n• Run Anywhere: Supports PyTorch, ONNX Runtime, ONNX Runtime Web, Node, Bun, and edge hardware like the ESP32-S3.\n• Fully Open: Complete training recipe, dataset, and weights trained from scratch for under $10 in GPU time.\n\nWhether you want to integrate zero-latency voice synthesis directly into client-side browser apps or deploy offline voice generation on resource-constrained microcontrollers without recurring API fees, tiny-voca has you covered. \n\nCheck out the repo, drop a star, and start building locally today! 👇\nhttps://github.com/n4ze3m/tiny-voca\n\n#ArtificialIntelligence #MachineLearning #WebDevelopment #OpenSource #EdgeAI #TextToSpeech #SoftwareEngineering",
       "image_file": "4_n4ze3m_tiny-voca.png",
       "photo_id": "122132005023476221",
-      "published_post_id": null,
-      "published_at": null
+      "published_post_id": "1410193715501138_122132104815476221",
+      "published_at": "2026-11-19T19:00:41.607171+08:00"
     },
     {
       "rank": 5,
