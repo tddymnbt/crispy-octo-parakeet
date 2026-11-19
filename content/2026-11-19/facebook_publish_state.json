@@ -17,8 +17,8 @@
       "caption": "Stop \"vibe coding\" and start engineering with AI. 🤖✨\n\nMatt Pocock's battle-tested agent skills fix AI alignment, verbosity, and software entropy by anchoring modern coding workflows in decades of software engineering fundamentals. \n\nIf you are tired of AI assistants generating broken code, hallucinating requirements, or turning your codebase into spaghetti, this is your solution. These modular, composable agent configurations run right inside tools like Claude Code, GitHub Copilot, and Codex to enforce rigorous engineering discipline.\n\n🔥 Key Features:\n\n🎯 Grilling and Alignment Sessions: Interactive skills like /grill-me force agents to thoroughly interview you before writing a single line of code, preventing costly misunderstandings.\n\n📖 Shared Domain Glossaries & ADRs: Bridge the communication gap between human and machine to reduce token waste and ensure consistent naming conventions.\n\n🧪 Disciplined TDD Loops: Integrate automated test guidance through the /tdd skill to force agents to write failing tests first and give them immediate feedback.\n\n🏛️ Architecture Surveys: Periodically assess your project for deep module opportunities to actively combat technical debt and software entropy using /improve-codebase-architecture.\n\nDrop these editable, composable skills directly into your projects to take explicit control over how your AI gathers requirements, writes tests, and maintains architectural cleanliness. Move past basic prompt engineering and build production-ready code faster.\n\n👉 Check it out on GitHub: https://github.com/mattpocock/skills\n\nDrop a comment below: What is your biggest frustration with AI coding assistants right now? Let's discuss! 👇\n\n#SoftwareEngineering #ArtificialIntelligence #AICoding #GitHub #DeveloperTools #WebDev #TypeScript #CodingLife",
       "image_file": "2_mattpocock_skills.png",
       "photo_id": "122132004939476221",
-      "published_post_id": null,
-      "published_at": null
+      "published_post_id": "1410193715501138_122132039565476221",
+      "published_at": "2026-11-19T11:00:40.621863+08:00"
     },
     {
       "rank": 3,
