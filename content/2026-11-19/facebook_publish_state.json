@@ -44,8 +44,8 @@
       "caption": "Meet Allo, a meticulously crafted open-source variable typeface born from Inter, featuring custom axes for weight, optical size, and roundness. 🎨✨\n\nAre you tired of settling for rigid, one-size-fits-all fonts that don't quite fit your modern UI or design system? Allo solves this by providing a free, open-source variable and static typeface optimized specifically for screens and digital products, successfully combining the technical reliability of modern UI fonts with a warm, geometric aesthetic. \n\nHere is why frontend developers, UI/UX designers, and tech enthusiasts are adding it to their stack:\n\n🎛️ Three variable axes supporting dynamic tuning of Weight, Optical Size, and Roundness from sharp to friendly and round.\n🔧 Extensive OpenType features including automatic arrow glyph generation, smart punctuation alignment, fractional numbers, and single-story character alternates.\n📦 Comprehensive package providing both modern WOFF2 web fonts, static OTF files, and a dedicated npm package for web development pipelines.\n⚙️ Fully reproducible build pipeline using Python, UFO sources, and AFDKO for automated font compilation and autohinting.\n\nDrop Allo straight into your modern web applications via npm or self-hosted WOFF2 files, and use CSS font-variation-settings to programmatically animate or adapt typography states like roundness and weight dynamically on the fly! Perfect for clean SaaS dashboards, developer tools, and interactive web art where fonts respond to user input in real time. 🚀\n\nCheck out the repo, drop a star, and level up your typography today:\nhttps://github.com/joshpuckett/allo\n\nHow are you handling variable fonts in your current design systems? Let us know in the comments below! 👇\n\n#OpenSource #WebDevelopment #Frontend #Typography #DesignSystems #Coding #GitHub",
       "image_file": "5_joshpuckett_allo.png",
       "photo_id": "122132005065476221",
-      "published_post_id": null,
-      "published_at": null
+      "published_post_id": "1410193715501138_122132148693476221",
+      "published_at": "2026-11-19T23:00:43.745251+08:00"
     }
   ]
 }
