@@ -26,8 +26,8 @@
       "caption": "Tired of constantly losing admin access to your ISP gateway because of rotating TR-069 credentials? \n\nBypass rotating ISP credentials and regain full administrative control of your Unionman UNG220Z optical network terminal with a single Python script. \n\nThe Unionman UNG220Z (commonly deployed by China Mobile) relies on frequently expiring, remote-managed administrator passwords that lock you out of your own hardware. This open-source tool automates Telnet activation, unlocks restricted management sessions, decrypts internal configuration databases, and extracts every credential you need.\n\nKey Features:\n- Automated Telnet enablement via targeted CGI frame requests to bypass locked management interfaces\n- Internal configuration database decryption using built-in utility commands like sidbg to access plain-text XML data\n- Comprehensive credential aggregation extracting Web accounts, Telnet passwords, PPPoE settings, Wi-Fi keys, and root hashes\n- Zero external dependency design requiring only Python 3 standard libraries for execution\n\nWhether you are migrating your broadband PPPoE configurations during a custom home router upgrade or conducting a local security audit on your gateway, this script streamlines the entire hardware debugging workflow. Systems engineers and embedded developers can also study the repo to understand real-world CGI backdoor mechanisms and device config parsing techniques.\n\nCheck it out on GitHub:\nhttps://github.com/Hut-hzf/ung220z-tool\n\nDrop a star if you found this useful, and let us know in the comments how you are managing your home lab network hardware!\n\n#Python #Networking #CyberSecurity #EmbeddedSystems #OpenSource #DevOps #HomeLab #InfoSec",
       "image_file": "3_Hut-hzf_ung220z-tool.png",
       "photo_id": "122132234247476221",
-      "published_post_id": null,
-      "published_at": null
+      "published_post_id": "1410193715501138_122132338023476221",
+      "published_at": "2026-11-20T15:00:40.959500+08:00"
     },
     {
       "rank": 4,
