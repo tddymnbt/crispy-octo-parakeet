@@ -35,8 +35,8 @@
       "caption": "What happens when a swarm of 1,000 agents writes 640k lines of pure Python rules to build a chatbot without neural weights or training?\n\nMeet PyBot by Hugging Face. While the entire industry races toward heavier LLMs and massive GPU clusters, this project explores the absolute limits of deterministic, rule-based conversational agents. \n\nInstead of relying on neural network weights, PyBot operates entirely on if-else branches, regex patterns, and massive lookup tables. It was built entirely by a swarm of over 1,000 autonomous agents that generated and evaluated more than 5,000 code versions alongside 550,000 lines of tests. \n\nKey Architectural Highlights:\n- Zero-weight architecture requiring no machine learning model downloads or GPU acceleration.\n- Modular design featuring a dedicated understanding engine, massive structured knowledge base, memory store, and response composer.\n- Completely deterministic execution with zero external package dependencies—just Python 3.8+ and optional seed controls for fully reproducible outputs.\n\nFor AI researchers and software engineers, this repository serves as a fascinating architectural contrast to traditional LLM development, offering deep insights into multi-agent code generation, automated testing strategies, and massive-scale rule orchestration.\n\nCheck it out on GitHub:\nhttps://github.com/huggingface/pybot\n\nDrop a comment below: Would you ever deploy a purely rule-based chatbot built by an agent swarm, or are you strictly team LLM? \n\n#ArtificialIntelligence #Python #MachineLearning #SoftwareEngineering #MultiAgentSystems #OpenSource",
       "image_file": "4_huggingface_pybot.png",
       "photo_id": "122132234289476221",
-      "published_post_id": null,
-      "published_at": null
+      "published_post_id": "1410193715501138_122132376573476221",
+      "published_at": "2026-11-20T19:00:48.384202+08:00"
     },
     {
       "rank": 5,
