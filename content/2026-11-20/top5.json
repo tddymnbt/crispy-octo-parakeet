@@ -1,0 +1,54 @@
+{
+  "top_repositories": [
+    {
+      "rank": 1,
+      "name": "mit-han-lab/pear",
+      "score": 94,
+      "reason": "MIT Han Lab consistently produces cutting-edge systems, and 'pear' tackles a major frontier: training reasoning models in simulation to natively control real-world robots.",
+      "why_interesting_today": "Robotics and reasoning LLMs are converging rapidly, and bridging simulation to real hardware without costly manual tuning is a massive bottleneck in physical AI.",
+      "why_developers_should_care": "Engineers and researchers working on embodied AI, reinforcement learning, and sim-to-real transfer gain a powerful open-source methodology for training agents.",
+      "momentum": "Strong organic interest despite being newly released outside the exclusion window, backed by the prestigious MIT Han Lab brand.",
+      "novelty": "High; directly targets the intersection of reasoning-focused models and physical robotic hardware control."
+    },
+    {
+      "rank": 2,
+      "name": "iamajmeena/neonclipping",
+      "score": 90,
+      "reason": "An exceptionally practical, local, and free open-source clipping engine that turns long-form links into captioned 9:16 vertical shorts using local LLMs and Whisper.",
+      "why_interesting_today": "Content creation pipelines are increasingly automated, but developers hate relying on paid, cloud-only SaaS wrappers for basic video cutting tasks.",
+      "why_developers_should_care": "Provides a completely local, hackable, and privacy-first stack utilizing FFmpeg and Whisper for automated video processing pipelines.",
+      "momentum": "Rapid developer engagement for a utility tool that solves a widespread everyday workflow problem.",
+      "novelty": "Moderate-high execution on combining existing open-source audio-first transcription with automated vertical video generation."
+    },
+    {
+      "rank": 3,
+      "name": "siliconjungle/shapeshift-labs-ink-studio",
+      "score": 88,
+      "reason": "Introduces a specialized sculpting, animation, and simulation toolkit built specifically for pixel-art Gaussian splats.",
+      "why_interesting_today": "Gaussian splatting is dominating modern 3D computer vision, but tooling for stylized, low-fi, or pixel-art aesthetics remains extremely rare.",
+      "why_developers_should_care": "Opens up creative new avenues for graphics engineers and game developers looking to blend cutting-edge neural rendering with retro aesthetics.",
+      "momentum": "Steady early momentum among graphics enthusiasts and creative technologists.",
+      "novelty": "High; merging Gaussian splats with pixel art introduces a unique stylistic and technical niche."
+    },
+    {
+      "rank": 4,
+      "name": "ybblab/Jiumi",
+      "score": 86,
+      "reason": "An open-source Android app activity and privacy monitor requiring no root access, leveraging modern tooling like Shizuku and AppOps.",
+      "why_interesting_today": "Mobile telemetry transparency is paramount as users grow increasingly concerned about background app behaviors and network calls.",
+      "why_developers_should_care": "Demonstrates advanced, non-root Android system inspection techniques using wireless debugging and Shizuku integration.",
+      "momentum": "Solid niche adoption among privacy-conscious Android power users and developers.",
+      "novelty": "Moderate; utilizes established modern Android APIs to deliver a clean, comprehensive auditing experience without root overhead."
+    },
+    {
+      "rank": 5,
+      "name": "boringmarketer/boring-marketing-skills",
+      "score": 85,
+      "reason": "Provides 32 practical marketing skills packaged specifically for AI agents (like Claude Code and local models), covering SEO, copywriting, and local business packs.",
+      "why_interesting_today": "As AI coding assistants mature, developers are expanding agent capabilities beyond software engineering into business operations and growth functions.",
+      "why_developers_should_care": "Allows solo founders and indie hackers to give their local AI agents structured expertise in marketing, positioning, and content generation.",
+      "momentum": "Strong fork-to-star ratio indicating high utility and immediate application by developer-entrepreneurs.",
+      "novelty": "High; structured prompt/skill packs specifically formatted for autonomous marketing agents."
+    }
+  ]
+}

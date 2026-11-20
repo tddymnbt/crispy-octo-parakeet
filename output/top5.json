@@ -2,53 +2,53 @@
   "top_repositories": [
     {
       "rank": 1,
-      "name": "deepseek-ai/deepseek-harness",
-      "score": 96,
-      "reason": "An innovative plugin-based harness and AI agent framework from DeepSeek that leverages a modular architecture (\"Everything is a Plugin\").",
-      "why_interesting_today": "AI agent architectures are rapidly moving away from monoliths toward highly modular, extensible plugin systems, making this release extremely timely for developers building agentic workflows.",
-      "why_developers_should_care": "It offers a standardized way to construct and manage complex AI agent behaviors using clean plugin abstractions, reducing boilerplate and improving maintainability.",
-      "momentum": "Exceptionally high star and fork growth relative to its recent creation date, signaling massive community adoption.",
-      "novelty": "Brings a plugin-first paradigm (\"Everything is a Plugin\") directly to AI harness engineering."
+      "name": "mit-han-lab/pear",
+      "score": 94,
+      "reason": "MIT Han Lab consistently produces cutting-edge systems, and 'pear' tackles a major frontier: training reasoning models in simulation to natively control real-world robots.",
+      "why_interesting_today": "Robotics and reasoning LLMs are converging rapidly, and bridging simulation to real hardware without costly manual tuning is a massive bottleneck in physical AI.",
+      "why_developers_should_care": "Engineers and researchers working on embodied AI, reinforcement learning, and sim-to-real transfer gain a powerful open-source methodology for training agents.",
+      "momentum": "Strong organic interest despite being newly released outside the exclusion window, backed by the prestigious MIT Han Lab brand.",
+      "novelty": "High; directly targets the intersection of reasoning-focused models and physical robotic hardware control."
     },
     {
       "rank": 2,
-      "name": "zephyr4123/snug",
+      "name": "iamajmeena/neonclipping",
       "score": 90,
-      "reason": "A specialized Swift/SwiftUI app designed to enhance remote display and touch capabilities, making remote macOS feel native on phones, tablets, and alternate screens.",
-      "why_interesting_today": "As cross-device productivity workflows and remote desktop usage expand, bridging the gap between desktop operating systems and mobile touch interfaces is a major UX challenge.",
-      "why_developers_should_care": "It demonstrates advanced SwiftUI implementation, virtual display handling, and touch gesture mapping for complex multi-monitor and remote-control scenarios.",
-      "momentum": "Strong early traction with rapid star and fork growth for a specialized desktop utility.",
-      "novelty": "Brings native touch gestures and device-specific layouts to remote desktop streaming."
+      "reason": "An exceptionally practical, local, and free open-source clipping engine that turns long-form links into captioned 9:16 vertical shorts using local LLMs and Whisper.",
+      "why_interesting_today": "Content creation pipelines are increasingly automated, but developers hate relying on paid, cloud-only SaaS wrappers for basic video cutting tasks.",
+      "why_developers_should_care": "Provides a completely local, hackable, and privacy-first stack utilizing FFmpeg and Whisper for automated video processing pipelines.",
+      "momentum": "Rapid developer engagement for a utility tool that solves a widespread everyday workflow problem.",
+      "novelty": "Moderate-high execution on combining existing open-source audio-first transcription with automated vertical video generation."
     },
     {
       "rank": 3,
-      "name": "Hut-hzf/ung220z-tool",
-      "score": 86,
-      "reason": "A targeted Python utility for extracting management credentials and configurations from specific ISP optical network terminal (ONT) hardware.",
-      "why_interesting_today": "Hardware auditing, local device management, and secure home-network self-checks remain perennially fascinating areas for practical systems tinkering.",
-      "why_developers_should_care": "Provides a clean example of automated configuration parsing and hardware credential recovery workflows written in Python.",
-      "momentum": "High velocity in star growth and a high fork-to-star ratio, indicating immediate utility among systems tinkerers.",
-      "novelty": "Solves a specific, hard-to-automate local networking hardware task with a streamlined script."
+      "name": "siliconjungle/shapeshift-labs-ink-studio",
+      "score": 88,
+      "reason": "Introduces a specialized sculpting, animation, and simulation toolkit built specifically for pixel-art Gaussian splats.",
+      "why_interesting_today": "Gaussian splatting is dominating modern 3D computer vision, but tooling for stylized, low-fi, or pixel-art aesthetics remains extremely rare.",
+      "why_developers_should_care": "Opens up creative new avenues for graphics engineers and game developers looking to blend cutting-edge neural rendering with retro aesthetics.",
+      "momentum": "Steady early momentum among graphics enthusiasts and creative technologists.",
+      "novelty": "High; merging Gaussian splats with pixel art introduces a unique stylistic and technical niche."
     },
     {
       "rank": 4,
-      "name": "huggingface/pybot",
-      "score": 84,
-      "reason": "An experimental chatbot written in pure Python created by a swarm of rule-based agents without neural weights or training.",
-      "why_interesting_today": "Explores the boundaries of multi-agent collaboration and rule-driven systems as an alternative to heavyweight LLM training paradigms.",
-      "why_developers_should_care": "It provides a lightweight, transparent playground for experimenting with agent swarms and emergent behavior without the massive compute overhead of deep learning.",
-      "momentum": "Steady and consistent growth from the Hugging Face ecosystem and agent developers.",
-      "novelty": "Deliberately eschews machine learning weights in favor of a pure-Python agent swarm utilizing simple rules."
+      "name": "ybblab/Jiumi",
+      "score": 86,
+      "reason": "An open-source Android app activity and privacy monitor requiring no root access, leveraging modern tooling like Shizuku and AppOps.",
+      "why_interesting_today": "Mobile telemetry transparency is paramount as users grow increasingly concerned about background app behaviors and network calls.",
+      "why_developers_should_care": "Demonstrates advanced, non-root Android system inspection techniques using wireless debugging and Shizuku integration.",
+      "momentum": "Solid niche adoption among privacy-conscious Android power users and developers.",
+      "novelty": "Moderate; utilizes established modern Android APIs to deliver a clean, comprehensive auditing experience without root overhead."
     },
     {
       "rank": 5,
-      "name": "Bodila51/gtavi-claudecode",
-      "score": 82,
-      "reason": "A specialized Claude Code plugin designed to automatically process live gaming streams into monetizable vertical 9:16 clips with hooks and captions.",
-      "why_interesting_today": "Automated video clipping and content repurposing for short-form video platforms (TikTok, YouTube Shorts) are major trends in developer tooling and creator economies.",
-      "why_developers_should_care": "Showcases how AI coding assistant plugins (specifically for Claude Code) can be extended into domain-specific media processing workflows.",
-      "momentum": "Strong interest given the combination of trending gaming content and AI-powered clipping agents.",
-      "novelty": "Brings automated vertical video generation and hook extraction directly into an AI coding assistant plugin interface."
+      "name": "boringmarketer/boring-marketing-skills",
+      "score": 85,
+      "reason": "Provides 32 practical marketing skills packaged specifically for AI agents (like Claude Code and local models), covering SEO, copywriting, and local business packs.",
+      "why_interesting_today": "As AI coding assistants mature, developers are expanding agent capabilities beyond software engineering into business operations and growth functions.",
+      "why_developers_should_care": "Allows solo founders and indie hackers to give their local AI agents structured expertise in marketing, positioning, and content generation.",
+      "momentum": "Strong fork-to-star ratio indicating high utility and immediate application by developer-entrepreneurs.",
+      "novelty": "High; structured prompt/skill packs specifically formatted for autonomous marketing agents."
     }
   ]
 }
