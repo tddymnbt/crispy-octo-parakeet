@@ -17,8 +17,8 @@
       "caption": "Ever tried reviewing code or running a quick terminal session on your iPhone using a remote desktop app, only to be met with tiny text, awkward scaling, and useless black bars? 📱💥\n\nSnug bridges the UX gap between desktop macOS and mobile touch interfaces by dynamically generating device-tailored virtual displays for remote desktop sessions. Designed natively for macOS and the UU Remote app, Snug provisions custom, aspect-ratio-matched virtual screens specifically for your phone or tablet while seamlessly mapping your touch gestures to native macOS behaviors. \n\n✨ Key Features:\n• Dynamic Virtual Architecture: Automatically creates dedicated virtual displays per connected device with precise HiDPI scaling and zero black bars.\n• Native Touch Translation: Maps single-finger touch, long-press context menus, and scrolling inertia directly to your mobile touchscreen.\n• Mobile-Optimized Window Management: Easily launch, switch, resize, and close any macOS app, terminal, or background process on the go.\n• Developer-Ready Scaling: Automatically adjusts typography and element density for tools like VS Code, Cursor, Zed, and Ghostty so text stays readable on smaller screens.\n\nWhether you are monitoring long-running compilation tasks, reviewing PRs, or interacting with terminal-based AI coding agents from an iPad while away from your desk, Snug turns your secondary devices into genuinely usable developer stations. Plus, the codebase serves as an incredible Swift and SwiftUI reference for managing macOS virtual displays and window server APIs.\n\n👉 Check it out on GitHub: https://github.com/zephyr4123/snug\n\nDrop a comment below: What is your go-to mobile setup when you are away from your primary Mac? \n\n#Swift #SwiftUI #macOS #RemoteDevelopment #SoftwareEngineering #OpenSource #DevTools",
       "image_file": "2_zephyr4123_snug.png",
       "photo_id": "122132234205476221",
-      "published_post_id": null,
-      "published_at": null
+      "published_post_id": "1410193715501138_122132304657476221",
+      "published_at": "2026-11-20T11:00:46.021906+08:00"
     },
     {
       "rank": 3,
