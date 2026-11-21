@@ -17,8 +17,8 @@
       "caption": "Tired of paying for expensive cloud-based SaaS wrappers just to chop your long-form videos into TikToks and Reels? \n\nMeet NeonClipping: an open-source, local video clipping engine that converts long YouTube streams, Twitch VODs, and local MP4 files into viral 9:16 vertical clips entirely on your own hardware. \n\nNo cloud uploads. No subscription fees. 100% privacy.\n\nPowered by FastAPI, OpenAI Whisper for speech recognition, and Ollama for local LLM scoring, NeonClipping automates your entire short-form content pipeline locally.\n\n🔥 Key Features:\n- Dual highlight discovery modes combining audio-jump signals, 2-4 kHz raised-voice detection, OpenCV optical flow motion analysis, and local LLM scoring.\n- 11 native layout engines with facecam presets, custom bounding boxes, blurred fills, and multi-platform safe zones.\n- Adaptive local feedback learning loop using ridge regression to tune signal weights based on your star ratings.\n- Support for Hinglish transliteration, word-timed subtitles (GTA Neon and Hormozi styles), and blazing-fast NVENC hardware acceleration.\n\nWhether you are a developer looking for an architectural blueprint to integrate local ML models with FFmpeg, or a creator wanting to automate your video repurposing pipeline for free, this stack delivers.\n\n👉 Check out the repository and start clipping locally:\nhttps://github.com/iamajmeena/neonclipping\n\nDrop a star on GitHub if you are building local AI workflows, and let us know in the comments what local model you plan to run it with!\n\n#OpenSource #AI #Python #FastAPI #VideoEditing #MachineLearning #DeveloperCommunity #Ollama #Whisper",
       "image_file": "2_iamajmeena_neonclipping.png",
       "photo_id": "122132480187476221",
-      "published_post_id": null,
-      "published_at": null
+      "published_post_id": "1410193715501138_122132541297476221",
+      "published_at": "2026-11-21T11:00:48.944328+08:00"
     },
     {
       "rank": 3,
