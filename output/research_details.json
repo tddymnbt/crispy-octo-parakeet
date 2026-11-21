@@ -3,136 +3,136 @@
   "repositories": [
     {
       "rank": 1,
-      "name": "mit-han-lab/pear",
-      "score": 94,
-      "reason": "MIT Han Lab consistently produces cutting-edge systems, and 'pear' tackles a major frontier: training reasoning models in simulation to natively control real-world robots.",
-      "why_interesting_today": "Robotics and reasoning LLMs are converging rapidly, and bridging simulation to real hardware without costly manual tuning is a massive bottleneck in physical AI.",
-      "why_developers_should_care": "Engineers and researchers working on embodied AI, reinforcement learning, and sim-to-real transfer gain a powerful open-source methodology for training agents.",
-      "momentum": "Strong organic interest despite being newly released outside the exclusion window, backed by the prestigious MIT Han Lab brand.",
-      "novelty": "High; directly targets the intersection of reasoning-focused models and physical robotic hardware control.",
+      "name": "bookwjitchieni1986/blender-ai-mcp-addon",
+      "score": 96,
+      "reason": "Bridges the Model Context Protocol (MCP) and multi-agent AI workflows with 3D design software, demonstrating immense practical novelty and explosive community interest.",
+      "why_interesting_today": "AI agent integrations are expanding beyond text and code editors directly into specialized creative suites like Blender, combining visual chat and bpy scripting.",
+      "why_developers_should_care": "It serves as a premier reference architecture for integrating LLMs and MCP servers into non-traditional desktop creative environments.",
+      "momentum": "Extremely high star growth (575 new stars) right out of the gate with active fork adoption.",
+      "novelty": "High; brings complex multi-agent LLM workflows and MCP directly into 3D scene creation and automation.",
       "deep_analysis": {
-        "name": "mit-han-lab/pear",
-        "headline_hook": "MIT Han Lab's PEAR is a new post-training engine that teaches reasoning LLMs to natively control real-world robots entirely through reinforcement learning in simulation.",
-        "core_functionality": "PEAR solves the simulation-to-real bottleneck in physical AI by acting as a comprehensive post-training engine. It uses asynchronous reinforcement learning to train large reasoning models (such as open 27B models) to natively use and control robotic hardware with zero human demonstrations.",
+        "name": "bookwjitchieni1986/blender-ai-mcp-addon",
+        "headline_hook": "Bridge the Model Context Protocol directly into Blender to orchestrate multi-agent 3D design workflows and automate Python-driven scene creation through natural language.",
+        "core_functionality": "The project solves the disconnect between text-based AI models and spatial 3D design software by integrating a Model Context Protocol server and a visual companion workspace directly into Blender 4.2+. It allows AI assistants to inspect live scenes, execute bpy scripts, manipulate objects, assign materials, and chain multi-step workflows using cloud providers or local models like Ollama.",
         "key_features": [
-          "Fully asynchronous RL scaling via verl, coupled with GRPO, dynamic sampling, and score centering.",
-          "High-throughput inference and memory efficiency using MTP speculative decoding, LMCache for CPU-offloaded KV cache, FSDP, and sequence parallelism.",
-          "Integrated heterogeneous simulation support running MuJoCo on CPUs and Isaac Sim on GPUs on the same Ray cluster.",
-          "Optimized deployment stack supporting vLLM server deployment on modern NVIDIA hardware like RTX 5090 and GB300 alongside real-world robot agent loops."
+          "Built-in Model Context Protocol (MCP) server that enables external clients like OpenCode to securely connect and issue authenticated commands to Blender.",
+          "Multi-agent task chains featuring Manager, Worker, and Reviewer roles that autonomously break down, execute, and validate complex 3D scene operations sequentially.",
+          "A comprehensive suite of 21 built-in scene tools spanning scene inspection, procedural object creation, material editing, viewport screenshot capture, and asset search/import.",
+          "Flexible connection architecture supporting OpenAI, Anthropic Claude, Google Gemini, OpenRouter, and local Ollama instances with visual model selection."
         ],
-        "target_audience": "AI researchers, robotics engineers, and machine learning infrastructure developers building physical AI systems and agentic robotics.",
-        "practical_developer_value": "Developers working at the intersection of LLMs and robotics no longer need costly manual tuning or extensive real-world human demonstrations to train controllers. By providing optimized infrastructure for async RL, speculative decoding, and native hardware deployment on platforms like YAM and SO-101, PEAR bridges the gap between simulated reasoning agents and physical hardware execution.",
+        "target_audience": "Technical artists, AI engineers building tool-use workflows, and software developers interested in spatial computing and Model Context Protocol integrations.",
+        "practical_developer_value": "Developers can leverage this addon to understand how to expose complex local software APIs to LLMs securely via the Model Context Protocol. It provides a blueprint for building tool-calling architectures that bridge asynchronous agent loops with synchronous, stateful desktop applications using Python and custom endpoints.",
         "suggested_use_cases": [
-          "Training open-weights reasoning models in MuJoCo or Isaac Sim to perform complex manipulation tasks before zero-shot deployment to physical robot arms.",
-          "Deploying optimized reasoning agents using vLLM and decode megakernels on edge-adjacent hardware like the RTX 5090 to drive physical robotics loops."
+          "Automating repetitive product-display layout generation and batch-exporting 3D assets via natural language prompts.",
+          "Building and testing custom multi-agent developer workflows where LLMs collaborate to generate, review, and refine procedural geometry nodes and scripts."
         ]
       }
     },
     {
       "rank": 2,
-      "name": "iamajmeena/neonclipping",
-      "score": 90,
-      "reason": "An exceptionally practical, local, and free open-source clipping engine that turns long-form links into captioned 9:16 vertical shorts using local LLMs and Whisper.",
-      "why_interesting_today": "Content creation pipelines are increasingly automated, but developers hate relying on paid, cloud-only SaaS wrappers for basic video cutting tasks.",
-      "why_developers_should_care": "Provides a completely local, hackable, and privacy-first stack utilizing FFmpeg and Whisper for automated video processing pipelines.",
-      "momentum": "Rapid developer engagement for a utility tool that solves a widespread everyday workflow problem.",
-      "novelty": "Moderate-high execution on combining existing open-source audio-first transcription with automated vertical video generation.",
+      "name": "affaan-m/ECC",
+      "score": 94,
+      "reason": "Tackles agent harness performance optimization head-on, providing crucial skills, instincts, and memory structures for modern coding assistants like Claude Code and Cursor.",
+      "why_interesting_today": "As developers increasingly rely on AI coding agents, optimizing their harness performance, security, and research-first capabilities is an urgent frontier.",
+      "why_developers_should_care": "It directly improves the reliability, speed, and output quality of daily AI-assisted development workflows.",
+      "momentum": "Exceptional momentum with 528 star growth and strong fork engagement.",
+      "novelty": "Very high; addresses the meta-layer of AI developer tools rather than just acting as another wrapper.",
       "deep_analysis": {
-        "name": "iamajmeena/neonclipping",
-        "headline_hook": "Turn long-form videos into viral 9:16 vertical clips locally using Ollama and Whisper without paying for cloud-based SaaS wrappers.",
-        "core_functionality": "NeonClipping is a local, open-source video clipping engine that converts long YouTube streams, Twitch VODs, or local MP4 files into vertical short-form videos with burned-in captions, hooks, and titles. It runs entirely on local hardware using FastAPI, Ollama for local LLM scoring, and Whisper for speech recognition, ensuring user privacy without subscription fees or cloud uploads.",
+        "name": "affaan-m/ECC",
+        "headline_hook": "ECC turns disjointed AI coding assistants into a unified, self-improving engineering system with specialized agents, persistent memory, and automated verification workflows.",
+        "core_functionality": "ECC acts as an operating system and harness optimizer for modern AI coding assistants like Claude Code, Cursor, and Codex. It solves the fragmentation of agent workflows by embedding structured engineering frameworks—such as planning, test-driven development, self-review, and continuous learning—directly into the agent's environment, optimizing context windows and persisting crucial knowledge.",
         "key_features": [
-          "Fast and Deep highlight discovery modes combining audio-jump signals, 2 to 4 kHz raised-voice detection, OpenCV Farneback optical flow motion analysis, and local LLM scoring.",
-          "Eleven native layout engines including facecam position presets, custom bounding box drawing, blurred fills, and multi-platform safe zones.",
-          "Adaptive local feedback learning loop using ridge regression on local JSON lines data to tune signal weights based on user star ratings.",
-          "Support for Hinglish transliteration, word-timed subtitles, multiple caption styles like GTA Neon and Hormozi, and fast NVENC hardware acceleration."
+          "Comprehensive Toolset with 72 specialized agents, 328 skills, and 99 command shims covering planning, review, build repair, security, architecture, and domain-specific engineering.",
+          "Integrated AgentShield security scanning to ensure secure coding patterns and protect against vulnerabilities during agentic execution.",
+          "Cross-platform harness compatibility offering native plugins for Claude Code, Codex, and Qoder, plus adapters for Cursor, Gemini, Zed, and GitHub Copilot.",
+          "Continuous learning and memory structures that allow agents to remember what matters and turn repeated wins into reusable skills and workflows."
         ],
-        "target_audience": "Content creators, full-stack developers, AI hobbyists, and streamers who want to automate short-form video pipelines locally without relying on paid third-party cloud services.",
-        "practical_developer_value": "Developers can leverage a clean local Python stack powered by FastAPI, OpenCV, and local LLMs to build custom video automation workflows. It serves as an architectural blueprint for integrating local machine learning models with heavy media processing tools like FFmpeg, entirely eliminating cloud dependency and API usage costs.",
+        "target_audience": "AI engineers, developer productivity teams, and software developers who rely heavily on AI coding agents and want to optimize harness performance, security, and research-first capabilities.",
+        "practical_developer_value": "Developers can stop manually prompting AI assistants for basic structural tasks like planning, test generation, and code review. By installing ECC, teams establish a consistent, repeatable engineering lifecycle where agents automatically test implementations, review their own work from fresh contexts, and retain project-specific knowledge across sessions.",
         "suggested_use_cases": [
-          "Automating the generation of TikTok, Instagram Reels, and YouTube Shorts from long podcast recordings or live Twitch streams on local workstation hardware.",
-          "Building custom internal video repurposing pipelines for media agencies that require strict data privacy and local processing."
+          "Supercharging Claude Code or Cursor sessions with strict Test-Driven Development (TDD) workflows and automated verification hooks.",
+          "Enforcing security policies and vulnerability scanning using AgentShield during autonomous agent code generation."
         ]
       }
     },
     {
       "rank": 3,
-      "name": "siliconjungle/shapeshift-labs-ink-studio",
-      "score": 88,
-      "reason": "Introduces a specialized sculpting, animation, and simulation toolkit built specifically for pixel-art Gaussian splats.",
-      "why_interesting_today": "Gaussian splatting is dominating modern 3D computer vision, but tooling for stylized, low-fi, or pixel-art aesthetics remains extremely rare.",
-      "why_developers_should_care": "Opens up creative new avenues for graphics engineers and game developers looking to blend cutting-edge neural rendering with retro aesthetics.",
-      "momentum": "Steady early momentum among graphics enthusiasts and creative technologists.",
-      "novelty": "High; merging Gaussian splats with pixel art introduces a unique stylistic and technical niche.",
+      "name": "Lemxy/WinRust",
+      "score": 89,
+      "reason": "An ambitious attempt to reimagine core Windows shell components—including a taskbar, file manager, and task manager—entirely in Rust within a single installer executable.",
+      "why_interesting_today": "Rewriting legacy operating system utilities in memory-safe languages like Rust continues to captivate systems programmers.",
+      "why_developers_should_care": "Offers a fascinating case study in low-level systems programming, Win32 API interaction, and UI architecture using Rust.",
+      "momentum": "Solid organic interest and clean architectural positioning in the systems programming niche.",
+      "novelty": "High; combining multiple core shell replacements into a cohesive Rust-based package is rare.",
       "deep_analysis": {
-        "name": "siliconjungle/shapeshift-labs-ink-studio",
-        "headline_hook": "Ink Studio bridges the gap between modern 3D Gaussian splatting and nostalgic pixel-art aesthetics by providing a complete JavaScript toolkit for procedural sculpting, simulation, and low-fi 3D baking.",
-        "core_functionality": "The project solves the scarcity of tooling for stylized, low-fi, and pixel-art 3D computer vision. It allows developers to sculpt signed-distance solids in JavaScript, bake them into pixel-art Gaussian splats, animate puppets, run physics simulations, and render the output via CPU-based Node CLI tools or WebGL 2 browser canvases without requiring heavy traditional 3D software pipelines.",
+        "name": "Lemxy/WinRust",
+        "headline_hook": "WinRust reimagines core Windows shell components like the taskbar, file manager, and task manager entirely in memory-safe Rust, delivering dramatic speedups and a fraction of the memory footprint.",
+        "core_functionality": "WinRust replaces legacy, resource-heavy Windows shell components and utilities with lean, native Rust alternatives packaged into a single installer. It overrides components such as the Windows Explorer shell, taskbar, file search, and task manager to optimize speed, reduce memory usage, and strip out background telemetry and bloat.",
         "key_features": [
-          "Signed-distance field (SDF) sculpting and adaptive surface sampling that concentrates splats on bevels and silhouettes while thinning flat areas.",
-          "Native baking of volumetric solids into 16-float-per-splat Gaussian data arrays carrying covariance matrices, colors, and simulation metadata.",
-          "Comprehensive world simulation engine supporting particle systems, cloth, hair, physics, live sun relighting, and art-directed shadow ramps.",
-          "Zero runtime dependency design with dual-mode execution, supporting headless Node.js CLI rendering as well as browser-based WebGL 2 embedding."
+          "High-performance NTFS file search leveraging a pre-made MFT index that executes searches up to 99 percent faster than native Windows utilities.",
+          "Extremely lightweight shell memory footprint, using roughly 87 percent less RAM than the stock Windows Explorer shell stack.",
+          "Comprehensive system tuning and debloating utilities that optimize NTFS performance, manage boot tasks, and block background telemetry and AI features like Copilot and Recall.",
+          "Native custom file copier and multi-core ZIP/7z extraction engine that drastically outperforms standard Windows operations on small file transfers."
         ],
-        "target_audience": "Creative technologists, indie game developers, 3D graphics programmers, and frontend engineers looking to integrate lightweight, stylized 3D assets and pixel-art Gaussian splats into web or Node applications.",
-        "practical_developer_value": "Developers gain a programmatic, code-first alternative to manual 3D modeling for retro or stylized aesthetics. Because the package has zero runtime dependencies, runs in Node, and exports clean GLBs and CPU-rendered image frames or sprite atlases, it integrates easily into automated build pipelines, procedural world generators, and web-based games.",
+        "target_audience": "Systems programmers, Windows power users, performance enthusiasts, and developers building lightweight custom environments or debloated development machines.",
+        "practical_developer_value": "Developers working in resource-constrained environments or seeking maximum performance from their development machines can use WinRust to reclaim system resources, eliminate background bloat, and experience lightning-fast file searching and manipulation. For systems engineers, the repository serves as an advanced architectural reference for interacting with Win32 APIs, managing Windows shell replacement, and building high-performance CLI and GUI tools in Rust.",
         "suggested_use_cases": [
-          "Generating retro-styled 3D assets, sprite atlases, and animated puppets programmatically for web-based games and interactive experiences.",
-          "Building headless procedural world generators that output baked Gaussian splat models directly from Node.js scripts."
+          "Optimizing a dedicated local development or gaming machine by stripping away stock Windows telemetry, widgets, and heavy background services.",
+          "Studying advanced systems programming patterns in Rust for interacting with low-level Windows APIs and managing desktop shell lifecycles."
         ]
       }
     },
     {
       "rank": 4,
-      "name": "ybblab/Jiumi",
+      "name": "R0Y00/Xbox2Windows",
       "score": 86,
-      "reason": "An open-source Android app activity and privacy monitor requiring no root access, leveraging modern tooling like Shizuku and AppOps.",
-      "why_interesting_today": "Mobile telemetry transparency is paramount as users grow increasingly concerned about background app behaviors and network calls.",
-      "why_developers_should_care": "Demonstrates advanced, non-root Android system inspection techniques using wireless debugging and Shizuku integration.",
-      "momentum": "Solid niche adoption among privacy-conscious Android power users and developers.",
-      "novelty": "Moderate; utilizes established modern Android APIs to deliver a clean, comprehensive auditing experience without root overhead.",
+      "reason": "Explores advanced static recompilation research for Xbox Series X|S (Scarlett) titles running on x64 Windows, featuring shader translation and D3D12 checks.",
+      "why_interesting_today": "Pushing the boundaries of hardware emulation and static recompilation for modern console architectures remains one of software engineering's toughest challenges.",
+      "why_developers_should_care": "Provides deep technical insights into low-level graphics pipeline translation, bytecode analysis, and DirectX 12 compatibility layers.",
+      "momentum": "Steady technical traction with focused developer contributions and healthy fork growth.",
+      "novelty": "Very high; console static recompilation research targeting current-gen hardware is bleeding-edge.",
       "deep_analysis": {
-        "name": "ybblab/Jiumi",
-        "headline_hook": "Monitor Android app privacy behaviors, network calls, and background activities in real time without needing root access.",
-        "core_functionality": "Jiumi is an open-source Android activity and privacy monitoring tool that tracks background behaviors, permission accesses (AppOps), and network traffic locally without requiring root access by leveraging shell-level debugging APIs, wireless debugging, and Shizuku.",
+        "name": "R0Y00/Xbox2Windows",
+        "headline_hook": "Xbox2Windows pushes the boundaries of hardware emulation and static recompilation by investigating how to translate Xbox Series X software executables and shaders directly for x64 Windows execution.",
+        "core_functionality": "The project investigates the complex domain of static recompilation, targeting Xbox Series X|S (Scarlett) software to run natively on x64 Windows systems. It provides an experimental framework that translates source-built x64 PE machine code through C++ into functional Windows executables and DLLs, alongside translating custom graphics pipelines like gfx1013 pixel shaders into desktop-compatible HLSL/DXIL and evaluating advanced upscaling and memory mechanisms.",
         "key_features": [
-          "Root-less Shell Probing: Gathers system telemetry including AppOps permission histories, connection tables, Perfetto system traces, and event logs using wireless debugging, Shizuku, or root.",
-          "Comprehensive Action Management: Allows users to control app permissions, toggle built-in firewall-based network access without VPN overhead, disable/enable packages, and safely backup or uninstall preloaded system apps.",
-          "Local Telemetry and Audit Exports: Tracks 12 categories and 56 types of app behaviors entirely on-device, with options to export logs into ZIP bundles containing CSV files for deep analysis.",
-          "Optional DNS Logging: Captures and forwards DNS queries using a local VPN loopback to map out domain-level network activities for specific applications."
+          "Offline x64 CPU and function translation, successfully handling direct calls, switch dispatch jump tables, instruction lifting for flags, and cross-DLL imports by name or ordinal without requiring active emulation loops.",
+          "Shader and graphics translation pipeline supporting gfx1013 pixel shader conversion to desktop DXIL, FidelityFX upscaler integration, and BC7 texture decoding and mipmap fallback handling.",
+          "Advanced Windows runtime simulation, including image mapping without LoadLibrary, custom heap allocation routing, and structured exception handling (SEH) with TLS-callback and entry-point notifications.",
+          "Extensive hardware and backend validation covering compute, ray tracing, and BVH differential testing across a wide range of modern NVIDIA and AMD GPU architectures."
         ],
-        "target_audience": "Android developers, security researchers, privacy-conscious power users, and mobile QA engineers.",
-        "practical_developer_value": "Developers can inspect how their own apps interact with the Android OS in real-time, audit background telemetry calls, and verify permission behavior under strict app-ops constraints without complex device flashing. The codebase also serves as a clean architectural reference for building non-root system monitoring tools utilizing modern Android APIs and Shell/Shizuku interprocess communication.",
+        "target_audience": "Emulator developers, reverse engineers, systems programmers, and graphics engineers working on low-level binary translation, hardware abstraction layers, and shader compilation pipelines.",
+        "practical_developer_value": "Developers working on binary translation, compiler research, or graphics API bridging can study this repository to understand how to handle complex x64 instruction lifting, map custom console memory models onto Win32 heaps, and translate console-specific shader instructions to desktop D3D12/DXIL. It serves as a valuable reference for building static analysis tools and cross-platform runtime environments.",
         "suggested_use_cases": [
-          "Auditing proprietary or third-party Android application behaviors to verify if background telemetry aligns with stated privacy policies.",
-          "Testing and debugging custom Android apps to ensure permissions and network calls are requested only when expected."
+          "Researching and developing static binary re-compilers and ahead-of-time (AOT) instruction lifters for proprietary or legacy executable formats.",
+          "Experimenting with graphics pipeline translation tools that bridge console-specific shader bytecode to standard desktop DirectX 12 shaders."
         ]
       }
     },
     {
       "rank": 5,
-      "name": "boringmarketer/boring-marketing-skills",
-      "score": 85,
-      "reason": "Provides 32 practical marketing skills packaged specifically for AI agents (like Claude Code and local models), covering SEO, copywriting, and local business packs.",
-      "why_interesting_today": "As AI coding assistants mature, developers are expanding agent capabilities beyond software engineering into business operations and growth functions.",
-      "why_developers_should_care": "Allows solo founders and indie hackers to give their local AI agents structured expertise in marketing, positioning, and content generation.",
-      "momentum": "Strong fork-to-star ratio indicating high utility and immediate application by developer-entrepreneurs.",
-      "novelty": "High; structured prompt/skill packs specifically formatted for autonomous marketing agents.",
+      "name": "yetanotherbrowser/yab",
+      "score": 84,
+      "reason": "A fast native macOS browser backed by companion apps for iOS and Android, built to challenge bloated web-based alternatives.",
+      "why_interesting_today": "The browser space is seeing renewed interest in lightweight, native applications built with modern frameworks like Swift.",
+      "why_developers_should_care": "Demonstrates how to build a performant, cross-device native browser ecosystem without relying on heavy rendering engines out of the box.",
+      "momentum": "Consistent growth and positive reception among developers seeking snappy native tooling.",
+      "novelty": "Moderate-high; creating a multi-platform native browser with mobile companions as an open-source project is a massive undertaking.",
       "deep_analysis": {
-        "name": "boringmarketer/boring-marketing-skills",
-        "headline_hook": "Transform your AI coding agent into a full-stack growth marketer with 32 open-source skills for SEO, copywriting, and local business campaigns.",
-        "core_functionality": "The project packages 32 practical marketing workflows into agent-ready modules for tools like Claude Code, Cursor, and Codex, allowing developers to automate complex business operations, local SEO, paid advertising, and content creation entirely through their AI assistant.",
+        "name": "yetanotherbrowser/yab",
+        "headline_hook": "Yab is a fast, native macOS and iOS browser built to challenge bloated web-based alternatives by combining WebKit and Chromium engines with built-in AI agents and end-to-end encrypted sync.",
+        "core_functionality": "Yab addresses the bloat, resource consumption, and privacy concerns of modern web-based browsers by offering a lightweight, native macOS and iOS application. It minimizes UI overhead while providing advanced capabilities like dual-engine rendering, integrated AI agents, and end-to-end encrypted synchronization.",
         "key_features": [
-          "Seamless integration with major AI coding assistants via a single npx command or marketplace plugin installation",
-          "Comprehensive lifecycle coverage ranging from initial audience research and brand voice extraction to programmatic SEO and ad tracking",
-          "Client-agnostic architecture supporting multi-tenant workflows and isolated folder structures per client project",
-          "Zero-cost baseline execution using native agent web access with optional integrations for enterprise marketing APIs like Exa and Firecrawl"
+          "Dual-engine architecture running on WebKit by default, with Apple Silicon support for Chromium per tab or site, including Chrome extensions and DevTools support.",
+          "Integrated AI agent support operating in isolated tabs using existing provider sign-ins with explicit user authorization checks for sensitive actions.",
+          "Built-in pre-request ad blocking and persistent element hiding for enhanced performance and privacy.",
+          "End-to-end encrypted optional synchronization across macOS and iOS devices."
         ],
-        "target_audience": "Full-stack developers, independent software engineers, growth hackers, and agency freelancers who want to leverage AI agents to automate marketing, SEO, and client acquisition tasks.",
-        "practical_developer_value": "Developers can bypass manual marketing grunt work by provisioning specialized agent routines that audit websites, write conversion-focused copy, analyze competitors, and configure ad tracking automatically, effectively pairing software development with automated business growth.",
+        "target_audience": "macOS power users, performance-focused software developers, security-conscious professionals, and developers interested in native Swift applications and browser engineering.",
+        "practical_developer_value": "Developers can study Yab as a modern blueprint for building high-performance, native macOS applications using Swift. It provides practical implementations of dual-engine browser architectures (WebKit and Chromium), secure keychain integration, and local-first end-to-end encrypted sync mechanisms, serving as an educational reference or a customizable power-user browser.",
         "suggested_use_cases": [
-          "Automating local business audits and generating tailored pitch emails for prospective digital marketing agency clients",
-          "Running programmatic SEO campaigns and technical site audits directly from the command line during application deployment"
+          "Using dual WebKit and Chromium tabs to test web applications across different rendering engines natively on Apple Silicon without launching heavy standalone browsers.",
+          "Running automated AI agents in isolated browser tabs to handle repetitive web workflows securely with prompt authorization controls."
         ]
       }
     }

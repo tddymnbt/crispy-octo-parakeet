@@ -2,53 +2,53 @@
   "top_repositories": [
     {
       "rank": 1,
-      "name": "mit-han-lab/pear",
-      "score": 94,
-      "reason": "MIT Han Lab consistently produces cutting-edge systems, and 'pear' tackles a major frontier: training reasoning models in simulation to natively control real-world robots.",
-      "why_interesting_today": "Robotics and reasoning LLMs are converging rapidly, and bridging simulation to real hardware without costly manual tuning is a massive bottleneck in physical AI.",
-      "why_developers_should_care": "Engineers and researchers working on embodied AI, reinforcement learning, and sim-to-real transfer gain a powerful open-source methodology for training agents.",
-      "momentum": "Strong organic interest despite being newly released outside the exclusion window, backed by the prestigious MIT Han Lab brand.",
-      "novelty": "High; directly targets the intersection of reasoning-focused models and physical robotic hardware control."
+      "name": "bookwjitchieni1986/blender-ai-mcp-addon",
+      "score": 96,
+      "reason": "Bridges the Model Context Protocol (MCP) and multi-agent AI workflows with 3D design software, demonstrating immense practical novelty and explosive community interest.",
+      "why_interesting_today": "AI agent integrations are expanding beyond text and code editors directly into specialized creative suites like Blender, combining visual chat and bpy scripting.",
+      "why_developers_should_care": "It serves as a premier reference architecture for integrating LLMs and MCP servers into non-traditional desktop creative environments.",
+      "momentum": "Extremely high star growth (575 new stars) right out of the gate with active fork adoption.",
+      "novelty": "High; brings complex multi-agent LLM workflows and MCP directly into 3D scene creation and automation."
     },
     {
       "rank": 2,
-      "name": "iamajmeena/neonclipping",
-      "score": 90,
-      "reason": "An exceptionally practical, local, and free open-source clipping engine that turns long-form links into captioned 9:16 vertical shorts using local LLMs and Whisper.",
-      "why_interesting_today": "Content creation pipelines are increasingly automated, but developers hate relying on paid, cloud-only SaaS wrappers for basic video cutting tasks.",
-      "why_developers_should_care": "Provides a completely local, hackable, and privacy-first stack utilizing FFmpeg and Whisper for automated video processing pipelines.",
-      "momentum": "Rapid developer engagement for a utility tool that solves a widespread everyday workflow problem.",
-      "novelty": "Moderate-high execution on combining existing open-source audio-first transcription with automated vertical video generation."
+      "name": "affaan-m/ECC",
+      "score": 94,
+      "reason": "Tackles agent harness performance optimization head-on, providing crucial skills, instincts, and memory structures for modern coding assistants like Claude Code and Cursor.",
+      "why_interesting_today": "As developers increasingly rely on AI coding agents, optimizing their harness performance, security, and research-first capabilities is an urgent frontier.",
+      "why_developers_should_care": "It directly improves the reliability, speed, and output quality of daily AI-assisted development workflows.",
+      "momentum": "Exceptional momentum with 528 star growth and strong fork engagement.",
+      "novelty": "Very high; addresses the meta-layer of AI developer tools rather than just acting as another wrapper."
     },
     {
       "rank": 3,
-      "name": "siliconjungle/shapeshift-labs-ink-studio",
-      "score": 88,
-      "reason": "Introduces a specialized sculpting, animation, and simulation toolkit built specifically for pixel-art Gaussian splats.",
-      "why_interesting_today": "Gaussian splatting is dominating modern 3D computer vision, but tooling for stylized, low-fi, or pixel-art aesthetics remains extremely rare.",
-      "why_developers_should_care": "Opens up creative new avenues for graphics engineers and game developers looking to blend cutting-edge neural rendering with retro aesthetics.",
-      "momentum": "Steady early momentum among graphics enthusiasts and creative technologists.",
-      "novelty": "High; merging Gaussian splats with pixel art introduces a unique stylistic and technical niche."
+      "name": "Lemxy/WinRust",
+      "score": 89,
+      "reason": "An ambitious attempt to reimagine core Windows shell components—including a taskbar, file manager, and task manager—entirely in Rust within a single installer executable.",
+      "why_interesting_today": "Rewriting legacy operating system utilities in memory-safe languages like Rust continues to captivate systems programmers.",
+      "why_developers_should_care": "Offers a fascinating case study in low-level systems programming, Win32 API interaction, and UI architecture using Rust.",
+      "momentum": "Solid organic interest and clean architectural positioning in the systems programming niche.",
+      "novelty": "High; combining multiple core shell replacements into a cohesive Rust-based package is rare."
     },
     {
       "rank": 4,
-      "name": "ybblab/Jiumi",
+      "name": "R0Y00/Xbox2Windows",
       "score": 86,
-      "reason": "An open-source Android app activity and privacy monitor requiring no root access, leveraging modern tooling like Shizuku and AppOps.",
-      "why_interesting_today": "Mobile telemetry transparency is paramount as users grow increasingly concerned about background app behaviors and network calls.",
-      "why_developers_should_care": "Demonstrates advanced, non-root Android system inspection techniques using wireless debugging and Shizuku integration.",
-      "momentum": "Solid niche adoption among privacy-conscious Android power users and developers.",
-      "novelty": "Moderate; utilizes established modern Android APIs to deliver a clean, comprehensive auditing experience without root overhead."
+      "reason": "Explores advanced static recompilation research for Xbox Series X|S (Scarlett) titles running on x64 Windows, featuring shader translation and D3D12 checks.",
+      "why_interesting_today": "Pushing the boundaries of hardware emulation and static recompilation for modern console architectures remains one of software engineering's toughest challenges.",
+      "why_developers_should_care": "Provides deep technical insights into low-level graphics pipeline translation, bytecode analysis, and DirectX 12 compatibility layers.",
+      "momentum": "Steady technical traction with focused developer contributions and healthy fork growth.",
+      "novelty": "Very high; console static recompilation research targeting current-gen hardware is bleeding-edge."
     },
     {
       "rank": 5,
-      "name": "boringmarketer/boring-marketing-skills",
-      "score": 85,
-      "reason": "Provides 32 practical marketing skills packaged specifically for AI agents (like Claude Code and local models), covering SEO, copywriting, and local business packs.",
-      "why_interesting_today": "As AI coding assistants mature, developers are expanding agent capabilities beyond software engineering into business operations and growth functions.",
-      "why_developers_should_care": "Allows solo founders and indie hackers to give their local AI agents structured expertise in marketing, positioning, and content generation.",
-      "momentum": "Strong fork-to-star ratio indicating high utility and immediate application by developer-entrepreneurs.",
-      "novelty": "High; structured prompt/skill packs specifically formatted for autonomous marketing agents."
+      "name": "yetanotherbrowser/yab",
+      "score": 84,
+      "reason": "A fast native macOS browser backed by companion apps for iOS and Android, built to challenge bloated web-based alternatives.",
+      "why_interesting_today": "The browser space is seeing renewed interest in lightweight, native applications built with modern frameworks like Swift.",
+      "why_developers_should_care": "Demonstrates how to build a performant, cross-device native browser ecosystem without relying on heavy rendering engines out of the box.",
+      "momentum": "Consistent growth and positive reception among developers seeking snappy native tooling.",
+      "novelty": "Moderate-high; creating a multi-platform native browser with mobile companions as an open-source project is a massive undertaking."
     }
   ]
 }

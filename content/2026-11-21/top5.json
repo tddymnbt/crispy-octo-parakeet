@@ -1,0 +1,54 @@
+{
+  "top_repositories": [
+    {
+      "rank": 1,
+      "name": "bookwjitchieni1986/blender-ai-mcp-addon",
+      "score": 96,
+      "reason": "Bridges the Model Context Protocol (MCP) and multi-agent AI workflows with 3D design software, demonstrating immense practical novelty and explosive community interest.",
+      "why_interesting_today": "AI agent integrations are expanding beyond text and code editors directly into specialized creative suites like Blender, combining visual chat and bpy scripting.",
+      "why_developers_should_care": "It serves as a premier reference architecture for integrating LLMs and MCP servers into non-traditional desktop creative environments.",
+      "momentum": "Extremely high star growth (575 new stars) right out of the gate with active fork adoption.",
+      "novelty": "High; brings complex multi-agent LLM workflows and MCP directly into 3D scene creation and automation."
+    },
+    {
+      "rank": 2,
+      "name": "affaan-m/ECC",
+      "score": 94,
+      "reason": "Tackles agent harness performance optimization head-on, providing crucial skills, instincts, and memory structures for modern coding assistants like Claude Code and Cursor.",
+      "why_interesting_today": "As developers increasingly rely on AI coding agents, optimizing their harness performance, security, and research-first capabilities is an urgent frontier.",
+      "why_developers_should_care": "It directly improves the reliability, speed, and output quality of daily AI-assisted development workflows.",
+      "momentum": "Exceptional momentum with 528 star growth and strong fork engagement.",
+      "novelty": "Very high; addresses the meta-layer of AI developer tools rather than just acting as another wrapper."
+    },
+    {
+      "rank": 3,
+      "name": "Lemxy/WinRust",
+      "score": 89,
+      "reason": "An ambitious attempt to reimagine core Windows shell components—including a taskbar, file manager, and task manager—entirely in Rust within a single installer executable.",
+      "why_interesting_today": "Rewriting legacy operating system utilities in memory-safe languages like Rust continues to captivate systems programmers.",
+      "why_developers_should_care": "Offers a fascinating case study in low-level systems programming, Win32 API interaction, and UI architecture using Rust.",
+      "momentum": "Solid organic interest and clean architectural positioning in the systems programming niche.",
+      "novelty": "High; combining multiple core shell replacements into a cohesive Rust-based package is rare."
+    },
+    {
+      "rank": 4,
+      "name": "R0Y00/Xbox2Windows",
+      "score": 86,
+      "reason": "Explores advanced static recompilation research for Xbox Series X|S (Scarlett) titles running on x64 Windows, featuring shader translation and D3D12 checks.",
+      "why_interesting_today": "Pushing the boundaries of hardware emulation and static recompilation for modern console architectures remains one of software engineering's toughest challenges.",
+      "why_developers_should_care": "Provides deep technical insights into low-level graphics pipeline translation, bytecode analysis, and DirectX 12 compatibility layers.",
+      "momentum": "Steady technical traction with focused developer contributions and healthy fork growth.",
+      "novelty": "Very high; console static recompilation research targeting current-gen hardware is bleeding-edge."
+    },
+    {
+      "rank": 5,
+      "name": "yetanotherbrowser/yab",
+      "score": 84,
+      "reason": "A fast native macOS browser backed by companion apps for iOS and Android, built to challenge bloated web-based alternatives.",
+      "why_interesting_today": "The browser space is seeing renewed interest in lightweight, native applications built with modern frameworks like Swift.",
+      "why_developers_should_care": "Demonstrates how to build a performant, cross-device native browser ecosystem without relying on heavy rendering engines out of the box.",
+      "momentum": "Consistent growth and positive reception among developers seeking snappy native tooling.",
+      "novelty": "Moderate-high; creating a multi-platform native browser with mobile companions as an open-source project is a massive undertaking."
+    }
+  ]
+}
