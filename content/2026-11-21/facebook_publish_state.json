@@ -26,8 +26,8 @@
       "caption": "Stuck choosing between cutting-edge 3D Gaussian splatting and nostalgic pixel-art aesthetics? You no longer have to choose. 🎨✨\n\nInk Studio bridges the gap by delivering a complete JavaScript toolkit for procedural sculpting, simulation, and low-fi 3D baking.\n\nTraditional 3D pipelines are heavy, manual, and completely miss the mark when you want stylized, retro, or low-fi computer vision assets. Ink Studio solves this scarcity head-on. It allows you to programmatically sculpt signed-distance solids in JavaScript, bake them straight into pixel-art Gaussian splats, animate puppets, run physics simulations, and render the output without bloated software overhead.\n\nHere is what makes it a game-changer for your stack:\n• SDF Sculpting & Adaptive Sampling: Intelligently concentrates splats on bevels and silhouettes while thinning flat areas.\n• Native Volumetric Baking: Turns solids into 16-float-per-splat Gaussian data arrays carrying covariance matrices, colors, and simulation metadata.\n• Comprehensive Simulation Engine: Handles particle systems, cloth, hair, physics, live sun relighting, and art-directed shadow ramps.\n• Zero Runtime Dependency Design: Features dual-mode execution supporting headless Node.js CLI rendering and browser-based WebGL 2 embedding.\n\nWhether you are building headless procedural world generators in Node or generating retro-styled 3D assets and animated sprite atlases for web-based games, this is your code-first alternative to manual 3D modeling. 🚀\n\nCheck out the repository and start building:\nhttps://github.com/siliconjungle/shapeshift-labs-ink-studio\n\nDrop a comment below: Are you using Gaussian splats in your web projects yet? 👇\n\n#WebDev #GameDev #JavaScript #GaussianSplatting #ThreeJS #CreativeCoding #OpenSource",
       "image_file": "3_siliconjungle_shapeshift-labs-ink-studio.png",
       "photo_id": "122132480229476221",
-      "published_post_id": null,
-      "published_at": null
+      "published_post_id": "1410193715501138_122132572875476221",
+      "published_at": "2026-11-21T15:00:40.395970+08:00"
     },
     {
       "rank": 4,
