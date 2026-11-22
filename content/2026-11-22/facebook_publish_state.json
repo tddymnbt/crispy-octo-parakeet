@@ -26,8 +26,8 @@
       "caption": "Tired of Windows bloat, heavy background telemetry, and resource-hogging shell components slowing down your dev machine? \n\nMeet WinRust—a complete reimagining of core Windows shell components like the taskbar, file manager, and task manager built entirely in memory-safe Rust. It replaces legacy utilities with lean, native alternatives that deliver dramatic speedups while slashing your resource footprint.\n\nWhy systems programmers and power users are loving it:\n⚡ Up to 99% faster file search using a pre-made MFT index for high-performance NTFS querying.\n🧠 Ultra-lightweight shell using roughly 87% less RAM than the stock Windows Explorer stack.\n🚫 Real debloating that strips out background telemetry and AI features like Copilot and Recall.\n🚀 A native custom file copier and multi-core ZIP/7z extraction engine built for blazing-fast transfers.\n🛠️ Comprehensive system tuning to optimize NTFS performance and manage boot tasks.\n\nWhether you want to reclaim your hardware for heavy local compilation or study advanced systems programming patterns for low-level Win32 API interaction in Rust, this repository is a must-see.\n\nCheck it out on GitHub and reclaim your system resources:\nhttps://github.com/Lemxy/WinRust\n\nDrop a comment below: What is the first background process or Windows feature you would disable with a lean Rust shell? \n\n#Rust #SystemsProgramming #Windows #DeveloperTools #OpenSource #SoftwareEngineering #PerformanceOptimization",
       "image_file": "3_Lemxy_WinRust.png",
       "photo_id": "122132741931476221",
-      "published_post_id": null,
-      "published_at": null
+      "published_post_id": "1410193715501138_122132805339476221",
+      "published_at": "2026-11-22T15:00:40.075099+08:00"
     },
     {
       "rank": 4,
