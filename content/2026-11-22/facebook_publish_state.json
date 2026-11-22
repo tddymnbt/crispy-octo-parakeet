@@ -44,8 +44,8 @@
       "caption": "Tired of browsers that hog all your RAM and compromise your data? Meet Yab: a fast, native macOS and iOS browser built to challenge bloated web-based alternatives by combining WebKit and Chromium engines with built-in AI agents and end-to-end encrypted sync. 🚀\n\nModern browsers have become heavy, resource-hungry resource hogs that drain batteries and lack true privacy. Yab solves this by offering a lightweight, native application that minimizes UI overhead while packing advanced developer capabilities.\n\nHere is why developers and power users are checking it out:\n⚡ Dual-Engine Architecture: Runs on WebKit by default with native Apple Silicon support for Chromium per tab or site, complete with Chrome extensions and DevTools.\n🤖 Integrated AI Agents: Operates safely in isolated tabs using your existing provider sign-ins with strict user authorization checks for sensitive actions.\n🛡️ Advanced Privacy: Built-in pre-request ad blocking and persistent element hiding for ultimate performance.\n🔒 Secure Sync: Optional end-to-end encrypted synchronization across all your macOS and iOS devices.\n\nFor developers, Yab serves as an incredible blueprint for building high-performance, native Swift applications. Explore the architecture, study the keychain integration, and see how to implement local-first E2EE sync firsthand.\n\n👉 Check out the repo and drop a star on GitHub:\nhttps://github.com/yetanotherbrowser/yab\n\nWhat is your go-to browser for development right now? Let us know in the comments below! 👇\n\n#SoftwareEngineering #Swift #MacOSDevelopment #WebDevelopment #OpenSource #ArtificialIntelligence #TechInnovations",
       "image_file": "5_yetanotherbrowser_yab.png",
       "photo_id": "122132742021476221",
-      "published_post_id": null,
-      "published_at": null
+      "published_post_id": "1410193715501138_122132888229476221",
+      "published_at": "2026-11-22T23:00:45.556887+08:00"
     }
   ]
 }
