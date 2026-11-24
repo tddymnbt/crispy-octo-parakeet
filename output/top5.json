@@ -2,53 +2,53 @@
   "top_repositories": [
     {
       "rank": 1,
-      "name": "bookwjitchieni1986/blender-ai-mcp-addon",
+      "name": "EL4CTEO/fast-anything",
       "score": 96,
-      "reason": "Bridges the Model Context Protocol (MCP) and multi-agent AI workflows with 3D design software, demonstrating immense practical novelty and explosive community interest.",
-      "why_interesting_today": "AI agent integrations are expanding beyond text and code editors directly into specialized creative suites like Blender, combining visual chat and bpy scripting.",
-      "why_developers_should_care": "It serves as a premier reference architecture for integrating LLMs and MCP servers into non-traditional desktop creative environments.",
-      "momentum": "Extremely high star growth (575 new stars) right out of the gate with active fork adoption.",
-      "novelty": "High; brings complex multi-agent LLM workflows and MCP directly into 3D scene creation and automation."
+      "reason": "Addresses the classic 'rewrite it in Rust' trope by offering a pragmatic hybrid approach: profiling Python/Node/Ruby code and leveraging coding agents to port only the hot 5% of slow functions.",
+      "why_interesting_today": "Bridges the gap between high-level scripting languages and low-level performance optimization using modern AI coding agents.",
+      "why_developers_should_care": "Saves massive engineering hours by avoiding full rewrites, allowing teams to surgically speed up application bottlenecks with Rust FFI via AI.",
+      "momentum": "Rapidly gaining visibility and interest among developers looking to leverage coding agents for targeted performance tuning.",
+      "novelty": "High; shifts the paradigm from 'rewrite everything in Rust' to precision-targeted, agent-assisted micro-optimizations."
     },
     {
       "rank": 2,
-      "name": "affaan-m/ECC",
-      "score": 94,
-      "reason": "Tackles agent harness performance optimization head-on, providing crucial skills, instincts, and memory structures for modern coding assistants like Claude Code and Cursor.",
-      "why_interesting_today": "As developers increasingly rely on AI coding agents, optimizing their harness performance, security, and research-first capabilities is an urgent frontier.",
-      "why_developers_should_care": "It directly improves the reliability, speed, and output quality of daily AI-assisted development workflows.",
-      "momentum": "Exceptional momentum with 528 star growth and strong fork engagement.",
-      "novelty": "Very high; addresses the meta-layer of AI developer tools rather than just acting as another wrapper."
+      "name": "INK-Q/agy-fast",
+      "score": 93,
+      "reason": "A specialized Model Context Protocol (MCP) accelerator plugin designed to drastically cut LLM turns, token quotas, and upload traffic for Google Antigravity environments.",
+      "why_interesting_today": "As AI coding assistants become central to developer workflows, token efficiency and latency reduction are critical pain points.",
+      "why_developers_should_care": "Directly reduces API costs and speeds up IDE feedback loops without disrupting native user interfaces or diff workflows.",
+      "momentum": "Strong early adoption among power users of advanced AI development tools seeking efficiency gains.",
+      "novelty": "Very high; targets the optimization layer specifically for emerging agentic IDE protocols and toolsets."
     },
     {
       "rank": 3,
-      "name": "Lemxy/WinRust",
-      "score": 89,
-      "reason": "An ambitious attempt to reimagine core Windows shell components—including a taskbar, file manager, and task manager—entirely in Rust within a single installer executable.",
-      "why_interesting_today": "Rewriting legacy operating system utilities in memory-safe languages like Rust continues to captivate systems programmers.",
-      "why_developers_should_care": "Offers a fascinating case study in low-level systems programming, Win32 API interaction, and UI architecture using Rust.",
-      "momentum": "Solid organic interest and clean architectural positioning in the systems programming niche.",
-      "novelty": "High; combining multiple core shell replacements into a cohesive Rust-based package is rare."
+      "name": "leanprover-community/riemann-hypothesis",
+      "score": 91,
+      "reason": "A community-driven formalization effort tackling the Lean verification of recent high-profile mathematical claims regarding the Riemann Hypothesis.",
+      "why_interesting_today": "Demonstrates the bleeding edge of interactive theorem proving and formal mathematics applied to millennial-old problems.",
+      "why_developers_should_care": "Showcases the growing maturity of dependently typed languages and automated proof assistants in rigorous computer science and mathematics.",
+      "momentum": "High collaborative activity and peer review engagement across the math and theorem-proving communities.",
+      "novelty": "Exceptional; bridges advanced number theory with modern machine-verified software proof systems."
     },
     {
       "rank": 4,
-      "name": "R0Y00/Xbox2Windows",
-      "score": 86,
-      "reason": "Explores advanced static recompilation research for Xbox Series X|S (Scarlett) titles running on x64 Windows, featuring shader translation and D3D12 checks.",
-      "why_interesting_today": "Pushing the boundaries of hardware emulation and static recompilation for modern console architectures remains one of software engineering's toughest challenges.",
-      "why_developers_should_care": "Provides deep technical insights into low-level graphics pipeline translation, bytecode analysis, and DirectX 12 compatibility layers.",
-      "momentum": "Steady technical traction with focused developer contributions and healthy fork growth.",
-      "novelty": "Very high; console static recompilation research targeting current-gen hardware is bleeding-edge."
+      "name": "Avaneesh-Inamdar/Stream-Tube-Desktop",
+      "score": 89,
+      "reason": "A high-performance native YouTube desktop client built in Rust using GPUI, featuring native integration for SponsorBlock, DeArrow, and Return YouTube Dislike.",
+      "why_interesting_today": "Combines modern GPU-accelerated Rust UI frameworks (GPUI) with user-first extension features into a single desktop utility.",
+      "why_developers_should_care": "Serves as an excellent practical reference architecture for building snappy, native desktop applications in Rust.",
+      "momentum": "Solid initial traction among desktop app enthusiasts and the Rust ecosystem.",
+      "novelty": "Moderate-high; packages multiple popular web browser user scripts into a cohesive, lightning-fast native desktop experience."
     },
     {
       "rank": 5,
-      "name": "yetanotherbrowser/yab",
-      "score": 84,
-      "reason": "A fast native macOS browser backed by companion apps for iOS and Android, built to challenge bloated web-based alternatives.",
-      "why_interesting_today": "The browser space is seeing renewed interest in lightweight, native applications built with modern frameworks like Swift.",
-      "why_developers_should_care": "Demonstrates how to build a performant, cross-device native browser ecosystem without relying on heavy rendering engines out of the box.",
-      "momentum": "Consistent growth and positive reception among developers seeking snappy native tooling.",
-      "novelty": "Moderate-high; creating a multi-platform native browser with mobile companions as an open-source project is a massive undertaking."
+      "name": "os6/nospeaker",
+      "score": 87,
+      "reason": "An innovative macOS utility that repurposes a MacBook's haptic trackpad motor to generate acoustic output or audio feedback.",
+      "why_interesting_today": "A clever hardware hack that explores unconventional capabilities of modern laptop trackpad actuators.",
+      "why_developers_should_care": "Provides a fascinating look into low-level macOS haptic APIs and creative hardware interaction programming in Swift.",
+      "momentum": "Steady engagement and curiosity from macOS developers and hardware tinkerers.",
+      "novelty": "High; transforms a standard input device into an unexpected output medium using native haptic drivers."
     }
   ]
 }
