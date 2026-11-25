@@ -35,8 +35,8 @@
       "caption": "Tired of Electron-based apps eating up your RAM just to watch a video? \n\nMeet Stream Tube, a high-performance native YouTube client built in Rust using GPUI, featuring zero bloat and native integrations for SponsorBlock, DeArrow, and Return YouTube Dislike. \n\n🔥 The Problem Solved:\nBrowser-based YouTube viewing is notorious for resource-heavy overhead, intrusive ads, and UI clutter. Stream Tube bypasses the browser entirely, offering a lightweight, GPU-accelerated native desktop client designed for Windows and Linux that puts performance and privacy first.\n\n⚡ Key Features:\n- GPU-accelerated native UI built with Rust and the GPUI framework for minimal RAM usage and buttery-smooth rendering.\n- Direct video stream playback via libmpv combined with native integrations for SponsorBlock, DeArrow, and Return YouTube Dislike.\n- Comprehensive privacy controls supporting local-only subscriptions or optional Google sign-in with SQLite-backed history and yt-dlp downloading.\n- Deep customization including audio-only mode, UI density scaling, proxy support, and browser integration via custom URI schemes and userscripts.\n\n🛠️ Why Developers Should Care:\nIf you are a Rust engineer interested in GUI programming, this codebase is an incredible real-world reference implementation. Study it to learn advanced GPUI patterns and state management, how to integrate media playback engines like libmpv, handle local SQLite databases, and structure complex native desktop utilities.\n\n👉 Check out the repo and drop a star:\nhttps://github.com/Avaneesh-Inamdar/Stream-Tube-Desktop\n\n💬 What is your go-to framework for building high-performance native desktop apps in Rust? Let us know in the comments below!\n\n#RustLang #GPUI #DesktopApp #OpenSource #SoftwareEngineering #Linux #Windows #Programming",
       "image_file": "4_Avaneesh-Inamdar_Stream-Tube-Desktop.png",
       "photo_id": "122133523221476221",
-      "published_post_id": null,
-      "published_at": null
+      "published_post_id": "1410193715501138_122133649203476221",
+      "published_at": "2026-11-25T19:00:39.773581+08:00"
     },
     {
       "rank": 5,
