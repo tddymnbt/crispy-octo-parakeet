@@ -1,0 +1,407 @@
+{
+  "snapshot_date": "2026-11-25",
+  "generated_at": "2026-11-25T23:01:25.200685+00:00",
+  "candidate_count": 40,
+  "repositories": [
+    {
+      "name": "morluto/rea",
+      "url": "https://github.com/morluto/rea",
+      "stars": 478405,
+      "forks": 116368,
+      "language": "TypeScript",
+      "created_at": "2026-04-14T00:51:32Z",
+      "updated_at": "2026-11-25T23:00:19Z",
+      "pushed_at": "2026-11-25T21:42:12Z"
+    },
+    {
+      "name": "freeCodeCamp/freeCodeCamp",
+      "url": "https://github.com/freeCodeCamp/freeCodeCamp",
+      "stars": 459633,
+      "forks": 47384,
+      "language": "TypeScript",
+      "created_at": "2014-12-24T17:49:19Z",
+      "updated_at": "2026-11-25T22:50:29Z",
+      "pushed_at": "2026-11-25T20:11:33Z"
+    },
+    {
+      "name": "EbookFoundation/free-programming-books",
+      "url": "https://github.com/EbookFoundation/free-programming-books",
+      "stars": 402289,
+      "forks": 67235,
+      "language": "Python",
+      "created_at": "2013-10-11T06:50:37Z",
+      "updated_at": "2026-11-25T22:58:01Z",
+      "pushed_at": "2026-11-25T16:23:45Z"
+    },
+    {
+      "name": "openclaw/openclaw",
+      "url": "https://github.com/openclaw/openclaw",
+      "stars": 395215,
+      "forks": 82975,
+      "language": "TypeScript",
+      "created_at": "2025-11-24T10:16:47Z",
+      "updated_at": "2026-11-25T22:59:37Z",
+      "pushed_at": "2026-11-25T23:00:50Z"
+    },
+    {
+      "name": "nilbuild/developer-roadmap",
+      "url": "https://github.com/nilbuild/developer-roadmap",
+      "stars": 372779,
+      "forks": 45395,
+      "language": "TypeScript",
+      "created_at": "2017-03-15T13:45:52Z",
+      "updated_at": "2026-11-25T22:50:06Z",
+      "pushed_at": "2026-11-25T19:33:04Z"
+    },
+    {
+      "name": "awesome-selfhosted/awesome-selfhosted",
+      "url": "https://github.com/awesome-selfhosted/awesome-selfhosted",
+      "stars": 340471,
+      "forks": 15944,
+      "language": null,
+      "created_at": "2015-06-01T02:33:17Z",
+      "updated_at": "2026-11-25T23:01:06Z",
+      "pushed_at": "2026-11-25T21:13:27Z"
+    },
+    {
+      "name": "mattpocock/skills",
+      "url": "https://github.com/mattpocock/skills",
+      "stars": 332847,
+      "forks": 27992,
+      "language": "Shell",
+      "created_at": "2026-02-03T11:15:53Z",
+      "updated_at": "2026-11-25T23:00:02Z",
+      "pushed_at": "2026-11-25T12:09:27Z"
+    },
+    {
+      "name": "obra/superpowers",
+      "url": "https://github.com/obra/superpowers",
+      "stars": 326571,
+      "forks": 28977,
+      "language": "Shell",
+      "created_at": "2025-10-09T19:45:18Z",
+      "updated_at": "2026-11-25T23:00:53Z",
+      "pushed_at": "2026-11-24T23:59:04Z"
+    },
+    {
+      "name": "affaan-m/ECC",
+      "url": "https://github.com/affaan-m/ECC",
+      "stars": 310697,
+      "forks": 45648,
+      "language": "JavaScript",
+      "created_at": "2026-01-18T00:51:51Z",
+      "updated_at": "2026-11-25T22:57:09Z",
+      "pushed_at": "2026-11-23T04:55:48Z"
+    },
+    {
+      "name": "practical-tutorials/project-based-learning",
+      "url": "https://github.com/practical-tutorials/project-based-learning",
+      "stars": 290491,
+      "forks": 36869,
+      "language": "Python",
+      "created_at": "2017-04-12T05:07:46Z",
+      "updated_at": "2026-11-25T22:58:57Z",
+      "pushed_at": "2026-11-23T06:41:02Z"
+    },
+    {
+      "name": "NousResearch/hermes-agent",
+      "url": "https://github.com/NousResearch/hermes-agent",
+      "stars": 266105,
+      "forks": 60351,
+      "language": "Python",
+      "created_at": "2025-07-22T22:22:28Z",
+      "updated_at": "2026-11-25T22:59:48Z",
+      "pushed_at": "2026-11-25T22:58:36Z"
+    },
+    {
+      "name": "torvalds/linux",
+      "url": "https://github.com/torvalds/linux",
+      "stars": 256748,
+      "forks": 66704,
+      "language": "C",
+      "created_at": "2011-09-04T22:48:12Z",
+      "updated_at": "2026-11-25T22:58:43Z",
+      "pushed_at": "2026-11-25T03:05:42Z"
+    },
+    {
+      "name": "react/react",
+      "url": "https://github.com/react/react",
+      "stars": 252965,
+      "forks": 51810,
+      "language": "JavaScript",
+      "created_at": "2013-05-24T16:15:54Z",
+      "updated_at": "2026-11-25T22:50:41Z",
+      "pushed_at": "2026-11-25T21:50:28Z"
+    },
+    {
+      "name": "anomalyco/opencode",
+      "url": "https://github.com/anomalyco/opencode",
+      "stars": 229182,
+      "forks": 31204,
+      "language": "TypeScript",
+      "created_at": "2025-04-30T20:08:00Z",
+      "updated_at": "2026-11-25T22:59:47Z",
+      "pushed_at": "2026-11-25T22:52:20Z"
+    },
+    {
+      "name": "n8n-io/n8n",
+      "url": "https://github.com/n8n-io/n8n",
+      "stars": 212134,
+      "forks": 61664,
+      "language": "TypeScript",
+      "created_at": "2019-06-22T09:24:21Z",
+      "updated_at": "2026-11-25T22:58:06Z",
+      "pushed_at": "2026-11-25T22:56:47Z"
+    },
+    {
+      "name": "yt-dlp/yt-dlp",
+      "url": "https://github.com/yt-dlp/yt-dlp",
+      "stars": 210712,
+      "forks": 18654,
+      "language": "Python",
+      "created_at": "2020-10-26T04:22:55Z",
+      "updated_at": "2026-11-25T22:59:08Z",
+      "pushed_at": "2026-11-24T18:07:09Z"
+    },
+    {
+      "name": "firecrawl/firecrawl",
+      "url": "https://github.com/firecrawl/firecrawl",
+      "stars": 209985,
+      "forks": 10985,
+      "language": "TypeScript",
+      "created_at": "2024-04-15T21:02:29Z",
+      "updated_at": "2026-11-25T22:59:42Z",
+      "pushed_at": "2026-11-25T22:46:42Z"
+    },
+    {
+      "name": "tensorflow/tensorflow",
+      "url": "https://github.com/tensorflow/tensorflow",
+      "stars": 201825,
+      "forks": 77377,
+      "language": "C++",
+      "created_at": "2015-11-07T01:19:20Z",
+      "updated_at": "2026-11-25T22:58:48Z",
+      "pushed_at": "2026-11-25T22:55:43Z"
+    },
+    {
+      "name": "avelino/awesome-go",
+      "url": "https://github.com/avelino/awesome-go",
+      "stars": 195974,
+      "forks": 13771,
+      "language": "Go",
+      "created_at": "2014-07-06T13:42:15Z",
+      "updated_at": "2026-11-25T23:01:06Z",
+      "pushed_at": "2026-11-25T11:48:34Z"
+    },
+    {
+      "name": "microsoft/vscode",
+      "url": "https://github.com/microsoft/vscode",
+      "stars": 195788,
+      "forks": 43869,
+      "language": "TypeScript",
+      "created_at": "2015-09-03T20:23:38Z",
+      "updated_at": "2026-11-25T22:58:47Z",
+      "pushed_at": "2026-11-25T22:59:45Z"
+    },
+    {
+      "name": "Marvisak/VIctory",
+      "url": "https://github.com/Marvisak/VIctory",
+      "stars": 12573,
+      "forks": 2042,
+      "language": "Rust",
+      "created_at": "2026-11-23T21:47:25Z",
+      "updated_at": "2026-11-25T23:00:45Z",
+      "pushed_at": "2026-11-25T22:48:02Z"
+    },
+    {
+      "name": "xcl-dev/xcl",
+      "url": "https://github.com/xcl-dev/xcl",
+      "stars": 8297,
+      "forks": 1134,
+      "language": "Rust",
+      "created_at": "2026-11-20T20:03:21Z",
+      "updated_at": "2026-11-25T22:56:55Z",
+      "pushed_at": "2026-11-25T23:00:00Z"
+    },
+    {
+      "name": "4lwayz/portwatch-vi",
+      "url": "https://github.com/4lwayz/portwatch-vi",
+      "stars": 4021,
+      "forks": 118,
+      "language": "JavaScript",
+      "created_at": "2026-11-21T23:16:41Z",
+      "updated_at": "2026-11-25T23:01:18Z",
+      "pushed_at": "2026-11-25T22:52:23Z"
+    },
+    {
+      "name": "EL4CTEO/fast-anything",
+      "url": "https://github.com/EL4CTEO/fast-anything",
+      "stars": 3939,
+      "forks": 282,
+      "language": "Rust",
+      "created_at": "2026-11-21T14:40:27Z",
+      "updated_at": "2026-11-25T22:53:24Z",
+      "pushed_at": "2026-11-25T16:23:36Z"
+    },
+    {
+      "name": "AFK-surf/xnulinux",
+      "url": "https://github.com/AFK-surf/xnulinux",
+      "stars": 3921,
+      "forks": 184,
+      "language": "C",
+      "created_at": "2026-11-20T10:18:31Z",
+      "updated_at": "2026-11-25T22:59:30Z",
+      "pushed_at": "2026-11-25T21:58:00Z"
+    },
+    {
+      "name": "fxceless/victory-fork",
+      "url": "https://github.com/fxceless/victory-fork",
+      "stars": 3036,
+      "forks": 866,
+      "language": "Rust",
+      "created_at": "2026-11-24T18:02:37Z",
+      "updated_at": "2026-11-25T22:59:04Z",
+      "pushed_at": "2026-11-25T22:50:12Z"
+    },
+    {
+      "name": "iamajmeena/neonclipping",
+      "url": "https://github.com/iamajmeena/neonclipping",
+      "stars": 2623,
+      "forks": 165,
+      "language": "Python",
+      "created_at": "2026-11-19T10:00:43Z",
+      "updated_at": "2026-11-25T22:59:21Z",
+      "pushed_at": "2026-11-24T13:27:46Z"
+    },
+    {
+      "name": "ubiquitarianism/leonida",
+      "url": "https://github.com/ubiquitarianism/leonida",
+      "stars": 2318,
+      "forks": 530,
+      "language": "Python",
+      "created_at": "2026-11-23T23:54:39Z",
+      "updated_at": "2026-11-25T22:59:32Z",
+      "pushed_at": "2026-11-25T23:00:45Z"
+    },
+    {
+      "name": "R0Y00/Xbox2Windows",
+      "url": "https://github.com/R0Y00/Xbox2Windows",
+      "stars": 1951,
+      "forks": 228,
+      "language": "Python",
+      "created_at": "2026-11-20T17:43:52Z",
+      "updated_at": "2026-11-25T22:00:09Z",
+      "pushed_at": "2026-11-25T22:55:51Z"
+    },
+    {
+      "name": "os6/nospeaker",
+      "url": "https://github.com/os6/nospeaker",
+      "stars": 1883,
+      "forks": 98,
+      "language": "Swift",
+      "created_at": "2026-11-22T12:05:54Z",
+      "updated_at": "2026-11-25T22:50:43Z",
+      "pushed_at": "2026-11-24T02:43:05Z"
+    },
+    {
+      "name": "omonkeyz/xbox-emulator",
+      "url": "https://github.com/omonkeyz/xbox-emulator",
+      "stars": 1849,
+      "forks": 121,
+      "language": "Rust",
+      "created_at": "2026-11-21T08:08:39Z",
+      "updated_at": "2026-11-25T22:38:04Z",
+      "pushed_at": "2026-11-25T13:47:56Z"
+    },
+    {
+      "name": "Belobug/VIctory-Belobug-AMD",
+      "url": "https://github.com/Belobug/VIctory-Belobug-AMD",
+      "stars": 1641,
+      "forks": 292,
+      "language": "Rust",
+      "created_at": "2026-11-25T09:41:37Z",
+      "updated_at": "2026-11-25T22:39:36Z",
+      "pushed_at": "2026-11-25T20:57:42Z"
+    },
+    {
+      "name": "INK-Q/agy-fast",
+      "url": "https://github.com/INK-Q/agy-fast",
+      "stars": 1502,
+      "forks": 86,
+      "language": "TypeScript",
+      "created_at": "2026-11-19T04:58:46Z",
+      "updated_at": "2026-11-25T22:38:09Z",
+      "pushed_at": "2026-11-25T14:01:33Z"
+    },
+    {
+      "name": "Indigo-0167/universal-game-mod-manager",
+      "url": "https://github.com/Indigo-0167/universal-game-mod-manager",
+      "stars": 1298,
+      "forks": 0,
+      "language": "Rust",
+      "created_at": "2026-11-23T21:30:10Z",
+      "updated_at": "2026-11-25T21:25:40Z",
+      "pushed_at": "2026-11-23T21:30:46Z"
+    },
+    {
+      "name": "Umbra9179/clipboard-history-manager-windows",
+      "url": "https://github.com/Umbra9179/clipboard-history-manager-windows",
+      "stars": 1261,
+      "forks": 0,
+      "language": "C#",
+      "created_at": "2026-11-23T21:40:15Z",
+      "updated_at": "2026-11-25T20:06:38Z",
+      "pushed_at": "2026-11-23T21:40:42Z"
+    },
+    {
+      "name": "leanprover-community/riemann-hypothesis",
+      "url": "https://github.com/leanprover-community/riemann-hypothesis",
+      "stars": 1227,
+      "forks": 486,
+      "language": "Lean",
+      "created_at": "2026-11-20T14:47:49Z",
+      "updated_at": "2026-11-25T22:53:45Z",
+      "pushed_at": "2026-11-25T22:39:22Z"
+    },
+    {
+      "name": "Avaneesh-Inamdar/Stream-Tube-Desktop",
+      "url": "https://github.com/Avaneesh-Inamdar/Stream-Tube-Desktop",
+      "stars": 1215,
+      "forks": 95,
+      "language": "Rust",
+      "created_at": "2026-11-22T18:50:17Z",
+      "updated_at": "2026-11-25T22:47:56Z",
+      "pushed_at": "2026-11-25T16:53:58Z"
+    },
+    {
+      "name": "crhywun/g1-acq",
+      "url": "https://github.com/crhywun/g1-acq",
+      "stars": 1212,
+      "forks": 303,
+      "language": "JavaScript",
+      "created_at": "2026-11-22T10:53:17Z",
+      "updated_at": "2026-11-25T22:58:06Z",
+      "pushed_at": "2026-11-25T15:21:01Z"
+    },
+    {
+      "name": "zero5122/offline-file-converter-windows",
+      "url": "https://github.com/zero5122/offline-file-converter-windows",
+      "stars": 1058,
+      "forks": 1,
+      "language": "Python",
+      "created_at": "2026-11-23T21:38:47Z",
+      "updated_at": "2026-11-25T20:08:18Z",
+      "pushed_at": "2026-11-23T21:39:16Z"
+    },
+    {
+      "name": "solv4626/steam-achievement-manager-windows",
+      "url": "https://github.com/solv4626/steam-achievement-manager-windows",
+      "stars": 1058,
+      "forks": 0,
+      "language": "Rust",
+      "created_at": "2026-11-23T21:31:33Z",
+      "updated_at": "2026-11-25T20:08:18Z",
+      "pushed_at": "2026-11-23T21:32:09Z"
+    }
+  ]
+}
