@@ -17,8 +17,8 @@
       "caption": "What if you could run Xbox Series X and S games on Windows PCs without the massive performance overhead of full system CPU emulation? 🎮⚡\n\nEnter XCL: a groundbreaking compatibility layer that enables console-exclusive titles to execute natively on Windows by letting game x64 code run straight on your PC processor. \n\nTraditional emulators struggle with heavy translation costs. XCL solves this by using a brilliant architectural approach:\n👉 Native CPU execution for game binaries, avoiding CPU emulation overhead.\n👉 RDNA2 shader bytecode re-compilation into HLSL and DXIL, executing seamlessly on standard PC GPUs via Direct3D 12.\n👉 Independent re-implementations of Xbox GDK console system libraries like kernelx.dll and XGameRuntime.\n👉 Comprehensive DirectStorage and texture decoding integration for BCPack and precise tiling layouts.\n👉 Automated GPU testing pipelines that validate translated shaders instruction by instruction.\n\nFor systems programmers, graphics engine developers, and reverse engineers, this is an incredible architectural reference. Study how to handle PE loader data-driven import routing, shared CPU/GPU title memory windows, and direct machine code compatibility layers without breaking a sweat. 🛠️💻\n\nCheck out the repository and explore the source code today:\nhttps://github.com/xcl-dev/xcl\n\nStar the repo and drop your thoughts in the comments below! Have you ever built a custom compatibility layer or shader translator? Let's discuss. 👇\n\n#SoftwareEngineering #GameDev #GraphicsProgramming #ReverseEngineering #DirectX #OpenSource #WindowsInternals",
       "image_file": "2_xcl-dev_xcl.png",
       "photo_id": "122133769281476221",
-      "published_post_id": null,
-      "published_at": null
+      "published_post_id": "1410193715501138_122133817911476221",
+      "published_at": "2026-11-26T11:00:40.194310+08:00"
     },
     {
       "rank": 3,
