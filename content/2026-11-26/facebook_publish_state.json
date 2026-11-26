@@ -35,8 +35,8 @@
       "caption": "🎮 Ever wondered how to boot next-gen console builds natively on a standard Windows x86-64 desktop? \n\nMeet VIctory: an experimental, enthusiast-driven compatibility layer designed to load and execute console builds of modern AAA titles directly within its own Windows process space—bypassing traditional virtualization entirely! 🚀\n\nFor systems programmers, low-level graphics engineers, and emulator architects, this repository is a goldmine for studying advanced runtime design. \n\nHere is what makes VIctory stand out:\n⚡ Native Process Execution: Runs original x86-64 console binaries inside a custom Windows process while supplying missing platform services and APIs.\n🔄 Advanced Shader Translation: Performs ahead-of-time and on-the-fly shader translation from console GPU bytecode to host DirectX Intermediate Language (DXIL) with configurable caching.\n📂 High-Performance Storage: Implements parallel archive reading, data decoding, and tiled texture management matching the source platform storage model.\n🕹️ Seamless Input & Upscaling: Translates standard XInput gamepads or keyboard layouts directly, complete with an integrated Series S mode using AMD FidelityFX upscaling.\n\nWhether you want to analyze how complex console architectures map to desktop D3D12 hardware, study proprietary asset parsing, or explore high-performance systems architecture in Rust, you need to check this out.\n\n🔗 Explore the repository and dive into the source code here: https://github.com/Marvisak/VIctory\n\n👇 What are your thoughts on this reverse-engineering approach? Let us know in the comments, and don't forget to star the repo if you find it fascinating!\n\n#SoftwareEngineering #GameDev #GraphicsProgramming #ReverseEngineering #RustLang #DirectX12 #TechEnthusiasts",
       "image_file": "4_Marvisak_VIctory.png",
       "photo_id": "122133769377476221",
-      "published_post_id": null,
-      "published_at": null
+      "published_post_id": "1410193715501138_122133906477476221",
+      "published_at": "2026-11-26T19:00:42.828521+08:00"
     },
     {
       "rank": 5,
