@@ -3,136 +3,137 @@
   "repositories": [
     {
       "rank": 1,
-      "name": "obra/superpowers",
+      "name": "morluto/rea",
       "score": 96,
-      "reason": "Explosive growth in the agentic AI workflow space with strong developer interest in subagent-driven development methodologies.",
-      "why_interesting_today": "Bridges the gap between raw LLM coding tools and structured, production-grade Software Development Life Cycles (SDLC) via subagents.",
-      "why_developers_should_care": "Offers a battle-tested blueprint for moving away from naive prompt-and-pray coding assistants toward multi-agent orchestration frameworks.",
-      "momentum": "Extremely high daily star growth (812+ stars) indicating rapid adoption and viral reach across engineering circles.",
-      "novelty": "High; pioneers subagent-driven development paradigms directly inside a practical toolkit.",
+      "reason": "A cutting-edge agentic framework focused on deep reverse engineering, bridging the gap between high-level autonomous agents and low-level native code/app behavior.",
+      "why_interesting_today": "As agentic workflows expand from web scraping to core systems engineering, tools that can systematically break down and analyze binaries using LLMs are at the frontier of developer mindshare.",
+      "why_developers_should_care": "Offers a glimpse into the next generation of security auditing and reverse engineering, drastically reducing the manual overhead of analyzing compiled binaries and app behaviors.",
+      "momentum": "Extremely strong star growth (2,687 new stars) with active daily pushes and deep multi-ecosystem integration.",
+      "novelty": "High novelty in applying modern LLM agents directly to low-level native binaries and security analysis.",
       "deep_analysis": {
-        "name": "obra/superpowers",
-        "headline_hook": "Superpowers transforms unguided coding agents into disciplined engineering partners by injecting a structured SDLC, automated planning, and subagent-driven development into your favorite CLI and editor harnesses.",
-        "core_functionality": "Superpowers bridges the gap between raw LLM coding tools and a rigorous, production-grade Software Development Life Cycle. Instead of letting a coding agent immediately write unstructured code, it intercepts the workflow to enforce requirements brainstorming, architecture design, git worktree isolation, micro-task planning, strict Test-Driven Development, and automated subagent execution loops.",
+        "name": "morluto/rea",
+        "headline_hook": "Bridge the gap between high-level autonomous AI agents and low-level native reverse engineering with REA.",
+        "core_functionality": "REA is a cutting-edge Model Context Protocol (MCP) framework and CLI tool that connects AI agents directly to low-level reverse engineering and system analysis workflows. It systematically breaks down binaries, JavaScript/Electron applications, .NET assemblies, and runtime behaviors locally, allowing developers to query, understand, and reconstruct app features without needing source code.",
         "key_features": [
-          "Cross-Harness Universal Plugin Support: Native integrations and skill bootstraps across major AI coding harnesses including Claude Code, Cursor, Codex, Gemini CLI, Devin, Pi, Muse, and more.",
-          "Autonomous Subagent-Driven Development: Dispatches fresh subagents for bite-sized engineering tasks, executing isolated coding loops with automated intermediate code reviews.",
-          "Enforced Red-Green-Refactor TDD: Integrates strict test-driven development practices that halt execution until a failing test is written, verified, and resolved.",
-          "Isolated Git Worktrees & Branch Management: Automatically provisions isolated workspaces on dedicated branches and manages clean test baselines before implementation begins."
+          "Unified Model Context Protocol (MCP) server integration for popular AI coding agents",
+          "Deep native binary analysis supporting integrations with industry-standard engines like Hopper, Ghidra, and IDA",
+          "Automated static analysis and module extraction for JavaScript and Electron desktop applications",
+          "Evidence-backed code tracing and reconstruction, ensuring outputs are verifiable against original instruction bytes and application boundaries"
         ],
-        "target_audience": "AI engineers, full-stack developers, and technical leads who use AI coding assistants and want to eliminate hallucinated code, lack of testing, and unstructured project drift.",
-        "practical_developer_value": "Developers can use Superpowers to scale up their AI agents from simple code completion tools to autonomous junior engineers capable of executing multi-hour, highly complex development plans reliably. By automating requirements gathering, test-first coding, and subagent review loops, it drastically reduces code review fatigue and ensures enterprise-grade quality control.",
+        "target_audience": "Security researchers, systems software engineers, AI application developers, and desktop software developers building complex integrations or reimplementing legacy features.",
+        "practical_developer_value": "Developers can radically accelerate the analysis of closed-source third-party dependencies, proprietary plugins, or legacy codebases by delegating binary inspection and feature tracing to an AI agent. Instead of manually parsing assembly or decompiled outputs, developers get an automated, evidence-backed breakdown and a clean C/C++ or JS reconstruction that can be tested directly against original program binaries.",
         "suggested_use_cases": [
-          "Building full-stack features autonomously over several hours with strict adherence to architectural specifications and zero test regressions.",
-          "Standardizing AI-assisted workflows across large engineering teams using diverse development harnesses and editors."
+          "Investigating and extracting undocumented protocols or algorithms from proprietary native desktop applications",
+          "Auditing and tracing the internal communication pathways of complex Electron apps like clipboards and IPC bridges",
+          "Reconstructing legacy DOS or x86 game mechanics and validating them against original compiled bytes"
         ]
       }
     },
     {
       "rank": 2,
-      "name": "xcl-dev/xcl",
-      "score": 91,
-      "reason": "An ambitious technical engineering feat creating an Xbox Series compatibility layer for Windows with RDNA2 shader re-compilation.",
-      "why_interesting_today": "Pushes the boundaries of modern emulation and translation layers by attempting native execution of console system libraries on PC hardware.",
-      "why_developers_should_care": "Provides deep architectural insights into low-level graphics programming, DirectX 12 interop, and custom bytecode compilation techniques.",
-      "momentum": "Strong influx of stars (526) and forks (116) as low-level systems engineers track its translation capabilities.",
-      "novelty": "Very high; rare architectural focus on current-generation console runtime environments.",
+      "name": "alesha-pro/llm.asm",
+      "score": 93,
+      "reason": "An engineering masterpiece consisting of a Qwen3 inference engine, a bootable OS, and a mini-GPT trainer written entirely in pure x86-64 NASM assembly with zero dependencies.",
+      "why_interesting_today": "In an era of massive, heavily abstracted software frameworks, building transformer inference and bare-metal OS execution from scratch in raw assembly pushes the limits of extreme systems optimization.",
+      "why_developers_should_care": "Provides deep educational insight into how machine learning primitives execute at the silicon level, stripping away layers of C/C++ runtimes and libraries.",
+      "momentum": "Rapidly gaining organic traction among low-level systems programmers and assembly enthusiasts.",
+      "novelty": "Exceptional novelty; pure assembly implementation of modern transformer inference and training on bare metal is exceedingly rare.",
       "deep_analysis": {
-        "name": "xcl-dev/xcl",
-        "headline_hook": "XCL is a compatibility layer that enables Xbox Series X and S games to run natively on Windows PCs without CPU emulation by translating RDNA2 shaders to DXIL and implementing console system libraries.",
-        "core_functionality": "XCL solves the problem of running console-exclusive games on Windows without the massive performance overhead typical of full system emulators. Instead of emulating the console CPU, it allows the game x64 code to execute natively on PC processors, while intercepting and bridging calls to console-specific system libraries (like kernelx and XGameRuntime) and recompiling console RDNA2 shaders into Direct3D 12 compatible HLSL and DXIL.",
+        "name": "alesha-pro/llm.asm",
+        "headline_hook": "Experience the ultimate triumph of systems engineering: a complete Qwen3 inference engine, bare-metal OS, and mini-GPT trainer written entirely in 100% pure x86-64 NASM assembly with zero dependencies.",
+        "core_functionality": "The project provides a comprehensive suite of low-level artificial intelligence and operating system projects built completely from scratch using raw x86-64 NASM assembly. It bypasses all standard runtimes, operating system kernels, and software abstractions like C, C++, or Rust, implementing custom math kernels, AVX2+FMA+F16C hardware acceleration, BPE tokenization, a thread pool, an analytical backward pass, and an AdamW optimizer entirely in assembly.",
         "key_features": [
-          "Native CPU execution paired with independent re-implementations of Xbox GDK console system libraries such as kernelx.dll and XGameRuntime.",
-          "RDNA2 shader bytecode re-compilation into HLSL and DXIL for execution on standard PC graphics cards via Direct3D 12.",
-          "Comprehensive DirectStorage and texture decoding integration supporting complex texture compression formats like BCPack and precise tiling layout reproduction.",
-          "Automated testing pipelines featuring GPU tests that validate translated shaders instruction by instruction against expected reference outputs."
+          "Pure x86-64 NASM implementation spanning nearly twenty thousand lines across multiple projects, achieving zero runtime dependencies and zero external libraries.",
+          "High-performance CPU inference engine for Qwen3-0.6B featuring AVX2+FMA+F16C GEMV operations that outperform standard CPU implementations like llama.cpp by up to 36 percent.",
+          "Bootable bare-metal OS image capable of executing the LLM directly on server hardware with zero disk usage and utilizing multi-turn KV-caching.",
+          "Fully analytical backward pass and register-blocked SGEMM training engine for a mini-GPT model complete with a live terminal UI rendered in Unicode Braille."
         ],
-        "target_audience": "Systems programmers, graphics engine developers, reverse engineers, and emulation enthusiasts interested in low-level binary translation, graphics pipeline interoperability, and Windows internals.",
-        "practical_developer_value": "Developers working on custom graphics runtimes, shader translators, or binary compatibility layers can study XCL as an advanced architectural reference for bridging console APIs to Direct3D 12. It demonstrates how to handle complex tasks like PE loader data-driven import routing, shared CPU/GPU title memory windows, and direct machine code recompilation strategies without relying on hardware CPU emulation.",
+        "target_audience": "Systems programmers, low-level optimization engineers, compiler and runtime developers, and AI researchers interested in bare-metal hardware constraints and hardware acceleration.",
+        "practical_developer_value": "It serves as an educational and engineering masterclass for understanding how high-level machine learning primitives map down to CPU registers, memory layouts, and vector instructions. Developers can study how to manually implement attention mechanisms, quantization, and memory-mapped execution loops without relying on bulky framework overhead.",
         "suggested_use_cases": [
-          "Studying advanced shader translation techniques from proprietary console ISAs to DirectX Shader Model 6.6.",
-          "Experimenting with custom OS-layer shims and API compatibility layers to host console binaries on standard Windows environments."
+          "Studying raw AVX2 and FMA vectorization strategies for matrix multiplication and transformer layers on standard x86 processors.",
+          "Deploying lightweight, zero-dependency model runtimes directly onto specialized embedded bare-metal hardware or custom micro-kernels."
         ]
       }
     },
     {
       "rank": 3,
-      "name": "AFK-surf/xnulinux",
-      "score": 88,
-      "reason": "A fascinating kernel-level hack implementing an XNU loadable module inside Linux to offer a macOS personality layer for arm64 Linux.",
-      "why_interesting_today": "Tackles cross-kernel compatibility in a novel way by embedding subsystems directly into standard Linux infrastructure.",
-      "why_developers_should_care": "Invaluable for systems engineers and kernel developers interested in virtualization, modular kernel design, and ABI compatibility.",
-      "momentum": "Rapidly accumulating attention with over 605 star growth and solid community discussion.",
-      "novelty": "High; unusual approach to hybridizing operating system personalities at the kernel module level.",
+      "name": "nexu-io/opengame",
+      "score": 90,
+      "reason": "A specialized game engine and harness designed to turn modern coding agents into a full-stack indie game studio capable of building and publishing 3D and mini-games.",
+      "why_interesting_today": "Captures the peak intersection of 'vibe coding', multi-agent orchestration, and localized game development ecosystems (Unity/Unreal/ThreeJS).",
+      "why_developers_should_care": "Demonstrates how AI coding assistants can be orchestrated beyond simple code completion into autonomous, creative game production pipelines.",
+      "momentum": "Strong emergent interest as developers look for practical vertical applications for coding agents.",
+      "novelty": "High novelty in targeting AI agent workflows specifically toward cross-platform game generation and distribution.",
       "deep_analysis": {
-        "name": "AFK-surf/xnulinux",
-        "headline_hook": "Run a complete macOS desktop environment natively on arm64 Linux hardware without a hypervisor by embedding Apple's XNU kernel directly into the Linux kernel via a loadable module.",
-        "core_functionality": "xnulinux bridges the gap between the Apple ecosystem and Linux by running Apple's open-source XNU kernel directly as a loadable module inside an unmodified arm64 Linux kernel. It allows standard macOS userspace applications, such as WindowServer, Safari, and Chrome, to execute natively alongside Linux processes on the same CPUs and memory space without virtualization overhead.",
+        "name": "nexu-io/opengame",
+        "headline_hook": "Turn Claude Code, DeepSeek, or any local coding agent into a full-stack AI game studio capable of building, testing, and publishing 3D and viral mini-games from a single prompt.",
+        "core_functionality": "OpenGame is an open-source game engine and harness designed to bridge local coding agents with end-to-end game production. It provides a full-stack pipeline covering code, 3D graphics, physics, music, voice, automated testing, and monetization-ready exports across 25 built-in game templates.",
         "key_features": [
-          "Hypervisor-free execution: XNU runs natively on Linux kernel threads pinned to CPU cores, utilizing a small foreign kernel interface module (fki.ko) to manage memory, timers, files, network, and GPU access.",
-          "Hardware and GPU bridging: Employs a Vulkan-to-Metal translation layer via Mesa Venus and a custom DRM bridge (xnudrmd) to pass hardware GPU acceleration to hosted macOS applications.",
-          "Physical memory management: Allocates a physically contiguous memory block from Linux using CMA and maps it with XNU's native pmap using 4K pages.",
-          "Full desktop stack support: Boots a stock macOS system disk to a functional desktop environment including launchd, Finder, Dock, and networking."
+          "Supports 22 local AI coding agents including DeepSeek, Claude Code, Cursor, and Gemini via Model Context Protocol (MCP) tools.",
+          "Comes with 25 pre-built playable templates spanning 3D, voxel, anime, pixel art, and 9:16 vertical formats with fully editable source code.",
+          "End-to-end automated pipeline supporting headless playtesting, logic verification, balance simulation, and promotional trailer generation.",
+          "Multi-platform publishing paths optimized for web, WeChat Mini Games, TikTok, Douyin, and single-file playable ads."
         ],
-        "target_audience": "Advanced systems programmers, kernel developers, and cross-platform infrastructure engineers interested in OS personality layers, low-level kernel hacking, and containerization paradigms.",
-        "practical_developer_value": "This project provides an extraordinary reference implementation for cross-kernel compatibility, showing how to implement custom machine layers and foreign kernel interfaces. Developers working on operating system design, virtualization alternatives, or hybrid kernel architectures can study its unique approach to bridging disparate operating system primitives.",
+        "target_audience": "AI engineers, frontend and full-stack developers, indie game creators, and vibe coders looking to rapidly prototype or produce games using local AI agents.",
+        "practical_developer_value": "Developers can bypass the boilerplate of setting up game loops, asset pipelines, and physics engines by leveraging pre-built Three.js templates. It allows them to orchestrate local LLMs directly through MCP tools to iteratively generate gameplay mechanics, style assets, and deploy playable web or mobile mini-games in minutes rather than weeks.",
         "suggested_use_cases": [
-          "Running macOS build agents or macOS-specific command-line utilities directly on bare-metal arm64 Linux servers without nested virtualization overhead.",
-          "Researching and experimenting with novel kernel-level emulation and personality layers to run foreign operating system binaries natively."
+          "Rapidly prototyping and skinning hyper-casual 3D and 2D mini-games for marketing campaigns and playable ads.",
+          "Building an autonomous indie game studio workflow by pairing local LLMs like DeepSeek or Claude Code with specialized game-craft MCP skills."
         ]
       }
     },
     {
       "rank": 4,
-      "name": "Marvisak/VIctory",
-      "score": 85,
-      "reason": "Capturing massive community curiosity and viral interest around the feasibility of running modern AAA titles like GTA VI on PC.",
-      "why_interesting_today": "Serves as a focal point for reverse-engineering enthusiasts and early speculative porting experiments.",
-      "why_developers_should_care": "Illustrates the sheer scale of community-driven reverse engineering and the tooling required to analyze complex proprietary binaries.",
-      "momentum": "Stellar viral momentum with nearly 1,400 daily stars and heavy forking activity.",
-      "novelty": "Moderate-to-high, driven primarily by its cultural relevance and rapid community prototyping.",
+      "name": "4lwayz/portwatch-vi",
+      "score": 87,
+      "reason": "A dedicated live tracker following community-driven recompilation, emulation, and compatibility layer efforts for modern console-to-PC gaming ports.",
+      "why_interesting_today": "Captures massive viral interest surrounding high-stakes hardware translation layers and community reverse-engineering efforts.",
+      "why_developers_should_care": "Fascinating case study in community-driven project organization, complex documentation, and real-time status tracking for massive software migration efforts.",
+      "momentum": "Surging star momentum (2,676 new stars) driven by intense public curiosity and gaming community interest.",
+      "novelty": "High niche novelty as a dedicated live telemetry hub for high-profile platform recompilation.",
       "deep_analysis": {
-        "name": "Marvisak/VIctory",
-        "headline_hook": "An experimental compatibility layer that boots Grand Theft Auto VI natively on Windows x86-64 hardware.",
-        "core_functionality": "VIctory serves as an enthusiast-driven reverse-engineering compatibility layer and custom runtime designed to boot, load, and execute Xbox Series X|S console builds of modern AAA titles directly on Windows. It bypasses traditional virtualization by running the game executable natively within its own process space, providing an emulated platform layer, custom file streaming, and ahead-of-time shader translation to bridge the gap between console binaries and host D3D12 hardware.",
+        "name": "4lwayz/portwatch-vi",
+        "headline_hook": "An autonomous GitHub Actions scout that tracks, scores, and aggregates community reverse-engineering and emulation efforts for high-profile PC game ports.",
+        "core_functionality": "PortWatch VI automates the tracking and scoring of community-driven recompilation, emulation, and compatibility layer projects targeting modern console-to-PC game ports. Operating entirely via serverless GitHub Actions and a scheduled scout script, it crawls multiple platforms and code forges, evaluates technical substance, filters out spam and clone networks, and builds a static index complete with news generation and RSS feeds.",
         "key_features": [
-          "Runs original x86-64 console binaries natively inside a custom Windows process while supplying the missing platform services and APIs.",
-          "Performs ahead-of-time and on-the-fly shader translation from console GPU bytecode to host DirectX Intermediate Language (DXIL) using configurable caching and pipeline generation tools.",
-          "Implements parallel archive reading, zlib and BCPack data decoding, and tiled texture management matching the source platform storage model.",
-          "Provides built-in input translation mapping standard XInput gamepads or keyboard layouts directly to the title's input expectations, alongside an integrated Series S mode utilizing AMD FidelityFX upscaling."
+          "Automated multi-platform discovery pipeline that parses GitHub, GitLab, social networks, and image boards for mentions and repository links.",
+          "Intelligent filtering and anti-spam system that detects and discards fake download lures, clone networks, and unverified re-uploads.",
+          "Optional AI-powered semantic analysis using Claude to evaluate README updates, verify technical milestone claims, and automatically score repository progress.",
+          "Static site generation engine that compiles tracker JSON data into an SEO-friendly site, news articles, RSS feeds, and IndexNow search engine pings."
         ],
-        "target_audience": "Reverse-engineering enthusiasts, systems programmers, low-level graphics developers, and emulator architects interested in custom runtime design, shader translation, and hardware compatibility layers.",
-        "practical_developer_value": "Developers working in low-level systems programming, graphics pipeline translation, and compiler engineering can study this repository to understand how complex console architectures are mapped to desktop graphics APIs like Direct3D 12. It offers practical examples of parsing proprietary asset formats, handling multi-threaded file streaming, translating shader bytecode at scale, and orchestrating complex asynchronous workloads in Rust.",
+        "target_audience": "Open-source maintainers, community managers, systems developers, and automated workflow engineers interested in scraping, web automation, and repository tracking.",
+        "practical_developer_value": "Developers can study this repository as a robust architectural reference for building automated GitHub Action bots that aggregate external intelligence, interact with multiple third-party APIs safely using optional secrets, process unstructured repository data, and maintain a static site completely hands-free on GitHub Pages.",
         "suggested_use_cases": [
-          "Studying advanced Rust patterns for high-performance low-level systems architecture and custom memory management.",
-          "Analyzing techniques for translating console-specific GPU code and mesh pipelines into standard desktop DirectX 12 workflows."
+          "Building automated trend and repository tracking dashboards for emerging niche software ecosystems or technology stacks.",
+          "Implementing serverless intelligence gathering pipelines using Node.js scripts executed by cron-triggered GitHub Actions workflows."
         ]
       }
     },
     {
       "rank": 5,
-      "name": "awesome-selfhosted/awesome-selfhosted",
-      "score": 83,
-      "reason": "A perennially valuable list that continues to see surging momentum as developers increasingly seek data privacy and self-hosted infrastructure.",
-      "why_interesting_today": "Reflects the ongoing industry counter-trend toward local ownership, privacy, and moving away from centralized cloud SaaS dependencies.",
-      "why_developers_should_care": "Acts as the ultimate directory for discovering open-source alternatives to proprietary tools for continuous integration, monitoring, and cloud services.",
-      "momentum": "Consistently strong daily star growth (+294) proving enduring utility.",
-      "novelty": "Low novelty of concept, but exceptionally high practical utility and continuous curation.",
+      "name": "qianyiai/KuroCat",
+      "score": 85,
+      "reason": "An open-source 3D desktop companion and typing visualizer built with Tauri v2, Rust, and Model Context Protocol (MCP) integrations for AI assistants.",
+      "why_interesting_today": "Blends playful developer ergonomics (desktop pets) with serious modern tooling like Tauri v2 and MCP-based AI chat integrations.",
+      "why_developers_should_care": "Provides a clean, cross-platform template for building modern desktop utilities using Rust and web technologies, complete with AI agent hooks.",
+      "momentum": "Solid initial momentum combining cross-platform desktop development with developer culture trends.",
+      "novelty": "Moderate-to-high novelty by fusing classic desktop productivity pets with modern MCP AI companion workflows.",
       "deep_analysis": {
-        "name": "awesome-selfhosted/awesome-selfhosted",
-        "headline_hook": "Reclaim your digital sovereignty and data privacy by replacing centralized SaaS cloud dependencies with free, open-source self-hosted infrastructure.",
-        "core_functionality": "The project serves as a comprehensive, curated directory of Free Software network services and web applications that developers and individuals can easily host, manage, and scale on their own private servers.",
+        "name": "qianyiai/KuroCat",
+        "headline_hook": "Transform your desktop into an interactive playground with KuroCat, an open-source 3D typing visualizer and AI programming companion built with Rust and Tauri v2.",
+        "core_functionality": "KuroCat is an open-source 3D and 2D transparent desktop companion and typing visualizer. It provides live visual feedback for keyboard and mouse actions, acts as an AI programming companion via Model Context Protocol (MCP) integrations, and offers features like privacy-protecting password masking and OBS live streaming transparency.",
         "key_features": [
-          "Extensive categorization covering dozens of domains from analytics, automation, and backup to media streaming and software development tools.",
-          "Strict focus on Free Software and open-source licenses, providing clear visibility into available software models.",
-          "Integrated automated validation workflows for tracking dead links and unmaintained projects to ensure community resource quality.",
-          "Available in both a legacy Markdown repository layout and a recommended, highly accessible interactive HTML version."
+          "Built with a lightweight Rust backend and Tauri v2 framework for high performance and minimal resource consumption across Windows, macOS, Linux, and Android.",
+          "Integrated Model Context Protocol (MCP) server supporting Stdio and HTTP modes to connect directly with AI coding assistants like Claude Code, Cursor, and DeepSeek.",
+          "Advanced privacy protection that automatically detects system password entry fields and triggers masking animations to hide keystrokes.",
+          "Multi-engine support offering 3D models and 2D classic skins, adjustable opacity, independent mouse-click highlighting, and native OBS green-screen-free transparency."
         ],
-        "target_audience": "DevOps engineers, system administrators, security-conscious developers, and privacy advocates looking to build and maintain local infrastructure.",
-        "practical_developer_value": "It eliminates the need to rely on expensive or privacy-invasive third-party SaaS tools by offering ready-to-deploy, containerized open-source alternatives for everyday development, monitoring, and productivity workflows.",
+        "target_audience": "Software developers, content creators, VTubers, and AI engineers looking for an engaging desktop pet that doubles as a typing visualizer and AI coding assistant.",
+        "practical_developer_value": "Developers can use KuroCat as a practical reference implementation for building modern, high-performance desktop utilities using Tauri v2 and Rust, specifically demonstrating global low-level OS event hooking, cross-platform UI rendering, and local MCP server architectures for AI tool integration.",
         "suggested_use_cases": [
-          "Setting up a private, privacy-first analytics pipeline using self-hosted alternatives like GoAccess or GoatCounter.",
-          "Deploying a completely isolated internal suite of development tools including CI/CD pipelines, project management dashboards, and artifact repositories."
+          "Visualizing keyboard strokes and mouse clicks during live coding sessions or video tutorials using OBS integration.",
+          "Integrating local AI assistants via the built-in MCP server to provide real-time visual feedback during coding and debugging workflows."
         ]
       }
     }
