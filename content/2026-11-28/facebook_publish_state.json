@@ -26,8 +26,8 @@
       "caption": "Turn Claude Code, DeepSeek, or any local coding agent into a full-stack AI game studio capable of building, testing, and publishing 3D and viral mini-games from a single prompt. 🕹️✨\n\nBuilding games with AI usually means wrestling with broken code, missing asset pipelines, and tedious deployment loops. \n\nOpenGame solves this by acting as an open-source game engine and harness designed to bridge local coding agents with end-to-end game production. It provides a full-stack pipeline covering code, 3D graphics, physics, music, voice, automated testing, and monetization-ready exports.\n\nHere is what makes it a game-changer for developers and AI engineers:\n\n🤖 Supports 22 local AI coding agents including DeepSeek, Claude Code, Cursor, and Gemini via Model Context Protocol (MCP) tools.\n🎮 Comes with 25 pre-built playable templates spanning 3D, voxel, anime, pixel art, and 9:16 vertical formats with fully editable source code.\n🧪 End-to-end automated pipeline supporting headless playtesting, logic verification, balance simulation, and promotional trailer generation.\n🚀 Multi-platform publishing paths optimized for web, WeChat Mini Games, TikTok, Douyin, and single-file playable ads.\n\nWhether you want to rapidly prototype hyper-casual games for marketing campaigns or build an autonomous indie game studio workflow using local LLMs, OpenGame cuts development time from weeks to minutes.\n\nCheck it out on GitHub and start building your AI game studio today:\nhttps://github.com/nexu-io/opengame\n\nDrop a comment below: Which AI agent are you pairing with this first? 👇\n\n#OpenSource #GameDev #AI #ClaudeCode #DeepSeek #IndieGameDev #WebDev",
       "image_file": "3_nexu-io_opengame.png",
       "photo_id": "122134371741476221",
-      "published_post_id": null,
-      "published_at": null
+      "published_post_id": "1410193715501138_122134430829476221",
+      "published_at": "2026-11-28T15:00:40.028693+08:00"
     },
     {
       "rank": 4,
