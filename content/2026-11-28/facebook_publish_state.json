@@ -35,8 +35,8 @@
       "caption": "Tired of manually hunting down the latest community ports, reverse-engineering milestones, and emulation breakthroughs across a dozen different forums and code forges? \n\nPortWatch VI is an autonomous GitHub Actions scout that tracks, scores, and aggregates community reverse-engineering and emulation efforts for high-profile PC game ports entirely hands-free.\n\nHere is how it solves the noise problem:\n- Automated Multi-Platform Discovery: Crawls GitHub, GitLab, social networks, and image boards for mentions and active repository links.\n- Intelligent Spam Filtering: Automatically detects and discards fake download lures, clone networks, and unverified re-uploads.\n- Claude AI Semantic Analysis: Evaluates README updates, verifies technical milestone claims, and scores repository progress.\n- Zero-Maintenance Static Engine: Compiles tracker data into an SEO-friendly site, automated news articles, RSS feeds, and IndexNow search engine pings via GitHub Pages.\n\nFor systems developers and automated workflow engineers, this repository serves as a fantastic architectural reference for building serverless intelligence-gathering pipelines using cron-triggered GitHub Actions and Node.js.\n\nCheck it out and star the project here:\nhttps://github.com/4lwayz/portwatch-vi\n\nWhat niche ecosystem or technology stack would you build an automated tracking dashboard for next? Drop your thoughts below!\n\n#OpenSource #GitHubActions #GameDev #ReverseEngineering #NodeJS #WebAutomation",
       "image_file": "4_4lwayz_portwatch-vi.png",
       "photo_id": "122134371789476221",
-      "published_post_id": null,
-      "published_at": null
+      "published_post_id": "1410193715501138_122134464759476221",
+      "published_at": "2026-11-28T19:00:42.850627+08:00"
     },
     {
       "rank": 5,
