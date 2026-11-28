@@ -44,8 +44,8 @@
       "caption": "Transform your desktop into an interactive playground with KuroCat, an open-source 3D typing visualizer and AI programming companion built with Rust and Tauri v2. 🐈💻\n\nAre you tired of plain, boring development setups during your coding streams or daily grinds? KuroCat solves this by acting as a transparent 2D and 3D desktop companion that gives you live visual feedback for every keystroke and mouse action, complete with built-in AI integration and top-tier privacy protection.\n\nHere is why developers and tech enthusiasts are adding KuroCat to their setup:\n\n⚡ Lightweight Performance: Built with a Rust backend and Tauri v2 for minimal resource consumption across Windows, macOS, Linux, and Android.\n🤖 AI Programming Companion: Integrated Model Context Protocol (MCP) server supporting Stdio and HTTP modes to connect directly with AI coding assistants like Claude Code, Cursor, and DeepSeek.\n🔒 Smart Privacy Masking: Automatically detects system password entry fields and triggers masking animations to hide your keystrokes.\n🎥 Stream-Ready: Native OBS green-screen-free transparency, customizable 3D models and 2D classic skins, adjustable opacity, and independent mouse-click highlighting.\n\nWhether you want an engaging desktop pet for live coding sessions, a reliable typing visualizer for tutorials, or a practical reference implementation for building modern Tauri v2 and Rust utilities with local MCP servers, KuroCat has you covered.\n\nCheck out the repository and give your desktop an upgrade today:\nhttps://github.com/qianyiai/KuroCat\n\nDrop a comment below and let us know how you plan to customize your desktop companion!\n\n#RustLang #Tauri #OpenSource #AI #SoftwareEngineering #DeveloperTools #CodingLife",
       "image_file": "5_qianyiai_KuroCat.png",
       "photo_id": "122134371831476221",
-      "published_post_id": null,
-      "published_at": null
+      "published_post_id": "1410193715501138_122134510725476221",
+      "published_at": "2026-11-28T23:00:40.496806+08:00"
     }
   ]
 }
